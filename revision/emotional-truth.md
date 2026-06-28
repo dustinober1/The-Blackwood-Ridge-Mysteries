@@ -1,0 +1,31 @@
+# Emotional Truth Ledger — Murder Most Annotated
+
+(Manuscript-scale signal for /novella-polish. Not a place for praise.)
+
+## Chapter 1 — The Auction
+- **Intended emotional movement:** Cozy-comfort / Eleanor-wound → brief kindred connection with Pike (bergamot) → the chill of the cold bergamot cup (mirrors Eleanor's death) → processing through cataloguing, not feeling (flaw activating as the seed of investigation).
+- **Reader-felt movement:** All four beats fire. The bergamot object carries the whole turn (kindred ritual at ll.64-68 → weaponized as Eleanor-death trigger at l.86). The coda ends on the flaw (cataloguing) becoming the plot's engine. Beta reader: "I felt that in my chest"; "hooked by the death beat."
+- **Truth gap:** Two spots over-name the flaw/emotion (l.60 named micro-expressions; l.88 explains the dissociation mechanism instead of letting the fragment-list show it). Minor — fixable without restructuring.
+- **Aftertaste to preserve (verbatim, do not alter):** "She knew the exact temperature of a cup of bergamot tea gone cold, because she had knelt beside one once before, two years ago, on this kind of floor, in this kind of silence." Secondary keeper: the cold-meniscus detail (l.86).
+- **Next-chapter carry:** The "cold curl of bergamot behind the sternum" + the involuntary cataloguing instinct — these carry into Ch2 as the engine that drives her to the archives and to reading Pike's frightened marginalia. The avoidance-flaw (processes shock through cataloguing) must still be operative at the top of Ch2 (she goes through the motions, tea tastes wrong).
+
+## Chapter 2 — The Aftermath
+- **Intended emotional movement:** Numb-shock/going-through-motions (tea tastes wrong) → guilt (never called Pike a friend) → the turn at the missing pages (grief → "something with edges" / hunting). Passive shock → active sleuthing.
+- **Reader-felt movement:** Numb-shock (strong) → [general grief; the friendship-guilt middle beat is under-pressed] → turn at the missing pages (lands, but slightly over-named). Beta reader: "I felt the shift from mourning to pursuit"; hooked by the handwriting-read and the missing-pages jolt.
+- **Truth gap:** (1) The intended friendship-guilt hinge is missing — the arc runs two-beat (numb → turn) instead of three-beat. (2) The turn (l.112) is over-named ("It was not grief anymore. Grief was something you felt for the dead...") instead of shown — the "something with edges" image should carry it.
+- **Aftertaste to preserve:** the bergamot-sternum transformation (l.84 "bergamot, bergamot, of course it was bergamot"; l.112 "turned over and showed its other face"); "the eraser still walking around town shaking hands and funding the Historical Society"; the catalogue tic "filed it... did not yet know what she had."
+- **Next-chapter carry:** "Something with edges" must arrive in Ch3 as Callie's engine — she returns to the archives in hunt-mode (colder, more deliberate), not wonder or sadness. The Cross methods-don't-fit realization (l.48) seeds Ch3's antagonism; Ch3 must not reset her to neutral regard for him.
+
+## Chapter 3 — The Trail
+- **Intended emotional movement:** Hunt-mode deepens (cold certainty, not wonder) → procedural friction held at arm's length (Cross) → the decode's gravity (two voices across 180 years; "margin notes as voices") → the undertow of cost → pre-conscious, unnamed fear of Gus (steady hands + "properly archived").
+- **Reader-felt movement:** Lands. Cold certainty + friction + decode gravity all fire. Beta reader: "the word *poison*... the franchise voice"; "genuine pang" at the two-voices beat; Gus scene "most pulled in... got a chill." The reverence register (awe-grafted-onto-responsibility) is a correct departure from pure cold hunt.
+- **Truth gap:** (1) The signature decode is under-resisted — the private cipher layer (the franchise's most singular element) is waved at, not solved on the page; beta reader "wasn't sure what the cipher said vs the Latin." (2) l.90 flash-forward ("she would realize later") and l.100 named emotion ("afraid") break anchored POV / name the feeling / front-load ch-5's "first real fear" beat.
+- **Aftertaste to preserve:** fingertips on Wren's-ink-meets-Pike's-graphite (l.64); the undertow (l.66 — keep the word, trim the extended water tail); hands-that-don't-tremble as louder-than-tremor (l.84); bread on Mae's porch (l.100).
+- **Next-chapter carry:** the undertow/cost + the wrong-note fear of Gus + hunt momentum. Ch4 deepens the hunt to the Silas-naming note, pivots Gus-fear toward bureaucratic suppression (key suspended), and introduces Mae's moral plea — the emotional runway is clear. Ch4 must NOT reset Callie to neutral regard for Gus.
+
+## Chapter 4 — The Escalation
+- **Intended emotional movement:** murder-confirmation weight (irreversible knowledge) → the leash understood (Gus bought the room she works in) → Mae's plea (the moral dilemma crystallizes — she must say no to the person she loves most) → the first fracture.
+- **Reader-felt movement:** Lands. Murder-weight → leash → Mae's plea → fracture all fire in ascending sequence. Beta reader: the grandmother's whispered confession + "let the dead keep their secret... For everyone else" = thematic thesis nakedly stated and earned; the withdrawing hand "in my chest." The Mae scene is the book's thematic fulcrum working.
+- **Truth gap:** (1) The Mae-scene climax over-names its own symbolism (l.90 the self-absolution gloss; l.100 "This was the tell... armor" decoder-ring) — the still hands are powerful alone. (2) The reflection block ll.38-40 is a summary sag (beta reader "actively wanted to skip") — the chapter over-writes the aftermath while being short overall.
+- **Aftertaste to preserve:** the withheld hand on the hair; lavender "the way ink presses into paper"; the refused tea and the unlit back room; "two small sleeping animals"; "You sound like your mother" (un-glossed).
+- **Next-chapter carry:** Ch5's engine must shift from cost/grief (this chapter's aftertaste) to FEAR (per outline). The leash-understanding is the bridge — Gus's Ch5 visit lands as threat, not surveillance. The Mae fracture is set for Ch7's knock; lavender-on-clothes planted for Ch7's can't-wash-it-out. Do NOT recycle "unnamed dread" in Ch5 — escalate to named fear.
