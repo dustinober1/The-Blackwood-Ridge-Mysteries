@@ -31,3 +31,26 @@
 - Low-level dread throughout
 - Reference to imminent wrongful arrest of a vulnerable young man
 - Grief / loss (Eleanor, referenced via the glass)
+
+## Chapter 5 — The Squeeze
+- Implied/veiled death threat (referencing a murder the speaker committed)
+- Forced after-hours entry by master key into a woman's workplace/attached home (breaking-and-entering-by-key)
+- Intimidation and economic coercion of a woman alone at night
+- Gendered/paternalistic menace
+- Reference to historical murder (minister killed, staged as accident) and off-page contemporary murder by poisoning
+- Psychological dread, fear through the night, grief intrusion (mother's death in the same room)
+
+## Chapter 6 — The Decision
+- Prolonged grief/loss processing (letting go of deceased mother's belongings — glasses that don't fit, magnifying glass set down; emotionally resonant, may land for bereaved readers)
+- Wrongful arrest averted on-page (the threat to a vulnerable young man with anxiety is central and explicit; the chapter confronts how anxiety symptoms are misread as guilt by law enforcement)
+- Law-enforcement confrontation (tense but non-violent; one character's procedural failure confronted directly)
+- Moral reckoning / cost of truth (the chapter weighs exposing a town's founding lie against community fracture; emotionally heavy)
+- Imminent arrest of an elderly character (off-page — a phone call is made; no on-page restraint or physical confrontation)
+- Reference to historical murder and judicial corruption (recapped from earlier chapters as evidence, not depicted anew)
+- Emotional intensity throughout (this is the novella's emotional climax — sustained dread, grief, and moral weight with no relief beats)
+
+## Chapter 8 — After
+- Grief / bereavement (continued processing of mother's death two years prior — the chapter's central emotional work; depicted through ritual, physical space, and the magnifying glass)
+- Social ostracism (depicted: town shunning that gradually thaws over a week; non-graphic, emotionally resonant)
+- Implicit reference to murder (the auction events and their aftermath; not depicted anew)
+- Mild anxiety (the unfamiliar marginalia triggers curiosity, not fear — no anxiety depiction)

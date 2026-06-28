@@ -52,7 +52,11 @@ Callie mentions the archives.
 ## Body under stress
 Controlled, practiced. He doesn't panic visibly. Under extreme pressure, his
 movements become slower, more deliberate — a predator deciding whether to
-strike. His hands, always steady in public, tremble when he's alone.
+strike. His hands, always *effortfully* still in public (the over-control IS
+the tell — Callie reads it as louder than a tremor, Ch3), crack to a visible
+tremor only under confrontation pressure when he is being read and the control
+fails him (Ch5). NOT a private-alone tremble — the inversion (still→tremble) is
+the canon; the crack is situational, caused by being seen.
 
 ## Misreadings
 He believes control is the same as protection. He thinks if he can contain the

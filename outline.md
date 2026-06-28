@@ -314,9 +314,10 @@ Average ~3,125 words per chapter.
 - **Beat:** Morning. The word comes through the town grapevine: Cross is moving
   on Eli today. The arrest is happening. Callie has hours, maybe less. She's
   alone in The Foxed Page's back room — Eleanor's room. The evidence is spread
-  across the oak table: Wren's decoded cipher, the keystone document, the
-  archive signature log with Gus's name, Pike's marginal note about "G.R.," the
-  reconstructed manuscript pages. She knows what entering this into evidence will
+  across the oak table: Wren's decoded cipher, the keystone document (now
+  Callie's own transcription), the Historical Society visitor register with
+  Gus's name, Pike's marginal note about "G.R.," and the dog-eared paperback
+  that proves Eli's alibi. She knows what entering this into evidence will
   do — not just to Gus, but to Mae, to the town, to every relationship she has.
   She opens the drawer and takes out Eleanor's reading glasses — left on this
   table the night she died. She puts them on. They don't fit. She puts them

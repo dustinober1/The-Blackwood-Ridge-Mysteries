@@ -3,10 +3,10 @@ stages:
   bible: complete
   outline: complete
   draft: complete
-  revise: pending
-  polish: pending
-  export: pending
-  package: pending
+  revise: complete
+  polish: complete
+  export: complete
+  package: complete
   publish: pending
 chapters:
   - n: 1
@@ -106,24 +106,157 @@ chapters:
     title: "The Escalation"
     pov: "Callie Thorne"
     word_target: 3400
-    status: draft
+    status: revised
+    revision_passes:
+      version: "0.3.1"
+      date: "2026-06-27"
+      agents:
+        - novella-developmental-editor
+        - novella-continuity-checker
+        - novella-scene-doctor
+        - novella-emotional-arc-reader
+        - novella-clue-foreshadowing-auditor
+        - novella-genre-promise-reader
+        - novella-line-editor
+        - novella-dialogue-coach
+        - novella-ai-slop-detector
+        - novella-weirdness-keeper
+        - novella-copyeditor
+        - novella-sensitivity-reader
+        - novella-voice-reader
+        - novella-opening-hook-specialist
+        - novella-ending-cliffhanger-specialist
+        - novella-series-canon-curator
+        - novella-market-reader
+        - novella-beta-reader
+      content_notes_checked: true
+      story_memory_checked: true
+      emotional_truth_checked: true
+      post_edit_slop_guard: true
   - n: 5
     title: "The Squeeze"
     pov: "Callie Thorne"
     word_target: 3400
-    status: draft
+    status: revised
+    revision_passes:
+      version: "0.3.1"
+      date: "2026-06-27"
+      agents:
+        - novella-developmental-editor
+        - novella-continuity-checker
+        - novella-scene-doctor
+        - novella-emotional-arc-reader
+        - novella-clue-foreshadowing-auditor
+        - novella-genre-promise-reader
+        - novella-line-editor
+        - novella-dialogue-coach
+        - novella-ai-slop-detector
+        - novella-weirdness-keeper
+        - novella-copyeditor
+        - novella-sensitivity-reader
+        - novella-voice-reader
+        - novella-opening-hook-specialist
+        - novella-ending-cliffhanger-specialist
+        - novella-series-canon-curator
+        - novella-market-reader
+        - novella-beta-reader
+      content_notes_checked: true
+      story_memory_checked: true
+      emotional_truth_checked: true
+      post_edit_slop_guard: true
   - n: 6
     title: "The Decision"
     pov: "Callie Thorne"
     word_target: 3500
-    status: draft
+    word_count: 2539
+    status: revised
+    revision_passes:
+      version: "0.3.1"
+      date: "2026-06-28"
+      agents:
+        - novella-developmental-editor
+        - novella-continuity-checker
+        - novella-scene-doctor
+        - novella-emotional-arc-reader
+        - novella-clue-foreshadowing-auditor
+        - novella-genre-promise-reader
+        - novella-line-editor
+        - novella-dialogue-coach
+        - novella-ai-slop-detector
+        - novella-weirdness-keeper
+        - novella-copyeditor
+        - novella-sensitivity-reader
+        - novella-voice-reader
+        - novella-opening-hook-specialist
+        - novella-ending-cliffhanger-specialist
+        - novella-series-canon-curator
+        - novella-market-reader
+        - novella-beta-reader
+      content_notes_checked: true
+      story_memory_checked: true
+      emotional_truth_checked: true
+      post_edit_slop_guard: true
   - n: 7
     title: "The Reckoning"
     pov: "Callie Thorne"
     word_target: 3000
-    status: draft
+    word_count: 2319
+    status: revised
+    revision_passes:
+      version: "0.3.1"
+      date: "2026-06-28"
+      agents:
+        - novella-developmental-editor
+        - novella-continuity-checker
+        - novella-scene-doctor
+        - novella-emotional-arc-reader
+        - novella-clue-foreshadowing-auditor
+        - novella-genre-promise-reader
+        - novella-line-editor
+        - novella-dialogue-coach
+        - novella-ai-slop-detector
+        - novella-weirdness-keeper
+        - novella-copyeditor
+        - novella-sensitivity-reader
+        - novella-voice-reader
+        - novella-opening-hook-specialist
+        - novella-ending-cliffhanger-specialist
+        - novella-series-canon-curator
+        - novella-market-reader
+        - novella-beta-reader
+      content_notes_checked: true
+      story_memory_checked: true
+      emotional_truth_checked: true
+      post_edit_slop_guard: true
   - n: 8
     title: "After"
     pov: "Callie Thorne"
     word_target: 2500
-    status: draft
+    word_count: 1931
+    status: revised
+    revision_passes:
+      version: "0.3.1"
+      date: "2026-06-28"
+      agents:
+        - novella-developmental-editor
+        - novella-continuity-checker
+        - novella-scene-doctor
+        - novella-emotional-arc-reader
+        - novella-clue-foreshadowing-auditor
+        - novella-genre-promise-reader
+        - novella-line-editor
+        - novella-dialogue-coach
+        - novella-ai-slop-detector
+        - novella-weirdness-keeper
+        - novella-copyeditor
+        - novella-sensitivity-reader
+        - novella-voice-reader
+        - novella-opening-hook-specialist
+        - novella-ending-cliffhanger-specialist
+        - novella-series-canon-curator
+        - novella-market-reader
+        - novella-beta-reader
+      content_notes_checked: true
+      story_memory_checked: true
+      emotional_truth_checked: true
+      post_edit_slop_guard: true

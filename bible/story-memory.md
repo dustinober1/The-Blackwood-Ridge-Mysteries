@@ -148,7 +148,10 @@ status: draft
 - The floorboard in the Foxed Page that creaks — Eleanor knew which one;
   Callie still steps over it out of habit, the courtesy of not waking her
   mother having outlasted Eleanor by two years. (Callie lives in the apartment
-  upstairs; Eleanor slept there until her death.)
+  upstairs; Eleanor slept there until her death.) **Revised Ch7 canon:** Callie
+  stops on the threshold of the board — one foot on, one off — unable to commit
+  to either the old habit (stepping over) or the new gesture. The full step-ON
+  is Ch8's payoff.
 - **Revelation cadence (canon — do not re-collapse):** What Callie knows, and
   when. End of Ch1: murder suspected (bergamot), no proof. End of Ch2: Pike's
   note gives initials S.R. and J.W.; Callie resolves R = the Ralston family name
@@ -159,4 +162,24 @@ status: draft
   decoding; Gus's steady-hands tell planted. Ch4 (midpoint): the critical margin
   note names Silas Ralston directly and documents Reverend Hartwell's murder —
   the full scope lands here, not earlier. (Revised Ch2 deliberately withholds all
-  of this so Ch3/Ch4 reveals land fresh.)
+  of this so Ch3/Ch4 reveals land fresh.) **Ch5 FORWARD NOTE (canon — for the
+  Ch5 revision):** the Ch5 keystone document MUST treat Silas/Hartwell as KNOWN
+  (corroboration of what Callie decoded in Ch4), NOT as a fresh discovery. Ch5's
+  real new value is the present-tense evidentiary chain — the Historical Society
+  visitor-log showing Gus signed in days before the murder, and Pike's "showed
+  preliminary findings to G.R." margin note. (Drafted ch-05 currently re-lands
+  "Silas Ralston had the minister killed" as a fresh climax at ~l.22 — must be
+  reframed.) Also at Ch4: the evidentiary chain locking GUS as Pike's killer is
+  correctly INCOMPLETE (only historical crime + bureaucratic suppression; Callie
+  voices suspicion, not certainty) — Ch5 owns the lock.
+- **"You sound like your mother" (canon — Ch4, Mae):** the first time another
+  character names the Callie-as-Eleanor parallel aloud. Mae says it as Callie
+  commits to the path that will break her code. Seeds Ch6's Eleanor-glasses
+  payoff (reading glasses that don't fit; the magnifying glass set down) and
+  mirrors Gus's Ch5 "Your mother knew when to leave things alone" — same ancestor
+  invoked from opposite moral angles. Track for the Mae-Eleanor-Callie triangle.
+- **Floorboard payoff (canon — Ch8):** Callie has stepped over the floorboard
+  for the entire manuscript (Ch1–7). Ch8 is the payoff — she steps back onto
+  it deliberately so that it creaks ("She was done being quiet for a ghost.").
+  No intermediate half-step in Ch7; the setup is the accumulated habit across
+  all prior chapters.

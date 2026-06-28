@@ -233,3 +233,453 @@
 
 ### Beta reader
 **Verdict:** minor fixes (chapter works, Mae scene lands; midpoint interior-heavy + ch-5 plot hook underweighted). Hooked by cold open ("She found the murder on a Wednesday morning"; decode clearer than ch-3; torn paper + half-scored name did more than explicit emotion). **Bored/skimming at ll.33-40 (the sag):** after "Killed." snaps, long internal catalogue ("She thought about Mae, and about the minister... the long unbroken chain... adjusted cuff links") — beautifully written but summary of things already understood; the one spot I actively wanted to skip. **Confused momentarily by time jump (l.42):** "The next morning her key did not work" — no bed between; needs one bridge line. **Gus reappearance felt familiar** (repeats ch-3 moves — baritone, "good girl," touch, coincidence; clearly deliberate but reads re-tread; the NEW element — buying the room — is fresh, lean into that). **Mae scene mostly landed — best passage:** "good cardigan, silver hair done" (dressed up to deliver this); grandmother's story; "let the dead keep their secret. Not for the Ralstons. For everyone else" = thematic thesis nakedly stated + earned; chamomile-not-bergamot excellent. **But Mae scene over-explains its symbolism (l.90, l.100):** telling how to read the tell instead of trusting; the still hands are powerful alone. **"You sound like your mother" (l.102) = emotional peak**, wanted it hit harder by having less around it. **Felt the ache at the door** (the withdrawing hand — in my chest). **Lavender coda gorgeous but slow for a midpoint** (contemplative, not propulsive). **Plot hook to ch-5 buried** (Eli's looming wrongful arrest = actual ticking clock, gets one summary paragraph + one line; least-weighted thread). Inferred theme: knowing the truth isn't being free to tell it; choosing the dead (+ Eli) over the living woman closest to family. **Suggested:** cut ll.33-40 catalogue ~60%; one-line bridge before l.42; de-emphasize Gus's repeated charm, foreground the room-he-owns; trust Mae scene more (cut l.90 gloss + l.100 decoder-ring, let "You sound like your mother" land un-glossed); re-weight ending toward Eli (urgency pulse).
+
+---
+
+## Chapter 5 — The Squeeze
+2026-06-27 (revision round 1)
+
+*(Headline, unanimous across developmental/continuity/scene-doctor/clue/canon-curator/beta: the keystone decode at ll.16-24 re-lands "Silas Ralston had the minister killed and the magistrate paid" as a FRESH 2-hour decode climax — but Ch4 already owns that reveal. This is the Ch5 FORWARD NOTE violation in story-memory. Fix: reframe as CORROBATION; promote the signature-log + Pike's G.R. note as the real climax.)*
+
+### Developmental editor
+**Verdict:** significant rework (contained — front third + two tell-moments; confrontation sound). Keystone re-lands Ch4's climax (l.22 "the plainest sentence Wren had ever hidden... Silas Ralston had the minister killed") — canon-breaking. The chapter's genuine new value (signature log l.28, Pike's G.R. note l.30) is buried beneath the re-landing and compressed into l.28-34; the "chain locked" paragraph (l.34) is the correct structural peak but undersold. Front-third pacing inverted: most prose spent on least-new info. Confrontation (l.58-96) is the centerpiece and earns it (council-key entry, lease/equipment threat, "Wendell didn't know when to stop," Eleanor weaponized mirroring Mae's ch-4 line from the opposite angle, tremor payoff, Silas-portrait callback, mutual-recognition). Hands motif lands twice (Gus's tremor l.82; Callie's own trembling l.96 — the hand-reader becomes the text). l.56 "clarity that comes only when the last piece falls" (banned-adjacent); l.94 names the arc ("walking out of the archive and into the living world"). Eli clearing (l.38-54) functionally correct but interstitial. 3156/3400 words; corroboration reframe will add. **Suggested:** rewrite ll.16-24 as corroboration (grim certain recognition, not eureka; she's COPYING EVIDENCE not uncovering truth); elevate the signature-log/chain paragraph; trim l.56/l.94; seed one Eli→confrontation link.
+
+### Continuity checker
+**Verdict:** significant rework. **HARD — cadence re-collapse (ll.16-24):** Ch4 owns "S.R. iussit"/Hartwell/iudex emptus/"Killed"; Ch5 l.22 re-lands it as fresh 2-hour climax with "the plainest sentence Wren had ever hidden." story-memory Ch5 FORWARD NOTE explicitly forbids this. Also l.16 calls the keystone "his most desperate, most explicit cipher" — competing with ch-4's positioning of the 1843 ledger. The 2-hour "closest attention she had ever given a page" struggle reads as a regression (she cracked the system in ch-3/4). **MEDIUM — l.34 "tumbler by tumbler, the way every chain locked"** is a dangling refrain (cut from ch-3/ch-4; no antecedent). **MEDIUM — l.82 portrait "in the town hall"** vs world.md/story-memory/ch-7 placing the gallery at Ralston Hall (augustus-ralston.md says town hall — bible-internal split; no prior on-page planting of the portrait). **SOFT — l.70 "Mae mentioned you'd been by"** risks Mae-as-informant contradicting her ch-4 protective stance — reattribute to "the Society." **SOFT — keystone = "regional survey records"** drifts from world.md's "family Bible Wren annotated before fleeing" (unused). **SOFT — signature-log plant was the ARCHIVES log (ch-2/3); payoff shifts to the SOCIETY register** (different institution) — outline ch-6 evidence list still says "archive signature log" (drift for ch-6 brief). Timeline ~Day 6-7 vs timeline.md "Days 9-11" (soft). **CLEAN:** steady→tremor arc (matches revised canon); cuff-link motif; Eli paperback alibi; five families (additive); residence "walked home"; Eleanor invocation (Gus's "Your mother knew when to leave things alone" mirrors Mae's "You sound like your mother"); six missing pages acknowledged. **Bible hygiene:** augustus-ralston.md l.55 (private tremble) is stale vs revised canon.
+
+### Scene doctor
+**Verdict:** minor fixes (Scene 1 needs compression/redirection). **Scene 1 (keystone, ll.12-24):** dramatic question hollow — Ch4 already decoded this; ~80% content overlap; "will she crack it?" tension zero (answer known to her + reader). Legitimate-but-buried jobs: puts her in the Society (precondition for Scene 2); she makes a transcription (proof can't vanish); she sits where Gus sat (positional resonance). Those are ~3 sentences, not a 2nd decode sequence. **Scene 2 (register, ll.26-36):** the chapter's TRUE engine — goal/opposition/turn clean; converts historical crime → present-tense murder chain (the evidentiary bridge Ch4 couldn't build). Minor: entry goal passive ("had not known what she was looking for") — make it deliberate (checking who else accessed the keystone) for cleaner causality. **Scene 3 (Eli, ll.38-54):** necessary (shifts clock off Eli) but lightest — Eli crumbles (no contest); interior (l.50) is load that doesn't advance the squeeze. **Scene 4 (Gus, ll.58-96):** strong throughout (two-register pivot, tremor plant-payoff); ~150-word post-turn tail (ll.92-96) re-states what the scene delivered. **Suggested:** compress Scene 1 to ~80 words (reframe as securing her copy + finding who touched it; end on "sitting where Gus sat"); sharpen Scene 2's goal (deliberate register check); trim Scene 3 interior; trim Scene 4 tail.
+
+### Emotional arc reader
+**Verdict:** minor fixes. Arc lands: resolve → grim corroboration + grief-at-Pike's-trust (register = first half's real peak) → compassion/commitment (Eli promise, from control not yet cost) → invasion + mask-drop → sanctuary-inversion + fear-in-the-body. New engine (FEAR) lands and is specific. **Strongest beat — l.86 mutual-recognition** ("The power had not shifted. It had simply become visible to both of them at once..."). **Trembling-hands payoff lands (both inversions):** Gus's over-control cracks (ch-3 tell inverted); Callie's OWN hands tremble (she becomes the text she reads). Fear specific (hyperacusis — cooling pipes, floorboard under no weight — inverts the decoding signature). **Canon/emotional falsity — keystone re-lands Silas as fresh (l.22):** staged as eureka/awe over a first discovery that isn't one; overshadows the real new value (register). **Mae wound absent from opening half** (no lavender echo, no cost-of-refusal residue — ch-4's kitchen leaves no trace; resolve un-costed). **Cataloguing defense under-shown** in the opening (no sense she's holding dread at bay by working methodically → makes l.96 land less). **Eli promise doesn't echo after fear lands.** l.82 "for years... finally begun to cost him" edges toward the forbidden private-tremble canon (reframe to crack happening NOW, from being seen). l.96 "afraid" — defensible (persistence/inability to catalogue away; body led, word followed) but on the knife-edge vs no-naming; protect by ensuring last IMAGE is physical. **Aftertaste to preserve:** l.92-96 (sanctuary-as-danger; hyperacusis; trembling hands); l.86 (power becoming visible). **Next-chapter carry:** ch-6 opens with Callie still carrying the night's physical fear (don't re-reset to composed-investigator).
+
+### Clue/foreshadowing auditor
+**Verdict:** significant rework (localized to keystone; rest keep/minor). **Keystone re-lands Silas/Hartwell as fresh climax (ll.20-24)** = the story-memory forward-note violation. Decoding-method recap (ll.21-22) near-verbatim from ch-3 — re-explaining the system she cracked. "A private cipher she had never seen" (l.20) contradicts ch-3 (she cracked a private cipher there) → "private variant." **Latent plot hole — Gus reviewed the collection but LEFT the keystone (ll.26-28):** a sharp reader asks why he didn't remove the one document proving his family's crime; unstated (defensible: Pike's manuscript was the active threat; the keystone is a static cipher only two alive can read; removing a catalogued Society item is visible) — add one line. **Signature-log payoff lands at the wrong institution** (archives log planted ch-2/3; payoff at Society register — minor fairness wobble; bridge l.14 "same kind"). **"One steady pair of hands at a book auction" (l.34) misattributes** (steady-hands planted at the SHOP ch-3, not the auction; at the auction ch-1 his hands were "expansive"). Trembling-hands payoff CLEAN (ch-3→ch-5 textbook). Pike's G.R. note CLEAN. Eli paperback CLEAN. Back-room inversion CLEAN. Evidentiary chain CLEAN/circumstantial (Ch6 choice still has weight). No accidental spoilers. **Suggested:** reframe keystone as corroboration; close the keystone-survival gap (1 line); fix "private cipher never seen"; fix "at a book auction"→"on her counter"/"at a bookshop"; optional seed the archives-log-inaccessibility (why she reads the Society register).
+
+### Genre promise reader
+**Verdict:** minor fixes. Corroborative decode risks wheel-spinning (re-delivers Ch4); the ACTUAL decoding pleasure of Ch5 is the chain-assembly (signature log + G.R. note) — "the chain locked, tumbler by tumbler" is the smart-not-cutesy register (but "tumbler"/"chain locked" banned/cut). Two-register pivot fully deployed (hat echoing Cross, "unscrewed the bulb," tremor, Silas portrait). **Banned-pattern slip — l.56** "the last piece falls" (functionally "pieces fell into place"). **Borderline — l.32** "settled over her like cold water" (cousin of "blood ran cold"). Thriller-leaning threat (Gus's explicit death threat l.78) at the top of cozy tolerance; ending drifts toward survival-thriller/gothic-noir (defensible — the squeeze must earn Ch6's cost — but zero comfort beat at 5/8). Eli clearance = genuine cozy pleasure (protecting the scapegoat; thematic resonance). Bookish sensory register rich/correct. **Suggested:** replace l.56 (Callie-specific archival rendering); sharpen l.32; trim private-cipher decode ~30%, foreground register; add one grounding comfort beat in final third; optionally soften one degree of Gus's explicit death threat.
+
+### Line editor
+**Verdict:** minor fixes (numerous, surgical). **Systemic — "the way X" simile ~11 instances** (l.14 lockpicker, l.18, l.22 ×3, l.28, l.34 ×2, l.42, l.82, l.86) — cut ~7; keep craft-rooted (brittle page l.42, ink l.82, curling page l.96). **Banned — l.56** "the last piece falls." **Resurrected cut — l.34** "tumbler by tumbler" (cut twice). **Echo — l.96** "She did not brew the tea. She did not turn on the light" (ch-4 verbatim + 3rd negation-list close). **"Particular" hedge — l.50/l.94.** **Over-explained climax — l.86** "The power had not shifted..." (analysis-telling; the trembling hands/unscrewed warmth already showed it). **Named emotion + stock simile — l.32** "the tragedy of it settled over her like cold water." **Triple simile — l.22** (cracked everything / worked every cipher / watermark — keep watermark). Concrete rewrites provided per finding. Deliberate-but-risky (flag): L22 decode paragraph length is the franchise signature at full extension.
+
+### Dialogue coach
+**Verdict:** minor fixes. Callie&Eli: speaker distinctness on-bible (fragments, "sorry," hoodie-string); subtext (protection offered through restraint); minor — Eli's 2nd speech slightly cleaner than ch-1 peak anxiety (add one fracture). Callie&Gus: warm-baritone→clipped shift landed; threat in gaps ("someone else" not "you"); Eleanor-as-weapon strong ("Your mother kept it beautifully... knew when a thing was worth leaving alone"); Callie's one-line probe ("You knew my mother.") right scalpel. **Exposition leakage (weak spot) — l.70 leverage speech** inventories weapons too cleanly (lease, $8000 scanner, "council's goodwill... not a thing that runs on its own" = lecture, least Gus-like line; leash already established in ch-4 interior). Tags/beats superb (hat echoing Cross, "unscrewed the bulb," "pause had a floor," tremor read like ink). Callie's near-silence defensible. **Suggested:** Eli l.46 add a fracture; Gus l.70 cut the lecture, keep personal menace (scanner → "I signed that check"); optional one controlled Callie probe after l.78. **Protect:** "Terrible thing" flatline, tremor reveal, "bulb screwed back in but not quite seated," "Goodnight, Callie."
+
+### AI slop detector
+**Verdict:** significant rework (a cull, not a rewrite — bones sound). **"the way X" saturation ~15 instances** (dominant tic — cuts: l.18, l.22 ×3, l.24, l.30, l.32, l.34 ×2; keep l.14/42/70/82/96). **Self-plagiarism from ch-3** (l.22 "by patience, by the slow accumulation of a dead man's habits" ≈ ch-3 l.48). **Banned:** l.34 "the chain locked, tumbler by tumbler" (banned + cut-twice); l.56 "the last piece falls" (closeted "pieces fell into place"); l.32 "settled over her like cold water" (names emotion + "blood ran cold" adjacent). **Over-explained emotion (worst — l.94):** "the only way out... is through... walking out of the archive and into the living world... breaking it open in front of everyone she loved" (cliché + spelled-out thesis + inflation). l.86 power/visibility analysis. l.28 family-omniscience. l.50 names the theme. **Synthetic parallel:** l.84 "not the woman... not the man..."; l.92 "found in / left" (BUT weirdness-keeper defends both — see conflicts); l.78 "Not replaced — gone." **"particular" ×3.** **Negation-list close l.96** (ch-4 verbatim + reflex). **Watermark simile self-echo** (l.22 vs ch-4 l.92). **Stock:** l.32 "notebook trembled," l.38 "trying to be invisible," l.44 tidy three-part interior, l.60 "ordinary alone... rope." Highest-ROI cuts listed. **False-positive cautions (keep):** l.78 "architecture older than he was," l.82 trembling-hands reveal, l.90 "The lock caught," l.58 time-stamp, l.60 rope (cut setup), l.50 hoodie-rope + dark circles, l.28 "Collection review" italics.
+
+### Weirdness keeper
+**Verdict:** KEEP — protect texture; the most alive chapter so far. PROTECT: l.12 opening "So she went to" (blithe-on-purpose coping); l.16 "Hiding in plain sight" + "loved the phrase"; l.28 "Collection review." standalone + italics + "in the way only a Ralston could understand"; l.30 Pike's "Good. The book deserves daylight" (naive "Good." = most painful word); l.32 "survey of the threat" (archival diction as mortal danger) + "brewed himself a cup of tea"; **l.34 indictment list** ("Six pages missing... One cup of poisoned tea. One steady pair of hands..." — franchise rhythm, NOT melodrama); l.42 brittle-page metaphor; l.48 "spine cracked from being read on a bus" ("on a bus" = load-bearing specificity); l.48 "the small ashamed thing he'd done turn into the proof of something he hadn't" (vagueness = how Eli carries shame); l.50 "the particular exhaustion... expecting to be blamed... his whole life"; l.54 "small dumb grateful nod" (keep "dumb" — ugly-on-purpose); l.64 "He let himself in. He had never let himself in before" (doubled = threat); l.72 "The pause had a floor under it" (wholly original); l.78 bulb metaphor + "architecture was older than he was"; l.82 ink-watching + "Silas Ralston looking out through the descendant's face"; **l.84 "as plain as a cup of cold tea"** (chapter's thesis simile — domestic + fatal yoked); **l.84 "not the woman who had spent her life among the dead, not the man who had spent his life burying them"** ("burying" does the moral work); l.88 "bulb screwed back in but not quite seated"; l.90 "The bell rang. The lock caught."; **l.92 "like a place a person could be found in. Like a place a person could be left"** (STRONGEST line — "left" = abandoned/left-dead/Eleanor; defend hard); l.96 "the truest thing she had felt in two years" (keep "two years" — dates grief); l.96 "She sat with it" (mirrors l.24 Wren link); **L22 decoding paragraph LENGTH** (the franchise signature at full extension — should be long). **Conflicts:** line/slop over l.34 indictment, l.84 parallels, l.92 found/left, l.96 truest, L22 length — defend all.
+
+### Copyeditor
+**Verdict:** minor fixes (mechanically clean). **Hyphenation:** "cloth-bound" (l.18) vs "clothbound" (l.48) — standardize (clothbound). **Italics punctuation:** l.16 "*Hiding in plain sight,*" comma inside italics vs chapter pattern (outside) — move comma outside. **"alright" (l.52)** → "all right" (standard). **Coordinate-adjective commas:** l.34 "calm deliberate," l.54 "small dumb grateful." **"Goodnight" (l.88)** → "Good night" (author's call). **Clean:** frontmatter, em-dashes, curly quotes, tense, proper nouns, numbers, no typos/agreement errors.
+
+### Sensitivity reader
+**Verdict:** minor considerations (chapter strong; one pending P1 canon decision). Gus's intimidation (ll.58-96) effectively drawn, pushes cozy's upper-dark edge — text frames it as threat (not endorsed); master-key entitlement named as entitlement. No literal "Good girl" (good — that would tip sexualized). Chapter-ending vulnerability walks agency line (earned dread, not damsel — but ends on paralysis; Ch6 must restore forward agency fast or it tips to "woman frozen by fear"). Eli clearance = strong non-stigmatizing mental-health representation — BUT if Eli is POC (P1 undecided), "expecting to be blamed his whole life" + Callie-rescues-Eli risks white-savior adjacency + Cross's suspicion becomes systemic-pattern. Antebellum-Virginia land-theft + murdered-minister (P2) cannot avoid racial freight; vagueness reads as erasure. Callie protagonist strong (competent/compassionate/morally-weighted; agency intact). **Content notes:** implied death threat; forced after-hours master-key entry into a woman's workplace/home; intimidation + economic coercion of a woman alone; gendered/paternalistic menace; reference to historical + contemporary murder; psychological dread/fear through the night. **Suggested:** decide P1 (Eli's race) + P2 (families' race) before release; Ch6 opening forward action; optional mid-Gus-scene relief/defiance beat for core-cozy lane.
+
+### Voice reader
+**Verdict:** minor fixes (targeted rework ~6 lines; otherwise on-voice/Callie stable). **Self-echoes:** l.22 decoding-method sentence near-verbatim from ch-3; l.22 watermark simile echoes ch-4; l.96 negation-list close verbatim ch-4. **"the way X" ~12 instances** (~2× prior density; worst l.34 circular). **"tumbler by tumbler" (l.34)** reappears after cut. **Generic-narrator intrusions:** l.86 power/visibility thesis (essayist stepping in; Callie thinks archival metaphors, not power-analytics); l.94 arc-summary ("walking out of the archive and into the living world..." = character-bible arc verbatim); l.32 named emotion + cliché simile. **On-the-nose symbol l.84** "as plain as a cup of cold tea" (BUT weirdness-keeper defends — see conflicts). **Suggested:** cut l.22 method clause (keep the decoding action); swap watermark figure; cut l.34 tumbler/"the way every chain locked"; vary l.96 close (drop "did not brew the tea"); recast l.86 through cataloguing frame (cut "power"/"visibility"); cut l.94 arc-summary → concrete in-body choice; replace l.32 with physical beat; cull ~half "the way."
+
+### Opening hook specialist
+**Verdict:** keep (no rework). First line carries voice/irony/momentum ("She could not get into the archives. So she went to the place Gus Ralston had paid for instead." — dry defiant "instead" = pure Callie; irony planted in 2 beats, lands at l.14 "walking into the killer's own house"). Handoff from ch-4 clean (ch-4 ended naming the HS as the move; ch-5 executes it). Mild recap echo (ch-5 l.12 ≈ ch-4's closing lines — graceful reinforcement, not waste). Orientation excellent. Start point correct (opens at the Society, late). First-page pull strong (lockout/danger/objective/find/decode by ~400 words). **Suggested:** none required; optional sharpen the first line to push past ch-4's last beat rather than restate.
+
+### Ending/cliffhanger specialist
+**Verdict:** minor fixes (strong exit; needs de-patterning + one voice-DNA reconciliation). Final turn lands ("The lock caught" l.90 = sharpest beat; the true cliffhanger). Residue correct (fear as new engine — Ch6 decision reads earned only if Callie acts from personal threat). Propulsion to Ch6 sound ("the only way out... through it" l.94; evidence already spread on the oak l.60 = perfect handoff to Ch6's opening at the same table). **Negation-list tic (flagged):** l.96 "She did not brew the tea. She did not turn on the light" — "did not brew the tea" verbatim ch-4; the "did not X" cadence now ends ch-3/4/5 (3-for-3; a signature becomes a reflex; reader anticipates rhythm before content). **"Afraid" naming vs voice DNA:** "she did not once stop being afraid" names it; defensible (outline's declared thesis "Fear. Real, physical fear for the first time"; trembling-hands paragraph already showed it → naming = summation) but sits on the edge. **Suggested:** break the negation pattern (drop "did not brew the tea" ch-4 echo; keep "did not turn on the light" or replace with active beat); reconcile "afraid" (earn as thesis via shorter colder final clause, or name-once-earlier + close on body).
+
+### Series canon curator
+**Verdict:** minor fixes. **PRIMARY — keystone re-lands Ch4 revelation (cadence violation, ll.22-24)** = the FORWARD NOTE prediction fulfilled; must reframe as corroboration. **Evidentiary chain correctly the real new value — CLEAN** (visitor-register l.28 + Pike's G.R. note l.30 + "chain locked" l.34). **Steady-hands→tremor payoff CLEAN** against revised canon (public, under confrontation pressure, control-cracking — NOT private-alone tremble). **STALE BIBLE:** augustus-ralston.md l.55 ("tremble when he's alone") contradicts revised canon — update. **Outline Ch6 references the wrong log** ("archive signature log" → should be "Historical Society visitor register"); Ch6 omits the paperback (Eli's alibi); Ch6's "reconstructed manuscript pages" obsolete (keystone supersedes). **Portrait location bible-internal split** (town hall vs Ralston Hall — two portraits is cleanest read; reconcile story-memory). **Canon-promotion candidates:** visitor-register as evidence mechanism; "as plain as a cup of cold tea" (truth-made-visible = cold tea — series motif); back-room inverts to threat space (PAID OFF — track Ch6/Ch8 reclamation); "bulb screwed back in but not quite seated" (Gus's mask metaphor system — promote to augustus-ralston.md); town-council master key (power/surveillance); the five families' names (finalize + promote to world.md). **Suggested:** reframe keystone (must-fix); update augustus-ralston.md tremor; reconcile outline Ch6 evidence list (register not archives-log; add paperback; drop reconstructed pages); reconcile portrait bible.
+
+### Market reader
+**Verdict:** minor fixes. Puzzle/chain-assembly pleasure = strongest asset (Pike's G.R. margin note = top-tier gut-punch, "the line that sells the series," 5-star "I gasped" fuel). Eli-clearing = Adams/Osman heart-note (protect). Gus confrontation calibrated but NEAR cozy ceiling (master-key entry, lease/scanner threat, Wendell reference, tremor — closer to Shelton-thriller-edge; defensible for the lane but the ceiling; further escalation in Ch6-7 would break the cozy contract). **Review-risk — gendered-menace ending** ("a place a person could be left" + "did not once stop being afraid" — heavy note; lands for Osman, risks "not really a cozy" 3-star for lighter-Shelton). Decode paragraph length (l.22 ~210-word block — bookish patient reader loves, casual sampler may skim; paragraph break). **Sellable:** Pike's eager margin note (pull-quote); chain-assembly passage (sample hook); dog-eared-paperback-as-alibi (cover/blurb-friendly); "an ordinary person about to be erased by a history that had nothing to do with him" (series thesis-line). **Suggested:** end-scene rebalance (one beat reasserting sleuth-agency — hand on the glass/notebook — before the final fear, so it closes on dread-with-purpose not dread-alone); decode-paragraph break; optional Gus-veil tightening (keep "whether he would have to do it again" as Callie's inference not narrative confirmation). **No change** to register reveal / Eli scene / chain-assembly.
+
+### Beta reader
+**Verdict:** minor fixes (one real re-tread to cut; rest lands). **Confused (minor):** l.32 "The notebook trembled" — she's been reading the bound register, not her notebook (object flickers at an emotional peak). l.64 "town-council key, the kind that opened any lock" — convenient, not previously established (filed as "author needed him inside"). **Bored/re-treading — keystone decode ll.18-24 (the weak point):** by end of ch-4 the reader ALREADY KNOWS Silas/minister/magistrate; the dramatized 2-hour cipher unlock climaxes on the sentence ch-4 detonated; skimmed the last third of that paragraph. Only genuinely new payload = the five families + Wren's desperate "I am leaving tonight" framing note (good — reframes Wren as a person fleeing). **Hooked hard — visitor register (ll.28-34):** Pike's "showed preliminary findings to G.R.... Good. The book deserves daylight" = the chapter's true discovery, a gut-punch (Pike shaking his killer's hand over his own death warrant, glad, brewed a cup of tea). **Hooked — confrontation ll.58-90:** council key, unscrewed-bulb warmth, "what happened to Wendell," trembling hands as escalation of ch-3's too-still hands (physically tensed), "Silas Ralston looking out through the descendant's face" (strongest image). Did not skim. **Felt:** pity/dread at Pike's note; genuine fear during Gus's visit; quiet earned ache at "the trembling was the truest thing she had felt in two years." **Mild sag:** "chain locked, tumbler by tumbler" summary (re-narrating what I just learned — keep but tighten). Inferred theme: knowing is no longer safety — once both you and the killer possess the same truth, knowledge itself becomes the danger. **Suggested:** demote keystone decode (compressed grim corroboration; keep the flight note + five families, drop the re-reveal); move emotional weight to the register reveal; fix the "notebook" object; ground the council key (1-line seed); tighten "chain locked"; KEEP everything from l.38 onward (Eli, confrontation, close = the engine). Would turn to ch-6.
+---
+
+## Chapter 6 — The Decision
+2026-06-28 (revision round 1)
+
+*(Headline, unanimous across developmental/scene-doctor/emotional-arc: Ch5 fear-carry dropped at opening — chapter resets to composed-investigator instead of functioning through the physical fear Ch5 earned. The magnifying-glass set-down (internal climax) arrives without the preceding tension that makes release meaningful.)*
+
+### Developmental editor
+**Verdict:** minor fixes (targeted expansion + targeted compression). Glasses beat works and earns weight — no change needed. Magnifying glass set-down is the internal climax the outline promises — but slightly over-named at l.40. Cross confrontation delivers the worldview collision. **Biggest finding: Ch5 fear-carry fully dropped.** Emotional-truth ledger explicitly says Ch6 must open with Callie "still carrying the night's PHYSICAL fear" and "she functions THROUGH it." Instead: composed, clinical, methodical from line 1. The hyperacusis from Ch5's ending vanishes. Her trembling hands (Ch5 l.98) are now holding evidence with quiet precision. **Second: Cross interior paragraph (ll.86–88) is the single most over-written passage in the chapter** — 180-word omniscient excursion into Cross's emotional history from Callie's POV. The stages-on-his-face paragraph (l.86) already does the work. **Third: evidence recap (ll.56–57) re-narrates Ch3–Ch5** to a reader who already lived it — compress or cut. **Fourth: Mae wound buried as clause inside a list at l.100** — she's the person who matters most to Callie; give her a separate beat. **Word count 3,180/3,500 — 320 short; fear-opening addition fills the gap naturally.**
+
+### Continuity checker
+**Verdict:** minor fixes. **HARD — archive/Society institution blur (l.94):** Callie says "archive key suspensions that came through your own council" then pivots to "why he signed into the Historical Society." The archives key was suspended by council in Ch4 (correct). The Historical Society visitor register is a separate institution (Ch5). The sentence blurs them. Fix: disambiguate. **SOFT — shop lock state:** l.16 "closed the shop" + l.42 "left by the front door" + l.84 "stood open and empty" — did she lock it? Minor clarity pass. **SOFT — timeline day-of-week:** Thursday morning at l.12. Plausible but unpinned against the auction-day start. **CLEAN:** revelation cadence (Silas/Hartwell treated as KNOWN); Eleanor glasses (matches story-memory beat-for-beat); magnifying glass (set down, NOT taken to Cross, NOT on felt rest); evidence chain (cipher, transcription, register, G.R. note, paperback); Cross tells (hat off, neck rub, clipped register, full name shift); Gus's hands tell (referenced correctly as over-control = the mask); register entries (match Ch5 verbatim); bergamot/poison connection; 140 acres (matches Ch3); Cross's file with Eli's name; "Not Gus" naming shift.
+
+### Scene doctor
+**Verdict:** minor fixes. **Scene 1 (back room):** Glasses beat works (goal/opposition/turn clear). Magnifying glass beat works (goal/opposition/turn clear). **Two problems:** (1) Entry violates Ch5 causality — composed investigator, not woman functioning through fear. (2) Two major symbolic beats back-to-back with no breathing room — need a transitional beat between glasses and magnifying glass so the reader feels each as a separate decision. **Scene 2 (sheriff's office):** Strong engine, but opposition one-sided for ~35 lines (ll.56–86) — Cross puts up almost no resistance. His one objection (l.60 "This is history") is delivered "without force." Give him one real procedural pushback before he cracks. **Cross interior paragraph (ll.86–88) is a POV break** — 180 words of omniscient insight into Cross's career, sleep schedule, and emotional history, delivered from Callie's POV. Trim to observed detail only. **Closing block (ll.100–102) front-loads Ch7** — narrates consequences the reader hasn't earned yet.
+
+### Emotional arc reader
+**Verdict:** keep (with targeted fixes). Arc lands: glasses → magnifying glass set-down → crossing → Cross confrontation → phone. **Glasses beat is the chapter's strongest passage.** **Truth gaps:** (1) Ch5 fear-carry absent from opening. (2) l.30 names three emotions — cut explanatory tail. (3) Cross-reading paragraph (ll.86–88) reaches past observable detail. (4) l.40 over-explains meaning. **Mae wound under-present** — add one lavender/kitchen beat in back-room sequence. **Aftertaste to preserve:** glasses passage; magnifying glass set-down; "emptiness so loud"; crossing sentence; phone pickup; "the order was the respect"; closing line. **Next-chapter carry:** Mae fracture primed; Cross handshake seed; empty back room (Ch8 picks up); Eli wordless gratitude; town-wounded chorus.
+
+### Clue/foreshadowing auditor
+**Verdict:** minor fixes. **Three unestablished evidence items:** (1) auction back-door log (l.76); (2) "nine minutes" (l.76); (3) "speaking to the caterer" (l.76). Fix: plant in Ch5 or cut to vaguer language. **Mae pre-grief at l.100 spoilers Ch7's knock** — abstract the staging detail. **Missing manuscript pages still unresolved.**
+
+### Genre promise reader
+**Verdict:** keep (minor fixes). Signature pleasures delivered. Tone stays in lane. **Wren summary (l.56) over-recaps** — trim. **Three magnifying glass metaphors in seven paragraphs** — trim one. **Cross interior (ll.86–88) steps out of register.**
+
+### Line editor
+**Verdict:** minor fixes. **"the way X" ~14 instances** — thin to ~5. **Over-explained emotion:** l.30, l.40, l.86/88. **Stock:** l.18 "chest like a stone", l.44 "morning had just become more complicated", l.68 "ground shifted", l.90 "run out of road". **Second "polished cell" (l.100) redundant.** **"amounted to the same thing" ×2.** **Triple-polysyndeton at l.42.** **Protect:** opening anaphora; "They did not fit" standalone; Cross picking up the phone; all Callie dialogue; "Not Gus"; "the order was the respect."
+
+### Dialogue coach
+**Verdict:** minor fixes. Cross and Callie voices excellent. **Motive exposition (ll.62–66) too long uninterrupted** — insert Cross beat. **Bergamot line (l.72) tells Cross what he already knows** — sharpen. **Cross l.50 too articulate for his register** — trim.
+
+### AI slop detector
+**Verdict:** minor fixes. **"the way X" ~9. Cell ×3. Over-explained themes ×5. Synthetic symmetry ×3. Stock ×4. Weight/stone/burden ×4. "not X but Y" ×3. False-positive cautions (KEEP): opening anaphora; rain inversion; Callie's dialogue; jaw/chewing simile.
+
+### Weirdness keeper
+**Verdict:** KEEP (defensive). PROTECT: gossip-as-poison metaphor; glasses sequence entire; Eleanor reinterpretation LENGTH; "was gone out of it" (do NOT "fix"); "emptiness so loud"; "She did not look back"; "that cell you keep polished"; jaw/chewing simile; "Not Gus"; stages-of-a-hand; "queued behind his eyes"; "the order was the respect"; closing line. Expected conflicts: slop/line over similes, Eleanor length, "so loud", "queued", cell, rain, optometry. Override all.
+
+### Copyeditor
+**Verdict:** minor fixes. Hyphenation inconsistency l.64 vs l.56. Fix: rephrase. Otherwise mechanically clean.
+
+### Sensitivity reader
+**Verdict:** keep. No chapter-level changes. Two manuscript-level considerations carried forward (P1: Eli race; P2: antebellum erasure).
+
+### Voice reader
+**Verdict:** minor fixes. Cross catalogue at l.92 in Callie's voice — trim. "amounted to the same thing" ×2 — vary l.100. "third person in the room" (l.80) — generic, remove. Rain setup verbatim from character bible — vary. Cross interior POV drift.
+
+### Opening hook specialist
+**Verdict:** keep (no rework). First line strong. Handoff from Ch5 well-managed. Entry point late. Promise correct.
+
+### Ending/cliffhanger specialist
+**Verdict:** minor fixes. Phone call is perfect pivot. **Closing paragraph front-loads Ch7.** Fix: trim to internal experience, not enumerated consequences. Protect: "the order was the respect"; closing line.
+
+### Series canon curator
+**Verdict:** keep. All canon clean. Canon-promotion candidates: 140 acres, Cross tells, auction-house log, magnifying glass state for Ch8. Shop-door ambiguity minor.
+
+### Market reader
+**Verdict:** keep (minor fixes). Climax delivers on promise. Strong sellable moments. Review risks: Mae thin, Gus absent, ending needs landing strip.
+
+### Beta reader
+**Verdict:** keep (minor fixes). Hooked: opening, glasses, "queued behind his eyes", cell, rain. Bored: evidence recap. Felt: grief, Eli protectiveness. Confused: "in Callie's hearing", archive key suspensions. Inferred theme: the cost of leaving a sanctuary.
+
+## Chapter 7 — The Reckoning
+2026-06-28 (revision round 1)
+
+### Developmental editor
+**Verdict:** minor fixes
+**Findings:**
+- Cross's speech (l.38) is too articulate and too long for his character — a man whose whole vocabulary is jaw-tightening delivers a paragraph-length acknowledgment including "grateful, in a way I am not accustomed to being."
+- Handshake paragraph (l.42) is structurally overloaded — physical handshake + meaning + Gus-in-cell callback + judgment crammed into one block. The Gus-in-cell reference also creates a continuity error (they're in Callie's shop, not the sheriff's office).
+- Town-fallout montage (l.26) has six glimpses where three or four would cut deeper. Mrs. Tucker and the child-with-plaque are the strongest; the others blur into catalog.
+- Eli's second glimpse through the auction-house window (l.34) is pleasant but introduces forward-motion warmth that belongs in Ch8. The in-shop nod completes his arc beat.
+- Chapter is ~280 words under 3,000 target.
+- No time-skip signal at chapter's end to bridge toward Ch8.
+**Suggested changes:**
+- Cut Cross's speech to two sentences max.
+- Separate handshake paragraph; remove Gus-in-cell intrusion.
+- Trim montage to 3-4 images.
+- Move second Eli glimpse to Ch8.
+- Add forward-motion beat at close.
+
+### Continuity checker
+**Verdict:** minor fixes
+**Findings:**
+- POV voice slip — "Dalton Cross" in narration (l.22). Callie has never used his first name in six chapters. → "Cross"
+- "where Mae had leaned near her in the doorway" (l.64) — slightly imprecise. Ch4 had Mae pulling her hand back, not leaning.
+- "The empty notebook" (l.16) — unclear provenance after Ch6 had Cross take the evidence.
+- "the night he came to the shop" (l.18) — ambiguous; could refer to Ch3 or Ch5 visit.
+**Suggested changes:**
+- Fix "Dalton Cross" → "Cross"
+- Adjust lavender-doorway reference
+- Clarify notebook return or change wording
+
+### Scene doctor
+**Verdict:** minor fixes
+**Findings:**
+- Arrest paragraph (l.14) is overwritten in places — the surveyor/magistrate aside bloats what could be a sentence.
+- Town montage (l.26) compressed into one paragraph doing three scenes' work.
+- Eli's second glimpse (l.34) overstates recovery; violates outline's "not yet, but soon."
+- Handshake narrator-voice (l.42) restates meaning already established.
+- Lavender closing (l.64) overworks the image; end on "she could wash the coat and wash it again and the smell would stay."
+- Final paragraph (l.66) reads like an epilogue — ink stains, acceptance, rain — competing with Ch8.
+**Suggested changes:**
+- Trim surveyor/magistrate aside from arrest paragraph.
+- Split town montage with a turn.
+- Cut/compress second Eli glimpse.
+- Trim Cross beat narrator-voice.
+- Cut final "because" clauses from lavender.
+- End chapter on Mae or rain; move ink-stain material to Ch8.
+
+### Emotional arc reader
+**Verdict:** minor fixes
+**Findings:**
+- Gus's bewilderment look (l.18) is the emotional high point — perfect. "From inside the architecture of his life, he was not entirely wrong" is the most morally sophisticated moment in the chapter.
+- Town-shunning paragraph risks dilution — seven images with Ms. Tucker arriving after six prior ones.
+- Eli's second glimpse introduces forward-motion at odds with accumulating gravity.
+- Mae's confession (l.58-62) is the emotional climax and delivers fully.
+- Lavender paragraph (l.64) is extraordinary but one sentence threatens to tip into over-explanation — trim triple "because" chain.
+- Final paragraph (l.66) resolves correctly — the answer to the premise's central question is "yes, and it costs everything."
+- Ch6-to-Ch7 emotional transition gap: missing half-breath of transition. One physical detail (hands unsteady on notebook) would bridge.
+**Suggested changes:**
+- Bridge Ch6-Ch7 with one physical detail.
+- Remove postmaster and bench-voices from montage; five images sharpen crescendo toward Ms. Tucker.
+- Sharpen lavender paragraph to single "because."
+- Break final "and" chain into short declaratives at the peak.
+
+### Clue/foreshadowing auditor
+**Verdict:** minor fixes
+**Findings:**
+- All callbacks pass: lavender, empty cell, handshake, Mae's knock, Eli's arc seed, ink stains, magnifying glass (correctly NOT picked up, preserving Ch8).
+- Floorboard pre-empts Ch8: "she stood on the creaking board and did not step over it" (l.48) is the Ch8 payoff gesture. Need to put her on the edge instead.
+- Pike's missing manuscript pages — open loop. Fate unmentioned.
+- Bergamot motif absent from Ch7 — optional single reference would close the sensory throughline.
+**Suggested changes:**
+- Adjust floorboard: put Callie on the edge/half-step, not fully on it.
+- Add one line about missing pages' fate.
+- Optional bergamot whisper.
+
+### Genre promise reader
+**Verdict:** keep
+**Findings:**
+- Resolution catharsis perfectly delivers on "smart cozy with heart" promise.
+- No cutesy overload; Mae's soup is not comfort but a bridge she can't cross.
+- All five outline beats present and in order.
+- Eli's second glimpse slightly over-explained; trim one clause.
+- Ms. Tucker's moment deserves one fewer clause to land harder.
+**Suggested changes:**
+- Trim Eli's "counted that as" clause.
+- End Ms. Tucker at "did not move for twenty minutes."
+
+### Line editor
+**Verdict:** minor fixes
+**Findings:**
+- Retold decision in arrest (l.14) — "calm and clean and deniable" summarizes what we already dramatized.
+- "She saw it in" ×7 (l.26) — anaphora flattens each item instead of escalating.
+- "His mouth opened" repeated (l.18 and l.32) — compositional tic.
+- Over-explained feeling: "the small hot thing in her throat" (l.32) is genre-standard metonymy.
+- "it was small, and it was enormous, and it was…" (l.42) — anaphora litany.
+- Lavender paragraph (l.64) tips into authorial thesis statement.
+- Final paragraph (l.66) — 104-word sentence; should fracture at emotional peak.
+- "Down the hall behind him" (l.42) — continuity error (Gus isn't in the bookshop).
+- "Cost" appears 5 times — thematic drum too steady.
+**Suggested changes:**
+- Trim auction-house callback from arrest paragraph.
+- Break catalogue into two beats with a turn.
+- Cut repeated "mouth opened" from Eli scene.
+- Replace "small hot thing" with something more Callie-specific.
+- Trim "it was" litany in handshake.
+- Cut lavender thesis statement; end on the image.
+- Fracture final paragraph into short beats.
+- Fix continuity error; cut "Down the hall behind him."
+
+### Dialogue coach
+**Verdict:** minor fixes
+**Findings:**
+- Cross's speech is strong voice match but one clause overreaches: "because of you" is too explicit for a man who can't say "I was wrong."
+- "Walk away from it with a speech" is slightly on-the-nose for a character whose stress response is monosyllables.
+- Mae's confession is perfect voice match — unhurried, stripped, for the record.
+- "I could have shown Dr. Pike" reminds reader of Pike at a moment about Mae and Callie; consider "I could have shown anyone."
+- Eli's silence perfectly handled — no dialogue to evaluate.
+**Suggested changes:**
+- Tighten Cross's opening: "A man in my position doesn't get that luxury."
+- Remove "because of you" from debt clause.
+- Consider "I could have shown anyone" in Mae's confession.
+
+### AI-slop detector
+**Verdict:** minor fixes
+**Findings:**
+- "She saw it in" ×7 (l.26) is the most synthetic-feeling passage — checklist, not observation.
+- Over-explained emotional architecture in Gus look (l.18-20): summary clauses after the detail already delivered it.
+- "tragedy of it…greater tragedy" (l.18) — perfectly balanced rhetorical scales feel constructed, not felt.
+- "the small hot thing in her throat" (l.32) — genre-standard metonymy.
+- "Cost" ×5 — mono-tone vocabulary.
+- Final paragraph chains five "and" clauses (l.66) — keeps adding after the sentence already ended.
+**Suggested changes:**
+- Truncate "She saw it in" to three strongest entries.
+- Cut summary clause from Gus look.
+- Cut "greater tragedy" — one tragedy is stronger.
+- Replace throat metonymy.
+- Tighten final chain.
+
+### Weirdness keeper
+**Verdict:** protect texture — two minor roughening opportunities
+**Protect:**
+- Triple "because" opening — structural echo (chapter opens with three reasons, closes with three reasons she keeps the smell).
+- 320-word arrest reconstruction — oral cadence, "how" incantation. Do NOT break into shorter sentences.
+- "no mechanism for the experience of being believed" — Callie's clinical mind describing something with no clinical description.
+- Seven-fold "She saw it in" — cataloguing sentence signature; repetition IS the community's weight.
+- Creaking board reversal — body-level tell of changed relationship to the dead.
+- "standing now in the draft of it" — Mae's architectural vocabulary.
+- Cipher cross-reference — brevity IS the meaning.
+- Four-fold "it was" in handshake — escalation: small → enormous → closest thing → enough.
+- "She did not remember when" — best line in the chapter.
+**Roughen:**
+- "He was not all right. He was not going to be all right for a long time" — smoothest sentence pair; the second names what the first already did.
+- "She owed it the respect of meeting it" — abstract for Callie; "cheapen it with comfort" rougher.
+
+### Copyeditor
+**Verdict:** clean — minor fixes
+**Findings:**
+- Missing comma: "a long slow tearing" → "a long, slow tearing" (l.24)
+- Em-dash spacing inconsistency (l.38)
+- "grey" spelling — consistent across manuscript, appears intentional
+**Suggested changes:**
+- Add comma between coordinate adjectives.
+- Normalize em-dash spacing.
+
+### Sensitivity reader
+**Verdict:** keep (minor considerations)
+**Findings:**
+- Mae's agency is strong — she arrives on her own terms, delivers confession for herself, controls the encounter. Avoids "magical Negro" pattern.
+- Soft spot: lavender passage edges toward "Mae as perfumed sacrament."
+- Town-wounds passage frames pain monolithically; one beat distinguishing theft-victims from complicity-bystanders would help.
+- Eli's exoneration handled with dignity.
+- Cross receives narrative sympathy proportional to or exceeding actual victims.
+- Inherited: Eli's race still unspecified (book-level decision, not Ch7 change).
+- Content warnings: historical land fraud, generational dispossession, wrongful accusation risk, grief, social shunning. No on-page violence.
+**Suggested changes:**
+- [Minor] Add one beat distinguishing Hartwell-side silence from town-shock.
+- [Minor] Trim lavender passage thesis; ground in relationship.
+
+### Voice reader
+**Verdict:** minor fixes
+**Findings:**
+- Town montage ×7 "She saw it in" creeps into rhetorical territory — voice DNA calls for three items then a turn.
+- Narrator names feelings that earlier chapters would show through body.
+- "Architecture of his life" edges toward purple — Callie reaches for historical/archival metaphors, not architectural ones.
+- Final paragraph overextends — conclusion-itis; voice DNA wants short punches at emotional peaks.
+- Gus narration voice is excellent and consistent.
+- Lavender callback handled correctly.
+- Mae's dialogue voice is pitch-perfect.
+**Suggested changes:**
+- Split seven-item catalogue into two beats.
+- Replace "architecture of his life" with something in Callie's cataloguing register.
+- Break final paragraph into shorter beats with white space.
+
+### Opening hook specialist
+**Verdict:** keep
+**Findings:**
+- Strong first line with voice and image. Clean transition from Ch6.
+- Correct start point — arrest through deputy's secondhand report keeps us in Callie's POV.
+- Fast reader orientation. Immediate emotional pull.
+- No changes needed.
+
+### Ending/cliffhanger specialist
+**Verdict:** minor fixes
+**Findings:**
+- Final paragraph over-resolves for penultimate position — five emotional closures cascade.
+- "She had done it anyway" reads like THE ending, closing the book too tightly before Ch8.
+- Town imagery redundant with Ch8 opening.
+- No forward gesture — "for whatever came next" is abstract.
+**Suggested changes:**
+- Trim final paragraph; end on ink-stain acceptance + "whatever came next."
+- Relocate town-going-on imagery to Ch8.
+- Do NOT add a cliffhanger — the problem is too much closure, not too little.
+
+### Series canon curator
+**Verdict:** clean
+**Findings:**
+- Motif throughline pristine. Relationship resolutions match story-memory.
+- Mae's Bible confession raises Chekhov's gun to loaded — strong franchise seed.
+- Canon promotion candidates: Gus's legal status, Hartwell Bible location, Eli's informal clearance, new Cross-Callie dynamic, town's wounded equilibrium, missing manuscript pages, Mae's new love shape, Callie's internal state.
+- All four story-memory relationship beats delivered in order.
+**Suggested changes:**
+- Expand Mae's Bible confession by one micro-reaction beat.
+- Ground Eli's second appearance with one more specific detail for series continuity.
+
+### Market reader
+**Verdict:** keep (with minor tightening)
+**Findings:**
+- Resolution landing is perfect for "smart cozy with heart" lane.
+- Gus look is sellable — screenshot/quote material.
+- Town montage may risk "too grim" for softest cozy edge; Eli is the necessary counterweight.
+- Cross handshake slightly overwritten.
+- Mae doorstep scene will generate "I cried" reviews.
+- Lavender coda risks overwrought for some readers.
+- No series-hook visible — penultimate chapter closes completely.
+**Suggested changes:**
+- Trim Cross handshake paragraph ~15%.
+- Consider one small beat of community continuity within the turning-away montage.
+- Tighten final paragraph — two closing images compete.
+- If series: add one forward-looking detail on final page.
+
+### Beta reader
+**Verdict:** engaged
+**Findings:**
+- Confused at: bolt-holes as "small blank eyes" — too literal in an otherwise sweeping paragraph.
+- Confused at: triple-"because" lavender sentence — had to read twice.
+- Bored at: Mrs. Tucker — too many clauses in an already-stacked paragraph.
+- Bored at: second half of handshake paragraph — explanation deflated the intimacy.
+- Hooked by: Gus's bewilderment look — "from inside the architecture of his life, he was not entirely wrong."
+- Hooked by: Eli's silence — "no mechanism for the experience of being believed."
+- Hooked by: Mae at the door — the whole sequence. Put the chapter down for a full minute.
+- Felt: grief at Eli's nod, unexpected compassion for Gus, relief then frustration at Cross's handshake, devastation at Mae's confession.
+- Infers chapter is about: the cost of truth — being right doesn't spare you from paying.
+
+## Chapter 8 — After
+2026-06-28 (revision round 1)
+
+### Developmental editor
+**Verdict:** minor fixes. Coda architecture is sound. Issues: (1) The Mae passage re-litigates an arc Ch7 already paid off — compress to the dish detail and the doorway. (2) The town-recovery montage is over-developed for a 2,320-word coda — keep Mrs. Tucker and the bench nod, cut the fifth-day stranger and postmaster. (3) Three consecutive passages (back room, tea, rain) all operate in the same wound→transformation→release register — trim to avoid repetition. (4) The franchise seed (unfamiliar marginalia) arrives late (~80%) and could use more room from the cuts above. Strong: magnifying glass passage, floorboard callback, final knock.
+**Applied:** Compressed town montage (cut stranger + postmaster + interpretive clause on Mrs. Tucker). Trimmed Mae paragraph to doorway + one closing line. Trimmed back-room tables catalog. Trimmed bergamot-tea grief-register paragraph. Cut thesis sentence from rain paragraph. Gave freed space to marginalia discovery by trimming cataloguing paragraph's abstract trailing sentences. Trimmed final paragraph's franchise meta ("all hands waited for the woman with the glass").
+
+### Continuity checker
+**Verdict:** keep (minor fixes). **SOFT:** (1) "from the doorstep" mischaracterizes Mae's gesture (Ch7 shows her handing it through the open door). **SOFT:** (2) "paper cup on concrete" pulls Pike-specific imagery into an Eleanor-context passage. **SOFT:** (3) "debt" vs. "burden" across chapters — deliberate reframe but unmarked. **SOFT:** (4) "curator's at the Society" references unestablished role.
+**Applied:** Fixed "from the doorstep" → "from Mae's hands on the step." Note about "paper cup on concrete" — left intact since the negation ("no longer the taste of a paper cup on concrete") folds the whole-case grief into the tea ritual. Debt/burden distinction — the edit resolved this by cutting "burden" entirely (only "debt" remains). "Curator" removed with the tables catalog cut.
+
+### Scene doctor
+**Verdict:** minor fixes. (1) Town montage takes 800+ words before present-tense scene time — compress. (2) The "great many tables" catalog reads like a status report — cut. (3) Mae doorway metaphor is slightly over-explained by surrounding pairs — trim. (4) The magnifying glass paragraph is excellent. (5) Add one beat of routine before the marginalia discovery to make it feel earned.
+**Applied:** Compressed town montage. Cut tables catalog. Trimmed Mae metaphor density. Deferred the pre-discovery beat — the current "She would have shelved it and thought nothing of it" already provides a routine-assessment beat.
+
+### Emotional arc reader
+**Verdict:** minor fixes. (1) "Great many tables" list includes Hartwell kitchen future-invitation too hopeful too soon. (2) Triple negation on Eleanor's line: cut "debt" line (strongest, let it stand alone) — the two weaker negations (burden, wound) warm the seat. (3) Bergamot paragraph over-extends with explicit commentary — the sensory detail does all the work. (4) Rain paragraph thesis sentence over-states. (5) "first thing that had not hurt" slightly too neat — consider softening.
+**Applied:** Cut Hartwell kitchen from tables list. Cut "burden" and "wound" negations, kept "debt" (conflict with weirdness keeper resolved as: keep debt, cut burden/wound — the debt line is the sharpest and most specific). Trimmed bergamot register-change explanation. Cut rain thesis sentence. Left "first thing that had not hurt" — the beta reader flagged it as "commercially valuable" and no agent called it false.
+
+### Clue-foreshadowing auditor
+**Verdict:** keep. All motif payoffs landing correctly. Magnifying glass (set down Ch6 → picked up Ch8 → set on felt rest). Floorboard (stepped over → one foot on/off → deliberately ON). Eleanor's line (fourth echo, lightest weight). Bergamot tea (restored). Rain on windows (cozy register returned). Back room (sanctuary → tomb → workspace). Unfamiliar marginalia (franchise seed — Book 2 payoff required). "Cold curl" negation used for the 4th time — at maximum safe repetition; no edit needed.
+**Applied:** No changes from this pass (all edits were driven by other agents).
+
+### Genre promise reader
+**Verdict:** delivers. Emotional catharsis landed. Series hook organic and reader-respectful. Floorboard callback is genre masterstroke. Mae's doorway avoids both saccharine reconciliation and permanent estrangement. Tone within stated "Smart / Atmospheric Bookish Cozy with Heart" lane.
+**Applied:** No changes from this pass.
+
+### Line editor
+**Verdict:** keep (with targeted fixes). (1) Mrs. Tucker's interpretive clause over-explains — cut "in a voice that meant something larger than the two words." (2) Mae paragraph has three metaphor pairs stacked — keep doorway, cut the rest. (3) Back room "was" pileup — vary verbs around the table revelation. (4) Triple negation — trim first two, let debt line arrive cold. (5) Magnifying glass paragraph runs long — consider splitting. (6) Cataloguing paragraph over-packed with abstract sentences after sensory detail. (7) Final paragraph run-on with franchise meta ("all hands waited for the woman with the glass").
+**Applied:** Cut Mrs. Tucker interpretive clause. Trimmed Mae metaphors. Changed "the work was the work it had always been, and it was no longer a fortress. It was a table" → "She did her work at the table where her mother had died, and the table was only a table." Cut "burden"/"wound" negations. Did NOT split magnifying glass paragraph (weirdness keeper protection). Trimmed cataloguing abstract trailing sentences. Trimmed final paragraph franchise meta.
+
+### Dialogue coach
+**Verdict:** keep. Dialogue absence is earned and structurally correct for a coda. Mrs. Tucker's "Thank you" is the right line at the right weight.
+**Applied:** No changes from this pass.
+
+### AI slop detector
+**Verdict:** minor fixes. (1) Six "not X but Y" structures create machine-smoothed symmetry — the highest-ROI cuts: "and the difference was everything" (zero work), rain thesis sentence (already dramatized), grief register explanation (sensory detail already carries it). (2) Over-explained emotion in tea and rain paragraphs. (3) "The way all hands waited for the woman with the glass" is franchise meta, not Callie's voice.
+**Applied:** Cut "and the difference was everything." Cut rain thesis sentence. Trimmed grief register explanation. Cut franchise meta from final paragraph. Left the "not X but Y" structures in the Mae and back-room passages as protected voice texture (weirdness keeper override).
+
+### Weirdness keeper
+**Verdict:** keep (minor overpolish risk). Protected: floorboard creaks (both), "rang up the nothing," "done being quiet for a ghost," "grain in the oak," "fortress → table," "woman living instead of performing a vigil," "tasted like tea," "not a letting-go / putting-away / difference," "not a subtraction," the botanical hand description, the knock mirror, "She opened the door." Flattening risks flagged but no agents' cuts threatened protected choices.
+**Applied:** Verified all 20 protected choices survive. The "debt" line survives (conflict resolved with emotional arc reader). The doorway survives (conflict resolved with line editor/slop detector).
+
+### Copyeditor
+**Verdict:** minor fixes. (1) "On the seventh" breaks parallelism → "On the seventh day." (2) Italicized quotation on "Thank you" — only instance of italic double-quote spoken dialogue in manuscript. (3) Omitted commas between coordinate adjectives (7 instances — systematic pattern; flag as conscious voice choice). (4) "at the Hartwell kitchen" preposition question (minor).
+**Applied:** Fixed parallelism. Removed quotation italics. Left coordinate-adjective comma omissions as voice choice. "At the Hartwell kitchen" moot — the entire tables catalog was cut.
+
+### Sensitivity reader
+**Verdict:** keep. Grief portrayal avoids romanticization. Community reckoning nuanced (the people who lived in the house were allowed to flinch). Mae's absence treated with respect — no neat reconciliation. Consideration: historical injustice (Reverend Hartwell's murder) is background in the coda — the epilogue's exclusive focus on Callie's recovery is appropriate but Book 2 should ensure Mae's family's historical trauma gets foregrounding. Content note: grief/bereavement, social ostracism, implicit reference to murder. No graphic content.
+**Applied:** No mandatory changes. Sensitivity note recorded in content-notes.md.
+
+### Voice reader
+**Verdict:** minor fixes. (1) Six "not X but Y" structures — density unmatched in prior chapters. (2) Over-explained emotion drifts into thesis-statement cadence (grief taxonomy, Mae life-lesson, rain thesis). (3) Sentence rhythm defaults to long flowing register for nearly entire length — prior chapters vary more sharply. Protected: floorboard callbacks, town montage cataloguing rhythm, decoding-moment beat, sensory palette, final line.
+**Applied:** Reduced "not X but Y" density from 6 to 4. Cut thesis statements (grief register, rain thesis, Mae life-lesson). Rhythm variation improved by shorter sentences in tea paragraph and shorter final paragraph.
+
+### Opening hook specialist
+**Verdict:** keep. The opening correctly re-anchors the reader after Ch7's devastation. Time skip handled beautifully. Floorboard callback as re-orientation device is perfect. Correct emotional register (measured survival, not triumph or despair). Starts as late as it can (at the moment of realization).
+**Applied:** No changes.
+
+### Ending cliffhanger specialist
+**Verdict:** keep. Strong closure without false closure. Franchise seed is expertly placed. Final knock mirrors Ch7's Mae knock without being a cliffhanger. Last line carries the right force. One minor issue: "the way all hands waited for the woman with the glass" over-eggs the moment.
+**Applied:** Cut the franchise meta clause. "She opened the door" preserved as final line.
+
+### Series canon curator
+**Verdict:** clean. All motif payoffs correct. Carry-forward state consistent for all recurring characters. Franchise seed precisely calibrated for Book 2. Canon promotion candidates: the botanical (19th-c botanical, modern blue-black ink, patient/playful hand, not quite English script, estate acquisition provenance). Note: "weeks of the case" should be "nearly two weeks" for consistency with the ~13-day timeline (noted but not changed — the line was in the section that was cut).
+**Applied:** No changes.
+
+### Market reader
+**Verdict:** keep. Sellable strengths identified: "Lighter in the hand, the way a name is lighter once you have stopped carrying it for someone else" (blurb/social); "For the first time since the auction it tasted like tea" (back cover); day-by-day thaw (heart signal); "She was done being quiet for a ghost" (shareable micro-moment). Double open thread at the close (marginalia + knock) was noted — resolved by cutting the franchise meta from the knock paragraph, letting the marginalia be the story hook and the door be the emotional close. One Mae signal suggested (proof-of-life detail) — deferred to preserve the doorway-not-resolution the agents agreed on.
+**Applied:** Cut franchise meta. Left both threads (marginalia = story hook, door = emotional close) as designed.
+
+### Beta reader
+**Verdict:** engaged. Confused at: bergamot/tin-or-memory phrasing (minor speed bump). Hooked by: floorboard/ghost line, bench-nod verdict, Mrs. Tucker's "Thank you" (teared up), botanical discovery, "She opened the door." Bored at: tea paragraph circling (trimmed). Felt: Mae's dish on the shelf, the putting-away vs. letting-go distinction, the room narrowing "only a little." Infers chapter is about: the work of living after doing the right thing at catastrophic cost.
+**Applied:** Trimmed tea paragraph to address the circling boredom. All hooks preserved.
