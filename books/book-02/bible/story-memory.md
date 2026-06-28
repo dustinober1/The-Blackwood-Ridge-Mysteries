@@ -222,3 +222,46 @@ source: series-bible/story-memory.md
 - **Doris's dialect** (Ch2, style-sheet note) — "she run" for "she ran" is deliberate
   Virginia dialect. The echo structure ("said she run / did not run") requires the
   identical word. Do not "correct" in proof.
+- **Yarrow floriographic mapping** (Ch3, canon-promoted) — yarrow = war; also cure.
+  Attached to the name "Ambler" (underlined once beside the yarrow plate). NEW to the
+  cipher vocabulary; consistent with but not previously in Ch1/Ch2 promoted lists.
+- **The open-palm tell, formally introduced** (Ch3, canon-promoted) — Wells's practiced
+  gesture of openness: palm shown, held a beat too long, filed under *deliberate* /
+  *practiced*. The inverse tell: his hand closes (around the cup) under pressure — the
+  first time Callie sees his hand *not* be open is at Lauren's name. Extends story-memory
+  "open palm" motif (L128-131) from "introduced obliquely" to "formally named and
+  mechanic-defined." Mirror of Gus Ralston's hands-tell (over-control, not tremor).
+- **"Weather in a room" formulation** (Ch3, canon-promoted) — Wells "listened for the
+  weather in a room and adjusted his own temperature to match it... a way of never quite
+  being caught in any single weather of his own." Paired with Cross's "everything outside
+  the walls was weather, and weather was not his department." Thematic throughline across
+  both characters; "weather" carries different work for each.
+- **Lock/tumbler decoding metaphor** (Ch3, canon-promoted) — "cracking it the way you
+  crack a lock — a little at a time, the tumblers turning, the meaning catching and then
+  giving and then catching again." Recurring image system for the cipher-decoding
+  signature; the "tumbler would not turn" beat marks the cipher's resistance (genuine
+  puzzle friction, not free decode). Pair with Book 1's "the narrowing."
+- **Wells's Gatsby / "again" margin-note story** (Ch3, canon-promoted) — junior-year
+  English, Marguerite failed him on a *Great Gatsby* paper (ten pages on the green light)
+  with a single margin word: *again*. Origin of his lifelong performance of being "worth
+  her." Recall likely needed for Ch6-7 confrontation.
+- **Wells timeline locked** (Ch3, canon-promoted, CORRECTED) — Marguerite's junior-year
+  English student; Lauren was his girlfriend "the summer we graduated" (NOT "summer before
+  senior year" — corrected for canon consistency with graduation-party timeline); now
+  principal of the same school, ~51 in 2026 (bible age 51). Was 19 the summer Lauren died.
+- **Wells's alibi** (Ch3, canon-promoted) — "I was at the party. I saw her early in the
+  evening. We argued. I went home. I didn't see her again." His cover story, held thirty-
+  two years. When pressed ("Did anyone see you leave?"), his warmth actively deflects:
+  ends the interview with "I don't think it's in this office." The warmth-as-cage is now
+  dramatized, not just observed.
+- **Cross-Wells personal bond** (Ch3, canon-promoted) — Cross and Wells are friends;
+  Wells "sat with me through the winter, when half this town wouldn't speak to either of
+  us." Cross's procedural resistance is partly personal: believing Callie means betraying
+  a colleague. His tell under this pressure is the jaw (not the neck-rub).
+- **"Dock" as cipher fragment** (Ch3, canon-promoted) — the single decoded word beside
+  the Ambler/yarrow plate and the June 1994 date. The surrounding shorthand remains
+  undecoded at chapter's end; the tumbler will not turn. The full phrase and the wet
+  hemline detail are HELD for Ch4 per outline scoping.
+- **"He came back alone"** (NOT YET PROMOTED — held for Ch4) — the cipher's first fully
+  decoded witness statement. Per Ch3 revision, this phrase is reserved for Ch4 ("The Wet
+  Hemline") along with the wet-hemline image. Do not assume Ch3 has delivered it.
