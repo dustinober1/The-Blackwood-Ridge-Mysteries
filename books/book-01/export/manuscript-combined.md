@@ -44,7 +44,7 @@ First edition: June 2026
 
 
 
-## Chapter 1 — The Auction
+# Chapter 1 — The Auction
 
 Two years after there was no one left to keep quiet for, Callie still stepped over the floorboard behind the archive table — automatically, without looking, a habit older than memory. Her mother had slept in the room above the shop, and the courtesy of not waking Eleanor had outlasted Eleanor by two years and showed no sign of stopping. She still stepped over it.
 
@@ -158,7 +158,7 @@ Callie stood in the quiet for a long time. She did not know yet why she was stay
 
 ***
 
-## Chapter 2 — The Aftermath
+# Chapter 2 — The Aftermath
 
 The tea tasted wrong.
 
@@ -274,7 +274,7 @@ The fluorescent light buzzed. She opened the first of Jacob Wren's annotated sur
 
 ***
 
-## Chapter 3 — The Trail
+# Chapter 3 — The Trail
 
 By ten o'clock on the third morning the word *poison* was in every cup of coffee on the square — not announced but absorbed, molecule by molecule, until no one could say who'd been first to know.
 
@@ -372,7 +372,7 @@ She did not eat the bread. She wrapped it, later, and left it on Mae's porch. Th
 
 ***
 
-## Chapter 4 — The Escalation
+# Chapter 4 — The Escalation
 
 She found the murder on a Wednesday morning, in the back third of the 1843 ledger, in a margin no wider than her thumb.
 
@@ -478,7 +478,7 @@ She let herself into the shop. She stepped over the floorboard. In the dark back
 
 ***
 
-## Chapter 5 — The Squeeze
+# Chapter 5 — The Squeeze
 
 She could not get into the archives. So she went to the place Gus Ralston had paid for instead.
 
@@ -590,7 +590,7 @@ She sat down at the oak table in the dark without turning on the light. For a mo
 
 ***
 
-## Chapter 6 — The Decision
+# Chapter 6 — The Decision
 
 She had not slept. The trembling in her hands had not stopped, not through the long hours after he left, not through the dark in Eleanor's room where she sat at the oak table with the evidence laid out in front of her and her body refusing to believe the room was safe. The shop had its sounds — the tick of the cooling pipes, the creak of the front floorboard under no one's weight, the wind testing the window latch in the back — and every one of them had kept her awake, because the last time she had stopped listening to sounds in the dark was two years ago, and she had found her mother on the floor.
 
@@ -688,7 +688,7 @@ Cross spoke into the phone. Low, procedural, the clipped register of a man doing
 
 ***
 
-## Chapter 7 — The Reckoning
+# Chapter 7 — The Reckoning
 
 They went for him in the early afternoon, when the rain had thinned to a mist and the light on the hill was the color of old silver. Callie did not go to Ralston Hall. She stayed in the sheriff's office, because Cross had not told her to leave and she had not asked to, and because the thing she had set in motion was still moving and she could not yet look away from it.
 
@@ -750,7 +750,7 @@ She sat down in the dark and she breathed, and outside the rain came down on the
 
 ***
 
-## Chapter 8 — After
+# Chapter 8 — After
 
 The shop had been open for a week when Callie realized she was no longer waiting for the town to forgive her.
 

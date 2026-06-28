@@ -1,0 +1,37 @@
+series_stages:
+  series_concept: complete
+  series_bible: complete
+  series_outline: complete
+books:
+  - n: 1
+    title: "The Annotated Murder"
+    dir: "books/book-01"
+    status: published
+  - n: 2
+    title: "The Botanical Confession"
+    dir: "books/book-02"
+    status: planned
+  - n: 3
+    title: "The Challenger"
+    dir: "books/book-03"
+    status: planned
+  - n: 4
+    title: "The Archive Fire"
+    dir: "books/book-04"
+    status: planned
+  - n: 5
+    title: "The Planted Page"
+    dir: "books/book-05"
+    status: planned
+  - n: 6
+    title: "The Pattern"
+    dir: "books/book-06"
+    status: planned
+  - n: 7
+    title: "The Reckoning"
+    dir: "books/book-07"
+    status: planned
+  - n: 8
+    title: "The Last Margin"
+    dir: "books/book-08"
+    status: planned

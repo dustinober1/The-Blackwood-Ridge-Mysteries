@@ -1,0 +1,8 @@
+title: "The Blackwood Ridge Mysteries"
+genre: "Cozy Mystery / Amateur Sleuth"
+mode: "tight"
+target_book_count:
+  min: 6
+  max: 10
+  working: 8
+created: "2026-06-28"

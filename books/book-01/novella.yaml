@@ -6,4 +6,5 @@ series:
   type: planned-series
   name: "The Blackwood Ridge Mysteries"
   number: 1
+  parent_series_dir: "../.."
 created: "2026-06-27"
