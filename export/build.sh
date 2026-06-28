@@ -17,6 +17,6 @@ pandoc manuscript-combined.md \
   --metadata title="The Annotated Murder" \
   --metadata author="Vesper Blythe" \
   --metadata lang="en" \
-  -o "murder-most-annotated.epub"
+  -o "the-annotated-murder.epub"
 
-echo "Built murder-most-annotated.epub"
+echo "Built the-annotated-murder.epub"
