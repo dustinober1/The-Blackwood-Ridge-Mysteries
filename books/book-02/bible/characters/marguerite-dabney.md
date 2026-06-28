@@ -91,11 +91,7 @@ courage was to encode her cowardice for a stranger to finish. She is Callie's
 mirror and Callie's warning — what Callie becomes if she lets silence win.
 
 ## Relationships
-- **Callie Thorne (posthumous collaborator):** Never met. But Marguerite
-  watched Callie crack the founding scandal in Book 1 and recognized a
-  successor — another woman who reads what the town buries. She aimed the
-  botanical book at The Foxed Page deliberately. This is a dead woman's bet on a
-  living one.
+- **Callie Thorne (posthumous collaborator):** Barely knew each other in life — exchanged a handful of words across the shop counter and the square over the years. But Marguerite watched Callie crack the founding scandal in Book 1 and recognized a successor — another woman who reads what the town buries. On the square once, Marguerite looked at her and said, "You read what other people leave in the margins, don't you." Not a question. A naming. She aimed the botanical book at The Foxed Page deliberately. This is a dead woman's bet on a living one.
 - **Lauren Coalter (former student, deceased):** Her favorite. The student she
   couldn't save. Lauren was in the garden club; Marguerite taught her
   floriography. The cipher is built from the world Marguerite and Lauren shared.

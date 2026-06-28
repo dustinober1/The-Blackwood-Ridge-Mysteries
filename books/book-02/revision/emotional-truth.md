@@ -1,0 +1,6 @@
+## Chapter 1 — The Estate Lot
+- **Intended emotional movement:** Guarded reclamation (set bone, cold tea, town-flinching) → pressure (book she won't touch, Eli's revelation) → turn (picks up the glass) → residue (curiosity returns fused with cost-awareness; she drinks cold tea anyway).
+- **Reader-felt movement:** Guarded distance → growing pull → earned turn → quiet commitment. The aconite passage (hatred crossed out) and the dying-hand detail (pen pressure fading) are the chapter's strongest emotional beats per beta reader.
+- **Truth gap:** None. Intended emotion landed. The one flat stretch is the Marguerite memory block (L74), which reads as exposition rather than lived experience — the emotion is correct but the delivery stalls the chapter's momentum.
+- **Aftertaste to preserve:** "She set the glass down. Gently. On the felt rest. She did not let go of it." + "Callie picked up her tea. It had gone cold. She drank it anyway." — the glass ritual and the cold-tea close are the chapter's emotional spine. Protect both.
+- **Next-chapter carry:** Callie has chosen curiosity again, with full knowledge of the cost. The residue is: commitment fused with dread, the bergamot "almost right" (not yet), and the weight of a dead woman's trust. Ch2 should open with Callie acting on that commitment (going to the garden).

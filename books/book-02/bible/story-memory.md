@@ -186,3 +186,19 @@ source: series-bible/story-memory.md
 - **Bergamot tea compass** — Book 2's answer to "does it taste right yet?":
   almost. Not quite. The reclamation holds under pressure but does not deepen
   into belonging. (Belonging is not this book's gift to give.)
+- **Marguerite's margins exchange** (Ch1, canon-promoted) — Marguerite once told
+  Callie on the square: "You read what other people leave in the margins, don't
+  you." Not a question. A naming. This is the textual origin of Marguerite's bet
+  on Callie. Record in bible and recall when Mae confirms it in Ch5.
+- **Named floriographic plates** (Ch1, canon-promoted) — rosemary (remembrance),
+  rue (sorrow/regret), aconite (hatred, underlined once), violet (faithfulness,
+  with name "Lauren" and initial "W"). These are the cipher's first decoded
+  vocabulary; later chapters must stay consistent with these flower→meaning
+  mappings.
+- **Town-chorus roster** (Ch1, canon-promoted) — Harlan Beech (hardware store,
+  won't look up) and Donna Rives (post office, stopped coming Thursdays) carry
+  the pariah-chorus weight. Track for Ch6 escalation (Harlan looks up in Ch5).
+- **Prior series hand-character canon** (Ch1, canon-promoted) — Jacob Wren:
+  cramped cipher. Pike: eager downhill slant. Eleanor: looping familiar voice.
+  Marguerite: small, precise, steady, blue-black ink. Keep these descriptions
+  consistent across books.
