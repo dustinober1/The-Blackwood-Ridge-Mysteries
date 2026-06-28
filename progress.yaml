@@ -1,0 +1,11 @@
+stages:
+  concept: complete
+  bible: pending
+  outline: pending
+  draft: pending
+  revise: pending
+  polish: pending
+  export: pending
+  package: pending
+  publish: pending
+chapters: []   # populated during /novella-outline: [{n, title, pov, word_target, status}]
