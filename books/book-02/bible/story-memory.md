@@ -202,3 +202,23 @@ source: series-bible/story-memory.md
   cramped cipher. Pike: eager downhill slant. Eleanor: looping familiar voice.
   Marguerite: small, precise, steady, blue-black ink. Keep these descriptions
   consistent across books.
+- **Garden floriographic mappings** (Ch2, canon-promoted) — rosemary (remembrance),
+  rue (sorrow/regret), white violets (modesty, distinct from sweet violet/faithfulness
+  in the book), pansies (thoughts), peony (shame), narcissus (self-love/return of
+  affection), maidenhair fern (sincerity/secret/magic), myrtle (love), basil
+  (hatred/poverty), hollyhock (ambition), yellow rose (betrayal), columbine (folly).
+  The garden vocabulary IS the cipher vocabulary — two texts, one legend.
+- **The empty bed with pulled stakes** (Ch2, canon-promoted) — hollyhock, yellow rose,
+  columbine (ambition, betrayal, folly) pulled up by the root, leaving only the stakes.
+  Marguerite "weeded her own garden of its hatreds." A garden sub-motif.
+- **The 1994 stone marker** (Ch2, canon-promoted) — a memorial stone in the
+  remembrance bed, not a grave (no body), with the year chiseled rough. Added to
+  Dabney garden description.
+- **Marguerite's will directing the book to Callie** (Ch2, canon-promoted) — "She
+  wrote you down for the books... the annotated one to be priced by you personally."
+  Confirms the "bet on Callie" as diegetic fact, not inference.
+- **Doris tending Marguerite's garden** (Ch2, canon-promoted) — the remembrance bed's
+  own subject on her knees in it daily. Garden-club-in-limbo framing.
+- **Doris's dialect** (Ch2, style-sheet note) — "she run" for "she ran" is deliberate
+  Virginia dialect. The echo structure ("said she run / did not run") requires the
+  identical word. Do not "correct" in proof.
