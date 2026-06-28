@@ -165,3 +165,62 @@ space is used deliberately around revelations and emotional turns.
 
 > ~ She felt a deep sense of betrayal wash over her. ~
 > (Names the emotion instead of showing it.)
+
+---
+
+## Book 2 — Voice extensions
+
+> The series voice DNA above is preserved. These are book-specific registers and
+> prose moves added for *The Botanical Confession*.
+
+### POV diction — Book 2 additions
+
+- **Marguerite Dabney (encountered only through her hand):** She never speaks in
+  the present tense. Callie reads her *through* the handwriting — and the prose
+  should let the reader feel Marguerite's character the way Callie does: the
+  small, precise, steady letters; the patience; the playfulness that Book 1's
+  ending already established. Describing her hand should carry the same weight
+  as describing a living speaker's voice. Marguerite "sounds" exacting, dry,
+  deliberate — a woman who enjoyed the hiding because she trusted the finder.
+
+- **Doris Coalter (dialogue):** Virginia, unhurried, precise, short sentences.
+  She lets silences sit until the other person fills them. No metaphors, no
+  endearments — the opposite of Mae's register, which is how the reader tells
+  two older Virginia women apart. Dry, almost flat; the grief is in what she
+  doesn't say. When shaken, she goes shorter, not longer.
+
+- **Wells Ambler (dialogue):** Warm baritone, the practiced cadence of a man
+  used to being listened to. Encouraging questions that are really boundaries
+  ("How can I help you with this?"). He remembers and uses names — a kindness
+  that becomes a cage. **Under pressure the warmth doesn't vanish — it thins.**
+  The sentences get shorter and cleaner; the charm drops out; what's left is
+  precise and controlled. Callie reads his hands: the tell is the open-palm
+  gesture held a half-second too long, the practiced openness that becomes
+  effort.
+
+### Signature moves — Book 2 additions
+
+- **The cipher-decoding moment (franchise signature, adapted):** The Book 1
+  decoding move slows over letter shapes, pen pressure, the ghost of the hand.
+  Book 2 adapts it for the floriographic cipher: slow over the *color* of a
+  flower-plate, the *name* written beside it, the floriographic meaning that
+  clicks into a word — then the sentence snaps short. The pleasure is botanical
+  and seasonal, not just paleographic. Two layers decode at once: what the
+  flower means, and what Marguerite meant by choosing it.
+
+- **The wet hemline:** A single physical detail (Wells returning from the dock,
+  wet to the knees, as Marguerite saw him) that recurs and accrues weight each
+  time. Introduce it obliquely; let the reader feel it sharpen.
+
+- **Garden-as-text:** Marguerite's garden is a second cipher — flowers planted
+  by meaning. When Callie walks it, she reads it the way she reads margins. This
+  is a new signature image-logic for the book: the world as something annotated.
+
+### Banned patterns — Book 2 additions
+
+- No making Marguerite a saintly dead mentor. She was exacting and cowardly and
+  brave too late. The grief for her must be honest, not sentimental.
+- No making Wells a mustache-twirling villain. If he reads as a monster, the
+  theme collapses. His warmth must stay legible even as he's cornered.
+- No easy catharsis at the reveal. Doris's devastation and Wells's relief-terror
+  must both be felt. Resist a clean "justice served" beat.

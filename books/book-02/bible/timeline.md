@@ -31,9 +31,67 @@ status: living
 - **Day 13:** Gus arrested. Scandal breaks. Town fractures. Eli cleared. Cross shakes Callie's hand. Mae comes to the door with soup.
 - **After:** Callie reclaims the shop, the tea, the glass. Finds a botanical book with an unknown hand's marginalia — hook into Book 2.
 
-### Book 2 — TBD
+### Book 2 — The Botanical Confession
 
-> Not yet outlined.
+#### Backstory (pre-Book 2, book-specific)
+
+- **~1968:** Marguerite Dabney begins teaching English at Blackwood Ridge High.
+  Over the following decades she founds the community garden club and teaches
+  floriography as a side passion.
+- **Summer 1994:** Lauren Coalter (17), Marguerite's student and garden-club
+  member, graduates. The night of the graduation party at Cedar Lake, Lauren
+  fights her boyfriend Wells Ambler (19) on the old dock at Blackwater Cove —
+  she is leaving him, leaving town. He shoves her; she strikes her head and does
+  not surface. He freezes, lets the dark water take her, walks home, and tells
+  no one. Marguerite, whose cottage is near the lake path, sees Wells return
+  alone, wet to the knees. She tells no one. The lake is dragged; no body. Lauren
+  is officially classified a presumed runaway.
+- **1994–2024:** Wells "turns his life around" — finishes a degree, returns to
+  Blackwood Ridge High as a teacher, rises to principal, marries, has two
+  children, becomes the town's pillar. He befriends Doris Coalter over the years
+  (groceries, kitchen visits) — penance and cover intertwined. Marguerite
+  watches, suspects, never confronts him, never proves anything. The silence
+  calcifies.
+- **~2025 (Book 1 events):** The founding scandal breaks. Marguerite, dying of
+  cancer, watches Callie Thorne crack it — and recognizes a successor: another
+  woman who reads what the town buries. In her last weeks she annotates her
+  beloved copy of *Flora's Lexicon of the Virginias* (1873) with a floriographic
+  cipher — a record of what she saw in 1994 and what she feared — intending it
+  to reach Callie.
+- **Shortly before Book 2 opens:** Marguerite Dabney dies (cancer, quietly). Her
+  library is sold as an estate lot through the Ridgeway Auction House.
+
+#### Story-present (Book 2, chronological skeleton — beats to be finalized at outline)
+
+- **Opening:** The Dabney estate lot reaches The Foxed Page; Eli Townsend (who
+  processed it at the auction house) flags the botanical to Callie. Callie
+  identifies the hand as the "unknown hand" from Book 1's ending and learns,
+  from the estate tag / obituary, whose hand it was — and that Marguerite is
+  dead.
+- **Inciting:** Callie begins decoding the floriographic cipher; meets Doris
+  Coalter (via the garden club / estate) and Mae (who knew Marguerite). Realizes
+  the cipher points at a decades-old disappearance, not a fresh crime.
+- **Rising:** Decoding deepens. The town (post-Book 1 wariness) resists Callie's
+  involvement; Cross would rather she drop it. Wells, sensing threat, works
+  socially to discourage her — through the council, through parents, through
+  Doris's trust. Marguerite's cipher yields the wet-hemline memory and the name
+  Ambler.
+- **Midpoint:** Callie cracks the floriographic key fully — the cipher reveals
+  not certainty but Marguerite's record of what she saw, and points to where
+  Lauren is (the old dock, Blackwater Cove). The moral weight lands: this is an
+  accusation from the grave against the town's most beloved man.
+- **Climax:** With the cipher and (likely) a nudge from Mae, Cross is persuaded
+  to search Blackwater Cove. Lauren's remains are recovered. Physical evidence
+  moves Cross at last. Wells is cornered — and the book lets him ask whether
+  thirty-two years of decency cancels one buried night.
+- **Resolution:** Wells faces consequence (legal process begins, offstage or
+  muted per cozy register). Doris gets her answer at devastating cost — the man
+  she'd let become family. Callie has solved it and proven her methods — and the
+  town's trust has not recovered. Useful, not welcome. Bergamot tea: almost
+  right, not quite. Eli has asked his questions.
+
+> Note: exact chapter beats and the legal-resolution shape are fixed at the
+> `/novella-outline` stage.
 
 ### Book 3 — TBD
 

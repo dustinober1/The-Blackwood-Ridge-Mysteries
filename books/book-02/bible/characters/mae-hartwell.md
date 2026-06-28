@@ -110,6 +110,54 @@ Callie did it. Understanding doesn't erase the pain.
   plea to stop digging as agonizingly reasonable — not as cowardice or
   cover-up, but as genuine love for innocent people. If Mae works, the theme
   works.
-- Her relationship with Callie is the one whose fracture hurts the most at the
-  ending. Callie loses the town's trust generally, but losing Mae specifically
+- Her relationship with Callie is the one whose fracture hurts the most at
+  the ending. Callie loses the town's trust generally, but losing Mae specifically
   is the personal devastation.
+
+---
+
+## Book 2 — The Botanical Confession
+
+> Canon identity, voice, wound, and appearance above are preserved. This section
+> layers the Book-2 arc.
+
+### State entering Book 2
+Per carry-forward: she knocks now, where she used to walk in. Still brings soup.
+The fracture from Book 1 is fresh and not healing — understanding doesn't erase
+the pain. Her promise to Eleanor ("look after Callie") still binds her even
+through the wound.
+
+### Desire (Book 2)
+Stop the town from taking a second wound. She watched the founding scandal
+fracture Blackwood Ridge; she cannot bear Callie pulling another thread so soon.
+Her plea to stop is, again, agonizingly reasonable — not cowardice, but love.
+
+### The mirror (Book 2 theme function)
+Mae kept her own silence for decades (the Hartwell secret). Marguerite Dabney
+kept hers for thirty-two years. Mae *understands* Marguerite — and that
+understanding is the book's quiet moral engine. Mae is what Marguerite could have
+become if she'd spoken even a little sooner. This is the lever.
+
+### Arc (Book 2)
+Small and redemptive. Mae begins by begging Callie to stop (the old pattern).
+But as she sees what "speaking too late" cost Marguerite and Doris, she
+recognizes her own near-miss — and chooses, quietly, to speak a little earlier.
+She gives Callie one piece she'd been holding (a memory of Marguerite's last
+months, or a nudge to Cross). Not a grand gesture; a single act of breaking her
+own habit. The Callie–Mae relationship does not heal in this book — but it
+stops calcifying.
+
+### Relationships (Book 2)
+- **Marguerite Dabney (deceased, contemporary):** Fellow garden-club generation.
+  They knew each other well. Mae may hold a fragment of Marguerite's last months
+  she doesn't realize she holds — a visit, a remark, a borrowed book.
+- **Callie:** Still the surrogate granddaughter. Still knocking. The plea to
+  stop digging is softer this time, sadder — Mae has learned, a little.
+- **Doris Coalter:** Fellow older woman of the town. The reveal lands on Mae as
+  empathy — she can imagine Doris's position because she has her own version of
+  complicity-by-silence.
+
+### Notes (Book 2)
+- Mae knew Marguerite. Establish the friendship early — it's the thread Callie
+  pulls, and it's what makes Mae's arc land (she is helping solve the case of a
+  woman who did what Mae almost did).

@@ -128,3 +128,65 @@ fortress, but she's finally, painfully, alive.
   skill that connects her to her mother also keeps her locked in the past.
 - The bittersweet ending lands harder because of Eleanor: Callie loses the
   community, but she also breaks the cycle her mother never could.
+
+---
+
+## Book 2 — The Botanical Confession
+
+> Book-1 identity, wound, voice, and appearance above remain canon. This section
+> layers the Book-2 arc on top. Nothing above is contradicted.
+
+### Desire (Book 2)
+Honor the trust a dying stranger placed in her. Marguerite Dabney aimed a
+ciphered book at The Foxed Page because she'd watched Callie crack the founding
+scandal and recognized a successor. Callie wants to deserve that bet — to finish
+what the careful woman could not.
+
+### Need (Book 2)
+Decide whether delivering a truth that *only* harms is still her duty. Book 1
+tested "is uncovering the past worth the cost?" and Callie answered yes. Book 2
+tests the harder version: what if the past only burns, and the person who wanted
+it told is already dead? She must move from "uncover the past" to "reckon with
+the invoice."
+
+### Pariah state (entering)
+Per carry-forward: no longer the invisible shopkeeper; not yet accepted as
+anything else. The town flinches from her on contact. The bergamot tea is
+reclaimed but untested under new pressure — this book asks whether it tastes
+right yet. (Answer, by the end: almost. Not quite.)
+
+### Arc (Book 2)
+Starts testing whether her reclaimed life holds. It does, and it doesn't. She
+solves the Dabney case and proves her methods again — but the town's trust has
+not recovered, and this case earns her no goodwill. She ends "useful, not
+welcome," exactly the slot's ending state. The reclamation is real; the
+belonging is not.
+
+### Relationships (Book 2)
+- **Marguerite Dabney (posthumous):** Mirror and warning. A woman who encoded
+  what she couldn't say and waited too long. Callie reads her hand and grieves a
+  woman she never met — and sees, in Marguerite's silence, what she herself
+  could become if she lets silence win.
+- **Doris Coalter:** The human cost she is serving. Gatekeeper → wary ally → the
+  woman Callie finally tells. Complex — Doris is grateful and furious in equal
+  measure, and Callie carries both.
+- **Wells Ambler:** The mirror inversion. He buried truth to protect himself;
+  she exhumes it regardless of cost. She cannot understand him; she cannot quite
+  forgive him. The book lives in that gap.
+- **Mae (strained):** See Mae's file. The door is open but different.
+- **Cross (still resistant):** See Cross's file. The handshake lingers; the
+  partnership does not.
+- **Eli (background):** The apprenticeship seed — see Eli's file.
+
+### New recurring memories / images (Book 2)
+- A dying woman's deliberate hand — small, precise, patient, the pen pressure
+  fading in the final plates.
+- The wet hemline (Marguerite's memory of Wells returning from the dock).
+- Flora's Lexicon of the Virginias — the smell of its old plates, the colors of
+  its annotated flowers.
+- Cedar Lake at dusk, black water, the old dock at Blackwater Cove.
+
+### Things she refuses to say (Book 2)
+- That she is relieved to have a case again, because it means she doesn't have
+  to sit in the reclaimed quiet and find it empty.
+- That she recognizes Marguerite's silence — that she has her own version of it.

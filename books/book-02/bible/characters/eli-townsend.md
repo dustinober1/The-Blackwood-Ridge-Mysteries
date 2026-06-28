@@ -94,3 +94,47 @@ Saving him is what makes the cost of truth bearable, at least partially.
   the stakes concrete: a real, vulnerable person goes to prison if Callie fails.
 - Keep his page time modest — he doesn't need a full subplot, just enough
   presence that the reader fears for him.
+
+---
+
+## Book 2 — The Botanical Confession
+
+> Canon identity, voice, wound, and appearance above are preserved. This section
+  layers the Book-2 arc.
+
+### State entering Book 2
+Per carry-forward: cleared, standing taller, introducing himself to customers
+instead of hiding in the back. Still at the Ridgeway Auction House. Callie earned
+his trust; he doesn't know how to thank her.
+
+### Role in Book 2 (background — apprenticeship seed)
+The slot requires Eli stays background: no subplot, just the seed of his later
+arc. His single important beat: he is the one who, processing the Dabney estate
+lot at the auction house, flags the botanical book to Callie. He noticed a book
+mattered — because Callie, in Book 1, taught him to look. That is the entire
+apprenticeship origin: one boy, one book, one moment of noticing.
+
+### Desire (Book 2)
+Keep earning his place. He is beginning, tentatively, to think of himself as
+someone who belongs — and that gives him the courage to do one small thing
+(flag the book) that he would not have done six months ago.
+
+### Arc (Book 2)
+Tiny but load-bearing for the series. He asks Callie one or two questions about
+archival work — how she knew the book mattered, what she sees when she looks at
+margins. She answers. The seed is planted. He does not yet know it will become
+his life.
+
+### Relationships (Book 2)
+- **Callie:** The person who saved him, now becoming (very slowly, very quietly)
+  the person he might learn from. He is careful around her — grateful, a little
+  awed — but he asks his questions, which is new.
+- **The Dabney estate lot:** His contribution to the case. He doesn't know what
+  he's handed Callie. He just knew the book felt important.
+
+### Notes (Book 2)
+- Resist giving Eli more page time. His function is the seed — one scene, maybe
+  two, where he notices and asks. The reader (and the series) will remember it
+  come Book 7; this book should not foreground it.
+- His growing confidence should read as natural, not triumphant — a scared kid
+  standing a little straighter, not a hero emerging.

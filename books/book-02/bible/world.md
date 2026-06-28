@@ -160,3 +160,56 @@ the warmth, the sharper the chill.
 - The Foxed Page and the archives are the two most important locations —
   they're Callie's dual homes (the public shop and the private research space),
   and the story moves between them.
+
+---
+
+## Book 2 — Locations (added for The Botanical Confession)
+
+> Series-canon locations above are preserved. These are book-specific additions.
+
+- **Blackwood Ridge High School:** Where Marguerite Dabney taught for forty
+  years and where Wells Ambler is now principal. A brick building on the east
+  edge of town, 1960s construction over an older foundation, the kind of school
+  where the trophy case goes back decades and everyone's parents attended.
+  Matters because: it is the institution both Marguerite and Wells served, the
+  world Lauren was about to leave, and the social base of Wells's power. Callie
+  will feel the school's regard for him as a physical pressure.
+
+- **The Dabney house & garden:** Marguerite's home, a modest Victorian cottage
+  on a side street with a legendary garden — the unofficial headquarters of the
+  community garden club. Rosemary at the kitchen door, a floriography bed
+  (flowers planted by meaning, not color), the back room where she annotated.
+  Matters because: Callie comes here to read Marguerite through what she grew.
+  The garden is a second cipher — it spells out, in flowers, what its owner
+  cared about. After Marguerite's death it is being cleared by her estate; the
+  garden club tends it in limbo.
+
+- **Cedar Lake & Blackwater Cove:** A reservoir/lake in the hills outside town,
+  the local swimming and party spot. Blackwater Cove is the quiet, deep, silted
+  cove where the old dock was — the site of the 1994 graduation party and of
+  Lauren Coalter's death. The dock has been gone for years; the cove is now
+  avoided, half-forgotten. Matters because: it is Lauren's grave and the book's
+  procedural climax — when the cipher gives the location, the recovery here is
+  what finally moves Cross. The water is dark, cold, deep. The place should feel
+  heavy even in daylight.
+
+- **The garden club & its annual show:** The Blackwood Ridge Garden Club,
+  founded by Marguerite, meets monthly and holds a late-spring show (set on the
+  town square / Historical Society grounds). Matters because: it is the social
+  world the cipher is built from, the community that remembers Lauren and
+  Marguerite, and the seasonal clock of the book (late spring, everything
+  blooming as a buried death surfaces). Doris, Marguerite, and Mae are all of
+  this generation.
+
+- **Coalter house:** Doris's small home. Lauren's graduation photo on the
+  mantel (turned to face the room each morning). The half-finished scarf. The
+  kitchen table where Wells has set groceries for thirty years. Matters because
+  it is the emotional interior of the victim's side and the site of the book's
+  most painful confrontation.
+
+## Book 2 — Season
+Late spring, the school year ending. Peonies, roses, the garden club's show
+approaching. The warmth is deliberate and ironic — everything blooming while a
+thirty-two-year-old death surfaces. Contrasts with whatever Book 1's season was;
+gives Book 2 its own sensory register (green growth, pollen, long evenings,
+the lake warm enough to swim).

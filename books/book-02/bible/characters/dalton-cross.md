@@ -101,3 +101,52 @@ about how easily he could have jailed an innocent man.
   "official channels" that can't see what Callie sees.
 - His near-arrest of the wrong person is the ticking clock that forces Callie
   to act before the truth is buried permanently.
+
+---
+
+## Book 2 — The Botanical Confession
+
+> Canon identity, voice, wound, and appearance above are preserved. This section
+  layers the Book-2 arc.
+
+### State entering Book 2
+Per carry-forward: he shook Callie's hand at the end of Book 1 — grudging respect
+established, first gesture of professional equality. He will be less dismissive
+of her in future — but **still procedural and resistant** (per slot). The
+respect is real; it is not yet partnership.
+
+### Desire (Book 2)
+Close this cleanly and quietly. Marguerite's death is natural; there is no fresh
+homicide for him to work. The case Callie is dragging up is thirty-two years
+cold, and reopening it will only tear the town further. He would like Callie to
+drop it.
+
+### The harder blind spot (Book 2)
+His instinct to protect the town's comfortable illusions cuts the wrong way here:
+Wells Ambler is a colleague, a respected principal, the kind of man Cross leans
+on. Cross does not *want* to believe Callie, and his procedural rigidity becomes
+(partly unconsciously) a shield for Wells. He needs what his character has always
+needed: evidence in a baggie with a chain-of-custody form. The cipher isn't it.
+What moves him, finally, is physical evidence — Lauren's body, recovered from
+Cedar Lake once the cipher gives the location. His rigidity is both obstacle and,
+in the end, validator: when he moves, he moves on solid ground.
+
+### Arc (Book 2)
+He does not become Callie's partner in this book (that's Book 4, per series
+outline). He remains resistant — but the resistance costs him something this
+time. He likes Wells. Believing Callie means betraying a man he considers a
+friend. By the end he does his duty, but it's personal, and it leaves a mark.
+The door to formal partnership is not opened; it's just shown to exist.
+
+### Relationships (Book 2)
+- **Wells Ambler:** Colleague and quiet friend. The case makes Cross choose
+  between professional duty and personal regard — and the choice is not easy.
+- **Callie:** Grudging respect, still resistant. He listens more than in Book 1,
+  but he does not act on her methods until the evidence is physical.
+- **Mae:** She's the one who can still get through to him. A nudge from Mae late
+  in the book may be what tips him toward taking the lake search seriously.
+
+### Notes (Book 2)
+- The slot forbids rehabilitating Callie's reputation or forming the partnership
+  yet. Cross's movement here is incremental — he does his job, finally, but
+  without warmth. Useful, not allied.

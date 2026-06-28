@@ -1,11 +1,51 @@
 stages:
-  concept: pending
-  bible: pending
-  outline: pending
+  concept: complete
+  bible: complete
+  outline: complete
   draft: pending
   revise: pending
   polish: pending
   export: pending
   package: pending
   publish: pending
-chapters: []
+chapters:
+  - n: 1
+    title: "The Estate Lot"
+    pov: "Callie Thorne"
+    word_target: 3000
+    status: pending
+  - n: 2
+    title: "Floriography"
+    pov: "Callie Thorne"
+    word_target: 3000
+    status: pending
+  - n: 3
+    title: "The Open Palm"
+    pov: "Callie Thorne"
+    word_target: 3200
+    status: pending
+  - n: 4
+    title: "The Wet Hemline"
+    pov: "Callie Thorne"
+    word_target: 3200
+    status: pending
+  - n: 5
+    title: "The Language of Flowers"
+    pov: "Callie Thorne"
+    word_target: 3200
+    status: pending
+  - n: 6
+    title: "The Closing Ranks"
+    pov: "Callie Thorne"
+    word_target: 3000
+    status: pending
+  - n: 7
+    title: "Blackwater Cove"
+    pov: "Callie Thorne"
+    word_target: 3400
+    status: pending
+  - n: 8
+    title: "What the Garden Knew"
+    pov: "Callie Thorne"
+    word_target: 3000
+    status: pending

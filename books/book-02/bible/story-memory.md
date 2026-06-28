@@ -100,3 +100,89 @@ source: series-bible/story-memory.md
   cast: watch hands.
 - **The signature log in the archives** — who signed in and when becomes
   evidence. Maintain as a living mechanic.
+
+---
+
+## Book 2 — Objects, motifs, and callbacks (book-specific)
+
+> Extends the seeded obligations above. Nothing in the series canon section is
+> contradicted.
+
+### The keystone document
+- **"Flora's Lexicon of the Virginias" (1873)** — fictional regional Victorian
+  floriography; the annotated book. Hand-colored plates, each primary flower
+  carrying a floriographic meaning. Marguerite's cipher: each plate's flower
+  encodes a word; the dates/names written alongside form the documentary
+  skeleton; the "not quite English" wider-margin passages are her private
+  teaching shorthand, decipherable once the floriographic key is held. This is
+  the book Callie found at the end of Book 1; in Book 2 she identifies the hand
+  as Marguerite Dabney's and learns the book arrived via the Dabney estate lot
+  (flagged by Eli). Physical detail to track: modern blue-black ink, small
+  precise steady hand, pen pressure fading in the final plates (the dying
+  woman's race).
+
+### Motifs and callbacks (Book 2)
+- **The wet hemline** — what Marguerite saw: Wells returning from Blackwater
+  Cove, wet to the knees, the night Lauren vanished. Recurs, accruing weight.
+  Introduced obliquely; sharpens each time.
+- **The open palm** — Wells's practiced gesture of having nothing to hide.
+  Callie reads hands (canon); the tell is the openness held a half-second too
+  long. Mirror of Gus Ralston's "hands tell" from Book 1 (over-control, not
+  tremor).
+- **The garden as text** — Marguerite's floriography bed, planted by meaning.
+  Callie reads it the way she reads margins. New image-logic for the book: the
+  world itself as something annotated.
+- **Lauren's graduation photo** — on Doris's mantel, turned to face the room
+  each morning. The absent girl made present.
+- **The half-finished scarf** — Doris has been knitting the same scarf since
+  1994. It is never done. When she stops knitting, the reader knows she's shaken.
+- **Rosemary at the kitchen door** — Marguerite's smell, her hedge, remembrance.
+  Callie encounters it in the Dabney garden and grieves a woman she never met.
+- **Cedar Lake / Blackwater Cove / the old dock** — the grave. Avoided,
+  half-forgotten, heavy even in daylight. The procedural climax site.
+
+### Private memories (Book 2)
+- **Marguerite:** the wet hemline; Lauren's hands in the garden soil at sixteen;
+  the last plate she annotated, where the pen pressure fades.
+- **Doris:** the knock at the door the night Lauren didn't come home; Wells's
+  grocery bag on her table for thirty years.
+- **Wells:** the three seconds on the dock before he let the water close.
+- **Callie:** recognizing Marguerite's silence — that she has her own version of
+  it. (Bergamot tea: almost right, not yet.)
+
+### Emotional scars in play (Book 2)
+- **Callie:** the pariah state — freshly reclaimed, untested. The case asks
+  whether delivering a truth that only burns is still her duty. Trigger: finding
+  someone alone in a room (still Eleanor; now also Marguerite, dying alone with
+  her cipher).
+- **Doris:** thirty-two years of frozen waiting — not mourning (no body), not
+  living (no closure). The reveal unfreezes the grief; it will hurt more, not
+  less.
+- **Mae:** recognizes herself in Marguerite (the careful silence). This is the
+  lever for her small Book-2 redemptive beat — choosing to speak a little
+  earlier.
+
+### Promises and debts in play (Book 2)
+- **Marguerite's bet on Callie** — she aimed the cipher at The Foxed Page
+  deliberately. Callie owes a dead woman the finish.
+- **Wells's penance to Doris** — thirty years of kindness that was real and was
+  also a cover. The debt can never be repaid; the reveal makes it a betrayal.
+- **Mae's promise to Eleanor** — still binding, still in tension with the
+  fracture. In Book 2 it nudges Mae to act (a memory of Marguerite, or a word to
+  Cross) rather than beg Callie to stop.
+- **Eli's debt to his father** — still unpaid, still background. Book 2 adds the
+  apprenticeship seed (Eli asks Callie about archival work) atop his one
+  plot-beat (flagging the Dabney estate lot).
+
+### Details to carry forward (Book 2)
+- **The Dabney estate lot** — the delivery mechanism for the cipher. Eli flagged
+  it; track it as evidence of his growing noticing.
+- **The garden club as social world** — the community that remembers both Lauren
+  and Marguerite. Mae, Doris, and Marguerite are all of this generation.
+- **Late-spring seasonality** — peonies, roses, the annual show approaching.
+  Sensory register distinct from Book 1.
+- **Callie's ink stains** — maintained (canon). Add: soil under her nails from
+  the Dabney garden, a new stain for a new case.
+- **Bergamot tea compass** — Book 2's answer to "does it taste right yet?":
+  almost. Not quite. The reclamation holds under pressure but does not deepen
+  into belonging. (Belonging is not this book's gift to give.)
