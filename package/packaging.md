@@ -162,6 +162,7 @@ A small brick bookshop with ivy on a rain-slicked village square at twilight. Ga
 
 ## Notes for the author
 
+- **Selected cover direction:** use the third reviewed version: dark plum/gold atmospheric bookshop cover with warm oil-lamp glow, bright annotated open book, brass magnifying glass, gold serif title treatment, subtle Blackwell & Sons Booksellers sign, and gold/cream author name.
 - Add title + author name + series label in Canva, Photoshop, or similar after generating the base image. Most AI image generators mangle text.
 - KDP requires JPEG or TIFF, 72+ ppi, under 50 MB. Convert the generated PNG to JPEG if needed.
 - Recommended export: 1600 x 2560 px JPEG at 300 ppi (oversampled is fine; KDP downsamples to 72 ppi for display).

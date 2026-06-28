@@ -7,7 +7,7 @@ stages:
   polish: complete
   export: complete
   package: complete
-  publish: pending
+  publish: complete
 chapters:
   - n: 1
     title: "The Auction"
