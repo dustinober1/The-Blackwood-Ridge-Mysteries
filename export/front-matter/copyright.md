@@ -1,4 +1,4 @@
-**Murder Most Annotated**
+**The Annotated Murder**
 
 Copyright © 2026 Vesper Blythe
 

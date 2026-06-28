@@ -1,4 +1,4 @@
-# Murder Most Annotated
+# The Annotated Murder
 
 **Vesper Blythe**
 
@@ -6,7 +6,7 @@
 
 \newpage
 
-**Murder Most Annotated**
+**The Annotated Murder**
 
 Copyright © 2026 Vesper Blythe
 
@@ -768,13 +768,13 @@ She opened the door.
 # Thank you for reading
 
 Reviews make a tremendous difference for independent authors. If you enjoyed
-*<em>Murder Most Annotated</em>*, please consider leaving a review on Amazon —
+*<em>The Annotated Murder</em>*, please consider leaving a review on Amazon —
 even a few words help other readers find the book.
 
 \newpage
 
 # The Blackwood Ridge Mysteries
 
-*Murder Most Annotated* is Book 1 in the Blackwood Ridge Mysteries series.
+*The Annotated Murder* is Book 1 in the Blackwood Ridge Mysteries series.
 
 Book 2 — Coming Soon

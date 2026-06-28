@@ -14,7 +14,7 @@ pandoc manuscript-combined.md \
   -f markdown \
   -t epub3 \
   --toc --toc-depth=1 \
-  --metadata title="Murder Most Annotated" \
+  --metadata title="The Annotated Murder" \
   --metadata author="Vesper Blythe" \
   --metadata lang="en" \
   -o "murder-most-annotated.epub"

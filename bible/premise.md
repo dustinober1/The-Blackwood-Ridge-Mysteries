@@ -1,5 +1,5 @@
 ---
-title: "Murder Most Annotated"
+  title: "The Annotated Murder"
 series: "The Blackwood Ridge Mysteries"
 series_book: 1
 genre: "Cozy Mystery / Amateur Sleuth"

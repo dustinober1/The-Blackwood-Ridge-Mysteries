@@ -1,4 +1,4 @@
-# Content Notes — Murder Most Annotated
+# Content Notes — The Annotated Murder
 
 (Consolidated from sensitivity-reader passes; accumulated across chapters for KDP listing surfacing.)
 

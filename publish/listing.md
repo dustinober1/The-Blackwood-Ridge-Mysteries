@@ -111,8 +111,8 @@ Note: verify exact paths in the KDP dashboard at publish time — Amazon restruc
 
 ## Launch checklist (author TODO)
 
-- [ ] Update cover text: change "Murder Most Annotated" to "The Annotated Murder" on the selected cover design
-- [ ] Export final cover as 1600 × 2560 px JPEG, 72+ ppi, under 50 MB
+- [x] Update cover text: change "Murder Most Annotated" to "The Annotated Murder" on the selected cover design
+- [x] Export final cover as 1600 × 2560 px JPEG, 72+ ppi, under 50 MB
 - [ ] Upload to KDP: EPUB from `export/murder-most-annotated.epub` + cover JPEG
 - [ ] Paste primary blurb into KDP description field
 - [ ] Enter the 7 keywords above

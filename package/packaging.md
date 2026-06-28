@@ -4,7 +4,7 @@ format: ebook
 target_dimensions: "1600x2560 px (1:1.6)"
 ---
 
-# Packaging — Murder Most Annotated
+# Packaging — The Annotated Murder
 
 ## Bestseller research
 
@@ -108,7 +108,7 @@ Minimalist composition. A brass magnifying glass hangs from a dark leather cord 
 
 ### Typography
 
-- **Title font:** Elegant serif (e.g., Cormorant Garamond, Playfair Display). Refined, literary feel — not playful or rounded. The title "Murder Most Annotated" is itself literary (allusion to Shakespeare), so the type should match.
+- **Title font:** Elegant serif (e.g., Cormorant Garamond, Playfair Display). Refined, literary feel — not playful or rounded. The title "The Annotated Murder" is itself literary (allusion to Shakespeare), so the type should match.
 - **Author name:** Slightly smaller than title, same serif family or a clean sans-serif (e.g., Lato, Source Sans). Placed below title with generous spacing.
 - **Series label:** Small, unobtrusive. "The Blackwood Ridge Mysteries · Book 1" in caps or small caps, placed between title and author or at the bottom.
 - **Hierarchy (top to bottom):** Series label (smallest) → Title (largest, most prominent) → Author name (second largest).
