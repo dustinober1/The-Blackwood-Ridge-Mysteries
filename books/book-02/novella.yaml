@@ -1,0 +1,9 @@
+title: "The Botanical Confession"
+genre: "Cozy Mystery / Amateur Sleuth"
+target_words: 25000
+series:
+  type: book-2-of-8
+  name: "The Blackwood Ridge Mysteries"
+  number: 2
+  parent_series_dir: "../.."
+created: "2026-06-28"
