@@ -1,0 +1,9 @@
+title: "The Challenger"
+genre: "Cozy Mystery / Amateur Sleuth"
+target_words: 25000
+series:
+  type: book-3-of-8
+  name: "The Blackwood Ridge Mysteries"
+  number: 3
+  parent_series_dir: "../.."
+created: "2026-06-29"
