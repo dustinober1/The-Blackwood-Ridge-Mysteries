@@ -10,7 +10,7 @@ books:
   - n: 2
     title: "The Botanical Confession"
     dir: "books/book-02"
-    status: drafted
+    status: exported
   - n: 3
     title: "The Challenger"
     dir: "books/book-03"
