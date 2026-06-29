@@ -128,3 +128,13 @@ fortress, but she's finally, painfully, alive.
   skill that connects her to her mother also keeps her locked in the past.
 - The bittersweet ending lands harder because of Eleanor: Callie loses the
   community, but she also breaks the cycle her mother never could.
+
+## Appearances
+
+### Book 2 — The Botanical Confession
+- **State entering:** Pariah state fresh from Book 1 ("useful, not welcome"); bergamot compass at "almost right, not quite"; glass reclaimed but the reclamation untested under new pressure.
+- **Arc:** Decoded Marguerite Dabney's floriographic cipher (a new hand, a new decoding signature — the franchise move adapted for botanical plates); delivered the dead woman's accusation to a town that did not want it; refused the careful-woman exit twice (midpoint + all-is-lost); lost Doris's kitchen and the archive and the town's residual tolerance; gained Eli as a Saturday apprentice.
+- **State exiting:** Pariah state **confirmed as resolved** — neither rehabilitated nor crushed. Glass fully reclaimed ("Not Eleanor's glass. Hers"). Bergamot compass resolved to "almost-right was its own answer" (the register she cannot find — Eleanor's kitchen — acknowledged as likely-gone; belonging is not this book's gift to give). Made an interior vow against Marguerite's silence: *not like this*.
+- **New wound/seed to track:** The forbidden question — "*Are you so different, Callie Thorne, from the man who buried it?*" — left standing, unanswered, "a stone in a current." Series-level recurring Callie-vow/wound: the cost of her own vocation (exhuming truth regardless of cost) mirrored against Wells's compulsion to cover. Pair with *not like this* as her defining tension.
+- **New skill demonstrated:** Reading the garden-as-text (floriography) alongside the book-as-text; the two-text, one-legend decoding is a new franchise signature.
+- **Relationships updated:** Doris Coalter (new — dismissed her, "you can go now, Callie"; the broken promise to bring the truth to Doris first sits unaddressed). Eli (advanced — now apprentice). Mae (advanced — Mae confirmed Marguerite's bet; fracture might soften). Cross (unchanged structurally — the door exists, is not opened).

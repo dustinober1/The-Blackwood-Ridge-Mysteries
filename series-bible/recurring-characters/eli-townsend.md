@@ -94,3 +94,12 @@ Saving him is what makes the cost of truth bearable, at least partially.
   the stakes concrete: a real, vulnerable person goes to prison if Callie fails.
 - Keep his page time modest — he doesn't need a full subplot, just enough
   presence that the reader fears for him.
+
+## Appearances
+
+### Book 2 — The Botanical Confession
+- **State entering:** Cleared; standing taller; introducing himself to customers instead of hiding. Trust with Callie earned. Apprenticeship seed planted in bible but not yet dramatized.
+- **Arc:** Flagged the Dabney estate lot's provenance to Callie (he identified Marguerite's hand in three more volumes — his noticing is now an active investigative asset, not just background). Over the book he practices "not apologizing for taking up space" — cut his hair, wears shirts with buttons (touches the collar as a badge of the new habit). Asked Callie the book's key human question: "How do you know? When you look at a page — at someone's handwriting — how do you know if it means something?" Received her real answer (not the professional one). Then: "Could you teach me? To see that?" — the apprenticeship seed, formally asked. Callie: "I can try." At the close, formalized: "You come in on Saturdays. I'll show you what I can."
+- **State exiting:** Apprenticeship **committed** — Saturdays at The Foxed Page. Standing straighter; his hand is now steady (new — "the steadiness was new," the anxiety-to-confidence evolution's next step). Collar-touching persists but reads as a badge, not an apology. "He was past the *thank you*, into the place where a person just nods because the words have been said and the rest is the work."
+- **Father's debt:** Still unpaid. "Call when you've figured things out" — he never calls. Book 2 does not resolve this; track for later books.
+- **Series arc seed promoted:** Origin of Eli's archival apprenticeship is now canon-delivered. Track for Book 5's "de facto apprentice" payoff (per series outline).

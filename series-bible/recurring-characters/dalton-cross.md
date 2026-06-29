@@ -101,3 +101,12 @@ about how easily he could have jailed an innocent man.
   "official channels" that can't see what Callie sees.
 - His near-arrest of the wrong person is the ticking clock that forces Callie
   to act before the truth is buried permanently.
+
+## Appearances
+
+### Book 2 — The Botanical Confession
+- **State entering:** Shook Callie's hand at the end of Book 1 (grudging respect; first gesture of professional equality). Still procedural and resistant per Book-2 slot, but less dismissive.
+- **Arc:** Read the whole decoded file before dismissing it — the first time he read Callie's evidence all the way through instead of refusing to look (new since Book 1; "not partnership, but the shape of a door"). Withheld his hat indoors when Callie came to his office (still resistant — the handshake's respect not yet extended; hat-withholding is the tell). Was asked to treat his friend Wells Ambler as a suspect; the resistance was partly personal (Wells sat with him through the winter when half the town wouldn't speak to either of them). Mae walked into his office and said one word; Cross moved — dive team, 6 a.m., "wear boots." Arrested Wells quietly: "the mechanical procedure of a man doing his duty over the ruins of a friendship." Did not shake Callie's hand at the close (the Book-1 handshake not repeated; the absence is the thing).
+- **State exiting:** Still a procedural guardrail — the door between him and Callie exists but is not opened. Did not say *good work* or *thank you* or *I should have listened sooner*. His hand went to the back of his neck and stayed there through the recovery — "the only part of him allowed to know what the rest of him was feeling." The friendship with Wells is destroyed; the professional cost of Book 2 sits on him.
+- **Tell refinement (canon):** Under personal pressure — when a friend's name enters a room he doesn't want it in — the tell is the **jaw** (set), not the neck-rub. The neck-rub is for being out of his depth generally; the jaw-set is specifically for friendship-versus-duty. Both are canon.
+- **Hat motif (canon):** Cross normally removes his hat indoors (genuine respect). Withholding it = deliberate resistance / withheld warmth. If a future book restores the hat-removal, it signals warming. Track.

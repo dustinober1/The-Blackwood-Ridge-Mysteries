@@ -6,8 +6,8 @@
   revise: complete
   polish: complete
   export: complete
-  package: pending
-  publish: pending
+  package: complete
+  publish: complete
 chapters:
   - n: 1
     title: "The Estate Lot"

@@ -110,6 +110,14 @@ Callie did it. Understanding doesn't erase the pain.
   plea to stop digging as agonizingly reasonable — not as cowardice or
   cover-up, but as genuine love for innocent people. If Mae works, the theme
   works.
-- Her relationship with Callie is the one whose fracture hurts the most at the
-  ending. Callie loses the town's trust generally, but losing Mae specifically
+- Her relationship with Callie is the one whose fracture hurts the most at
+  the ending. Callie loses the town's trust generally, but losing Mae specifically
   is the personal devastation.
+
+## Appearances
+
+### Book 2 — The Botanical Confession
+- **State entering:** Decades of complicit silence broken in Book 1; relationship with Callie strained but not destroyed. Fills rooms with warmth so no one asks what she's hiding. Knocks now where she used to walk in.
+- **Arc:** Marguerite Dabney visited her in October (cancer in her bones), sat in the reading-nook chair, asked whether Callie "saw things through" and would "read a book all the way to the end, even if the end was hard." Mae deflected — "I did the thing, Callie. The thing I always do." Recognized herself in Marguerite's careful silence. Chose, late, to undo it: confessed the October visit to Callie, then walked into Cross's office and said one word that moved him to search the cove.
+- **State exiting:** The fracture with Callie **might soften** — has not healed. Now knocks three times (the asking-permission knock) where she used to walk in. Her Book-2 gift and absolution-without-absolution: Callie's two-word line, "Earlier than Marguerite." Mae's redemptive arc is a micro-arc — she spoke eight months late, but earlier than Marguerite's thirty-two years. Track whether the calcification continues to soften or sets again in later books.
+- **Lavender:** Still her armor, "thinner now, strained" — the sachet-and-cinnamon smell registered as fading for the first time. A sensory marker to watch.
