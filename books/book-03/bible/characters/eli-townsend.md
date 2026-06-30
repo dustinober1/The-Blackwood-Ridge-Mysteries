@@ -97,6 +97,13 @@ Saving him is what makes the cost of truth bearable, at least partially.
 
 ## Appearances
 
+### Book 3 — The Challenger (entering state)
+- **State entering:** Saturday apprenticeship committed ("I'll show you what I can"). Standing straighter; hand steady (new). Collar-touching persists but reads as a badge, not an apology. "Past the *thank you*, into the place where a person just nods because the words have been said and the rest is the work." Father's debt unpaid ("Call when you've figured things out").
+- **Book 3 slot:** "Growing more confident, assisting Callie with research." His noticing becomes an active investigative asset (seeded Book 2 — he flagged provenance, identified hands). This book he may identify something in the record — a hand, a gap — that advances the case. Track the confidence arc without accelerating it.
+- **Puppet-master constraint (canon):** Do NOT surface Eli as steerer (Book 5+). Book 3 plants only the invisible Document-Y seed, which Eli has no part in Callie noticing. His assistance here is genuine apprenticeship, not steering.
+- **Father's debt:** Still accruing. Book 3 does not resolve it.
+- **Arc:** To be developed in outline. Do not accelerate to "de facto apprentice" (Book 5).
+
 ### Book 2 — The Botanical Confession
 - **State entering:** Cleared; standing taller; introducing himself to customers instead of hiding. Trust with Callie earned. Apprenticeship seed planted in bible but not yet dramatized.
 - **Arc:** Flagged the Dabney estate lot's provenance to Callie (he identified Marguerite's hand in three more volumes — his noticing is now an active investigative asset, not just background). Over the book he practices "not apologizing for taking up space" — cut his hair, wears shirts with buttons (touches the collar as a badge of the new habit). Asked Callie the book's key human question: "How do you know? When you look at a page — at someone's handwriting — how do you know if it means something?" Received her real answer (not the professional one). Then: "Could you teach me? To see that?" — the apprenticeship seed, formally asked. Callie: "I can try." At the close, formalized: "You come in on Saturdays. I'll show you what I can."

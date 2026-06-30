@@ -1,7 +1,7 @@
 ---
 doc: story-memory
 stage: bible
-status: seeded
+status: draft
 book: 3
 source: series-bible/story-memory.md
 ---
@@ -111,3 +111,77 @@ source: series-bible/story-memory.md
 - **The forbidden question (series-level recurring Callie-wound):** "*Are you so
   different, Callie Thorne, from the man who buried it?*" Left standing
   unanswered at end of Book 2. Pair with *not like this* as defining tension.
+
+## Book 3 new canon (extend, do not contradict series canon)
+
+- **Dr. Vivian Larter's hand (new hand — establish distinctly):** Forensic
+  linguist's hand — small, precise, even, blue-black ink; the hand of someone
+  trained to be legible. Callie reads it as *disciplined*, the hand of a woman
+  who taught herself not to be misread. Distinct from Wren (cramped cipher),
+  Pike (eager downhill slant), Eleanor (looping familiar voice), Marguerite
+  (small precise steady blue-black). Larter's precision could be mistaken for
+  Marguerite's at a glance — note the family resemblance and the difference
+  (Larter's is trained-flat hill-country; Marguerite's was natural economy).
+- **The stylometry-vs-intuition tension (the book's method axis):** Larter's
+  instrument measures *how* a person writes (function-word frequency,
+  syntactic habit); Callie reads *why* they wrote it (pressure, rhythm,
+  intention). The book tests whether attribution alone is justice or whether
+  motive is the real evidence. By the end Callie needs *both* — the
+  instrument names the gap, the intuition names the keeper. Do not let one
+  method "win"; let them be incomplete alone.
+- **The County Historical Society reading room (new location, new weight):**
+  Callie's *opponent's* archive — the room curated by the man who tampered
+  with the record. The marble bookends (polished weekly) become the murder
+  weapon. The signature log (canon mechanic) is evidence. The room smells of
+  lemon oil, old paper, and cold air — distinct from the bergamot-and-leather
+  of The Foxed Page and the cold-stone of the town archives.
+
+### Document X and Document Y (the engine + the seed)
+
+- **Document X (the engine — solved in-book):** A known handwriting sample of
+  the Beech clerk (Harlan's ancestor), removed from the County archive by
+  Harlan ~1994 to hide the 1850s amendment to the Wren notes. Its *absence*
+  is the gap Larter's stylometry detects. Callie identifies the gap, infers
+  X's existence, and — reading Harlan's hands (the stillness tell) and the
+  record (the empty shelf-space where X was) — names Harlan as the keeper who
+  buried. X is recovered or its removal proven; Harlan confesses. **Book-
+  contained.**
+- **Document Y (the seed — invisible, unresolved):** A second, related record
+  Callie infers while reconstructing the gap — a record that, if it existed,
+  would change her attribution *further* than X alone explains. It is not in
+  the archive, and Harlan did not take it. Callie attributes its absence to
+  loss/time. She does **not** know it was deliberately removed. (Future Eli
+  thread — do not name Eli, do not surface the steering in Book 3.) Plant
+  Y's absence as a quiet detail the reader might later remember; do not
+  underline it.
+
+### Book 3 character memory additions
+
+- **Callie:** The cerebral dread of being proven wrong — a new interior
+  register (see voice-dna.md). The moment she reads Larter's output and
+  cannot refute it. The moment she realizes Harlan is the answer to her
+  forbidden question (*yes, she is different — because she exhumes*). The
+  glass used on someone else's evidentiary terms for the first time.
+- **Larter (before death):** The ambushed smell of woodsmoke and lard (her
+  grandmother's kitchen) hitting her somewhere in Blackwood Ridge — a sensory
+  memory that humanizes her before she is a body. Let Callie like her.
+- **Harlan:** The peppermint he takes for the stomach that has troubled him
+  since the night he removed X. The brass bookend he polishes every Tuesday —
+  the murder weapon in plain sight. His Book 2 seed ("slowed at her door,
+  then swept past"; "looked up for the first time in weeks") reads in
+  retrospect as guilt. Do not retcon; let it pay off.
+- **Cross:** The hat-withholding tell is the warming signal to track. If he
+  removes his hat indoors in Callie's presence, the door is opening. His
+  blind spot this book: he trusts Harlan — the institutional figure who
+  hands him coffee.
+
+### Book 3 wounds to carry out (if series-promotable at publish)
+
+- **The forbidden question answered (provisionally):** *Yes, Callie is
+  different from the man who buried it — because she chooses to exhume.* This
+  is Book 3's thematic resolution; whether it hardens into series canon or
+  gets re-tested in later books is a `/novella-publish` decision.
+- **Document Y (unresolved):** Remains open into Books 4+. Do not resolve.
+- **Reputation state exiting Book 3:** "Grudging utility" — someone sought
+  her out; Cross begins to consult her. Not acceptance. (Series-outline slot
+  honored.)

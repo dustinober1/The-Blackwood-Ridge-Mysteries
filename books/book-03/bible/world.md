@@ -64,14 +64,9 @@ No magic, no supernatural. This is a grounded contemporary cozy mystery. The
   where Pike's body is found, where Eli works, and where the rare-book
   auction that opens the story takes place.
 
-- **The Blackwood Ridge Historical Society:** A restored Victorian house off
-  the square, funded largely by the Ralston family. Meeting rooms, display
-  cases, a small lecture hall. Mae Hartwell effectively runs it. The irony
-  is deliberate: Gus funds the institution that preserves the town's history,
-  while ensuring the most dangerous parts of that history stay buried. The
-  keystone document — the annotated book that proves the scandal — may have
-  been donated to the Historical Society's collection decades ago, hiding in
-  plain sight.
+- **The Blackwood Ridge Historical Society (closed):** A restored Victorian house off the square, formerly funded largely by the Ralston family — meeting rooms, display cases, a small lecture hall. Mae Hartwell effectively ran it. The institution that preserved the town's history while ensuring the most dangerous parts stayed buried. **Closed after Gus Ralston's arrest in Book 1** — the Ralston funding evaporated, the institution was tainted, and the town let it go dark. Its collections were partially transferred to the County Historical Society (see below). It stands shuttered in Book 3 — a boarded reminder of Book 1's cost. Do not set scenes here; it is a ruin of the prior book.
+
+- **The County Historical Society (Book 3 primary new location):** A separate, county-level institution on a hill a mile out of town — distinct from the shuttered town society and from the town archives in the basement of town hall. Brick, neo-colonial, built in the 1930s by the WPA. Climate-controlled stacks, a wood-paneled reading room with long oak tables and brass-handled card catalogs, marble bookends on every surface (polished weekly), and the smell of lemon oil, old paper, and cold air from the vents. **Harlan Beech is its head curator** — the keeper of records, the man who buried one. The reading room is where Dr. Vivian Larter works, where she presents her challenge, and where she is murdered (bludgeoned with a marble bookend after hours). The signature log at the front desk is evidence (canon: who signed in and when). This is the book's dual home alongside The Foxed Page — Callie's *opponent's* archive, where the record has been tampered with by the man who curates it.
 
 - **Ralston Hall (the Ralston estate):** An antebellum plantation house on a
   hill overlooking town. Impeccably maintained, open for tours and charity
@@ -150,6 +145,32 @@ see if the past will stay buried.
 
 The tonal shift between these registers IS the reading experience. The cozier
 the warmth, the sharper the chill.
+
+## Book 3 historical layer (new canon — distinct from the closed fraud)
+
+The founding fraud itself (Silas Ralston's land theft; Reverend Hartwell's
+murder) is **closed and public** since Book 1. Book 3 does **not** re-open it.
+
+Book 3 surfaces a *secondary* historical act: in the 1850s, the County clerk
+(an ancestor of Harlan Beech) **amended the Wren margin notes** — inserting a
+secondary hand writing in imitation of Wren's cipher, adding material that
+muddied the notes' attribution and indirectly shielded the Ralstons (and the
+clerk's own preferment). It was a small tampering — a few plausible
+annotations — but it bent the record. Callie's Book 1 decoding read the notes
+as a single hand; the amendment is the crack Larter's stylometry detects.
+
+The proof of the amendment is **Document X** — a known handwriting sample of
+the Beech clerk, unmistakable beside the amended notes. Harlan Beech found X
+decades ago, recognized what his ancestor had done, and removed it from the
+County archive before anyone could compare it. Larter's independent
+stylometric challenge now threatens to surface the attribution question
+without X, which is why Beech kills her.
+
+This layer is **book-contained**: the Beech amendment and Document X are
+solved within Book 3. They do not alter the public fraud verdict or the
+Ralston/Hartwell record. The puppet-master seed (**Document Y** — a second,
+related record Callie infers but cannot find, not taken by Beech) is planted
+invisibly and left unresolved for the series arc.
 
 ## Notes
 

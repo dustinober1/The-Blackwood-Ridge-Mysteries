@@ -63,6 +63,39 @@ space is used deliberately around revelations and emotional turns.
   "porch" not "veranda," but the confidence underneath is unmistakable. When
   he's calculating, his sentences get shorter and cleaner, losing the charm.
 
+### Book 3 additions
+
+- **Dr. Vivian Larter (in dialogue):** Measured, slightly formal, with a
+  hill-country cadence she has mostly trained flat — it surfaces on certain
+  vowels and under fatigue (a tell Callie, who notices voices, should catch).
+  Precise technical vocabulary (function-word frequency, syntactic habit,
+  confidence interval) deployed without showing off. She asks questions that
+  are really arguments. When she removes her reading glasses to make a point,
+  she is saying *this is me, not the apparatus*. Her register is the closest
+  to Callie's of any character in the book — two precise women who catalogue.
+  The kinship should be audible.
+
+- **Harlan Beech (in dialogue):** Quiet, measured, deferential — the mild
+  curator. Long pauses before he answers, framed as thoughtfulness (actually
+  caution). He deflects personal questions onto the collection. Over-helpful
+  when cornered (offers tea, fetches more boxes, becomes *more* courteous the
+  more threatened he is); under genuine threat the courtesy thins to a glassy
+  politeness and his voice goes flat and even — the calm of a man who has
+  already decided. No metaphors. He speaks the way a man indexes: by category,
+  by date, by provenance. The prose should make him sound like the most
+  harmless man in the room until it doesn't.
+
+## Book 3 register note
+
+The series' two-register pivot (cozy warmth ↔ gothic chill) gains a **third
+register** in Book 3: the **cerebral dread of being proven wrong.** It is
+quieter than the gothic chill — it lives in Callie's interior, in the moment
+she reads Larter's stylometric output and cannot refute it, in the silence
+after she realizes a gap exists in her own Book 1 work. It is the dread of the
+scholar, not the detective: that the edifice of her certainty has a crack she
+cannot see the far side of. Use it sparingly — once or twice — so it lands.
+It is the book's emotional signature underneath the murder.
+
 ## Sensory palette
 
 - **Sight:** Lamplight on old paper. The color of ink — iron-gall brown,

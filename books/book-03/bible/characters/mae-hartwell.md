@@ -116,6 +116,12 @@ Callie did it. Understanding doesn't erase the pain.
 
 ## Appearances
 
+### Book 3 — The Challenger (entering state)
+- **State entering:** Fracture with Callie "might soften"; has not healed. Micro-redemptive arc delivered in Book 2 ("earlier than Marguerite"). Now knocks three times (asking permission) where she used to walk in. Lavender "thinner now, strained" — the sachet-and-cinnamon armor fading.
+- **Book 3 slot:** "Slow thaw." Track whether the calcification continues to soften or sets again. The question: does external validation of Callie's work (someone sought her out) shift Mae's posture, or does it sharpen her fear of the cost?
+- **Open thread:** Mae's promise to Eleanor still binds. The County Historical Society sits adjacent to her world — she is the town's emotional archivist; Harlan is the county's paper one. There may be a moment of recognition between them (two keepers, one who buried).
+- **Arc:** To be developed in outline. Do not heal the fracture fully — the slot is "slow thaw," not reconciliation.
+
 ### Book 2 — The Botanical Confession
 - **State entering:** Decades of complicit silence broken in Book 1; relationship with Callie strained but not destroyed. Fills rooms with warmth so no one asks what she's hiding. Knocks now where she used to walk in.
 - **Arc:** Marguerite Dabney visited her in October (cancer in her bones), sat in the reading-nook chair, asked whether Callie "saw things through" and would "read a book all the way to the end, even if the end was hard." Mae deflected — "I did the thing, Callie. The thing I always do." Recognized herself in Marguerite's careful silence. Chose, late, to undo it: confessed the October visit to Callie, then walked into Cross's office and said one word that moved him to search the cove.

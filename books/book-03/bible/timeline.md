@@ -11,6 +11,8 @@ status: living
 - **1780s:** Blackwood Ridge founded. Original land grants issued to settling families, including the Hartwells. The Ralstons arrive later and establish themselves through trade and milling.
 - **1840s:** Silas Ralston orchestrates a land fraud. Jacob Wren, the town surveyor, is coerced into falsified survey records but secretly encodes the true measurements in margin notes. Wren flees town.
 - **1843:** Reverend Thomas Hartwell discovers the fraud and is killed — staged riding accident through Ralston influence over the magistrate.
+- **1850s (Book 3 layer — new canon):** The County clerk (Harlan Beech's ancestor) amends the Wren margin notes — inserts a secondary hand imitating Wren's cipher, adding material that muddies attribution and indirectly shields the Ralstons. A small, plausible tampering that bends the record. The clerk's known handwriting sample (Document X) would later prove it.
+- **~1994 (Book 3 layer):** Harlan Beech, then a young curator, finds Document X in the County Historical Society stacks, recognizes his ancestor's amendment, and removes X before anyone (especially the Thorne women) can compare it. He tells himself it is preservation. This is the founding act of his adult life.
 - **1840s–present:** The fraud calcifies into accepted history. The Ralstons become the town's benefactors. Oral fragments survive in whispers.
 - **~1985:** Eleanor Thorne establishes The Foxed Page antiquarian bookshop.
 - **~1994:** Eleanor gives Callie the brass magnifying glass and teaches her to read margin notes.
@@ -47,13 +49,27 @@ status: living
 - **Day 15 (climax):** Cross calls at 7 p.m.: dive team, 6 a.m., "wear boots." Mae had walked into his office and said one word. At Blackwater Cove: the graduation ring surfaces at 08:14, Lauren's remains at 09:00. Wells is called in, sees Callie, confesses to her ("She was leaving... I pushed... I didn't go in"), asks "Tell me it counted." Callie: "You built a good life, Wells. You built it over her. Both of those things are real." Cross arrests him. Callie signs the provenance statement. "She didn't run. She never ran."
 - **After (resolution):** Doris turns Lauren's photo to the wall, then back — the grief unfreezing ("moving water is heavier than still water"); "You can go now, Callie." The garden club votes to dissolve the Dabney floriography beds; cuttings dispersed into scattered yards. Callie's interior vow: *not like this* — she refuses Marguerite's silence. Eli's Saturday apprenticeship formalized. Mae's three-knock visit ("earlier than Marguerite"). Bergamot compass: "almost right. Not quite... the almost-right was its own answer." Glass: "Not Eleanor's glass. Hers." "that was enough. For now, that was enough."
 
-### Book 3 — TBD
+### Book 3 — The Challenger
 
-> Not yet outlined.
+**1994 (deep backstory, surfaced this book):**
+- **~1994:** Harlan Beech, young County Historical Society curator, finds Document X (his ancestor's known hand) beside the Wren margin notes, recognizes the 1850s amendment, and removes X from the County archive. Founding act of his concealment. (Contemporaneous with Eleanor giving Callie the glass — the same year the keepers diverged: one buried, one taught.)
 
-### Book 3 — TBD
+**Pre-book (recent backstory):**
+- **Months before:** Dr. Vivian Larter (forensic linguist, UVA) runs a stylometric re-attribution of the Wren margin notes corpus. Her model attributes portions of the notes to a different hand than Callie named in Book 1 — flagging the Beech amendment without naming it. She requests access to the County Historical Society archive and contacts Callie, whose Book 1 work sent her into the subfield.
+- **Weeks before:** Larter's access is approved through Harlan Beech (who is helpful, courteous, and watches her every move). She is unaware of the threat. A small lecture is scheduled to present her preliminary findings.
 
-> Not yet outlined.
+**Story-present (chronological skeleton — beats to be detailed in outline):**
+- **Opening:** Larter arrives in Blackwood Ridge — the first person to seek Callie out. The challenge is presented: the Wren notes may not be a single hand. Callie cannot instrumentally answer it.
+- **The lecture (inciting catalyst):** Larter presents her stylometric re-attribution publicly. The gap in Callie's Book 1 attribution becomes visible to the town. Harlan Beech is in the room, polishing bookends.
+- **The murder:** Larter found bludgeoned in the County Historical Society reading room the morning after the lecture. Marble bookend. No forced entry — she knew her killer, or her killer had a key.
+- **Investigation:** Callie must defend her Book 1 reading (does the attribution hold?) while hunting the killer. Cross consults her — the door opens (not formally). Eli assists with research. The missing Document X is the key: its absence is the gap Larter's stylometry detected.
+- **Midpoint:** The realization that X was *removed* — not lost. The record was tampered with. The keeper is the destroyer.
+- **All-is-lost:** Callie's methods can identify the gap but not, instrumentally, the keeper. Cross's trust in Beech is the obstacle. The forbidden question sharpens: *is she different from the man who buried it?*
+- **Climax:** Callie reads Beech's hands (the stillness tell) and the record (the empty space where X was) and names him. Confession — not rage, relief. The thirty-year weight set down. Cross arrests the man who handed him coffee.
+- **Resolution:** The Beech amendment becomes public; the Book 1 fraud verdict holds (the amendment muddied attribution, it did not invent the fraud). Callie's reputation shifts — pariah to "grudging utility." Cross removes his hat in her presence (the door opens). Document Y — a second missing record Callie infers but cannot find — is noted and attributed to loss. (Puppet-master seed, invisible.)
+- **After:** Bergamot compass reading to be set in outline. The forbidden question receives its answer: *yes, she is different — because she chooses to exhume.* The cost-of-being-right theme lands: the woman who respected her work died for it.
+
+> Story-present beat dates, chapter mapping, and precise word targets to be set in `/novella-outline`.
 
 ## Ending state after Book 1
 

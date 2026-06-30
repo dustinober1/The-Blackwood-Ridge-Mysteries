@@ -104,6 +104,13 @@ about how easily he could have jailed an innocent man.
 
 ## Appearances
 
+### Book 3 — The Challenger (entering state)
+- **State entering:** Procedural guardrail; door between him and Callie exists but is not opened. Did not shake her hand at Book 2's close. Arrested his friend Wells — friendship destroyed; professional cost of Book 2 sits on him. Jaw-set = friendship-versus-duty tell (canon); neck-rub = out of his depth (canon); hat-withholding = withheld warmth (canon).
+- **Book 3 slot:** "Begins to consult her" — not formally, but the door opens. The case forces it: Larter's murder is the first killing in Blackwood Ridge since Book 1, and the evidence is archival/documentary — his blind spot. He consults Callie on the Wren attribution question and on reading the record, without naming it partnership.
+- **Blind spot (Book 3-specific):** He trusts Harlan Beech — decades of courteous professional acquaintance, the man who hands him coffee at the reading-room desk. The killer is the institutional figure Cross defaults to trusting. His procedural framework cannot see that the keeper of records is the one who destroyed one.
+- **Tell tracking (canon):** The hat-withholding tell is the warming signal. If Cross removes his hat indoors in Callie's presence this book, the door is opening. Track precisely.
+- **Arc:** To be developed in outline. The slot forbids formal partnership (Book 4); Book 3 opens the door a crack.
+
 ### Book 2 — The Botanical Confession
 - **State entering:** Shook Callie's hand at the end of Book 1 (grudging respect; first gesture of professional equality). Still procedural and resistant per Book-2 slot, but less dismissive.
 - **Arc:** Read the whole decoded file before dismissing it — the first time he read Callie's evidence all the way through instead of refusing to look (new since Book 1; "not partnership, but the shape of a door"). Withheld his hat indoors when Callie came to his office (still resistant — the handshake's respect not yet extended; hat-withholding is the tell). Was asked to treat his friend Wells Ambler as a suspect; the resistance was partly personal (Wells sat with him through the winter when half the town wouldn't speak to either of them). Mae walked into his office and said one word; Cross moved — dive team, 6 a.m., "wear boots." Arrested Wells quietly: "the mechanical procedure of a man doing his duty over the ruins of a friendship." Did not shake Callie's hand at the close (the Book-1 handshake not repeated; the absence is the thing).

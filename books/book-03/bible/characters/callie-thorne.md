@@ -131,6 +131,13 @@ fortress, but she's finally, painfully, alive.
 
 ## Appearances
 
+### Book 3 — The Challenger (entering state)
+- **State entering:** Pariah state confirmed (Book 2) — "useful, not welcome." Glass reclaimed ("Hers"). Bergamot compass at "almost-right was its own answer." Apprenticeship with Eli committed (Saturdays). Interior vow against silence: *not like this*. Forbidden question standing unanswered: "*Are you so different from the man who buried it?*"
+- **Book 3 engine:** For the first time, someone *seeks her out* — Dr. Vivian Larter, whose stylometric re-attribution challenges Callie's Book 1 reading of the Wren notes. Callie must defend a reading she feels in her hands against an instrument she cannot answer. When Larter is murdered, the defense becomes also a hunt, and the cost-of-being-right theme lands: the woman who respected her work died for engaging it.
+- **Pressure on the wound:** Being *challenged* (not merely resented) sharpens the forbidden question. Harlan Beech is, unknowingly, its answer made flesh — the keeper who buried. Callie exhumes; he buried. Same archive, opposite choice.
+- **Reputation shift (slot):** Pariah → "grudging utility." Cross begins to consult her (the door opens; not formal partnership).
+- **Arc:** To be developed in outline. Track: does bergamot deepen under the pressure of being challenged? Does the glass hold on someone else's evidentiary terms? Does she name Harlan as her mirror?
+
 ### Book 2 — The Botanical Confession
 - **State entering:** Pariah state fresh from Book 1 ("useful, not welcome"); bergamot compass at "almost right, not quite"; glass reclaimed but the reclamation untested under new pressure.
 - **Arc:** Decoded Marguerite Dabney's floriographic cipher (a new hand, a new decoding signature — the franchise move adapted for botanical plates); delivered the dead woman's accusation to a town that did not want it; refused the careful-woman exit twice (midpoint + all-is-lost); lost Doris's kitchen and the archive and the town's residual tolerance; gained Eli as a Saturday apprentice.
