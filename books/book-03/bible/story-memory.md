@@ -179,6 +179,25 @@ source: series-bible/story-memory.md
   solve the case for her. Chapter 7 ends with Callie understanding that Chapter
   8's proof must be staged as a live reading in Beech's own room, with Cross
   watching the shelf, access record, family clue, and hands come together.
+- **Chapter 8 climax/resolution lock:** The final confrontation occurs in the
+  County Historical Society reading room as a live reading, not in Cross's
+  office or The Foxed Page. Cross is present as witness, not partner, and acts
+  only after seeing Beech's hands still under pressure beside the shelf,
+  movement/receipt, access/control, family-name, Larter-method, and bookend
+  evidence. Harlan confesses with relief: he found folios 43–44 in April 1994
+  while recataloging known-hand holdings, recognized A. Beech's hand against a
+  family letter, removed the folios to protect his name/town/identity, killed
+  Vivian Larter with the marble bookend after she refused to let him "handle"
+  the findings, and speaks the family-letter line, "I made the notes say what
+  they needed to say." Document X is recoverable/actionable after confession:
+  folios 43–44 and the family letter are in Harlan's upstairs linen closet in a
+  cedar document box, top shelf under winter blankets; he consents to retrieval.
+  The Book 1 fraud finding stands; Larter was right about the second hand;
+  Callie was incomplete, not fraudulent. Cross arrests Harlan. Callie answers
+  the forbidden question by action — she brings the box into the light / exhumes
+  — not through Eli or Mae. Exit posture: Cross calls her reading "useful" for
+  the file, no formal partnership; town shifts to changed/grudging utility, not
+  welcome.
 - **Document Y (the seed — invisible, unresolved):** A second, related record
   Callie infers while reconstructing the gap — a record that, if it existed,
   would change her attribution *further* than X alone explains. It is not in
@@ -214,7 +233,11 @@ source: series-bible/story-memory.md
   different from the man who buried it — because she chooses to exhume.* This
   is Book 3's thematic resolution; whether it hardens into series canon or
   gets re-tested in later books is a `/novella-publish` decision.
+- **Document X (resolved):** Folios 43–44 and the family letter are made
+  recoverable/actionable through Harlan's confession and consent; they prove the
+  Beech-clerk comparison and complete Larter's method without undoing Callie's
+  Book 1 fraud finding.
 - **Document Y (unresolved):** Remains open into Books 4+. Do not resolve.
 - **Reputation state exiting Book 3:** "Grudging utility" — someone sought
-  her out; Cross begins to consult her. Not acceptance. (Series-outline slot
-  honored.)
+  her out; Cross begins to consult/use her reading. Not acceptance, not formal
+  partnership, and not town welcome. (Series-outline slot honored.)
