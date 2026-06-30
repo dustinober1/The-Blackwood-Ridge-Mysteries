@@ -29,3 +29,10 @@
 - Suspicion focused on a trusted institutional figure
 - Family silence / keeping-versus-hiding themes
 - Professional self-doubt and moral self-comparison
+
+## Chapter 7 — Still Hands
+- Death of a named supporting character referenced
+- Procedural inability to act despite belief / justice-system frustration
+- Archival tampering and implied long-term concealment
+- Suspicion focused on a trusted institutional figure
+- Professional self-doubt, moral self-comparison, and dread that truth may not be actionable
