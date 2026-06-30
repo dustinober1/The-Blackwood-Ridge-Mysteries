@@ -1,0 +1,8 @@
+# Emotional Truth Ledger — The Challenger
+
+## Chapter 1 — The Visitor Who Came Looking
+- **Intended emotional movement:** Pariah-state isolation → the shock of being *sought out* (the first visitor) → the cerebral dread of discovering her Book 1 reading may be incomplete → resolve to face the challenge publicly. Establish the book's new register (the dread of being proven wrong).
+- **Reader-felt movement:** (per beta-reader) isolation landed hard in the chest; the vow + bergamot motif ached; the central premise registered as an attack on identity, not safety — a more interesting pull than another murder; mild drag in the stylometry mid-stretch (since trimmed); quiet dread at "built to survive her."
+- **Truth gap:** none significant. The dread passage slightly over-told in draft (now trimmed to let the cold-front image carry it). The exam-scene dramatization is lighter than the developmental editor wanted, but the dialogue exchange post-trim carries the methodological back-and-forth.
+- **Aftertaste to preserve:** "She picked up the glass and turned it in the lamplight and saw, reflected in the brass, the shape of the second hand — the one built to survive her." + "*Almost right*… *Not quite.* And for the first time in a long while, she was not sure the almost was enough."
+- **Next-chapter carry:** Anticipatory shame layered onto the pariah-state — Callie now knows (before the town and Cross learn it publicly) that her method has a blind spot. She faces the lecture tomorrow evening already privately cracked. The residue is the gap between what she suspects of herself and what the town is about to see.
