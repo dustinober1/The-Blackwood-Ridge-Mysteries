@@ -12,3 +12,7 @@
 ## Chapter 3 — The Door Opens
 - Death of a named character (Larter's body present on-page, non-violent depiction)
 - Grief reference (Callie's loss of Eleanor, handled obliquely)
+
+## Chapter 4 — The Second Hand
+- Death of a named supporting character referenced
+- Grief / professional self-doubt
