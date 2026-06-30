@@ -36,3 +36,10 @@
 - Archival tampering and implied long-term concealment
 - Suspicion focused on a trusted institutional figure
 - Professional self-doubt, moral self-comparison, and dread that truth may not be actionable
+
+## Chapter 8 — The Man Who Buried It
+- Death of a named supporting character referenced and confessed
+- Blunt-force murder with marble bookend discussed retrospectively (off-page)
+- Arrest of a trusted institutional figure
+- Archival tampering, family shame, and long-term concealment
+- Professional self-doubt and moral self-comparison resolved with restrained closure rather than full comfort
