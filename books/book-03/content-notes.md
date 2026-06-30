@@ -22,3 +22,10 @@
 - Professional self-doubt / professional betrayal
 - Archival tampering and implied long-term concealment
 - Mild threat escalation / personal-safety concern
+
+## Chapter 6 — The Keeper
+- Death of a named supporting character referenced
+- Archival tampering and implied long-term concealment
+- Suspicion focused on a trusted institutional figure
+- Family silence / keeping-versus-hiding themes
+- Professional self-doubt and moral self-comparison
