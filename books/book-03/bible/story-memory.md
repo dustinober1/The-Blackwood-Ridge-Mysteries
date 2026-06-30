@@ -166,6 +166,19 @@ source: series-bible/story-memory.md
   comparative sample, and not motive proof. Mae's slow-thaw kitchen scene
   sharpens keeping-versus-hiding and the forbidden question without answering
   it.
+- **Chapter 7 procedural-wall lock:** Callie brings Cross the parts he can hold
+  — receipts, shelf photographs, access/key evidence, alarm questions, the
+  A. Beech estate certification, and her reading of Beech's still hand. Cross
+  listens more fully than he would have in Books 1–2 and believes more than
+  Callie expects, but belief is not action. There are still no recovered folios,
+  no Document X, no confession, no witness to removal, no warrant basis for
+  Beech's home or private storage, and no proof Beech killed Larter. The low
+  point is that Callie may be right and Cross may believe her, yet the truth is
+  not visible enough to act on. Eli steadies her by separating "wrong reading"
+  from "unwitnessed reading," but does not answer the forbidden question or
+  solve the case for her. Chapter 7 ends with Callie understanding that Chapter
+  8's proof must be staged as a live reading in Beech's own room, with Cross
+  watching the shelf, access record, family clue, and hands come together.
 - **Document Y (the seed — invisible, unresolved):** A second, related record
   Callie infers while reconstructing the gap — a record that, if it existed,
   would change her attribution *further* than X alone explains. It is not in
