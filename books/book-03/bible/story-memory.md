@@ -153,6 +153,19 @@ source: series-bible/story-memory.md
   tampered-record hunt. It does **not** yet recover X, reveal Document Y, prove
   motive, formalize Cross/Callie, or make Beech a melodramatic villain; Callie
   is ready to read the keeper, not formally accuse him.
+- **Chapter 6 keeper-read lock:** Callie returns to the County Historical
+  Society after the shelf/receipt proof and maps access/opportunity rather than
+  re-proving removal: access policy, key ledger, alarm logs, movement files,
+  and Beech's authority to reconcile records. Cross's blind spot remains live:
+  Beech hands him coffee and Cross accepts the institution's trust posture as
+  ordinary. Beech's right hand goes still once when Cross asks who had
+  after-hours access "besides you"; the tell is controlled stillness, not
+  tremor, and remains Callie's reading rather than proof Cross can yet use. An
+  A. Beech estate certification (Dep. Clk., 1854) places a Beech hand at the
+  clerk's desk in the right decade but is **not** Document X, not a recovered
+  comparative sample, and not motive proof. Mae's slow-thaw kitchen scene
+  sharpens keeping-versus-hiding and the forbidden question without answering
+  it.
 - **Document Y (the seed — invisible, unresolved):** A second, related record
   Callie infers while reconstructing the gap — a record that, if it existed,
   would change her attribution *further* than X alone explains. It is not in
