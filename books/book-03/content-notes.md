@@ -16,3 +16,9 @@
 ## Chapter 4 — The Second Hand
 - Death of a named supporting character referenced
 - Grief / professional self-doubt
+
+## Chapter 5 — The Gap
+- Death of a named supporting character referenced
+- Professional self-doubt / professional betrayal
+- Archival tampering and implied long-term concealment
+- Mild threat escalation / personal-safety concern
