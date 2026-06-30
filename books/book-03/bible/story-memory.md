@@ -146,6 +146,13 @@ source: series-bible/story-memory.md
   record (the empty shelf-space where X was) — names Harlan as the keeper who
   buried. X is recovered or its removal proven; Harlan confesses. **Book-
   contained.**
+- **Chapter 5 midpoint lock:** Movement receipts show no official trail for
+  folios 43–44 (no transfer, conservation, disposal, loss, or consultation);
+  the shelf itself shows that two folios once sat there and were removed. This
+  proves unofficial removal and turns the investigation from self-doubt to
+  tampered-record hunt. It does **not** yet recover X, reveal Document Y, prove
+  motive, formalize Cross/Callie, or make Beech a melodramatic villain; Callie
+  is ready to read the keeper, not formally accuse him.
 - **Document Y (the seed — invisible, unresolved):** A second, related record
   Callie infers while reconstructing the gap — a record that, if it existed,
   would change her attribution *further* than X alone explains. It is not in
