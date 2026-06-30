@@ -199,7 +199,33 @@ chapters:
     title: "Still Hands"
     pov: "Callie Thorne"
     word_target: 3000
-    status: draft
+    status: revised
+    revision_passes:
+      version: "0.3.1"
+      date: "2026-06-30"
+      agents:
+        - novella-developmental-editor
+        - novella-continuity-checker
+        - novella-scene-doctor
+        - novella-emotional-arc-reader
+        - novella-clue-foreshadowing-auditor
+        - novella-genre-promise-reader
+        - novella-line-editor
+        - novella-dialogue-coach
+        - novella-ai-slop-detector
+        - novella-weirdness-keeper
+        - novella-copyeditor
+        - novella-sensitivity-reader
+        - novella-voice-reader
+        - novella-opening-hook-specialist
+        - novella-ending-cliffhanger-specialist
+        - novella-series-canon-curator
+        - novella-market-reader
+        - novella-beta-reader
+      content_notes_checked: true
+      story_memory_checked: true
+      emotional_truth_checked: true
+      post_edit_slop_guard: true
   - n: 8
     title: "The Man Who Buried It"
     pov: "Callie Thorne"
