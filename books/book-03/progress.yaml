@@ -4,7 +4,7 @@ stages:
   outline: complete
   draft: complete
   revise: complete
-  polish: pending
+  polish: complete
   export: pending
   package: pending
   publish: pending
