@@ -39,7 +39,7 @@ Repo convention search performed:
 
 ## Files changed
 
-- `books/book-03/publish/publish-readiness.md` — created this final upload-prep verification report.
+- `books/book-03/publish/publish-readiness.md` — created and then updated to record final commit notes.
 
 No manuscript prose, export source, build script, package guidance, listing metadata, cover material, or progress-stage state was changed.
 
@@ -179,6 +179,7 @@ The listing's content warnings are consistent with `books/book-03/content-notes.
 ### Fixed
 
 - Created this final publish-readiness report because `books/book-03/publish/publish-readiness.md` did not exist before this pass.
+- Updated the report once to record concrete commit notes after the initial file-creation commit returned.
 
 ### No blocking issues found
 
@@ -273,4 +274,5 @@ Book 3 is ready for manual KDP/upload preparation in repo terms: manuscript expo
 
 ## Commit notes from this pass
 
-- Publish-readiness report created: commit SHA to be recorded from this file-creation commit.
+- Publish-readiness report created: `4de5f966c7cd0188964ba874969192666b4d07dd`
+- Publish-readiness report commit notes recorded: this commit
