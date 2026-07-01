@@ -6,7 +6,7 @@ stages:
   revise: complete
   polish: complete
   export: complete
-  package: pending
+  package: complete
   publish: pending
 chapters:
   - n: 1
