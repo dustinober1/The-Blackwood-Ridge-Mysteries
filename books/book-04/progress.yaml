@@ -2,7 +2,7 @@ stages:
   concept: complete
   bible: complete
   outline: complete
-  draft: pending
+  draft: in_progress
   revise: pending
   polish: pending
   export: pending
@@ -19,13 +19,14 @@ book:
   target_words: 25000
   structure: "8 novella chapters"
   season: "early November 2026, days after Book 3"
-  planning_note: "Book 4 planning package initialized only. No chapters drafted. Books 1-3 not modified."
+  planning_note: "Book 4 planning package initialized. Chapter 1 drafted; draft stage started. Books 1-3 not modified."
 chapters:
   - n: 1
     title: "Smoke Under Town Hall"
     pov: "Callie Thorne"
     word_target: 3100
-    status: pending
+    status: drafted
+    words: 4341
   - n: 2
     title: "The Salvage Table"
     pov: "Callie Thorne"
@@ -69,4 +70,4 @@ validation:
   red_herrings_complete: true
   continuity_audit_complete: true
   market_positioning_direction_complete: true
-  no_chapter_draft_created: true
+  no_chapter_draft_created: false
