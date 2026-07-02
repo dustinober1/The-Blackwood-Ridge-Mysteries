@@ -1,6 +1,6 @@
 ---
 status: planning
-	title: "The Archive Fire"
+title: "The Archive Fire"
 former_working_title: null
 date: "2026-07-02"
 ---
