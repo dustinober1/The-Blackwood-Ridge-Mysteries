@@ -19,7 +19,7 @@ book:
   target_words: 25000
   structure: "8 novella chapters"
   season: "early November 2026, days after Book 3"
-  planning_note: "Book 4 planning package initialized. Chapters 1-8 drafted; draft stage complete. Books 1-3 not modified."
+  planning_note: "Book 4 planning package initialized. Chapters 1-8 drafted; draft stage complete. Whole-draft revision audit/plan created at books/book-04/revision-plan.md; revise remains pending. Books 1-3 not modified."
 chapters:
   - n: 1
     title: "Smoke Under Town Hall"
