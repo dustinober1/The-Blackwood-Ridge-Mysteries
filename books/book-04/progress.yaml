@@ -19,7 +19,7 @@ book:
   target_words: 25000
   structure: "8 novella chapters"
   season: "early November 2026, days after Book 3"
-  planning_note: "Book 4 planning package initialized. Chapters 1-4 drafted; draft stage in_progress. Books 1-3 not modified."
+  planning_note: "Book 4 planning package initialized. Chapters 1-5 drafted; draft stage in_progress. Books 1-3 not modified."
 chapters:
   - n: 1
     title: "Smoke Under Town Hall"
@@ -49,7 +49,8 @@ chapters:
     title: "Water Lines"
     pov: "Callie Thorne"
     word_target: 3100
-    status: pending
+    status: drafted
+    words: 3965
   - n: 6
     title: "Bad Procedure"
     pov: "Callie Thorne"
