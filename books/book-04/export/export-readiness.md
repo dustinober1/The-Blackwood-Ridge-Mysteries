@@ -1,30 +1,39 @@
 # Book 4 Export Readiness — The Archive Fire
 
-2026-07-04 export-prep validation pass
+2026-07-03 export artifact generation blocker pass
 
-Base head checked: `ec8a778ad5527c558b1eb3a403a4da0946b8cb91`
+Starting HEAD verified: `c12536358fc187b208080c67e7fa94d0a2ed2ce3`
 
-Initial comparison result: `main` was identical to the provided base head before export-prep changes.
+Commit message verified at start: `Prepare Book 4 export package`
+
+Initial comparison result: `main` was identical to the provided starting HEAD before this pass.
 
 Scope confirmed: `dustinober1/The-Blackwood-Ridge-Mysteries`, default branch `main`, with write permission visible.
 
 ## Status
 
-Export is **in progress**, not complete.
+Export remains **in progress**, not complete.
 
-This pass prepared exact-source assembly tooling and completed manuscript/package-readiness validation, but did not mark export complete because the combined manuscript file was not safely committed as a generated artifact in this connector pass. The export stage should be marked complete only after `books/book-04/export/assemble-manuscript.py` is run and `books/book-04/export/manuscript-combined.md` is committed or otherwise verified from the generated output.
+The combined reader-facing manuscript artifact is still expected at:
+
+- `books/book-04/export/manuscript-combined.md`
+
+The artifact was **not** committed in this pass because it could not be generated safely through the available connector path.
 
 Package remains pending. Publish remains pending.
+
+No EPUB, retail package, upload package, cover asset, or publication event was created in this pass.
 
 ## Files read
 
 Book 4 source/status files:
 
 - `books/book-04/progress.yaml`
+- `books/book-04/export/assemble-manuscript.py`
+- `books/book-04/export/build.sh`
+- `books/book-04/export/export-readiness.md`
+- `books/book-04/package/package-readiness.md`
 - `books/book-04/outline.md`
-- `books/book-04/revision-plan.md`
-- `books/book-04/bible/story-memory.md`
-- `books/book-04/bible/carry-forward.md`
 
 Book 4 manuscript files:
 
@@ -37,52 +46,65 @@ Book 4 manuscript files:
 - `books/book-04/manuscript/ch-07.md`
 - `books/book-04/manuscript/ch-08.md`
 
-Existing Book 4 production files inspected:
-
-- `books/book-04/export/export-readiness.md`
-- `books/book-04/package/packaging.md`
-- `books/book-04/publish/listing.md`
-
-Book 1-3 convention references inspected:
+Book 3 convention references inspected:
 
 - `books/book-03/export/manuscript-combined.md`
 - `books/book-03/export/build.sh`
 - `books/book-03/export/export-readiness.md`
-- `books/book-03/package/package-readiness.md`
 - `books/book-03/progress.yaml`
-- Book 1 and Book 2 package/listing/export references as needed through repo search.
 
 ## Files changed
 
-- `books/book-04/progress.yaml` — revised and polish marked complete; export marked `in_progress`; package and publish left pending.
-- `books/book-04/export/assemble-manuscript.py` — created exact-source Markdown assembly script.
-- `books/book-04/export/build.sh` — created Book 4 EPUB build script that first assembles the combined manuscript.
-- `books/book-04/export/export-readiness.md` — replaced placeholder status with this validation report.
-- `books/book-04/package/package-readiness.md` — created package-readiness validation report without marking package complete.
+- `books/book-04/export/export-readiness.md` — updated with this blocker report.
 
-No manuscript chapter file was edited.
+No manuscript chapter source file was edited.
 
 No Book 1, Book 2, or Book 3 file was edited.
 
-## Assembly tool behavior
+## Blocker
 
-`books/book-04/export/assemble-manuscript.py` is designed to generate:
+`books/book-04/export/assemble-manuscript.py` exists and contains the correct exact-source assembly logic for creating:
 
 - `books/book-04/export/manuscript-combined.md`
 
-The generated manuscript should:
+However, the available GitHub connector in this pass can read and write repository blobs but cannot execute repository scripts. It also does not provide a safe direct resource-to-blob transform that would pipe the fetched chapter sources through the committed assembler logic and commit the generated artifact without manually reconstructing the full 36,026-word manuscript inside a connector write call.
 
-- use the Book 3 export convention for title page, author line, series line, copyright/disclaimer page, contents, page breaks, and normalized chapter headings;
-- read the eight Book 4 source chapters in order;
-- strip each chapter file YAML front matter;
-- strip each chapter file source heading;
-- add normalized reader-facing headings of the form `# Chapter N — Title`;
-- preserve the chapter prose from the manuscript source files exactly after front-matter/heading stripping;
-- add no commentary, upload instructions, or package notes to the reader-facing manuscript.
+Because the export artifact must preserve source chapter prose exactly after stripping YAML front matter and source headings, manually reconstructing the entire reader-facing manuscript in a write payload was judged unsafe. A partial or manually drifted artifact would be worse than leaving the export accurately marked in progress.
 
-`books/book-04/export/build.sh` runs the assembly script first, then builds `the-archive-fire.epub` with pandoc if pandoc is installed.
+## Current expected safe generation command
 
-## Chapter order validated
+From a normal repository checkout, run either:
+
+```bash
+python3 books/book-04/export/assemble-manuscript.py
+```
+
+or:
+
+```bash
+cd books/book-04/export
+./build.sh
+```
+
+The first command should generate only the combined Markdown manuscript. The second command should generate the combined Markdown manuscript and then attempt EPUB generation through pandoc if pandoc is installed.
+
+## Expected generated artifact requirements
+
+The generated `books/book-04/export/manuscript-combined.md` should include:
+
+- title page;
+- author line;
+- series line;
+- copyright / fiction disclaimer page;
+- contents page;
+- export-safe `\newpage` page breaks;
+- chapters assembled from the eight Book 4 source chapter files in order;
+- per-chapter YAML front matter stripped;
+- source chapter headings stripped;
+- normalized reader-facing chapter headings added as `# Chapter N — Title`;
+- no reader-facing upload, package, or publication instructions embedded in the manuscript.
+
+## Chapter order validated for future generation
 
 1. Chapter 1 — Smoke Under Town Hall
 2. Chapter 2 — The Salvage Table
@@ -95,7 +117,7 @@ The generated manuscript should:
 
 ## Word count
 
-Current chapter metadata total: **36,026 words**.
+Current source chapter metadata total: **36,026 words**.
 
 Breakdown:
 
@@ -108,19 +130,29 @@ Breakdown:
 - Chapter 7: 4,392
 - Chapter 8: 4,588
 
-## Export validation performed
+## Validation completed before stopping
 
-- All eight chapter source files were read.
-- Chapter order and titles were checked against the outline and manuscript files.
-- No merge conflict markers were found during manuscript review.
-- No unresolved placeholder text was found during manuscript review.
-- Individual chapter YAML front matter exists only in source chapters and should be stripped by the assembly tool.
-- No manuscript prose was revised in this pass.
-- No package/upload/publication file was created that claims live publication.
+- Confirmed `main` matched starting HEAD `c12536358fc187b208080c67e7fa94d0a2ed2ce3` before editing.
+- Confirmed `books/book-04/export/manuscript-combined.md` was absent before this pass.
+- Read all eight manuscript source files.
+- Confirmed chapter order and titles against the Book 4 outline and assembler.
+- Confirmed the committed assembler is the correct source of truth for safe exact-source generation.
+- Confirmed no manuscript source files were edited.
+- Confirmed no Book 1, Book 2, or Book 3 files were edited.
+- Confirmed no EPUB was created.
+- Confirmed no final retail package was created.
+- Confirmed no cover asset was generated.
+- Confirmed no publication or upload action was performed.
+- Confirmed package remains pending.
+- Confirmed publish remains pending.
 
-## Mystery/package-readiness validation
+## Story and continuity preservation
 
-- Ruth's call still sets up the shelf that lied twice.
+No story/prose revision was performed in this pass. The source manuscript files were not edited.
+
+The following locked story elements remain preserved in the source manuscript files:
+
+- Ruth's call sets up the shelf that lied twice.
 - The fake Ruth note remains staged and wrong because it lacks Ruth's record system.
 - Brass cat charm setup, recovery, and payoff remain intact.
 - Clara's K-two lie remains separate from Ruth's key-ring/charm path.
@@ -135,16 +167,21 @@ Breakdown:
 - Bell's photographs and Cross's log still make Callie's reading portable.
 - Supplemental Crowe record remains restrained.
 - Consultant arrangement remains case-by-case and bounded.
-- Floorboard ending remains unchanged in meaning.
+- Floorboard ending remains intact in meaning.
 - Eleanor's brass magnifying glass remains beside damaged paper as a tool, not a relic.
+- Callie does not read alone.
 
 ## Not completed in this pass
 
-- `books/book-04/export/manuscript-combined.md` still needs to be generated by running `python3 books/book-04/export/assemble-manuscript.py` from the repository root or `./build.sh` from `books/book-04/export/`.
+- `books/book-04/export/manuscript-combined.md` was not generated or committed.
+- Export was not marked complete.
+- `books/book-04/progress.yaml` was not advanced.
+- `books/book-04/package/package-readiness.md` was not advanced.
 - No EPUB was generated.
 - No final retail package was created.
 - No cover asset was generated.
 - No publication or upload action was performed.
+- Package finalization was not performed.
 
 ## Status after this pass
 
@@ -157,3 +194,5 @@ Breakdown:
 - Export: in progress.
 - Package: pending.
 - Publish: pending.
+
+Book 4 still needs the combined manuscript artifact generated from a real repository checkout before export can safely be marked complete.
