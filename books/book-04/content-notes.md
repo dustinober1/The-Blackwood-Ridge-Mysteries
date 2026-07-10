@@ -1,66 +1,26 @@
 # Content Notes — The Archive Fire
 
-> Planning-stage content notes for future drafting and eventual listing alignment. These are not final retailer warnings and should be rechecked after draft/revision.
+> Final production content note. This is not a reader-facing warning unless the author chooses to use it in retailer metadata.
 
-## Book-level planned content
+## Concise advisory
 
-- Death of a named supporting character, Ruth Mallory, connected to an archive fire.
-- Fire aftermath, smoke damage, water-damaged records, and archive loss.
-- Murder discussed and investigated in restrained cozy-mystery fashion; no graphic violence.
-- Old fatal hit-and-run from 1991 discussed through records and memory.
-- Institutional cover-up involving a former sheriff and a politically connected family.
-- Grief, archive destruction, and Callie's Eleanor-related triggers.
-- Professional/institutional betrayal for Sheriff Cross.
-- Mild peril and pressure around damaged records, but no thriller escalation.
+Off-page murder; archive-fire aftermath and damaged records; discussion of a historical fatal hit-and-run; grief and institutional betrayal. No graphic violence, sexual content, or profanity.
 
-## Chapter notes
+## Chapter-level check
 
-### Chapter 1 — Smoke Under Town Hall
-- Archive fire aftermath.
-- Death of Ruth Mallory discovered off-page / aftermath only.
-- Callie's grief trigger: woman alone among records, found too late.
+- **Chapter 1 — Smoke Under Town Hall:** archive-fire aftermath; Ruth Mallory’s off-page death; Callie’s grief trigger.
+- **Chapter 2 — The Salvage Table:** smoke- and water-damaged records; restrained grief and salvage work.
+- **Chapter 3 — A Shelf That Lied Twice:** targeted archive damage; false-suspect pressure; forged-note analysis.
+- **Chapter 4 — The Predecessor’s Hand:** Ruth’s death becomes a present-day investigation; a historical fatal hit-and-run and old official failure enter the record.
+- **Chapter 5 — Water Lines:** damaged-record reconstruction; community rumor and suppressed grief.
+- **Chapter 6 — Bad Procedure:** old institutional cover-up discussed; false-suspect record failures resolved.
+- **Chapter 7 — The Ash Index:** damaged-document reconstruction; guilty knowledge and comparative language evidence.
+- **Chapter 8 — The Box Asked For:** a respected official is arrested; partial old-record facts are acknowledged, but there is no confession to Ruth’s murder; restrained emotional closure.
 
-### Chapter 2 — The Salvage Table
-- Smoke-damaged and water-damaged records.
-- Grief and emergency salvage work.
-- Content around preserving damaged materials without gore or disaster spectacle.
+## Explicit exclusions confirmed
 
-### Chapter 3 — A Shelf That Lied Twice
-- Investigation of targeted archive damage.
-- Suspicion of contractor and assistant archivist.
-- Institutional trust under pressure.
-
-### Chapter 4 — The Predecessor's Hand
-- Confirmation that Ruth's death was not simple accident.
-- Old fatal hit-and-run case introduced.
-- Sheriff Cross confronts predecessor's possible misconduct.
-
-### Chapter 5 — Water Lines
-- Recovered damaged records.
-- Mae's memory of a dead young woman, Lila Crowe.
-- Family power, old rumors, and suppressed grief.
-
-### Chapter 6 — Bad Procedure
-- Former sheriff's old cover-up discussed.
-- Frustration with procedure and historical injustice.
-- Red-herring lies resolved.
-
-### Chapter 7 — The Ash Index
-- Reconstruction of evidence from damaged documents.
-- Guilty knowledge and forged-note analysis.
-- Rising pressure before confrontation.
-
-### Chapter 8 — The Box Asked For
-- Arrest of a respected town official.
-- Confession / exposure of old cover-up.
-- Restrained emotional closure; archive remains damaged but not gone.
-
-## Explicit exclusions
-
-- No supernatural explanation.
-- No serial-killer plot.
-- No government conspiracy.
-- No graphic violence.
-- No on-page detailed fire-setting method.
-- No romance/sexual content planned.
-- No profanity planned beyond the established clean series register.
+- No supernatural explanation or serial-crime escalation.
+- No broad government conspiracy.
+- No graphic violence or on-page fire-setting method.
+- No romance-forward or sexual content.
+- No profanity beyond the established clean series register.
