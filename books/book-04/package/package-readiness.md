@@ -1,67 +1,33 @@
-# Book 4 Package Readiness Validation — The Archive Fire
+---
+status: in_progress
+technical_exports: complete
+cover: blocked
+print: decisions_required
+publish: pending
+---
 
-2026-07-04 validation-only pass
+# Package Readiness — The Archive Fire
 
-This file documents package-readiness validation performed during export prep. It does **not** create a final package, final EPUB, cover file, retailer upload bundle, or publication event.
+## Completed technical package work
 
-## Current package state
+- Reader-facing front matter and back matter finalized without unresolved placeholders.
+- Combined Markdown, plain text, and standalone HTML generated and committed.
+- DOCX and EPUB generated reproducibly, validated, and recorded by size and SHA-256.
+- Retailer metadata and spoiler-safe listing assets finalized as drafts for author entry.
+- Story/clue/ending preservation audit passed.
+- Author decision checklist isolated to genuinely author-controlled choices.
 
-- Manuscript draft: complete.
-- Revision/proof path: complete.
-- Publication-readiness polish: complete.
-- Export assembly tooling: prepared.
-- Combined manuscript artifact: not yet committed as generated output.
-- Package guidance: existing draft package guidance remains in `books/book-04/package/packaging.md`.
-- Draft listing guidance: existing draft listing guidance remains in `books/book-04/publish/listing.md`.
-- Package stage: pending.
-- Publish stage: pending.
+## Blocking asset
 
-## Metadata snapshot
+**No final Book 4 cover exists in the repository.** Upload readiness cannot be claimed until the author supplies and approves an ebook cover with the correct title, author, series identification, dimensions, format, color profile, and thumbnail legibility.
 
-| Field | Value |
-|---|---|
-| Title | The Archive Fire |
-| Author | Vesper Blythe |
-| Series | The Blackwood Ridge Mysteries |
-| Series number | Book 4 |
-| Lead | Callie Thorne |
-| Genre | Atmospheric cozy mystery / amateur sleuth |
-| Current chapter-metadata word count | 36,026 |
-| Export assembly tool | `books/book-04/export/assemble-manuscript.py` |
-| Build script | `books/book-04/export/build.sh` |
-| Expected combined manuscript | `books/book-04/export/manuscript-combined.md` |
-| Expected EPUB output | `books/book-04/export/the-archive-fire.epub` |
-| Package status | Pending |
-| Publish status | Pending |
+## Print status
 
-## Package-readiness audit
+No print-ready interior PDF or full cover wrap was generated because no authoritative trim size, paper type, bleed choice, ISBN choice, or print-template convention exists for this series. The author-review DOCX is not represented as a print interior.
 
-- Ruth's call still sets up the shelf that lied twice.
-- Fake Ruth note remains staged and wrong because it lacks Ruth's record system.
-- Brass cat charm setup, recovery, and payoff remain intact.
-- Clara's K-two lie remains separate from Ruth's key-ring/charm path.
-- Simon, Clara, Nell, and Tavis remain false-suspect / record-failure paths.
-- Tavis remains morally responsible for the old 1991 failure, not Ruth's murderer.
-- Lila Crowe remains a public hit-and-run death with a smoothed record, not a disappearance.
-- Ben Calder remains exposed through accumulation, not confession.
-- Cross's arrest basis remains accumulated present-day evidence.
-- Callie remains a consulting records specialist, not a deputy.
-- Eli remains useful but bounded.
-- Mae's thaw remains work-based, not apology-based.
-- Bell's photographs and Cross's log still make Callie's reading portable.
-- Supplemental Crowe record remains restrained.
-- Consultant arrangement remains case-by-case and bounded.
-- Floorboard ending remains unchanged in meaning.
-- Eleanor's brass magnifying glass remains beside damaged paper as a tool, not a relic.
+## Accurate status
 
-## Package blockers before package can be complete
-
-- Generate and commit or verify `books/book-04/export/manuscript-combined.md` from the assembly script.
-- Build or otherwise verify the EPUB output from `books/book-04/export/build.sh` when the final retail file is needed.
-- Finalize reader-facing package assets, including final cover/image guidance output and final listing copy.
-- Confirm no package file implies upload or live publication.
-- Keep `publish: pending` until an actual publication/upload pass is intentionally performed.
-
-## Result
-
-Book 4 is ready for the final export artifact generation step and then package finalization. Package is **not** complete. Publish is **pending**.
+- Export: complete.
+- Package: in progress / blocked by cover and author decisions.
+- Publish: pending.
+- Uploaded, distributed, or live: no.
