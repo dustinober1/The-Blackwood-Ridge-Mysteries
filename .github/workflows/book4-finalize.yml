@@ -1,0 +1,108 @@
+name: Book 4 final package build
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  build-and-stage:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out exact PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+
+      - name: Verify required starting state
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main --no-tags
+          EXPECTED=9d946e89c0c03983f5a797ed9d5970858314c7dd
+          ACTUAL_BASE="$(git merge-base HEAD origin/main)"
+          test "$ACTUAL_BASE" = "$EXPECTED"
+          test "$(git show -s --format=%s "$EXPECTED")" = "Document Book 4 export artifact generation blocker"
+
+      - name: Install production toolchain
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y pandoc libreoffice-writer poppler-utils python3-venv
+          sudo apt-get install -y epubcheck || true
+          python3 -m venv .book4-venv
+          .book4-venv/bin/python -m pip install --upgrade pip
+          .book4-venv/bin/python -m pip install pyyaml beautifulsoup4 lxml python-docx pillow pypdf
+
+      - name: Materialize validated finalizer
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p books/book-04/export
+          cat .book4-build/*.b64 | tr -d '\n' | base64 -d | gzip -d > books/book-04/export/finalize-package.py
+          chmod +x books/book-04/export/finalize-package.py
+          echo "eb6dd575cc2970af7e771529c5e86cf951305c80830875a8273293ed862623b4  books/book-04/export/finalize-package.py" | sha256sum -c -
+
+      - name: Build and validate Book 4 package
+        shell: bash
+        run: |
+          set -euo pipefail
+          .book4-venv/bin/python books/book-04/export/finalize-package.py --repo-root "$GITHUB_WORKSPACE" | tee /tmp/book4-build.log
+          git diff --exit-code -- books/book-04/manuscript
+
+      - name: Stage repository-appropriate outputs
+        id: stage
+        shell: bash
+        run: |
+          set -euo pipefail
+          git rm -r .book4-build .github/workflows/book4-finalize.yml
+          git add -A books/book-04 .book4-build .github/workflows/book4-finalize.yml
+          git diff --cached --name-only | tee /tmp/book4-changed-files.txt
+          if grep -Ev '^(books/book-04/|[.]book4-build/|[.]github/workflows/book4-finalize[.]yml$)' /tmp/book4-changed-files.txt; then
+            echo "Unexpected staged path" >&2
+            exit 1
+          fi
+          if git diff --cached --name-only -- books/book-01 books/book-02 books/book-03 series-outline.md | grep -q .; then
+            echo "Books 1-3 or series outline changed" >&2
+            exit 1
+          fi
+          if git diff --cached --name-only -- books/book-04/manuscript | grep -q .; then
+            echo "Authoritative chapter source changed" >&2
+            exit 1
+          fi
+          TREE_SHA="$(git write-tree)"
+          echo "tree_sha=$TREE_SHA" >> "$GITHUB_OUTPUT"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Stage Book 4 final package tree $TREE_SHA [skip ci]"
+          git push origin "HEAD:${{ github.event.pull_request.head.ref }}"
+          COMMIT_SHA="$(git rev-parse HEAD)"
+          {
+            echo "tree_sha=$TREE_SHA"
+            echo "staging_commit=$COMMIT_SHA"
+            echo "starting_head=9d946e89c0c03983f5a797ed9d5970858314c7dd"
+          } > /tmp/book4-build-summary.txt
+
+      - name: Upload generated binaries and visual QA
+        uses: actions/upload-artifact@v4
+        with:
+          name: book4-final-package-validation
+          retention-days: 7
+          if-no-files-found: error
+          path: |
+            books/book-04/export/dist/
+            books/book-04/export/qa/
+            books/book-04/export/artifact-manifest.json
+            books/book-04/export/word-count-report.md
+            books/book-04/package/final-validation-report.md
+            /tmp/book4-build.log
+            /tmp/book4-changed-files.txt
+            /tmp/book4-build-summary.txt
