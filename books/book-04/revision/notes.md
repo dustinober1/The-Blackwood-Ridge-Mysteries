@@ -7,7 +7,7 @@
 - Polish: complete.
 - Publication-package pass: completed without changing chapter source files.
 - Export: validated by the reproducible build pipeline.
-- Package: in progress because no final cover asset exists and author-controlled retailer/print decisions remain.
+- Package: complete for ebook upload; retailer-controlled choices remain.
 - Publish: pending.
 
 ## Publication-pass manuscript edits
