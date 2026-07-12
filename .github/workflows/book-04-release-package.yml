@@ -43,7 +43,7 @@ jobs:
         run: |
           mkdir -p books/book-04/export/dist
           set +e
-          python books/book-04/export/release-package.py 2>&1 | tee books/book-04/export/dist/build.log
+          python books/book-04/export/run-release.py 2>&1 | tee books/book-04/export/dist/build.log
           status=${PIPESTATUS[0]}
           exit "$status"
 
