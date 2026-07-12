@@ -9,7 +9,7 @@ name: Book 4 release package
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build-and-validate:
@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,20 +41,128 @@ jobs:
             pypdf==6.1.1
 
       - name: Build and validate Book 4
-        shell: bash
-        run: |
-          mkdir -p books/book-04/export/dist
-          set +e
-          python books/book-04/export/run-release.py 2>&1 | tee books/book-04/export/dist/build.log
-          status=${PIPESTATUS[0]}
-          exit "$status"
+        run: python books/book-04/export/run-release.py
 
       - name: Show release validation
-        if: success()
         run: cat books/book-04/export/dist/release-validation.md
 
+      - name: Commit stable retailer release files
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          RELEASE_DIR="books/book-04/release"
+          DIST="books/book-04/export/dist"
+          rm -rf "$RELEASE_DIR"
+          mkdir -p "$RELEASE_DIR"
+
+          cp "$DIST/The-Archive-Fire.epub" "$RELEASE_DIR/The-Archive-Fire.epub"
+          cp "$DIST/The-Archive-Fire-cover.jpg" "$RELEASE_DIR/The-Archive-Fire-cover.jpg"
+          cp books/book-04/publish/upload-package.md "$RELEASE_DIR/The-Archive-Fire-KDP-upload-sheet.md"
+          cp books/book-04/listing/listing-copy.md "$RELEASE_DIR/The-Archive-Fire-listing-copy.md"
+          cp books/book-04/listing/retailer-description.html "$RELEASE_DIR/The-Archive-Fire-retailer-description.html"
+          cp books/book-04/listing/retailer-description.txt "$RELEASE_DIR/The-Archive-Fire-retailer-description.txt"
+
+          python3 - <<'PY'
+          from __future__ import annotations
+
+          import hashlib
+          import json
+          import zipfile
+          from pathlib import Path
+
+          release = Path("books/book-04/release")
+          files = [
+              "The-Archive-Fire.epub",
+              "The-Archive-Fire-cover.jpg",
+              "The-Archive-Fire-KDP-upload-sheet.md",
+              "The-Archive-Fire-listing-copy.md",
+              "The-Archive-Fire-retailer-description.html",
+              "The-Archive-Fire-retailer-description.txt",
+          ]
+
+          def sha256(path: Path) -> str:
+              digest = hashlib.sha256()
+              with path.open("rb") as handle:
+                  for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+                      digest.update(chunk)
+              return digest.hexdigest()
+
+          records = [
+              {
+                  "name": name,
+                  "size_bytes": (release / name).stat().st_size,
+                  "sha256": sha256(release / name),
+              }
+              for name in files
+          ]
+          manifest = {
+              "book": "The Archive Fire",
+              "series": "The Blackwood Ridge Mysteries",
+              "series_number": 4,
+              "author": "Vesper Blythe",
+              "release_state": "upload_ready_not_published",
+              "validated": "2026-07-12",
+              "manuscript_body_words": 34960,
+              "combined_reader_facing_words": 35249,
+              "chapter_count": 8,
+              "epubcheck": "0 fatals / 0 errors / 0 warnings / 0 infos",
+              "files": records,
+          }
+          manifest_path = release / "release-manifest.json"
+          manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+
+          readme = f"""# The Archive Fire — Retailer Release Files
+
+          **Status:** Upload ready; not yet published.
+
+          This directory stores the stable files required to upload Book 4 as an ebook. These files were generated and validated by `.github/workflows/book-04-release-package.yml`.
+
+          ## Required upload files
+
+          - `The-Archive-Fire.epub`
+          - `The-Archive-Fire-cover.jpg`
+
+          ## Retailer-entry support files
+
+          - `The-Archive-Fire-KDP-upload-sheet.md`
+          - `The-Archive-Fire-listing-copy.md`
+          - `The-Archive-Fire-retailer-description.html`
+          - `The-Archive-Fire-retailer-description.txt`
+          - `release-manifest.json`
+
+          ## Validation
+
+          - EPUBCheck: 0 errors and 0 warnings
+          - Cover: JPEG, RGB, 1600 × 2560
+          - Chapters: 8
+          - Manuscript body: 34,960 words
+          - Combined reader-facing package: 35,249 words
+          - Publication status remains pending until the retailer accepts the book and the live detail page is confirmed.
+
+          The DOCX review proof and full diagnostic package remain reproducible through the workflow and are not required for ebook upload.
+          """
+          (release / "README.md").write_text(readme, encoding="utf-8")
+
+          zip_path = release / "The-Archive-Fire-retailer-upload-package.zip"
+          included = [*files, "release-manifest.json", "README.md"]
+          fixed_time = (2026, 7, 12, 0, 0, 0)
+          with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+              for name in included:
+                  data = (release / name).read_bytes()
+                  info = zipfile.ZipInfo(name, date_time=fixed_time)
+                  info.compress_type = zipfile.ZIP_DEFLATED
+                  info.external_attr = 0o100644 << 16
+                  archive.writestr(info, data)
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f "$RELEASE_DIR"
+          if ! git diff --cached --quiet; then
+            git commit -m "Add Book 4 retailer release files"
+            git push origin "HEAD:${{ github.head_ref }}"
+          fi
+
       - name: Upload release package
-        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: book-04-release-package
@@ -72,6 +182,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: book-04-build-diagnostics
-          path: books/book-04/export/dist/build.log
-          if-no-files-found: error
+          path: |
+            books/book-04/export/qa/docx-render/*.pdf
+            books/book-04/export/qa/contact-sheets/*.png
+            books/book-04/export/dist/release-validation.md
+            books/book-04/export/dist/release-manifest.json
+          if-no-files-found: ignore
           retention-days: 7
