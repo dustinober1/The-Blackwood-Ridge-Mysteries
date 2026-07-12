@@ -1,4 +1,4 @@
-# Book 4 Export Pipeline
+# Book 4 Export and Release Pipeline
 
 ## Authoritative source
 
@@ -8,8 +8,9 @@
 - Front matter: `../front-matter/`
 - Back matter: `../back-matter/`
 - Authoritative prose: `../manuscript/ch-01.md` through `ch-08.md`
+- Final ebook cover: `../cover.jpeg`
 
-## Reproducible build
+## Reproducible technical build
 
 From the repository root:
 
@@ -17,42 +18,33 @@ From the repository root:
 bash books/book-04/export/build.sh
 ```
 
-Required tools: Python 3, Pandoc, LibreOffice, Poppler (`pdftoppm`), and the Python packages listed by import in `finalize-package.py`. `epubcheck` is used when available; an internal EPUB 3 structural validator always runs.
+This runs the established manuscript, DOCX, EPUB, metadata, and preservation validation pipeline.
 
-## Validated toolchain
+## Reproducible retailer release build
 
-- **python:** 3.14.6
-- **pandoc:** pandoc 3.10
-- **libreoffice:** not available
-- **pdftoppm:** not available
-- **epubcheck:** not available
+From the repository root:
 
-## Commands executed by the pipeline
-
-```text
-python3 books/book-04/export/finalize-package.py
-pandoc manuscript-combined.md --from=markdown --to=plain --wrap=none -o manuscript-combined.txt
-pandoc manuscript-combined.md --from=markdown --to=html5 --standalone -o manuscript-combined.html
-pandoc manuscript-combined.md --from=markdown --to=docx --reference-doc reference.docx -o dist/The-Archive-Fire.docx
-libreoffice --headless --convert-to pdf --outdir qa/docx-render dist/The-Archive-Fire.docx
-pdftoppm -png -r 72 qa/docx-render/The-Archive-Fire.pdf qa/docx-pages/page
-pandoc manuscript-combined.md --from=markdown --to=epub3 --toc --toc-depth=1 -o dist/The-Archive-Fire.epub
-epubcheck dist/The-Archive-Fire.epub  # when available
+```bash
+python3 books/book-04/export/release-package.py
 ```
 
-## Build outputs
+The release layer reruns the technical build, validates the 1,600 × 2,560 RGB JPEG cover, rebuilds the EPUB without a duplicate automatic title page, runs internal EPUB validation and EPUBCheck when installed, verifies that the embedded cover matches the separate upload cover, and creates the final upload ZIP.
 
-The pipeline generates:
+## Release outputs
 
-- `manuscript-combined.md`
-- `manuscript-combined.txt`
-- `manuscript-combined.html`
-- `dist/The-Archive-Fire.docx`
-- `dist/The-Archive-Fire.epub`
-- temporary DOCX render-proof pages and contact sheets under `qa/`
+Generated under `export/dist/`:
 
-Binary and visual-QA outputs are intentionally excluded from Git by `export/.gitignore`, matching the repository’s established source-first export convention. Their exact sizes and SHA-256 hashes are committed in `artifact-manifest.json` and `word-count-report.md`.
+- `The-Archive-Fire.epub`
+- `The-Archive-Fire-cover.jpg`
+- `The-Archive-Fire.docx`
+- `The-Archive-Fire-upload-package.zip`
+- `release-manifest.json`
+- `release-validation.md`
+
+The ZIP also includes the listing copy, HTML and plain-text retailer descriptions, and KDP upload sheet.
+
+Generated binary and visual-QA outputs are excluded from Git by `export/.gitignore`. GitHub Actions publishes them as the `book-04-release-package` artifact.
 
 ## Publication status
 
-Export is technically complete and reproducible. The book has not been uploaded or published. The overall package remains incomplete until a valid cover is supplied and author-controlled retailer decisions are made.
+Export and ebook packaging are technically complete and reproducible. The book has not been uploaded or published; retailer-controlled release choices remain. Keep `publish: pending` until retailer acceptance and a live detail page are confirmed.
