@@ -1,0 +1,44 @@
+{
+  "book": "The Archive Fire",
+  "series": "The Blackwood Ridge Mysteries",
+  "series_number": 4,
+  "author": "Vesper Blythe",
+  "release_state": "upload_ready_not_published",
+  "validated": "2026-07-12",
+  "manuscript_body_words": 34960,
+  "combined_reader_facing_words": 35249,
+  "chapter_count": 8,
+  "epubcheck": "0 fatals / 0 errors / 0 warnings / 0 infos",
+  "files": [
+    {
+      "name": "The-Archive-Fire.epub",
+      "size_bytes": 947356,
+      "sha256": "4e05722551fbcbb582b1e8f1a48116b6f34db43a33e9fef9f51b6b85b6d9459c"
+    },
+    {
+      "name": "The-Archive-Fire-cover.jpg",
+      "size_bytes": 855265,
+      "sha256": "5cb56980999a2d864bcf26e3025cb625c34beab44dcc88eef7ae7c7c4af25d3a"
+    },
+    {
+      "name": "The-Archive-Fire-KDP-upload-sheet.md",
+      "size_bytes": 2563,
+      "sha256": "50fe3a9fb72a441029dcb4cf01acf095804b416f506ec2ff15b5ff0eb69464e8"
+    },
+    {
+      "name": "The-Archive-Fire-listing-copy.md",
+      "size_bytes": 5081,
+      "sha256": "1d9fe6ca153ba87b2539597d66929a1ea8372acb89ce6cb2de468d04d0674b70"
+    },
+    {
+      "name": "The-Archive-Fire-retailer-description.html",
+      "size_bytes": 1019,
+      "sha256": "1e0a95676a4982effef76144c999ed82e9d12d9add798dc7f2db99e99e21480c"
+    },
+    {
+      "name": "The-Archive-Fire-retailer-description.txt",
+      "size_bytes": 978,
+      "sha256": "ac16b9b8c54e1dfb46a4d41c4cf03dbaa2d375f1c6b6e7c4c0f6d96bb660e0fc"
+    }
+  ]
+}

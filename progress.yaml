@@ -18,7 +18,7 @@ books:
   - n: 4
     title: "The Archive Fire"
     dir: "books/book-04"
-    status: planned
+    status: upload_ready
   - n: 5
     title: "The Planted Page"
     dir: "books/book-05"
