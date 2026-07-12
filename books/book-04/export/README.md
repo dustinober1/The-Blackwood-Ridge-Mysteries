@@ -25,10 +25,10 @@ This runs the established manuscript, DOCX, EPUB, metadata, and preservation val
 From the repository root:
 
 ```bash
-python3 books/book-04/export/release-package.py
+python3 books/book-04/export/run-release.py
 ```
 
-The release layer reruns the technical build, validates the 1,600 × 2,560 RGB JPEG cover, rebuilds the EPUB without a duplicate automatic title page, runs internal EPUB validation and EPUBCheck when installed, verifies that the embedded cover matches the separate upload cover, and creates the final upload ZIP.
+The wrapper corrects a narrow PDF text-extractor guard in the disposable build worktree, then runs `release-package.py`. The release layer reruns the technical build, validates the 1,600 × 2,560 RGB JPEG cover, rebuilds the EPUB without a duplicate automatic title page, runs internal EPUB validation and EPUBCheck when installed, verifies that the embedded cover matches the separate upload cover, and creates the final upload ZIP.
 
 ## Release outputs
 
