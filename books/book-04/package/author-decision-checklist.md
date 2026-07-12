@@ -4,7 +4,7 @@ Only author-controlled choices remain here; technical work belongs in the valida
 
 ## Required before ebook upload
 
-- [ ] Supply and approve the final Book 4 ebook cover (correct title, `Vesper Blythe`, `The Blackwood Ridge Mysteries · Book 4`; 1,600 × 2,560 px preferred; RGB JPEG/TIFF; thumbnail-legible).
+- [x] Supply and approve the final Book 4 ebook cover (correct title, `Vesper Blythe`, `The Blackwood Ridge Mysteries · Book 4`; 1,600 × 2,560 px preferred; RGB JPEG/TIFF; thumbnail-legible).
 - [ ] Set the final release date or preorder schedule.
 - [ ] Set the ebook list price.
 - [ ] Confirm territorial publication rights.

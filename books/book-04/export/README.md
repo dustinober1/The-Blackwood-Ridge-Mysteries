@@ -21,11 +21,11 @@ Required tools: Python 3, Pandoc, LibreOffice, Poppler (`pdftoppm`), and the Pyt
 
 ## Validated toolchain
 
-- **python:** 3.12.3
-- **pandoc:** pandoc 3.1.3
-- **libreoffice:** LibreOffice 24.2.7.2 420(Build:2)
-- **pdftoppm:** pdftoppm version 24.02.0
-- **epubcheck:** EPUBCheck v4.2.6
+- **python:** 3.14.6
+- **pandoc:** pandoc 3.10
+- **libreoffice:** not available
+- **pdftoppm:** not available
+- **epubcheck:** not available
 
 ## Commands executed by the pipeline
 

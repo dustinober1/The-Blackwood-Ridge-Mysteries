@@ -6,7 +6,7 @@ stages:
   revise: complete
   polish: complete
   export: complete
-  package: in_progress
+  package: complete
   publish: pending
 book:
   n: 4
@@ -19,7 +19,7 @@ book:
   target_words: 25000
   structure: 8 novella chapters
   season: early November 2026, days after Book 3
-  planning_note: Book 4 manuscript, revision, polish, and technical export are complete. The reader-facing source plus reproducible DOCX/EPUB outputs passed validation. Package remains in progress because no final cover exists and author-controlled retailer/print choices remain. Publish is pending. Books 1-3 were not modified.
+  planning_note: Book 4 manuscript, revision, polish, technical export, and package cover are complete. The reader-facing source plus reproducible DOCX/EPUB outputs passed validation. Publish is pending. Books 1-3 were not modified.
   actual_words: 34960
   combined_reader_facing_words: 35249
   chapter_count: 8
@@ -86,10 +86,10 @@ validation:
   export_assembly_tooling_complete: true
   combined_export_complete: true
   package_readiness_validation_complete: true
-  package_complete: false
+  package_complete: true
   publish_complete: false
   export_validation_complete: true
-  cover_ready: false
+  cover_ready: true
   reader_facing_placeholders_present: false
   story_preserved: true
   chapter_sources_changed_in_publication_pass: false

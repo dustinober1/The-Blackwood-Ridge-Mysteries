@@ -40,6 +40,6 @@ The original 25,000-word target remains unchanged in planning metadata; this rep
 |---|---|---:|---|---|
 | MARKDOWN | `export/manuscript-combined.md` | 203.3 KiB | `0a52ac312edc290c32700fa769552ca7c815539bcd7ad62321e4786d0bd60089` | Yes |
 | TEXT | `export/manuscript-combined.txt` | 209.4 KiB | `9c23b571142124511b023a791115b63678f16530008e1eac606108ddf058bc04` | Yes |
-| HTML | `export/manuscript-combined.html` | 228.5 KiB | `598d12bb5ecb0aae23e80285ba701f22057ce625f8346a42542a8f192428c99d` | Yes |
-| DOCX | `export/dist/The-Archive-Fire.docx` | 113.7 KiB | `de73e71c6fa2261a3e68890738e947f5e1d06185dbc824f5979e0c465235554b` | No — reproducible build output |
-| EPUB | `export/dist/The-Archive-Fire.epub` | 95.6 KiB | `fb174b36aefa74886a830f69fc901c8aa141715e0557ed005520a2771edc5d9b` | No — reproducible build output |
+| HTML | `export/manuscript-combined.html` | 228.8 KiB | `f5e4e965c52bbd63504aeab6b9395323e9758f7d6c439dc2f4a483107855f9e7` | Yes |
+| DOCX | `export/dist/The-Archive-Fire.docx` | 109.9 KiB | `16d102dd0ccd1542696f737b6453529f2c6f2f72a7d24311f0313c2ef54dd3d7` | No — reproducible build output |
+| EPUB | `export/dist/The-Archive-Fire.epub` | 927.1 KiB | `b42d240a67f04f01dcc337b226bd72bc014908f7f123617c7581cf159486610e` | No — reproducible build output |

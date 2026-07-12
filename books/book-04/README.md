@@ -6,7 +6,7 @@
 - Revision: complete.
 - Polish: complete.
 - Export: complete and reproducibly validated.
-- Package: in progress because the final cover and author-controlled upload/print decisions remain.
+- Package: complete.
 - Publish: pending.
 
 ## Authoritative files

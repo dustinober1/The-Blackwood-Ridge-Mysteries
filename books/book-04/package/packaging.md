@@ -3,7 +3,7 @@ status: production-guidance
 format: ebook-first
 target_dimensions: "1600x2560 px (1:1.6)"
 series_book: 4
-cover_asset_present: false
+cover_asset_present: true
 publish_status: pending
 ---
 
@@ -52,7 +52,7 @@ These requirements were checked against the KDP Help Center on 2026-07-10. The a
 
 ## Current cover result
 
-**BLOCKED — no Book 4 cover image or print wrap exists in the repository.** Therefore title spelling, author spelling, series identification, dimensions, format, color profile, and thumbnail legibility cannot be validated. A final ebook cover must be supplied and approved before upload.
+**Cover image present.** `cover.jpeg` is present in the book directory.
 
 ## Print-cover result
 

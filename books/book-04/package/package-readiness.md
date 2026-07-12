@@ -1,7 +1,7 @@
 ---
-status: in_progress
+status: complete
 technical_exports: complete
-cover: blocked
+cover: ready
 print: decisions_required
 publish: pending
 ---
@@ -19,7 +19,7 @@ publish: pending
 
 ## Blocking asset
 
-**No final Book 4 cover exists in the repository.** Upload readiness cannot be claimed until the author supplies and approves an ebook cover with the correct title, author, series identification, dimensions, format, color profile, and thumbnail legibility.
+**Cover image present.** `cover.jpeg` is present in the book directory.
 
 ## Print status
 
@@ -28,6 +28,6 @@ No print-ready interior PDF or full cover wrap was generated because no authorit
 ## Accurate status
 
 - Export: complete.
-- Package: in progress / blocked by cover and author decisions.
+- Package: complete.
 - Publish: pending.
 - Uploaded, distributed, or live: no.

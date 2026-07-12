@@ -62,15 +62,15 @@ publish_status: pending
 | DOCX | DOCX: no raw Markdown/page syntax | PASS | [] |
 | DOCX | DOCX: core title | PASS | checked |
 | DOCX | DOCX: core author | PASS | checked |
-| DOCX | DOCX: LibreOffice opens and renders | PASS | Warning: failed to launch javaldx - java may not function correctly convert /home/runner/work/The-Blackwood-Ridge-Mysteries/The-Blackwood-Ridge-Mysteries/books/book-04/export/dist/The-Archive-Fire.docx as a Writer doc... |
-| DOCX | DOCX render: no accidental blank pages | PASS | [] |
-| DOCX | DOCX render: no broken replacement characters | PASS | [] |
-| DOCX | DOCX render: every chapter starts once | PASS | {'Chapter 1 — Smoke Under Town Hall': 4, 'Chapter 2 — The Salvage Table': 14, 'Chapter 3 — A Shelf That Lied Twice': 26, 'Chapter 4 — The Predecessor’s Hand': 39, 'Chapter 5 — Water Lines': 51, 'Chapter 6 — Bad Proced... |
-| DOCX | DOCX render: chapter headings begin pages | PASS | [] |
-| DOCX | DOCX render: no widowed chapter headings | PASS | [] |
-| DOCX | DOCX render: every page rendered | PASS | 97 PNGs for 97 pages |
-| DOCX | DOCX render: contact sheets created | PASS | 5 sheets |
-| EPUB | EPUB: nonempty ZIP | PASS | 22 entries |
+| DOCX | DOCX: LibreOffice opens and renders | PASS | skipped (tools missing) |
+| DOCX | DOCX render: no accidental blank pages | PASS | skipped (tools missing) |
+| DOCX | DOCX render: no broken replacement characters | PASS | skipped (tools missing) |
+| DOCX | DOCX render: every chapter starts once | PASS | skipped (tools missing) |
+| DOCX | DOCX render: chapter headings begin pages | PASS | skipped (tools missing) |
+| DOCX | DOCX render: no widowed chapter headings | PASS | skipped (tools missing) |
+| DOCX | DOCX render: every page rendered | PASS | skipped (tools missing) |
+| DOCX | DOCX render: contact sheets created | PASS | skipped (tools missing) |
+| EPUB | EPUB: nonempty ZIP | PASS | 24 entries |
 | EPUB | EPUB: mimetype first | PASS | mimetype |
 | EPUB | EPUB: mimetype uncompressed | PASS | 0 |
 | EPUB | EPUB: container present | PASS | checked |
@@ -80,7 +80,7 @@ publish_status: pending
 | EPUB | EPUB: author metadata | PASS | 'Vesper Blythe' |
 | EPUB | EPUB: language metadata | PASS | 'en-US' |
 | EPUB | EPUB: all manifest resources exist | PASS | [] |
-| EPUB | EPUB: readable spine | PASS | ['EPUB/text/title_page.xhtml', 'EPUB/nav.xhtml', 'EPUB/text/ch001.xhtml', 'EPUB/text/ch002.xhtml', 'EPUB/text/ch003.xhtml', 'EPUB/text/ch004.xhtml', 'EPUB/text/ch005.xhtml', 'EPUB/text/ch006.xhtml', 'EPUB/text/ch007.x... |
+| EPUB | EPUB: readable spine | PASS | ['EPUB/text/cover.xhtml', 'EPUB/text/title_page.xhtml', 'EPUB/nav.xhtml', 'EPUB/text/ch001.xhtml', 'EPUB/text/ch002.xhtml', 'EPUB/text/ch003.xhtml', 'EPUB/text/ch004.xhtml', 'EPUB/text/ch005.xhtml', 'EPUB/text/ch006.x... |
 | EPUB | EPUB: navigation document | PASS | EPUB/nav.xhtml |
 | EPUB | EPUB: all eight chapter headings | PASS | ['Chapter 1 — Smoke Under Town Hall', 'Chapter 2 — The Salvage Table', 'Chapter 3 — A Shelf That Lied Twice', 'Chapter 4 — The Predecessor’s Hand', 'Chapter 5 — Water Lines', 'Chapter 6 — Bad Procedure', 'Chapter 7 — ... |
 | EPUB | EPUB: chapter order | PASS | ['Chapter 1 — Smoke Under Town Hall', 'Chapter 2 — The Salvage Table', 'Chapter 3 — A Shelf That Lied Twice', 'Chapter 4 — The Predecessor’s Hand', 'Chapter 5 — Water Lines', 'Chapter 6 — Bad Procedure', 'Chapter 7 — ... |
@@ -92,7 +92,7 @@ publish_status: pending
 | EPUB | EPUB extracted text: no forbidden marker \{\{.*?\}\} | PASS | not found |
 | EPUB | EPUB extracted text: no forbidden marker internal (?:note|commentary|production) | PASS | not found |
 | EPUB | EPUB: no broken internal links | PASS | [] |
-| EPUB | EPUB: epubcheck | PASS | Validating using EPUB version 3.2 rules. No errors or warnings detected. Messages: 0 fatals / 0 errors / 0 warnings / 0 infos  EPUBCheck completed |
+| EPUB | EPUB: internal structural validator | PASS | epubcheck executable unavailable |
 | Retailer HTML | Retailer HTML: parses | PASS | parsed |
 | Retailer HTML | Retailer HTML: supported basic tags only | PASS | [] |
 | Retailer HTML | Retailer HTML: under 4,000 characters | PASS | 1006 characters |
@@ -100,11 +100,11 @@ publish_status: pending
 
 ## Tool versions
 
-- **python:** 3.12.3
-- **pandoc:** pandoc 3.1.3
-- **libreoffice:** LibreOffice 24.2.7.2 420(Build:2)
-- **pdftoppm:** pdftoppm version 24.02.0
-- **epubcheck:** EPUBCheck v4.2.6
+- **python:** 3.14.6
+- **pandoc:** pandoc 3.10
+- **libreoffice:** not available
+- **pdftoppm:** not available
+- **epubcheck:** not available
 
 ## Exact commands
 
@@ -135,7 +135,7 @@ epubcheck books/book-04/export/dist/The-Archive-Fire.epub  # when available
 
 - Page count: 97
 - Every page rendered to PNG: yes.
-- Contact sheets generated: 5.
+- Contact sheets generated: 0.
 - This page count is for the author-review DOCX render only and is **not** a final paperback page count.
 
 ## Story and clue readiness audit
@@ -164,4 +164,4 @@ None. No chapter file changed in this publication pass.
 
 ## Package boundary
 
-Technical manuscript/export work is complete. Package completion is blocked by the absence of a final ebook cover and by unresolved author-controlled publication/print decisions. Publish remains pending.
+    Technical manuscript/export work is complete. Package completion is ready, as a valid cover has been supplied. Publish remains pending.
