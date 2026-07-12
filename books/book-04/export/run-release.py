@@ -5,8 +5,9 @@ The established technical finalizer contains a Unicode replacement-character
 literal that was reduced to an empty string, causing every rendered DOCX page
 to fail. The release validator must also exclude the EPUB navigation document
 when counting visual title pages; Pandoc legitimately repeats the title there.
-The release build is additionally given a stable EPUB identifier, series
-metadata, and source date for reproducible retailer artifacts.
+The release build is additionally given a stable EPUB identifier, explicit
+series metadata, a fixed source date, and the authoritative prose/reader-facing
+word counts from the technical report.
 
 This wrapper patches only those release/build concerns in the disposable
 CI/local worktree, then runs the gate. Chapter sources are never touched.
@@ -94,6 +95,33 @@ METADATA_NEW = '''        "--metadata",
         f"group-position={SERIES_NUMBER}",
 '''
 
+COUNTS_OLD = '''    story_words = story_word_count(markdown)
+    retail_words = count_words(markdown)
+'''
+
+COUNTS_NEW = '''    word_report = (HERE / "word-count-report.md").read_text(encoding="utf-8")
+    body_match = re.search(r"\\| Manuscript body words \\(chapter prose\\) \\| ([\\d,]+) \\|", word_report)
+    combined_match = re.search(r"\\| Total combined reader-facing words \\| ([\\d,]+) \\|", word_report)
+    if body_match is None or combined_match is None:
+        raise RuntimeError("Authoritative word-count totals are missing from word-count-report.md")
+    manuscript_body_words = int(body_match.group(1).replace(",", ""))
+    combined_reader_facing_words = int(combined_match.group(1).replace(",", ""))
+'''
+
+COUNT_KEYS_OLD = '''        "story_words": story_words,
+        "retail_words": retail_words,
+'''
+COUNT_KEYS_NEW = '''        "manuscript_body_words": manuscript_body_words,
+        "combined_reader_facing_words": combined_reader_facing_words,
+'''
+
+COUNT_REPORT_OLD = '''- Story words: {story_words:,}
+- Retail package words: {retail_words:,}
+'''
+COUNT_REPORT_NEW = '''- Manuscript body words (chapter prose): {manuscript_body_words:,}
+- Combined reader-facing words: {combined_reader_facing_words:,}
+'''
+
 
 def replace_once(path: Path, old: str, new: str, label: str) -> None:
     text = path.read_text(encoding="utf-8")
@@ -109,6 +137,9 @@ def main() -> None:
     replace_once(RELEASE, FIELD_OLD, FIELD_NEW, "EPUB title manifest field")
     replace_once(RELEASE, REPORT_OLD, REPORT_NEW, "release report title wording")
     replace_once(RELEASE, METADATA_OLD, METADATA_NEW, "EPUB identity/series metadata")
+    replace_once(RELEASE, COUNTS_OLD, COUNTS_NEW, "authoritative word counts")
+    replace_once(RELEASE, COUNT_KEYS_OLD, COUNT_KEYS_NEW, "word-count manifest keys")
+    replace_once(RELEASE, COUNT_REPORT_OLD, COUNT_REPORT_NEW, "word-count report labels")
     os.environ.setdefault("SOURCE_DATE_EPOCH", "1783814400")
     subprocess.run([sys.executable, str(RELEASE)], check=True)
 
