@@ -2,9 +2,9 @@
 """Build and validate the upload-ready Book 4 ebook package.
 
 The release layer runs the established Book 4 production pipeline, validates the
-uploaded cover, rebuilds the retailer EPUB without an automatic duplicate title
-page, and creates the exact upload ZIP. It never edits chapter source files and
-never claims that the title has been published.
+uploaded cover, builds a retailer EPUB with exactly one title page, and creates
+the exact upload ZIP. It never edits chapter source files and never claims that
+the title has been published.
 """
 from __future__ import annotations
 
@@ -54,6 +54,7 @@ REPO_ROOT = BOOK_DIR.parents[1]
 DIST = HERE / "dist"
 COVER_SOURCE = BOOK_DIR / "cover.jpeg"
 COMBINED = HERE / "manuscript-combined.md"
+RETAIL_MD = DIST / "manuscript-retail.md"
 EPUB = DIST / "The-Archive-Fire.epub"
 DOCX = DIST / "The-Archive-Fire.docx"
 COVER = DIST / "The-Archive-Fire-cover.jpg"
@@ -156,22 +157,34 @@ def validate_cover() -> dict[str, object]:
     return info
 
 
+def assemble_epub_source() -> None:
+    source = COMBINED.read_text(encoding="utf-8")
+    title_block = f"# {TITLE}\n\n**{AUTHOR}**\n\n*{SERIES} — Book {SERIES_NUMBER}*\n\n---\n\n"
+    if not source.startswith(title_block):
+        raise RuntimeError("Combined manuscript title block does not match the locked Book 4 format")
+    retail = source[len(title_block):]
+    validate_reader_text("Retail EPUB Markdown", retail)
+    RETAIL_MD.write_text(retail, encoding="utf-8")
+
+
 def build_retail_epub() -> None:
     pandoc = shutil.which("pandoc")
     if not pandoc:
         raise RuntimeError("pandoc is required")
+    assemble_epub_source()
     command = [
         pandoc,
-        str(COMBINED),
+        str(RETAIL_MD),
         "--from=markdown",
         "--to=epub3",
         "--toc",
         "--toc-depth=1",
-        "--epub-title-page=false",
         "--epub-cover-image",
         str(COVER),
         "--metadata",
         f"title={TITLE}",
+        "--metadata",
+        f"subtitle={SERIES}, Book {SERIES_NUMBER}",
         "--metadata",
         f"author={AUTHOR}",
         "--metadata",
@@ -319,7 +332,7 @@ def write_release_records(cover_info: dict[str, object], epub_info: dict[str, ob
 - Chapters: 8
 - Cover: JPEG / RGB / {cover_info['width']}×{cover_info['height']}
 - Locked ending: present exactly once
-- Duplicate automatic title page: absent
+- Title pages: exactly one
 - Embedded EPUB cover: byte-for-byte match with separate upload cover
 - Reader-facing placeholders/internal markers: none detected
 
