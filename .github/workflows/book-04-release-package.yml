@@ -39,12 +39,20 @@ jobs:
             pypdf==6.1.1
 
       - name: Build and validate Book 4
-        run: python books/book-04/export/release-package.py
+        shell: bash
+        run: |
+          mkdir -p books/book-04/export/dist
+          set +e
+          python books/book-04/export/release-package.py 2>&1 | tee books/book-04/export/dist/build.log
+          status=${PIPESTATUS[0]}
+          exit "$status"
 
       - name: Show release validation
+        if: success()
         run: cat books/book-04/export/dist/release-validation.md
 
       - name: Upload release package
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: book-04-release-package
@@ -58,3 +66,12 @@ jobs:
             books/book-04/export/qa/contact-sheets/*.png
           if-no-files-found: error
           retention-days: 30
+
+      - name: Upload build diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-04-build-diagnostics
+          path: books/book-04/export/dist/build.log
+          if-no-files-found: error
+          retention-days: 7
