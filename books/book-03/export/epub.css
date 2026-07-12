@@ -1,0 +1,54 @@
+body {
+  font-family: serif;
+  line-height: 1.45;
+  orphans: 2;
+  widows: 2;
+}
+
+h1 {
+  break-before: page;
+  page-break-before: always;
+  text-align: center;
+  margin: 22% 0 2.2em;
+}
+
+h1.title {
+  break-before: avoid;
+  page-break-before: avoid;
+}
+
+p {
+  margin: 0;
+  text-indent: 1.2em;
+}
+
+h1 + p,
+h2 + p,
+hr + p,
+blockquote p,
+li p {
+  text-indent: 0;
+}
+
+.pagebreak {
+  break-after: page;
+  page-break-after: always;
+}
+
+hr {
+  border: 0;
+  margin: 1.8em auto;
+  text-align: center;
+  width: 24%;
+}
+
+hr::after {
+  content: "* * *";
+  letter-spacing: 0.35em;
+}
+
+nav#toc ol,
+nav#landmarks ol {
+  list-style: none;
+  padding-left: 0;
+}

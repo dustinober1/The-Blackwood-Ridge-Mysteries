@@ -1,0 +1,52 @@
+name: Book 3 release package
+
+"on":
+  pull_request:
+    paths:
+      - "books/book-03/**"
+      - ".github/workflows/book-03-release-package.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install production dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc fonts-ebgaramond fonts-dejavu-core
+          if apt-cache show epubcheck >/dev/null 2>&1; then
+            sudo apt-get install -y epubcheck
+          fi
+          python -m pip install --disable-pip-version-check --no-cache-dir Pillow==12.0.0
+
+      - name: Build and validate Book 3
+        run: bash books/book-03/export/build.sh
+
+      - name: Show validation report
+        run: cat books/book-03/export/dist/release-validation.md
+
+      - name: Upload release package
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-03-release-package
+          path: |
+            books/book-03/export/dist/The-Challenger-upload-package.zip
+            books/book-03/export/dist/The-Challenger.epub
+            books/book-03/export/dist/The-Challenger-cover.jpg
+            books/book-03/export/dist/release-manifest.json
+            books/book-03/export/dist/release-validation.md
+          if-no-files-found: error
+          retention-days: 30

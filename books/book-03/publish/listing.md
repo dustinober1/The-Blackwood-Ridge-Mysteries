@@ -1,8 +1,8 @@
 ---
-status: draft
+status: upload_ready
 title: "The Challenger"
 former_working_title: null
-date: "2026-06-30"
+date: "2026-07-12"
 ---
 
 # Publishing listing — The Challenger
@@ -19,11 +19,18 @@ date: "2026-06-30"
 | Genre | Cozy mystery / amateur sleuth |
 | Tone lane | Atmospheric bookish cozy, archival mystery, restrained emotional stakes |
 | Format | Kindle ebook / novella-length ebook |
-| Approximate length | ~25,000 words target per outline |
-| Export source | `books/book-03/export/manuscript-combined.md` |
-| EPUB build target | `books/book-03/export/the-challenger.epub` |
+| Story length | 24,212 words |
+| Retail package length | 24,486 words, including reader back matter |
+| Authoritative story source | `books/book-03/export/manuscript-combined.md` |
+| Retail manuscript build | `books/book-03/export/dist/manuscript-retail.md` |
+| EPUB build target | `books/book-03/export/dist/The-Challenger.epub` |
+| Cover build target | `books/book-03/export/dist/The-Challenger-cover.jpg` |
+| Upload bundle | `books/book-03/export/dist/The-Challenger-upload-package.zip` |
 | Package guidance | `books/book-03/package/packaging.md` |
-| Publish status | Draft listing only; not uploaded; not published |
+| Upload sheet | `books/book-03/publish/upload-package.md` |
+| Publish status | Upload-ready package validated; not uploaded; not published |
+
+Generated files under `export/dist/` and `package/dist/` are intentionally ignored by Git. The GitHub Actions workflow stores the validated release files as the `book-03-release-package` artifact.
 
 ## Title clearance
 
@@ -32,10 +39,10 @@ date: "2026-06-30"
 | Criterion | Assessment |
 |-----------|------------|
 | Length and rhythm | Two words, direct and memorable. Shorter than Books 1 and 2, which gives it strong thumbnail readability. |
-| Genre signal | The title alone is broad and not inherently cozy; the cover, series label, subtitle/metadata, and blurb must do the genre signaling. |
-| Theme alignment | Strong. The title names both the external plot engine (Larter's scholarly challenge to Callie's Book 1 attribution) and Callie's internal challenge: learning where her gift has a blind spot. |
+| Genre signal | The title alone is broad and not inherently cozy; the cover, series label, series metadata, and blurb provide the genre signal. |
+| Theme alignment | Strong. The title names both the external plot engine—Larter's scholarly challenge to Callie's original Wren attribution—and Callie's internal challenge: learning where her gift has a blind spot. |
 | Series fit | Looser than the first two titles' `[literary modifier] + [grave noun]` rhythm, but still fits the elevated register. It also reflects the Book 3 slot: Callie is challenged instead of simply solving a new coded text. |
-| Searchability | Broad title phrase with likely non-mystery collisions. Treat series/author metadata as essential at upload time. |
+| Searchability | Broad title phrase with likely non-mystery collisions. Treat series and author metadata as essential at upload time. |
 
 ### Collision note
 
@@ -43,7 +50,7 @@ date: "2026-06-30"
 
 ### Decision
 
-**Keep `The Challenger`.** The title is thematically precise to the book and already established in the Book 3 export. Do not retitle during packaging unless a final pre-upload clearance check finds a direct cozy-mystery conflict that creates avoidable confusion.
+**Keep `The Challenger`.** The title is thematically precise to the book and established throughout the manuscript, metadata, cover, and release package. Do not retitle during upload unless a final clearance review finds a direct conflict that creates avoidable reader confusion.
 
 ## Book description
 
@@ -53,7 +60,7 @@ An academic challenge should have stayed academic. In Blackwood Ridge, it become
 
 After exposing two of the town's buried truths, Callie Thorne has earned a reputation no one quite knows what to do with. She is useful now. Not welcome. Then Dr. Vivian Larter arrives at The Foxed Page with a leather portfolio, a statistical model, and a problem Callie cannot dismiss: the Wren margin notes that made Callie's name may contain a second hand she failed to see.
 
-Larter's evidence is fair, careful, and devastating. If she is right, Callie's most famous reading was incomplete — and somewhere in the County Historical Society archive, a missing comparative sample may prove who altered the record.
+Larter's evidence is fair, careful, and devastating. If she is right, Callie's most famous reading was incomplete—and somewhere in the County Historical Society archive, a missing comparative sample may prove who altered the record.
 
 By morning, Larter is dead in the reading room.
 
@@ -69,7 +76,7 @@ And Callie Thorne has never trusted a silence that neat.
 
 ### Short variant (mobile / above-the-fold)
 
-Dr. Vivian Larter comes to Blackwood Ridge with a challenge Callie Thorne cannot dismiss: the Wren margin notes that made Callie's name may contain a second hand. When Larter is murdered in the County Historical Society reading room, Callie must follow red-and-blue handwriting evidence, missing folios, and a shelf that remembers what the catalog erased. Book 3 of The Blackwood Ridge Mysteries — an atmospheric cozy mystery about records, reputation, and the danger of a silence made too neat.
+Dr. Vivian Larter comes to Blackwood Ridge with a challenge Callie Thorne cannot dismiss: the Wren margin notes that made Callie's name may contain a second hand. When Larter is murdered in the County Historical Society reading room, Callie must follow red-and-blue handwriting evidence, missing folios, and a shelf that remembers what the catalog erased. Book 3 of The Blackwood Ridge Mysteries—an atmospheric cozy mystery about records, reputation, and the danger of a silence made too neat.
 
 ### Tagline
 
@@ -81,71 +88,77 @@ Alternate taglines:
 - A second hand in the margins. A body in the reading room.
 - Callie Thorne can read a page. This time, she has to read the hand that hid it.
 
-### Hook line options (marketing copy)
+### Hook line options
 
 1. A murdered linguist, a missing folio, and a challenge to the sleuth's most famous case.
-2. Callie Thorne's gift has a blind spot — and someone in Blackwood Ridge killed to keep it there.
+2. Callie Thorne's gift has a blind spot—and someone in Blackwood Ridge killed to keep it there.
 3. The dead woman found the second hand in the record. Callie has to find the living one.
 4. In Blackwood Ridge, history is not always burned. Sometimes it is filed into silence.
 5. The town does not welcome Callie Thorne. But it is learning she is useful.
 
-### Content warnings
+### Content advisory
 
-Contains an off-page blunt-force murder of a named supporting character; restrained on-page presence of the body / crime scene aftermath; implied blood scent; grief, insomnia, and professional self-doubt; archival tampering and long-term concealment; suspicion and arrest of a trusted institutional figure; family shame and record-keeping betrayal. No sexual content, no profanity, and no graphic violence.
+Contains an off-page blunt-force murder of a named supporting character; restrained on-page presence of the body and crime-scene aftermath; implied blood scent; grief, insomnia, and professional self-doubt; archival tampering and long-term concealment; suspicion and arrest of a trusted institutional figure; family shame and record-keeping betrayal. No sexual content, profanity, or graphic violence.
 
-## 7 KDP keywords
+## Seven KDP keyword phrases
 
-The keyword set keeps the series discovery spine from Books 1 and 2, then rotates the final terms toward Book 3's archival / handwriting-attribution device.
+The keyword set keeps the series discovery spine from Books 1 and 2, then rotates the final terms toward Book 3's archival and handwriting-attribution device.
 
-1. **cozy mystery bookshop** — Inherited series core: Callie, The Foxed Page, and bookish-cozy discovery.
-2. **small town amateur sleuth mystery** — Inherited series core: Blackwood Ridge + Callie's non-police role.
-3. **literary cozy mystery atmospheric** — Inherited mood lane; distinguishes this series from lighter pun-forward cozy packaging.
-4. **cozy mystery novella series** — Format-aware term for KU and series-binge readers.
-5. **archival mystery missing documents** — Book 3 specific: missing folios, county records, archive-as-crime-scene.
-6. **handwriting clue mystery** — Book 3 specific: second hand, attribution, red/blue overlays, reading as detection.
-7. **academic murder mystery amateur sleuth** — Book 3 specific: Dr. Larter, stylometry challenge, lecture/reading-room murder.
+1. `cozy mystery bookshop`
+2. `small town amateur sleuth mystery`
+3. `literary cozy mystery atmospheric`
+4. `cozy mystery novella series`
+5. `archival mystery missing documents`
+6. `handwriting clue mystery`
+7. `academic murder mystery amateur sleuth`
 
-## KDP categories
+## Category recommendations
 
-Inherits the Book 2 category structure for series consistency. Verify exact dashboard paths at upload time because category nodes can change.
+Verify the exact category names in the current KDP dashboard during upload.
 
 1. **Kindle Store > Kindle eBooks > Mystery, Thriller & Suspense > Cozy**
-   Primary category. Keeps the series shelved as cozy mystery and supports series-page coherence.
-
 2. **Kindle Store > Kindle eBooks > Mystery, Thriller & Suspense > Women Sleuths**
-   Secondary category. Fits Callie Thorne as the lead amateur sleuth and matches the series discovery lane.
-
 3. **Kindle Store > Kindle eBooks > Mystery, Thriller & Suspense > Mystery > Amateur Sleuth**
-   Tertiary category. Best fit for the puzzle/record-reading mechanics and Callie's unofficial investigative role.
 
-*Note: If `Amateur Sleuth` is unavailable in the KDP dashboard at the chosen depth, fall back to the Book 1 tertiary path: Literature & Fiction > Genre Fiction > Mystery > Cozy, or the closest currently available cozy/amateur-sleuth node.*
+If `Amateur Sleuth` is unavailable at the chosen depth, use the closest current cozy/amateur-sleuth category consistent with Books 1 and 2.
 
 ## Pricing guidance
 
 **Recommended launch price: $2.99** to match Books 1 and 2 and preserve series consistency.
 
 - $2.99 avoids training readers that later series entries should discount below the opening-book price.
-- Novella length supports $2.99 in KU when the series promise is clear and cases resolve cleanly.
-- Do not raise above $3.99 for this series stage unless Books 1 and 2 have strong review volume and sell-through.
-- If Book 4 is scheduled soon, consider a temporary Book 1 or Book 2 promotion around Book 3 launch rather than discounting Book 3 immediately.
+- Novella length supports $2.99 when the series promise is clear and each case resolves cleanly.
+- If Book 4 is scheduled soon, prefer a temporary Book 1 or Book 2 promotion around the Book 3 launch rather than immediately discounting Book 3.
 
-## Launch checklist (author TODO)
+## Release checklist
 
-- [ ] Generate / finalize cover using `books/book-03/package/packaging.md` Concept A or the approved series template.
-- [ ] Verify series-continuity checklist from `package/packaging.md` before export: fonts, title hierarchy, author placement, series label, frame/border, base palette, and brass magnifying-glass motif.
-- [ ] Export final cover as 1600 × 2560 px JPEG or TIFF, matching the established series ebook-cover dimensions and platform upload requirements.
-- [ ] Build EPUB locally from `books/book-03/export/build.sh` if a fresh EPUB is needed.
-- [ ] Upload to KDP: EPUB from `books/book-03/export/the-challenger.epub` + final cover image.
-- [ ] Paste the **primary blurb** into the KDP description field.
-- [ ] Enter the 7 keywords above.
-- [ ] Select the 3 categories above or their current KDP-dashboard equivalents.
-- [ ] Set price to **$2.99**.
-- [ ] Enroll in KDP Select / Kindle Unlimited if continuing the series strategy.
-- [ ] Set publication date.
-- [ ] Add the optional content-warning note if the dashboard provides a suitable field.
-- [ ] Link the book to **The Blackwood Ridge Mysteries** series page as Book 3.
-- [ ] Request early reviewers / ARC readers after final cover and EPUB QA.
+### Production complete
+
+- [x] Final cover generated from the approved Concept A direction and series template.
+- [x] Cover checked for title hierarchy, author placement, series label, frame, base palette, and brass magnifying-glass motif.
+- [x] Cover exported as a 1,600 × 2,560 px RGB JPEG at 72 dpi.
+- [x] Reader back matter added: review request, series list, and author bio.
+- [x] Retail manuscript assembled without changing chapter-source prose.
+- [x] Reflowable EPUB 3 built with embedded cover, metadata, and navigation.
+- [x] Duplicate automatic EPUB title page removed during visual QA.
+- [x] EPUBCheck passed with zero errors and zero warnings.
+- [x] Eight chapters, locked ending, back matter, cover, and metadata mechanically validated.
+- [x] Upload ZIP, artifact hashes, upload sheet, and validation report generated.
+
+### Retailer actions still required
+
+- [ ] Choose the final release date or preorder date.
+- [ ] Confirm territorial rights, DRM preference, and KDP Select / Kindle Unlimited choice.
+- [ ] Upload `The-Challenger.epub` and `The-Challenger-cover.jpg` to KDP.
+- [ ] Paste the primary blurb and enter the seven keyword phrases.
+- [ ] Select three current dashboard categories.
+- [ ] Set the ebook price to `$2.99`, unless deliberately changing the series strategy.
+- [ ] Link the book to **The Blackwood Ridge Mysteries** as Book 3.
+- [ ] Complete KDP's content-disclosure questions from the actual production history.
+- [ ] Inspect the complete book in the KDP online previewer or Kindle Previewer.
+- [ ] Submit for publication.
+- [ ] Mark `publish: complete` only after retailer acceptance and the live detail page are confirmed.
 
 ## Status
 
-Draft listing metadata is prepared. This file does **not** indicate that Book 3 has been uploaded or published.
+**UPLOAD READY — NOT YET PUBLISHED.** The EPUB, cover, listing copy, upload sheet, hashes, and validation report are complete. Only author-controlled retailer settings, final platform preview, submission, and retailer acceptance remain.
