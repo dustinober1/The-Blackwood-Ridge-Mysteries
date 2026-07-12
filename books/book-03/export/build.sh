@@ -29,6 +29,7 @@ pandoc "$DIST/manuscript-retail.md" \
   --from=markdown+smart+raw_html \
   --to=epub3 \
   --toc --toc-depth=1 \
+  --epub-title-page=false \
   --css=epub.css \
   --metadata-file=metadata.yaml \
   --epub-cover-image="$PACKAGE_DIST/The-Challenger-cover.jpg" \
