@@ -14,7 +14,7 @@ books:
   - n: 3
     title: "The Challenger"
     dir: "books/book-03"
-    status: drafted
+    status: upload_ready
   - n: 4
     title: "The Archive Fire"
     dir: "books/book-04"
