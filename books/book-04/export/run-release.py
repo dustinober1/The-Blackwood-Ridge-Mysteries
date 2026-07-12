@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
-"""Run the Book 4 release pipeline with two narrow validator corrections.
+"""Run the Book 4 release pipeline with narrow compatibility corrections.
 
 The established technical finalizer contains a Unicode replacement-character
 literal that was reduced to an empty string, causing every rendered DOCX page
 to fail. The release validator must also exclude the EPUB navigation document
 when counting visual title pages; Pandoc legitimately repeats the title there.
+The release build is additionally given a stable EPUB identifier, series
+metadata, and source date for reproducible retailer artifacts.
 
-This wrapper patches only those validators in the disposable CI/local build
-worktree, then runs the release gate. Chapter sources are never touched.
+This wrapper patches only those release/build concerns in the disposable
+CI/local worktree, then runs the gate. Chapter sources are never touched.
 """
 from __future__ import annotations
 
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -58,9 +61,38 @@ EPUB_NEW = '''        all_h1: list[str] = []
 
 FIELD_OLD = '"title_heading_count": all_h1.count(TITLE),'
 FIELD_NEW = '"reader_title_documents": [{"spine_index": index, "path": path} for index, path in reader_title_locations],'
-
 REPORT_OLD = '- Title pages: exactly one'
 REPORT_NEW = '- Reader title page: exactly one; navigation title excluded'
+
+METADATA_OLD = '''        "--metadata",
+        f"title={TITLE}",
+        "--metadata",
+        f"subtitle={SERIES}, Book {SERIES_NUMBER}",
+        "--metadata",
+        f"author={AUTHOR}",
+        "--metadata",
+        f"lang={LANGUAGE}",
+'''
+
+METADATA_NEW = '''        "--metadata",
+        f"title={TITLE}",
+        "--metadata",
+        f"subtitle={SERIES}, Book {SERIES_NUMBER}",
+        "--metadata",
+        f"author={AUTHOR}",
+        "--metadata",
+        f"lang={LANGUAGE}",
+        "--metadata",
+        "date=2026-07",
+        "--metadata",
+        f"publisher={AUTHOR}",
+        "--metadata",
+        "identifier=urn:uuid:f47ac94d-e0c1-5c84-a14e-68a92bb6273e",
+        "--metadata",
+        f"belongs-to-collection={SERIES}",
+        "--metadata",
+        f"group-position={SERIES_NUMBER}",
+'''
 
 
 def replace_once(path: Path, old: str, new: str, label: str) -> None:
@@ -76,6 +108,8 @@ def main() -> None:
     replace_once(RELEASE, EPUB_OLD, EPUB_NEW, "EPUB reader title-page structure")
     replace_once(RELEASE, FIELD_OLD, FIELD_NEW, "EPUB title manifest field")
     replace_once(RELEASE, REPORT_OLD, REPORT_NEW, "release report title wording")
+    replace_once(RELEASE, METADATA_OLD, METADATA_NEW, "EPUB identity/series metadata")
+    os.environ.setdefault("SOURCE_DATE_EPOCH", "1783814400")
     subprocess.run([sys.executable, str(RELEASE)], check=True)
 
 
