@@ -122,6 +122,9 @@ COUNT_REPORT_NEW = '''- Manuscript body words (chapter prose): {manuscript_body_
 - Combined reader-facing words: {combined_reader_facing_words:,}
 '''
 
+HASH_HEADING_OLD = "## Deterministic hashes"
+HASH_HEADING_NEW = "## Release artifact hashes"
+
 
 def replace_once(path: Path, old: str, new: str, label: str) -> None:
     text = path.read_text(encoding="utf-8")
@@ -140,6 +143,7 @@ def main() -> None:
     replace_once(RELEASE, COUNTS_OLD, COUNTS_NEW, "authoritative word counts")
     replace_once(RELEASE, COUNT_KEYS_OLD, COUNT_KEYS_NEW, "word-count manifest keys")
     replace_once(RELEASE, COUNT_REPORT_OLD, COUNT_REPORT_NEW, "word-count report labels")
+    replace_once(RELEASE, HASH_HEADING_OLD, HASH_HEADING_NEW, "release-hash heading")
     os.environ.setdefault("SOURCE_DATE_EPOCH", "1783814400")
     subprocess.run([sys.executable, str(RELEASE)], check=True)
 
