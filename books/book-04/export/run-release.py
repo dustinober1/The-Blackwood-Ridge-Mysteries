@@ -3,8 +3,8 @@
 
 The established technical finalizer contains a Unicode replacement-character
 literal that was reduced to an empty string, causing every rendered DOCX page
-to fail. The release validator also needs to distinguish Pandoc's visual cover
-XHTML from its reader title page: both legitimately carry the book title.
+to fail. The release validator must also exclude the EPUB navigation document
+when counting visual title pages; Pandoc legitimately repeats the title there.
 
 This wrapper patches only those validators in the disposable CI/local build
 worktree, then runs the release gate. Chapter sources are never touched.
@@ -36,31 +36,31 @@ EPUB_OLD = '''        all_h1: list[str] = []
 '''
 
 EPUB_NEW = '''        all_h1: list[str] = []
-        title_locations: list[tuple[int, str]] = []
+        reader_title_locations: list[tuple[int, str]] = []
         extracted_parts: list[str] = []
         for spine_index, path in enumerate(spine_paths):
             soup = BeautifulSoup(archive.read(path), "html.parser")
             headings = [normalize(node.get_text(" ", strip=True)) for node in soup.find_all("h1")]
             all_h1.extend(headings)
-            if TITLE in headings:
-                title_locations.append((spine_index, path))
+            # The nav document repeats the bibliographic title by design; it is
+            # not a rendered reader title page and must not be counted as one.
+            if TITLE in headings and path != nav_href:
+                reader_title_locations.append((spine_index, path))
             extracted_parts.append(soup.get_text(" ", strip=True))
         chapter_h1 = [value for value in all_h1 if value.startswith("Chapter ")]
         if chapter_h1 != EXPECTED_CHAPTERS:
             raise RuntimeError(f"EPUB chapter sequence mismatch: {chapter_h1!r}")
-        # Pandoc's cover XHTML and its reader title page both carry the title.
-        # Require exactly that structure: the cover first, followed by one title page.
-        if len(title_locations) != 2 or title_locations[0][0] != 0 or title_locations[1][0] <= 0:
+        if len(reader_title_locations) != 1:
             raise RuntimeError(
-                f"EPUB title structure mismatch: {title_locations!r}; expected cover first plus one reader title page"
+                f"EPUB reader title-page mismatch: {reader_title_locations!r}; expected exactly one non-navigation title page"
             )
 '''
 
 FIELD_OLD = '"title_heading_count": all_h1.count(TITLE),'
-FIELD_NEW = '"title_documents": [{"spine_index": index, "path": path} for index, path in title_locations],'
+FIELD_NEW = '"reader_title_documents": [{"spine_index": index, "path": path} for index, path in reader_title_locations],'
 
 REPORT_OLD = '- Title pages: exactly one'
-REPORT_NEW = '- Title structure: one visual cover plus one reader title page'
+REPORT_NEW = '- Reader title page: exactly one; navigation title excluded'
 
 
 def replace_once(path: Path, old: str, new: str, label: str) -> None:
@@ -73,7 +73,7 @@ def replace_once(path: Path, old: str, new: str, label: str) -> None:
 
 def main() -> None:
     replace_once(FINALIZER, DOCX_BROKEN, DOCX_FIXED, "DOCX replacement-character")
-    replace_once(RELEASE, EPUB_OLD, EPUB_NEW, "EPUB cover/title structure")
+    replace_once(RELEASE, EPUB_OLD, EPUB_NEW, "EPUB reader title-page structure")
     replace_once(RELEASE, FIELD_OLD, FIELD_NEW, "EPUB title manifest field")
     replace_once(RELEASE, REPORT_OLD, REPORT_NEW, "release report title wording")
     subprocess.run([sys.executable, str(RELEASE)], check=True)
