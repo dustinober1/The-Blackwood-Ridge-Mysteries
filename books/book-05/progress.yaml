@@ -2,7 +2,7 @@ stages:
   concept: complete
   bible: complete
   outline: complete
-  draft: in_progress
+  draft: complete
   revise: pending
   polish: pending
   export: pending
@@ -20,7 +20,7 @@ book:
   structure: 8 novella chapters
   season: late January to early February 2027, approximately eleven weeks after Book 4
   status: in_progress
-  planning_note: Chapters 1 through 7 are drafted. Chapter 8 remains planned; revision, polish, export, package, and publication remain pending.
+  planning_note: Chapters 1 through 8 are drafted and the Book 5 first draft is complete. Revision, polish, export, package, and publication remain pending.
 chapters:
   - n: 1
     title: The Hand at the Door
@@ -68,8 +68,8 @@ chapters:
     title: The Current Hand
     pov: Callie Thorne
     word_target: 3100
-    status: planned
-    words: 0
+    status: drafted
+    words: 3147
 validation:
   title_locked: true
   continuity_handoff_complete: true
@@ -85,10 +85,10 @@ validation:
   character_arcs_complete: true
   eight_chapter_outline_complete: true
   target_words_total: 25000
-  drafted_chapters: 7
-  drafted_words_total: 22035
+  drafted_chapters: 8
+  drafted_words_total: 25182
   no_chapter_draft_created: false
-  draft_complete: false
+  draft_complete: true
   revision_complete: false
   polish_complete: false
   export_complete: false
