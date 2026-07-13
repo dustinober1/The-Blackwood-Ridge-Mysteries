@@ -2,7 +2,7 @@ stages:
   concept: complete
   bible: complete
   outline: complete
-  draft: pending
+  draft: in_progress
   revise: pending
   polish: pending
   export: pending
@@ -19,15 +19,15 @@ book:
   target_words: 25000
   structure: 8 novella chapters
   season: late January to early February 2027, approximately eleven weeks after Book 4
-  status: initialized
-  planning_note: Book 5 mystery architecture, continuity handoff, suspect design, clue ladder, and eight-chapter outline are complete. Drafting has not begun.
+  status: in_progress
+  planning_note: Chapter 1 is drafted and integrated on the production branch. Chapters 2-8 remain planned; revision, polish, export, package, and publication remain pending.
 chapters:
   - n: 1
     title: The Hand at the Door
     pov: Callie Thorne
     word_target: 3100
-    status: planned
-    words: 0
+    status: drafted
+    words: 3294
   - n: 2
     title: A Note in His Hand
     pov: Callie Thorne
@@ -85,7 +85,9 @@ validation:
   character_arcs_complete: true
   eight_chapter_outline_complete: true
   target_words_total: 25000
-  no_chapter_draft_created: true
+  drafted_chapters: 1
+  drafted_words_total: 3294
+  no_chapter_draft_created: false
   draft_complete: false
   revision_complete: false
   polish_complete: false
