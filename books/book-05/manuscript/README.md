@@ -1,6 +1,6 @@
 # Book 5 Manuscript Directory
 
-Book 5 — *The Planted Page* is in first-draft production.
+Book 5 — *The Planted Page* first draft is complete.
 
 Current manuscript status:
 
@@ -11,6 +11,8 @@ Current manuscript status:
 - `ch-05.md` — **What the Trust Passed** — drafted, 3,081 words
 - `ch-06.md` — **The Hand That Waited** — drafted, 3,041 words
 - `ch-07.md` — **The Page Under Pressure** — drafted, 3,189 words
-- `ch-08.md` — **The Current Hand** — planned, not drafted
+- `ch-08.md` — **The Current Hand** — drafted, 3,147 words
+
+Total drafted manuscript prose: **25,182 words** across eight chapters.
 
 Revision, polish, export, packaging, and publication remain pending.
