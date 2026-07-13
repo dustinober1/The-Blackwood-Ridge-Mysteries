@@ -20,7 +20,7 @@ book:
   structure: 8 novella chapters
   season: late January to early February 2027, approximately eleven weeks after Book 4
   status: in_progress
-  planning_note: Chapters 1 through 4 are drafted. Chapters 5-8 remain planned; revision, polish, export, package, and publication remain pending.
+  planning_note: Chapters 1 through 5 are drafted. Chapters 6-8 remain planned; revision, polish, export, package, and publication remain pending.
 chapters:
   - n: 1
     title: The Hand at the Door
@@ -50,8 +50,8 @@ chapters:
     title: What the Trust Passed
     pov: Callie Thorne
     word_target: 3100
-    status: planned
-    words: 0
+    status: drafted
+    words: 3081
   - n: 6
     title: The Hand That Waited
     pov: Callie Thorne
@@ -85,8 +85,8 @@ validation:
   character_arcs_complete: true
   eight_chapter_outline_complete: true
   target_words_total: 25000
-  drafted_chapters: 4
-  drafted_words_total: 12724
+  drafted_chapters: 5
+  drafted_words_total: 15805
   no_chapter_draft_created: false
   draft_complete: false
   revision_complete: false
