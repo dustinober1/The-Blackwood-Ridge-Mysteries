@@ -132,7 +132,7 @@ The genuine repair ticket reaches the comparison set through a deliberately cura
 - **Exact visible Eli work:** Eli builds the shop intake grid; follows Mercer House handling rules; leaves the chancery edition blank rather than risk the guarded hinge or guess; records the full title and separate spine wording; pads and logs the volume; completes the access ledger only after handling is known; and files the returned volume and general shop paperwork through ordinary repair intake. He neither reads unauthorized material nor interprets the family dispute.
 - **Mae and Callie movement:** Mae provides concise civic context: Alton funded genuine preservation but made recipients feel examined. She offers food, labor, and observation without using care as leverage or demanding an emotional response.
 - **Emotional endpoint:** Callie begins with difficult satisfaction that the town seeks her expertise and ends the day uneasy at how quickly requests become presumed obligations. She retains the ordinary visual memory of Alton writing alive that afternoon, without attaching forensic meaning to it.
-- **Final beat:** Before dawn on Tuesday, Tess calls The Foxed Page and reports that Alton is dead and that there is a note in his hand. Callie does not see the body or note in Chapter 1.
+- **Final beat:** On Tuesday morning, Tess calls The Foxed Page and reports that Alton is dead and that there is a note in his hand. Callie does not see the body or note in Chapter 1.
 
 ## Ending residue
 
