@@ -22,11 +22,11 @@ Current trust gives Claire $300,000 and her mother's sealed correspondence but t
 
 ## Lie
 
-Claire removes her mother's sealed correspondence without authorization and lies about her departure time to protect the theft.
+Claire removes her mother's sealed correspondence without authorization and answers Cross evasively rather than directly confirming the removal.
 
 ## Suspicion / clearance
 
-Missing letters and inheritance anger point toward her. A ride receipt and bookstore camera place her away before the critical death window. Recovered letters contain no practice or staging evidence.
+Missing letters and inheritance anger point toward her. A ride receipt, provider records, driver authentication, and bookstore camera place her away through the critical death window. Recovered letters contain no practice or staging evidence.
 
 ## Thematic function
 
