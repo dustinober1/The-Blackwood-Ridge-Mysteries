@@ -18,15 +18,15 @@ book: 5
 
 ## Motive and opportunity
 
-Alton's audit threatens Gideon's company and marriage. He knows Mercer House access routes and has extensive correction memos in Alton's hand.
+Alton's audit threatens Gideon's company and marriage. He knows Mercer House access routes and has extensive correction memoranda in Alton's hand.
 
 ## Lie
 
-He minimizes overruns and pressures a foreman to revise invoice descriptions after the fact.
+He minimizes overruns, revised invoice descriptions, and the extent of his financial exposure.
 
 ## Suspicion / clearance
 
-Foundation payments create motive. Crew timecards, fuel receipt, and witnesses place him at a county work site during the murder window. He did not write the note or know Nora's full plan.
+Foundation payments create motive. Crew timecards, a fuel receipt, and three witnesses place him at the county courthouse stabilization site during the murder window. He did not write the note or know Nora's full plan.
 
 ## Thematic function
 
