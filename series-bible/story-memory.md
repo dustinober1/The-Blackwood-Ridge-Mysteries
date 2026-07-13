@@ -1,185 +1,129 @@
 ---
 doc: story-memory
 stage: bible
-status: draft
+status: living
+internal_series_spoilers: true
 ---
 
 # Story Memory
 
-## Motifs and callbacks
+## Core motifs
 
-- **Eleanor's brass magnifying glass:** Introduced early as Callie's most
-  prized tool — the one her mother gave her at age nine. Appears in quiet
-  moments of decoding. Callback: in the climax, when Callie makes the decision
-  to enter the archive into evidence, she sets the glass down on the table —
-  letting go of the tool, and by extension the grip her mother's ghost has on
-  her. She picks it up again at the end, but it means something different now.
+### Eleanor's brass magnifying glass
 
-- **Margin notes as voices:** Throughout the novella, handwriting is described
-  as if it carries the living presence of the writer. Eleanor's notes are warm
-  and familiar. Pike's notes are urgent and frightened. Jacob Wren's original
-  cipher notes are frightened but determined. The motif builds to the theme:
-  the dead speak through what they wrote, and ignoring them is its own kind of
-  violence. **Established Ch1:** the shop's oldest binding carries Eleanor's
-  looping hand — "the first hand Callie had ever learned to read, a hand she
-  would have known in the dark." This canonizes *handwriting-as-identity* from
-  page one and anchors the Ch8 epilogue callback ("not Eleanor's, not Wren's,
-  not Pike's"). Callie reads hands the way she reads faces.
+Eleanor gave Callie the brass glass at age nine with the lesson that truth is present but often unread. It begins as an inherited grief object and becomes Callie's chosen professional tool. By the end of Book 4, Callie places it beside damaged paper rather than guarding the paper with it. The glass is hers, available for shared work, and never magical.
 
-- **Rain on windows:** The sound of safety, of being inside while the world
-  stays outside. Appears in the bookshop's warm scenes. Inverts in the climax:
-  rain on the archive windows while Callie works alone at night, no longer
-  safe, the outside pressing in.
+### Handwriting as identity
 
-- **Lavender (Mae):** Mae's signature scent — she grows it, dries it, sachets
-  every drawer. It signals comfort and safety. In the final scenes, when the
-  relationship is fractured, Callie smells lavender on her own clothes and
-  can't wash it out — Mae's presence lingering after the warmth is gone.
+Callie reads hands the way she reads faces: pressure, rhythm, joins, hesitation, purpose, and variation. Margin notes carry the living presence of writers. Book 5 pushes this motif to its forensic peak by contrasting a copied visual likeness with the movement of a natural current hand.
 
-- **The Ralston family portrait:** The patriarch's eyes that follow you.
-  Appears when Callie visits Ralston Hall. Callback: she sees the same
-  calculating stare in Gus's face during the confrontation — the ancestor
-  looking out through the descendant's eyes.
+### Margin notes as voices
 
-- **Bergamot tea:** Eleanor's tea, which Callie still drinks. A daily ritual
-  of remembrance disguised as habit. Pike also drank bergamot — a small
-  detail that made them kindred.
+Eleanor, Wendell Pike, Jacob Wren, Marguerite Dabney, Vivian Larter, Ruth Mallory, and later Eli each use written traces differently. The series progression is voice → cipher → challenge → reconstruction → imitation → deliberate communication → manipulation → final shared reading.
 
-- **"The truth is always there. Most people just don't look closely enough":**
-  Eleanor's words, given to Callie with the magnifying glass. Echoes in
-  Callie's mind at key moments. The line carries different weight each time:
-  comfort → professional pride → moral burden → devastating truth.
+### Bergamot tea
 
-- **The Foxed Page's back room:** Eleanor's workspace, Callie's fortress, the
-  place Eleanor died. Every scene set here carries that triple weight. The
-  room is both sanctuary and tomb.
+Eleanor's ritual and Callie's compass. Its taste tracks whether Callie is present in her own life. Book 5 pressure: tea repeatedly cools while public requests accumulate. The issue is no longer whether the tea tastes like Eleanor's; it is whether Callie stops long enough to taste anything.
 
-## Private memories
+### Lavender and Mae
 
-- **Callie:** Finding Eleanor's body in the back room — tea cold, reading
-  glasses on the table, a book open on her lap as if she'd just dozed off.
-  Callie didn't call for help immediately. She sat down across from her and
-  finished reading the page her mother had been reading. She's never told
-  anyone this.
-- **Callie:** Age nine, Eleanor placing the magnifying glass in her hand, the
-  weight of it, the lesson: look closer.
-- **Mae:** Her grandmother whispering the story of what the Ralstons did —
-  once, in the kitchen, with the door closed, as if the walls could hear.
-- **Gus:** His father's only advice — "A Ralston protects the family name.
-  Everything else is negotiable." — and the moment he decided to kill Pike,
-  when he heard that voice again and obeyed it.
-- **Eli:** The phone call with his father — "Call when you've figured things
-  out" — and the silence that followed when he didn't.
+Mae's warmth is real and sometimes armor. After Books 1–2, lavender becomes thinner and permission matters. Book 4 advances the thaw through towels, labels, bread kept outside evidence space, and labor. Book 5 continues the new normal through practical limits, especially the `NOT TODAY` label.
 
-## Emotional scars
+### The Foxed Page back room
 
-- **Callie:** Unprocessed grief for Eleanor, transmuted into workaholism and
-  isolation. Trigger: finding someone alone in a room (flashes to Eleanor).
-  Avoidance pattern: she fills silence with research, never with people.
-- **Callie:** The guilt of having liked Pike but never calling it friendship
-  until after he was dead. She realizes she did the same thing with Eleanor —
-  appreciated the relationship only in retrospect.
-- **Mae:** Decades of complicit silence. Trigger: seeing her grandchildren
-  play on land that was stolen from their family. Avoidance pattern: she
-  fills every room with warmth so no one asks what she's hiding.
-- **Gus:** The knowledge that he's a murderer. Trigger: the family portrait,
-  his grandfather's eyes. Avoidance pattern: perform more generosity, write
-  more checks, be more "Gus" — as if civic virtue can balance a life taken.
-- **Eli:** A lifetime of being blamed for things he didn't do. Trigger: any
-  authority figure's attention. Avoidance pattern: compliance, apology,
-  making himself small.
+Eleanor's workspace, the place of her death, Callie's fortress, and by Book 4 a shared working table. It remains emotionally charged but is no longer exclusively private. Official evidence enters only under Cross's control.
 
-## Promises and debts
+### The floorboard
 
-- **Mae's promise to Eleanor:** "Look after Callie." Made on Eleanor's
-  deathbed. Mae has kept it faithfully. The investigation puts this promise in
-  conflict with Mae's need to protect her own family — a debt she can't pay
-  to both.
-- **Callie's unspoken promise to Pike:** She doesn't name it, but finishing
-  his work is a debt she feels in her bones. The annotated book is his legacy;
-  solving the case is how she honors him.
-- **Gus's debt to his family name:** Not a promise made but one inherited —
-  the obligation to protect the Ralston legacy at all costs. It's a debt that
-  demands payment in other people's lives.
-- **Eli's debt to his father:** "Call when you've figured things out." He
-  hasn't called. The debt accrues.
+For years Callie stepped over the board out of courtesy to Eleanor's ghost. Book 1's deliberate step begins change; Book 4 renews and deepens the image when Callie consciously sets her foot down, lets the board creak, and allows Mae and Eli not to comment. Current canon: the creak marks movement through grief, not its erasure or a one-time solved symbol.
 
-## Relationship residue
+### Rain, water, smoke, winter light
 
-- **Callie & Mae (after the revelation):** The deepest wound. Mae understands
-  why Callie did it. Understanding doesn't heal. There's a specific look Mae
-  gives her in the final chapter — not anger, not forgiveness, just
-  recognition that everything between them has changed. Mae still brings soup.
-  But she knocks now, where she used to walk in.
-- **Callie & Sheriff Cross:** Grudging respect replaces antagonism. Cross
-  shakes her hand at the end — the first gesture of professional equality
-  between them. It's small, and it's enormous.
-- **Callie & Gus:** No resolution scene. Gus is arrested. The last time
-  Callie sees him, he looks at her with something that isn't hatred — it's
-  the bewilderment of a man who genuinely doesn't understand why preserving
-  the truth mattered more than preserving the peace.
-- **Callie & Eli:** She saves him. He doesn't know how to thank her — no one
-  has ever been on his side. The last image of Eli is small but hopeful: he's
-  still in Blackwood Ridge, still at the auction house, but he's started
-  introducing himself to customers instead of hiding in the back.
+Weather and material damage should function as pressure, not decorative Gothic excess. Rain separates inside/outside; water preserves and destroys; smoke reveals institutional injury; Book 5 winter glare exposes constructed lines without offering warmth.
 
-## Details to carry forward
+## Callie's enduring wound and risk
 
-- Callie's ink stains — she stops trying to scrub them by the midpoint. Small
-  character shift that shows acceptance.
-- The signature log in the archives — who signed in and when becomes evidence.
-  Check it for plot consistency.
-- Pike's unfinished manuscript pages — scattered on his desk, some missing.
-  The missing pages are a subplot thread (Gus took them, but not all).
-- Eleanor's reading glasses — left on the archive table the night she died.
-  Callie keeps them in a drawer. She takes them out once, late in the story,
-  and puts them on. They don't fit. She puts them back.
-- The specific weather on the night of the murder — should be referenced
-  consistently by multiple witnesses. Establish it early.
-- Gus's hands tell — CANON (revised): Callie reads hands like she reads
-  handwriting; OVER-CONTROL is the tell, not the tremor. Planted Ch3: Gus's
-  unnaturally STEADY hands in public = "effortful stillness... louder than any
-  tremor." Pays off Ch5 when the control cracks to a visible tremor under
-  pressure. (Do NOT plant a private-alone tremble earlier — the inversion is the
-  real canon.)
-- The bergamot tea connection between Callie and Pike — a small, humanizing
-  detail that makes his death land harder when she finds his cold cup at the
-  crime scene.
-- The floorboard in the Foxed Page that creaks — Eleanor knew which one;
-  Callie still steps over it out of habit, the courtesy of not waking her
-  mother having outlasted Eleanor by two years. (Callie lives in the apartment
-  upstairs; Eleanor slept there until her death.) **Revised Ch7 canon:** Callie
-  stops on the threshold of the board — one foot on, one off — unable to commit
-  to either the old habit (stepping over) or the new gesture. The full step-ON
-  is Ch8's payoff.
-- **Revelation cadence (canon — do not re-collapse):** What Callie knows, and
-  when. End of Ch1: murder suspected (bergamot), no proof. End of Ch2: Pike's
-  note gives initials S.R. and J.W.; Callie resolves R = the Ralston family name
-  but CANNOT yet resolve S (not "Silas"); pp. 31-36 are cleanly torn out and she
-  has NEVER read them (Pike only described them in outline); she does NOT yet
-  know about the murdered minister or the full fraud. Ch3: Wren's cipher
-  confirms the land fraud (true survey lines, stolen acres) — the first full
-  decoding; Gus's steady-hands tell planted. Ch4 (midpoint): the critical margin
-  note names Silas Ralston directly and documents Reverend Hartwell's murder —
-  the full scope lands here, not earlier. (Revised Ch2 deliberately withholds all
-  of this so Ch3/Ch4 reveals land fresh.) **Ch5 FORWARD NOTE (canon — for the
-  Ch5 revision):** the Ch5 keystone document MUST treat Silas/Hartwell as KNOWN
-  (corroboration of what Callie decoded in Ch4), NOT as a fresh discovery. Ch5's
-  real new value is the present-tense evidentiary chain — the Historical Society
-  visitor-log showing Gus signed in days before the murder, and Pike's "showed
-  preliminary findings to G.R." margin note. (Drafted ch-05 currently re-lands
-  "Silas Ralston had the minister killed" as a fresh climax at ~l.22 — must be
-  reframed.) Also at Ch4: the evidentiary chain locking GUS as Pike's killer is
-  correctly INCOMPLETE (only historical crime + bureaucratic suppression; Callie
-  voices suspicion, not certainty) — Ch5 owns the lock.
-- **"You sound like your mother" (canon — Ch4, Mae):** the first time another
-  character names the Callie-as-Eleanor parallel aloud. Mae says it as Callie
-  commits to the path that will break her code. Seeds Ch6's Eleanor-glasses
-  payoff (reading glasses that don't fit; the magnifying glass set down) and
-  mirrors Gus's Ch5 "Your mother knew when to leave things alone" — same ancestor
-  invoked from opposite moral angles. Track for the Mae-Eleanor-Callie triangle.
-- **Floorboard payoff (canon — Ch8):** Callie has stepped over the floorboard
-  for the entire manuscript (Ch1–7). Ch8 is the payoff — she steps back onto
-  it deliberately so that it creaks ("She was done being quiet for a ghost.").
-  No intermediate half-step in Ch7; the setup is the accumulated habit across
-  all prior chapters.
+- Eleanor died alone in the back room. Callie sat across from her and finished the open page before calling for help; she has never told anyone.
+- Callie turns grief and loneliness into work.
+- She trusts documents over spoken memory because paper feels stable.
+- The long arc complicates that trust: genuine documents can be moved, selected, and presented to control a reader.
+- Book 5's new risk is public dependence. Being needed can become a socially approved form of isolation.
+
+## Relationship state after Book 4
+
+### Callie and Mae
+
+Workable new relationship, not restored old ease. Mae knocks, asks permission, provides labor and context, and does not demand emotional closure. Callie permits help without calling it forgiveness.
+
+### Callie and Cross
+
+Records consultant, case by case, boundaries written. Cross trusts Callie's analysis, not unrestricted access. He owns warrants, interviews, searches, evidence handling, arrest decisions, and official wording. Their warmth is controlled and non-romantic.
+
+### Callie and Eli
+
+Teacher/apprentice. Eli has a steady hand, strong provenance instincts, duplicate/indexing skill, pressure-transfer awareness, and learned restraint. Callie increasingly trusts his method. That trust creates the long-arc vulnerability.
+
+### Callie and the town
+
+Book 1: thread-puller. Book 2: pariah. Book 3: grudging utility. Book 4: reluctant consultant. Book 5: increasingly indispensable but not universally welcomed.
+
+## Case memories
+
+### Book 1 — The Annotated Murder
+
+- Gus Ralston killed Wendell Pike.
+- Jacob Wren's margin record exposed the Ralston land fraud and Reverend Hartwell's murder.
+- Eli was nearly framed and was cleared.
+- Callie chose truth over comfortable civic identity.
+
+### Book 2 — The Botanical Confession
+
+- Marguerite Dabney encoded what she witnessed about Lauren Coalter and Wells Ambler.
+- Wells confessed and was arrested.
+- Mae spoke “earlier than Marguerite.”
+- Callie's vow: *not like this*—she will not preserve truth through silence that consumes a life.
+
+### Book 3 — The Challenger
+
+- Vivian Larter challenged Callie's interpretation in good faith.
+- Harlan Beech killed Larter.
+- Callie learned that being incomplete is not the same as being false if the reader preserves correction paths.
+- Cross called her work useful, not partnership.
+
+### Book 4 — The Archive Fire
+
+- Ruth Mallory discovered old night-desk material hidden under municipal labels.
+- Benedict Calder killed Ruth and used fire/staging to suppress the path.
+- Roland Tavis admitted he kept Lila Mae Crowe's file technically open while preventing investigative movement.
+- Cross filed a supplemental record naming the prior failure.
+- Eli's blank eighth line, duplicate grid, and damage mapping became canon skills.
+- Shared work held the table: Cross's log, Bell's photographs, Mae's labels, Eli's grid, Ruth's duplicate path, Callie's reading.
+
+### Book 5 — The Planted Page — initialized canon
+
+- Victim: Alton Pierce Mercer, retired judge and preservation patron.
+- Killer: Nora Mercer Shaw, niece/foundation director/successor trustee.
+- Motive: preserve current trust control and approximately $2.4 million residue; avoid removal and audit of $286,400 in split invoices.
+- Murder: smothering after nonfatal incapacitating zolpidem; staged as overdose.
+- Forgery: six-week simulation from older formal samples; pencil baselines; artificial tremor; graphite-transferred signature.
+- Demonstration: repeated constructed `g`, internal pen lifts, pressure/rhythm mismatch, baseline/graphite traces, and imprecise record language.
+- Arrest basis: medical cause, trust/audit records, voicemail, altered access, side-door code, medication path, examiner corroboration, and warrant recovery.
+- Case resolves without confession.
+
+## INTERNAL long-arc control
+
+- Book 3 contains a missing/removed-document seed but not yet active Eli manipulation.
+- Book 4 grows Eli's capability and teaches him that absence and placement can make a path visible.
+- Book 5 begins active placement: Eli relocates Alton's genuine current repair ticket from The Foxed Page's general repair drawer into a returned Mercer volume so Mae will find it during authorized sorting.
+- The ticket is genuine, authenticated, non-dispositive, and never police evidence before disclosure.
+- Eli's wrongdoing is manipulation of attention and provenance assumptions, not fabrication of guilt.
+- Book 6 identifies pattern; Book 7 proves Eli's role; Book 8 resolves the moral and relational consequences.
+
+## Production constraints
+
+- Single Callie POV.
+- Atmospheric but restrained prose.
+- No supernatural claims.
+- No cutesy banter, romance-forward Cross dynamic, thriller chase structure, or vague “handwriting feels wrong” solution.
+- Historical and documentary revelations must be separated from present legal proof.
+- Character emotion appears through work, hands, objects, permission, and withheld speech more often than explanatory monologue.
