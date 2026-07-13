@@ -20,7 +20,7 @@ book:
   structure: 8 novella chapters
   season: late January to early February 2027, approximately eleven weeks after Book 4
   status: in_progress
-  planning_note: Chapter 1 is drafted and integrated on the production branch. Chapters 2-8 remain planned; revision, polish, export, package, and publication remain pending.
+  planning_note: Chapters 1 and 2 are drafted. Chapters 3-8 remain planned; revision, polish, export, package, and publication remain pending.
 chapters:
   - n: 1
     title: The Hand at the Door
@@ -32,8 +32,8 @@ chapters:
     title: A Note in His Hand
     pov: Callie Thorne
     word_target: 3100
-    status: planned
-    words: 0
+    status: drafted
+    words: 3063
   - n: 3
     title: The Comparison Room
     pov: Callie Thorne
@@ -85,8 +85,8 @@ validation:
   character_arcs_complete: true
   eight_chapter_outline_complete: true
   target_words_total: 25000
-  drafted_chapters: 1
-  drafted_words_total: 3294
+  drafted_chapters: 2
+  drafted_words_total: 6357
   no_chapter_draft_created: false
   draft_complete: false
   revision_complete: false
