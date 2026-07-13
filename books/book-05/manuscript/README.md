@@ -8,7 +8,7 @@ Current manuscript status:
 - `ch-02.md` — **A Note in His Hand** — drafted, 3,063 words
 - `ch-03.md` — **The Comparison Room** — drafted, 3,127 words
 - `ch-04.md` — **The Same Letter Twice** — drafted, 3,240 words
-- `ch-05.md` — **What the Trust Passed** — planned, not drafted
+- `ch-05.md` — **What the Trust Passed** — drafted, 3,081 words
 - `ch-06.md` — **The Hand That Waited** — planned, not drafted
 - `ch-07.md` — **The Page Under Pressure** — planned, not drafted
 - `ch-08.md` — **The Current Hand** — planned, not drafted
