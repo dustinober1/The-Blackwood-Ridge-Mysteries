@@ -17,4 +17,6 @@ Total revised manuscript prose: **25,184 words** across eight chapters.
 
 The complete continuity, mystery-fairness, suspect-balance, procedural, evidence-limit, POV, repetition, pacing, and prose review is recorded in `books/book-05/revision-plan.md`.
 
+Focused post-edit validation is complete; the repository contains no dedicated Book 5 revision validator.
+
 Line editing and prose polish, export, packaging, and publication remain pending.
