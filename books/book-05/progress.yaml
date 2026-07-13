@@ -3,7 +3,7 @@ stages:
   bible: complete
   outline: complete
   draft: complete
-  revise: pending
+  revise: complete
   polish: pending
   export: pending
   package: pending
@@ -20,55 +20,57 @@ book:
   structure: 8 novella chapters
   season: late January to early February 2027, approximately eleven weeks after Book 4
   status: in_progress
-  planning_note: Chapters 1 through 8 are drafted and the Book 5 first draft is complete. Revision, polish, export, package, and publication remain pending.
+  planning_note: Chapters 1 through 8 are drafted and the complete whole-draft revision has been performed and validated. Line editing and prose polish, export, package, and publication remain pending.
+  actual_words: 25184
+  chapter_count: 8
 chapters:
   - n: 1
     title: The Hand at the Door
     pov: Callie Thorne
     word_target: 3100
-    status: drafted
-    words: 3294
+    status: revised
+    words: 3295
   - n: 2
     title: A Note in His Hand
     pov: Callie Thorne
     word_target: 3100
-    status: drafted
+    status: revised
     words: 3063
   - n: 3
     title: The Comparison Room
     pov: Callie Thorne
     word_target: 3100
-    status: drafted
+    status: revised
     words: 3127
   - n: 4
     title: The Same Letter Twice
     pov: Callie Thorne
     word_target: 3200
-    status: drafted
+    status: revised
     words: 3240
   - n: 5
     title: What the Trust Passed
     pov: Callie Thorne
     word_target: 3100
-    status: drafted
+    status: revised
     words: 3081
   - n: 6
     title: The Hand That Waited
     pov: Callie Thorne
     word_target: 3100
-    status: drafted
-    words: 3041
+    status: revised
+    words: 3042
   - n: 7
     title: The Page Under Pressure
     pov: Callie Thorne
     word_target: 3200
-    status: drafted
+    status: revised
     words: 3189
   - n: 8
     title: The Current Hand
     pov: Callie Thorne
     word_target: 3100
-    status: drafted
+    status: revised
     words: 3147
 validation:
   title_locked: true
@@ -87,9 +89,19 @@ validation:
   target_words_total: 25000
   drafted_chapters: 8
   drafted_words_total: 25182
+  revised_chapters: 8
+  revised_words_total: 25184
   no_chapter_draft_created: false
   draft_complete: true
-  revision_complete: false
+  revision_plan_complete: true
+  continuity_audit_complete: true
+  mystery_fairness_audit_complete: true
+  suspect_balance_audit_complete: true
+  procedural_audit_complete: true
+  evidence_limit_audit_complete: true
+  pov_audit_complete: true
+  repetition_and_pacing_audit_complete: true
+  revision_complete: true
   polish_complete: false
   export_complete: false
   package_complete: false
