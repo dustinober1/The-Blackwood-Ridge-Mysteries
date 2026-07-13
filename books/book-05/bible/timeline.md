@@ -81,7 +81,7 @@ book: 5
 ### Sunday, January 31 — Chapter 7
 
 - State examiner corroborates simulated body text and transferred signature.
-- Pressure image on Alton's appointment pad reconstructs the removed restatement heading and Nora-removal language.
+- Pressure image on Alton's appointment pad preserves the partial terms `REMOVE N.M.S. / IND. TRUSTEE / AUDIT`; it does not identify the writer or remover, the complete source document, or its location.
 - Financial subpoenas and access records converge.
 - Warrant search of Nora's foundation office recovers practice sheets, graphite transfer, marked bench-note copies, the missing restatement, and medication-return envelope.
 - Cross completes the probable-cause affidavit and obtains the arrest warrant.
