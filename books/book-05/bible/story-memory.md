@@ -134,6 +134,29 @@ The genuine repair ticket reaches the comparison set through a deliberately cura
 - **Emotional endpoint:** Callie begins with difficult satisfaction that the town seeks her expertise and ends the day uneasy at how quickly requests become presumed obligations. She retains the ordinary visual memory of Alton writing alive that afternoon, without attaching forensic meaning to it.
 - **Final beat:** On Tuesday morning, Tess calls The Foxed Page and reports that Alton is dead and that there is a note in his hand. Callie does not see the body or note in Chapter 1.
 
+## Completed Chapter 2 memory — A Note in His Hand
+
+- **Date and opening:** On Tuesday, January 26, 2027, Mercer House's side windows reflect a snow-bright morning while Cross keeps Callie outside the private study until Bell completes the first photographic pass.
+- **Tess's discovery account:** Tess states that she entered the study at 8:05 a.m. after Alton failed to answer. She saw him in the reading chair, the brandy glass on the side table, the expired empty zolpidem bottle on the carpet, and the note on the blotter. She touched the breakfast tray, the door edge with her sleeve, and Alton's wrist, then called the sheriff's office and Callie without reentering.
+- **Apparent-suicide scene:** Alton remains seated with dignity in the reading chair. The empty expired bottle, brandy glass, handwritten note, absence of obvious forced entry, known hand pain and tremor concerns, cancelled public appearances, and current financial rumors make self-inflicted death a credible provisional explanation. Cross preserves that possibility without assigning a medical cause.
+- **Case-specific authorization:** Cross issues a written documentary-consultant authorization limiting Callie to observing the note and related documents, identifying comparison questions, comparing approved or lawfully obtained samples, describing observable features, maintaining confidentiality, conducting no independent interviews, removing and touching nothing without permission, making no public statement, and stopping when directed. Cross retains scene control, evidence handling, interviews, medical findings, warrants, searches, legal conclusions, official language, and arrest decisions. Callie accepts the limits as a way to preserve the record path.
+- **Exact note:** The note reads:
+  
+  > I have allowed the Mercer Trust and the Preservation Fund to become entangled in ways I cannot defend. The responsibility is mine. No employee or member of my family acted without my direction. Let the trust pass as written. Do not turn a private failure into another public hearing. I am tired of being examined.
+  >
+  > Alton Mercer
+
+  Cream Mercer stationery, Alton's blue-black ink, familiar formal proportions, a recognizable signature, institutional language, and genuine public anxieties make the note initially persuasive. Caleb says it resembles Alton's older judicial hand.
+- **First handwriting observation only:** Under the brass glass, Callie observes that the lowercase `g` in **entangled** and the lowercase `g` in **hearing** repeat with unusual similarity, including the same retraced hesitation in the descender. She states that the repetition may be habit or construction and requires authenticated comparison; she does not declare forgery.
+- **Limited language concern:** Callie notes that the note says “the Preservation Fund,” identifies no account, amount, or date, and supplies no recovery, audit, correction, or reconciliation path. Cross answers that pain, exhaustion, fear, medication, or finality may alter language. Callie agrees that language alone proves neither authorship nor forgery.
+- **Physical seeds:** Bell records that the glass rim and pen barrel appear wiped, one settee cushion is rotated, and the red portfolio visible the prior day is unavailable in the study. The ordinary study and side-library entrances show no obvious damage. No solved meaning is assigned to any of these facts.
+- **Family and town resistance:** Nora asks for privacy, cites Alton's fear of physical decline, closes the foundation, and protects employees from public accusation while remaining visibly strained and useful. Claire accuses Nora of managing the family story. Caleb's older-hand observation supports the apparent authenticity of the note. By midmorning, callers ask whether Callie will challenge the note, whether the family can be left alone, and whether her consultant role has made her eager to find murder.
+- **Mae's visible support:** Mae dates and labels every public message, distinguishes quotations from implications, asks whether Callie has eaten, and makes no handwriting or murder diagnosis.
+- **Eli's exact visible shop work:** Eli remains at The Foxed Page. At Callie's direction he secures the Mercer materials, leaves the general repair drawer and returned chancery volume untouched, performs no sample search, and places a dated hold label on the outside of the repair cabinet. When he asks what the note says, he accepts that it is outside his scope and returns to the intake grid.
+- **Cross's resistance to premature conclusion:** Cross requires Bell's scaled macro photographs but reminds Callie that she has no authenticated current sample set, no medical finding, no basis to call the note forged, and no basis to call the death murder. Callie agrees at each boundary.
+- **Emotional endpoint:** Callie recognizes that the town's new confidence is also pressure: if she challenges a persuasive note and is wrong, her public role can be recast as appetite for murder. She keeps the observation narrow enough to travel without pretending certainty.
+- **Final hook:** Looking at the magnified repeated descenders, Callie tells Cross, “Someone may have remembered the letter instead of written it.”
+
 ## Ending residue
 
 - Nora arrested; no confession.
