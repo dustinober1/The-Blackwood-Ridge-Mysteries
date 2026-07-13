@@ -12,7 +12,7 @@
 - **Season:** January 25–February 1, 2027
 - **Case:** Alton Mercer murder staged as suicide through a simulated handwritten note
 - **Solution:** Nora Mercer Shaw
-- **Long-arc constraint:** Eli's hidden relocation of a genuine repair ticket is recorded only in `bible/eli-hidden-chronology.md`. The outline names only visible actions.
+- **Protected-continuity constraint:** Internal later-series material remains confined to its dedicated control file. The outline records only reader-visible actions and the non-dispositive provenance limit.
 
 ## Structural promises
 
@@ -202,7 +202,7 @@ Under magnification, one repeated `g` contains the same tiny retraced hesitation
    - Older bench notebooks strongly resemble the note's overall shape, keeping forgery uncertain.
 
 2. **Mercer House sample search**
-   - Claire's mother's letters are missing; Claire lies and later admits removing them.
+   - Claire's mother's letters are missing; Claire answers evasively rather than directly confirming the removal.
    - Tess's medication-return ledger shows an old 10 mg zolpidem bottle sealed for disposal.
    - Nora had authorized access as healthcare proxy.
    - Caleb's catalog kit includes graphite transfer and tracing tissue.
@@ -255,7 +255,7 @@ Mae finds the page, hands it over without claiming meaning, and accepts the stop
 
 ### Eli visible action
 
-Builds the comparison grid, labels the custody gap, and says the ticket “belonged with the Mercer return.” No hidden action is described here.
+Builds the comparison grid and labels the custody gap without volunteering a solution.
 
 ### Emotional turn
 
@@ -437,15 +437,15 @@ The study-access ledger places Nora out at 8:05, but the return-time ink has bee
    - Tess's 7:50 household note records the scarf already placed in Nora's car.
 
 2. **Medication path**
-   - Return ledger identifies discontinued 10 mg zolpidem bottle and count.
+   - Return ledger identifies the discontinued 10 mg zolpidem bottle and its incomplete return path.
    - Nora had healthcare-proxy access to the return box.
    - Empty bottle at scene matches old label/refill rather than Alton's current medication.
 
 3. **False-path resolution in motion**
    - Claire's ride receipt and store camera place her away.
    - Gideon's crew records, fuel receipt, and witnesses place him at county site.
-   - Caleb's courier scan and shop camera place him away after 8:20, but his tracing tools still make him plausible as accomplice/forger.
-   - Tess is at the gate cottage on exterior camera before critical window.
+   - Caleb's 8:23 courier scan and shop camera place him away through the critical window, but his tracing tools still make him a plausible apparent forger.
+   - Tess's authenticated exterior movement and door records place her at the gate cottage through the critical window.
 
 4. **Caleb's separate wrongdoing**
    - The disputed folio is recovered. He admits provenance substitution and removal.
@@ -499,7 +499,7 @@ Callie sees that being needed can become a way to never stop, never grieve, and 
 
 ### Chapter-ending hook
 
-Under angled light, Alton's appointment pad shows a pressure image from the missing restatement cover page: `REMOVE N.M.S. / IND. TRUSTEE / AUDIT`.
+Under angled light, Alton's appointment pad shows only the partial pressure image `REMOVE N.M.S. / IND. TRUSTEE / AUDIT`; the complete source document, writer, remover, and location remain unestablished.
 
 ---
 
@@ -516,7 +516,7 @@ Under angled light, Alton's appointment pad shows a pressure image from the miss
 1. **Pressure-image reconstruction**
    - Bell photographs low-angle views.
    - Callie reads only partial terms; Pruitt authenticates them against his draft summary.
-   - The removed red portfolio acquires a second path.
+   - The partial terms corroborate removal, independent-trustee, and audit pressure without identifying the complete source document or its location.
 
 2. **Examiner corroboration**
    - State report confirms indicators of simulated body text and transferred signature.
@@ -622,12 +622,12 @@ Cross closes the warrant folder and says, “Now it can travel.”
    - Mae keeps `NOT TODAY` on the request stack and asks where the next label belongs.
    - Eli returns to ordinary work, steady and apparently loyal.
 
-6. **Quiet provenance seam**
+6. **Quiet provenance limit**
    - Cross asks Callie to sign the repair-ticket provenance statement.
    - It records: `Found in returned Mercer volume by M. Hartwell; prior loose-paper location not established.`
    - The ticket was independently authenticated and is not cited as decisive arrest evidence.
    - Callie dislikes the unanswered route but files it as a minor shop gap.
-   - No one asks Eli directly who first moved the page.
+   - No one treats the unresolved prior location as part of the murder resolution.
 
 ### Suspect movement
 
@@ -658,11 +658,11 @@ Returns the chancery volume to its correct shelf and updates the shop log with t
 
 ### Emotional turn
 
-Callie accepts that being useful is not the same as being held, and that even genuine evidence has a path someone may influence.
+Callie accepts that being useful is not the same as being held, and that genuine evidence can remain genuine even when its complete prior route is unavailable.
 
-### Final image / series seam
+### Final image
 
-The brass magnifying glass rests over the genuine repair ticket while Mae's `NOT TODAY` label lies across the public request stack. Callie can prove what the page says and who wrote it. She cannot say who first decided where she would find it. She closes the file because the murder does not depend on that answer, leaving the quiet route question available for Book 6.
+The brass magnifying glass rests over the genuine repair ticket while Mae's `NOT TODAY` label lies across the public request stack. Callie files the exact provenance statement, accepts that the route gap is non-dispositive, closes the case file, and the final line remains: `She closed the file.`
 
 ---
 
@@ -689,12 +689,12 @@ The brass magnifying glass rests over the genuine repair ticket while Mae's `NOT
 - [x] Mae's thaw continues through labor and boundaries.
 - [x] Eli's Book 4 skills support but do not overtake Callie's method.
 - [x] Book 5 victim is not another sitting councilman.
-- [x] The case resolves fully without an Eli reveal.
+- [x] The case resolves fully without a protected-continuity disclosure.
 - [x] The forged note is demonstrably simulated.
 - [x] Apparent suicide benefits Nora through immediate trust control and rapid closure.
 - [x] Five suspects have distinct secrets and functions.
 - [x] Medical evidence independently establishes murder.
 - [x] Nora does not confess.
 - [x] The repair ticket is genuine, independently authenticated, and non-dispositive.
-- [x] Book 6 pattern reveal, Book 7 Eli reveal, and Book 8 finale remain viable.
+- [x] Protected later-series continuity remains unexposed and viable.
 - [x] No Chapter 1 prose is present.
