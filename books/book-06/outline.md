@@ -1,6 +1,6 @@
 # Eight-Chapter Outline — The Pattern
 
-**Target total:** 25,000 words. Chapters 1–3 drafted; Chapters 4–8 planned and undrafted.
+**Target total:** 25,000 words. Chapters 1–4 drafted; Chapters 5–8 planned and undrafted.
 
 ## Chapter 1 — The Box at Closing — 3,100 words
 
@@ -49,7 +49,7 @@
 
 ## Chapter 4 — Marks Made Later — 3,150 words
 
-- **Date/time/location:** Friday afternoon–evening; St. Orison church archive, Grange trustee room.
+- **Date/time/location:** Friday afternoon–evening; St. Orison church archive, Grange trustee room, The Foxed Page.
 - **Function/objective:** Prove coordinated modern routing without identifying the maker.
 - **Conflict:** Tara's altered box count suggests evidence removal; church custodian fears contamination.
 - **Clues:** Omitted-line symbol above later grime; 2024 conservation image lacking marks; mark crosses 2025 tissue.
