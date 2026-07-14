@@ -1,22 +1,22 @@
 # Book 5 Manuscript Directory
 
-Book 5 — *The Planted Page* whole-manuscript line edit, voice-consistency review, and prose-polish pass is complete.
+Book 5 — *The Planted Page* final proofreading and manuscript-metadata verification are complete.
 
-Current manuscript status:
+Final-proof manuscript status:
 
-- `ch-01.md` — **The Hand at the Door** — polished, 3,295 words
-- `ch-02.md` — **A Note in His Hand** — polished, 3,063 words
-- `ch-03.md` — **The Comparison Room** — polished, 3,127 words
-- `ch-04.md` — **The Same Letter Twice** — polished, 3,240 words
-- `ch-05.md` — **What the Trust Passed** — polished, 3,074 words
-- `ch-06.md` — **The Hand That Waited** — polished, 3,039 words
-- `ch-07.md` — **The Page Under Pressure** — polished, 3,189 words
-- `ch-08.md` — **The Current Hand** — polished, 3,147 words
+- `ch-01.md` — **The Hand at the Door** — final proof, 3,295 words
+- `ch-02.md` — **A Note in His Hand** — final proof, 3,063 words
+- `ch-03.md` — **The Comparison Room** — final proof, 3,127 words
+- `ch-04.md` — **The Same Letter Twice** — final proof, 3,240 words
+- `ch-05.md` — **What the Trust Passed** — final proof, 3,074 words
+- `ch-06.md` — **The Hand That Waited** — final proof, 3,039 words
+- `ch-07.md` — **The Page Under Pressure** — final proof, 3,189 words
+- `ch-08.md` — **The Current Hand** — final proof, 3,147 words
 
-Total polished manuscript prose: **25,174 words** across eight chapters.
+Total final-proof manuscript prose: **25,174 words** across eight chapters.
 
-The pass retained required evidentiary restatements, recurring object motifs, locked legal and clue architecture, the exact provenance statement, and the final line. Changes were limited to sentence clarity, local rhythm, repeated vocabulary, paragraph movement, and technical intelligibility.
+The complete sequential proofread found no clear spelling, punctuation, grammar, capitalization, spacing, malformed-Markdown, or editing-artifact correction requiring a manuscript change. Intentional fragments, procedural repetition, evidence-limit formulations, recurring object motifs, chapter openings, chapter endings, the exact provenance statement, and the final line were retained.
 
-No dedicated Book 5 polish validator is present. Focused post-polish validation and a complete sequential reread are complete.
+Chapter titles, POV, dates, word targets, status convention, actual counts, chronology, title, author, series, and series number are verified against the controlling manuscript and repository conventions.
 
-Final proofreading, metadata verification, and export preparation are the next stage. Packaging and publication remain pending.
+Repository-standard front matter, back matter, combined-source assembly, format generation, source-to-export comparison, DOCX render QA, and EPUB validation tooling are prepared under `../export/`. Generated export validation remains pending. Packaging and publication remain pending.
