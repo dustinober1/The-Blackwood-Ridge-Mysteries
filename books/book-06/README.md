@@ -4,7 +4,7 @@
 **Series:** The Blackwood Ridge Mysteries #6  
 **Genre:** Atmospheric cozy mystery / amateur sleuth  
 **Target:** 25,000 manuscript words across eight chapters  
-**Status:** First draft in progress; Chapters 1–5 drafted at 15781 manuscript words
+**Status:** First draft in progress; Chapters 1–6 drafted at 18931 manuscript words
 
 ## Controlling function
 
@@ -16,8 +16,8 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 
 ## Current production state
 
-- Chapters 1–5 — drafted.
-- Chapters 6–8 — planned and undrafted.
+- Chapters 1–6 — drafted.
+- Chapters 7–8 — planned and undrafted.
 - Revision, polish, export, package, and publication — pending.
 - Upload ready — no.
 
