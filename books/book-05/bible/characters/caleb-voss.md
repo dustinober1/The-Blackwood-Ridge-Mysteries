@@ -17,7 +17,7 @@ book: 5
 
 ## Motive and opportunity
 
-Caleb owes money on an inventory advance and fears Alton will expose a provenance substitution. He works in the study until shortly before the murder window and owns tracing tissue, graphite transfer, and high-resolution samples.
+Caleb owes money on an inventory advance and fears Alton will expose a provenance substitution. He catalogues the Mercer collection, knows the study and its formal-hand sources, and owns tracing tissue, graphite transfer, and high-resolution samples.
 
 ## Lie
 
@@ -25,7 +25,7 @@ He removes a disputed folio and denies taking it. The folio contains a lower-val
 
 ## Suspicion / clearance
 
-His tools and sample access make him the strongest false forger. Courier scan and shop camera place him away during the death window. His transfer sheets do not contain the note language or signature model.
+His tools and sample access make him the strongest false forger. An 8:23 courier scan and shop camera place him away during the death window. Consent inventory of his materials finds no exact note phrases, rehearsed difficult joins, or graphite sheet carrying the questioned signature path.
 
 ## Thematic function
 
