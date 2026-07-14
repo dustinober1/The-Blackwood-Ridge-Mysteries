@@ -6,7 +6,7 @@ stages:
   revise: complete
   polish: complete
   export: complete
-  package: pending
+  package: in_progress
   publish: pending
 book:
   n: 5
@@ -20,7 +20,7 @@ book:
   structure: 8 novella chapters
   season: late January to early February 2027, approximately eleven weeks after Book 4
   status: in_progress
-  planning_note: Chapters 1 through 8 are drafted, revised, line edited, prose polished, and final proofread. Metadata verification found no manuscript correction requiring a prose change. Repository-standard front matter, back matter, combined Markdown, plain text, HTML, DOCX, and EPUB exports have been generated and validated. Package work and publication remain pending.
+  planning_note: Chapters 1 through 8 are drafted, revised, line edited, prose polished, and final proofread. Metadata verification found no manuscript correction requiring a prose change. Repository-standard front matter, back matter, combined Markdown, plain text, HTML, DOCX, and EPUB exports have been generated and validated. Spoiler-safe retailer metadata, listing copy, upload support, package validation, and fail-closed release tooling are prepared. Package completion is blocked only by the missing or unapproved canonical ebook cover at books/book-05/cover.jpeg. Publication remains pending.
   actual_words: 25174
   combined_reader_facing_words: 25501
   chapter_count: 8
@@ -110,6 +110,13 @@ validation:
   combined_export_complete: true
   export_validation_complete: true
   export_complete: true
+  package_metadata_complete: true
+  listing_copy_complete: true
+  retailer_upload_worksheet_complete: true
+  release_tooling_complete: true
+  package_readiness_checks: 10
+  package_readiness_passed: 9
+  cover_ready: false
   package_complete: false
   publish_complete: false
   reader_facing_eli_spoiler_present: false
