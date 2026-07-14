@@ -21,6 +21,16 @@ BOOK_PATH = Path("books/book-05")
 COVER_PATH = BOOK_PATH / "cover.jpeg"
 ALLOWED_TAGS = {"p", "b", "em", "i", "u", "br", "h4", "h5", "h6", "ol", "ul", "li"}
 EXPECTED_COVER_SIZE = (1600, 2560)
+EXPECTED_CHAPTERS = [
+    "Chapter 1 — The Hand at the Door",
+    "Chapter 2 — A Note in His Hand",
+    "Chapter 3 — The Comparison Room",
+    "Chapter 4 — The Same Letter Twice",
+    "Chapter 5 — What the Trust Passed",
+    "Chapter 6 — The Hand That Waited",
+    "Chapter 7 — The Page Under Pressure",
+    "Chapter 8 — The Current Hand",
+]
 EXPECTED_FINAL_LINE = "She closed the file."
 EXPECTED_PROVENANCE = (
     "Found in returned Mercer volume by M. Hartwell; prior loose-paper location not established."
@@ -111,20 +121,49 @@ def validate(repo_root: Path) -> dict[str, Any]:
         "207/207" if proof_ok else "expected proof total not found",
         "Accepted 207/207 proof/export validation record is missing",
     )
-    final_ok = EXPECTED_FINAL_LINE in validation
+
+    combined_path = book / "export/manuscript-combined.md"
+    combined = combined_path.read_text(encoding="utf-8") if combined_path.exists() else ""
     check(
-        "Locked final line retained",
-        final_ok,
-        EXPECTED_FINAL_LINE if final_ok else "not found in accepted validation record",
-        "Locked final-line validation is missing",
+        "Combined reader-facing manuscript exists",
+        bool(combined),
+        str(combined_path.relative_to(root)) if combined_path.exists() else "missing",
+        "Combined reader-facing manuscript is missing",
     )
-    provenance_ok = "provenance exactly once" in validation and "— 1" in validation
+    chapter_headings = re.findall(r"(?m)^# (Chapter [1-8] — .+)$", combined)
     check(
-        "Exact provenance remains once",
-        provenance_ok,
-        EXPECTED_PROVENANCE if provenance_ok else "accepted once-only check not found",
-        "Exact provenance once-only validation is missing",
+        "Eight locked chapter headings remain in order",
+        chapter_headings == EXPECTED_CHAPTERS,
+        repr(chapter_headings),
+        "Combined manuscript must contain the eight locked chapter headings in order",
     )
+    final_count = combined.count(EXPECTED_FINAL_LINE)
+    check(
+        "Locked final line appears exactly once",
+        final_count == 1,
+        f"count={final_count}",
+        f"Combined manuscript must retain the locked final line exactly once; found {final_count}",
+    )
+    provenance_count = combined.count(EXPECTED_PROVENANCE)
+    check(
+        "Exact provenance appears once",
+        provenance_count == 1,
+        f"count={provenance_count}",
+        f"Combined manuscript must retain the exact provenance once; found {provenance_count}",
+    )
+    forbidden_patterns = [
+        re.compile(r"\b(?:TODO|TBD|FIXME)\b", re.IGNORECASE),
+        re.compile(r"<<<<<<|======|>>>>>>"),
+        re.compile(r"eli-hidden-chronology|internal_series_spoilers|internal_continuity_control", re.IGNORECASE),
+    ]
+    source_marker = next((pattern.search(combined) for pattern in forbidden_patterns if pattern.search(combined)), None)
+    check(
+        "Combined manuscript contains no internal markers",
+        source_marker is None,
+        "clean" if source_marker is None else repr(source_marker.group(0)),
+        f"Combined manuscript contains internal marker: {source_marker.group(0)!r}" if source_marker else None,
+    )
+
     epubcheck_ok = "0 fatals / 0 errors / 0 warnings / 0 infos" in validation
     check(
         "Accepted export EPUBCheck remains clean",
