@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -26,6 +27,7 @@ def seed_repo(root: Path) -> None:
     book = root / "books/book-05"
     (book / "listing").mkdir(parents=True)
     (book / "export").mkdir(parents=True)
+    (book / "package").mkdir(parents=True)
     (book / "listing/retailer-description.html").write_text(
         "<p><b>Everyone recognizes the handwriting.</b></p><p>Callie investigates.</p>\n",
         encoding="utf-8",
@@ -73,6 +75,36 @@ def seed_repo(root: Path) -> None:
         "\n\nShe closed the file.\n"
     )
     (book / "export/manuscript-combined.md").write_text(manuscript, encoding="utf-8")
+    (book / "package/cover-approval.json").write_text(
+        json.dumps(
+            {
+                "cover_path": "books/book-05/cover.jpeg",
+                "status": "pending",
+                "approved_by": None,
+                "approved_on": None,
+                "sha256": None,
+            }
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+
+def approve_cover(module, root: Path, cover: Path) -> None:
+    approval = root / "books/book-05/package/cover-approval.json"
+    approval.write_text(
+        json.dumps(
+            {
+                "cover_path": "books/book-05/cover.jpeg",
+                "status": "approved",
+                "approved_by": "Vesper Blythe",
+                "approved_on": "2026-07-14",
+                "sha256": module.sha256(cover),
+            }
+        )
+        + "\n",
+        encoding="utf-8",
+    )
 
 
 class PackageReadinessTests(unittest.TestCase):
@@ -85,18 +117,27 @@ class PackageReadinessTests(unittest.TestCase):
             root = Path(temporary)
             seed_repo(root)
             result = self.module.validate(root)
-            self.assertEqual(
-                result["blockers"],
-                ["Missing approved ebook cover at books/book-05/cover.jpeg"],
-            )
+            self.assertEqual(len(result["blockers"]), 1)
+            self.assertIn("Missing or unapproved ebook cover", result["blockers"][0])
             self.assertEqual(result["checks_passed"], result["checks_total"] - 1)
 
-    def test_valid_cover_clears_cover_gate(self) -> None:
+    def test_valid_but_unapproved_cover_remains_blocked(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             seed_repo(root)
             cover = root / "books/book-05/cover.jpeg"
             Image.new("RGB", (1600, 2560)).save(cover, format="JPEG", quality=95)
+            result = self.module.validate(root)
+            self.assertEqual(result["status"], "blocked")
+            self.assertIn("Missing or unapproved ebook cover", result["blockers"][0])
+
+    def test_valid_approved_cover_clears_cover_gate(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            seed_repo(root)
+            cover = root / "books/book-05/cover.jpeg"
+            Image.new("RGB", (1600, 2560)).save(cover, format="JPEG", quality=95)
+            approve_cover(self.module, root, cover)
             result = self.module.validate(root)
             self.assertEqual(result["status"], "ready_for_release_build")
             self.assertEqual(result["blockers"], [])
