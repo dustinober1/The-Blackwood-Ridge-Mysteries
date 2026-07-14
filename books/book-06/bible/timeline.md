@@ -35,8 +35,10 @@ Book 6 runs **Thursday, April 15 through Sunday, April 18, 2027**, approximately
 ### Friday, April 16
 
 - Morning: scene re-review; ladder wheels and map-weight transfer documented; medical examiner narrows death to blunt-force trauma within the 6:15–6:35 window.
-- Late morning–midafternoon: county survey records establish the missing sheet 47 sequence, Halbrook's October 3 complaint, and the Bellweather river right-of-way description; Miriam's triangle is introduced through a controlled photograph without completing the original relief-ledger or conservation-image examination.
-- Late afternoon–evening: under separate controlled access, the 2024 conservation images and St. Orison relief ledger establish the next modern-routing discrepancy and second mark.
+- **9:32 a.m.–3:28 p.m.:** County survey records establish the missing sheet 47 sequence, Halbrook's October 3 complaint, and the Bellweather river right-of-way description; Miriam's triangle is introduced through a controlled photograph without completing the original relief-ledger or conservation-image examination.
+- **3:36–5:07 p.m.:** Under separate written scope at St. Orison, authenticated 2024 conservation images are examined before the original relief ledger. The present omitted-line symbol is absent from the 2024 state and lies above documented older grime in the current original. The church custodian retains and reseals the ledger.
+- **5:27–6:48 p.m.:** Bell-controlled Grange photographs and the 2025 treatment record establish the accession bracket's post-repair chronology. Callie separates Miriam's triangle from the two modern routing marks and corrects her one-writer assumption. Cross interviews Tara about a two-folder count reduction and lawfully documents family letters removed to protect a living aunt.
+- **7:34–8:12 p.m.:** At The Foxed Page, Cross-approved copies support a limited linked-routing conclusion. A St. Orison reference points toward the 1989 description `south line retrieval`; payee, amount, account chain, present beneficiary, killer, and curator remain unresolved.
 
 ### Saturday, April 17
 
