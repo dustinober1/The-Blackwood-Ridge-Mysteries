@@ -1,4 +1,5 @@
-# Reproducible binary and visual-QA outputs.
+# Reproducible binary, diagnostic, and visual-QA outputs.
 dist/
 qa/
 reference.docx
+build.log
