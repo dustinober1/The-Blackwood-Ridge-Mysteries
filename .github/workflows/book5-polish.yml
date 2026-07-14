@@ -1,0 +1,284 @@
+name: Book 5 line-edit polish
+
+on:
+  push:
+    branches:
+      - agent/book-05-line-edit-polish
+
+permissions:
+  contents: write
+
+jobs:
+  polish:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/book-05-line-edit-polish
+          fetch-depth: 0
+
+      - name: Apply and validate manuscript polish
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          chapters = {
+              1: ("books/book-05/manuscript/ch-01.md", 3295, [
+                  ("Her care had the efficiency of an established route.",
+                   "Her care followed an established route."),
+                  ("The shop closed at six, but the requests remained visible from the stairs.",
+                   "The shop closed at six, but the requests stayed visible from the stairs."),
+              ]),
+              2: ("books/book-05/manuscript/ch-02.md", 3063, [
+                  ("No hurried voices. No one naming the death before the room had been allowed to keep its first shape.",
+                   "No hurried voices. No one named the death before the room had been allowed to keep its first shape."),
+                  ("The facts remained small because no one had asked them to become a theory.",
+                   "The facts stayed small because no one had asked them to become a theory."),
+                  ("The returned Mercer chancery volume remained in its padded crate.",
+                   "The returned Mercer chancery volume waited in its padded crate."),
+              ]),
+              3: ("books/book-05/manuscript/ch-03.md", 3127, [
+                  ("The current lane took longer to fill and looked poorer when it did.",
+                   "The current lane took longer to fill and looked thinner when it did."),
+                  ("The instruction was competent, exact, and useful.",
+                   "The instruction was competent, precise, and useful."),
+                  ("Its route remained unsettled.",
+                   "Its route stayed unsettled."),
+              ]),
+              4: ("books/book-05/manuscript/ch-04.md", 3240, [
+                  ("The distinction felt smaller when spoken than it looked on the table.",
+                   "Spoken aloud, the distinction felt smaller than it looked on the table."),
+                  ("It was less dramatic than the ink pools and more difficult to explain without turning the room into a lecture.",
+                   "It was subtler than the ink pools and harder to explain without turning the room into a lecture."),
+                  ("The note preserves the visual age of the older hand,” she said, “and adds signs associated with the current one.",
+                   "The note preserves the older hand’s visual age,” she said, “and adds signs associated with the current one."),
+              ]),
+              5: ("books/book-05/manuscript/ch-05.md", 3081, [
+                  ("The proposed changes occupied less paper than the current distribution, but they altered the center of it.",
+                   "The proposed changes occupied less paper than the current distribution but altered its center."),
+                  ("The empty rectangle stayed on the table after Pruitt left, because the missing portfolio had not become less missing when its contents were described.",
+                   "The empty rectangle stayed on the table after Pruitt left. Describing the portfolio’s contents had not made it less missing."),
+                  ("The recognition established nothing about murder.",
+                   "The recognition proved nothing about murder."),
+              ]),
+              6: ("books/book-05/manuscript/ch-06.md", 3042, [
+                  ("The records did not cleanse the split invoices or prove Alton approved revised descriptions.",
+                   "The records neither cleansed the split invoices nor proved Alton approved the revised descriptions."),
+                  ("Claire’s grief remained possessive. Her paper lie remained real. It no longer gave her a body in the study when Alton died.",
+                   "Claire’s grief stayed possessive. Her paper lie remained real. It no longer placed her in the study when Alton died."),
+                  ("The negative finding did not prove Caleb had never assisted anyone. It did separate the materials he possessed from the preparation the note itself required.",
+                   "The negative finding did not prove Caleb had never assisted anyone. It separated the materials he possessed from the preparation the note itself required."),
+              ]),
+              7: ("books/book-05/manuscript/ch-07.md", 3189, [
+                  ("He had brought no copy of the missing client-review restatement. That absence remained an absence.",
+                   "He had brought no copy of the missing client-review restatement. Nothing on the table supplied it."),
+                  ("Together they gave the removed material a second authenticated path without making the missing document present.",
+                   "Together they gave the removed material a second authenticated path without pretending the missing document was present."),
+                  ("His shoulders lowered by an ordinary fraction.",
+                   "His shoulders lowered by a barely visible fraction."),
+              ]),
+              8: ("books/book-05/manuscript/ch-08.md", 3147, [
+                  ("There was no warmth in the sentence that needed decorating. The completed form supplied its own respect.",
+                   "The sentence needed no added warmth. The completed form supplied its own respect."),
+                  ("The shop felt crowded though only Mae and Eli were inside.",
+                   "The shop felt crowded with only Mae and Eli inside."),
+              ]),
+          }
+
+          new_counts = {}
+          for n, (path_s, old_count, replacements) in chapters.items():
+              path = Path(path_s)
+              text = path.read_text(encoding="utf-8")
+              metadata_match = re.search(r"(?m)^words: (\d+)$", text)
+              if not metadata_match or int(metadata_match.group(1)) != old_count:
+                  raise SystemExit(f"Unexpected starting word metadata in {path}")
+              delta = 0
+              for old, new in replacements:
+                  occurrences = text.count(old)
+                  if occurrences != 1:
+                      raise SystemExit(f"Expected one occurrence in {path}: {old!r}; found {occurrences}")
+                  text = text.replace(old, new, 1)
+                  delta += len(new.split()) - len(old.split())
+              new_count = old_count + delta
+              text = re.sub(r"(?m)^words: \d+$", f"words: {new_count}", text, count=1)
+              path.write_text(text, encoding="utf-8")
+              new_counts[n] = new_count
+
+          total = sum(new_counts.values())
+          expected_counts = {1: 3292, 2: 3063, 3: 3127, 4: 3236, 5: 3074, 6: 3039, 7: 3192, 8: 3142}
+          if new_counts != expected_counts or total != 25165:
+              raise SystemExit(f"Unexpected post-polish counts: {new_counts}, total={total}")
+
+          progress_path = Path("books/book-05/progress.yaml")
+          progress = progress_path.read_text(encoding="utf-8")
+          progress = progress.replace("  polish: pending", "  polish: complete", 1)
+          old_note = "  planning_note: Chapters 1 through 8 are drafted and the complete whole-draft revision has been performed and validated. Line editing and prose polish, export, package, and publication remain pending."
+          new_note = "  planning_note: Chapters 1 through 8 are drafted, revised, line edited, prose polished, and reread in sequence. Final proofreading, metadata verification, export preparation, package work, and publication remain pending."
+          if progress.count(old_note) != 1:
+              raise SystemExit("Book 5 planning note did not match expected text")
+          progress = progress.replace(old_note, new_note, 1)
+          progress = progress.replace("  actual_words: 25184", f"  actual_words: {total}", 1)
+          for n, count in new_counts.items():
+              pattern = rf"(?ms)(  - n: {n}\n.*?    words: )\d+"
+              progress, changed = re.subn(pattern, rf"\g<1>{count}", progress, count=1)
+              if changed != 1:
+                  raise SystemExit(f"Could not update chapter {n} count in progress.yaml")
+          progress = progress.replace("  revised_words_total: 25184", "  revised_words_total: 25184\n  polished_chapters: 8\n  polished_words_total: 25165", 1)
+          progress = progress.replace("  polish_complete: false", "  polish_complete: true", 1)
+          progress_path.write_text(progress, encoding="utf-8")
+
+          readme = """# Book 5 Manuscript Directory
+
+Book 5 — *The Planted Page* whole-manuscript line edit, voice-consistency review, and prose-polish pass is complete.
+
+Current manuscript status:
+
+- `ch-01.md` — **The Hand at the Door** — polished, 3,292 words
+- `ch-02.md` — **A Note in His Hand** — polished, 3,063 words
+- `ch-03.md` — **The Comparison Room** — polished, 3,127 words
+- `ch-04.md` — **The Same Letter Twice** — polished, 3,236 words
+- `ch-05.md` — **What the Trust Passed** — polished, 3,074 words
+- `ch-06.md` — **The Hand That Waited** — polished, 3,039 words
+- `ch-07.md` — **The Page Under Pressure** — polished, 3,192 words
+- `ch-08.md` — **The Current Hand** — polished, 3,142 words
+
+Total polished manuscript prose: **25,165 words** across eight chapters.
+
+The line edit retained required evidentiary restatements, recurring object motifs, the locked legal and clue architecture, the exact provenance statement, and the final line. Changes were limited to sentence clarity, local rhythm, repeated vocabulary, paragraph movement, and technical intelligibility.
+
+No dedicated Book 5 polish validator is present. Focused post-polish validation and a complete sequential reread are complete.
+
+Final proofreading, metadata verification, export preparation, packaging, and publication remain pending.
+"""
+          Path("books/book-05/manuscript/README.md").write_text(readme, encoding="utf-8")
+
+          outline_path = Path("series-outline.md")
+          outline = outline_path.read_text(encoding="utf-8")
+          outline = outline.replace(
+              "### Book 5 — The Planted Page — revised draft; polish pending",
+              "### Book 5 — The Planted Page — polished manuscript; proof and export pending",
+              1,
+          )
+          outline = outline.replace(
+              "- **Actual:** 25,184 manuscript-prose words across eight revised chapters.",
+              "- **Actual:** 25,165 manuscript-prose words across eight polished chapters.",
+              1,
+          )
+          outline_path.write_text(outline, encoding="utf-8")
+
+          titles = {
+              1: "The Hand at the Door",
+              2: "A Note in His Hand",
+              3: "The Comparison Room",
+              4: "The Same Letter Twice",
+              5: "What the Trust Passed",
+              6: "The Hand That Waited",
+              7: "The Page Under Pressure",
+              8: "The Current Hand",
+          }
+          dates = {
+              1: "2027-01-25", 2: "2027-01-26", 3: "2027-01-27", 4: "2027-01-28",
+              5: "2027-01-29", 6: "2027-01-30", 7: "2027-01-31", 8: "2027-02-01",
+          }
+          full = []
+          for n, (path_s, _, _) in chapters.items():
+              text = Path(path_s).read_text(encoding="utf-8")
+              full.append(text)
+              required_frontmatter = [
+                  f"n: {n}", f'title: "{titles[n]}"', 'pov: "Callie Thorne"',
+                  f'date: "{dates[n]}"', "word_target:", "status:", f"words: {new_counts[n]}",
+              ]
+              for token in required_frontmatter:
+                  if token not in text:
+                      raise SystemExit(f"Missing frontmatter token {token!r} in {path_s}")
+              if text.count(f"# {titles[n]}") != 1:
+                  raise SystemExit(f"Unexpected chapter heading in {path_s}")
+
+          joined = "\n".join(full)
+          locked_strings = [
+              "The next morning, the telephone below began to ring.",
+              "A separate time record came into the room through a different door.",
+              "FLAGGED SPLIT-INVOICE TRANSFERS: $286,400.00",
+              "EVENT 006441 / SIDE LIBRARY DOOR / VALID CODE / 21:14:08",
+              "REMOVE N.M.S. / IND. TRUSTEE / AUDIT",
+              "F-17", "F-18", "F-19", "F-20", "F-21",
+              "I will not answer another question without counsel present.",
+              "Substantive questioning stopped upon counsel invocation.",
+              "This arrest warrant was issued before this interview",
+              "Found in returned Mercer volume by M. Hartwell; prior loose-paper location not established.",
+          ]
+          for token in locked_strings:
+              if token not in joined:
+                  raise SystemExit(f"Locked text missing after polish: {token}")
+
+          ch8 = Path(chapters[8][0]).read_text(encoding="utf-8").rstrip()
+          if not ch8.endswith("She closed the file."):
+              raise SystemExit("Exact final line was not preserved")
+
+          forbidden = ["<<<<<<<", "=======", ">>>>>>>", "TODO", "TBD", "FIXME", "[PLACEHOLDER]"]
+          for token in forbidden:
+              if token in joined:
+                  raise SystemExit(f"Forbidden placeholder or merge token present: {token}")
+
+          paragraphs = [p.strip() for text in full for p in re.split(r"\n\s*\n", text) if p.strip()]
+          seen = set()
+          duplicates = set()
+          for paragraph in paragraphs:
+              if len(paragraph.split()) >= 12:
+                  if paragraph in seen:
+                      duplicates.add(paragraph)
+                  seen.add(paragraph)
+          if duplicates:
+              raise SystemExit(f"Repeated substantial paragraphs detected: {len(duplicates)}")
+
+          audit_terms = [
+              "exact", "separate", "ordinary", "controlled", "remained", "established",
+              "authenticated", "portable", "route", "proof", "useful", "usefulness",
+              "belonging", "ownership", "not evidence", "did not prove", "did not establish",
+          ]
+          lowered = joined.lower()
+          print("Post-polish frequency review:")
+          for term in audit_terms:
+              print(f"  {term}: {lowered.count(term)}")
+
+          progress_check = progress_path.read_text(encoding="utf-8")
+          required_tracker = [
+              "  polish: complete", "  export: pending", "  package: pending", "  publish: pending",
+              "  actual_words: 25165", "  polished_chapters: 8", "  polished_words_total: 25165",
+              "  polish_complete: true", "  export_complete: false", "  package_complete: false",
+              "  publish_complete: false",
+          ]
+          for token in required_tracker:
+              if token not in progress_check:
+                  raise SystemExit(f"Tracker validation failed: {token}")
+
+          print("Validated chapter counts:", new_counts)
+          print("Validated cumulative manuscript-prose count:", total)
+          print("Book 5 line-edit and polish validation passed.")
+          PY
+
+          ruby -e "require 'yaml'; YAML.load_file('books/book-05/progress.yaml'); YAML.load_file('progress.yaml'); puts 'YAML validation passed.'"
+          git diff --check
+          git status --short
+
+      - name: Commit polished manuscript
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add books/book-05/manuscript/ch-01.md \
+                  books/book-05/manuscript/ch-02.md \
+                  books/book-05/manuscript/ch-03.md \
+                  books/book-05/manuscript/ch-04.md \
+                  books/book-05/manuscript/ch-05.md \
+                  books/book-05/manuscript/ch-06.md \
+                  books/book-05/manuscript/ch-07.md \
+                  books/book-05/manuscript/ch-08.md \
+                  books/book-05/manuscript/README.md \
+                  books/book-05/progress.yaml \
+                  series-outline.md
+          git commit -m "Polish Book 5 for voice and line consistency"
+          git push origin HEAD:agent/book-05-line-edit-polish
