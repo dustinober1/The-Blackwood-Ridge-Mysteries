@@ -54,13 +54,13 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 - **Package state:** Final proof/export and all non-cover package materials are complete. Package remains in progress because no approved canonical ebook cover exists; publication remains pending and the book is not upload ready.
 - **Target / actual:** 25,000 / 25,174 manuscript-prose words; 25,501 combined reader-facing export words.
 
-### Book 6 — The Pattern — ready to draft
+### Book 6 — The Pattern — first draft in progress
 
 - **Central conflict:** Local historian Miriam Vale is murdered while researching county surveyor June Halbrook's 1989 disappearance. Modern annotations in genuine historical materials are designed for Callie to notice and interpret.
 - **Immediate solution:** Dana Wren kills Miriam with a brass map weight and stages a ladder fall to protect a riverfront redevelopment, her financing, and her father's role in suppressing Halbrook's right-of-way evidence.
 - **Series advancement:** Callie proves several genuine documents reached her through a non-neutral route tailored to her method. She knows she has been steered but cannot prove by whom.
 - **Protection:** The murder is solved without the curator; Eli is not conclusively exposed; no prior solution is invalidated.
-- **Status:** Concept, bible, and eight-chapter outline complete; draft pending.
+- **Status:** Chapter 1 drafted at 3,266 manuscript words; Chapters 2–8 planned and undrafted.
 - **Target:** 25,000 words.
 
 ### Book 7 — The Reckoning — planned
