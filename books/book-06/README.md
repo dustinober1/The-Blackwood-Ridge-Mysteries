@@ -4,7 +4,7 @@
 **Series:** The Blackwood Ridge Mysteries #6  
 **Genre:** Atmospheric cozy mystery / amateur sleuth  
 **Target:** 25,000 manuscript words across eight chapters  
-**Status:** First draft in progress; Chapter 1 drafted at 3266 manuscript words
+**Status:** First draft in progress; Chapters 1–2 drafted at 6401 manuscript words
 
 ## Controlling function
 
@@ -16,8 +16,8 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 
 ## Current production state
 
-- Chapter 1 — **The Box at Closing** — drafted.
-- Chapters 2–8 — planned and undrafted.
+- Chapters 1–2 — drafted.
+- Chapters 3–8 — planned and undrafted.
 - Revision, polish, export, package, and publication — pending.
 - Upload ready — no.
 
