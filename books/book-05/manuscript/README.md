@@ -19,4 +19,4 @@ The complete sequential proofread found no clear spelling, punctuation, grammar,
 
 Chapter titles, POV, dates, word targets, status convention, actual counts, chronology, title, author, series, and series number are verified against the controlling manuscript and repository conventions.
 
-Repository-standard front matter, back matter, combined-source assembly, format generation, source-to-export comparison, DOCX render QA, and EPUB validation tooling are prepared under `../export/`. Generated export validation remains pending. Packaging and publication remain pending.
+Repository-standard front matter, back matter, combined Markdown, plain text, standalone HTML, DOCX, and EPUB 3 exports are complete and validated under `../export/`. All eight chapter bodies match the controlling sources in every generated format. The DOCX rendered to 68 pages with four contact sheets, and EPUBCheck reported no errors or warnings. Packaging and publication remain pending.
