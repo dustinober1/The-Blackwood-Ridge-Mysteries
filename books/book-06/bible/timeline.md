@@ -35,9 +35,8 @@ Book 6 runs **Thursday, April 15 through Sunday, April 18, 2027**, approximately
 ### Friday, April 16
 
 - Morning: scene re-review; ladder wheels and map-weight transfer documented; medical examiner narrows death to blunt-force trauma within the 6:15–6:35 window.
-- Midday: Callie compares accession register with 2024 conservation image; first modern-routing discrepancy established.
-- Afternoon: county survey copy reveals missing sheet 47; suspect interviews remain Cross's responsibility.
-- Evening: church relief ledger is located under controlled access; second routing mark identified.
+- Late morning–midafternoon: county survey records establish the missing sheet 47 sequence, Halbrook's October 3 complaint, and the Bellweather river right-of-way description; Miriam's triangle is introduced through a controlled photograph without completing the original relief-ledger or conservation-image examination.
+- Late afternoon–evening: under separate controlled access, the 2024 conservation images and St. Orison relief ledger establish the next modern-routing discrepancy and second mark.
 
 ### Saturday, April 17
 

@@ -1,6 +1,6 @@
 # Eight-Chapter Outline — The Pattern
 
-**Target total:** 25,000 words. Chapters 1–2 drafted; Chapters 3–8 planned and undrafted.
+**Target total:** 25,000 words. Chapters 1–3 drafted; Chapters 4–8 planned and undrafted.
 
 ## Chapter 1 — The Box at Closing — 3,100 words
 
