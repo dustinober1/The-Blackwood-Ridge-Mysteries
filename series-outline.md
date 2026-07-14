@@ -60,7 +60,7 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 - **Immediate solution:** Dana Wren kills Miriam with a brass map weight and stages a ladder fall to protect a riverfront redevelopment, her financing, and her father's role in suppressing Halbrook's right-of-way evidence.
 - **Series advancement:** Callie proves several genuine documents reached her through a non-neutral route tailored to her method. She knows she has been steered but cannot prove by whom.
 - **Protection:** The murder is solved without the curator; Eli is not conclusively exposed; no prior solution is invalidated.
-- **Status:** Chapters 1–2 drafted at 6,401 manuscript words; Chapters 3–8 planned and undrafted.
+- **Status:** Chapters 1–3 drafted at 9,531 manuscript words; Chapters 4–8 planned and undrafted.
 - **Target:** 25,000 words.
 
 ### Book 7 — The Reckoning — planned
