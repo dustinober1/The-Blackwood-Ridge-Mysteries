@@ -1,0 +1,28 @@
+book: 6
+title: "The Pattern"
+status: ready_to_draft
+target_words: 25000
+actual_words: 0
+chapter_count: 8
+stages:
+  concept: complete
+  bible: complete
+  outline: complete
+  draft: pending
+  revise: pending
+  polish: pending
+  export: pending
+  package: pending
+  publish: pending
+chapters:
+  - {n: 1, title: "The Box at Closing", target_words: 3100, status: planned, actual_words: 0}
+  - {n: 2, title: "A Fall That Did Not Fit", target_words: 3150, status: planned, actual_words: 0}
+  - {n: 3, title: "The Surveyor's Missing Line", target_words: 3100, status: planned, actual_words: 0}
+  - {n: 4, title: "Marks Made Later", target_words: 3150, status: planned, actual_words: 0}
+  - {n: 5, title: "The Road Through Bellweather", target_words: 3100, status: planned, actual_words: 0}
+  - {n: 6, title: "What the Ledger Withheld", target_words: 3150, status: planned, actual_words: 0}
+  - {n: 7, title: "The Weight of the Map", target_words: 3100, status: planned, actual_words: 0}
+  - {n: 8, title: "The Pattern", target_words: 3150, status: planned, actual_words: 0}
+word_target_sum: 25000
+publication_status: pending
+upload_ready: false
