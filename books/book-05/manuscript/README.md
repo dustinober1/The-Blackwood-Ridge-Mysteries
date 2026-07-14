@@ -1,22 +1,22 @@
 # Book 5 Manuscript Directory
 
-Book 5 — *The Planted Page* whole-draft revision is complete.
+Book 5 — *The Planted Page* whole-manuscript line edit, voice-consistency review, and prose-polish pass is complete.
 
 Current manuscript status:
 
-- `ch-01.md` — **The Hand at the Door** — revised, 3,295 words
-- `ch-02.md` — **A Note in His Hand** — revised, 3,063 words
-- `ch-03.md` — **The Comparison Room** — revised, 3,127 words
-- `ch-04.md` — **The Same Letter Twice** — revised, 3,240 words
-- `ch-05.md` — **What the Trust Passed** — revised, 3,081 words
-- `ch-06.md` — **The Hand That Waited** — revised, 3,042 words
-- `ch-07.md` — **The Page Under Pressure** — revised, 3,189 words
-- `ch-08.md` — **The Current Hand** — revised, 3,147 words
+- `ch-01.md` — **The Hand at the Door** — polished, 3,295 words
+- `ch-02.md` — **A Note in His Hand** — polished, 3,063 words
+- `ch-03.md` — **The Comparison Room** — polished, 3,127 words
+- `ch-04.md` — **The Same Letter Twice** — polished, 3,240 words
+- `ch-05.md` — **What the Trust Passed** — polished, 3,074 words
+- `ch-06.md` — **The Hand That Waited** — polished, 3,039 words
+- `ch-07.md` — **The Page Under Pressure** — polished, 3,189 words
+- `ch-08.md` — **The Current Hand** — polished, 3,147 words
 
-Total revised manuscript prose: **25,184 words** across eight chapters.
+Total polished manuscript prose: **25,174 words** across eight chapters.
 
-The complete continuity, mystery-fairness, suspect-balance, procedural, evidence-limit, POV, repetition, pacing, and prose review is recorded in `books/book-05/revision-plan.md`.
+The pass retained required evidentiary restatements, recurring object motifs, locked legal and clue architecture, the exact provenance statement, and the final line. Changes were limited to sentence clarity, local rhythm, repeated vocabulary, paragraph movement, and technical intelligibility.
 
-Focused post-edit validation is complete; the repository contains no dedicated Book 5 revision validator.
+No dedicated Book 5 polish validator is present. Focused post-polish validation and a complete sequential reread are complete.
 
-Line editing and prose polish, export, packaging, and publication remain pending.
+Final proofreading, metadata verification, export preparation, packaging, and publication remain pending.
