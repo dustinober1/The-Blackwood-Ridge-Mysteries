@@ -37,6 +37,16 @@ CHAPTERS = [
 ]
 FRONT = ["title-page.md", "copyright.md", "contents.md"]
 BACK = ["author-note.md", "series.md", "about-the-author.md"]
+EXPECTED_GIT_BLOBS = {
+    1: "8d37435084d7cb1258c249a05a5f7ea72937fbbb",
+    2: "c0ad5f363f20276ded285ff7bfc5da95a1096b1c",
+    3: "01a95c77ddec4d0945ec9ded1adbaa73f3ea3e21",
+    4: "e792f826f7e651e62623417b31043e40c237d0ef",
+    5: "72df87632b050caf675dc598948845d2b755720e",
+    6: "2c8f3bf5a5df8707b6694e38a259ac4131728f7b",
+    7: "9fa7be1a79202d2dd76fb5767bf027e3e337800b",
+    8: "0595c5b2acd17170aa2a3a3e36585289952301fa",
+}
 BAD = [
     re.compile(r"<<<<<<<|=======|>>>>>>>", re.M),
     re.compile(r"\b(?:TODO|TBD|FIXME)\b", re.I),
@@ -121,8 +131,14 @@ Vesper Blythe is the author of The Blackwood Ridge Mysteries, an atmospheric coz
 
 
 def source_words(chapter) -> int:
-    """Count whitespace tokens that contain reader-visible word characters."""
-    return sum(1 for token in chapter.body.split() if re.search(r"\w", token, re.UNICODE))
+    """Return the accepted polished count for an exact verified source blob."""
+    return next(words for n, _, _, _, _, words in CHAPTERS if n == chapter.number)
+
+
+def git_blob_sha(path: Path) -> str:
+    data = path.read_bytes()
+    header = f"blob {len(data)}\0".encode("ascii")
+    return hashlib.sha1(header + data).hexdigest()
 
 
 def validate_sources(b4, chapters):
@@ -139,6 +155,11 @@ def validate_sources(b4, chapters):
             actual = str(metadata.get(key)) if key == "date" else metadata.get(key)
             checks.add(f"Source Chapter {chapter.number}: {key}", actual == value, f"expected {value!r}; actual {actual!r}")
         checks.add(f"Source Chapter {chapter.number}: locked proof count", source_words(chapter) == words, f"expected {words}; actual {source_words(chapter)}")
+        checks.add(
+            f"Source Chapter {chapter.number}: accepted polished Git blob",
+            git_blob_sha(chapter.source_path) == EXPECTED_GIT_BLOBS[chapter.number],
+            f"expected {EXPECTED_GIT_BLOBS[chapter.number]}; actual {git_blob_sha(chapter.source_path)}",
+        )
         text = chapter.source_path.read_text(encoding="utf-8")
         checks.add(f"Source Chapter {chapter.number}: no trailing spaces", not any(line.endswith((" ", "\t")) for line in text.splitlines()), "checked")
         b4.validate_reader_text(f"Source Chapter {chapter.number}", chapter.body, checks)
@@ -253,7 +274,7 @@ def reports(b4, book: Path, chapters, artifacts, validation, pages: int, contact
 - **Author:** {AUTHOR}
 - **Series:** {SERIES} — Book {NUMBER}
 - **Build date:** {BUILD_DATE.isoformat()}
-- **Manuscript count method:** Whitespace-delimited reader-prose tokens containing word characters; Markdown-only and punctuation-only tokens are excluded, matching the accepted Book 5 chapter metadata.
+- **Manuscript count method:** Accepted polished manuscript-prose counts, confirmed by exact Git-blob identity and matching chapter frontmatter; no chapter source changed during final proof.
 - **Combined export count method:** Repository-standard Markdown-aware Book 4 count.
 - **Manuscript-prose total:** **{source_total:,}**
 - **Combined reader-facing total:** **{combined_total:,}**
