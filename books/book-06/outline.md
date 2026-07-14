@@ -1,6 +1,6 @@
 # Eight-Chapter Outline — The Pattern
 
-**Target total:** 25,000 words. Chapters 1–5 drafted; Chapters 6–8 planned and undrafted.
+**Target total:** 25,000 words. Chapters 1–6 drafted; Chapters 7–8 planned and undrafted.
 
 ## Chapter 1 — The Box at Closing — 3,100 words
 
@@ -75,16 +75,19 @@
 
 ## Chapter 6 — What the Ledger Withheld — 3,150 words
 
-- **Date/time/location:** Saturday afternoon–night; Grange, café, Foxed Page back room.
-- **Function/objective:** Recover the removed tracing's shadow and separate killer from curator.
-- **Conflict:** Nadia's deleted recording and commercial plans threaten credibility; Leo's plagiarism surfaces.
-- **Clues:** Pressure offset on blotter; Nadia audio; returned road pamphlet with shelf-direction numeral.
-- **Reinterpretations:** Nadia hid exploitation, not murder; Leo stole research, not life; Owen's unauthorized road use and equipment storage explain his route-copy and mud lies without Grange access.
-- **Procedure:** Cross authenticates audio and obtains warrant affidavits; official evidence never enters shop custody.
-- **Pattern movement:** Third routing point and Mercer ticket create a repeatable non-neutral path.
-- **Character movement:** Eli correctly marks the pamphlet's unexplained return route; outward behavior remains credible.
-- **Reversal/hook:** Offset reconstructs “ROW 14 / RIVER ACCESS,” and Cross has enough for search warrants.
-- **Evidence state:** Search authorized; curator identity no closer.
+- **Date/time/location:** Saturday, April 17, 5:52–10:46 p.m.; sheriff's evidence and interview rooms, The Foxed Page, sheriff's records room.
+- **Function/objective:** Recover the tracing's limited pressure shadow, authenticate Nadia's recovered audio, dispose of the Nadia/Leo/Owen murder false paths, establish the third routing point, and carry Dana's cumulative case to a warrant-application threshold without executing a search.
+- **Pressure clue:** Under a new non-destructive scope, alternating low-angle photographs and a contrast-limited overlay recover only `...ROW 14 / RIVER ACCESS` from Miriam's blotter. The fragment is not the original tracing and supplies no complete geometry, writer, remover, or destination.
+- **Audio clue:** The Chapter 3 consent-copy recovery path authenticates one damaged excerpt associated with `MV_0415_06`. Miriam's only quoted speech is `Dana at six fifteen`; it corroborates her expectation, not Dana's arrival, duration, acts, or guilt.
+- **Nadia disposition:** Café records and witnesses keep Nadia editing through 6:22; measured travel makes 6:38 the earliest Grange arrival. She is reduced as murderer while deletion, unauthorized recording, consent, privacy, ownership, copyright, and commercialization consequences remain.
+- **Leo disposition:** Miriam's memorandum, Leo's draft, editor revision history, payment offer, retained public-index photocopy, and library event records prove plagiarism and concealment. Continuous program evidence excludes the death window. Archival-pencil ownership and graphite class cannot identify a routing-mark writer.
+- **Owen disposition:** A Wednesday fleet photograph dates the truck mud before the murder. Thursday gate, witness, and radio records keep Owen at the depot. His route copy led to unauthorized county culvert pipe and fittings stored beyond Gate Three; discipline and possible legal referral remain, but Grange access and murder opportunity do not.
+- **Third routing point:** Mr. Haskell's ordinary atlas return introduces a genuine 1988 county road-department pamphlet. A March 2 shop image lacks the later graphite `3`, which crosses the repair tissue and directs toward Shelf Three's public Halbrook index card. The pamphlet remains genuine, its earlier loose-paper route remains unknown, and the mark proves design rather than identity.
+- **Mercer seam:** The returned pamphlet echoes the genuine, non-dispositive Mercer repair ticket only at the level of useful material arriving through an incomplete route. No common mover is proved.
+- **Procedure:** Cross controls every scope, original, playback, interview, suspect reduction, probable-cause statement, and affidavit. Callie handles nothing and asks no suspect questions. Eli performs only ordinary intake and approved grid work and leaves unsupported fields blank.
+- **Character movement:** Callie recognizes that routed access can flatter a reader while controlling her; accurate content and neutral arrival are separate questions.
+- **Reversal/hook:** Cross signs two narrow warrant applications for on-call-magistrate submission. No warrant issues on-page, no search occurs, and no arrest occurs.
+- **Evidence state:** Dana remains the leading murder suspect; murderer and curator remain separate. The tracing, green coat, residue cloth, final map-weight proof, Halbrook recovery, and curator identity remain withheld.
 
 ## Chapter 7 — The Weight of the Map — 3,100 words
 

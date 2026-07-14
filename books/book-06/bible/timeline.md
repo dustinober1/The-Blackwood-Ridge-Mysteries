@@ -14,6 +14,7 @@ Book 6 runs **Thursday, April 15 through Sunday, April 18, 2027**, approximately
 - **2024:** Grange conservation photographs show no modern routing marks.
 - **2025:** Accession register receives repair tissue later crossed by a graphite bracket.
 - **February–April 2027:** Miriam reconstructs the cold case. The unknown curator adds three routing marks and moves genuine materials into paths Callie is likely to encounter.
+- **March 2, 2027:** The Foxed Page repair log and intake image document tissue reinforcement on a genuine 1988 county road-department pamphlet before the later shelf-direction numeral is added.
 
 ## Present case
 
@@ -27,11 +28,13 @@ Book 6 runs **Thursday, April 15 through Sunday, April 18, 2027**, approximately
 - **6:03:** Volunteer key count records `T-2 OUT`; no returner is observed.
 - **6:07:** Bakery delivery volunteer sees Miriam alive at the map-room table.
 - **6:10:** Nadia begins recorded café editing session.
+- **6:10–7:05:** Leo's public-library program runs; audience photographs place him at the lectern by 6:12 and continuous event video keeps him in the room through 7:03.
 - **6:15:** Scheduled “D.W.” meeting.
 - **6:18–6:31:** Dana confronts and kills Miriam, removes tracing, stages ladder fall.
+- **6:22:** Café records and witnesses still place Nadia at her editing table. The earliest lawful drive to the Grange ends at 6:38.
 - **6:32:** Volunteer key count records `T-2 IN`; no one saw who returned it.
 - **6:33:** Volunteer in kitchen hears exterior latch.
-- **6:42:** Dana's Wren Hardware business account buys fuel three miles away. The bound handwritten pump log, duplicate register receipt, and merchant batch report fix the first reliable post-Grange location associated with Dana's admitted route; no camera or eyewitness proves every movement.
+- **6:42:** Dana's Wren Hardware business account buys fuel three miles away. The bound handwritten pump log, duplicate receipt, and merchant batch report fix the first reliable post-Grange location associated with Dana's admitted route; no camera or eyewitness proves every movement.
 - **7:12:** Tara finds Miriam and calls 911.
 - **7:20:** Cross and deputies secure Grange. Callie is not admitted until documentary scope is written.
 
@@ -51,7 +54,13 @@ Book 6 runs **Thursday, April 15 through Sunday, April 18, 2027**, approximately
 - **12:24–1:08 p.m.:** River Road Service Station records authenticate the 6:42 fuel transaction as Dana's first reliable post-Grange record without continuous tracking or visual driver identification. The six-to-eight-minute travel lock leaves at least thirty-nine minutes unexplained.
 - **1:34–3:39 p.m.:** Under county consent, Bell documents a modern Halbrook-route copy and undated upper-spur mud in Owen's assigned truck. A limited public-road observation establishes recent road use without user or date. Owen's unauthorized-use explanation remains unresolved. At The Foxed Page, Mae's green-wool and brass-cleaning memory is independently checked through Grange inventory, committee photographs, the March 25 roster, and a hardware receipt; no garment or weapon is identified.
 - **4:12–5:36 p.m.:** Cross-approved copies support a controlled synthesis at The Foxed Page. Dana becomes the leading present-murder suspect through motive, admitted appointment, key-control conflict, and unexplained time, but Cross records only a probable-cause foundation, not enough for a warrant. Killer and curator remain analytically separate.
-- **Later Saturday, reserved for Chapter 6:** pressure-offset examination, Nadia audio recovery and authentication, Leo's plagiarism resolution, Owen's disposition, returned road pamphlet, shelf-direction numeral, and warrant preparation.
+- **5:31 p.m.:** Mr. Haskell returns a county atlas to The Foxed Page and states that a loose 1988 county road-department pamphlet was inside and was not his. Eli logs the presenter, receipt, found location, bag condition, and incomplete prior route.
+- **5:52–6:39 p.m.:** Under a new non-destructive scope in the sheriff's evidence room, the regional document examiner and Bell use alternating low-angle photographs and a contrast-limited overlay on Miriam's sealed blotter. Only `...ROW 14 / RIVER ACCESS` is recovered. The original tracing and complete geometry remain absent.
+- **6:47–7:31 p.m.:** Cross controls playback and interview of the single recovered excerpt associated with `MV_0415_06`. Miriam says `Dana at six fifteen`. The phrase corroborates expectation only. Café and travel evidence excludes Nadia from the murder window while preserving her deletion, consent, privacy, ownership, and commercialization misconduct.
+- **7:39–8:24 p.m.:** Cross authenticates Leo's plagiarism, payment offer, retained public-index photocopy, library program, audience images, and continuous event video. Leo is excluded from the murder window. Pencil ownership and graphite class remain non-identifying.
+- **8:31–9:06 p.m.:** A Wednesday fleet photograph dates Owen's truck mud before the murder. Thursday gate, mechanic, and road-radio records keep him at the depot. Deputies document unauthorized culvert pipe and fittings beyond Gate Three. Administrative discipline and possible legal referral remain; Grange access and Halbrook recovery do not.
+- **9:18–9:54 p.m.:** At The Foxed Page, the genuine returned road pamphlet is authenticated. A graphite `3` crosses the March 2 repair tissue and is absent from the March 2 image, establishing a third modern routing point. The prior loose-paper route, writer, pencil, curator, and common hand remain unknown.
+- **10:07–10:46 p.m.:** In the sheriff's records room, Cross synthesizes Dana's cumulative motive, opportunity, contradiction, staging, pressure fragment, recovered audio, and false-path exclusions. He signs two narrow warrant applications for submission to the on-call magistrate. No warrant issues on-page, no search occurs, no recovery occurs, and Dana is not arrested.
 
 ### Sunday, April 18
 

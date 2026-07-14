@@ -9,10 +9,10 @@ Current manuscript status:
 - `ch-03.md` — **The Surveyor's Missing Line** — drafted, 3130 words
 - `ch-04.md` — **Marks Made Later** — drafted, 3150 words
 - `ch-05.md` — **The Road Through Bellweather** — drafted, 3100 words
-- `ch-06.md` — **What the Ledger Withheld** — planned, not drafted
+- `ch-06.md` — **What the Ledger Withheld** — drafted, 3150 words
 - `ch-07.md` — **The Weight of the Map** — planned, not drafted
 - `ch-08.md` — **The Pattern** — planned, not drafted
 
-Total drafted manuscript prose: **15781 words** across five chapters.
+Total drafted manuscript prose: **18931 words** across six chapters.
 
-The manuscript remains single third-person limited through Callie Thorne. Chapters 6–8, revision, polish, export, package, and publication remain pending.
+The manuscript remains single third-person limited through Callie Thorne. Chapters 7–8, revision, polish, export, package, and publication remain pending.
