@@ -19,4 +19,4 @@ The pass retained required evidentiary restatements, recurring object motifs, lo
 
 No dedicated Book 5 polish validator is present. Focused post-polish validation and a complete sequential reread are complete.
 
-Final proofreading, metadata verification, export preparation, packaging, and publication remain pending.
+Final proofreading, metadata verification, and export preparation are the next stage. Packaging and publication remain pending.
