@@ -120,6 +120,11 @@ If this mystery kept you turning pages, an honest review helps other readers fin
 Vesper Blythe is the author of The Blackwood Ridge Mysteries, an atmospheric cozy mystery series featuring antiquarian bookseller and amateur sleuth Callie Thorne.""")
 
 
+def source_words(chapter) -> int:
+    """Book 5 accepted counts are whitespace-delimited Markdown body words."""
+    return len(chapter.body.split())
+
+
 def validate_sources(b4, chapters):
     checks = b4.Validation([])
     controls = {n: (title, date_, target, words) for n, title, _, date_, target, words in CHAPTERS}
@@ -128,18 +133,18 @@ def validate_sources(b4, chapters):
         metadata, _ = b4.strip_yaml_and_heading(chapter.source_path.read_text(encoding="utf-8"), chapter.number, title)
         expected = {
             "title": title, "pov": "Callie Thorne", "date": date_,
-            "word_target": target, "status": "drafted", "words": chapter.word_count,
+            "word_target": target, "status": "drafted", "words": source_words(chapter),
         }
         for key, value in expected.items():
             actual = str(metadata.get(key)) if key == "date" else metadata.get(key)
             checks.add(f"Source Chapter {chapter.number}: {key}", actual == value, f"expected {value!r}; actual {actual!r}")
-        checks.add(f"Source Chapter {chapter.number}: locked proof count", chapter.word_count == words, f"expected {words}; actual {chapter.word_count}")
+        checks.add(f"Source Chapter {chapter.number}: locked proof count", source_words(chapter) == words, f"expected {words}; actual {source_words(chapter)}")
         text = chapter.source_path.read_text(encoding="utf-8")
         checks.add(f"Source Chapter {chapter.number}: no trailing spaces", not any(line.endswith((" ", "\t")) for line in text.splitlines()), "checked")
         b4.validate_reader_text(f"Source Chapter {chapter.number}", chapter.body, checks)
     body = "\n".join(ch.body for ch in chapters)
     checks.add("Source: eight chapters", len(chapters) == 8, str(len(chapters)))
-    checks.add("Source: total 25,174", sum(ch.word_count for ch in chapters) == TOTAL, str(sum(ch.word_count for ch in chapters)))
+    checks.add("Source: total 25,174", sum(source_words(ch) for ch in chapters) == TOTAL, str(sum(source_words(ch) for ch in chapters)))
     checks.add("Source: provenance exactly once", body.count(PROVENANCE) == 1, str(body.count(PROVENANCE)))
     checks.add("Source: final line exact", chapters[-1].body.rstrip().endswith(FINAL_LINE), chapters[-1].body.rstrip().splitlines()[-1])
     checks.add("Source: no duplicate chapter body", len({ch.body_sha256 for ch in chapters}) == 8, "checked")
@@ -230,11 +235,11 @@ def merge(b4, validations):
 
 def reports(b4, book: Path, chapters, artifacts, validation, pages: int, contacts, epubcheck: str, pdf: Path | None):
     export = book / "export"
-    source_total = sum(ch.word_count for ch in chapters)
+    source_total = sum(source_words(ch) for ch in chapters)
     combined_total = b4.word_count(artifacts["markdown"].read_text(encoding="utf-8"))
     source_rows = ["| Ch. | Title | Words | Source SHA-256 | Body SHA-256 |", "|---:|---|---:|---|---|"]
     for ch in chapters:
-        source_rows.append(f"| {ch.number} | {ch.display_title} | {ch.word_count:,} | `{ch.source_sha256}` | `{ch.body_sha256}` |")
+        source_rows.append(f"| {ch.number} | {ch.display_title} | {source_words(ch):,} | `{ch.source_sha256}` | `{ch.body_sha256}` |")
     artifact_rows = ["| Artifact | Bytes | SHA-256 |", "|---|---:|---|"]
     records = []
     for name in ["markdown", "text", "html", "docx", "epub"]:
@@ -248,7 +253,8 @@ def reports(b4, book: Path, chapters, artifacts, validation, pages: int, contact
 - **Author:** {AUTHOR}
 - **Series:** {SERIES} — Book {NUMBER}
 - **Build date:** {BUILD_DATE.isoformat()}
-- **Counting method:** Repository-standard Markdown-aware Book 4 count.
+- **Manuscript count method:** Whitespace-delimited Markdown body words, matching the accepted Book 5 chapter metadata.
+- **Combined export count method:** Repository-standard Markdown-aware Book 4 count.
 - **Manuscript-prose total:** **{source_total:,}**
 - **Combined reader-facing total:** **{combined_total:,}**
 - **Chapters:** **8**
@@ -259,7 +265,7 @@ def reports(b4, book: Path, chapters, artifacts, validation, pages: int, contact
 
 {chr(10).join(source_rows)}
 
-**Arithmetic check:** {' + '.join(str(ch.word_count) for ch in chapters)} = **{source_total:,}**
+**Arithmetic check:** {' + '.join(str(source_words(ch)) for ch in chapters)} = **{source_total:,}**
 
 ## Export artifact hashes
 
