@@ -44,7 +44,7 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 - **Ending state:** Benedict Calder arrested; Lila Mae Crowe supplement filed; archives damaged but not gone; brass glass a chosen working tool; floorboard creak marks movement through grief; Callie will not be reading alone.
 - **Actual:** 34,960 manuscript-body words; eight chapters.
 
-### Book 5 — The Planted Page — polished manuscript; proof and export pending
+### Book 5 — The Planted Page — final proof and export complete; package pending
 
 - **Central conflict:** Retired circuit judge and preservation patron Alton Mercer is found dead in his study. A note in his handwriting frames the death as suicide and asks that his trust pass without scrutiny. Callie proves the writing was studied and simulated.
 - **Victim contrast:** Alton is a retired judge, estate owner, foundation patron, and legal-manuscript collector—not another sitting councilman.
@@ -54,7 +54,7 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 - **Series advancement:** Callie's public reputation reaches its high point. The bounded consultant relationship works in practice. A genuine recent repair ticket is quietly redirected into her comparison path without exposing Eli.
 - **Ending state:** Nora arrested without confession; case fully resolved; trust/foundation placed under independent supervision; repair-ticket provenance retains a quiet route gap; Book 6 pattern reveal remains available.
 - **Target:** 25,000 words in eight chapters.
-- **Actual:** 25,174 manuscript-prose words across eight polished chapters.
+- **Actual:** 25,174 manuscript-prose words; 25,501 combined reader-facing export words.
 
 ### Book 6 — The Pattern — planned
 

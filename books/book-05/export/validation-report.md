@@ -1,0 +1,227 @@
+# Book 5 Proof/Export Validation
+
+- Checks passed: **207/207**
+
+- [x] Source Chapter 1: title — expected 'The Hand at the Door'; actual 'The Hand at the Door'
+- [x] Source Chapter 1: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 1: date — expected '2027-01-25'; actual '2027-01-25'
+- [x] Source Chapter 1: word_target — expected 3100; actual 3100
+- [x] Source Chapter 1: status — expected 'drafted'; actual 'drafted'
+- [x] Source Chapter 1: words — expected 3295; actual 3295
+- [x] Source Chapter 1: locked proof count — expected 3295; actual 3295
+- [x] Source Chapter 1: accepted polished Git blob — expected 8d37435084d7cb1258c249a05a5f7ea72937fbbb; actual 8d37435084d7cb1258c249a05a5f7ea72937fbbb
+- [x] Source Chapter 1: no trailing spaces — checked
+- [x] Source Chapter 1: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 1: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 1: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 1: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 1: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 2: title — expected 'A Note in His Hand'; actual 'A Note in His Hand'
+- [x] Source Chapter 2: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 2: date — expected '2027-01-26'; actual '2027-01-26'
+- [x] Source Chapter 2: word_target — expected 3100; actual 3100
+- [x] Source Chapter 2: status — expected 'drafted'; actual 'drafted'
+- [x] Source Chapter 2: words — expected 3063; actual 3063
+- [x] Source Chapter 2: locked proof count — expected 3063; actual 3063
+- [x] Source Chapter 2: accepted polished Git blob — expected c0ad5f363f20276ded285ff7bfc5da95a1096b1c; actual c0ad5f363f20276ded285ff7bfc5da95a1096b1c
+- [x] Source Chapter 2: no trailing spaces — checked
+- [x] Source Chapter 2: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 2: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 2: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 2: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 2: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 3: title — expected 'The Comparison Room'; actual 'The Comparison Room'
+- [x] Source Chapter 3: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 3: date — expected '2027-01-27'; actual '2027-01-27'
+- [x] Source Chapter 3: word_target — expected 3100; actual 3100
+- [x] Source Chapter 3: status — expected 'drafted'; actual 'drafted'
+- [x] Source Chapter 3: words — expected 3127; actual 3127
+- [x] Source Chapter 3: locked proof count — expected 3127; actual 3127
+- [x] Source Chapter 3: accepted polished Git blob — expected 01a95c77ddec4d0945ec9ded1adbaa73f3ea3e21; actual 01a95c77ddec4d0945ec9ded1adbaa73f3ea3e21
+- [x] Source Chapter 3: no trailing spaces — checked
+- [x] Source Chapter 3: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 3: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 3: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 3: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 3: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 4: title — expected 'The Same Letter Twice'; actual 'The Same Letter Twice'
+- [x] Source Chapter 4: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 4: date — expected '2027-01-28'; actual '2027-01-28'
+- [x] Source Chapter 4: word_target — expected 3200; actual 3200
+- [x] Source Chapter 4: status — expected 'drafted'; actual 'drafted'
+- [x] Source Chapter 4: words — expected 3240; actual 3240
+- [x] Source Chapter 4: locked proof count — expected 3240; actual 3240
+- [x] Source Chapter 4: accepted polished Git blob — expected e792f826f7e651e62623417b31043e40c237d0ef; actual e792f826f7e651e62623417b31043e40c237d0ef
+- [x] Source Chapter 4: no trailing spaces — checked
+- [x] Source Chapter 4: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 4: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 4: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 4: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 4: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 5: title — expected 'What the Trust Passed'; actual 'What the Trust Passed'
+- [x] Source Chapter 5: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 5: date — expected '2027-01-29'; actual '2027-01-29'
+- [x] Source Chapter 5: word_target — expected 3100; actual 3100
+- [x] Source Chapter 5: status — expected 'drafted'; actual 'drafted'
+- [x] Source Chapter 5: words — expected 3074; actual 3074
+- [x] Source Chapter 5: locked proof count — expected 3074; actual 3074
+- [x] Source Chapter 5: accepted polished Git blob — expected 72df87632b050caf675dc598948845d2b755720e; actual 72df87632b050caf675dc598948845d2b755720e
+- [x] Source Chapter 5: no trailing spaces — checked
+- [x] Source Chapter 5: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 5: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 5: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 5: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 5: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 6: title — expected 'The Hand That Waited'; actual 'The Hand That Waited'
+- [x] Source Chapter 6: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 6: date — expected '2027-01-30'; actual '2027-01-30'
+- [x] Source Chapter 6: word_target — expected 3100; actual 3100
+- [x] Source Chapter 6: status — expected 'drafted'; actual 'drafted'
+- [x] Source Chapter 6: words — expected 3039; actual 3039
+- [x] Source Chapter 6: locked proof count — expected 3039; actual 3039
+- [x] Source Chapter 6: accepted polished Git blob — expected 2c8f3bf5a5df8707b6694e38a259ac4131728f7b; actual 2c8f3bf5a5df8707b6694e38a259ac4131728f7b
+- [x] Source Chapter 6: no trailing spaces — checked
+- [x] Source Chapter 6: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 6: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 6: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 6: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 6: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 7: title — expected 'The Page Under Pressure'; actual 'The Page Under Pressure'
+- [x] Source Chapter 7: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 7: date — expected '2027-01-31'; actual '2027-01-31'
+- [x] Source Chapter 7: word_target — expected 3200; actual 3200
+- [x] Source Chapter 7: status — expected 'drafted'; actual 'drafted'
+- [x] Source Chapter 7: words — expected 3189; actual 3189
+- [x] Source Chapter 7: locked proof count — expected 3189; actual 3189
+- [x] Source Chapter 7: accepted polished Git blob — expected 9fa7be1a79202d2dd76fb5767bf027e3e337800b; actual 9fa7be1a79202d2dd76fb5767bf027e3e337800b
+- [x] Source Chapter 7: no trailing spaces — checked
+- [x] Source Chapter 7: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 7: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 7: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 7: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 7: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 8: title — expected 'The Current Hand'; actual 'The Current Hand'
+- [x] Source Chapter 8: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 8: date — expected '2027-02-01'; actual '2027-02-01'
+- [x] Source Chapter 8: word_target — expected 3100; actual 3100
+- [x] Source Chapter 8: status — expected 'drafted'; actual 'drafted'
+- [x] Source Chapter 8: words — expected 3147; actual 3147
+- [x] Source Chapter 8: locked proof count — expected 3147; actual 3147
+- [x] Source Chapter 8: accepted polished Git blob — expected 0595c5b2acd17170aa2a3a3e36585289952301fa; actual 0595c5b2acd17170aa2a3a3e36585289952301fa
+- [x] Source Chapter 8: no trailing spaces — checked
+- [x] Source Chapter 8: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 8: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 8: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 8: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 8: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source: eight chapters — 8
+- [x] Source: total 25,174 — 25174
+- [x] Source: provenance exactly once — 1
+- [x] Source: final line exact — She closed the file.
+- [x] Source: no duplicate chapter body — checked
+- [x] Markdown: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Markdown: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Markdown: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Markdown: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Markdown: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Markdown: chapter sequence and titles — found [('1', 'The Hand at the Door'), ('2', 'A Note in His Hand'), ('3', 'The Comparison Room'), ('4', 'The Same Letter Twice'), ('5', 'What the Trust Passed'), ('6', 'The Hand That Waited'), ('7', 'The Page Under Pressure'), ('8', 'The Current Hand')]
+- [x] Markdown: eight chapters — found 8
+- [x] Markdown: no YAML metadata leak — checked source-only keys
+- [x] Markdown: no raw page-break commands — checked
+- [x] Markdown: Chapter 1 body preserved exactly — source 5e2384ba456c1ae1001ffcff9b30f26905289723efc2cc18769a431e00826a5b; combined 5e2384ba456c1ae1001ffcff9b30f26905289723efc2cc18769a431e00826a5b
+- [x] Markdown: Chapter 2 body preserved exactly — source c720192f21da20546e03e3b32b98aa407a4fd0a2b824e7ea5b18c5f17244e9f0; combined c720192f21da20546e03e3b32b98aa407a4fd0a2b824e7ea5b18c5f17244e9f0
+- [x] Markdown: Chapter 3 body preserved exactly — source 2131b7a0b022c3859e45619734aed39e12e19d8af8b4c0dc9f2842f6d0eae8ac; combined 2131b7a0b022c3859e45619734aed39e12e19d8af8b4c0dc9f2842f6d0eae8ac
+- [x] Markdown: Chapter 4 body preserved exactly — source e99e6846b63207122c6314c4e841924c2204eacea8a67ea96637fb1e24ce0411; combined e99e6846b63207122c6314c4e841924c2204eacea8a67ea96637fb1e24ce0411
+- [x] Markdown: Chapter 5 body preserved exactly — source 4731367834a476a8bff76fa1e11e4a78ea52a57694ba2fab1347edbb5e56d94d; combined 4731367834a476a8bff76fa1e11e4a78ea52a57694ba2fab1347edbb5e56d94d
+- [x] Markdown: Chapter 6 body preserved exactly — source 410b9bc467c14a95289ca0e519f0f87f486ddcd6816dbe7e7f2ffd21feb19157; combined 410b9bc467c14a95289ca0e519f0f87f486ddcd6816dbe7e7f2ffd21feb19157
+- [x] Markdown: Chapter 7 body preserved exactly — source 0fb2c0fe09606df497fc487fb27ccb01defef9d97852e1a1810157096907835d; combined 0fb2c0fe09606df497fc487fb27ccb01defef9d97852e1a1810157096907835d
+- [x] Markdown: Chapter 8 body preserved exactly — source 418bd30416aa7499c15454366738fc13ef9d31b9e2d995bcc0e412fae1dc30e3; combined 418bd30416aa7499c15454366738fc13ef9d31b9e2d995bcc0e412fae1dc30e3
+- [x] Markdown: no duplicated chapter bodies — unique hashes: 8
+- [x] Markdown: front matter order — [0, 86, 676]
+- [x] Markdown: back matter order — [162480, 162708, 162867]
+- [x] HTML: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] HTML: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] HTML: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] HTML: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] HTML: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] HTML: chapter sequence — ['Chapter 1 — The Hand at the Door', 'Chapter 2 — A Note in His Hand', 'Chapter 3 — The Comparison Room', 'Chapter 4 — The Same Letter Twice', 'Chapter 5 — What the Trust Passed', 'Chapter 6 — The Hand That Waited', 'Chapter 7 — The Page Under Pressure', 'Chapter 8 — The Current Hand']
+- [x] HTML: title and author — checked
+- [x] HTML: no broken internal links — []
+- [x] TEXT Chapter 1: exact reader-text identity — source fdf37ca75c9a930e78264b8e6bb00772641d6f727b25a20573cbf1c19a23b03b; output fdf37ca75c9a930e78264b8e6bb00772641d6f727b25a20573cbf1c19a23b03b
+- [x] TEXT Chapter 2: exact reader-text identity — source f902e22f43e2ecfb3ded9a997ce653448635d07eeeae27090fe7cdeb54bee56b; output f902e22f43e2ecfb3ded9a997ce653448635d07eeeae27090fe7cdeb54bee56b
+- [x] TEXT Chapter 3: exact reader-text identity — source fd90903a153b3d3265deb4ded9d24f8e6b188e3cd68cd46a645d38e8eeb9fe1a; output fd90903a153b3d3265deb4ded9d24f8e6b188e3cd68cd46a645d38e8eeb9fe1a
+- [x] TEXT Chapter 4: exact reader-text identity — source d5e8979c0d392ae6bb351c043ca4aefaa3dbde629f282bcfa89270f178b14019; output d5e8979c0d392ae6bb351c043ca4aefaa3dbde629f282bcfa89270f178b14019
+- [x] TEXT Chapter 5: exact reader-text identity — source e6de13b4adf83811ee07941b5022810ca2ecbd92f38909542191eabf53d6a993; output e6de13b4adf83811ee07941b5022810ca2ecbd92f38909542191eabf53d6a993
+- [x] TEXT Chapter 6: exact reader-text identity — source aff60289ad4e18eb0882b671079582c837a49fef6f9c7e4dc83862ef819b812a; output aff60289ad4e18eb0882b671079582c837a49fef6f9c7e4dc83862ef819b812a
+- [x] TEXT Chapter 7: exact reader-text identity — source 5c10381f07c8dad4579bf461f1828d5c1db74932fce99ff40ed4805e9eb57871; output 5c10381f07c8dad4579bf461f1828d5c1db74932fce99ff40ed4805e9eb57871
+- [x] TEXT Chapter 8: exact reader-text identity — source 55ab1bf45d817771c8fca7f4a5146c36aff4fc829300914cd742428cba07d19d; output 55ab1bf45d817771c8fca7f4a5146c36aff4fc829300914cd742428cba07d19d
+- [x] TEXT: final line once — 1
+- [x] HTML Chapter 1: exact reader-text identity — source fdf37ca75c9a930e78264b8e6bb00772641d6f727b25a20573cbf1c19a23b03b; output fdf37ca75c9a930e78264b8e6bb00772641d6f727b25a20573cbf1c19a23b03b
+- [x] HTML Chapter 2: exact reader-text identity — source f902e22f43e2ecfb3ded9a997ce653448635d07eeeae27090fe7cdeb54bee56b; output f902e22f43e2ecfb3ded9a997ce653448635d07eeeae27090fe7cdeb54bee56b
+- [x] HTML Chapter 3: exact reader-text identity — source fd90903a153b3d3265deb4ded9d24f8e6b188e3cd68cd46a645d38e8eeb9fe1a; output fd90903a153b3d3265deb4ded9d24f8e6b188e3cd68cd46a645d38e8eeb9fe1a
+- [x] HTML Chapter 4: exact reader-text identity — source d5e8979c0d392ae6bb351c043ca4aefaa3dbde629f282bcfa89270f178b14019; output d5e8979c0d392ae6bb351c043ca4aefaa3dbde629f282bcfa89270f178b14019
+- [x] HTML Chapter 5: exact reader-text identity — source e6de13b4adf83811ee07941b5022810ca2ecbd92f38909542191eabf53d6a993; output e6de13b4adf83811ee07941b5022810ca2ecbd92f38909542191eabf53d6a993
+- [x] HTML Chapter 6: exact reader-text identity — source aff60289ad4e18eb0882b671079582c837a49fef6f9c7e4dc83862ef819b812a; output aff60289ad4e18eb0882b671079582c837a49fef6f9c7e4dc83862ef819b812a
+- [x] HTML Chapter 7: exact reader-text identity — source 5c10381f07c8dad4579bf461f1828d5c1db74932fce99ff40ed4805e9eb57871; output 5c10381f07c8dad4579bf461f1828d5c1db74932fce99ff40ed4805e9eb57871
+- [x] HTML Chapter 8: exact reader-text identity — source 55ab1bf45d817771c8fca7f4a5146c36aff4fc829300914cd742428cba07d19d; output 55ab1bf45d817771c8fca7f4a5146c36aff4fc829300914cd742428cba07d19d
+- [x] HTML: final line once — 1
+- [x] DOCX Chapter 1: exact reader-text identity — source fdf37ca75c9a930e78264b8e6bb00772641d6f727b25a20573cbf1c19a23b03b; output fdf37ca75c9a930e78264b8e6bb00772641d6f727b25a20573cbf1c19a23b03b
+- [x] DOCX Chapter 2: exact reader-text identity — source f902e22f43e2ecfb3ded9a997ce653448635d07eeeae27090fe7cdeb54bee56b; output f902e22f43e2ecfb3ded9a997ce653448635d07eeeae27090fe7cdeb54bee56b
+- [x] DOCX Chapter 3: exact reader-text identity — source fd90903a153b3d3265deb4ded9d24f8e6b188e3cd68cd46a645d38e8eeb9fe1a; output fd90903a153b3d3265deb4ded9d24f8e6b188e3cd68cd46a645d38e8eeb9fe1a
+- [x] DOCX Chapter 4: exact reader-text identity — source d5e8979c0d392ae6bb351c043ca4aefaa3dbde629f282bcfa89270f178b14019; output d5e8979c0d392ae6bb351c043ca4aefaa3dbde629f282bcfa89270f178b14019
+- [x] DOCX Chapter 5: exact reader-text identity — source e6de13b4adf83811ee07941b5022810ca2ecbd92f38909542191eabf53d6a993; output e6de13b4adf83811ee07941b5022810ca2ecbd92f38909542191eabf53d6a993
+- [x] DOCX Chapter 6: exact reader-text identity — source aff60289ad4e18eb0882b671079582c837a49fef6f9c7e4dc83862ef819b812a; output aff60289ad4e18eb0882b671079582c837a49fef6f9c7e4dc83862ef819b812a
+- [x] DOCX Chapter 7: exact reader-text identity — source 5c10381f07c8dad4579bf461f1828d5c1db74932fce99ff40ed4805e9eb57871; output 5c10381f07c8dad4579bf461f1828d5c1db74932fce99ff40ed4805e9eb57871
+- [x] DOCX Chapter 8: exact reader-text identity — source 55ab1bf45d817771c8fca7f4a5146c36aff4fc829300914cd742428cba07d19d; output 55ab1bf45d817771c8fca7f4a5146c36aff4fc829300914cd742428cba07d19d
+- [x] DOCX: final line once — 1
+- [x] EPUB Chapter 1: exact reader-text identity — source fdf37ca75c9a930e78264b8e6bb00772641d6f727b25a20573cbf1c19a23b03b; output fdf37ca75c9a930e78264b8e6bb00772641d6f727b25a20573cbf1c19a23b03b
+- [x] EPUB Chapter 2: exact reader-text identity — source f902e22f43e2ecfb3ded9a997ce653448635d07eeeae27090fe7cdeb54bee56b; output f902e22f43e2ecfb3ded9a997ce653448635d07eeeae27090fe7cdeb54bee56b
+- [x] EPUB Chapter 3: exact reader-text identity — source fd90903a153b3d3265deb4ded9d24f8e6b188e3cd68cd46a645d38e8eeb9fe1a; output fd90903a153b3d3265deb4ded9d24f8e6b188e3cd68cd46a645d38e8eeb9fe1a
+- [x] EPUB Chapter 4: exact reader-text identity — source d5e8979c0d392ae6bb351c043ca4aefaa3dbde629f282bcfa89270f178b14019; output d5e8979c0d392ae6bb351c043ca4aefaa3dbde629f282bcfa89270f178b14019
+- [x] EPUB Chapter 5: exact reader-text identity — source e6de13b4adf83811ee07941b5022810ca2ecbd92f38909542191eabf53d6a993; output e6de13b4adf83811ee07941b5022810ca2ecbd92f38909542191eabf53d6a993
+- [x] EPUB Chapter 6: exact reader-text identity — source aff60289ad4e18eb0882b671079582c837a49fef6f9c7e4dc83862ef819b812a; output aff60289ad4e18eb0882b671079582c837a49fef6f9c7e4dc83862ef819b812a
+- [x] EPUB Chapter 7: exact reader-text identity — source 5c10381f07c8dad4579bf461f1828d5c1db74932fce99ff40ed4805e9eb57871; output 5c10381f07c8dad4579bf461f1828d5c1db74932fce99ff40ed4805e9eb57871
+- [x] EPUB Chapter 8: exact reader-text identity — source 55ab1bf45d817771c8fca7f4a5146c36aff4fc829300914cd742428cba07d19d; output 55ab1bf45d817771c8fca7f4a5146c36aff4fc829300914cd742428cba07d19d
+- [x] EPUB: final line once — 1
+- [x] DOCX: inherited Book 4 structural and render checks — all checks passed except the known empty-string sentinel defect
+- [x] DOCX render: no broken replacement characters — []
+- [x] DOCX render: every page rendered — 68 PNGs for 68 pages
+- [x] DOCX render: contact sheets created — 4 sheets
+- [x] EPUB: nonempty ZIP — 21 entries
+- [x] EPUB: mimetype first — mimetype
+- [x] EPUB: mimetype uncompressed — 0
+- [x] EPUB: container present — checked
+- [x] EPUB: mimetype correct — application/epub+zip
+- [x] EPUB: OPF path resolved — EPUB/content.opf
+- [x] EPUB: title metadata — 'The Planted Page'
+- [x] EPUB: author metadata — 'Vesper Blythe'
+- [x] EPUB: language metadata — 'en-US'
+- [x] EPUB: all manifest resources exist — []
+- [x] EPUB: readable spine — ['EPUB/text/title_page.xhtml', 'EPUB/nav.xhtml', 'EPUB/text/ch001.xhtml', 'EPUB/text/ch002.xhtml', 'EPUB/text/ch003.xhtml', 'EPUB/text/ch004.xhtml', 'EPUB/text/ch005.xhtml', 'EPUB/text/ch006.xhtml', 'EPUB/text/ch007.xhtml', 'EPUB/text/ch008.xhtml', 'EPUB/text/ch009.xhtml', 'EPUB/text/ch010.xhtml', 'EPUB/text/ch011.xhtml', 'EPUB/text/ch012.xhtml', 'EPUB/text/ch013.xhtml']
+- [x] EPUB: navigation document — EPUB/nav.xhtml
+- [x] EPUB: all eight chapter headings — ['Chapter 1 — The Hand at the Door', 'Chapter 2 — A Note in His Hand', 'Chapter 3 — The Comparison Room', 'Chapter 4 — The Same Letter Twice', 'Chapter 5 — What the Trust Passed', 'Chapter 6 — The Hand That Waited', 'Chapter 7 — The Page Under Pressure', 'Chapter 8 — The Current Hand']
+- [x] EPUB: chapter order — ['Chapter 1 — The Hand at the Door', 'Chapter 2 — A Note in His Hand', 'Chapter 3 — The Comparison Room', 'Chapter 4 — The Same Letter Twice', 'Chapter 5 — What the Trust Passed', 'Chapter 6 — The Hand That Waited', 'Chapter 7 — The Page Under Pressure', 'Chapter 8 — The Current Hand']
+- [x] EPUB: no duplicate chapters — {'Chapter 1 — The Hand at the Door': 1, 'Chapter 2 — A Note in His Hand': 1, 'Chapter 3 — The Comparison Room': 1, 'Chapter 4 — The Same Letter Twice': 1, 'Chapter 5 — What the Trust Passed': 1, 'Chapter 6 — The Hand That Waited': 1, 'Chapter 7 — The Page Under Pressure': 1, 'Chapter 8 — The Current Hand': 1}
+- [x] EPUB extracted text: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] EPUB extracted text: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] EPUB extracted text: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] EPUB extracted text: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] EPUB extracted text: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] EPUB: no broken internal links — []
+- [x] EPUB: epubcheck — Validating using EPUB version 3.2 rules.
+No errors or warnings detected.
+Messages: 0 fatals / 0 errors / 0 warnings / 0 infos
+
+EPUBCheck completed
+
+## EPUBCheck
+
+```text
+Validating using EPUB version 3.2 rules.
+No errors or warnings detected.
+Messages: 0 fatals / 0 errors / 0 warnings / 0 infos
+
+EPUBCheck completed
+```
+
+Package and publication remain pending.
