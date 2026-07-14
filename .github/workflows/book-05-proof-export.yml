@@ -1,0 +1,101 @@
+name: Book 5 proof and export
+
+"on":
+  pull_request:
+    paths:
+      - "books/book-05/**"
+      - "series-outline.md"
+      - ".github/workflows/book-05-proof-export.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install proof/export dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc libreoffice poppler-utils fonts-liberation
+          if apt-cache show epubcheck >/dev/null 2>&1; then
+            sudo apt-get install -y epubcheck
+          else
+            echo "epubcheck package is required for Book 5 export validation" >&2
+            exit 1
+          fi
+          python -m pip install --disable-pip-version-check --no-cache-dir \
+            PyYAML==6.0.2 \
+            beautifulsoup4==4.13.4 \
+            python-docx==1.2.0 \
+            Pillow==12.0.0 \
+            pypdf==6.1.1
+
+      - name: Build and validate Book 5 proof/export files
+        run: python books/book-05/export/finalize-package.py
+
+      - name: Show export readiness and validation
+        run: |
+          cat books/book-05/export/export-readiness.md
+          cat books/book-05/export/word-count-report.md
+          cat books/book-05/export/validation-report.md
+
+      - name: Commit stable text exports and reports
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f \
+            books/book-05/front-matter \
+            books/book-05/back-matter \
+            books/book-05/export/manuscript-combined.md \
+            books/book-05/export/manuscript-combined.txt \
+            books/book-05/export/manuscript-combined.html \
+            books/book-05/export/export-readiness.md \
+            books/book-05/export/word-count-report.md \
+            books/book-05/export/validation-report.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Add Book 5 validated export sources"
+            git push origin "HEAD:${{ github.head_ref }}"
+          fi
+
+      - name: Upload Book 5 export review artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-05-proof-export
+          path: |
+            books/book-05/export/dist/The-Planted-Page.docx
+            books/book-05/export/dist/The-Planted-Page.epub
+            books/book-05/export/dist/export-manifest.json
+            books/book-05/export/qa/docx-render/*.pdf
+            books/book-05/export/qa/contact-sheets/*.png
+            books/book-05/export/export-readiness.md
+            books/book-05/export/word-count-report.md
+            books/book-05/export/validation-report.md
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Upload Book 5 render diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-05-proof-export-diagnostics
+          path: |
+            books/book-05/export/qa/docx-render/*.pdf
+            books/book-05/export/qa/docx-pages/*.png
+            books/book-05/export/qa/contact-sheets/*.png
+            books/book-05/export/validation-report.md
+          if-no-files-found: ignore
+          retention-days: 7
