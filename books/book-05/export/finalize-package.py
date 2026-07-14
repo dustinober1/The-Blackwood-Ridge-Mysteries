@@ -121,15 +121,8 @@ Vesper Blythe is the author of The Blackwood Ridge Mysteries, an atmospheric coz
 
 
 def source_words(chapter) -> int:
-    """Count whitespace-delimited prose after removing Markdown-only markers."""
-    total = 0
-    for line in chapter.body.splitlines():
-        text = line.strip()
-        if not text or re.fullmatch(r"(?:\*\s*\*\s*\*|\*\*\*|---)", text):
-            continue
-        text = re.sub(r"^>\s?", "", text)
-        total += len(text.split())
-    return total
+    """Count whitespace tokens that contain reader-visible word characters."""
+    return sum(1 for token in chapter.body.split() if re.search(r"\w", token, re.UNICODE))
 
 
 def validate_sources(b4, chapters):
@@ -260,7 +253,7 @@ def reports(b4, book: Path, chapters, artifacts, validation, pages: int, contact
 - **Author:** {AUTHOR}
 - **Series:** {SERIES} — Book {NUMBER}
 - **Build date:** {BUILD_DATE.isoformat()}
-- **Manuscript count method:** Whitespace-delimited reader prose after removing Markdown-only blockquote and scene-break markers, matching the accepted Book 5 chapter metadata.
+- **Manuscript count method:** Whitespace-delimited reader-prose tokens containing word characters; Markdown-only and punctuation-only tokens are excluded, matching the accepted Book 5 chapter metadata.
 - **Combined export count method:** Repository-standard Markdown-aware Book 4 count.
 - **Manuscript-prose total:** **{source_total:,}**
 - **Combined reader-facing total:** **{combined_total:,}**
