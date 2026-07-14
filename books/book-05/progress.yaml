@@ -114,8 +114,8 @@ validation:
   listing_copy_complete: true
   retailer_upload_worksheet_complete: true
   release_tooling_complete: true
-  package_readiness_checks: 10
-  package_readiness_passed: 9
+  package_readiness_checks: 13
+  package_readiness_passed: 12
   cover_ready: false
   package_complete: false
   publish_complete: false
