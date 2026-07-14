@@ -1,0 +1,8 @@
+{
+  "cover_path": "books/book-05/cover.jpeg",
+  "status": "pending",
+  "approved_by": null,
+  "approved_on": null,
+  "sha256": null,
+  "note": "Set status to approved and record the exact SHA-256 only after the author explicitly approves the final ebook cover."
+}
