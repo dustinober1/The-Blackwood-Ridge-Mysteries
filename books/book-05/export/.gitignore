@@ -1,0 +1,4 @@
+# Reproducible binary and visual-QA outputs.
+dist/
+qa/
+reference.docx
