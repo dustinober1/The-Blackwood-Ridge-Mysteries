@@ -4,9 +4,12 @@ These decisions are intentionally unresolved. None blocks preparation of metadat
 
 ## Required package blocker
 
-- [ ] Supply and explicitly approve the final ebook cover at `books/book-05/cover.jpeg`.
+- [ ] Supply the final ebook cover at `books/book-05/cover.jpeg`.
+- [ ] Explicitly approve that exact cover.
 - [ ] Confirm the title, author, series label, and Book 5 designation at thumbnail size.
 - [ ] Confirm the cover contains no spoiler-heavy or contradictory imagery.
+- [ ] Record the approval name, approval date, and exact cover SHA-256 in `books/book-05/package/cover-approval.json`.
+- [ ] Run the release workflow and confirm the approval hash matches the canonical cover byte for byte.
 
 ## Retailer-controlled decisions
 
