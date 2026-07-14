@@ -64,10 +64,16 @@ Book 6 runs **Thursday, April 15 through Sunday, April 18, 2027**, approximately
 
 ### Sunday, April 18
 
-- **7:30 a.m.:** Search recovers missing tracing, coat, and residue cloth.
-- **10:20:** Cross arrests Dana without confession.
-- Afternoon: Halbrook car location confirmed from road and survey evidence; recovery begins under county authority.
-- Evening: Callie, Cross, Mae, and Eli separately review custody routes. Callie establishes deliberate steering but not authorship.
+- **6:37 a.m.:** The on-call magistrate issues both narrowed warrants. The Wren Hardware warrant excludes unrelated customer-credit files, general sales records, electronics, residence space, and undescribed rooms. The vehicle warrant excludes electronics and unrelated business cargo.
+- **6:41–7:18 a.m.:** Cross verifies the signed returns in the sheriff's records room, reads the scope and narrowing, assigns Bell and Reed, fixes Callie's no-search/no-original-evidence boundary, and separates murder probable cause from the curation inquiry.
+- **7:30–8:03 a.m.:** Cross serves and executes the Wren Hardware warrant. Bell recovers the original tracing as `WH-07-01` from a blue Bellweather Landing committee bid folder in the locked lower drawer of the upstairs workroom flat-file cabinet. Full location photography, rigid flat packaging, seal, transport, and intake precede interpretation.
+- **8:05–8:37 a.m.:** Bell and Reed execute the vehicle warrant on Dana's personally used pickup. They recover dark green committee coat `VW-07-01` folded behind the passenger seat and dry blood/residue cloth `VW-07-02` from a lidded brass-cleaning tote beneath the rear bench. Each receives a separate custody route.
+- **8:53–10:14 a.m.:** Evidence-room intake and official review align the recovered tracing, Dr. Arledge's wound geometry, class-consistent brass-polish transfer, class-consistent dark green wool transfer, the cloth's preliminary Miriam blood association and map-weight residue, the differently wiped handle, the locked ladder, and the existing documentary/opportunity foundation. Cross records every non-uniqueness and preliminary limit and determines cumulative probable cause.
+- **10:20 a.m.:** Cross arrests Dana at Wren Hardware's rear loading entrance. He gives the required warning. Dana refuses to answer and invokes counsel; questioning stops immediately. No confession, silence, invocation, anger, grief, or demeanor supplies evidence.
+- **10:42 a.m.:** Cross returns to the sheriff's office with the transport sheet, property inventory, and rights form. Dana remains in custody.
+- **11:16–11:38 a.m.:** At The Foxed Page, Cross provides only an authorized consultant/public-language summary. Mae supplies practical care. Eli records approved custody/status metadata and leaves writer, curator, complete route, and Halbrook recovery blank. The present murder case is separated from the unresolved route inquiry.
+- **Afternoon:** Halbrook car location may be confirmed from the recovered tracing, road, and survey evidence; final recovery remains Chapter 8 work under county authority.
+- **Evening:** Complete comparison of the three routing marks, returned pamphlet, and Mercer repair-ticket provenance remains Chapter 8 work. Callie has not identified the curator.
 
 ## Geography and travel locks
 
