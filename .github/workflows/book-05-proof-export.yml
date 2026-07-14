@@ -44,7 +44,12 @@ jobs:
             pypdf==6.1.1
 
       - name: Build and validate Book 5 proof/export files
-        run: python books/book-05/export/finalize-package.py
+        shell: bash
+        run: |
+          set +e
+          python books/book-05/export/finalize-package.py 2>&1 | tee books/book-05/export/build.log
+          status=${PIPESTATUS[0]}
+          exit "$status"
 
       - name: Show export readiness and validation
         run: |
@@ -93,9 +98,10 @@ jobs:
         with:
           name: book-05-proof-export-diagnostics
           path: |
+            books/book-05/export/build.log
             books/book-05/export/qa/docx-render/*.pdf
             books/book-05/export/qa/docx-pages/*.png
             books/book-05/export/qa/contact-sheets/*.png
             books/book-05/export/validation-report.md
-          if-no-files-found: ignore
+          if-no-files-found: warn
           retention-days: 7
