@@ -47,7 +47,7 @@ jobs:
         shell: bash
         run: |
           set +e
-          python books/book-05/export/finalize-package.py 2>&1 | tee books/book-05/export/build.log
+          python books/book-05/export/run-export.py 2>&1 | tee books/book-05/export/build.log
           status=${PIPESTATUS[0]}
           exit "$status"
 
@@ -99,6 +99,12 @@ jobs:
           name: book-05-proof-export-diagnostics
           path: |
             books/book-05/export/build.log
+            books/book-05/export/manuscript-combined.md
+            books/book-05/export/manuscript-combined.txt
+            books/book-05/export/manuscript-combined.html
+            books/book-05/export/dist/The-Planted-Page.docx
+            books/book-05/export/dist/The-Planted-Page.epub
+            books/book-05/export/dist/export-manifest.json
             books/book-05/export/qa/docx-render/*.pdf
             books/book-05/export/qa/docx-pages/*.png
             books/book-05/export/qa/contact-sheets/*.png
