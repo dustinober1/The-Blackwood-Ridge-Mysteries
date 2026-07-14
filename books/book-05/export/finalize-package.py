@@ -200,6 +200,8 @@ def build(b4, book: Path, combined: Path, chapters):
 
 
 def normalized(text: str) -> str:
+    text = re.sub(r"(?m)^\s*(?:\*\s*){3,}\s*$", "", text)
+    text = re.sub(r"(?m)^\s*---+\s*$", "", text)
     return re.sub(r"\s+", " ", text).strip()
 
 
