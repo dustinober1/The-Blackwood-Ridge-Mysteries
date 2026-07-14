@@ -5,6 +5,7 @@ target_dimensions: "1600x2560 px (1:1.6)"
 series_book: 5
 cover_asset_present: false
 cover_asset_approved: false
+cover_approval_record: "books/book-05/package/cover-approval.json"
 publish_status: pending
 platform_requirements_checked: "2026-07-14"
 ---
@@ -21,7 +22,7 @@ The repository does not contain an approved Book 5 ebook cover at the canonical 
 
 `books/book-05/cover.jpeg`
 
-The final retailer EPUB, separate upload cover, deterministic upload ZIP, stable release manifest, and permanent `books/book-05/release/` snapshot cannot be completed or validated without that asset.
+The explicit approval record at `books/book-05/package/cover-approval.json` remains `pending`. The final retailer EPUB, separate upload cover, deterministic upload ZIP, stable release manifest, and permanent `books/book-05/release/` snapshot cannot be completed or validated until the cover exists and its exact SHA-256 is recorded as approved.
 
 ## Required cover text
 
@@ -58,4 +59,12 @@ Suitable motifs include cream stationery, blue-black handwriting, a current repa
 
 ## Approval rule
 
-An image is not approved merely because it exists. The author must explicitly identify the final asset as approved, after which the package workflow must validate title/author/series text, Book 5 designation, dimensions, mode, file integrity, thumbnail legibility, crop safety, series consistency, and absence of spoiler-heavy imagery.
+An image is not approved merely because it exists. After the author explicitly approves the final asset, `cover-approval.json` must record:
+
+- `status: approved`;
+- the canonical cover path;
+- the approving name;
+- the approval date;
+- the exact SHA-256 of the approved file.
+
+The workflow independently recomputes the cover hash and refuses the release build if the file and approval record differ. Visual review must also confirm title/author/series text, Book 5 designation, thumbnail legibility, crop safety, series consistency, and absence of spoiler-heavy imagery.
