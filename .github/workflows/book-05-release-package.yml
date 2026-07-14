@@ -47,8 +47,17 @@ jobs:
           if [ "$status" -eq 0 ]; then
             echo "cover_ready=true" >> "$GITHUB_OUTPUT"
           elif [ "$status" -eq 2 ]; then
+            python - <<'PY'
+          import json
+          from pathlib import Path
+
+          result = json.loads(Path("books/book-05/package/package-validation.json").read_text(encoding="utf-8"))
+          blockers = result.get("blockers", [])
+          if len(blockers) != 1 or not blockers[0].startswith("Missing or unapproved ebook cover:"):
+              raise SystemExit("Unexpected Book 5 package blocker(s): " + repr(blockers))
+          PY
             echo "cover_ready=false" >> "$GITHUB_OUTPUT"
-            echo "Book 5 remains correctly blocked; no release package will be built."
+            echo "Book 5 remains correctly blocked only by the missing or unapproved cover; no release package will be built."
           else
             exit "$status"
           fi
