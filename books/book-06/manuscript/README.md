@@ -6,13 +6,13 @@ Current manuscript status:
 
 - `ch-01.md` — **The Box at Closing** — drafted, 3266 words
 - `ch-02.md` — **A Fall That Did Not Fit** — drafted, 3135 words
-- `ch-03.md` — **The Surveyor's Missing Line** — planned, not drafted
+- `ch-03.md` — **The Surveyor's Missing Line** — drafted, 3130 words
 - `ch-04.md` — **Marks Made Later** — planned, not drafted
 - `ch-05.md` — **The Road Through Bellweather** — planned, not drafted
 - `ch-06.md` — **What the Ledger Withheld** — planned, not drafted
 - `ch-07.md` — **The Weight of the Map** — planned, not drafted
 - `ch-08.md` — **The Pattern** — planned, not drafted
 
-Total drafted manuscript prose: **6401 words** across two chapters.
+Total drafted manuscript prose: **9531 words** across three chapters.
 
-The manuscript remains single third-person limited through Callie Thorne. Chapters 3–8, revision, polish, export, package, and publication remain pending.
+The manuscript remains single third-person limited through Callie Thorne. Chapters 4–8, revision, polish, export, package, and publication remain pending.
