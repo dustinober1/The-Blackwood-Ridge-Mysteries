@@ -74,7 +74,7 @@ def normalize_docx(path: Path) -> None:
 
 
 def normalize_epub(path: Path) -> None:
-    def content_opf(data: bytes) -> bytes:
+    def identifier_xml(data: bytes) -> bytes:
         text = data.decode("utf-8")
         text = re.sub(r"urn:uuid:[0-9a-fA-F-]+", f"urn:uuid:{FIXED_EPUB_UUID}", text)
         text = re.sub(
@@ -84,7 +84,14 @@ def normalize_epub(path: Path) -> None:
         )
         return text.encode("utf-8")
 
-    rewrite_archive(path, {"EPUB/content.opf": content_opf}, epub=True)
+    rewrite_archive(
+        path,
+        {
+            "EPUB/content.opf": identifier_xml,
+            "EPUB/toc.ncx": identifier_xml,
+        },
+        epub=True,
+    )
 
 
 def main() -> None:
