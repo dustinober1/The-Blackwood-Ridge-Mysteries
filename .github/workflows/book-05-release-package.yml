@@ -109,6 +109,23 @@ jobs:
       - name: Build and validate Book 5 release package
         run: python books/book-05/export/run-release.py
 
+      - name: Verify deterministic rebuild
+        shell: bash
+        run: |
+          DIST="books/book-05/export/dist"
+          FILES=(
+            "$DIST/The-Planted-Page.epub"
+            "$DIST/The-Planted-Page-cover.jpg"
+            "$DIST/The-Planted-Page.docx"
+            "$DIST/release-manifest.json"
+            "$DIST/release-validation.md"
+            "$DIST/The-Planted-Page-upload-package.zip"
+          )
+          sha256sum "${FILES[@]}" > /tmp/book5-release-first.sha256
+          python books/book-05/export/run-release.py
+          sha256sum "${FILES[@]}" > /tmp/book5-release-second.sha256
+          diff -u /tmp/book5-release-first.sha256 /tmp/book5-release-second.sha256
+
       - name: Commit stable retailer release files
         if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
         run: |
