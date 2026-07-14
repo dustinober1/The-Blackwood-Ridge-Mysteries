@@ -1,21 +1,21 @@
 book: 6
 title: "The Pattern"
-status: ready_to_draft
+status: in_progress
 target_words: 25000
-actual_words: 0
+actual_words: 3266
 chapter_count: 8
 stages:
   concept: complete
   bible: complete
   outline: complete
-  draft: pending
+  draft: in_progress
   revise: pending
   polish: pending
   export: pending
   package: pending
   publish: pending
 chapters:
-  - {n: 1, title: "The Box at Closing", target_words: 3100, status: planned, actual_words: 0}
+  - {n: 1, title: "The Box at Closing", target_words: 3100, status: drafted, actual_words: 3266}
   - {n: 2, title: "A Fall That Did Not Fit", target_words: 3150, status: planned, actual_words: 0}
   - {n: 3, title: "The Surveyor's Missing Line", target_words: 3100, status: planned, actual_words: 0}
   - {n: 4, title: "Marks Made Later", target_words: 3150, status: planned, actual_words: 0}
