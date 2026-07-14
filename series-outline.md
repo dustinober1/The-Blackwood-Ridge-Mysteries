@@ -47,21 +47,20 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 ### Book 5 — The Planted Page — package readiness prepared; approved cover pending
 
 - **Central conflict:** Retired circuit judge and preservation patron Alton Mercer is found dead in his study. A note in his handwriting frames the death as suicide and asks that his trust pass without scrutiny. Callie proves the writing was studied and simulated.
-- **Victim contrast:** Alton is a retired judge, estate owner, foundation patron, and legal-manuscript collector—not another sitting councilman.
 - **Solution:** Nora Mercer Shaw kills Alton before he can sign a restatement removing her as successor trustee/residual beneficiary and ordering an audit of $286,400 in split foundation invoices.
-- **Inheritance mechanism:** The current trust gives Nora immediate successor control and an estimated $2.4 million residue. Apparent suicide absorbs financial blame and encourages rapid nonadversarial closure.
-- **Forged-note method:** Six weeks of freehand simulation from older bench notebooks, pencil baselines, artificial tremor, and graphite-transferred signature. Callie demonstrates repeated constructed forms, unnatural pen lifts, pressure/rhythm mismatch, baseline residue, and language-purpose divergence.
+- **Forged-note method:** Six weeks of freehand simulation from older bench notebooks, pencil baselines, artificial tremor, and graphite-transferred signature.
 - **Series advancement:** Callie's public reputation reaches its high point. The bounded consultant relationship works in practice. A genuine recent repair ticket is quietly redirected into her comparison path without exposing Eli.
 - **Ending state:** Nora arrested without confession; case fully resolved; trust/foundation placed under independent supervision; repair-ticket provenance retains a quiet route gap; Book 6 pattern reveal remains available.
 - **Package state:** Final proof/export and all non-cover package materials are complete. Package remains in progress because no approved canonical ebook cover exists; publication remains pending and the book is not upload ready.
-- **Target:** 25,000 words in eight chapters.
-- **Actual:** 25,174 manuscript-prose words; 25,501 combined reader-facing export words.
+- **Target / actual:** 25,000 / 25,174 manuscript-prose words; 25,501 combined reader-facing export words.
 
-### Book 6 — The Pattern — planned
+### Book 6 — The Pattern — ready to draft
 
-- **Central conflict:** A local historian is murdered while researching a cold case. Modern annotations are designed for Callie to read.
-- **Series advancement:** Callie recognizes that key discovery paths have been curated. She knows she has been steered but not by whom.
-- **Protection from Book 5:** The Mercer repair-ticket route can join a broader pattern, but Book 6 must not retroactively invalidate Nora's guilt or reveal Eli conclusively.
+- **Central conflict:** Local historian Miriam Vale is murdered while researching county surveyor June Halbrook's 1989 disappearance. Modern annotations in genuine historical materials are designed for Callie to notice and interpret.
+- **Immediate solution:** Dana Wren kills Miriam with a brass map weight and stages a ladder fall to protect a riverfront redevelopment, her financing, and her father's role in suppressing Halbrook's right-of-way evidence.
+- **Series advancement:** Callie proves several genuine documents reached her through a non-neutral route tailored to her method. She knows she has been steered but cannot prove by whom.
+- **Protection:** The murder is solved without the curator; Eli is not conclusively exposed; no prior solution is invalidated.
+- **Status:** Concept, bible, and eight-chapter outline complete; draft pending.
 - **Target:** 25,000 words.
 
 ### Book 7 — The Reckoning — planned
