@@ -16,7 +16,36 @@ Local historian **Miriam Vale**, sixty-eight, is killed in the Bellweather Grang
 
 ## Motive
 
-Dana learns Miriam has reconstructed the suppressed survey line and found a 1989 payment ledger showing Dana's late father paid to have Halbrook's field notes removed from the county copy. The present redevelopment depends on clean title and Dana has personally guaranteed bridge financing. Exposure would collapse the sale, reveal the inherited concealment, and likely bankrupt her business.
+Dana learns Miriam has reconstructed the suppressed survey line and found the authenticated October 6, 1989 payment chain showing that the county paid her late father's **Wren Grading Company** `$4,860.00` under the opaque description `south line retrieval` three days after Halbrook complained that sheet 47 was missing. The present redevelopment depends on clean title, and Dana has personally guaranteed `$600,000` of a `$1,800,000` bridge facility. Exposure would threaten the May 3 closing, permit suspension of undisbursed advances, reveal the inherited concealment, and likely bankrupt her business.
+
+The historical payment proves a county payment to Wren Grading Company, not a payment by Dana's father to a third party. Its timing, account path, and missing receiving report support the concealment path but do not alone prove the exact work purchased, the person who removed sheet 47, Halbrook's complete fate, or Dana's present crime.
+
+## Locked Chapter 5 financial record
+
+### Historical payment
+
+- **Date:** October 6, 1989.
+- **Index:** County Treasurer Reimbursement Index, 1989, folio 118, entry 17.
+- **Voucher:** Road Fund voucher `R-1047`.
+- **Warrant:** County warrant register number `4176`.
+- **Account path:** `Road Fund / South District Contingency / Emergency Retrieval`.
+- **Description:** `south line retrieval`.
+- **Payee:** `Wren Grading Company`.
+- **Amount:** `$4,860.00`.
+- **Relationship:** The county business-registration card and warrant endorsement identify Dana's late father as the company's sole proprietor and receipt signatory.
+- **Limit:** The records do not name sheet 47, June Halbrook, a field book, the complete route, or a remover.
+
+### Present redevelopment financing
+
+- **Project entity:** `Bellweather Landing Redevelopment LLC`.
+- **Lender:** `Blue Ridge Community Bank`.
+- **Commitment:** `BLR-2027-031`, dated March 29, 2027.
+- **Bridge facility:** `$1,800,000`.
+- **Dana's limited personal guaranty:** `$600,000`, plus documented enforcement costs.
+- **Closing deadline:** May 3, 2027.
+- **Title condition:** Continued advances require recordable title without an undisclosed public right-of-way or materially adverse access claim across the Bellweather river parcel.
+- **Consequence limit:** Restoration or enforcement of the right-of-way permits the lender to suspend undisbursed advances and require cure, replacement collateral, or revised closing terms. It does not automatically prove default, fraud, presence, or murder.
+- **Authentication:** A lender-certified commitment and guaranty exhibit are held in the county development authority project file and authenticated by its custodian.
 
 ## Murder method
 
@@ -46,10 +75,12 @@ Conservation photographs from 2024 lack the marks; graphite sits above later sur
 ## Fair-play solution
 
 ### Means
+
 Dana had ordinary committee access to the map room and knew the detachable map weights.
 
 ### Opportunity
-A bakery receipt establishes Miriam alive at 6:07. A Grange volunteer hears the exterior latch at 6:33. Dana's claimed 5:55 departure is disproved by her truck's manually logged fuel purchase at 6:42 three miles away, consistent with leaving after the murder but not precise enough to prove the act alone.
+
+A bakery receipt establishes Miriam alive at 6:07. A Grange volunteer hears the exterior latch at 6:33. Dana claims she left at approximately 5:55 and drove directly to the fuel station. The Grange key-control sheet marks trustee-room key `T-2`, issued to Dana at 5:43, still `OUT` at 6:03 and `IN` at 6:32, although no witness sees its return. Dana's business account purchases fuel three miles away at 6:42; the bound pump log, duplicate receipt, and merchant batch record fix her first reliable post-Grange location. The station is six to eight minutes from the Grange. These records leave at least thirty-nine minutes unexplained and materially preserve the 6:15–6:35 death window, but they do not provide continuous tracking or eyewitness proof of every movement.
 
 ### Physical evidence
 
@@ -62,13 +93,14 @@ A bakery receipt establishes Miriam alive at 6:07. A Grange volunteer hears the 
 ### Documentary evidence
 
 - Miriam's appointment note records “D.W. — title line / six fifteen.”
+- Dana admits she was `D.W.` and that the intended subject was the title line.
 - Dana's redevelopment guarantee creates present financial pressure.
-- The 1989 payment ledger links Dana's father to removal of the survey copy, explaining the confrontation.
-- Grange access and volunteer logs place Dana inside after her stated departure.
+- The 1989 payment chain links Dana's father's company to the suppression path, explaining the confrontation without alone proving the exact work purchased.
+- Grange access and key-control records contradict Dana's claimed departure account.
 
 ### Witness limitations
 
-No witness sees the blow. The exterior latch sound cannot identify Dana. Fuel and access records define a window but are not perfect digital tracking.
+No witness sees the blow. The exterior latch sound cannot identify Dana. No witness sees who returns `T-2`. Fuel and access records define a window but are not perfect digital tracking.
 
 ### False assumptions
 
