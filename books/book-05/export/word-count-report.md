@@ -34,7 +34,7 @@
 | `manuscript-combined.md` | 165,696 | `bdde105f7f37c146359a693d0d541c4cf4ae348645a9e950805c5880f90bea5b` |
 | `manuscript-combined.txt` | 167,263 | `bf36c9f6e77962ca2c19c8561a8ec7696496d561011647af6d7d875f01e7b317` |
 | `manuscript-combined.html` | 181,020 | `2ab9b96c65af347c48f5dd2ac28eb19eaa61094297d57504504644e9efb99b7c` |
-| `The-Planted-Page.docx` | 92,956 | `da3b9904a088d37f93a78e3e50827aa640a0b79de45fdd58b526474e284b8f7b` |
-| `The-Planted-Page.epub` | 78,291 | `7af97d59f0e1959b29e8397e1ccddb0e9770f9e6a1c83a9bb810f0a78591d688` |
+| `The-Planted-Page.docx` | 90,343 | `768b1a8d9181f81e5878b544ee9971bd227e8b9aa51f588970609b8f42b75772` |
+| `The-Planted-Page.epub` | 78,240 | `7ca2819d2b017b69da35d2d4126f9187f62f3a965826cc7497b71895a0d28774` |
 
 DOCX and EPUB outputs are reproducible export artifacts, not retailer packages or publication records.
