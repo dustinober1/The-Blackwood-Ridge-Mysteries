@@ -4,7 +4,7 @@ stages:
   outline: complete
   draft: complete
   revise: complete
-  polish: pending
+  polish: complete
   export: pending
   package: pending
   publish: pending
@@ -20,8 +20,8 @@ book:
   structure: 8 novella chapters
   season: late January to early February 2027, approximately eleven weeks after Book 4
   status: in_progress
-  planning_note: Chapters 1 through 8 are drafted and the complete whole-draft revision has been performed and validated. Line editing and prose polish, export, package, and publication remain pending.
-  actual_words: 25184
+  planning_note: Chapters 1 through 8 are drafted, revised, line edited, prose polished, and reread in sequence. Final proofreading, metadata verification, export preparation, package work, and publication remain pending.
+  actual_words: 25174
   chapter_count: 8
 chapters:
   - n: 1
@@ -53,13 +53,13 @@ chapters:
     pov: Callie Thorne
     word_target: 3100
     status: revised
-    words: 3081
+    words: 3074
   - n: 6
     title: The Hand That Waited
     pov: Callie Thorne
     word_target: 3100
     status: revised
-    words: 3042
+    words: 3039
   - n: 7
     title: The Page Under Pressure
     pov: Callie Thorne
@@ -91,6 +91,8 @@ validation:
   drafted_words_total: 25182
   revised_chapters: 8
   revised_words_total: 25184
+  polished_chapters: 8
+  polished_words_total: 25174
   no_chapter_draft_created: false
   draft_complete: true
   revision_plan_complete: true
@@ -102,7 +104,7 @@ validation:
   pov_audit_complete: true
   repetition_and_pacing_audit_complete: true
   revision_complete: true
-  polish_complete: false
+  polish_complete: true
   export_complete: false
   package_complete: false
   publish_complete: false
