@@ -2,7 +2,7 @@
 """Validate Book 5 package readiness without manufacturing a release state.
 
 The validator treats the accepted proof/export reports as immutable controls. It
-reports a missing or invalid approved cover as a blocker and never marks the
+reports a missing, invalid, or unapproved cover as a blocker and never marks the
 book upload ready by itself.
 """
 from __future__ import annotations
@@ -19,6 +19,7 @@ from PIL import Image
 
 BOOK_PATH = Path("books/book-05")
 COVER_PATH = BOOK_PATH / "cover.jpeg"
+APPROVAL_PATH = BOOK_PATH / "package/cover-approval.json"
 ALLOWED_TAGS = {"p", "b", "em", "i", "u", "br", "h4", "h5", "h6", "ol", "ul", "li"}
 EXPECTED_COVER_SIZE = (1600, 2560)
 EXPECTED_CHAPTERS = [
@@ -156,7 +157,7 @@ def validate(repo_root: Path) -> dict[str, Any]:
         re.compile(r"<<<<<<|======|>>>>>>"),
         re.compile(r"eli-hidden-chronology|internal_series_spoilers|internal_continuity_control", re.IGNORECASE),
     ]
-    source_marker = next((pattern.search(combined) for pattern in forbidden_patterns if pattern.search(combined)), None)
+    source_marker = next((match for pattern in forbidden_patterns if (match := pattern.search(combined))), None)
     check(
         "Combined manuscript contains no internal markers",
         source_marker is None,
@@ -173,10 +174,13 @@ def validate(repo_root: Path) -> dict[str, Any]:
     )
 
     cover_path = root / COVER_PATH
+    approval_path = root / APPROVAL_PATH
     cover_info: dict[str, Any] | None = None
-    cover_ok = False
-    cover_detail = "missing"
-    cover_blocker = f"Missing approved ebook cover at {COVER_PATH.as_posix()}"
+    approval: dict[str, Any] | None = None
+    technical_ok = False
+    approval_ok = False
+    cover_detail_parts: list[str] = []
+
     if cover_path.exists():
         try:
             with Image.open(cover_path) as image:
@@ -190,22 +194,45 @@ def validate(repo_root: Path) -> dict[str, Any]:
                     "size_bytes": cover_path.stat().st_size,
                     "sha256": sha256(cover_path),
                 }
-            cover_ok = (
+            technical_ok = (
                 cover_info["format"] == "JPEG"
                 and cover_info["mode"] == "RGB"
                 and (cover_info["width"], cover_info["height"]) == EXPECTED_COVER_SIZE
                 and cover_info["size_bytes"] < 50 * 1024 * 1024
             )
-            cover_detail = json.dumps(cover_info, sort_keys=True)
-            if not cover_ok:
-                cover_blocker = (
-                    "Approved cover must be JPEG, RGB, 1600×2560, and under 50 MB; "
-                    f"found {cover_detail}"
-                )
+            cover_detail_parts.append(json.dumps(cover_info, sort_keys=True))
         except Exception as exc:
-            cover_detail = f"unreadable: {exc}"
-            cover_blocker = f"Approved cover is unreadable: {exc}"
-    check("Approved ebook cover passes technical gate", cover_ok, cover_detail, cover_blocker)
+            cover_detail_parts.append(f"cover unreadable: {exc}")
+    else:
+        cover_detail_parts.append("cover missing")
+
+    if approval_path.exists():
+        try:
+            approval = json.loads(approval_path.read_text(encoding="utf-8"))
+            approval_ok = bool(
+                technical_ok
+                and approval.get("cover_path") == COVER_PATH.as_posix()
+                and approval.get("status") == "approved"
+                and approval.get("approved_by")
+                and re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(approval.get("approved_on") or ""))
+                and approval.get("sha256") == (cover_info or {}).get("sha256")
+            )
+            cover_detail_parts.append(f"approval={json.dumps(approval, sort_keys=True)}")
+        except Exception as exc:
+            cover_detail_parts.append(f"approval record unreadable: {exc}")
+    else:
+        cover_detail_parts.append("approval record missing")
+
+    cover_ok = technical_ok and approval_ok
+    check(
+        "Approved ebook cover passes technical and approval gates",
+        cover_ok,
+        "; ".join(cover_detail_parts),
+        (
+            "Missing or unapproved ebook cover: supply books/book-05/cover.jpeg as JPEG/RGB/1600×2560/under 50 MB, "
+            "then record explicit author approval and the matching SHA-256 in books/book-05/package/cover-approval.json"
+        ),
+    )
 
     passed = sum(1 for item in checks if item["passed"])
     return {
@@ -217,6 +244,7 @@ def validate(repo_root: Path) -> dict[str, Any]:
         "checks_total": len(checks),
         "blockers": blockers,
         "cover": cover_info,
+        "cover_approval": approval,
         "checks": checks,
     }
 
