@@ -1,6 +1,6 @@
 # Eight-Chapter Outline — The Pattern
 
-**Target total:** 25,000 words. Chapters 1–4 drafted; Chapters 5–8 planned and undrafted.
+**Target total:** 25,000 words. Chapters 1–5 drafted; Chapters 6–8 planned and undrafted.
 
 ## Chapter 1 — The Box at Closing — 3,100 words
 
@@ -62,16 +62,16 @@
 
 ## Chapter 5 — The Road Through Bellweather — 3,100 words
 
-- **Date/time/location:** Saturday morning; Wren Hardware, county roads office, Bellweather river parcel.
+- **Date/time/location:** Saturday, April 17, 8:18 a.m.–5:36 p.m.; sheriff's records room, county treasurer records room, Wren Hardware, River Road Service Station, county road yard, lawful public-road observation point, The Foxed Page.
 - **Function/objective:** Connect the historic concealment to Dana's present financial motive and opportunity.
-- **Conflict:** Dana presents herself as protecting jobs; Owen lies about current use of the logging spur.
-- **Clues:** Dana's guarantee, access-log conflict, 6:42 fuel receipt, 1989 payment ledger.
-- **Mae context:** Mae recalls committee green wool coats and map-room brass-cleaning days; Cross verifies independently.
-- **Red herring:** Owen's truck contains a Halbrook route copy and spur mud.
-- **Procedure:** Cross conducts interviews and seeks records; Callie does not accuse Dana.
+- **Conflict:** Dana presents herself as protecting jobs; Owen cannot document his current use of the logging spur.
+- **Clues:** Authenticated `$4,860.00` `south line retrieval` payment to Wren Grading Company; Dana's `$600,000` personal guaranty; `T-2` key-count conflict; authenticated 6:42 fuel record.
+- **Mae context:** Mae recalls committee green wool coats and map-room brass-cleaning days; Cross verifies the inventory, photographs, cleaning roster, and supply receipt independently.
+- **Red herring:** Owen's truck contains a modern Halbrook route copy and undated upper-spur mud.
+- **Procedure:** Cross conducts interviews and obtains records; Callie does not accuse Dana or handle originals.
 - **Character movement:** Callie's confidence in the murder case rises while unease about the routed records deepens.
-- **Reversal/hook:** Dana's claimed departure is impossible; Miriam expected “Dana at six fifteen.”
-- **Evidence state:** Probable-cause foundation forming, still insufficient for search.
+- **Reversal/hook:** Dana admits she was `D.W.` and claims a 5:55 direct departure, but the key counts and 6:42 fuel record leave at least thirty-nine minutes unexplained across the death window.
+- **Evidence state:** Dana is the leading present suspect; probable-cause foundation forming, still insufficient for search. Killer and curator remain separate.
 
 ## Chapter 6 — What the Ledger Withheld — 3,150 words
 
@@ -79,7 +79,7 @@
 - **Function/objective:** Recover the removed tracing's shadow and separate killer from curator.
 - **Conflict:** Nadia's deleted recording and commercial plans threaten credibility; Leo's plagiarism surfaces.
 - **Clues:** Pressure offset on blotter; Nadia audio; returned road pamphlet with shelf-direction numeral.
-- **Reinterpretations:** Nadia hid exploitation, not murder; Leo stole research, not life.
+- **Reinterpretations:** Nadia hid exploitation, not murder; Leo stole research, not life; Owen's unauthorized road use and equipment storage explain his route-copy and mud lies without Grange access.
 - **Procedure:** Cross authenticates audio and obtains warrant affidavits; official evidence never enters shop custody.
 - **Pattern movement:** Third routing point and Mercer ticket create a repeatable non-neutral path.
 - **Character movement:** Eli correctly marks the pamphlet's unexplained return route; outward behavior remains credible.
