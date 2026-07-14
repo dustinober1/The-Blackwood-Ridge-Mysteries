@@ -58,9 +58,9 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 
 - **Central conflict:** Local historian Miriam Vale is murdered while researching county surveyor June Halbrook's 1989 disappearance. Modern annotations in genuine historical materials are designed for Callie to notice and interpret.
 - **Immediate solution:** Dana Wren kills Miriam with a brass map weight and stages a ladder fall to protect a riverfront redevelopment, her financing, and her father's role in suppressing Halbrook's right-of-way evidence.
-- **Series advancement:** Callie proves several genuine documents reached her through a non-neutral route tailored to her method. Chapter 6 establishes three modern routing points and an incomplete returned-pamphlet path without identifying a hand or curator.
+- **Series advancement:** Callie proves several genuine documents reached her through a non-neutral route tailored to her method. Chapter 6 establishes three modern routing points and an incomplete returned-pamphlet path without identifying a hand or curator. Chapter 7 completes the present murder arrest while preserving the route inquiry.
 - **Protection:** The murder is solved without the curator; Eli is not conclusively exposed; no prior solution is invalidated.
-- **Status:** Chapters 1–6 drafted at 18,931 manuscript words; Chapters 7–8 planned and undrafted. Chapter 6 ends with Cross's warrant applications completed for submission; no warrant has been executed and Dana has not been arrested.
+- **Status:** Chapters 1–7 drafted at 22,031 manuscript words; Chapter 8 planned and undrafted. Chapter 7 ends after lawfully issued warrants recover the original tracing, Dana's green committee coat, and the blood/residue cloth; cumulative wound, transfer, staging, documentary, and opportunity evidence establishes map weight six as the weapon; Cross arrests Dana without confession; the route writer and curator remain unidentified.
 - **Target:** 25,000 words.
 
 ### Book 7 — The Reckoning — planned
