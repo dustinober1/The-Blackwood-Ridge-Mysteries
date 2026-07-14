@@ -10,7 +10,7 @@ The eight files under `../manuscript/` are the controlling story prose. The expo
 
 - `assemble-manuscript.py` — creates `manuscript-combined.md` without retyping chapter prose.
 - `finalize-package.py` — validates source metadata and accepted source blobs, builds formats, renders the DOCX, runs EPUB validation, compares source-to-export text, and writes reports.
-- `run-export.py` — applies the scoped correction for Book 4’s empty-string replacement-character sentinel while preserving every other inherited validation.
+- `run-export.py` — applies the scoped correction for Book 4’s empty-string replacement-character sentinel while preserving every other inherited validation, then normalizes DOCX/EPUB container timestamps and EPUB identifiers for byte-stable rebuilds.
 - `build.sh` — build entry point.
 - `manuscript-combined.md` — validated combined reader-facing source.
 - `manuscript-combined.txt` — validated plain-text review source.
@@ -28,7 +28,7 @@ The workflow generates these under ignored directories and uploads them as revie
 - `dist/export-manifest.json`
 - `qa/` DOCX render pages, PDF, and contact sheets
 
-The validated DOCX rendered to 68 pages and four contact sheets. EPUBCheck reported 0 fatals, 0 errors, 0 warnings, and 0 infos. All eight chapter bodies matched the controlling sources in Markdown, TXT, HTML, DOCX, and EPUB.
+The validated DOCX rendered to 68 pages and four contact sheets. EPUBCheck reported 0 fatals, 0 errors, 0 warnings, and 0 infos. All eight chapter bodies matched the controlling sources in Markdown, TXT, HTML, DOCX, and EPUB. Consecutive builds use fixed container metadata so generated DOCX and EPUB hashes remain stable when the source is unchanged.
 
 ## Scope boundary
 
