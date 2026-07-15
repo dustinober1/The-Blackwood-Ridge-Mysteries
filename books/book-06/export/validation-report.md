@@ -2,7 +2,8 @@
 
 ## Result
 
-- **Local checks:** 234/234 passed
+- **Local export checks:** 234/234 passed
+- **Post-normalization checks:** 23/23 passed
 - **Source blobs:** 8/8 exact
 - **Controlled manuscript words:** 25,646
 - **Reader-facing formats compared:** Markdown, TXT, HTML, DOCX, EPUB
@@ -12,7 +13,7 @@
 - **DOCX:** opened, parsed, styled, rendered, 71 pages, no blank pages, no replacement glyphs, eight intentional chapter starts, four visual contact sheets
 - **EPUB:** ZIP/package, mimetype, container, OPF, title, author, language, spine, navigation, and chapter text passed
 - **Forbidden/internal-control leakage:** none detected
-- **EPUBCheck:** pending; executable unavailable and the new workflow could not be dispatched through connector-authored commits
+- **EPUBCheck/CI:** pending; GitHub Actions run `29432336294` and its failed-job rerun both failed before any workflow step began; no step summary or downloadable job log was available
 
 ## Commands executed
 
@@ -33,4 +34,4 @@ All four contact sheets were inspected. No clipping, overlap, missing glyph, acc
 
 ## Gate disposition
 
-The assembled artifacts are structurally clean and source-identical, but export completion must not be recorded until EPUBCheck/CI passes on the pull-request branch.
+The assembled artifacts are structurally clean and source-identical. The repository workflow has not reached its build steps, so EPUBCheck, generated-output branch integration, and controlled export completion remain blocked. No cause beyond the observed pre-step Actions failure is asserted.
