@@ -54,18 +54,19 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 - **Package state:** Final proof/export and all non-cover package materials are complete. Package remains in progress because no approved canonical ebook cover exists; publication remains pending and the book is not upload ready.
 - **Target / actual:** 25,000 / 25,174 manuscript-prose words; 25,501 combined reader-facing export words.
 
-### Book 6 — The Pattern — first draft formally accepted; pre-revision control repairs required
+### Book 6 — The Pattern — controlled whole-draft revision complete
 
 - **Central conflict:** Local historian Miriam Vale is murdered while researching county surveyor June Halbrook's 1989 disappearance. Modern annotations in genuine historical materials are designed for Callie to notice and interpret.
-- **Immediate solution:** Dana Wren kills Miriam with a brass map weight and stages a ladder fall to protect a riverfront redevelopment, her financing, and her father's role in suppressing Halbrook's right-of-way evidence.
+- **Immediate solution:** Dana Wren kills Miriam with brass map weight six and stages a ladder fall to protect a riverfront redevelopment, her financing, and the historical suppression path associated with her father's company.
 - **Cold-case resolution:** Halbrook died in an accidental October 8, 1989 single-vehicle plunge on an unmaintained logging spur. Her vehicle and remains are recovered under county authority. The historical record supports later location concealment, field-material removal, and a false departure narrative; individual acts and complete legal disposition remain unresolved.
+- **Historical sequence:** October 3 complaint; October 6 county payment to Wren Grading Company; October 8 accidental road departure; October 9–12 concealment, field-material removal, spoil placement, maintenance, and false-report activity. The October 6 payment supports the broader suppression path but does not prove a post-crash service by date alone.
 - **Series advancement:** Callie proves several genuine documents reached her through a non-neutral route tailored to her method. The three modern routing points form a deliberate design, and the genuine Mercer repair ticket remains a significant earlier route anomaly.
 - **Protection:** The murder is solved without the curator; Eli is not exposed; no prior solution is invalidated. Actor, writer, mover, instrument, common physical hand, occasion, and curator remain unproved.
-- **Ending state:** Dana remains under arrest without confession; June Halbrook's false voluntary-departure status is superseded by a supported accidental-death/recovery/concealment supplement; Cross records an unresolved provenance issue; Callie begins a private route ledger and leaves the identity field blank.
-- **Formal verdict:** `ACCEPTED WITH REQUIRED PRE-REVISION CONTROL REPAIRS` at accepted `main` HEAD `3130ff6aaf6fcebb778d7b15f3d441566637ae95`.
-- **Revision plan:** `books/book-06/revision-plan.md` complete with 7 required revisions and 12 recommended optional revisions. No Chapter 1–8 prose changed during acceptance.
-- **Status:** Chapters 1–8 remain drafted at 25,181 manuscript-prose words. Draft and acceptance stages complete. Pre-revision control repairs, revision, polish, export, package, and publication remain pending. Book 6 is not upload ready.
-- **Target / actual:** 25,000 / 25,181 manuscript-prose words.
+- **Ending state:** Dana remains under arrest without confession; June Halbrook's false voluntary-departure status is superseded by the exact supported accidental-death/recovery/concealment supplement; Cross records an unresolved provenance issue; Callie begins a private route ledger and leaves the identity field blank.
+- **Acceptance:** PR #27 merged at post-acceptance `main` `59498c40cbe21c0cab48c85c3668bbf9d181f3b2`; accepted first draft 25,181 words.
+- **Controlled revision:** R-01 through R-07 complete. O-01, O-02, O-03, and O-10 implemented; all other optional revisions skipped to avoid broad line editing. Chapters 1–5 reviewed unchanged; Chapters 6–8 revised; all exact final lines unchanged.
+- **Status:** Controlled whole-draft revision complete at 25,645 manuscript-prose words. Line editing, final polish, proofreading, export, package, cover/listing/upload, and publication remain pending. Book 6 is not upload ready.
+- **Target / actual:** 25,000 / 25,645 manuscript-prose words.
 
 ### Book 7 — The Reckoning — planned
 

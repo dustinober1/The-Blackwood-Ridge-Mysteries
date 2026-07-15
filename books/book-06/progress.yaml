@@ -2,18 +2,35 @@ book: 6
 title: "The Pattern"
 status: in_progress
 target_words: 25000
-actual_words: 25181
+actual_words: 25645
 chapter_count: 8
 formal_acceptance:
   verdict: "ACCEPTED WITH REQUIRED PRE-REVISION CONTROL REPAIRS"
-  accepted_main_head: "3130ff6aaf6fcebb778d7b15f3d441566637ae95"
+  accepted_main_head: "59498c40cbe21c0cab48c85c3668bbf9d181f3b2"
+  acceptance_branch_head: "145451ad9e3487c1e46be01fc33889ab54228499"
+  acceptance_merge_commit: "59498c40cbe21c0cab48c85c3668bbf9d181f3b2"
   accepted_chapter_count: 8
   accepted_words: 25181
+  accepted_revision_plan_blob: "5d29ed877110a99e82bf370f8dc88ccbfcbd25e7"
   revision_plan: complete
   required_revision_count: 7
   optional_revision_count: 12
   pre_revision_control_repairs_required: true
-  manuscript_prose_changed: false
+  pre_revision_control_repairs_complete: true
+  manuscript_prose_changed_in_acceptance_pass: false
+controlled_revision:
+  branch: "agent/book-06-whole-draft-revision"
+  starting_main_head: "59498c40cbe21c0cab48c85c3668bbf9d181f3b2"
+  status: complete
+  chapters_reviewed: 8
+  chapters_changed: 3
+  chapters_unchanged: 5
+  accepted_words: 25181
+  revised_words: 25645
+  net_word_delta: 464
+  required_revisions_complete: 7
+  optional_revisions_implemented: ["O-01", "O-02", "O-03", "O-10"]
+  optional_revisions_skipped: ["O-04", "O-05", "O-06", "O-07", "O-08", "O-09", "O-11", "O-12"]
 stages:
   concept: complete
   bible: complete
@@ -21,20 +38,105 @@ stages:
   draft: complete
   acceptance: complete
   revision_plan: complete
-  revise: pending
+  revise: complete
+  line_edit: pending
   polish: pending
+  proofread: pending
   export: pending
   package: pending
+  cover: pending
+  listing: pending
+  upload: pending
   publish: pending
 chapters:
-  - {n: 1, title: "The Box at Closing", target_words: 3100, status: drafted, actual_words: 3266}
-  - {n: 2, title: "A Fall That Did Not Fit", target_words: 3150, status: drafted, actual_words: 3135}
-  - {n: 3, title: "The Surveyor's Missing Line", target_words: 3100, status: drafted, actual_words: 3130}
-  - {n: 4, title: "Marks Made Later", target_words: 3150, status: drafted, actual_words: 3150}
-  - {n: 5, title: "The Road Through Bellweather", target_words: 3100, status: drafted, actual_words: 3100}
-  - {n: 6, title: "What the Ledger Withheld", target_words: 3150, status: drafted, actual_words: 3150}
-  - {n: 7, title: "The Weight of the Map", target_words: 3100, status: drafted, actual_words: 3100}
-  - {n: 8, title: "The Pattern", target_words: 3150, status: drafted, actual_words: 3150}
+  - n: 1
+    title: "The Box at Closing"
+    target_words: 3100
+    status: drafted
+    revision_disposition: reviewed_unchanged
+    accepted_blob: "c9a12f2305b08b1cf81ea88c1ef49e94e7a453c6"
+    accepted_words: 3266
+    actual_words: 3266
+    delta: 0
+    revisions: []
+    final_line_unchanged: true
+  - n: 2
+    title: "A Fall That Did Not Fit"
+    target_words: 3150
+    status: drafted
+    revision_disposition: reviewed_unchanged
+    accepted_blob: "31a438514b5d528bac16b99df5e43c713079737f"
+    accepted_words: 3135
+    actual_words: 3135
+    delta: 0
+    revisions: []
+    final_line_unchanged: true
+  - n: 3
+    title: "The Surveyor's Missing Line"
+    target_words: 3100
+    status: drafted
+    revision_disposition: reviewed_unchanged
+    accepted_blob: "59575d837b6c51d22d57ff4033e6a09bc218a409"
+    accepted_words: 3130
+    actual_words: 3130
+    delta: 0
+    revisions: []
+    final_line_unchanged: true
+  - n: 4
+    title: "Marks Made Later"
+    target_words: 3150
+    status: drafted
+    revision_disposition: reviewed_unchanged
+    accepted_blob: "401d46dad388ddb6ca7df6041c464465a19a48c5"
+    accepted_words: 3150
+    actual_words: 3150
+    delta: 0
+    revisions: []
+    final_line_unchanged: true
+  - n: 5
+    title: "The Road Through Bellweather"
+    target_words: 3100
+    status: drafted
+    revision_disposition: reviewed_unchanged
+    accepted_blob: "81fad0335b3781712b38d4d3139d92ffe94b3476"
+    accepted_words: 3100
+    actual_words: 3100
+    delta: 0
+    revisions: []
+    final_line_unchanged: true
+  - n: 6
+    title: "What the Ledger Withheld"
+    target_words: 3150
+    status: revised
+    revision_disposition: changed
+    accepted_blob: "8bdc850338411167733de54ba63f7d1de8c097b0"
+    accepted_words: 3150
+    actual_words: 3279
+    delta: 129
+    revisions: ["R-01", "R-04", "O-03"]
+    final_line_unchanged: true
+  - n: 7
+    title: "The Weight of the Map"
+    target_words: 3100
+    status: revised
+    revision_disposition: changed
+    accepted_blob: "8d2a40e7ae6157c1e3d6271019399b3930a87cb1"
+    accepted_words: 3100
+    actual_words: 3105
+    delta: 5
+    revisions: ["R-06"]
+    final_line_unchanged: true
+  - n: 8
+    title: "The Pattern"
+    target_words: 3150
+    status: revised
+    revision_disposition: changed
+    accepted_blob: "c5d64e5b493152cd31a304d1eb1ad7b3c4d01064"
+    accepted_words: 3150
+    actual_words: 3480
+    delta: 330
+    revisions: ["R-01", "R-02", "R-03", "R-05", "R-07", "O-01", "O-02", "O-10"]
+    final_line_unchanged: true
 word_target_sum: 25000
 validation:
   first_draft_complete: true
@@ -43,14 +145,32 @@ validation:
   exact_word_count_verified: true
   revision_plan_complete: true
   required_and_optional_revisions_separated: true
+  pre_revision_control_repairs_complete: true
+  all_required_revisions_complete: true
+  all_eight_chapters_reviewed: true
   murderer_curator_separation_preserved: true
   halbrook_accident_concealment_separation_preserved: true
+  historical_actor_limits_preserved: true
+  tara_independent_alibi_complete: true
+  gate_three_travel_control_complete: true
+  recovery_knowledge_channels_preserved: true
+  graphite_binder_composition_limits_preserved: true
   dana_no_confession_preserved: true
+  counsel_invocation_stops_questioning: true
   mercer_exact_provenance_preserved: true
+  final_lines_unchanged: true
   eli_unidentified: true
   book_5_changed: false
   book_7_prose_exists: false
-  revision_complete: false
-  manuscript_prose_changed_in_acceptance_pass: false
+  revision_complete: true
+  line_edit_complete: false
+  polish_complete: false
+  proofread_complete: false
+  export_complete: false
+  package_complete: false
+  cover_complete: false
+  listing_complete: false
+  upload_complete: false
+  publish_complete: false
 publication_status: pending
 upload_ready: false

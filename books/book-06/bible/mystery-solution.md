@@ -18,7 +18,7 @@ Local historian **Miriam Vale**, sixty-eight, is killed in the Bellweather Grang
 
 Dana learns Miriam has reconstructed the suppressed survey line and found the authenticated October 6, 1989 payment chain showing that the county paid her late father's **Wren Grading Company** `$4,860.00` under the opaque description `south line retrieval` three days after Halbrook complained that sheet 47 was missing. The present redevelopment depends on clean title, and Dana has personally guaranteed `$600,000` of a `$1,800,000` bridge facility. Exposure would threaten the May 3 closing, permit suspension of undisbursed advances, reveal the inherited concealment, and likely bankrupt her business.
 
-The historical payment proves a county payment to Wren Grading Company, not a payment by Dana's father to a third party. Its timing, account path, and missing receiving report support the concealment path but do not alone prove the exact work purchased, the person who removed sheet 47, Halbrook's complete fate, or Dana's present crime.
+The historical payment proves a county payment to Wren Grading Company, not a payment by Dana's father to a third party. Its timing, account path, and missing receiving report support the broader suppression path but do not alone prove the exact work purchased, a post-crash service, the person who removed sheet 47, Halbrook's complete fate, or Dana's present crime.
 
 ## Locked Chapter 5 financial record
 
@@ -33,7 +33,7 @@ The historical payment proves a county payment to Wren Grading Company, not a pa
 - **Payee:** `Wren Grading Company`.
 - **Amount:** `$4,860.00`.
 - **Relationship:** The county business-registration card and warrant endorsement identify Dana's late father as the company's sole proprietor and receipt signatory.
-- **Limit:** The records do not name sheet 47, June Halbrook, a field book, the complete route, or a remover.
+- **Limit:** The records do not name sheet 47, June Halbrook, a field book, the complete route, a remover, a post-crash service, or an exact task.
 
 ### Present redevelopment financing
 
@@ -57,7 +57,7 @@ Dana moves the map weight back to the rail after wiping only its handle, tips th
 
 ## Cold case function
 
-June Halbrook disappeared in October 1989 after documenting the omitted right-of-way. She died in an accidental single-car plunge on an unmaintained logging spur; Dana's father and two county officials concealed the location and removed her field notes to protect a land assembly. Miriam's work identifies the historic concealment and recovers the location, but Dana is prosecuted for Miriam's present murder, not for causing Halbrook's death.
+June Halbrook disappeared in October 1989 after documenting the omitted right-of-way. She died in an accidental single-car plunge on the unmaintained upper spur on October 8. The authenticated October 6 payment, Wren Grading proprietorship card, and receipt signature connect Dana's father and his company to the broader suppression path without placing him personally at the post-crash scene by date alone. Authenticated October 9–12 maintenance entries, grader identity, the two county officials' roles and signatures, removed field material, road spoil, and the false voluntary-departure supplement support collective post-accident concealment. Which person found the vehicle, removed which material, moved which spoil, drafted which language, or performed every specific act remains unresolved, as does the complete legal disposition. Dana is prosecuted for Miriam's present murder, not for causing Halbrook's death.
 
 ## Modern annotations
 
@@ -70,7 +70,7 @@ Internal series truth: Eli physically created and routed the curation marks. Thi
 
 ## Why the annotations are modern
 
-Conservation photographs from 2024 lack the marks; graphite sits above later surface grime; indentations do not transfer through the older bound gatherings; the pencil contains a modern polymer binder; and the accession register's mark crosses a repair tissue installed in 2025. These facts date the marks broadly but do not identify a hand.
+The marks are dated through authenticated image states, repair tissue, and visible surface chronology. The St. Orison symbol is absent from authenticated 2024 images and lies above older documented grime in the present ledger. The Grange bracket crosses repair tissue installed in 2025. The returned-pamphlet numeral crosses March 2, 2027 repair tissue and is absent from the March 2 intake image. No graphite sampling was authorized, and no particle, binder, polymer, composition, grade, brand, owner, buyer, writer, pencil, or instrument result exists. Non-destructive analysis remains only a hypothetical broad-class capability and could not identify a person or specific instrument.
 
 ## Fair-play solution
 
@@ -95,7 +95,7 @@ A bakery receipt establishes Miriam alive at 6:07. A Grange volunteer hears the 
 - Miriam's appointment note records “D.W. — title line / six fifteen.”
 - Dana admits she was `D.W.` and that the intended subject was the title line.
 - Dana's redevelopment guarantee creates present financial pressure.
-- The 1989 payment chain links Dana's father's company to the suppression path, explaining the confrontation without alone proving the exact work purchased.
+- The 1989 payment chain links Dana's father's company to the suppression path, explaining the confrontation without alone proving the exact work purchased or a post-crash task.
 - Grange access and key-control records contradict Dana's claimed departure account.
 
 ### Witness limitations
