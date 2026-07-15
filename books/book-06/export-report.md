@@ -13,6 +13,56 @@
 - Export branch: `agent/book-06-controlled-export-assembly`
 - Export PR: #32 — `Assemble Book 6 export`
 
+## Complete source list
+
+### Controlling manuscript
+
+- `books/book-06/manuscript/ch-01.md`
+- `books/book-06/manuscript/ch-02.md`
+- `books/book-06/manuscript/ch-03.md`
+- `books/book-06/manuscript/ch-04.md`
+- `books/book-06/manuscript/ch-05.md`
+- `books/book-06/manuscript/ch-06.md`
+- `books/book-06/manuscript/ch-07.md`
+- `books/book-06/manuscript/ch-08.md`
+
+### Controlling edit and lifecycle records
+
+- `books/book-06/proofreading-report.md`
+- `books/book-06/final-prose-polish-report.md`
+- `books/book-06/line-edit-report.md`
+- `books/book-06/revision-plan.md`
+- `books/book-06/README.md`
+- `books/book-06/content-notes.md`
+- `books/book-06/outline.md`
+- `books/book-06/progress.yaml`
+- `books/book-06/manuscript/README.md`
+
+### Book 6 bible and continuity controls
+
+- `books/book-06/bible/mystery-solution.md`
+- `books/book-06/bible/suspect-matrix.md`
+- `books/book-06/bible/clue-ladder.md`
+- `books/book-06/bible/story-memory.md`
+- `books/book-06/bible/timeline.md`
+- `books/book-06/bible/continuity-locks.md`
+- `books/book-06/bible/character-arcs.md`
+- `books/book-06/bible/carry-forward.md`
+- `books/book-06/bible/book-05-to-06-handoff.md`
+- `series-outline.md`
+
+### Export convention references
+
+- `books/book-05/export/README.md`
+- `books/book-05/export/.gitignore`
+- `books/book-05/export/assemble-manuscript.py`
+- `books/book-05/export/finalize-package.py`
+- `books/book-05/export/run-export.py`
+- `books/book-05/export/build.sh`
+- `.github/workflows/book-05-proof-export.yml`
+- Book 5 combined Markdown/TXT/HTML and export reports
+- `books/book-04/export/finalize-package.py`, inherited only as the repository’s shared conversion and validation implementation
+
 ## Verified sources
 
 | Ch. | Title | Controlled words | Markdown-aware words | Proofread blob | Breaks | Locked final line |
@@ -31,17 +81,6 @@ The eight exact repository chapter blobs were reconstructed only for isolated ex
 ## Export conventions discovered
 
 Book 5 establishes `books/book-N/export/` as the controlled export directory; committed combined Markdown, TXT, and HTML; generated front and back matter; reproducible DOCX/EPUB, manifest, PDF render, page images, and contact sheets as ignored validation artifacts; Pandoc conversion; LibreOffice render validation; EPUBCheck; checksum records; and explicit exclusion of package, cover, listing, upload, and publication work.
-
-### Book 5 references inspected
-
-- `books/book-05/export/README.md`
-- `books/book-05/export/.gitignore`
-- `books/book-05/export/assemble-manuscript.py`
-- `books/book-05/export/finalize-package.py`
-- `books/book-05/export/run-export.py`
-- `books/book-05/export/build.sh`
-- `.github/workflows/book-05-proof-export.yml`
-- Book 5 combined Markdown/TXT/HTML and export reports
 
 ## Source-to-output mapping
 
@@ -72,6 +111,8 @@ Book 5 establishes `books/book-N/export/` as the controlled export directory; co
 | EPUB | `The-Pattern.epub` | reproducible reader-facing review artifact | 79,206 | `66aa8e30c513fdbf2c5fc28abbf5b774b6dfa42d6d1b7168f5c4d1ae0ff2b420` |
 | PDF | `The-Pattern.pdf` | validation artifact | 518,205 | `20de09c88e756cfdeaf5fcbce6fe747fd2bb806050f013021cbdc1dfe3152476` |
 
+The five reader-facing formats, manifest, PDF render, 71 page images, and four contact sheets were created in the isolated controlled build. The branch contains the complete reproducible pipeline, approved matter, and reports. Because connector-authored commits did not dispatch Actions and the connector cannot transfer local binary artifacts, the stable combined Markdown/TXT/HTML and ignored binary/QA outputs await the configured workflow run rather than being falsely reported as branch-integrated.
+
 ## Validation
 
 - 234/234 local checks passed.
@@ -100,6 +141,58 @@ Book 5 establishes `books/book-N/export/` as the controlled export directory; co
 - Mae’s practical/emotional role remains within established limits.
 - Eli remains unidentified, non-suspicious, outside the original evidence and official case authority, and absent from hidden-truth leakage.
 
+## Files created
+
+- `.github/workflows/book-06-proof-export.yml`
+- `books/book-06/front-matter/title-page.md`
+- `books/book-06/front-matter/copyright.md`
+- `books/book-06/front-matter/contents.md`
+- `books/book-06/back-matter/author-note.md`
+- `books/book-06/back-matter/series.md`
+- `books/book-06/back-matter/about-the-author.md`
+- `books/book-06/export/.gitignore`
+- `books/book-06/export/README.md`
+- `books/book-06/export/assemble-manuscript.py`
+- `books/book-06/export/finalize-package.py`
+- `books/book-06/export/run-export.py`
+- `books/book-06/export/build.sh`
+- `books/book-06/export/word-count-report.md`
+- `books/book-06/export/export-readiness.md`
+- `books/book-06/export/validation-report.md`
+- `books/book-06/export-report.md`
+
+## Files modified
+
+- `books/book-06/README.md`
+- `books/book-06/manuscript/README.md`
+- `series-outline.md`
+
+## Controls inspected and intentionally unchanged
+
+- all eight proofread manuscript chapter files;
+- `books/book-06/proofreading-report.md`;
+- `books/book-06/final-prose-polish-report.md`;
+- `books/book-06/line-edit-report.md`;
+- `books/book-06/revision-plan.md`;
+- `books/book-06/content-notes.md`;
+- `books/book-06/outline.md`;
+- `books/book-06/progress.yaml`, whose `export_complete: false` remains accurate pending the repository gate;
+- all eight chapter mission locks;
+- all nine present Book 6 bible files;
+- Book 5 files and lifecycle controls;
+- Book 7 planning; no prose exists.
+
+## Artifacts intentionally not created
+
+- cover or cover approval files;
+- listing copy or retailer descriptions;
+- retailer metadata forms, identifiers, prices, or ISBN claims;
+- upload ZIPs or retailer/platform bundles;
+- advertising assets;
+- release packages;
+- distribution, submission, upload, or publication records;
+- Book 7 prose.
+
 ## Scope and neighboring books
 
 - Book 5 changed: none.
@@ -111,4 +204,4 @@ Book 5 establishes `books/book-N/export/` as the controlled export directory; co
 
 Book 6 has proofread-source export artifacts assembled and independently validated, but controlled export completion is **not yet recorded** because EPUBCheck/CI remains pending. Book 6 is not upload ready. Package, cover, listing, upload, and publication remain pending.
 
-After EPUBCheck/CI passes, the export reports and lifecycle controls should be synchronized, PR #32 should remain open for review, and after its eventual merge the recommended next stage is **Book 6 controlled package assembly/readiness**.
+After EPUBCheck/CI passes, the stable generated exports and manifest should be committed by the configured workflow, the lifecycle controls should be synchronized to export complete, and PR #32 should remain open for review. After its eventual merge, the recommended next stage is **Book 6 controlled package assembly/readiness**.
