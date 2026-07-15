@@ -1,8 +1,8 @@
 # Eight-Chapter Outline — The Pattern
 
-**Target total:** 25,000 words. Chapters 1–7 drafted; Chapter 8 planned and undrafted.
+**Target total:** 25,000 words. Chapters 1–8 drafted at 25,181 manuscript-prose words; first-draft stage complete.
 
-## Chapter 1 — The Box at Closing — 3,100 words
+## Chapter 1 — The Box at Closing — 3,266 words
 
 - **Date/time/location:** Thursday, April 15, 4:30–7:40 p.m.; The Foxed Page, Bellweather Grange.
 - **Opening state:** Callie's request queue has become normalized; confidence and fatigue coexist.
@@ -19,7 +19,7 @@
 - **Callie knows:** Mark is recent enough to require provenance review; death scene does not fit simply.
 - **Withheld/prohibited:** Killer, Halbrook outcome, Eli role, and full annotation sequence.
 
-## Chapter 2 — A Fall That Did Not Fit — 3,150 words
+## Chapter 2 — A Fall That Did Not Fit — 3,135 words
 
 - **Date/time/location:** Thursday night–Friday morning; Grange map room and sheriff's office.
 - **Function/objective:** Break the accident assumption without overclaiming homicide mechanics.
@@ -33,9 +33,9 @@
 - **Evidence state:** Homicide inquiry opened; no arrest basis.
 - **Knowledge boundary:** Modern mark and murder may be connected, but no proof.
 
-## Chapter 3 — The Surveyor's Missing Line — 3,100 words
+## Chapter 3 — The Surveyor's Missing Line — 3,130 words
 
-- **Date/time/location:** Friday, 10:00 a.m.–3:30 p.m.; county records annex, The Foxed Page.
+- **Date/time/location:** Friday, 9:32 a.m.–3:28 p.m.; county records annex, The Foxed Page.
 - **Function/objective:** Establish June Halbrook cold case and missing sheet 47.
 - **Conflict:** Owen Pike resists reopening department records; Nadia Reese presses for access to Miriam's recordings.
 - **Clues:** Field-book numbering gap; Halbrook complaint; Miriam's triangle notation; Nadia's partial audio index.
@@ -49,7 +49,7 @@
 
 ## Chapter 4 — Marks Made Later — 3,150 words
 
-- **Date/time/location:** Friday afternoon–evening; St. Orison church archive, Grange trustee room, The Foxed Page.
+- **Date/time/location:** Friday, 3:36–8:12 p.m.; sheriff's records room, St. Orison church archive, Grange trustee room, The Foxed Page.
 - **Function/objective:** Prove coordinated modern routing without identifying the maker.
 - **Conflict:** Tara's altered box count suggests evidence removal; church custodian fears contamination.
 - **Clues:** Omitted-line symbol above later grime; 2024 conservation image lacking marks; mark crosses 2025 tissue.
@@ -107,15 +107,18 @@
 
 ## Chapter 8 — The Pattern — 3,150 words
 
-- **Date/time/location:** Sunday afternoon–evening; logging spur, sheriff's records room, The Foxed Page.
-- **Function/objective:** Close Halbrook's record, consolidate fair-play solution, and establish the Book 7 hook.
-- **Conflict:** Callie wants a name for the curator; Cross insists route evidence is not identity evidence.
-- **Clue synthesis:** Conservation dates, tissue sequence, graphite layers, accession route, returned pamphlet, and Mercer ticket.
-- **Mae role:** Grounds the distinction between being given something and knowing who meant you to receive it.
-- **Eli visible role:** Helps log known custody facts, leaves unknowns blank, and offers no suspicious private reveal.
-- **Pattern movement:** Callie proves genuine documents were routed non-neutrally by someone who understands her reading sequence.
-- **Character movement:** Professional confidence becomes disciplined epistemic unease.
-- **Resolution:** Dana remains under arrest; Halbrook's remains are recovered; county record is corrected.
-- **Ending hook:** Callie begins a private route ledger—not with a suspect's name, but with the question of who could predict the next page she would open.
-- **Final evidence state:** Murder complete; curator pattern documented but unattributed.
-- **Prohibited reveal:** Callie does not conclude Eli did it; no Eli POV, confession, monologue, or internal confirmation.
+- **Date/time/location:** Sunday, April 18, 12:06–7:16 p.m.; sheriff's evidence and records rooms, Gate Three staging, upper-spur ravine under county authority, The Foxed Page.
+- **Function/objective:** Complete Halbrook's lawful recovery and official record correction, finish the right-of-way and three-mark/Mercer synthesis, prove deliberate steering through genuine records without identifying the curator, and close the first draft.
+- **Complete tracing:** Bell retains sealed original `WH-07-01`. Callie reviews registered full-sheet images and display copies only. Sheets 46–48 establish a ninety-yard recovery section below the first upper-spur bend while preserving a lost oak, absent working calculation, corrected-distance, and terminal-stone limits.
+- **Recovery authority:** Cross obtains written county-road access, defines stop conditions, assigns Bell, Reed, road crew, fire-rescue, medical examiner, and vehicle examiner roles, and keeps Callie at Gate Three staging. Owen supplies only road-hazard records.
+- **Halbrook recovery:** The vehicle is located at 2:31 p.m. below the outside bend. Plate/frame records match Halbrook's 1989 registration. Remains enter medical-examiner custody and are cumulatively identified through vehicle, location, associated effects, and the preserved dental file.
+- **Accident/concealment distinction:** Scene geometry supports Halbrook's October 8 accidental single-vehicle plunge. Later grader records, road spoil, false departure reporting, removed field material, and the Wren Grading payment support Dana's father and two county officials concealing the location October 9–12. Individual acts and final historical legal disposition remain unresolved.
+- **Record correction:** Ruthie Sloane enters a county supplement at 5:07 p.m. superseding `LEFT COUNTY VOLUNTARILY — WHEREABOUTS UNKNOWN` with the supported accidental-death/recovery/concealment status. Cross signs the sheriff addendum. The old entry remains visible. Callie neither authors nor files the correction.
+- **Pattern synthesis:** The post-2025 Grange bracket, post-2024 St. Orison symbol, and post-March-2 pamphlet numeral form a directional design tailored to Callie's public method. Miriam's triangle remains separate. The Mercer ticket remains genuine, independently authenticated, non-dispositive, and route-incomplete under its exact provenance wording.
+- **Limits:** Deliberate steering is supported; actor, writer, mover, instrument, common physical hand, drawing occasion, graphite source, binder/polymer source, owner, and curator remain unproved.
+- **Cross conclusion:** `UNRESOLVED PROVENANCE ISSUE — DELIBERATE ROUTING SUPPORTED; ACTOR, WRITER, MOVER, INSTRUMENT, COMMON HAND, AND CURATOR NOT ESTABLISHED.`
+- **Mae and Eli:** Mae provides food, tea, table protection, and the distinction between receipt and intended receipt. Eli enters only approved source/custody fields and leaves identity fields blank without suspicious knowledge.
+- **Character movement:** Callie's professional unease becomes disciplined provenance vigilance rather than paranoia.
+- **Resolution:** Dana remains under arrest for Miriam's murder; Halbrook's vehicle and remains are recovered; her official record is corrected; historical concealment is documented; deliberate steering is proved at the design/access level.
+- **Ending hook:** Callie begins a private provenance-route ledger, leaves the name field blank, and asks who knew which page she would open next.
+- **Final evidence state:** Immediate murder complete; cold case restored; curator pattern documented but unattributed; Eli unidentified; no Book 7 prose drafted.
