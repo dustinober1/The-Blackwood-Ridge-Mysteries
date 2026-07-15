@@ -1,7 +1,7 @@
 # Continuity, Procedure, and Evidence Locks
 
 - Sole narrative POV remains third-person limited through Callie.
-- Eight chapters; accepted first-draft total 25,181 manuscript-prose words. Controlled revised counts replace this baseline only after validation.
+- Eight chapters; accepted first-draft total 25,181 manuscript-prose words; controlled revised total 25,645; net change +464. Chapters 1–5 remain unchanged; Chapters 6–8 contain only approved revisions.
 - Violence is restrained and principally off-page.
 - Dana Wren's murder of Miriam Vale is independently solvable and final.
 - June Halbrook's cold case explains present motive but does not replace the present case.
@@ -31,7 +31,7 @@
 - Gate Three travel is fixed: sheriff's office departure 1:24; physical Gate Three arrival 1:52 after the ordinary 28-minute drive; Reed staging intake/log 1:55 after safety checks; Callie released 3:56; sheriff's records-room return/opening 4:24 after the ordinary 28-minute return. No emergency speeding or safety compression.
 - Callie remains at Gate Three staging outside the active perimeter. She neither enters the ravine nor handles, inventories, packages, transports, retains, or tests any recovery evidence.
 - Every fact from beyond Reed's perimeter reaches Callie through Cross's direct update, a numbered tablet image, Bell's radio/logged summary, the medical examiner's transport record, or the later authorized records-room packet.
-- Halbrook's vehicle is located at 2:31 p.m. within the supported section. Plate and frame identifiers match the 1989 registration. Remains enter medical-examiner custody and are cumulatively identified through vehicle, location, associated effects, and the preserved dental file. A pre-notified forensic odontologist may issue a provisional written comparison; the formal specialist report remains pending.
+- Halbrook's vehicle is located at 2:31 p.m. within the supported section. Plate and frame identifiers match the 1989 registration. Remains enter medical-examiner custody and are cumulatively identified through vehicle, location, associated effects, and the preserved dental file. A pre-notified forensic odontologist issues a provisional written comparison; the formal specialist report remains pending.
 - Halbrook died in an accidental single-vehicle plunge on October 8, 1989. No supported scene fact converts the accident into murder.
 - Dana's father is named only through authenticated Wren Grading proprietorship, receipt signature, company, and payment records. Those records connect him and the company to the broader suppression path but do not place him personally at the post-crash scene by date alone.
 - Authenticated October 9–12 maintenance entries, grader identity, two county officials' roles/signatures, removed field material, road spoil, and the false supplement support collective post-accident concealment. Which person found the vehicle, operated the grader, removed which material, moved which spoil, drafted which language, or performed every specific act remains unresolved. No confession, conspiracy agreement, charge, prosecution, or adjudicated outcome is invented.
@@ -46,6 +46,7 @@
 - Cross records an unresolved provenance issue and leaves identity fields blank.
 - Eli receives no POV, private confirmation, suspicious knowledge, original evidence, tracing access, recovery access, suspect access, or curator connection. His visible work is limited to approved provenance metadata and honest blanks.
 - Book 5 remains package `in_progress`, publication `pending`, not upload ready, and cover-blocked unless its separate workflow changes that state.
-- Book 6 remains overall `in_progress`; controlled revision is not complete until revised manuscript counts and validation are recorded. Line editing, polish, export, package, cover/listing, upload, and publication remain pending; upload ready remains false.
+- Book 6 remains overall `in_progress`, with controlled whole-draft revision complete at 25,645 words. Line editing, final prose polish, proofreading, export, package, cover/listing, upload, and publication remain pending; upload ready remains false.
 - No Book 7 prose exists. Book 7 retains controlled testing and Eli exposure.
+- Every exact chapter-final line remains unchanged.
 - Prohibited: Nora innocence, altered Book 5 motive/method/arrest basis, unrestricted Cross partnership, instant Mae reconciliation, Eli POV, Eli reveal, retroactive Eli actions unsupported by canon, premature Book 7 testing, or any publication/upload-ready claim for Book 6.
