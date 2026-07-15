@@ -99,7 +99,15 @@ def main() -> None:
 
     def load_book4_with_corrected_docx_check(root: Path):
         book4 = original_load_book4(root)
+        original_strip_yaml = book4.strip_yaml_and_heading
         original_validate_docx = book4.validate_docx
+
+        def strip_yaml_and_heading(source: str, expected_number: int, expected_title: str):
+            """Adapt the Book 4 title-only loader to Book 6's full source headings."""
+            full_heading = expected_title
+            if not full_heading.startswith(f"Chapter {expected_number} — "):
+                full_heading = f"Chapter {expected_number} — {expected_title}"
+            return original_strip_yaml(source, expected_number, full_heading)
 
         def validate_docx(docx_path: Path, qa_dir: Path):
             try:
@@ -147,6 +155,7 @@ def main() -> None:
                 validation.require()
                 return validation, len(reader.pages), contacts, pdf_path
 
+        book4.strip_yaml_and_heading = strip_yaml_and_heading
         book4.validate_docx = validate_docx
         return book4
 
