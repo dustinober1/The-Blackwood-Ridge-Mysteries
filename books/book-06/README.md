@@ -4,7 +4,7 @@
 **Series:** The Blackwood Ridge Mysteries #6  
 **Genre:** Atmospheric cozy mystery / amateur sleuth  
 **Target:** 25,000 manuscript words across eight chapters  
-**Status:** Controlled whole-draft revision complete; 25,645 manuscript-prose words; line editing and all later production stages pending
+**Status:** Controlled whole-draft revision and controlled line edit complete; 25,645 manuscript-prose words; final prose polish and all later production stages pending
 
 ## Controlling function
 
@@ -40,6 +40,18 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 - **Exact chapter-final lines:** unchanged
 - **Implementation record:** `books/book-06/revision-plan.md`
 
+## Controlled line-edit result
+
+- **Line-edit branch:** `agent/book-06-line-edit`
+- **Starting main:** `fd05fc7ed18e200072118bdbd5d4983fc92e0e6d`
+- **Chapters reviewed:** 8
+- **Prose changed:** Chapter 6 only
+- **Prose intentionally unchanged:** Chapters 1–5 and 7–8
+- **Line-edited total:** 25,645 manuscript-prose words
+- **Net change:** 0 words
+- **Exact chapter-final lines:** unchanged
+- **Audit record:** `books/book-06/line-edit-report.md`
+
 ## Current story state
 
 - Dana Wren — under arrest without confession on the cumulative present-murder case.
@@ -57,7 +69,7 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 
 - Controlled whole-draft revision — complete.
 - Required control repairs — complete.
-- Line editing — pending.
+- Controlled line edit — complete.
 - Final prose polish — pending.
 - Proofreading — pending.
 - Export — pending.
@@ -67,4 +79,4 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 
 ## Production boundary
 
-The present murder is fully solved without identifying the hidden curator. Book 6 proves steering but does not expose Eli Townsend, invalidate any earlier solution, or draft Book 7. The next production stage is **Book 6 line editing or controlled prose polish**. Export, package, cover, listing, upload, distribution, and publication remain deferred.
+The present murder is fully solved without identifying the hidden curator. Book 6 proves steering but does not expose Eli Townsend, invalidate any earlier solution, or draft Book 7. The next production stage is **Book 6 controlled final prose polish**. Proofreading, export, package, cover, listing, upload, distribution, and publication remain deferred.

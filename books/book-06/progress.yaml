@@ -31,6 +31,19 @@ controlled_revision:
   required_revisions_complete: 7
   optional_revisions_implemented: ["O-01", "O-02", "O-03", "O-10"]
   optional_revisions_skipped: ["O-04", "O-05", "O-06", "O-07", "O-08", "O-09", "O-11", "O-12"]
+controlled_line_edit:
+  branch: "agent/book-06-line-edit"
+  starting_main_head: "fd05fc7ed18e200072118bdbd5d4983fc92e0e6d"
+  status: complete
+  chapters_reviewed: 8
+  prose_chapters_changed: 1
+  prose_chapters_unchanged: 7
+  changed_chapters: [6]
+  unchanged_chapters: [1, 2, 3, 4, 5, 7, 8]
+  starting_words: 25645
+  line_edited_words: 25645
+  net_word_delta: 0
+  final_lines_unchanged: true
 stages:
   concept: complete
   bible: complete
@@ -39,7 +52,7 @@ stages:
   acceptance: complete
   revision_plan: complete
   revise: complete
-  line_edit: pending
+  line_edit: complete
   polish: pending
   proofread: pending
   export: pending
@@ -59,6 +72,11 @@ chapters:
     actual_words: 3266
     delta: 0
     revisions: []
+    line_edit_disposition: reviewed_unchanged
+    line_edit_starting_blob: "c9a12f2305b08b1cf81ea88c1ef49e94e7a453c6"
+    line_edit_final_blob: "c9a12f2305b08b1cf81ea88c1ef49e94e7a453c6"
+    line_edit_words: 3266
+    line_edit_delta: 0
     final_line_unchanged: true
   - n: 2
     title: "A Fall That Did Not Fit"
@@ -70,6 +88,11 @@ chapters:
     actual_words: 3135
     delta: 0
     revisions: []
+    line_edit_disposition: reviewed_unchanged
+    line_edit_starting_blob: "31a438514b5d528bac16b99df5e43c713079737f"
+    line_edit_final_blob: "31a438514b5d528bac16b99df5e43c713079737f"
+    line_edit_words: 3135
+    line_edit_delta: 0
     final_line_unchanged: true
   - n: 3
     title: "The Surveyor's Missing Line"
@@ -81,6 +104,11 @@ chapters:
     actual_words: 3130
     delta: 0
     revisions: []
+    line_edit_disposition: reviewed_unchanged
+    line_edit_starting_blob: "59575d837b6c51d22d57ff4033e6a09bc218a409"
+    line_edit_final_blob: "59575d837b6c51d22d57ff4033e6a09bc218a409"
+    line_edit_words: 3130
+    line_edit_delta: 0
     final_line_unchanged: true
   - n: 4
     title: "Marks Made Later"
@@ -92,6 +120,11 @@ chapters:
     actual_words: 3150
     delta: 0
     revisions: []
+    line_edit_disposition: reviewed_unchanged
+    line_edit_starting_blob: "401d46dad388ddb6ca7df6041c464465a19a48c5"
+    line_edit_final_blob: "401d46dad388ddb6ca7df6041c464465a19a48c5"
+    line_edit_words: 3150
+    line_edit_delta: 0
     final_line_unchanged: true
   - n: 5
     title: "The Road Through Bellweather"
@@ -103,6 +136,11 @@ chapters:
     actual_words: 3100
     delta: 0
     revisions: []
+    line_edit_disposition: reviewed_unchanged
+    line_edit_starting_blob: "81fad0335b3781712b38d4d3139d92ffe94b3476"
+    line_edit_final_blob: "81fad0335b3781712b38d4d3139d92ffe94b3476"
+    line_edit_words: 3100
+    line_edit_delta: 0
     final_line_unchanged: true
   - n: 6
     title: "What the Ledger Withheld"
@@ -114,6 +152,11 @@ chapters:
     actual_words: 3279
     delta: 129
     revisions: ["R-01", "R-04", "O-03"]
+    line_edit_disposition: changed
+    line_edit_starting_blob: "152bbbbe91ded37111eaad071ebaa714b762bf58"
+    line_edit_final_blob: "6b43203b07287771b99ef87240955ec31206e996"
+    line_edit_words: 3279
+    line_edit_delta: 0
     final_line_unchanged: true
   - n: 7
     title: "The Weight of the Map"
@@ -125,6 +168,11 @@ chapters:
     actual_words: 3105
     delta: 5
     revisions: ["R-06"]
+    line_edit_disposition: reviewed_unchanged
+    line_edit_starting_blob: "a38ab3a572b013fcdec34e3bd77aa8e8ed4331c5"
+    line_edit_final_blob: "a38ab3a572b013fcdec34e3bd77aa8e8ed4331c5"
+    line_edit_words: 3105
+    line_edit_delta: 0
     final_line_unchanged: true
   - n: 8
     title: "The Pattern"
@@ -136,6 +184,11 @@ chapters:
     actual_words: 3480
     delta: 330
     revisions: ["R-01", "R-02", "R-03", "R-05", "R-07", "O-01", "O-02", "O-10"]
+    line_edit_disposition: reviewed_unchanged
+    line_edit_starting_blob: "349a95c237c97039de30fae07c46753a5c7eef15"
+    line_edit_final_blob: "349a95c237c97039de30fae07c46753a5c7eef15"
+    line_edit_words: 3480
+    line_edit_delta: 0
     final_line_unchanged: true
 word_target_sum: 25000
 validation:
@@ -163,7 +216,7 @@ validation:
   book_5_changed: false
   book_7_prose_exists: false
   revision_complete: true
-  line_edit_complete: false
+  line_edit_complete: true
   polish_complete: false
   proofread_complete: false
   export_complete: false
