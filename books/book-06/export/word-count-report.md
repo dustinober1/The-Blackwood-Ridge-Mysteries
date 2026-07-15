@@ -37,4 +37,6 @@ The controlled source count is the accepted whitespace-delimited chapter count l
 | HTML | `manuscript-combined.html` | canonical reader-facing export | 181,943 | `f0235f54163f83ad9c13346a1255f552948e0742676696fb7b4722b23a629463` |
 | DOCX | `The-Pattern.docx` | reproducible reader-facing review artifact | 90,956 | `adb45d52f4d41bfa9a86f901e3542772a408964a47f0b89849cfd213037fac94` |
 | EPUB | `The-Pattern.epub` | reproducible reader-facing review artifact | 79,206 | `66aa8e30c513fdbf2c5fc28abbf5b774b6dfa42d6d1b7168f5c4d1ae0ff2b420` |
-| PDF | `The-Pattern.pdf` | validation artifact | 518,205 | `20de09c88e756cfdeaf5fcbce6fe747fd2bb806050f013021cbdc1dfe3152476` |
+| PDF | `The-Pattern.pdf` | build-specific validation artifact | 518,205 | `457da9c58920921a890a53e1db954617a3ce0a6adf00f51f0f1061262369eeb6` |
+
+The PDF render checksum is build-specific because LibreOffice embeds a creation timestamp and trailer identifier. Page count, extracted text, layout review, and file size remained stable across fresh renders; no byte-reproducibility claim is made for the validation PDF.
