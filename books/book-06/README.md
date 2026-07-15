@@ -4,7 +4,7 @@
 **Series:** The Blackwood Ridge Mysteries #6  
 **Genre:** Atmospheric cozy mystery / amateur sleuth  
 **Target:** 25,000 manuscript words across eight chapters  
-**Status:** Controlled whole-draft revision, controlled line edit, controlled final prose polish, and controlled proofreading complete; 25,646 manuscript-prose words; export and all later production stages pending
+**Status:** Controlled whole-draft revision, controlled line edit, controlled final prose polish, and controlled proofreading complete; 25,646 manuscript-prose words; reader-facing export artifacts assembled and independently validated; repository EPUBCheck/CI gate and all later production stages pending
 
 ## Controlling function
 
@@ -78,6 +78,21 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 - **Exact chapter-final lines:** unchanged
 - **Audit record:** `books/book-06/proofreading-report.md`
 
+## Controlled export assembly state
+
+- **Dependency:** PR #31 — `Proofread Book 6`
+- **Dependency source head:** `15ffd86577f2914729f25c0932a97ff2a830be1f`
+- **Dependency merge commit / starting main:** `d23d2e745ea0a5fda414321b6c82eda427459a87`
+- **Export branch:** `agent/book-06-controlled-export-assembly`
+- **Export pull request:** #32 — `Assemble Book 6 export`
+- **Source manuscript:** 25,646 controlled manuscript-prose words; all eight proofread blobs and final lines exact
+- **Assembled formats:** Markdown, TXT, HTML, DOCX, and EPUB
+- **Reader-facing count:** 25,918 by the repository Markdown-aware export counter, including 257 front/back-matter words and 48 chapter-heading words
+- **Local validation:** 234/234 export checks and 23/23 post-normalization checks passed; 40/40 chapter-format identity checks; 40/40 final-line checks; all 39 scene breaks preserved; DOCX rendered to 71 pages and visually reviewed
+- **Remaining gate:** GitHub Actions run `29432336294` and its failed-job rerun both failed before any workflow step began; no step summary or downloadable log was available; EPUBCheck and generated-output branch integration remain pending
+- **Status:** export artifacts assembled and independently validated; controlled export completion not yet recorded
+- **Audit record:** `books/book-06/export-report.md`
+
 ## Current story state
 
 - Dana Wren — under arrest without confession on the cumulative present-murder case.
@@ -98,11 +113,13 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 - Controlled line edit — complete.
 - Controlled final prose polish — complete.
 - Controlled proofreading — complete.
-- Export — pending.
+- Export artifact assembly — complete.
+- Export repository gate — pending EPUBCheck/CI.
+- Controlled export completion — not yet recorded.
 - Package — pending.
 - Cover, listing, upload, and publication — pending.
 - Upload ready — no.
 
 ## Production boundary
 
-The present murder is fully solved without identifying the hidden curator. Book 6 proves steering but does not expose Eli Townsend, invalidate any earlier solution, or draft Book 7. The next production stage is **Book 6 controlled export assembly**. Package, cover, listing, upload, distribution, and publication remain deferred.
+The present murder is fully solved without identifying the hidden curator. Book 6 proves steering but does not expose Eli Townsend, invalidate any earlier solution, or draft Book 7. The immediate production action is to resolve the pre-step GitHub Actions failure and pass the repository EPUBCheck/CI gate for PR #32. After PR #32 is reviewed and merged, the next production stage is **Book 6 controlled package assembly/readiness**. Package, cover, listing, upload, distribution, and publication remain deferred.
