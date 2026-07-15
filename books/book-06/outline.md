@@ -1,6 +1,6 @@
 # Eight-Chapter Outline — The Pattern
 
-**Accepted first-draft total:** 25,181 manuscript-prose words. **Controlled revised total:** 25,645 manuscript-prose words. **Net change:** +464. Chapters 1–5 were reviewed and remain unchanged; Chapters 6–8 implement only the approved R/O revisions. Every exact final line remains unchanged.
+**Accepted first-draft total:** 25,181 manuscript-prose words. **Controlled revised, line-edited, and final-polished total:** 25,645 manuscript-prose words. **Net revision change:** +464. Chapters 1–5 were reviewed and remain unchanged during controlled revision; Chapters 6–8 implement only the approved R/O revisions. The controlled line edit changed Chapter 6 only and was word-neutral. The controlled final prose polish reviewed and intentionally retained all eight chapters without prose change. Every exact final line remains unchanged.
 
 ## Chapter 1 — The Box at Closing — revised-state 3,266 words; reviewed unchanged
 
@@ -132,4 +132,4 @@
 
 ## Production state
 
-Controlled whole-draft revision is complete. Line editing, final prose polish, proofreading, export, package, cover, listing, upload, and publication remain pending. Book 6 is not upload ready.
+Controlled whole-draft revision, controlled line editing, and controlled final prose polish are complete. Proofreading, export, package, cover, listing, upload, and publication remain pending. Book 6 is not upload ready.
