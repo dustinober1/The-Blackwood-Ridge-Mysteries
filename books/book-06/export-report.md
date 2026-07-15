@@ -76,18 +76,16 @@
 | 7 | The Weight of the Map | 3,105 | 3,095 | `9ffbb201458d822bafcdf24ffe3b28df283b635a` | 5 | `The route field remained blank.` |
 | 8 | The Pattern | 3,481 | 3,471 | `be9f1a5531c3a6d61430483b76ed01472d0a03e4` | 5 | `Who knew which page she would open next?` |
 
-The eight exact repository chapter blobs were reconstructed only for isolated execution, verified byte-for-byte, and used to generate the artifacts. No uploaded or stale manuscript copy controlled the build.
+The exact repository chapter blobs were reconstructed only for isolated execution and verified byte-for-byte. No uploaded or stale manuscript copy controlled the build.
 
-## Export conventions discovered
+## Export conventions and source mapping
 
-Book 5 establishes `books/book-N/export/` as the controlled export directory; committed combined Markdown, TXT, and HTML; generated front and back matter; reproducible DOCX/EPUB, manifest, PDF render, page images, and contact sheets as ignored validation artifacts; Pandoc conversion; LibreOffice render validation; EPUBCheck; checksum records; and explicit exclusion of package, cover, listing, upload, and publication work.
+Book 5 establishes `books/book-N/export/` as the controlled export directory; committed combined Markdown, TXT, and HTML; generated front/back matter; reproducible DOCX/EPUB, manifest, PDF render, page images, and contact sheets as ignored validation artifacts; Pandoc conversion; LibreOffice render validation; EPUBCheck; checksum records; and explicit exclusion of package, cover, listing, upload, and publication work.
 
-## Source-to-output mapping
-
-- Source YAML front matter → omitted from reader-facing files.
-- Source full chapter heading → reader-facing Heading 1 / EPUB navigation entry.
-- Source `***` → preserved canonical Markdown break and established conversion in other formats.
-- Chapter paragraphs, sentences, words, punctuation, quotation marks, apostrophes, italics, code-formatted documentary text, order, and ending → source-identical after normalized conversion.
+- YAML production front matter → omitted from reader-facing files.
+- Full source chapter heading → reader-facing Heading 1 and EPUB navigation entry.
+- Source `***` → preserved in canonical Markdown and mapped through the established conversion pipeline.
+- Paragraphs, sentences, words, punctuation, quotation marks, apostrophes, italics, documentary formatting, chapter order, and endings → source-identical after normalized conversion.
 - Front matter → title page, copyright, and contents using approved repository truth and Book 5 convention.
 - Back matter → author note, Books 1–6 series list, and existing author bio convention.
 
@@ -113,19 +111,23 @@ Book 5 establishes `books/book-N/export/` as the controlled export directory; co
 
 The PDF render checksum is build-specific because LibreOffice embeds a creation timestamp and trailer identifier. Page count, extracted text, layout review, and file size remained stable across fresh renders; no byte-reproducibility claim is made for the validation PDF.
 
-The five reader-facing formats, manifest, PDF render, 71 page images, and four contact sheets were created in the isolated controlled build. The branch contains the complete reproducible pipeline, approved matter, and reports. Because connector-authored commits did not dispatch Actions and the connector cannot transfer local binary artifacts, the stable combined Markdown/TXT/HTML and ignored binary/QA outputs await the configured workflow run rather than being falsely reported as branch-integrated.
+The five reader-facing formats, manifest, PDF render, 71 page images, and four contact sheets were created in the isolated controlled build. The branch contains the reproducible pipeline, approved matter, and reports. Stable combined Markdown/TXT/HTML and ignored binary/QA outputs await workflow-generated branch integration.
 
-## Validation
+## Validation and repository gate
 
-- 234/234 local checks passed.
+- 234/234 fresh local export checks passed.
+- 23/23 post-normalization checks passed.
 - All 40 chapter-format identity comparisons passed.
 - All 40 cross-format final-line checks passed.
 - All 39 canonical scene breaks were preserved.
-- No missing, duplicate, or truncated chapter content was detected.
+- No missing, duplicate, truncated, or reordered chapter content was detected.
 - No YAML, mission lock, bible text, hidden Eli truth, production status, report text, or other internal control leaked.
 - DOCX opened, parsed, and rendered to 71 pages; 71 page PNGs and four contact sheets were produced and visually reviewed.
 - EPUB opened and passed package/XML/metadata/spine/navigation/source-text checks.
-- **EPUBCheck remains pending** because the executable is unavailable in the active runtime and connector-authored commits did not dispatch the newly added workflow. No pass is claimed.
+- GitHub Actions run `29432336294` dispatched for the Book 6 export workflow and failed before any workflow step began.
+- A failed-job rerun was requested and also failed before step execution.
+- GitHub returned no step summaries and no downloadable job log for either attempt, so no unsupported cause is assigned.
+- **EPUBCheck, stable generated-output branch integration, and controlled export completion remain pending.**
 
 ## Story and procedural preservation
 
@@ -141,7 +143,7 @@ The five reader-facing formats, manifest, PDF render, 71 page images, and four c
 - Callie remains a bounded consultant; Cross retains warrants, interviews, evidence, legal conclusions, and arrest authority; Bell and lawful custodians retain custody.
 - Exact Mercer provenance wording remains unchanged.
 - Mae’s practical/emotional role remains within established limits.
-- Eli remains unidentified, non-suspicious, outside the original evidence and official case authority, and absent from hidden-truth leakage.
+- Eli remains unidentified, non-suspicious, outside original evidence and official case authority, and absent from hidden-truth leakage.
 
 ## Files created
 
@@ -172,16 +174,13 @@ The five reader-facing formats, manifest, PDF render, 71 page images, and four c
 ## Controls inspected and intentionally unchanged
 
 - all eight proofread manuscript chapter files;
-- `books/book-06/proofreading-report.md`;
-- `books/book-06/final-prose-polish-report.md`;
-- `books/book-06/line-edit-report.md`;
-- `books/book-06/revision-plan.md`;
+- completed proofreading, final-prose-polish, line-edit, and revision records;
 - `books/book-06/content-notes.md`;
 - `books/book-06/outline.md`;
 - `books/book-06/progress.yaml`, whose `export_complete: false` remains accurate pending the repository gate;
 - all eight chapter mission locks;
-- all nine present Book 6 bible files;
-- Book 5 files and lifecycle controls;
+- all present Book 6 bible files;
+- all Book 5 files and lifecycle controls;
 - Book 7 planning; no prose exists.
 
 ## Artifacts intentionally not created
@@ -204,6 +203,6 @@ The five reader-facing formats, manifest, PDF render, 71 page images, and four c
 
 ## Current Book 6 status and blocker
 
-Book 6 has proofread-source export artifacts assembled and independently validated, but controlled export completion is **not yet recorded** because EPUBCheck/CI remains pending. Book 6 is not upload ready. Package, cover, listing, upload, and publication remain pending.
+Book 6 has proofread-source export artifacts assembled and independently validated, but controlled export completion is **not yet recorded**. GitHub Actions failed before step execution on the original run and failed-job rerun, so EPUBCheck and generated-output branch integration remain pending. Book 6 is not upload ready. Package, cover, listing, upload, and publication remain pending.
 
-After EPUBCheck/CI passes, the stable generated exports and manifest should be committed by the configured workflow, the lifecycle controls should be synchronized to export complete, and PR #32 should remain open for review. After its eventual merge, the recommended next stage is **Book 6 controlled package assembly/readiness**.
+Resolve the repository Actions pre-step failure, run the Book 6 export workflow successfully, commit the stable generated exports and manifest, synchronize lifecycle controls to export complete, and keep PR #32 open for review. After its eventual merge, the recommended next stage is **Book 6 controlled package assembly/readiness**.
