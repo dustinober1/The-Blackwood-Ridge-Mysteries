@@ -1,6 +1,6 @@
 # Eight-Chapter Outline — The Pattern
 
-**Target total:** 25,000 words. Chapters 1–6 drafted; Chapters 7–8 planned and undrafted.
+**Target total:** 25,000 words. Chapters 1–7 drafted; Chapter 8 planned and undrafted.
 
 ## Chapter 1 — The Box at Closing — 3,100 words
 
@@ -91,15 +91,19 @@
 
 ## Chapter 7 — The Weight of the Map — 3,100 words
 
-- **Date/time/location:** Sunday, 7:00–11:30 a.m.; Wren Hardware, Dana's truck, sheriff's office.
-- **Function/objective:** Complete the immediate murder proof and arrest Dana.
-- **Conflict:** Dana argues every fact is inherited scandal or committee routine.
-- **Clues recovered:** Missing tracing in bid folder; green coat with brass polish; cloth with Miriam's blood and map-weight residue.
-- **Reinterpretation:** The map weight, not annotations, is the murder mechanism; Dana is not the curator.
-- **Procedure:** Cross executes warrants, handles evidence, and arrests on cumulative facts. Callie supplies no legal conclusion.
-- **Character movement:** Callie accepts a solved murder can coexist with an unsolved route.
-- **Reversal/hook:** Dana is arrested without confession; the curation pencils and routes do not belong to her.
-- **Evidence state:** Present murder solved; Halbrook recovery location emerging; steering unresolved.
+- **Date/time/location:** Sunday, April 18, 6:41–11:38 a.m.; sheriff's records and evidence rooms, Wren Hardware, Dana's personally used pickup, The Foxed Page.
+- **Function/objective:** Execute two lawfully issued, narrowed warrants; recover the original tracing, green committee coat, and blood/residue cloth; establish map weight six as the murder weapon cumulatively; and arrest Dana without confession.
+- **Warrant sequence:** The magistrate issues both warrants at 6:37. Cross verifies the signed returns at 6:41, reads the narrowing, assigns Bell and Reed, and begins execution at 7:30. Unrelated customer records, electronics, residence space, and unrelated cargo remain outside scope.
+- **Tracing recovery:** Bell recovers the original tracing as `WH-07-01` from a blue Bellweather Landing committee bid folder in the locked lower drawer of the upstairs workroom flat-file cabinet. Location photography, item numbering, rigid flat packaging, seal, transport, and intake precede interpretation.
+- **Tracing identity and limit:** Sheet number, subject, paper format, scale practice, continuation relationships, and correspondence with `...ROW 14 / RIVER ACCESS` support identity cumulatively. Callie sees only cropped images after preservation. Complete geometry remains reserved for Chapter 8.
+- **Vehicle recovery:** Bell and Reed recover Dana's dark green committee coat as `VW-07-01` folded behind the pickup's passenger seat and the dry blood/residue cloth as `VW-07-02` from a lidded brass-cleaning tote beneath the rear bench. Each receives an independent photograph, package, seal, transport route, and intake entry.
+- **Physical proof:** Dr. Arledge's wound geometry fits the rounded striking end of weight six rather than the ladder edge. Class-consistent brass polish links Miriam's cuff, the weight-six body/housing, and the cloth. Class-consistent dark green wool links Miriam's cuff, the housing groove, and Dana's recovered coat. The cloth is preliminarily associated with Miriam's blood and carries map-weight residue. The differently wiped handle supports staging. No single result is unique or independently dispositive.
+- **Procedure:** Cross controls every search, scope decision, official conclusion, probable-cause supplement, rights warning, arrest, transport, and public statement. Callie handles no original and questions no suspect.
+- **Dana disposition:** Cross determines probable cause at 10:14 and arrests Dana at 10:20 at Wren Hardware's rear loading entrance. Dana refuses to answer and invokes counsel. Questioning stops immediately. She does not confess, and silence or demeanor supplies no evidence.
+- **Mae and Eli:** Mae provides food, tea, table protection, and practical grounding after the search. Eli receives only Cross-approved status/custody metadata, records no search detail beyond authorization, and leaves writer, curator, complete route, and Halbrook recovery blank.
+- **Character movement:** Callie accepts that the present murder can be complete while the route remains unresolved.
+- **Reversal/hook:** Dana's name enters the murder row; the route field remains blank.
+- **Evidence state:** Present murder supports arrest without curation theory. Halbrook's car, remains, final recovery, complete right-of-way synthesis, curation-pattern synthesis, writer, and curator remain withheld.
 
 ## Chapter 8 — The Pattern — 3,150 words
 
