@@ -1,17 +1,17 @@
 # Continuity, Procedure, and Evidence Locks
 
 - Sole narrative POV remains third-person limited through Callie.
-- Eight chapters; target total exactly 25,000 words.
+- Eight chapters; target total 25,000 words; completed first-draft total 25,181 manuscript-prose words.
 - Violence is restrained and principally off-page.
 - Dana Wren's murder of Miriam Vale is independently solvable and final.
 - June Halbrook's cold case explains present motive but does not replace the present case.
 - Eli did not create either death, forge decisive evidence, frame Dana, or contaminate police custody.
 - Modern marks prove recent routing and common design, not handwriting identity.
 - Callie may observe, compare, contextualize, and identify documentary questions only within written scope.
-- Cross owns scenes, interviews, searches, warrants, custody, forensic requests, legal conclusions, and arrest.
+- Cross owns scenes, interviews, searches, warrants, custody, forensic requests, legal conclusions, recovery authority, official record correction, and arrest.
 - Mae provides context and grounding, not detective authority.
 - No confession is required for arrest.
-- No perfect digital tracking, impossible forensic certainty, secret decisive evidence, or Chapter 8-only solution clue.
+- No perfect digital tracking, impossible forensic certainty, secret decisive evidence, or Chapter 8-only present-murder solution clue.
 - The exact Chapter 5 payment and financing values in `bible/mystery-solution.md` and `control/chapter-05-mission-lock.md` are controlling. The county paid Wren Grading Company; Dana's father did not pay a third party.
 - Chapter 6 recovers only the partial pressure shadow `...ROW 14 / RIVER ACCESS`, authenticates only the quoted audio phrase `Dana at six fifteen`, resolves Nadia, Leo, and Owen as murder false paths without erasing their misconduct, and establishes graphite `3` on the returned genuine 1988 county-road pamphlet as a third modern routing point without identifying a hand or curator.
 - Chapter 6 ends with Cross's two warrant applications completed for submission. No warrant is executed, no search occurs, no evidence is recovered under warrant, and Dana is not arrested before Chapter 7.
@@ -21,7 +21,25 @@
 - Wound geometry, class-consistent brass polish and dark green wool, the cloth's preliminary association with Miriam's blood and map-weight residue, the differently wiped handle, and the locked ladder establish map weight six cumulatively as the weapon. No single finding is unique or independently dispositive; full DNA confirmation remains pending.
 - Cross arrests Dana at 10:20 a.m. at Wren Hardware's rear loading entrance. Dana refuses to answer and invokes counsel. Questioning stops immediately. Dana does not confess, and silence, invocation, anger, grief, or demeanor supplies no evidence.
 - Dana is not identified or scientifically excluded as a routing-mark writer. The murder case does not depend on the mark writer's identity. Killer and curator remain analytically separate.
-- Halbrook's car, remains, final recovery, corrected historic record, complete right-of-way synthesis, complete three-mark/Mercer pattern synthesis, and curator identity remain Chapter 8 work.
+- Chapter 8 opens at 12:06 p.m. in the sheriff's evidence room and closes at 7:16 p.m. at The Foxed Page.
+- Complete tracing review uses registered, matched-scale images and display copies; original `WH-07-01` remains sealed under Bell's custody. Callie never handles it.
+- Sheets 46–48, Gate Three, the landing, current road records, Owen's authenticated copy, and the surviving drainage crossing support a ninety-yard recovery section below the first upper-spur bend. Lost monument, absent calculation, corrected-distance, terminal-stone, and modern-road limits remain explicit.
+- Cross obtains written county access and controls the Halbrook operation. Bell controls scene/custody; Reed controls the perimeter; road crew and fire-rescue control hazards; the medical examiner controls remains; the vehicle examiner controls vehicle identification.
+- Callie remains at Gate Three staging outside the active perimeter. She neither enters the ravine nor handles, inventories, packages, transports, retains, or tests any recovery evidence.
+- Halbrook's vehicle is located at 2:31 p.m. within the supported section. Plate and frame identifiers match the 1989 registration. Remains enter medical-examiner custody and are cumulatively identified through vehicle, location, associated effects, and the preserved dental file.
+- Halbrook died in an accidental single-vehicle plunge on October 8, 1989. No supported scene fact converts the accident into murder.
+- Dana's father and two county officials later found and concealed the crash location, removed field material, and supported the false voluntary-departure narrative. Current evidence does not establish every individual act, confession, complete agreement, charge, or final historical legal disposition.
+- Owen's route knowledge and unauthorized storage remain separate. Administrative discipline and possible legal review continue; he is neither killer nor recovery commander.
+- The former official status `LEFT COUNTY VOLUNTARILY — WHEREABOUTS UNKNOWN` remains visible and is superseded by a lawful county supplement recording accidental death, April 18 recovery, post-accident concealment, partial responsibility, and unresolved individual acts/legal disposition.
+- Ruthie Sloane writes/signs the county supplement; Cross signs the sheriff addendum; Bell logs/witnesses attachments. Callie does not author, sign, file, certify, or control the correction.
+- The Grange bracket remains post-2025 repair tissue; the St. Orison symbol remains post-authenticated-2024 image and above older grime; graphite `3` remains post-March-2 repair/intake image.
+- Miriam's triangle is her legitimate research notation and remains separate from the three curation marks.
+- The three marks establish a deliberate directional design tailored to Callie's public comparison method through genuine host documents whose content is not falsified.
+- The Mercer repair ticket remains genuine, independently authenticated, non-dispositive, and route-incomplete under the exact wording `Found in returned Mercer volume by M. Hartwell; prior loose-paper location not established.`
+- Deliberate steering is supported at the design/access level. Actor, writer, mover, instrument, physical hand, occasion, graphite source, binder/polymer source, owner, brand, purchase, and curator remain unproved.
+- Cross records an unresolved provenance issue and leaves identity fields blank.
+- Eli receives no POV, private confirmation, suspicious knowledge, original evidence, tracing access, recovery access, suspect access, or curator connection. His visible work is limited to approved provenance metadata and honest blanks.
 - Book 5 remains package `in_progress`, publication `pending`, not upload ready, and cover-blocked unless its separate workflow changes that state.
-- Book 6 remains draft `in_progress`, Chapters 1–7 are drafted at 22,031 manuscript words, publication is `pending`, and the book is not upload ready.
-- Prohibited: Nora innocence, altered Book 5 motive/method/arrest basis, unrestricted Cross partnership, instant Mae reconciliation, Eli POV, Eli reveal, or retroactive Eli actions unsupported by canon.
+- Book 6 remains overall `in_progress` with draft `complete`, revision/polish/export/package/publication `pending`, 25,181 manuscript-prose words across eight chapters, and not upload ready.
+- No Book 7 prose exists. Book 7 retains controlled testing and Eli exposure.
+- Prohibited: Nora innocence, altered Book 5 motive/method/arrest basis, unrestricted Cross partnership, instant Mae reconciliation, Eli POV, Eli reveal, retroactive Eli actions unsupported by canon, premature Book 7 testing, or any publication/upload-ready claim for Book 6.

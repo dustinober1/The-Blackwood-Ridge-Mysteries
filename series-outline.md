@@ -54,14 +54,16 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 - **Package state:** Final proof/export and all non-cover package materials are complete. Package remains in progress because no approved canonical ebook cover exists; publication remains pending and the book is not upload ready.
 - **Target / actual:** 25,000 / 25,174 manuscript-prose words; 25,501 combined reader-facing export words.
 
-### Book 6 — The Pattern — first draft in progress
+### Book 6 — The Pattern — first draft complete; formal acceptance and revision planning pending
 
 - **Central conflict:** Local historian Miriam Vale is murdered while researching county surveyor June Halbrook's 1989 disappearance. Modern annotations in genuine historical materials are designed for Callie to notice and interpret.
 - **Immediate solution:** Dana Wren kills Miriam with a brass map weight and stages a ladder fall to protect a riverfront redevelopment, her financing, and her father's role in suppressing Halbrook's right-of-way evidence.
-- **Series advancement:** Callie proves several genuine documents reached her through a non-neutral route tailored to her method. Chapter 6 establishes three modern routing points and an incomplete returned-pamphlet path without identifying a hand or curator. Chapter 7 completes the present murder arrest while preserving the route inquiry.
-- **Protection:** The murder is solved without the curator; Eli is not conclusively exposed; no prior solution is invalidated.
-- **Status:** Chapters 1–7 drafted at 22,031 manuscript words; Chapter 8 planned and undrafted. Chapter 7 ends after lawfully issued warrants recover the original tracing, Dana's green committee coat, and the blood/residue cloth; cumulative wound, transfer, staging, documentary, and opportunity evidence establishes map weight six as the weapon; Cross arrests Dana without confession; the route writer and curator remain unidentified.
-- **Target:** 25,000 words.
+- **Cold-case resolution:** Halbrook died in an accidental October 8, 1989 single-vehicle plunge on an unmaintained logging spur. Her vehicle and remains are recovered under county authority. Dana's father and two county officials are supported to have concealed the location, removed field material, and supported the false departure narrative. Individual acts and complete historical legal disposition remain unresolved.
+- **Series advancement:** Callie proves several genuine documents reached her through a non-neutral route tailored to her method. The three modern routing points form a deliberate design, and the genuine Mercer repair ticket remains a significant earlier route anomaly.
+- **Protection:** The murder is solved without the curator; Eli is not exposed; no prior solution is invalidated. Writer, mover, instrument, common physical hand, occasion, and curator remain unproved.
+- **Ending state:** Dana remains under arrest without confession; June Halbrook's false voluntary-departure status is superseded by a supported accidental-death/recovery/concealment supplement; Cross records an unresolved provenance issue; Callie begins a private route ledger and leaves the identity field blank.
+- **Status:** Chapters 1–8 drafted at 25,181 manuscript-prose words. Draft stage complete. Formal acceptance, whole-book audit, revision planning, revision, polish, export, package, and publication remain pending. Book 6 is not upload ready.
+- **Target / actual:** 25,000 / 25,181 manuscript-prose words.
 
 ### Book 7 — The Reckoning — planned
 

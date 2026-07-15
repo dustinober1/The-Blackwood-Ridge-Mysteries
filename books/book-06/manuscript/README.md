@@ -1,6 +1,6 @@
 # Book 6 Manuscript Directory
 
-Book 6 — *The Pattern* first-draft production is in progress.
+Book 6 — *The Pattern* first draft is complete.
 
 Current manuscript status:
 
@@ -11,8 +11,8 @@ Current manuscript status:
 - `ch-05.md` — **The Road Through Bellweather** — drafted, 3100 words
 - `ch-06.md` — **What the Ledger Withheld** — drafted, 3150 words
 - `ch-07.md` — **The Weight of the Map** — drafted, 3100 words
-- `ch-08.md` — **The Pattern** — planned, not drafted
+- `ch-08.md` — **The Pattern** — drafted, 3150 words
 
-Total drafted manuscript prose: **22031 words** across seven chapters.
+Total drafted manuscript prose: **25181 words** across eight chapters.
 
-The manuscript remains single third-person limited through Callie Thorne. Chapter 8, revision, polish, export, package, and publication remain pending.
+The manuscript remains single third-person limited through Callie Thorne. Drafting is complete. Formal acceptance, whole-book continuity and mystery-fairness review, revision planning, revision, polish, export, package, and publication remain pending. The book is not upload ready.
