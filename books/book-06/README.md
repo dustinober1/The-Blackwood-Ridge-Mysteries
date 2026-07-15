@@ -88,8 +88,8 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 - **Source manuscript:** 25,646 controlled manuscript-prose words; all eight proofread blobs and final lines exact
 - **Assembled formats:** Markdown, TXT, HTML, DOCX, and EPUB
 - **Reader-facing count:** 25,918 by the repository Markdown-aware export counter, including 257 front/back-matter words and 48 chapter-heading words
-- **Local validation:** 234/234 checks passed; 40/40 chapter-format identity checks; 40/40 final-line checks; all 39 scene breaks preserved; DOCX rendered to 71 pages and visually reviewed
-- **Remaining gate:** repository EPUBCheck/CI has not run because connector-authored commits did not dispatch the new branch workflow
+- **Local validation:** 234/234 export checks and 23/23 post-normalization checks passed; 40/40 chapter-format identity checks; 40/40 final-line checks; all 39 scene breaks preserved; DOCX rendered to 71 pages and visually reviewed
+- **Remaining gate:** GitHub Actions run `29432336294` and its failed-job rerun both failed before any workflow step began; no step summary or downloadable log was available; EPUBCheck and generated-output branch integration remain pending
 - **Status:** export artifacts assembled and independently validated; controlled export completion not yet recorded
 - **Audit record:** `books/book-06/export-report.md`
 
@@ -122,4 +122,4 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 
 ## Production boundary
 
-The present murder is fully solved without identifying the hidden curator. Book 6 proves steering but does not expose Eli Townsend, invalidate any earlier solution, or draft Book 7. The immediate production action is to run and pass the repository EPUBCheck/CI gate for PR #32. After PR #32 is reviewed and merged, the next production stage is **Book 6 controlled package assembly/readiness**. Package, cover, listing, upload, distribution, and publication remain deferred.
+The present murder is fully solved without identifying the hidden curator. Book 6 proves steering but does not expose Eli Townsend, invalidate any earlier solution, or draft Book 7. The immediate production action is to resolve the pre-step GitHub Actions failure and pass the repository EPUBCheck/CI gate for PR #32. After PR #32 is reviewed and merged, the next production stage is **Book 6 controlled package assembly/readiness**. Package, cover, listing, upload, distribution, and publication remain deferred.
