@@ -1,6 +1,13 @@
 name: Book 6 controlled export
 
 "on":
+  push:
+    branches:
+      - "agent/book-06-controlled-export-assembly"
+    paths:
+      - "books/book-06/**"
+      - "series-outline.md"
+      - ".github/workflows/book-06-proof-export.yml"
   pull_request:
     paths:
       - "books/book-06/**"
@@ -60,7 +67,7 @@ jobs:
           cat books/book-06/export-report.md
 
       - name: Commit stable reader-facing exports and reports
-        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -76,7 +83,7 @@ jobs:
             books/book-06/export-report.md
           if ! git diff --cached --quiet; then
             git commit -m "Assemble Book 6 export"
-            git push origin "HEAD:${{ github.head_ref }}"
+            git push origin "HEAD:${{ github.head_ref || github.ref_name }}"
           fi
 
       - name: Upload Book 6 export review artifacts
