@@ -20,6 +20,8 @@ The eight files under `../manuscript/` are the controlling proofread story prose
 - `validation-report.md` — generated validation ledger.
 - `../export-report.md` — complete controlled export assembly record.
 
+Run the complete controlled build with `python books/book-06/export/run-export.py`.
+
 ## Reproducible generated artifacts
 
 The workflow generates these under ignored directories and uploads them as review artifacts:
