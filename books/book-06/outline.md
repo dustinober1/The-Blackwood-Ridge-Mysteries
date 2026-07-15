@@ -109,10 +109,10 @@
 - **Reversal/hook:** Dana's name enters the murder row; the route field remains blank.
 - **Evidence state:** Present murder supports arrest without curation theory. Halbrook's car, remains, final recovery, complete right-of-way synthesis, curation-pattern synthesis, writer, and curator remain withheld.
 
-## Chapter 8 — The Pattern — proofread-state 3,481 words; missing article restored
+## Chapter 8 — The Pattern — proofread-state 3,481 words; missing article restored and apostrophe normalized
 
 - **Date/time/location:** Sunday, April 18, 12:06–7:16 p.m.; sheriff's evidence and records rooms, Gate Three staging, upper-spur ravine under county authority, The Foxed Page.
-- **Function/objective:** Complete Halbrook's lawful recovery and official record correction, finish the right-of-way and three-mark/Mercer synthesis, prove deliberate steering through genuine records without identifying the curator, and close the controlled manuscript.
+- **Function/objective:** Complete Halbrook's lawful recovery and official record correction, finish the right-of-way and three-mark/Mercer synthesis, prove deliberate steering through genuine records without identifying the curator, and close the controlled revision.
 - **Complete tracing:** Bell retains sealed original `WH-07-01`. Callie reviews registered full-sheet images and display copies only. Sheets 46–48 establish a ninety-yard recovery section below the first upper-spur bend while preserving a lost oak, absent working calculation, corrected-distance, and terminal-stone limits.
 - **Recovery authority:** Cross obtains written county-road access, defines stop conditions, assigns Bell, Reed, road crew, fire-rescue, medical examiner, and vehicle examiner roles, and keeps Callie at Gate Three staging. Owen supplies only road-hazard records.
 - **Travel control:** Sheriff-office departure 1:24; physical Gate Three arrival 1:52 after the ordinary 28-minute drive; Reed staging intake/log 1:55 after safety checks; release 3:56; sheriff's records-room return/opening 4:24 after the ordinary 28-minute return. No emergency speeding or safety compression.
