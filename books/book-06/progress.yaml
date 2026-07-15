@@ -2,7 +2,7 @@ book: 6
 title: "The Pattern"
 status: in_progress
 target_words: 25000
-actual_words: 25645
+actual_words: 25646
 chapter_count: 8
 formal_acceptance:
   verdict: "ACCEPTED WITH REQUIRED PRE-REVISION CONTROL REPAIRS"
@@ -58,6 +58,23 @@ controlled_final_prose_polish:
   net_word_delta: 0
   final_lines_unchanged: true
   report: "books/book-06/final-prose-polish-report.md"
+controlled_proofreading:
+  branch: "agent/book-06-controlled-proofreading"
+  dependency_pr: 30
+  dependency_branch_head: "87109304cb0e0f434d203247467e8b37491f1b2c"
+  dependency_merge_commit: "105634b1dbf41a9c15ab6d2ea3df7d9945c8b264"
+  starting_main_head: "105634b1dbf41a9c15ab6d2ea3df7d9945c8b264"
+  status: complete
+  chapters_reviewed: 8
+  prose_chapters_changed: 3
+  prose_chapters_unchanged: 5
+  changed_chapters: [2, 7, 8]
+  unchanged_chapters: [1, 3, 4, 5, 6]
+  starting_words: 25645
+  proofread_words: 25646
+  net_word_delta: 1
+  final_lines_unchanged: true
+  report: "books/book-06/proofreading-report.md"
 stages:
   concept: complete
   bible: complete
@@ -68,7 +85,7 @@ stages:
   revise: complete
   line_edit: complete
   polish: complete
-  proofread: pending
+  proofread: complete
   export: pending
   package: pending
   cover: pending
@@ -96,6 +113,11 @@ chapters:
     final_polish_final_blob: "c9a12f2305b08b1cf81ea88c1ef49e94e7a453c6"
     final_polish_words: 3266
     final_polish_delta: 0
+    proofreading_disposition: reviewed_unchanged
+    proofreading_starting_blob: "c9a12f2305b08b1cf81ea88c1ef49e94e7a453c6"
+    proofreading_final_blob: "c9a12f2305b08b1cf81ea88c1ef49e94e7a453c6"
+    proofreading_words: 3266
+    proofreading_delta: 0
     final_line_unchanged: true
   - n: 2
     title: "A Fall That Did Not Fit"
@@ -117,6 +139,12 @@ chapters:
     final_polish_final_blob: "31a438514b5d528bac16b99df5e43c713079737f"
     final_polish_words: 3135
     final_polish_delta: 0
+    proofreading_disposition: corrected
+    proofreading_starting_blob: "31a438514b5d528bac16b99df5e43c713079737f"
+    proofreading_final_blob: "6404737d8d0610908608f7d8ab45c02cd75158fd"
+    proofreading_words: 3135
+    proofreading_delta: 0
+    proofreading_corrections: ["honorific/title consistency"]
     final_line_unchanged: true
   - n: 3
     title: "The Surveyor's Missing Line"
@@ -138,6 +166,11 @@ chapters:
     final_polish_final_blob: "59575d837b6c51d22d57ff4033e6a09bc218a409"
     final_polish_words: 3130
     final_polish_delta: 0
+    proofreading_disposition: reviewed_unchanged
+    proofreading_starting_blob: "59575d837b6c51d22d57ff4033e6a09bc218a409"
+    proofreading_final_blob: "59575d837b6c51d22d57ff4033e6a09bc218a409"
+    proofreading_words: 3130
+    proofreading_delta: 0
     final_line_unchanged: true
   - n: 4
     title: "Marks Made Later"
@@ -159,6 +192,11 @@ chapters:
     final_polish_final_blob: "401d46dad388ddb6ca7df6041c464465a19a48c5"
     final_polish_words: 3150
     final_polish_delta: 0
+    proofreading_disposition: reviewed_unchanged
+    proofreading_starting_blob: "401d46dad388ddb6ca7df6041c464465a19a48c5"
+    proofreading_final_blob: "401d46dad388ddb6ca7df6041c464465a19a48c5"
+    proofreading_words: 3150
+    proofreading_delta: 0
     final_line_unchanged: true
   - n: 5
     title: "The Road Through Bellweather"
@@ -180,6 +218,11 @@ chapters:
     final_polish_final_blob: "81fad0335b3781712b38d4d3139d92ffe94b3476"
     final_polish_words: 3100
     final_polish_delta: 0
+    proofreading_disposition: reviewed_unchanged
+    proofreading_starting_blob: "81fad0335b3781712b38d4d3139d92ffe94b3476"
+    proofreading_final_blob: "81fad0335b3781712b38d4d3139d92ffe94b3476"
+    proofreading_words: 3100
+    proofreading_delta: 0
     final_line_unchanged: true
   - n: 6
     title: "What the Ledger Withheld"
@@ -201,6 +244,11 @@ chapters:
     final_polish_final_blob: "6b43203b07287771b99ef87240955ec31206e996"
     final_polish_words: 3279
     final_polish_delta: 0
+    proofreading_disposition: reviewed_unchanged
+    proofreading_starting_blob: "6b43203b07287771b99ef87240955ec31206e996"
+    proofreading_final_blob: "6b43203b07287771b99ef87240955ec31206e996"
+    proofreading_words: 3279
+    proofreading_delta: 0
     final_line_unchanged: true
   - n: 7
     title: "The Weight of the Map"
@@ -222,6 +270,12 @@ chapters:
     final_polish_final_blob: "a38ab3a572b013fcdec34e3bd77aa8e8ed4331c5"
     final_polish_words: 3105
     final_polish_delta: 0
+    proofreading_disposition: corrected
+    proofreading_starting_blob: "a38ab3a572b013fcdec34e3bd77aa8e8ed4331c5"
+    proofreading_final_blob: "9ffbb201458d822bafcdf24ffe3b28df283b635a"
+    proofreading_words: 3105
+    proofreading_delta: 0
+    proofreading_corrections: ["malformed negative construction"]
     final_line_unchanged: true
   - n: 8
     title: "The Pattern"
@@ -230,8 +284,8 @@ chapters:
     revision_disposition: changed
     accepted_blob: "c5d64e5b493152cd31a304d1eb1ad7b3c4d01064"
     accepted_words: 3150
-    actual_words: 3480
-    delta: 330
+    actual_words: 3481
+    delta: 331
     revisions: ["R-01", "R-02", "R-03", "R-05", "R-07", "O-01", "O-02", "O-10"]
     line_edit_disposition: reviewed_unchanged
     line_edit_starting_blob: "349a95c237c97039de30fae07c46753a5c7eef15"
@@ -243,6 +297,12 @@ chapters:
     final_polish_final_blob: "349a95c237c97039de30fae07c46753a5c7eef15"
     final_polish_words: 3480
     final_polish_delta: 0
+    proofreading_disposition: corrected
+    proofreading_starting_blob: "349a95c237c97039de30fae07c46753a5c7eef15"
+    proofreading_final_blob: "3a66162e88b9491d14b04e217a1997336840cf86"
+    proofreading_words: 3481
+    proofreading_delta: 1
+    proofreading_corrections: ["missing article"]
     final_line_unchanged: true
 word_target_sum: 25000
 validation:
@@ -273,7 +333,7 @@ validation:
   line_edit_complete: true
   polish_complete: true
   final_prose_polish_complete: true
-  proofread_complete: false
+  proofread_complete: true
   export_complete: false
   package_complete: false
   cover_complete: false
