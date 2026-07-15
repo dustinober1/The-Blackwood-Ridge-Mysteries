@@ -1,8 +1,8 @@
 # Eight-Chapter Outline — The Pattern
 
-**Accepted first-draft total:** 25,181 manuscript-prose words. **Controlled revised, line-edited, and final-polished total:** 25,645 manuscript-prose words. **Net revision change:** +464. Chapters 1–5 were reviewed and remain unchanged during controlled revision; Chapters 6–8 implement only the approved R/O revisions. The controlled line edit changed Chapter 6 only and was word-neutral. The controlled final prose polish reviewed and intentionally retained all eight chapters without prose change. Every exact final line remains unchanged.
+**Accepted first-draft total:** 25,181 manuscript-prose words. **Controlled revised, line-edited, and final-polished total:** 25,645 manuscript-prose words. **Controlled proofread total:** 25,646 manuscript-prose words. **Net revision change:** +464. **Net proofreading change:** +1. Chapters 2, 7, and 8 received objective mechanical corrections during proofreading; Chapters 1, 3, 4, 5, and 6 were intentionally retained unchanged. Every exact final line remains unchanged.
 
-## Chapter 1 — The Box at Closing — revised-state 3,266 words; reviewed unchanged
+## Chapter 1 — The Box at Closing — proofread-state 3,266 words; reviewed unchanged
 
 - **Date/time/location:** Thursday, April 15, 4:30–7:40 p.m.; The Foxed Page, Bellweather Grange.
 - **Opening state:** Callie's request queue has become normalized; confidence and fatigue coexist.
@@ -19,7 +19,7 @@
 - **Callie knows:** Mark is recent enough to require provenance review; death scene does not fit simply.
 - **Withheld/prohibited:** Killer, Halbrook outcome, Eli role, and full annotation sequence.
 
-## Chapter 2 — A Fall That Did Not Fit — revised-state 3,135 words; reviewed unchanged
+## Chapter 2 — A Fall That Did Not Fit — proofread-state 3,135 words; honorific corrected
 
 - **Date/time/location:** Thursday night–Friday morning; Grange map room and sheriff's office.
 - **Function/objective:** Break the accident assumption without overclaiming homicide mechanics.
@@ -33,7 +33,7 @@
 - **Evidence state:** Homicide inquiry opened; no arrest basis.
 - **Knowledge boundary:** Modern mark and murder may be connected, but no proof.
 
-## Chapter 3 — The Surveyor's Missing Line — revised-state 3,130 words; reviewed unchanged
+## Chapter 3 — The Surveyor's Missing Line — proofread-state 3,130 words; reviewed unchanged
 
 - **Date/time/location:** Friday, 9:32 a.m.–3:28 p.m.; county records annex, The Foxed Page.
 - **Function/objective:** Establish June Halbrook cold case and missing sheet 47.
@@ -47,7 +47,7 @@
 - **Reversal/hook:** Sheet 47 described a public right-of-way through Bellweather river land.
 - **Evidence state:** Cold-case motive possible; no present killer identified.
 
-## Chapter 4 — Marks Made Later — revised-state 3,150 words; reviewed unchanged
+## Chapter 4 — Marks Made Later — proofread-state 3,150 words; reviewed unchanged
 
 - **Date/time/location:** Friday, 3:36–8:12 p.m.; sheriff's records room, St. Orison church archive, Grange trustee room, The Foxed Page.
 - **Function/objective:** Prove coordinated modern routing without identifying the maker.
@@ -60,7 +60,7 @@
 - **Reversal/hook:** Relief ledger points to a 1989 `south line retrieval` payment.
 - **Evidence state:** Steering likely; identity wholly unproven.
 
-## Chapter 5 — The Road Through Bellweather — revised-state 3,100 words; reviewed unchanged
+## Chapter 5 — The Road Through Bellweather — proofread-state 3,100 words; reviewed unchanged
 
 - **Date/time/location:** Saturday, April 17, 8:18 a.m.–5:36 p.m.; sheriff's records room, county treasurer records room, Wren Hardware, River Road Service Station, county road yard, lawful public-road observation point, The Foxed Page.
 - **Function/objective:** Connect the historic suppression path to Dana's present financial motive and opportunity.
@@ -74,7 +74,7 @@
 - **Reversal/hook:** Dana admits she was `D.W.` and claims a 5:55 direct departure, but the key counts and 6:42 fuel record leave at least thirty-nine minutes unexplained across the death window.
 - **Evidence state:** Dana is the leading present suspect; probable-cause foundation forming, still insufficient for search. Killer and curator remain separate.
 
-## Chapter 6 — What the Ledger Withheld — revised 3,279 words
+## Chapter 6 — What the Ledger Withheld — proofread-state 3,279 words; reviewed unchanged
 
 - **Date/time/location:** Saturday, April 17, 5:52–10:46 p.m.; sheriff's evidence and interview rooms, The Foxed Page, sheriff's records room.
 - **Function/objective:** Recover the tracing's limited pressure shadow, authenticate Nadia's recovered audio, independently reduce Tara, Nadia, Leo, and Owen as murder suspects, establish the third routing point, and carry Dana's cumulative case to a warrant-application threshold without executing a search.
@@ -92,7 +92,7 @@
 - **Reversal/hook:** Cross signs two narrow warrant applications for on-call-magistrate submission. No warrant issues on-page, no search occurs, and no arrest occurs.
 - **Evidence state:** Dana remains the leading murder suspect; murderer and curator remain separate. The tracing, green coat, residue cloth, final map-weight proof, Halbrook recovery, and curator identity remain withheld.
 
-## Chapter 7 — The Weight of the Map — revised 3,105 words
+## Chapter 7 — The Weight of the Map — proofread-state 3,105 words; malformed negative corrected
 
 - **Date/time/location:** Sunday, April 18, 6:41–11:38 a.m.; sheriff's records and evidence rooms, Wren Hardware, Dana's personally used pickup, The Foxed Page.
 - **Function/objective:** Execute two lawfully issued, narrowed warrants; recover the original tracing, green committee coat, and blood/residue cloth; establish map weight six as the murder weapon cumulatively; and arrest Dana without confession.
@@ -109,7 +109,7 @@
 - **Reversal/hook:** Dana's name enters the murder row; the route field remains blank.
 - **Evidence state:** Present murder supports arrest without curation theory. Halbrook's car, remains, final recovery, complete right-of-way synthesis, curation-pattern synthesis, writer, and curator remain withheld.
 
-## Chapter 8 — The Pattern — revised 3,480 words
+## Chapter 8 — The Pattern — proofread-state 3,481 words; missing article restored and apostrophe normalized
 
 - **Date/time/location:** Sunday, April 18, 12:06–7:16 p.m.; sheriff's evidence and records rooms, Gate Three staging, upper-spur ravine under county authority, The Foxed Page.
 - **Function/objective:** Complete Halbrook's lawful recovery and official record correction, finish the right-of-way and three-mark/Mercer synthesis, prove deliberate steering through genuine records without identifying the curator, and close the controlled revision.
@@ -132,4 +132,4 @@
 
 ## Production state
 
-Controlled whole-draft revision, controlled line editing, and controlled final prose polish are complete. Proofreading, export, package, cover, listing, upload, and publication remain pending. Book 6 is not upload ready.
+Controlled whole-draft revision, controlled line editing, controlled final prose polish, and controlled proofreading are complete. The proofread manuscript contains 25,646 manuscript-prose words. Export, package, cover, listing, upload, and publication remain pending. Book 6 is not upload ready. The next production stage is **Book 6 controlled export assembly**.
