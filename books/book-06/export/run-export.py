@@ -19,6 +19,10 @@ FIXED_EPUB_UUID = str(
         "urn:blackwood-ridge:book-6:the-pattern:vesper-blythe",
     )
 )
+DOCX_STATUS = (
+    "Controlled export review manuscript; package, cover, listing, upload, "
+    "and publication pending."
+)
 
 
 def load_pipeline():
@@ -64,6 +68,20 @@ def normalize_docx(path: Path) -> None:
     def core_xml(data: bytes) -> bytes:
         text = data.decode("utf-8")
         text = re.sub(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z", FIXED_ISO_TIME, text)
+        status = re.escape(DOCX_STATUS)
+        if re.search(r"<dc:description>.*?</dc:description>", text):
+            text = re.sub(
+                r"<dc:description>.*?</dc:description>",
+                f"<dc:description>{DOCX_STATUS}</dc:description>",
+                text,
+            )
+        elif "</cp:coreProperties>" in text:
+            text = text.replace(
+                "</cp:coreProperties>",
+                f"<dc:description>{DOCX_STATUS}</dc:description></cp:coreProperties>",
+            )
+        if not re.search(status, text):
+            raise RuntimeError("DOCX controlled-status metadata was not written")
         return text.encode("utf-8")
 
     rewrite_archive(path, {"docProps/core.xml": core_xml})
@@ -111,7 +129,7 @@ def main() -> None:
 
         def validate_docx(docx_path: Path, qa_dir: Path):
             try:
-                return original_validate_docx(docx_path, qa_dir)
+                result = original_validate_docx(docx_path, qa_dir)
             except RuntimeError as exc:
                 message = str(exc)
                 known = "DOCX render: no broken replacement characters"
@@ -153,7 +171,13 @@ def main() -> None:
                     f"{len(contacts)} sheets",
                 )
                 validation.require()
-                return validation, len(reader.pages), contacts, pdf_path
+                result = validation, len(reader.pages), contacts, pdf_path
+
+            with ZipFile(docx_path, "r") as archive:
+                core = archive.read("docProps/core.xml").decode("utf-8")
+            if DOCX_STATUS not in core:
+                raise RuntimeError("DOCX controlled-status metadata is missing")
+            return result
 
         book4.strip_yaml_and_heading = strip_yaml_and_heading
         book4.validate_docx = validate_docx
