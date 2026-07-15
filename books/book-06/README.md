@@ -4,7 +4,7 @@
 **Series:** The Blackwood Ridge Mysteries #6  
 **Genre:** Atmospheric cozy mystery / amateur sleuth  
 **Target:** 25,000 manuscript words across eight chapters  
-**Status:** Controlled whole-draft revision, controlled line edit, and controlled final prose polish complete; 25,645 manuscript-prose words; proofreading and all later production stages pending
+**Status:** Controlled whole-draft revision, controlled line edit, controlled final prose polish, and controlled proofreading complete; 25,646 manuscript-prose words; export and all later production stages pending
 
 ## Controlling function
 
@@ -64,6 +64,20 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 - **Exact chapter-final lines:** unchanged
 - **Audit record:** `books/book-06/final-prose-polish-report.md`
 
+## Controlled proofreading result
+
+- **Dependency:** PR #30 — `Polish Book 6 prose`
+- **Dependency branch head:** `87109304cb0e0f434d203247467e8b37491f1b2c`
+- **Dependency merge commit / starting main:** `105634b1dbf41a9c15ab6d2ea3df7d9945c8b264`
+- **Proofreading branch:** `agent/book-06-controlled-proofreading`
+- **Chapters reviewed:** 8
+- **Objective corrections:** Chapters 2, 7, and 8
+- **Intentionally unchanged:** Chapters 1, 3, 4, 5, and 6
+- **Proofread total:** 25,646 manuscript-prose words
+- **Net change:** +1 word
+- **Exact chapter-final lines:** unchanged
+- **Audit record:** `books/book-06/proofreading-report.md`
+
 ## Current story state
 
 - Dana Wren — under arrest without confession on the cumulative present-murder case.
@@ -83,7 +97,7 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 - Required control repairs — complete.
 - Controlled line edit — complete.
 - Controlled final prose polish — complete.
-- Proofreading — pending.
+- Controlled proofreading — complete.
 - Export — pending.
 - Package — pending.
 - Cover, listing, upload, and publication — pending.
@@ -91,4 +105,4 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 
 ## Production boundary
 
-The present murder is fully solved without identifying the hidden curator. Book 6 proves steering but does not expose Eli Townsend, invalidate any earlier solution, or draft Book 7. The next production stage is **Book 6 controlled proofreading**. Export, package, cover, listing, upload, distribution, and publication remain deferred.
+The present murder is fully solved without identifying the hidden curator. Book 6 proves steering but does not expose Eli Townsend, invalidate any earlier solution, or draft Book 7. The next production stage is **Book 6 controlled export assembly**. Package, cover, listing, upload, distribution, and publication remain deferred.
