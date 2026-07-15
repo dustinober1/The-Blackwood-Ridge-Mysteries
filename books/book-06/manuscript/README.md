@@ -25,4 +25,4 @@ The detailed proofreading ledger, source list, corrections, rejected candidates,
 
 PR #32 assembles the reader-facing export directly from these eight proofread files. All eight source Git blobs were verified exactly; no manuscript file was changed during export assembly. Markdown, TXT, HTML, DOCX, and EPUB chapter text matched the source in all 40 chapter-format comparisons, all 40 final-line checks passed, and all 39 scene breaks were preserved. DOCX rendered to 71 pages and passed page-level visual review.
 
-The repository EPUBCheck/CI gate remains pending, so controlled export completion has not yet been recorded. Package, cover, listing, upload, and publication remain pending. Book 6 is not upload ready.
+The repository EPUBCheck/CI gate remains pending. GitHub Actions run `29432336294` and its failed-job rerun both failed before any workflow step began, with no available step summary or downloadable log. Controlled export completion has therefore not been recorded. Package, cover, listing, upload, and publication remain pending. Book 6 is not upload ready.
