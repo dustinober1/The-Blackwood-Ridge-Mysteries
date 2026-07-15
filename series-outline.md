@@ -54,7 +54,7 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 - **Package state:** Final proof/export and all non-cover package materials are complete. Package remains in progress because no approved canonical ebook cover exists; publication remains pending and the book is not upload ready.
 - **Target / actual:** 25,000 / 25,174 manuscript-prose words; 25,501 combined reader-facing export words.
 
-### Book 6 — The Pattern — controlled final prose polish complete
+### Book 6 — The Pattern — controlled proofreading complete
 
 - **Central conflict:** Local historian Miriam Vale is murdered while researching county surveyor June Halbrook's 1989 disappearance. Modern annotations in genuine historical materials are designed for Callie to notice and interpret.
 - **Immediate solution:** Dana Wren kills Miriam with brass map weight six and stages a ladder fall to protect a riverfront redevelopment, her financing, and the historical suppression path associated with her father's company.
@@ -66,9 +66,10 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 - **Acceptance:** PR #27 merged at post-acceptance `main` `59498c40cbe21c0cab48c85c3668bbf9d181f3b2`; accepted first draft 25,181 words.
 - **Controlled revision:** PR #28 merged as `fd05fc7ed18e200072118bdbd5d4983fc92e0e6d`. R-01 through R-07 complete. O-01, O-02, O-03, and O-10 implemented; all other optional revisions skipped to avoid broad line editing. Chapters 1–5 reviewed unchanged; Chapters 6–8 revised; all exact final lines unchanged.
 - **Controlled line edit:** All eight chapters reviewed from the post-PR-#28 baseline. Chapter 6 received five word-neutral clarity, rhythm, antecedent, and attribution repairs; Chapters 1–5 and 7–8 were intentionally retained without prose changes; all exact final lines remain unchanged.
-- **Controlled final prose polish:** All eight chapters reviewed from post-PR-#29 `main` `9a09c16e7ce523615aec297cd6ce8f7d92273022`. Every chapter was intentionally retained without prose change because no proposed wording materially improved voice, texture, emotional precision, or reading flow without reopening preference editing or weakening a functional control. All chapter blobs, counts, titles, and exact final lines remain unchanged.
-- **Status:** Controlled final prose polish complete at 25,645 manuscript-prose words. Proofreading, export, package, cover/listing/upload, and publication remain pending. Book 6 is not upload ready.
-- **Target / actual:** 25,000 / 25,645 manuscript-prose words.
+- **Controlled final prose polish:** All eight chapters reviewed from post-PR-#29 `main` `9a09c16e7ce523615aec297cd6ce8f7d92273022`. Every chapter was intentionally retained without prose change because no proposed wording materially improved voice, texture, emotional precision, or reading flow without reopening preference editing or weakening a functional control. All chapter blobs, counts, titles, and exact final lines remained unchanged at 25,645 words.
+- **Controlled proofreading:** Began from merged PR #30 at `main` `105634b1dbf41a9c15ab6d2ea3df7d9945c8b264`. Chapters 2, 7, and 8 received three objective mechanical corrections; Chapters 1, 3, 4, 5, and 6 were intentionally unchanged. Net change +1 word. All chapter titles, exact final lines, mystery facts, evidence limits, authority, custody, chronology, Mercer wording, and Eli boundaries remain unchanged.
+- **Status:** Controlled proofreading complete at 25,646 manuscript-prose words. Export, package, cover/listing/upload, and publication remain pending. Book 6 is not upload ready.
+- **Target / actual:** 25,000 / 25,646 manuscript-prose words.
 
 ### Book 7 — The Reckoning — planned
 
