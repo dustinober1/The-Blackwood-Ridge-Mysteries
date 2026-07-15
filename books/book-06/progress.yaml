@@ -4,11 +4,23 @@ status: in_progress
 target_words: 25000
 actual_words: 25181
 chapter_count: 8
+formal_acceptance:
+  verdict: "ACCEPTED WITH REQUIRED PRE-REVISION CONTROL REPAIRS"
+  accepted_main_head: "3130ff6aaf6fcebb778d7b15f3d441566637ae95"
+  accepted_chapter_count: 8
+  accepted_words: 25181
+  revision_plan: complete
+  required_revision_count: 7
+  optional_revision_count: 12
+  pre_revision_control_repairs_required: true
+  manuscript_prose_changed: false
 stages:
   concept: complete
   bible: complete
   outline: complete
   draft: complete
+  acceptance: complete
+  revision_plan: complete
   revise: pending
   polish: pending
   export: pending
@@ -24,5 +36,21 @@ chapters:
   - {n: 7, title: "The Weight of the Map", target_words: 3100, status: drafted, actual_words: 3100}
   - {n: 8, title: "The Pattern", target_words: 3150, status: drafted, actual_words: 3150}
 word_target_sum: 25000
+validation:
+  first_draft_complete: true
+  first_draft_formally_accepted: true
+  chapter_count_verified: true
+  exact_word_count_verified: true
+  revision_plan_complete: true
+  required_and_optional_revisions_separated: true
+  murderer_curator_separation_preserved: true
+  halbrook_accident_concealment_separation_preserved: true
+  dana_no_confession_preserved: true
+  mercer_exact_provenance_preserved: true
+  eli_unidentified: true
+  book_5_changed: false
+  book_7_prose_exists: false
+  revision_complete: false
+  manuscript_prose_changed_in_acceptance_pass: false
 publication_status: pending
 upload_ready: false
