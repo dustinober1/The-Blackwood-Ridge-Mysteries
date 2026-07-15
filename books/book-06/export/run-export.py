@@ -104,6 +104,21 @@ def normalize_epub(path: Path) -> None:
     )
 
 
+def ensure_html_author_metadata(path: Path) -> None:
+    """Preserve the approved author metadata in the standalone HTML export."""
+    text = path.read_text(encoding="utf-8")
+    author_meta = '  <meta name="author" content="Vesper Blythe" />\n'
+    if author_meta in text:
+        return
+    viewport_meta = (
+        '  <meta name="viewport" content="width=device-width, '
+        'initial-scale=1.0, user-scalable=yes" />\n'
+    )
+    if viewport_meta not in text:
+        raise RuntimeError("HTML viewport metadata anchor was not found")
+    path.write_text(text.replace(viewport_meta, viewport_meta + author_meta, 1), encoding="utf-8")
+
+
 def main() -> None:
     pipeline = load_pipeline()
     original_load_book4 = pipeline.load_book4
@@ -111,6 +126,7 @@ def main() -> None:
 
     def deterministic_build(book4, book: Path, combined: Path, chapters):
         artifacts = original_build(book4, book, combined, chapters)
+        ensure_html_author_metadata(artifacts["html"])
         normalize_docx(artifacts["docx"])
         normalize_epub(artifacts["epub"])
         return artifacts
@@ -144,7 +160,7 @@ def main() -> None:
                 reader = book4.PdfReader(str(pdf_path))
                 page_texts = [(page.extract_text() or "") for page in reader.pages]
                 replacement_pages = [
-                    index + 1 for index, text in enumerate(page_texts) if "\ufffd" in text
+                    index + 1 for index, text in enumerate(page_texts) if "�" in text
                 ]
                 page_pngs = sorted((qa_dir / "docx-pages").glob("page-*.png"))
                 contacts = sorted((qa_dir / "contact-sheets").glob("*.png"))
