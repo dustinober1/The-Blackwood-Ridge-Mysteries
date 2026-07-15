@@ -21,4 +21,8 @@ The manuscript remains single third-person limited through Callie Thorne. Dana W
 
 The detailed proofreading ledger, source list, corrections, rejected candidates, count reconciliation, and validation record are in `books/book-06/proofreading-report.md`.
 
-Controlled proofreading is complete. Export, package, cover, listing, upload, and publication remain pending. Book 6 is not upload ready.
+## Export preservation state
+
+PR #32 assembles the reader-facing export directly from these eight proofread files. All eight source Git blobs were verified exactly; no manuscript file was changed during export assembly. Markdown, TXT, HTML, DOCX, and EPUB chapter text matched the source in all 40 chapter-format comparisons, all 40 final-line checks passed, and all 39 scene breaks were preserved. DOCX rendered to 71 pages and passed page-level visual review.
+
+The repository EPUBCheck/CI gate remains pending, so controlled export completion has not yet been recorded. Package, cover, listing, upload, and publication remain pending. Book 6 is not upload ready.
