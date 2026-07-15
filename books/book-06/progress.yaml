@@ -299,10 +299,10 @@ chapters:
     final_polish_delta: 0
     proofreading_disposition: corrected
     proofreading_starting_blob: "349a95c237c97039de30fae07c46753a5c7eef15"
-    proofreading_final_blob: "3a66162e88b9491d14b04e217a1997336840cf86"
+    proofreading_final_blob: "be9f1a5531c3a6d61430483b76ed01472d0a03e4"
     proofreading_words: 3481
     proofreading_delta: 1
-    proofreading_corrections: ["missing article"]
+    proofreading_corrections: ["missing article", "apostrophe consistency"]
     final_line_unchanged: true
 word_target_sum: 25000
 validation:
