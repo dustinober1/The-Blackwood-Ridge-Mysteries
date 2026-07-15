@@ -2,7 +2,7 @@
 
 ## Current status
 
-**Reader-facing artifacts assembled and independently validated; repository EPUBCheck/CI gate pending. Package, cover, listing, upload, and publication remain pending.**
+**Reader-facing artifacts assembled and independently validated; repository EPUBCheck/CI gate failed before step execution and remains pending. Package, cover, listing, upload, and publication remain pending.**
 
 Book 6 is not upload ready and is not published.
 
@@ -17,11 +17,11 @@ Book 6 is not upload ready and is not published.
 - All eight locked final lines were preserved.
 - DOCX opened, rendered to 71 pages, rasterized page-for-page, and passed four-sheet visual review.
 - EPUB opened, parsed, exposed correct metadata, spine, manifest, navigation, mimetype, and source-identical chapter text.
-- 234/234 local checks passed.
+- 234/234 local export checks and 23/23 post-normalization checks passed.
 
 ## Remaining gate
 
-The active runtime did not contain EPUBCheck, and connector-authored branch commits did not dispatch the newly added GitHub Actions workflow. Therefore EPUBCheck is recorded as pending rather than falsely marked passed. The branch workflow remains configured to run EPUBCheck and commit stable reader-facing exports when dispatched in GitHub.
+The active runtime did not contain EPUBCheck. GitHub Actions run `29432336294` dispatched for the Book 6 export workflow and failed before any workflow step began. A failed-job rerun was requested and also failed before step execution. GitHub returned no step summaries and no downloadable job log, so no unsupported cause is assigned. EPUBCheck and workflow-generated branch integration therefore remain pending rather than falsely marked passed.
 
 ## Production boundary
 
