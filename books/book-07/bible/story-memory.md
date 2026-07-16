@@ -1,0 +1,134 @@
+---
+doc: story-memory
+status: locked
+book: 7
+internal_spoilers: case_solution_and_long_arc
+reader_facing: false
+---
+
+# Book Story Memory — The Reckoning
+
+## Entry state
+
+- Date: Thursday, June 10, 2027, approximately seven and a half weeks after Book 6.
+- Callie remains publicly trusted and privately more cautious about how material reaches her.
+- Cross's written, case-specific consultant arrangement remains active and bounded.
+- Mae and Callie remain in a workable new normal.
+- Eli remains a skilled, trusted apprentice at entry.
+- Callie's private route ledger contains the Book 5 Mercer ticket and Book 6 route points, with identity blank.
+- Book 6 export recovery remains a production issue only and does not affect story continuity.
+
+## Locked standalone case
+
+Imogen Price is killed by Vivienne Croft inside aisle B of the Blackwood Ridge Heritage Center's powered compact shelving. Vivienne uses maintenance override key `MO-2` and a commissioning bridge to defeat the safety edge and close the carriage while Imogen is inside.
+
+Vivienne acts to conceal that the Blackwood Civic Petition Book is a false composite assembled from five genuine leaves and to protect the $840,000 state grant, $210,000 donor match, center opening, and her own signed provenance certification.
+
+Vivienne's arrest does not depend on Eli, Callie's controlled test, or a confession.
+
+## Locked document/object system
+
+The five genuine leaves come from separate source streams:
+
+1. 1911 public-library subscription campaign.
+2. 1912 south-road bond petition.
+3. 1912 temperance licensing petition.
+4. 1913 school-levy petition.
+5. 1913 mill-relief subscription.
+
+They differ in:
+
+- accession numbers;
+- paper dimensions and ruling;
+- sewing-hole positions;
+- edge loss and source-box fit;
+- historical captions;
+- ink and signature context;
+- earlier institutional photographs.
+
+Vivienne placed them into an empty contemporary clerk's binding and created a false unified catalog history. The leaves remain genuine and retain value after separation. The falsehood is provenance and arrangement.
+
+## Locked controlled-test design
+
+- Cross knows the design in advance and reviews boundaries.
+- Callie owns and controls the test as private shop work product.
+- Mae witnesses the baseline.
+- No police officer creates, plants, bags, files, or submits the false entry.
+- The entry is in a staff sandbox and explicitly marked `UNVERIFIED — OWNER REVIEW REQUIRED`.
+- The genuine 1912 shop-owned circular begins in stock drawer `CIV-4`.
+- Training folder `7B` begins empty.
+- Both locations are photographed and protected only by ordinary shop inventory tabs, not evidence seals.
+- Existing shop video records movement without audio.
+- Staff login and scanner history provide ordinary business logs.
+- No public catalog, customer record, court, witness, suspect interview, warrant, laboratory, police report, or charging document receives the entry as authentic.
+- Eli sees the unverified internal route during his ordinary shift.
+- Eli scans the genuine circular, moves it to `7B`, and creates a route slip reading `repair continuation`.
+- The test stops after first movement.
+- The circular is restored.
+- No innocent person is affected.
+- The response is corroboration only.
+
+## Locked Eli proof
+
+Independent evidence preceding the confirmatory admission includes:
+
+### Book 5
+
+- repair-room assignment records place Eli in control of the general repair drawer during the placement interval;
+- the ticket had been separately itemized on the repair invoice;
+- the routing slip in Eli's hand groups it under `MERCER / CHANCERY / repair papers`;
+- the ticket was centered deliberately in the returned volume;
+- Mae found it but did not place it;
+- Eli said it `belonged with` the return;
+- no other person has the same access/timing/movement combination.
+
+### Book 6
+
+- authenticated institutional visitor and task logs place Eli at the Grange accession register and St. Orison ledger after the relevant no-mark image states and before first marked states;
+- Foxed Page repair-bench records place him with the road pamphlet after the March 2 no-mark intake image;
+- shop circulation records place him in the handling path of the atlas before its loan to Mr. Haskell;
+- staff scanner history under Eli's credentials opens or prints the Grange treatment image, St. Orison reference, and Shelf Three index in the same route order;
+- an unpublished apprenticeship exercise uses the same absence → adjacent source → next shelf grammar;
+- Callie is excluded by her own schedules, institutional logs, and the authenticated no-mark/first-mark chronology.
+
+### Controlled behavior
+
+- Eli makes an unsupported private route physically true by moving a genuine circular and creating a route slip.
+- The behavior repeats the documented category-mismatch and placement logic.
+- It does not alone prove prior acts or criminal liability.
+
+### Admission
+
+After Cross states the independent proof and voluntary-interview limits, Eli confirms that he moved the Mercer ticket, created the three Book 6 marks, and inserted the pamphlet into the atlas route. The admission confirms, but does not create, the conclusion.
+
+## Supported conclusion and limits
+
+Supported:
+
+- Eli deliberately curated and redirected genuine materials beginning in Book 5 and continuing through Book 6.
+- He controlled timing, placement, marks, shelving, and route.
+- He designed for Callie's reading habits.
+- He believed genuine truth and usefulness justified the intervention.
+
+Not supported or prohibited:
+
+- Books 1–4 curation;
+- any murder creation or direction;
+- decisive forgery;
+- innocent framing;
+- police evidence contamination;
+- a completed charge, conviction, or sentence;
+- a final account of every future intention.
+
+## Ending state
+
+- Vivienne is under arrest without confession.
+- Imogen's work survives in the corrected catalog and separated leaves.
+- The Heritage Center's grant and governance consequences remain with their proper authorities.
+- Eli's apprenticeship ends.
+- Eli returns his shop key and loses staff access.
+- Cross refers supported conduct for independent legal review.
+- Mae remains present without declaring forgiveness.
+- Callie fills the past-route identity field at supported limits but leaves future intent blank.
+- Callie and Eli do not reconcile.
+- Book 8 remains responsible for the final warning and final choice.

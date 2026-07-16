@@ -72,11 +72,17 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 - **Status:** 25,646 manuscript-prose words; 25,918 combined reader-facing words by the repository Markdown-aware export count. Export repository gate, package, cover/listing/upload, and publication remain pending. Book 6 is not upload ready.
 - **Target / actual:** 25,000 / 25,646 manuscript-prose words.
 
-### Book 7 — The Reckoning — planned
+### Book 7 — The Reckoning — ready to draft
 
-- **Central conflict:** Callie plants a controlled false discovery and watches who moves. Eli's role in curating document paths is exposed.
-- **Series advancement:** The apprentice becomes the moral mirror. Eli has used genuine evidence and Callie's methods to control access to truth.
-- **Continuity lock:** His actions may be criminal or ethically serious, but he has not manufactured the solved murder cases or framed innocent killers.
+- **Central conflict:** Independent conservator Imogen Price is killed inside the Blackwood Ridge Heritage Center's powered compact shelving after discovering that its celebrated 1912 petition book is a false composite assembled from five genuine leaves. Callie also creates a lawful, private, reversible controlled route test to determine who has been making genuine material arrive non-neutrally.
+- **Immediate solution:** Heritage Center executive director Vivienne Croft uses maintenance override key `MO-2` and a commissioning bridge to defeat the shelving safety system and kill Imogen during the 5:43–5:51 p.m. death window. Vivienne acts to protect an $840,000 state grant, a $210,000 donor match, the center opening, her signed false unified-provenance certification, and her career.
+- **Murder proof:** Controller logs, safety-channel bypass evidence, a physically fitting cut polyester mount sheet, commissioning bridge, Imogen's concealed assembly worksheet, false key timing, service-door/parking records, grant certification, and suspect alibis establish arrest without confession.
+- **Controlled-test architecture:** The test uses only shop-owned material, an explicitly unverified sandbox catalog entry, an empty training folder, ordinary shop logs, and reversible controls. Cross knows the safeguards in advance. The fabricated route is never police evidence, never enters the homicide file, and cannot cause arrest, search, public accusation, or harm.
+- **Eli exposure:** Eli moves a genuine shop circular to make the unsupported route physically true. That response is corroboration only. Independent Book 5 and Book 6 access, timing, movement, route-slip, scanner, atlas, institutional-log, and unpublished comparison-grid evidence establishes deliberate curation beginning in Book 5 and continuing through Book 6.
+- **Protection:** Eli is not the murderer, did not create any solved case, did not forge decisive guilt evidence, did not frame an innocent person, and did not contaminate police custody. Books 1–4 are not attributed to him.
+- **Ending state:** Vivienne is arrested without confession; the five leaves' individual provenance is restored; Eli's apprenticeship and shop access end; possible legal violations are referred without inventing a completed charge or outcome; Callie and Eli do not reconcile; future intent remains blank.
+- **Book 8 protection:** Eli remains alive and capable of leaving the final warning. The future murder, Callie's final trust decision, and shared-reading ending remain reserved.
+- **Plan:** Eight chapters; exact target 25,000 words; no manuscript prose yet.
 - **Target:** 25,000 words.
 
 ### Book 8 — The Last Margin — planned
