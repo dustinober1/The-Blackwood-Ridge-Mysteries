@@ -30,7 +30,7 @@ books:
   - n: 7
     title: "The Reckoning"
     dir: "books/book-07"
-    status: ready_to_draft
+    status: in_progress
   - n: 8
     title: "The Last Margin"
     dir: "books/book-08"
