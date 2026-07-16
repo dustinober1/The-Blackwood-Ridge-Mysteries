@@ -18,6 +18,21 @@ reader_facing: false
 - Callie's private route ledger contains the Book 5 Mercer ticket and Book 6 route points, with identity blank.
 - Book 6 export recovery remains a production issue only and does not affect story continuity.
 
+## Completed Chapter 1 memory — The Petition Book
+
+- **Date and endpoint:** Thursday, June 10, 2027, 3:35–6:52 p.m.; The Foxed Page and the Blackwood Ridge Heritage Center. The chapter ends in the Heritage Center side hall after Cross closes Callie's narrow identification authorization.
+- **Imogen alive and professionally specific:** Independent conservator and grant-compliance reviewer Imogen Price arrives with authorized working images, exact handling limits, dry humor, strong preferences, and a willingness to stop an admired exhibit rather than allow material uncertainty to become institutional certainty.
+- **Callie's entry state:** Callie keeps the private route ledger closed during ordinary shop work. She remains cautious about source, custody, movement, and intended reader without naming a culprit or treating unease as proof.
+- **Mae and Eli boundaries:** Mae protects time, food, and shop function without solving. Eli correctly records source ownership, leaves unsupported fields blank, remains at The Foxed Page from 4:12 onward, and receives no Heritage Center original, police material, private route theory, controlled-test knowledge, POV, or suspicious interiority.
+- **Initial artifact question:** Imogen's authorized images show five genuine petition leaves represented as one 1912 volume. Visible anomalies include incompatible sewing stations, a damaged edge corresponding to a separate source-box photograph, and remnants of different accession numbers. Callie concludes only that the object requires controlled provenance review.
+- **Controlled Heritage Center review:** At 4:24, a Heritage Center custodian logs Callie and Imogen into the exhibit lab. Callie signs a record-specific observation scope, handles no leaf, and examines only while the custodian controls the petition book on its cradle. From 4:31–5:16, visible relationships support that genuine components may have been arranged into a false whole without resolving all five source histories or establishing fraud.
+- **Suspect and red-herring pressure:** Asha is anxious about catalog dates; Julian demands removal of a family signature; Celia presses for Imogen's findings; Theo resents Imogen's safety and compliance criticism and demonstrates knowledge of the shelving override system; Vivienne is competent, pressured by the opening, and knows Imogen's exact Box `B-17` review plan.
+- **Callie's departure and withheld fatal interval:** Callie's written scope ends and she leaves at 5:31. Imogen's later voice note, annex entry, fatal act, controller cycle, and Vivienne's corridor movements remain outside Callie's POV and are not narrated.
+- **Discovery and official response:** Asha finds Imogen at 6:18 and calls 911 at 6:22. Cross secures the Heritage Center at 6:31, takes Callie's timed witness account, and authorizes only threshold identification of the petition book and the earlier room arrangement after Bell documents the scene.
+- **Closing clue:** Callie stays behind the marked threshold, touches nothing, asks no witness questions, and makes no mechanical, medical, grant, fraud, or homicide conclusion. At 6:52 Cross ends her authorization while the controller display still shows a small amber maintenance indicator.
+- **Exact final line:** ``The small amber light beside `MAINTENANCE` was still on.``
+- **Withheld:** Vivienne as killer; exact maintenance-override method; commissioning bridge; controller-cycle meaning; complete grant fraud; five final source histories; full assembly worksheet; warrant evidence; controlled-test design; Eli as curator; and all Book 8 material.
+
 ## Locked standalone case
 
 Imogen Price is killed by Vivienne Croft inside aisle B of the Blackwood Ridge Heritage Center's powered compact shelving. Vivienne uses maintenance override key `MO-2` and a commissioning bridge to defeat the safety edge and close the carriage while Imogen is inside.

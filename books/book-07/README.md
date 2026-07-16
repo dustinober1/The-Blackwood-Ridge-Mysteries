@@ -4,7 +4,7 @@
 **Series:** The Blackwood Ridge Mysteries #7  
 **Genre:** Atmospheric cozy mystery / amateur sleuth  
 **Target:** 25,000 manuscript-prose words across eight chapters  
-**Status:** Planning and canon package complete; ready for Chapter 1 mission lock and drafting; no manuscript prose exists
+**Status:** First draft in progress; Chapter 1 drafted at 3,100 manuscript-prose words
 
 ## Controlling function
 
@@ -47,6 +47,14 @@ Eli responds by moving a genuine shop-owned 1912 circular into the empty trainin
 - Eli remains alive, mobile, and capable of the Book 8 warning.
 - Book 8's final moral choice remains unresolved.
 
+## Current production state
+
+- Chapter 1 — **The Petition Book** — drafted at 3,100 manuscript-prose words.
+- Chapters 2–8 — planned and undrafted.
+- Chapter 1 formal acceptance and revision review — next.
+- Whole-draft revision, line edit, prose polish, proofreading, export, package, cover, listing, upload, distribution, and publication — pending.
+- Upload ready — no.
+
 ## Production boundary
 
-No `ch-01.md` or other manuscript chapter exists. No export, package, cover, listing, upload, advertising, distribution, or publication work belongs to this initialization. The next task is **Book 7 Chapter 1 mission lock and first-draft production**.
+No Chapter 2 manuscript exists. Chapter 2 must not be drafted until Chapter 1 receives a dedicated formal acceptance and revision review and that work is merged. No export, package, cover, listing, upload, advertising, distribution, or publication work belongs to the Chapter 1 production pass.

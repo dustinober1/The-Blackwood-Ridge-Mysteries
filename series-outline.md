@@ -72,7 +72,7 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 - **Status:** 25,646 manuscript-prose words; 25,918 combined reader-facing words by the repository Markdown-aware export count. Export repository gate, package, cover/listing/upload, and publication remain pending. Book 6 is not upload ready.
 - **Target / actual:** 25,000 / 25,646 manuscript-prose words.
 
-### Book 7 — The Reckoning — ready to draft
+### Book 7 — The Reckoning — draft in progress
 
 - **Central conflict:** Independent conservator Imogen Price is killed inside the Blackwood Ridge Heritage Center's powered compact shelving after discovering that its celebrated 1912 petition book is a false composite assembled from five genuine leaves. Callie also creates a lawful, private, reversible controlled route test to determine who has been making genuine material arrive non-neutrally.
 - **Immediate solution:** Heritage Center executive director Vivienne Croft uses maintenance override key `MO-2` and a commissioning bridge to defeat the shelving safety system and kill Imogen during the 5:43–5:51 p.m. death window. Vivienne acts to protect an $840,000 state grant, a $210,000 donor match, the center opening, her signed false unified-provenance certification, and her career.
@@ -82,7 +82,8 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 - **Protection:** Eli is not the murderer, did not create any solved case, did not forge decisive guilt evidence, did not frame an innocent person, and did not contaminate police custody. Books 1–4 are not attributed to him.
 - **Ending state:** Vivienne is arrested without confession; the five leaves' individual provenance is restored; Eli's apprenticeship and shop access end; possible legal violations are referred without inventing a completed charge or outcome; Callie and Eli do not reconcile; future intent remains blank.
 - **Book 8 protection:** Eli remains alive and capable of leaving the final warning. The future murder, Callie's final trust decision, and shared-reading ending remain reserved.
-- **Plan:** Eight chapters; exact target 25,000 words; no manuscript prose yet.
+- **Production:** Chapter 1 — **The Petition Book** — drafted at exactly 3,100 manuscript-prose words. Chapters 2–8 remain planned and undrafted. Chapter 1 formal acceptance and revision review is the next task; Chapter 2 remains prohibited until Chapter 1 is accepted and merged.
+- **Plan:** Eight chapters; exact target 25,000 words.
 - **Target:** 25,000 words.
 
 ### Book 8 — The Last Margin — planned

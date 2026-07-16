@@ -2,9 +2,9 @@ book: 7
 title: "The Reckoning"
 series: "The Blackwood Ridge Mysteries"
 author: "Vesper Blythe"
-status: ready_to_draft
+status: in_progress
 target_words: 25000
-actual_words: 0
+actual_words: 3100
 chapter_count: 8
 pov: "Callie Thorne"
 timeline:
@@ -19,8 +19,8 @@ stages:
   continuity_locks: complete
   character_arcs: complete
   outline: complete
-  chapter_01_mission_lock: pending
-  drafting: pending
+  chapter_01_mission_lock: complete
+  drafting: in_progress
   whole_draft_revision: pending
   line_edit: pending
   prose_polish: pending
@@ -32,7 +32,7 @@ stages:
   upload: pending
   publication: pending
 flags:
-  manuscript_prose_exists: false
+  manuscript_prose_exists: true
   upload_ready: false
   immediate_murder_complete_in_plan: true
   murder_independent_of_eli: true
@@ -42,8 +42,8 @@ chapters:
   - n: 1
     title: "The Petition Book"
     target_words: 3100
-    actual_words: 0
-    status: planned
+    actual_words: 3100
+    status: drafted
   - n: 2
     title: "The Closed Aisle"
     target_words: 3050
@@ -79,4 +79,4 @@ chapters:
     target_words: 3100
     actual_words: 0
     status: planned
-next_task: "Book 7 Chapter 1 mission lock and first-draft production"
+next_task: "Book 7 Chapter 1 formal acceptance and revision review"
