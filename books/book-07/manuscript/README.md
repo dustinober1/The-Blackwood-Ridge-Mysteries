@@ -1,18 +1,18 @@
 # Book 7 Manuscript Directory
 
-Book 7 — *The Reckoning* is initialized and ready for one-chapter-at-a-time production.
+Book 7 — *The Reckoning* first-draft production is in progress.
 
 Current manuscript status:
 
-- Chapter 1 — **The Petition Book** — planned, target 3,100 words.
-- Chapter 2 — **The Closed Aisle** — planned, target 3,050 words.
-- Chapter 3 — **Five Genuine Leaves** — planned, target 3,150 words.
-- Chapter 4 — **The Override Key** — planned, target 3,100 words.
-- Chapter 5 — **A Catalog for No One** — planned, target 3,200 words.
-- Chapter 6 — **What Moved After Closing** — planned, target 3,200 words.
-- Chapter 7 — **The Case That Stood Alone** — planned, target 3,100 words.
-- Chapter 8 — **The Reckoning** — planned, target 3,100 words.
+- `ch-01.md` — **The Petition Book** — drafted, 3,100 words.
+- `ch-02.md` — **The Closed Aisle** — planned, not drafted.
+- `ch-03.md` — **Five Genuine Leaves** — planned, not drafted.
+- `ch-04.md` — **The Override Key** — planned, not drafted.
+- `ch-05.md` — **A Catalog for No One** — planned, not drafted.
+- `ch-06.md` — **What Moved After Closing** — planned, not drafted.
+- `ch-07.md` — **The Case That Stood Alone** — planned, not drafted.
+- `ch-08.md` — **The Reckoning** — planned, not drafted.
 
-Exact planned total: **25,000 manuscript-prose words**.
+Total drafted manuscript prose: **3,100 words**.
 
-No `ch-01.md` or other manuscript chapter exists. No prose has been drafted. The next production action is a Chapter 1 mission lock followed by the first Chapter 1 draft on a dedicated branch and pull request.
+Chapter 2 remains absent. The next production action is the dedicated Chapter 1 formal acceptance and revision review. Chapter 2 must not be drafted until Chapter 1 is formally accepted and that review work is merged.
