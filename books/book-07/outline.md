@@ -277,7 +277,7 @@ Vivienne is arrested before Eli is confronted. The homicide warrant and arrest b
   - controlled movement and route slip;
   - exclusion of Callie and others through timing/custody.
 - **Admission:** In a voluntary noncustodial conversation after proof exists, Eli confirms moving the Mercer ticket, creating the Book 6 marks, and placing the pamphlet into the atlas route. He may explain usefulness and belonging; explanation does not excuse.
-- **Procedural/legal boundary:** Cross states Eli may leave or seek counsel. No coercion. No controlled item becomes genuine evidence. Possible unauthorized access, alteration, business-record, or obstruction questions are referred to the Commonwealth's Attorney/institutional authorities. No charge or final disposition is invented.
+- **Procedural/custody boundaries:** Cross states Eli may leave or seek counsel. No coercion. No controlled item becomes genuine evidence. Possible unauthorized access, alteration, business-record, or obstruction questions are referred to the Commonwealth's Attorney/institutional authorities. No charge or final disposition is invented.
 - **Callie's emotional movement:** Betrayal and grief coexist with recognition that Eli did not manufacture murder. She refuses both total demonization and protective minimization. She ends the apprenticeship.
 - **Mae's function:** Mae confirms what she found and did not know, receives Eli's returned key only when Callie asks, and offers presence without declaring forgiveness.
 - **Cross's function:** Preserve evidence limits and consequences; leave with authorized copies; do not mediate family emotion.
