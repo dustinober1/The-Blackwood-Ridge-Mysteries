@@ -106,7 +106,7 @@ The seven-minute drive and walk to the reception are ordinary. Her first continu
 4. Vivienne's signed grant certification claims continuous unified provenance and an intact 1912 volume.
 5. Imogen's recovered assembly worksheet identifies all five source streams and states `STOP EXHIBIT / NOTIFY GRANT OFFICE`.
 6. The worksheet is recovered inside Vivienne's grant binder, where it had no authorized reason to be.
-7. The handwritten `MO-2` checkout line was altered from `5:50` to `4:50`; paper indentation and the original digital key-cabinet alert preserve the later time without relying on handwriting identity.
+7. The handwritten `MO-2` key-check line was altered from `5:50` to `4:50`; paper indentation and the original digital key-cabinet alert preserve the later time without relying on handwriting identity.
 8. Contractor records show Vivienne completed override training and received the warning that maintenance mode defeats ordinary safety interlocks.
 
 ## Timeline and witness proof
@@ -133,7 +133,7 @@ Reader-visible clues include:
 - the missing Box `B-17` transfer slips;
 - mismatched sewing stations and leaf edges;
 - Vivienne's incorrect claim that the shelves cannot move with a person inside;
-- the `MO-2` checkout alteration;
+- the `MO-2` key-check alteration;
 - her service-door and parking times;
 - the grant certification;
 - the missing worksheet;
