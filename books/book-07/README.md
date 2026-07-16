@@ -22,7 +22,7 @@ The apparent equipment failure becomes homicide when controller records show a m
 
 - **Victim:** Imogen Price.
 - **Killer:** Vivienne Croft, executive director of the Blackwood Ridge Heritage Center.
-- **Motive:** Protect an $840,000 Virginia state heritage grant, a $210,000 donor match, the center's opening, and Vivienne's career from exposure of the composite artifact and her false unified-provenance certification.
+- **Motive:** Protect an $840,000 state heritage grant, a $210,000 donor match, the center's opening, and Vivienne's career from exposure of the composite artifact and her false unified-provenance certification.
 - **Method:** Vivienne uses maintenance override key `MO-2` and a removable commissioning bridge to bypass the compact-shelving safety edge, then closes aisle B while Imogen is inside.
 - **Death window:** Thursday, June 10, 2027, 5:43–5:51 p.m.; the controller records the decisive maintenance-mode closure from 5:46:12 to 5:48:03 p.m.
 - **Staging:** Vivienne reopens the aisle, removes the bridge, trips the emergency stop, and leaves the scene to resemble a shelving malfunction. She removes Imogen's assembly worksheet and conceals it in her grant binder.
