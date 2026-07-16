@@ -79,7 +79,7 @@ Vivienne is arrested before Eli is confronted. The homicide warrant and arrest b
   - transparent polyester sliver in safety-edge channel;
   - Imogen voice note and badge entry;
   - Vivienne service-door credential at 5:51;
-  - altered `MO-2` checkout line.
+  - altered `MO-2` key-check line.
 - **Clues advanced:** Imogen's Box `B-17` plan becomes a lure question; Theo's warning about commissioning bridge.
 - **Clues resolved:** Apparent spontaneous malfunction is rejected; homicide classification opens.
 - **Red herrings:** Theo's prior bypass; an earlier fault ticket; Asha's failure to report one alarm.
