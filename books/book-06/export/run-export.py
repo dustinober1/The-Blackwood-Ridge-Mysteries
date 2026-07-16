@@ -105,18 +105,28 @@ def normalize_epub(path: Path) -> None:
 
 
 def ensure_html_author_metadata(path: Path) -> None:
-    """Preserve the approved author metadata in the standalone HTML export."""
-    text = path.read_text(encoding="utf-8")
-    author_meta = '  <meta name="author" content="Vesper Blythe" />\n'
-    if author_meta in text:
+    """Preserve the approved author metadata and the file's line endings."""
+    with path.open("r", encoding="utf-8", newline="") as handle:
+        text = handle.read()
+    author_meta_tag = '  <meta name="author" content="Vesper Blythe" />'
+    if author_meta_tag in text:
         return
+    newline = "\r\n" if "\r\n" in text else "\n"
     viewport_meta = (
         '  <meta name="viewport" content="width=device-width, '
-        'initial-scale=1.0, user-scalable=yes" />\n'
+        f'initial-scale=1.0, user-scalable=yes" />{newline}'
     )
     if viewport_meta not in text:
         raise RuntimeError("HTML viewport metadata anchor was not found")
-    path.write_text(text.replace(viewport_meta, viewport_meta + author_meta, 1), encoding="utf-8")
+    author_meta = f"{author_meta_tag}{newline}"
+    new_text = text.replace(viewport_meta, viewport_meta + author_meta, 1)
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        handle.write(new_text)
+
+
+def replacement_character_pages(page_texts: list[str]) -> list[int]:
+    """Return one-based page numbers containing Unicode replacement characters."""
+    return [index + 1 for index, text in enumerate(page_texts) if "\ufffd" in text]
 
 
 def main() -> None:
@@ -159,9 +169,7 @@ def main() -> None:
                 pdf_path = qa_dir / "docx-render" / f"{docx_path.stem}.pdf"
                 reader = book4.PdfReader(str(pdf_path))
                 page_texts = [(page.extract_text() or "") for page in reader.pages]
-                replacement_pages = [
-                    index + 1 for index, text in enumerate(page_texts) if "�" in text
-                ]
+                replacement_pages = replacement_character_pages(page_texts)
                 page_pngs = sorted((qa_dir / "docx-pages").glob("page-*.png"))
                 contacts = sorted((qa_dir / "contact-sheets").glob("*.png"))
 
