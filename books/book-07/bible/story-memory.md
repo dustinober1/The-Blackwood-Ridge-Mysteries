@@ -92,7 +92,7 @@ Independent evidence preceding the confirmatory admission includes:
 - repair-room assignment records place Eli in control of the general repair drawer during the placement interval;
 - the ticket had been separately itemized on the repair invoice;
 - the routing slip in Eli's hand groups it under `MERCER / CHANCERY / repair papers`;
-- the ticket was centered deliberately;
+- the ticket was centered deliberately in the returned volume;
 - Mae found it but did not place it;
 - Eli said it `belonged with` the return;
 - no other person has the same access/timing/movement combination.
