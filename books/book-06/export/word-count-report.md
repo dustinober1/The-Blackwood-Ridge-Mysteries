@@ -10,8 +10,11 @@
 - **Combined reader-facing count:** **25,918**
 - **Reconciliation:** 25,613 + 257 + 48 = 25,918
 - **Chapters:** **8**
+- **Scene breaks:** **39**
 - **DOCX render:** **71 pages**
+- **Page images:** **71**
 - **Contact sheets:** **4**
+- **EPUBCheck:** W3C 5.1.0; 0 fatals, 0 errors, 0 warnings, 0 infos; exit 0
 
 The controlled source count is the accepted whitespace-delimited chapter count locked by the post-PR-#31 chapter metadata and exact Git blobs. The repository-standard Markdown-aware counter treats Markdown and documentary punctuation differently; its source subtotal is shown so the combined reader-facing count reconciles exactly.
 
@@ -32,11 +35,11 @@ The controlled source count is the accepted whitespace-delimited chapter count l
 
 | Format | File | Classification | Bytes | SHA-256 |
 |---|---|---|---:|---|
-| Markdown | `manuscript-combined.md` | canonical reader-facing export | 167,821 | `46a4a608c86f98fc7a90de31ceea89d313298a8b2db5d9744c53fe697ae381a0` |
-| TXT | `manuscript-combined.txt` | canonical reader-facing export | 171,225 | `82f8ee17eb9757abca5dd83ca5b5cd2c4424333bab56bcfcaf22765e94bf11b1` |
-| HTML | `manuscript-combined.html` | canonical reader-facing export | 181,943 | `f0235f54163f83ad9c13346a1255f552948e0742676696fb7b4722b23a629463` |
+| Markdown | `manuscript-combined.md` | canonical reader-facing export; generated locally, repository integration pending | 167,821 | `46a4a608c86f98fc7a90de31ceea89d313298a8b2db5d9744c53fe697ae381a0` |
+| TXT | `manuscript-combined.txt` | canonical reader-facing export; generated locally, repository integration pending | 171,225 | `82f8ee17eb9757abca5dd83ca5b5cd2c4424333bab56bcfcaf22765e94bf11b1` |
+| HTML | `manuscript-combined.html` | canonical reader-facing export; generated locally, repository integration pending | 181,943 | `f0235f54163f83ad9c13346a1255f552948e0742676696fb7b4722b23a629463` |
 | DOCX | `The-Pattern.docx` | reproducible reader-facing review artifact | 90,956 | `adb45d52f4d41bfa9a86f901e3542772a408964a47f0b89849cfd213037fac94` |
 | EPUB | `The-Pattern.epub` | reproducible reader-facing review artifact | 79,206 | `66aa8e30c513fdbf2c5fc28abbf5b774b6dfa42d6d1b7168f5c4d1ae0ff2b420` |
-| PDF | `The-Pattern.pdf` | build-specific validation artifact | 518,205 | `457da9c58920921a890a53e1db954617a3ce0a6adf00f51f0f1061262369eeb6` |
+| PDF | `The-Pattern.pdf` | build-specific validation artifact | 518,205 | `8e681aba4789913418f339c3e72d3c543f4c272987fbb9d092eefcdc4d8b4e96` |
 
-The PDF render checksum is build-specific because LibreOffice embeds a creation timestamp and trailer identifier. Page count, extracted text, layout review, and file size remained stable across fresh renders; no byte-reproducibility claim is made for the validation PDF.
+The first five reader-facing artifact checksums reproduce PR #32 exactly. The PDF render checksum is build-specific because LibreOffice embeds changing PDF metadata and identifiers. Its byte size, 71-page count, extracted text, and visual layout remained stable; no byte-reproducibility claim is made for the validation PDF.
