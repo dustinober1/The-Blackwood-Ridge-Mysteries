@@ -1,0 +1,54 @@
+# Continuity, Procedure, Evidence, and Long-Arc Locks
+
+- Sole narrative POV remains third-person limited through Callie Thorne.
+- Eight chapters target exactly 25,000 manuscript-prose words.
+- Violence remains restrained and principally off-page.
+- Imogen Price is the victim.
+- Vivienne Croft is the killer.
+- Powered compact shelving, maintenance override key `MO-2`, and a commissioning bridge form the murder method.
+- The controlled death window is Thursday, June 10, 2027, 5:43–5:51 p.m.; decisive controller cycle 5:46:12–5:48:03.
+- The Blackwood Civic Petition Book contains five genuine leaves from separate 1911–1913 civic campaigns. Their text and signatures are genuine; unified binding and provenance are false.
+- Vivienne's immediate motive is the $840,000 state grant, $210,000 donor match, center opening, signed certification, and career/institutional exposure.
+- The murder is independently solvable and final without Eli evidence.
+- Vivienne does not confess. Silence, invocation, anger, grief, institutional devotion, and demeanor supply no evidence.
+- Cross owns scene control, interviews, evidence custody, forensic requests, warrants, searches, legal conclusions, arrest, charging recommendation, and official public statement.
+- Callie remains a bounded civilian records consultant. She may observe and compare only under written scope and may not direct police activity.
+- Bell, Reed, examiners, and lawful custodians retain their proper evidence and institutional roles.
+- Mae remains practical and emotional anchor, not solver, judge, or universal forgiver.
+- Callie and Cross do not become romantic or unrestricted partners.
+- Eli receives no POV.
+- Eli is not Imogen's killer and did not cause, direct, hire, assist, conceal, or benefit from the murder.
+- Eli has no access to `MO-2`, the controller, commissioning bridge, grant binder, or death scene.
+- Eli did not create the five-leaf composite.
+- Book 5 remains final: Nora Mercer Shaw killed Alton Mercer; the Mercer repair ticket remains genuine, authenticated, recent, non-dispositive, and outside police evidence before disclosure.
+- Exact Mercer provenance remains `Found in returned Mercer volume by M. Hartwell; prior loose-paper location not established.`
+- Eli's active placement begins in Book 5, not Books 1–4.
+- Book 6 remains final: Dana Wren killed Miriam Vale with brass map weight six; June Halbrook's death remains accidental; the three modern marks remain genuine recent additions to genuine hosts; Miriam's triangle remains separate.
+- Book 6 actor, writer, mover, instrument, common-hand, and curator fields were correctly blank at the April 18 ending.
+- Book 7 may add newly recovered contemporaneous access and movement records, but it may not contradict Book 5 or Book 6 custody, timing, visible conduct, or knowledge limits.
+- Eli's exposure must be cumulative: access, timing, movement, route slips, shop logs, institutional logs, scanner history, atlas handling, unpublished comparison knowledge, controlled response, and corroborating facts.
+- Handwriting identification, graphite similarity, demeanor, silence, panic, one access event, or one test reaction cannot establish the reveal.
+- Eli may admit conduct only after independent proof exists. The admission is confirmatory, not foundational.
+- Eli used genuine documents and genuine records. He manipulated access, timing, placement, shelving, marks, and routes.
+- Eli did not forge decisive murder evidence, frame an innocent person, contaminate police custody, or manufacture any solved killer's guilt.
+- The controlled false discovery uses only shop-owned material, an explicitly unverified sandbox entry, an empty training folder, existing shop video, staff login history, scanner history, and reversible inventory controls.
+- Cross knows the controlled-test plan in advance and reviews its boundaries. He does not direct it as police strategy.
+- The controlled test is not police evidence.
+- The fabricated/unverified entry is never represented as authentic evidence to a court, witness, suspect, public body, laboratory, warrant affiant, or charging authority.
+- No controlled item enters an evidence bag, police case file, warrant affidavit, laboratory submission, charging document, or public statement as genuine.
+- The test cannot cause arrest, detention, search, public accusation, loss of property, or harm to an innocent person.
+- The test stops after the first physical movement and all shop material is restored.
+- Eli's test response is corroboration only and cannot prove prior acts or criminal liability by itself.
+- Homicide warrants and arrest materials contain no controlled-test or Eli theory.
+- Vivienne's arrest occurs before Eli's exposure.
+- Exact charges or legal outcomes for Eli are not invented. Cross refers supported conduct for independent review.
+- Callie ends Eli's apprenticeship and shop access.
+- Mae does not forgive or condemn for everyone.
+- Cross does not erase legal or procedural consequences.
+- Callie and Eli do not fully reconcile.
+- Eli remains alive, mobile, and capable of Book 8.
+- Book 8's final warning is not used in Book 7.
+- Book 8's future murder, final trust decision, shared-reading resolution, and provenance-choice ending remain available.
+- No Book 8 prose is drafted.
+- No export, package, cover, listing, upload, advertising, distribution, or publication work occurs.
+- No Book 1–6 manuscript or production file is modified by Book 7 initialization.

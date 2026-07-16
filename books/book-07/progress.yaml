@@ -1,0 +1,82 @@
+book: 7
+title: "The Reckoning"
+series: "The Blackwood Ridge Mysteries"
+author: "Vesper Blythe"
+status: ready_to_draft
+target_words: 25000
+actual_words: 0
+chapter_count: 8
+pov: "Callie Thorne"
+timeline:
+  start: "2027-06-10"
+  end: "2027-06-13"
+stages:
+  premise: complete
+  mystery_architecture: complete
+  suspect_matrix: complete
+  clue_ladder: complete
+  timeline: complete
+  continuity_locks: complete
+  character_arcs: complete
+  outline: complete
+  chapter_01_mission_lock: pending
+  drafting: pending
+  whole_draft_revision: pending
+  line_edit: pending
+  prose_polish: pending
+  proofreading: pending
+  export: pending
+  package: pending
+  cover: pending
+  listing: pending
+  upload: pending
+  publication: pending
+flags:
+  manuscript_prose_exists: false
+  upload_ready: false
+  immediate_murder_complete_in_plan: true
+  murder_independent_of_eli: true
+  controlled_test_evidence_safe: true
+  book_8_preserved: true
+chapters:
+  - n: 1
+    title: "The Petition Book"
+    target_words: 3100
+    actual_words: 0
+    status: planned
+  - n: 2
+    title: "The Closed Aisle"
+    target_words: 3050
+    actual_words: 0
+    status: planned
+  - n: 3
+    title: "Five Genuine Leaves"
+    target_words: 3150
+    actual_words: 0
+    status: planned
+  - n: 4
+    title: "The Override Key"
+    target_words: 3100
+    actual_words: 0
+    status: planned
+  - n: 5
+    title: "A Catalog for No One"
+    target_words: 3200
+    actual_words: 0
+    status: planned
+  - n: 6
+    title: "What Moved After Closing"
+    target_words: 3200
+    actual_words: 0
+    status: planned
+  - n: 7
+    title: "The Case That Stood Alone"
+    target_words: 3100
+    actual_words: 0
+    status: planned
+  - n: 8
+    title: "The Reckoning"
+    target_words: 3100
+    actual_words: 0
+    status: planned
+next_task: "Book 7 Chapter 1 mission lock and first-draft production"
