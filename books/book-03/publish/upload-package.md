@@ -37,7 +37,7 @@ Use the primary description, seven keyword phrases, and category recommendations
 ## Required final platform checks
 
 1. Obtain the validated workflow artifact produced from the reviewed release commit.
-2. Confirm its manifest reports `PASS` and matches the commit being uploaded.
+2. Confirm `validation.json` reports `PASS` and matches the commit being uploaded.
 3. Upload `The-Challenger.epub` and `The-Challenger-cover.jpg`.
 4. Open the KDP online previewer or Kindle Previewer.
 5. Inspect the title page, copyright page, contents/navigation, all eight chapter starts, scene breaks, italics, ending, and back matter.

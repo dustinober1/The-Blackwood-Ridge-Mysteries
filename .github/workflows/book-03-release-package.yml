@@ -46,7 +46,8 @@ jobs:
             books/book-03/export/dist/The-Challenger-upload-package.zip
             books/book-03/export/dist/The-Challenger.epub
             books/book-03/export/dist/The-Challenger-cover.jpg
-            books/book-03/export/dist/release-manifest.json
+            books/book-03/export/dist/manuscript-retail.md
+            books/book-03/export/dist/validation.json
             books/book-03/export/dist/release-validation.md
           if-no-files-found: error
           retention-days: 30
