@@ -1,8 +1,22 @@
 # Book 3 Final Release Readiness — The Challenger
 
-**Date:** 2026-07-12  
+**Date:** 2026-07-25
 **Repository:** `dustinober1/The-Blackwood-Ridge-Mysteries`  
 **Release state:** **UPLOAD READY — NOT YET PUBLISHED**
+
+## Fresh workflow evidence
+
+- Workflow: `Book 3 release package`
+- Run: `30178932681`
+- URL: `https://github.com/dustinober1/The-Blackwood-Ridge-Mysteries/actions/runs/30178932681`
+- Verified source commit: `0790f76ee33915b443abbc5a7d798af94861d09f`
+- Conclusion: `success`
+- Artifact: `book-03-release-package`, ID `8625001233`
+- Retention: available through 2026-08-24
+- EPUBCheck: 4.2.6-2; 0 fatals, 0 errors, 0 warnings, 0 infos; exit status 0
+- Upload ZIP SHA-256: `9814e8a41535d763003aa9fd50b7003c02dcc669ce2e242ece9f2eb2de798d93`
+
+The downloaded artifact and its nested upload ZIP both contain the generated retail manuscript and `validation.json`, so the current manuscript reproduction and validation evidence can be independently inspected.
 
 ## Outcome
 
