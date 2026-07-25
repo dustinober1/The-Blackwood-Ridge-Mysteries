@@ -43,29 +43,10 @@ python3 validate-release.py \
   --retail-md "$DIST/manuscript-retail.md" \
   --epub "$DIST/The-Challenger.epub" \
   --cover "$DIST/The-Challenger-cover.jpg" \
-  --json "$DIST/release-manifest.json" \
+  --json "$DIST/validation.json" \
   --markdown "$DIST/release-validation.md"
 
-python3 - "$DIST" <<'PY'
-from pathlib import Path
-import sys
-import zipfile
-
-dist = Path(sys.argv[1])
-output = dist / "The-Challenger-upload-package.zip"
-include = [
-    "The-Challenger.epub",
-    "The-Challenger-cover.jpg",
-    "Book-3-listing-copy.md",
-    "README-FIRST.md",
-    "release-manifest.json",
-    "release-validation.md",
-]
-with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
-    for name in include:
-        archive.write(dist / name, arcname=name)
-print(output)
-PY
+python3 create_upload_package.py "$DIST"
 
 printf '\nBook 3 upload package built successfully:\n'
 find "$DIST" -maxdepth 1 -type f -printf '  %f\n' | sort
