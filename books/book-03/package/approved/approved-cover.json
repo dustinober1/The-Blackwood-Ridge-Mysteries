@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "book": "The Challenger",
+  "author": "Vesper Blythe",
+  "series": "The Blackwood Ridge Mysteries",
+  "series_number": 3,
+  "approval_status": "APPROVED",
+  "approved_asset_path": "books/book-03/package/approved/The-Challenger-cover.jpg",
+  "source_asset_path": "books/book-03/package/approved/The-Challenger-cover-source.png",
+  "approved_git_blob_sha": "eb457e2931e9e1e17a6f194cf1edf61bd55018a8",
+  "approved_git_mode": "100644",
+  "approved_sha256": "e96585dacae4e7aacb4aaabbec939c9efeac61560216f86fd99feae480ffdbaf",
+  "approved_size_bytes": 2105356,
+  "approved_format": "JPEG",
+  "approved_mode": "RGB",
+  "approved_width": 1600,
+  "approved_height": 2560,
+  "approved_text": [
+    "THE BLACKWOOD RIDGE MYSTERIES · BOOK 3",
+    "THE CHALLENGER",
+    "VESPER BLYTHE"
+  ],
+  "source_git_blob_sha": "e9f756511ddbb35d5dbe243ee79b94beaa74c975",
+  "source_git_mode": "100644",
+  "source_sha256": "5ee78546868a78aeec836ac94f8b8d8027027f6e1b0c0125792d55e297685f62",
+  "source_size_bytes": 2668188,
+  "source_format": "PNG",
+  "source_mode": "RGB",
+  "source_width": 992,
+  "source_height": 1586,
+  "approval_note": "Author-approved Book 3 cover recorded on 2026-07-25. The checked-in production JPEG is the sole governing cover for standalone upload, EPUB embedding, nested upload packaging, validation, and release checksums. generate-cover.py is historical and non-governing."
+}
