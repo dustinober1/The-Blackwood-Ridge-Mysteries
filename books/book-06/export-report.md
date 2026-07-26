@@ -89,10 +89,15 @@ Book 5 establishes `books/book-N/export/` as the controlled export directory; co
 - Hidden control, mission-lock, bible, spoiler, status, or Eli-truth leakage: none detected.
 - Complete scope diff at validation time:
 - `.github/workflows/book-06-proof-export.yml`
-- `books/book-06/export/apply-validator-repair-v2.py`
-- `books/book-06/export/apply-validator-repair.py`
+- `books/book-06/export-report.md`
+- `books/book-06/export/export-readiness.md`
 - `books/book-06/export/finalize-package.py`
+- `books/book-06/export/manuscript-combined.html`
+- `books/book-06/export/manuscript-combined.md`
+- `books/book-06/export/manuscript-combined.txt`
 - `books/book-06/export/test_finalize_package_scope.py`
+- `books/book-06/export/validation-report.md`
+- `books/book-06/export/word-count-report.md`
 
 ## Locked story and procedural preservation
 
