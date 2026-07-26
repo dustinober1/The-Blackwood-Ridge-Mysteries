@@ -4,7 +4,7 @@ series: "The Blackwood Ridge Mysteries"
 author: "Vesper Blythe"
 status: in_progress
 target_words: 25000
-actual_words: 9300
+actual_words: 12400
 chapter_count: 8
 pov: "Callie Thorne"
 timeline:
@@ -23,6 +23,7 @@ stages:
   chapter_01_formal_acceptance: complete
   chapter_02_mission_lock: complete
   chapter_03_mission_lock: complete
+  chapter_04_mission_lock: complete
   drafting: in_progress
   whole_draft_revision: pending
   line_edit: pending
@@ -60,8 +61,8 @@ chapters:
   - n: 4
     title: "The Override Key"
     target_words: 3100
-    actual_words: 0
-    status: planned
+    actual_words: 3100
+    status: drafted
   - n: 5
     title: "A Catalog for No One"
     target_words: 3200
@@ -82,4 +83,4 @@ chapters:
     target_words: 3100
     actual_words: 0
     status: planned
-next_task: "Dedicated Book 7 Chapter 4 mission lock and drafting task — The Override Key"
+next_task: "Dedicated Book 7 Chapter 5 mission lock and drafting task — A Catalog for No One"
