@@ -53,18 +53,19 @@ jobs:
 
       # BEGIN ONE-TIME VALIDATOR REPAIR
       - name: Apply reviewed Book 6 validator repair
-        run: python books/book-06/export/apply-validator-repair.py
+        run: python books/book-06/export/apply-validator-repair-v2.py
 
       - name: Commit reviewed Book 6 validator repair
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A \
-            books/book-06/export/finalize-package.py \
-            books/book-06/export/apply-validator-repair.py \
-            .github/workflows/book-06-proof-export.yml
-          git commit -m "Repair Book 6 export scope validation for active Book 7 prose"
-          git push origin "HEAD:${{ github.head_ref || github.ref_name }}"
+          git add books/book-06/export/finalize-package.py
+          if git diff --cached --quiet; then
+            echo "Reviewed validator repair already committed"
+          else
+            git commit -m "Repair Book 6 export scope validation for active Book 7 prose"
+            git push origin "HEAD:${{ github.head_ref || github.ref_name }}"
+          fi
       # END ONE-TIME VALIDATOR REPAIR
 
       - name: Test Book 6 export scope validator
