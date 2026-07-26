@@ -1,278 +1,91 @@
 # Book 3 Publish Readiness — The Challenger
 
-2026-06-30 (final publish-readiness / upload-prep verification pass)
+**Original upload-preparation pass:** 2026-06-30  
+**Approved-cover correction:** 2026-07-25  
+**Release state:** **UPLOAD READY — NOT YET PUBLISHED**
 
-Base head checked: `578e361af13d83d6606512f5b4a3014d7a6890af`
+## Governing metadata
 
-Initial comparison result: `main` was identical to the provided base head before this pass.
+| Field | Value |
+|---|---|
+| Title | The Challenger |
+| Author | Vesper Blythe |
+| Series | The Blackwood Ridge Mysteries |
+| Series number | 3 |
+| Story words | 24,212 |
+| Retail-package words | 24,486 |
+| Chapters | 8 |
+| Locked ending | `She did not need the bell to ring before she began.` |
+| Publish state | `pending` |
 
-Scope confirmed: `dustinober1/The-Blackwood-Ridge-Mysteries`, default branch `main`.
+## Cover-approval correction
 
-No upload, publication, retail submission, or live package generation was performed.
+The earlier release package mechanically validated a programmatically generated cover substitute. That substitute was not the author-approved production cover and must not be uploaded. Its SHA-256 was:
 
-## Files read
+`e39da2e0a6102373888302b8d9cd8270d6fa1ebecff1757d00bed007770683e7`
 
-Required Book 3 files:
+The governing author-approved cover is now:
 
-- `books/book-03/progress.yaml`
-- `books/book-03/export/manuscript-combined.md`
-- `books/book-03/export/build.sh`
-- `books/book-03/export/export-readiness.md`
-- `books/book-03/package/packaging.md`
-- `books/book-03/package/package-readiness.md`
-- `books/book-03/publish/listing.md`
+`books/book-03/package/approved/The-Challenger-cover.jpg`
 
-Additional Book 3 verification file:
+Approved SHA-256:
 
-- `books/book-03/content-notes.md`
+`e96585dacae4e7aacb4aaabbec939c9efeac61560216f86fd99feae480ffdbaf`
 
-Book 1 / Book 2 package and publish convention references:
+The human-readable and machine-readable approval sources are:
 
-- `books/book-01/package/packaging.md`
-- `books/book-01/publish/listing.md`
-- `books/book-02/package/packaging.md`
-- `books/book-02/publish/listing.md`
+- `books/book-03/package/approved/The-Challenger-cover-source.png`
+- `books/book-03/package/approved/approved-cover.json`
 
-Repo convention search performed:
+The approved cover contains only the series line, title, and author name. It includes no subtitle or tagline.
 
-- Searched for standalone manual-upload / KDP-upload checklist patterns. Existing convention keeps upload tasks in `publish/listing.md` launch checklists and readiness reports rather than separate upload-checklist files.
+## Release gate
 
-## Files changed
+The corrected pipeline now fails closed unless:
 
-- `books/book-03/publish/publish-readiness.md` — created and then updated to record final commit notes.
+- the checked-in approval record reports `APPROVED`;
+- the approved JPEG exists and matches its locked checksum, size, format, mode, and dimensions;
+- the standalone release cover matches the approved JPEG;
+- the EPUB-embedded cover matches the approved JPEG;
+- the nested upload ZIP contains the standalone cover bytes;
+- the former generated substitute is not invoked by the active build or workflow.
 
-No manuscript prose, export source, build script, package guidance, listing metadata, cover material, or progress-stage state was changed.
+## Replacement verification baseline
 
-## Publish / upload metadata verified
+Workflow run `30183982603`, source commit `00840da785c553b1b0658cec406cef1ac7ba27df`, completed successfully and produced artifact `8626458510`.
 
-| Field | Verified value | Source |
-|-------|----------------|--------|
-| Title | `The Challenger` | Export manuscript, build script, listing |
-| Author | `Vesper Blythe` | Export manuscript, build script, listing |
-| Series | `The Blackwood Ridge Mysteries` | Export manuscript, listing |
-| Series number | `Book 3` | Export manuscript, listing, package guidance |
-| Primary lead | `Callie Thorne` | Listing / manuscript alignment |
-| Genre | Cozy mystery / amateur sleuth | Listing / package guidance |
-| Tone lane | Atmospheric bookish cozy, archival mystery, restrained emotional stakes | Listing / package guidance |
-| Publish state | `pending` | `progress.yaml` |
+The downloaded artifact independently verified:
 
-Verified `books/book-03/progress.yaml` still records:
+- `validation.json`: `PASS`, no errors;
+- approved, standalone, nested, and embedded cover SHA-256: `e96585dacae4e7aacb4aaabbec939c9efeac61560216f86fd99feae480ffdbaf`;
+- EPUBCheck v4.2.6: zero fatals, zero errors, zero warnings, zero infos, exit status zero;
+- story words: 24,212;
+- retail words: 24,486;
+- chapter count: 8;
+- locked ending: exactly once;
+- correct title, author, language, series, and series-position metadata;
+- no missing EPUB manifest resources;
+- identical duplicated files between the outer artifact and nested upload ZIP.
+
+The retail-manuscript SHA-256 remains `4ba88471787e6719995b81535ec10e900844e3b0540e2ed221adb395bc09352d`, matching the previously verified retail output. No manuscript source file is changed by this corrective pull request.
+
+## Retailer materials
+
+The canonical listing at `books/book-03/publish/listing.md` supplies:
+
+- primary and mobile descriptions;
+- seven keyword phrases;
+- three category recommendations;
+- content advisory;
+- $2.99 launch-price recommendation;
+- explicit instruction to leave the subtitle blank.
+
+## Remaining author-controlled actions
+
+The repository has not performed a retailer upload or publication action. The author must deliberately choose the release date, territories, DRM, KDP Select/Kindle Unlimited treatment, preview the replacement EPUB and approved cover, and authorize submission.
+
+Until retailer acceptance and a live detail page are confirmed:
 
 ```yaml
-  export: complete
-  package: complete
-  publish: pending
+publish: pending
 ```
-
-The publish stage was not advanced.
-
-## EPUB / build-script readiness
-
-Verified `books/book-03/export/build.sh`:
-
-- runs from the export directory with `cd "$(dirname "$0")"`;
-- requires `pandoc` and exits clearly if it is not installed;
-- builds from `manuscript-combined.md`;
-- uses Markdown input and EPUB3 output;
-- includes a table of contents with depth 1;
-- sets EPUB metadata title to `The Challenger`;
-- sets EPUB metadata author to `Vesper Blythe`;
-- sets language metadata to `en`;
-- outputs `the-challenger.epub`.
-
-Verified `books/book-03/export/manuscript-combined.md`:
-
-- begins with `# The Challenger`;
-- includes `**Vesper Blythe**` on the title page;
-- includes `*The Blackwood Ridge Mysteries, Book 3*`;
-- includes a copyright / fiction disclaimer page;
-- includes a contents page with the expected eight chapters;
-- follows the Book 1 / Book 2 combined-manuscript convention described in `export-readiness.md`;
-- contains the Book 3 case setup, murder, investigation, confession, and restrained closure needed for a complete standalone novella.
-
-No EPUB was generated in this pass. The expected manual build command remains:
-
-```bash
-cd books/book-03/export
-./build.sh
-```
-
-Expected output after local build:
-
-```text
-the-challenger.epub
-```
-
-## Cover / package readiness
-
-Verified `books/book-03/package/packaging.md` is consistent with Book 1 and Book 2 package conventions:
-
-- status remains `draft`;
-- format is ebook;
-- target dimensions are `1600x2560 px (1:1.6)`;
-- `series_book: 3` is present;
-- package guidance inherits the Book 2 / established series template;
-- cover direction is atmospheric archival cozy, not police procedural, thriller, horror, or true crime;
-- recommended Concept A, **The Red and Blue Overlay**, matches the manuscript's stylometry / second-hand / archival evidence device;
-- the brass magnifying glass is preserved as the series visual anchor;
-- color, typography, series-label, author-name, and template instructions preserve continuity with Books 1 and 2;
-- notes clearly state that no upload or publication action is performed by the package file.
-
-Remaining cover task is manual: generate/finalize the cover image, add typography outside the image generator, and verify it against the package checklist before KDP upload.
-
-## Listing readiness
-
-Verified `books/book-03/publish/listing.md` against the manuscript, content notes, package guidance, and Books 1 / 2 listing convention.
-
-### Blurb / short blurb
-
-The primary blurb and mobile short variant are consistent with the manuscript and series tone:
-
-- Dr. Vivian Larter arrives with a fair academic challenge to Callie's Wren attribution;
-- the Book 3 hook centers on stylometry, the second hand, missing comparative samples, missing folios, the County Historical Society, and the reading-room murder;
-- the case is framed as an atmospheric bookish cozy / amateur-sleuth investigation rather than a graphic thriller;
-- Cross and Eli are referenced in ways that match their supporting roles without overpromising romance, police-procedural focus, or sidekick antics;
-- the series line states that each novella resolves its own case while deepening the series arc.
-
-### Keywords
-
-The seven keyword stubs are consistent with the Book 1 / Book 2 strategy:
-
-1. `cozy mystery bookshop`
-2. `small town amateur sleuth mystery`
-3. `literary cozy mystery atmospheric`
-4. `cozy mystery novella series`
-5. `archival mystery missing documents`
-6. `handwriting clue mystery`
-7. `academic murder mystery amateur sleuth`
-
-The first four preserve series cross-discovery; the final three rotate toward Book 3's archival / handwriting-attribution device.
-
-### Categories
-
-The category guidance is consistent with Books 1 and 2:
-
-1. Mystery, Thriller & Suspense > Cozy
-2. Mystery, Thriller & Suspense > Women Sleuths
-3. Mystery, Thriller & Suspense > Mystery > Amateur Sleuth
-
-The listing correctly warns that dashboard category paths should be verified manually at upload time because platform category nodes can change.
-
-### Pricing
-
-Pricing guidance recommends `$2.99`, matching Books 1 and 2 and preserving the established novella-series strategy. No price change is recommended during this pass.
-
-### Content warnings
-
-The listing's content warnings are consistent with `books/book-03/content-notes.md`:
-
-- off-page blunt-force murder of Dr. Vivian Larter;
-- restrained on-page crime-scene/body aftermath;
-- implied blood scent;
-- grief, insomnia, professional self-doubt, and moral self-comparison;
-- archival tampering, family shame, long-term concealment, and institutional betrayal;
-- suspicion and arrest of a trusted institutional figure;
-- no sexual content, no profanity, and no graphic violence.
-
-## Issues found / fixed
-
-### Fixed
-
-- Created this final publish-readiness report because `books/book-03/publish/publish-readiness.md` did not exist before this pass.
-- Updated the report once to record concrete commit notes after the initial file-creation commit returned.
-
-### No blocking issues found
-
-No blocking mismatch was found in:
-
-- title metadata;
-- author metadata;
-- series name;
-- series number;
-- export source path;
-- EPUB output filename;
-- package guidance;
-- draft listing metadata;
-- pricing strategy;
-- content warnings;
-- `progress.yaml` publish state.
-
-### Not changed intentionally
-
-- Did not edit manuscript prose.
-- Did not edit `books/book-03/export/manuscript-combined.md`.
-- Did not edit `books/book-03/export/build.sh`.
-- Did not edit `books/book-03/package/packaging.md`.
-- Did not edit `books/book-03/publish/listing.md`.
-- Did not create `the-challenger.epub`.
-- Did not create a final cover JPEG/TIFF.
-- Did not create a live retail package.
-- Did not upload or publish anything.
-- Did not mark `publish: complete`.
-
-## Manual KDP / upload checklist
-
-Use this checklist only after the author is ready to perform the manual upload outside the repo.
-
-### Pre-upload local QA
-
-- [ ] Generate / finalize the Book 3 cover from `books/book-03/package/packaging.md`, preferably Concept A: The Red and Blue Overlay.
-- [ ] Add all cover typography manually using the locked Book 1 / Book 2 series template.
-- [ ] Confirm cover text exactly reads:
-  - `The Blackwood Ridge Mysteries · Book 3` or the established matching series-label format;
-  - `The Challenger`;
-  - `Vesper Blythe`.
-- [ ] Confirm final cover dimensions and file type match the established ebook-cover guidance.
-- [ ] Run `books/book-03/export/build.sh` locally if a fresh EPUB is needed.
-- [ ] Open the generated `the-challenger.epub` in an EPUB viewer and spot-check:
-  - title page;
-  - author line;
-  - series line;
-  - contents / navigation;
-  - chapter breaks;
-  - italics;
-  - final chapter ending;
-  - no accidental YAML/front-matter leakage.
-
-### KDP entry
-
-- [ ] Enter title: `The Challenger`.
-- [ ] Enter author: `Vesper Blythe`.
-- [ ] Link to series: `The Blackwood Ridge Mysteries`.
-- [ ] Set series number: `Book 3`.
-- [ ] Upload EPUB: `books/book-03/export/the-challenger.epub`.
-- [ ] Upload final cover image.
-- [ ] Paste the primary blurb from `books/book-03/publish/listing.md`.
-- [ ] Enter the seven keyword stubs from `books/book-03/publish/listing.md`.
-- [ ] Select the listed categories or their current dashboard equivalents.
-- [ ] Set price to `$2.99` unless a deliberate series-promotion change is made.
-- [ ] Enroll in KDP Select / Kindle Unlimited if continuing the Books 1 / 2 strategy.
-- [ ] Add optional content-warning note if KDP provides a suitable field.
-- [ ] Set publication date.
-- [ ] Preview in the KDP online previewer before submitting.
-
-### Do not do in repo until after publication is actually live
-
-- [ ] Do not mark `publish: complete`.
-- [ ] Do not add a live retailer URL.
-- [ ] Do not record publication as complete.
-- [ ] Do not create post-publication notes until the upload has actually been submitted / approved.
-
-## Status after this pass
-
-- Concept: complete.
-- Bible: complete.
-- Outline: complete.
-- Draft: complete.
-- Revise: complete.
-- Polish: complete.
-- Export: complete.
-- Package: complete.
-- Publish: pending.
-
-Book 3 is ready for manual KDP/upload preparation in repo terms: manuscript export source, build script, package guidance, and draft listing metadata are aligned. The remaining work is manual platform action and final cover/EPUB QA outside this pass.
-
-## Commit notes from this pass
-
-- Publish-readiness report created: `4de5f966c7cd0188964ba874969192666b4d07dd`
-- Publish-readiness report commit notes recorded: this commit
