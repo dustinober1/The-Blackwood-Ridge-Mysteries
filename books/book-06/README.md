@@ -116,10 +116,10 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 - Export artifact assembly — complete.
 - Export repository gate — passed (PR #41; 293/293 checks, EPUBCheck clean).
 - Controlled export completion — complete.
-- Package — pending.
+- Package — in progress; metadata, listing copy, and release tooling prepared (`books/book-06/package/package-readiness.md`, 12/13 checks passed). Blocked only by the missing/unapproved ebook cover at `books/book-06/cover.jpeg`.
 - Cover, listing, upload, and publication — pending.
 - Upload ready — no.
 
 ## Production boundary
 
-The present murder is fully solved without identifying the hidden curator. Book 6 proves steering but does not expose Eli Townsend, invalidate any earlier solution, or draft Book 7. Controlled export assembly and its repository EPUBCheck/CI gate are complete. The next production stage is **Book 6 controlled package assembly/readiness**. Package, cover, listing, upload, distribution, and publication remain deferred.
+The present murder is fully solved without identifying the hidden curator. Book 6 proves steering but does not expose Eli Townsend, invalidate any earlier solution, or draft Book 7. Controlled export assembly and its repository EPUBCheck/CI gate are complete. Package metadata, listing copy, and fail-closed release tooling are prepared; the only remaining package blocker is an approved canonical ebook cover at `books/book-06/cover.jpeg` (see `books/book-06/package/author-decision-checklist.md`). Cover, listing, upload, distribution, and publication remain deferred until the author supplies and approves a cover.

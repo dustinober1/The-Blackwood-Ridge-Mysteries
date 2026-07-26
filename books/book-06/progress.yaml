@@ -87,7 +87,7 @@ stages:
   polish: complete
   proofread: complete
   export: complete
-  package: pending
+  package: in_progress
   cover: pending
   listing: pending
   upload: pending
