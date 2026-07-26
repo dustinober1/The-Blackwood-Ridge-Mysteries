@@ -1,158 +1,79 @@
 # Book 3 Package Readiness — The Challenger
 
-2026-06-30 (package-readiness pass)
+**Original package-readiness pass:** 2026-06-30  
+**Approved-cover correction:** 2026-07-25  
+**Repository:** `dustinober1/The-Blackwood-Ridge-Mysteries`  
+**Default branch:** `main`
 
-Base head checked: `c0d06fd279af17b7edab1e7fb0148786d4fb5a7a`
+## Historical package state
 
-Initial comparison result: `main` was identical to the provided base head before package edits.
+The 2026-06-30 pass created Book 3 package guidance, draft retailer listing material, and marked the package stage complete while retaining `publish: pending`. At that time the final cover still required manual production and approval. Those historical facts remain valid.
 
-Scope confirmed: `dustinober1/The-Blackwood-Ridge-Mysteries`, default branch `main`.
+A later release workflow generated a mechanically valid cover substitute. The substitute was embedded in the EPUB and copied into the upload package, but it was not the author-approved production cover. Its SHA-256 was:
 
-## Files read
+`e39da2e0a6102373888302b8d9cd8270d6fa1ebecff1757d00bed007770683e7`
 
-Book 3 required files:
+That hash and every artifact containing it are superseded for upload purposes.
 
-- `books/book-03/progress.yaml`
-- `books/book-03/export/manuscript-combined.md`
-- `books/book-03/export/build.sh`
-- `books/book-03/export/export-readiness.md`
-- `books/book-03/content-notes.md`
-- `books/book-03/outline.md`
+## Corrective package authority
 
-Book 1 / Book 2 convention references:
+The author-approved assets are now checked in at:
 
-- `books/book-01/export/manuscript-combined.md`
-- `books/book-01/export/build.sh`
-- `books/book-01/package/packaging.md`
-- `books/book-01/publish/listing.md`
-- `books/book-01/progress.yaml`
-- `books/book-02/export/manuscript-combined.md`
-- `books/book-02/export/build.sh`
-- `books/book-02/package/packaging.md`
-- `books/book-02/publish/listing.md`
-- `books/book-02/progress.yaml`
+- `books/book-03/package/approved/The-Challenger-cover-source.png`
+- `books/book-03/package/approved/The-Challenger-cover.jpg`
+- `books/book-03/package/approved/approved-cover.json`
 
-New Book 3 package files were also re-opened after creation for verification:
+The approved production JPEG is JPEG/RGB, 1,600 × 2,560 px, 2,105,356 bytes, SHA-256:
 
-- `books/book-03/package/packaging.md`
-- `books/book-03/publish/listing.md`
-- `books/book-03/progress.yaml`
+`e96585dacae4e7aacb4aaabbec939c9efeac61560216f86fd99feae480ffdbaf`
 
-## Files changed
+The approval record locks the title, author, series, series number, paths, image properties, exact approved text, and independent checksum.
 
-- `books/book-03/package/packaging.md` — created.
-- `books/book-03/publish/listing.md` — created as a draft retailer/KDP listing metadata file, matching the Book 1 / Book 2 repo convention.
-- `books/book-03/progress.yaml` — updated `package: pending` to `package: complete`; left `publish: pending` unchanged.
-- `books/book-03/package/package-readiness.md` — created.
+## Pipeline correction
 
-## Package files created / updated
+The active release path now:
 
-### `books/book-03/package/packaging.md`
+1. validates the approval authority before creating output;
+2. copies the checked-in approved JPEG directly;
+3. embeds those same bytes in the EPUB;
+4. copies those bytes into the nested upload ZIP;
+5. validates standalone and embedded hashes against the approved hash;
+6. records approved-cover provenance in `validation.json`;
+7. fails closed for missing, unreadable, malformed, modified, or mismatched cover assets.
 
-Prepared Book 3 package and cover-guidance material, including:
+The former programmatic generator was removed from the repository. It is not invoked by the build or workflow.
 
-- series-template inheritance from Books 1 and 2;
-- positioning as an atmospheric archival cozy;
-- cover concepts built around the red/blue stylometry overlay, County Historical Society reading room, shelf gap, brass magnifying glass, and marble bookend;
-- recommended cover direction: **Concept A — The Red and Blue Overlay**;
-- series-continuity checklist for fonts, title hierarchy, author placement, series label, frame/border, base palette, and recurring brass-glass motif;
-- cover prompt stubs for Concept A, Concept B, and Concept C;
-- explicit note that this file does not publish, upload, or generate a retail artifact.
+## Regression coverage
 
-### `books/book-03/publish/listing.md`
+The release suite verifies:
 
-Prepared draft retailer/KDP-facing listing material, including:
+- the checked-in approval record matches the approved JPEG;
+- a missing approved JPEG fails;
+- a modified approved JPEG fails the locked checksum;
+- a dimensionally correct substitute fails;
+- standalone and EPUB-embedded covers must match the approved bytes;
+- the nested upload ZIP preserves the standalone cover bytes;
+- the active build and workflow do not invoke the former generator.
 
-- title / author / series metadata;
-- title pressure-test and collision-risk note;
-- primary blurb;
-- short mobile / above-the-fold variant;
-- tagline and alternate taglines;
-- hook-line options;
-- content warnings derived from `books/book-03/content-notes.md`;
-- 7 KDP keyword stubs;
-- category stubs inherited from Book 2 convention;
-- pricing guidance matching the established $2.99 series strategy;
-- launch checklist that remains entirely author-facing and upload-facing, with no upload performed.
+## Replacement workflow baseline
 
-### `books/book-03/progress.yaml`
+- Workflow: `Book 3 release package`
+- Run ID: `30183982603`
+- Source commit: `00840da785c553b1b0658cec406cef1ac7ba27df`
+- Result: `success`
+- Artifact: `book-03-release-package`
+- Artifact ID: `8626458510`
+- Artifact digest: `sha256:a8e8d3bb6705b1072ebe90f6980f11c30b430145ade650668fb972c0ac9ae95e`
+- Expiration: 2026-08-25 UTC
 
-Updated only the package stage:
+The baseline artifact reports `PASS`, 24,212 story words, 24,486 retail words, eight chapters, one locked ending, and EPUBCheck v4.2.6 with zero fatals, errors, warnings, or infos.
+
+## Status
+
+The package stage remains complete. The corrected release package is suitable for upload-readiness verification, but the title has not been uploaded, submitted, accepted, distributed, or published.
+
+`books/book-03/progress.yaml` must continue to state:
 
 ```yaml
-  package: complete
-  publish: pending
+publish: pending
 ```
-
-## Package metadata prepared
-
-| Field | Prepared value |
-|-------|----------------|
-| Title | `The Challenger` |
-| Author | `Vesper Blythe` |
-| Series | `The Blackwood Ridge Mysteries` |
-| Series number | `Book 3` |
-| Lead | `Callie Thorne` |
-| Genre | Cozy mystery / amateur sleuth |
-| Tone / market lane | Atmospheric bookish cozy; archival mystery; restrained emotional stakes |
-| Approximate length | ~25,000 words target per outline |
-| Export manuscript | `books/book-03/export/manuscript-combined.md` |
-| Build script | `books/book-03/export/build.sh` |
-| Expected EPUB output | `books/book-03/export/the-challenger.epub` |
-| Package guidance | `books/book-03/package/packaging.md` |
-| Draft listing | `books/book-03/publish/listing.md` |
-| Publish status | Pending; no upload or publication action taken |
-
-## Export / package verification
-
-- Confirmed Book 3 export manuscript title page uses `# The Challenger`, author line `Vesper Blythe`, and series line `The Blackwood Ridge Mysteries, Book 3`.
-- Confirmed the Book 3 export manuscript contains the expected eight-chapter contents list:
-  1. The Visitor Who Came Looking
-  2. After the Lecture
-  3. The Door Opens
-  4. The Second Hand
-  5. The Gap
-  6. The Keeper
-  7. Still Hands
-  8. The Man Who Buried It
-- Confirmed the Book 3 export manuscript reaches a complete closing beat and does not end on a cliffhanger or incomplete fragment.
-- Confirmed `books/book-03/export/build.sh` builds from `manuscript-combined.md`, sets title metadata to `The Challenger`, author metadata to `Vesper Blythe`, language metadata to `en`, and outputs `the-challenger.epub`.
-- Confirmed Book 1 / Book 2 convention separates cover/package guidance in `package/packaging.md` from draft retailer listing material in `publish/listing.md`.
-- Confirmed no EPUB, cover JPEG/TIFF, final retail bundle, uploaded package, or publication artifact was generated in this pass.
-
-## Issues found / fixed
-
-### Fixed
-
-- Book 3 had no package-guidance file matching the Book 1 / Book 2 convention. Created `books/book-03/package/packaging.md`.
-- Book 3 had no draft retailer/KDP listing file matching the Book 1 / Book 2 convention. Created `books/book-03/publish/listing.md`.
-- Book 3 `progress.yaml` still had `package: pending` after export completion. Updated package to complete after package materials were created and verified.
-
-### Noted for author at upload time
-
-- `The Challenger` is thematically strong but broad. The draft listing includes a title-collision caution and recommends using full series/author metadata everywhere: **The Challenger: The Blackwood Ridge Mysteries, Book 3** / **The Challenger by Vesper Blythe**.
-- KDP category paths should be verified in the dashboard at upload time, following the same caution already used in Books 1 and 2.
-- The final cover image still needs to be generated/finalized from the package guidance and checked against the series template before upload.
-- A fresh EPUB should be built locally from `books/book-03/export/build.sh` before upload if the final retail file is needed.
-
-No export-script issue, manuscript-title mismatch, author mismatch, series-number mismatch, or package-blocking issue was found.
-
-## Status after this pass
-
-- Concept: complete.
-- Bible: complete.
-- Outline: complete.
-- Draft: complete.
-- Revise: complete.
-- Polish: complete.
-- Export: complete.
-- Package: complete.
-- Publish: pending.
-
-Book 3 is package-ready in repo terms: package guidance and draft listing metadata are prepared and verified. It has **not** been uploaded or published.
-
-## Commit notes from this pass
-
-- Package guidance created: `fb3ef3264ef37b5e1f34c230b8278933eaf756f2`
-- Draft publishing listing created: `8d59f0ed02484669e89b7d0855d8613cfeeb4a52`
-- Package stage marked complete while publish remained pending: `3982d9d12665c0bbee68220833c1feb2fe340aae`
