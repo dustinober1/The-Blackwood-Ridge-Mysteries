@@ -20,6 +20,7 @@ stages:
   character_arcs: complete
   outline: complete
   chapter_01_mission_lock: complete
+  chapter_01_formal_acceptance: complete
   drafting: in_progress
   whole_draft_revision: pending
   line_edit: pending
@@ -43,7 +44,7 @@ chapters:
     title: "The Petition Book"
     target_words: 3100
     actual_words: 3100
-    status: drafted
+    status: accepted
   - n: 2
     title: "The Closed Aisle"
     target_words: 3050
@@ -79,4 +80,4 @@ chapters:
     target_words: 3100
     actual_words: 0
     status: planned
-next_task: "Book 7 Chapter 1 formal acceptance and revision review"
+next_task: "Dedicated Book 7 Chapter 2 mission lock and drafting task — The Closed Aisle"
