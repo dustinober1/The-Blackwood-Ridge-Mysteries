@@ -1,7 +1,7 @@
 {
   "cover_path": "books/book-06/cover.jpeg",
-  "status": "pending",
-  "approved_by": null,
-  "approved_on": null,
-  "sha256": null
+  "status": "approved",
+  "approved_by": "Dustin Ober",
+  "approved_on": "2026-07-26",
+  "sha256": "0e7088fea55dcb713b0160336f01e528049e82c785edf7ef24da117aa9e452f0"
 }
