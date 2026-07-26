@@ -22,7 +22,7 @@ books:
   - n: 5
     title: "The Planted Page"
     dir: "books/book-05"
-    status: in_progress
+    status: upload_ready
   - n: 6
     title: "The Pattern"
     dir: "books/book-06"

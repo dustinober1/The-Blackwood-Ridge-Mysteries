@@ -6,7 +6,7 @@ stages:
   revise: complete
   polish: complete
   export: complete
-  package: in_progress
+  package: complete
   publish: pending
 book:
   n: 5
@@ -19,8 +19,8 @@ book:
   target_words: 25000
   structure: 8 novella chapters
   season: late January to early February 2027, approximately eleven weeks after Book 4
-  status: in_progress
-  planning_note: Chapters 1 through 8 are drafted, revised, line edited, prose polished, and final proofread. Metadata verification found no manuscript correction requiring a prose change. Repository-standard front matter, back matter, combined Markdown, plain text, HTML, DOCX, and EPUB exports have been generated and validated. Spoiler-safe retailer metadata, listing copy, upload support, package validation, and fail-closed release tooling are prepared. The canonical ebook cover at books/book-05/cover.jpeg is approved (Dustin Ober, 2026-07-26); validate-readiness.py now reports 13/13 checks passed with no blockers. The controlled Book 5 release build/snapshot is requested via this pull request. Publication remains pending.
+  status: upload_ready
+  planning_note: Chapters 1 through 8 are drafted, revised, line edited, prose polished, and final proofread. Metadata verification found no manuscript correction requiring a prose change. Repository-standard front matter, back matter, combined Markdown, plain text, HTML, DOCX, and EPUB exports have been generated and validated. Spoiler-safe retailer metadata, listing copy, upload support, package validation, and fail-closed release tooling are prepared. The canonical ebook cover at books/book-05/cover.jpeg is approved (Dustin Ober, 2026-07-26). The controlled release build passed (0 EPUBCheck errors/warnings) and the permanent release snapshot is committed at books/book-05/release/. Book 5 is upload ready. Publication remains pending author retailer-controlled decisions (price, rights, DRM, release timing) and retailer submission.
   actual_words: 25174
   combined_reader_facing_words: 25501
   chapter_count: 8
@@ -117,6 +117,6 @@ validation:
   package_readiness_checks: 13
   package_readiness_passed: 13
   cover_ready: true
-  package_complete: false
+  package_complete: true
   publish_complete: false
   reader_facing_eli_spoiler_present: false
