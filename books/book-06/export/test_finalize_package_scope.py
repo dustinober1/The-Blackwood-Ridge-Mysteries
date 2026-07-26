@@ -139,6 +139,12 @@ class ScopeValidationTests(unittest.TestCase):
         self.assertNotEqual(scope_base_sha, self.pipeline.SOURCE_BASE_SHA)
         self.assertEqual(changed, ["books/book-06/export/finalize-package.py"])
         self.assertTrue(all(passed for _, passed, _ in validation.checks))
+        lifecycle_detail = next(
+            detail
+            for name, _, detail in validation.checks
+            if name == "Scope: existing Book 7 prose is outside Book 6 export authority"
+        )
+        self.assertIn("books/book-07/manuscript/ch-01.md", lifecycle_detail)
 
     def test_github_base_ref_selects_current_pull_request_base(self) -> None:
         repo, holder, baseline_sha = make_repo("books/book-06/export/finalize-package.py")
