@@ -1,6 +1,7 @@
 book: 6
 title: "The Pattern"
 status: in_progress
+release_build_note: "Cover approved 2026-07-26 (Dustin Ober); package readiness 13/13. Controlled release build requested via this pull request."
 target_words: 25000
 actual_words: 25646
 chapter_count: 8
