@@ -4,7 +4,7 @@
 **Series:** The Blackwood Ridge Mysteries #7
 **Genre:** Atmospheric cozy mystery / amateur sleuth
 **Target:** 25,000 manuscript-prose words across eight chapters
-**Status:** First draft in progress; Chapter 1 formally accepted at 3,100 manuscript-prose words; Chapters 2–3 drafted at 3,050 and 3,150 manuscript-prose words
+**Status:** First draft in progress; Chapter 1 formally accepted at 3,100 manuscript-prose words; Chapters 2–4 drafted at 3,050, 3,150, and 3,100 manuscript-prose words
 
 ## Controlling function
 
@@ -55,11 +55,13 @@ Eli responds by moving a genuine shop-owned 1912 circular into the empty trainin
 - Chapter 2 — **The Closed Aisle** — first draft complete at exactly 3,050 manuscript-prose words.
 - Chapter 3 mission lock — `control/chapter-03-mission-lock.md` — complete.
 - Chapter 3 — **Five Genuine Leaves** — first draft complete at 3,150 manuscript-prose words.
-- Chapters 4–8 — planned and undrafted.
-- Dedicated Chapter 4 mission lock and drafting task — next.
+- Chapter 4 mission lock — `control/chapter-04-mission-lock.md` — complete.
+- Chapter 4 — **The Override Key** — first draft complete at 3,100 manuscript-prose words. Callie proposes the controlled route test to Cross; the test is bounded with explicit safeguards but not activated.
+- Chapters 5–8 — planned and undrafted.
+- Dedicated Chapter 5 mission lock and drafting task — next.
 - Whole-draft revision, line edit, prose polish, proofreading, export, package, cover, listing, upload, distribution, and publication — pending.
 - Upload ready — no.
 
 ## Production boundary
 
-No Chapter 4 manuscript exists. Chapter 4 may be created only in the dedicated Book 7 Chapter 4 mission lock and drafting task after the Chapter 3 change is merged. No export, package, cover, listing, upload, advertising, distribution, or publication work belongs to the Chapter 3 drafting pass.
+No Chapter 5 manuscript exists. Chapter 5 may be created only in the dedicated Book 7 Chapter 5 mission lock and drafting task after the Chapter 4 change is merged. No export, package, cover, listing, upload, advertising, distribution, or publication work belongs to the Chapter 4 drafting pass.
