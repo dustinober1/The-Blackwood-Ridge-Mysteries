@@ -1,0 +1,176 @@
+name: Book 6 release package
+
+"on":
+  pull_request:
+    paths:
+      - "books/book-06/**"
+      - "progress.yaml"
+      - "series-outline.md"
+      - ".github/workflows/book-06-release-package.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  readiness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      cover_ready: ${{ steps.preflight.outputs.cover_ready }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install readiness dependency
+        run: python -m pip install --disable-pip-version-check --no-cache-dir Pillow==12.0.0
+
+      - name: Run readiness regression tests
+        run: python books/book-06/package/test_validate_readiness.py
+
+      - name: Validate Book 6 package readiness
+        id: preflight
+        shell: bash
+        run: |
+          set +e
+          python books/book-06/package/validate-readiness.py \
+            --json books/book-06/package/package-validation.json \
+            --report books/book-06/package/package-validation.md
+          status=$?
+          if [ "$status" -eq 0 ]; then
+            echo "cover_ready=true" >> "$GITHUB_OUTPUT"
+          elif [ "$status" -eq 2 ]; then
+            python - <<'PY'
+          import json
+          from pathlib import Path
+
+          result = json.loads(Path("books/book-06/package/package-validation.json").read_text(encoding="utf-8"))
+          blockers = result.get("blockers", [])
+          if len(blockers) != 1 or not blockers[0].startswith("Missing or unapproved ebook cover:"):
+              raise SystemExit("Unexpected Book 6 package blocker(s): " + repr(blockers))
+          PY
+            echo "cover_ready=false" >> "$GITHUB_OUTPUT"
+            echo "Book 6 remains correctly blocked only by the missing or unapproved cover; no release package will be built."
+          else
+            exit "$status"
+          fi
+          cat books/book-06/package/package-validation.md
+
+      - name: Upload readiness report
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-06-package-readiness
+          path: |
+            books/book-06/package/package-validation.md
+            books/book-06/package/package-validation.json
+          if-no-files-found: error
+          retention-days: 30
+
+  build-and-validate:
+    needs: readiness
+    if: needs.readiness.outputs.cover_ready == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install production dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc libreoffice poppler-utils fonts-liberation
+          if apt-cache show epubcheck >/dev/null 2>&1; then
+            sudo apt-get install -y epubcheck
+          else
+            echo "epubcheck is required for final release validation" >&2
+            exit 1
+          fi
+          python -m pip install --disable-pip-version-check --no-cache-dir \
+            PyYAML==6.0.2 \
+            beautifulsoup4==4.13.4 \
+            python-docx==1.2.0 \
+            Pillow==12.0.0 \
+            pypdf==6.1.1
+
+      - name: Build and validate Book 6 release package
+        run: python books/book-06/export/run-release.py
+
+      - name: Verify deterministic rebuild
+        shell: bash
+        run: |
+          DIST="books/book-06/export/dist"
+          FILES=(
+            "$DIST/The-Pattern.epub"
+            "$DIST/The-Pattern-cover.jpg"
+            "$DIST/The-Pattern.docx"
+            "$DIST/release-manifest.json"
+            "$DIST/release-validation.md"
+            "$DIST/The-Pattern-upload-package.zip"
+          )
+          sha256sum "${FILES[@]}" > /tmp/book6-release-first.sha256
+          python books/book-06/export/run-release.py
+          sha256sum "${FILES[@]}" > /tmp/book6-release-second.sha256
+          diff -u /tmp/book6-release-first.sha256 /tmp/book6-release-second.sha256
+
+      - name: Commit stable retailer release files
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          RELEASE_DIR="books/book-06/release"
+          DIST="books/book-06/export/dist"
+          rm -rf "$RELEASE_DIR"
+          mkdir -p "$RELEASE_DIR"
+
+          cp "$DIST/The-Pattern.epub" "$RELEASE_DIR/The-Pattern.epub"
+          cp "$DIST/The-Pattern-cover.jpg" "$RELEASE_DIR/The-Pattern-cover.jpg"
+          cp books/book-06/publish/upload-package.md "$RELEASE_DIR/The-Pattern-KDP-upload-sheet.md"
+          cp books/book-06/listing/listing-copy.md "$RELEASE_DIR/The-Pattern-listing-copy.md"
+          cp books/book-06/listing/retailer-description.html "$RELEASE_DIR/The-Pattern-retailer-description.html"
+          cp books/book-06/listing/retailer-description.txt "$RELEASE_DIR/The-Pattern-retailer-description.txt"
+          cp "$DIST/release-manifest.json" "$RELEASE_DIR/release-manifest.json"
+          cp "$DIST/release-validation.md" "$RELEASE_DIR/release-validation.md"
+          cp "$DIST/The-Pattern-upload-package.zip" "$RELEASE_DIR/The-Pattern-retailer-upload-package.zip"
+
+          cat > "$RELEASE_DIR/README.md" <<'README'
+          # The Pattern — Retailer Release Files
+
+          **Status:** Package validated for manual upload; not yet published.
+
+          This directory is created only after the approved cover and final release pipeline pass. Publication remains pending until retailer acceptance and a live detail page are confirmed.
+          README
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f "$RELEASE_DIR"
+          if ! git diff --cached --quiet; then
+            git commit -m "Add Book 6 retailer release files"
+            git push origin "HEAD:${{ github.head_ref }}"
+          fi
+
+      - name: Upload release package
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-06-release-package
+          path: |
+            books/book-06/export/dist/The-Pattern-upload-package.zip
+            books/book-06/export/dist/The-Pattern.epub
+            books/book-06/export/dist/The-Pattern-cover.jpg
+            books/book-06/export/dist/The-Pattern.docx
+            books/book-06/export/dist/release-manifest.json
+            books/book-06/export/dist/release-validation.md
+            books/book-06/export/qa/contact-sheets/*.png
+          if-no-files-found: error
+          retention-days: 30
