@@ -26,7 +26,7 @@ books:
   - n: 6
     title: "The Pattern"
     dir: "books/book-06"
-    status: in_progress
+    status: upload_ready
   - n: 7
     title: "The Reckoning"
     dir: "books/book-07"
