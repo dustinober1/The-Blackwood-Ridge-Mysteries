@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import importlib.util
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -23,7 +24,7 @@ LANG = "en-US"
 YEAR = 2026
 BUILD_DATE = date(2026, 7, 15)
 TOTAL = 25646
-BASE_SHA = "d23d2e745ea0a5fda414321b6c82eda427459a87"
+SOURCE_BASE_SHA = "d23d2e745ea0a5fda414321b6c82eda427459a87"
 PR31_HEAD = "15ffd86577f2914729f25c0932a97ff2a830be1f"
 PR31_BASE = "105634b1dbf41a9c15ab6d2ea3df7d9945c8b264"
 BRANCH = "agent/book-06-controlled-export-assembly"
@@ -207,7 +208,7 @@ def validate_sources(b4, chapters):
         b4.validate_reader_text(f"Source Chapter {n}", chapter.body, checks)
     body = "\n".join(ch.body for ch in chapters)
     checks.add("Source: eight chapters", len(chapters) == 8, str(len(chapters)))
-    checks.add("Source: total 25,646", sum(source_words(ch) for ch in chapters) == TOTAL, str(sum(source_words(ch) for ch in chapters))
+    checks.add("Source: total 25,646", sum(source_words(ch) for ch in chapters) == TOTAL, str(sum(source_words(ch) for ch in chapters)))
     checks.add("Source: exact Mercer provenance once", body.count(PROVENANCE) == 1, str(body.count(PROVENANCE)))
     checks.add("Source: no duplicate chapter body", len({ch.body_sha256 for ch in chapters}) == 8, "checked")
     checks.require()
@@ -317,27 +318,79 @@ def identity_validation(b4, book: Path, chapters, artifacts):
     return checks
 
 
+def resolve_scope_base() -> tuple[str, str]:
+    """Return the actual change-scope ref and its merge base with HEAD."""
+    explicit = os.environ.get("BOOK6_SCOPE_BASE_REF")
+    if explicit:
+        candidates = [explicit]
+    else:
+        candidates = []
+        github_base = os.environ.get("GITHUB_BASE_REF")
+        if github_base:
+            candidates.extend([f"origin/{github_base}", github_base])
+        candidates.extend(["origin/main", "main"])
+
+    attempted = []
+    for candidate in dict.fromkeys(candidates):
+        result = run(["git", "merge-base", candidate, "HEAD"], check=False)
+        merge_base = result.stdout.strip()
+        attempted.append(f"{candidate}: {result.returncode}")
+        if result.returncode == 0 and re.fullmatch(r"[0-9a-f]{40}", merge_base):
+            return candidate, merge_base
+    raise RuntimeError(f"Unable to resolve current change-scope base ({'; '.join(attempted)})")
+
+
+def is_production_asset(path: str) -> bool:
+    if not re.match(r"^books/book-\d+/", path):
+        return False
+    protected_stems = ("package", "cover", "listing", "upload", "publication", "publish", "release", "retailer")
+    return any(part.lower().startswith(protected_stems) for part in Path(path).parts[2:])
+
+
 def scope_validation(b4, root: Path):
     checks = b4.Validation([])
-    result = run(["git", "diff", "--name-only", f"{BASE_SHA}...HEAD"], check=False)
-    checks.add("Scope: base comparison available", result.returncode == 0, result.stdout.strip() or "clean command")
-    changed = [line.strip() for line in result.stdout.splitlines() if line.strip()] if result.returncode == 0 else []
-    checks.add("Scope: Book 5 unchanged", not any(path.startswith("books/book-05/") for path in changed), repr([p for p in changed if p.startswith("books/book-05/")]))
-    checks.add("Scope: no Book 7 prose changed", not any(path.startswith("books/book-07/manuscript/ch-") for path in changed), repr([p for p in changed if p.startswith("books/book-07/manuscript/ch-")]))
-    prohibited = [p for p in changed if re.match(r"books/book-06/(?:package|cover|listing|publication|publish|upload)/", p)]
-    checks.add("Scope: no package/cover/listing/upload/publication asset changed", not prohibited, repr(prohibited))
+    try:
+        scope_base_ref, scope_base_sha = resolve_scope_base()
+        result = run(["git", "diff", "--name-only", f"{scope_base_sha}...HEAD"], check=False)
+        comparison_ok = result.returncode == 0
+        comparison_detail = f"ref {scope_base_ref}; merge base {scope_base_sha}"
+        if not comparison_ok:
+            comparison_detail += f"; {result.stdout.strip() or 'git diff failed'}"
+    except RuntimeError as exc:
+        scope_base_ref, scope_base_sha = "unresolved", ""
+        result = None
+        comparison_ok = False
+        comparison_detail = str(exc)
+
+    checks.add("Scope: actual current-base comparison available", comparison_ok, comparison_detail)
+    changed = [line.strip() for line in result.stdout.splitlines() if line.strip()] if comparison_ok and result else []
+
+    book5_changes = [p for p in changed if p.startswith("books/book-05/")]
+    book6_manuscript = [p for p in changed if re.match(r"^books/book-06/manuscript/ch-.*\.md$", p)]
+    book7_manuscript = [p for p in changed if re.match(r"^books/book-07/manuscript/ch-.*\.md$", p)]
+    book8_changes = [p for p in changed if p.startswith("books/book-08/")]
+    production_assets = [p for p in changed if is_production_asset(p)]
+    book3_workflows = [p for p in changed if re.match(r"^\.github/workflows/book-03", p)]
+
+    checks.add("Scope: Book 5 unchanged", not book5_changes, repr(book5_changes))
+    checks.add("Scope: no Book 6 chapter manuscript changed", not book6_manuscript, repr(book6_manuscript))
+    checks.add("Scope: no Book 7 chapter manuscript changed relative to current base", not book7_manuscript, repr(book7_manuscript))
+    checks.add("Scope: Book 8 unchanged", not book8_changes, repr(book8_changes))
+    checks.add("Scope: no package/cover/listing/upload/publication/release/retailer asset changed", not production_assets, repr(production_assets))
+    checks.add("Scope: Book 3 release workflow unchanged", not book3_workflows, repr(book3_workflows))
+
     book7_dir = root / "books/book-07/manuscript"
     book7_prose = sorted(str(path.relative_to(root)) for path in book7_dir.glob("ch-*.md")) if book7_dir.exists() else []
-    checks.add("Scope: no Book 7 prose exists", not book7_prose, repr(book7_prose))
+    checks.add("Scope: existing Book 7 prose is outside Book 6 export authority", True, repr(book7_prose) or "none present")
     checks.require()
-    return checks, changed
+    return checks, scope_base_sha, changed
 
 
 def merge(b4, validations):
     return b4.Validation([entry for validation in validations for entry in validation.checks])
 
 
-def reports(b4, root: Path, book: Path, chapters, artifacts, validation, pages: int, contacts, epubcheck: str, pdf: Path | None, changed):
+def reports(b4, root: Path, book: Path, chapters, artifacts, validation, pages: int, contacts, epubcheck: str, pdf: Path | None, scope_base_sha: str, changed):
     export = book / "export"
     source_total = sum(source_words(ch) for ch in chapters)
     combined_total = b4.word_count(artifacts["markdown"].read_text(encoding="utf-8"))
@@ -395,11 +448,18 @@ This record does not mark *{TITLE}* upload ready, retailer ready, distributed, o
 ## Source result
 
 - PR #31 source head: `{PR31_HEAD}`
-- PR #31 merge commit and export base: `{BASE_SHA}`
+- PR #31 merge commit and export base: `{SOURCE_BASE_SHA}`
 - Chapters 1–8 were verified by exact Git blob, metadata, count, title, order, scene-break structure, and final line.
 - Manuscript prose remains **{source_total:,} words**.
 - Exact Mercer provenance preserved: `{PROVENANCE}`
 - All eight locked final lines are preserved.
+
+## Scope result
+
+- Historical source baseline for exact Book 6 manuscript identity: `{SOURCE_BASE_SHA}`
+- Current change-scope merge base: `{scope_base_sha}`
+- Existing Book 7 prose is outside Book 6 export authority.
+- No Book 7 chapter manuscript changed relative to the current change-scope base.
 
 ## Metadata result
 
@@ -444,9 +504,9 @@ No cover, listing copy, retailer form, upload ZIP, advertising asset, release pa
 - PR #31 source branch: `agent/book-06-controlled-proofreading`
 - PR #31 source head: `{PR31_HEAD}`
 - PR #31 base: `{PR31_BASE}`
-- PR #31 merge commit: `{BASE_SHA}`
-- Starting post-PR-#31 `main` HEAD: `{BASE_SHA}`
-- Export branch: `{BRANCH}`
+- PR #31 merge commit and historical Book 6 source baseline: `{SOURCE_BASE_SHA}`
+- Current validation change-scope merge base: `{scope_base_sha}`
+- Historical export branch: `{BRANCH}`
 
 ## Verified source manuscript
 
@@ -519,7 +579,7 @@ Book 5 establishes `books/book-N/export/` as the controlled export directory; co
 - Completed revision, line-edit, final-prose-polish, and proofreading records were inspected and intentionally not rewritten.
 - Book 5 files changed: **none**.
 - Exact Book 5 status: package in progress; publication pending; approved canonical ebook cover remains the blocker; Book 5 is not upload ready.
-- Book 7 prose: **none exists**.
+- Book 7 Chapter 1 exists and is formally accepted at 3,100 manuscript-prose words; it is outside Book 6 export authority, and no Book 7 chapter manuscript changed in this validation scope.
 - Exact Book 6 status: controlled revision, line edit, final prose polish, proofreading, and export assembly complete; package, cover, listing, upload, and publication pending; Book 6 is not upload ready.
 
 ## Intentionally not created
@@ -531,7 +591,7 @@ Book 5 establishes `books/book-N/export/` as the controlled export directory; co
 - advertising assets
 - release packages
 - publication or distribution records
-- Book 7 prose
+- any Book 7 manuscript prose by the Book 6 export workflow
 
 ## Blockers and next stage
 
@@ -543,7 +603,8 @@ No blocker remains within controlled export assembly. Package, cover, listing, u
         "series": SERIES,
         "series_number": NUMBER,
         "build_date": BUILD_DATE.isoformat(),
-        "source_base": BASE_SHA,
+        "source_base": SOURCE_BASE_SHA,
+        "scope_base": scope_base_sha,
         "proofreading_pr_head": PR31_HEAD,
         "status": "export_validated_package_pending",
         "manuscript_prose_words": source_total,
@@ -582,11 +643,11 @@ def main() -> None:
     validations.append(identity_validation(b4, book, chapters, artifacts))
     docx_validation, pages, contacts, pdf = b4.validate_docx(artifacts["docx"], artifacts["qa_dir"])
     epub_validation, epubcheck = b4.validate_epub(artifacts["epub"])
-    scope, changed = scope_validation(b4, root)
+    scope, scope_base_sha, changed = scope_validation(b4, root)
     validations += [docx_validation, epub_validation, scope]
     all_validation = merge(b4, validations)
     all_validation.require()
-    reports(b4, root, book, chapters, artifacts, all_validation, pages, contacts, epubcheck, pdf, changed)
+    reports(b4, root, book, chapters, artifacts, all_validation, pages, contacts, epubcheck, pdf, scope_base_sha, changed)
     print(f"Validated {TITLE}: {TOTAL:,} manuscript-prose words")
     print(f"Checks: {len(all_validation.checks)}/{len(all_validation.checks)} passed")
     print("Package: pending")

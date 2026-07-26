@@ -1,35 +1,48 @@
 # Book 6 Controlled Export Readiness
 
-## Current status
+## Status
 
-**The deterministic Book 6 export has been reproduced locally from the eight immutable repository chapter blobs and passed a real W3C EPUBCheck 5.1.0 validation. The one evidenced export-code defect—missing author metadata in standalone HTML—has been repaired. The repository Actions job still fails before step execution, so the repository CI gate and stable generated-output integration remain pending.**
+**Controlled proofreading complete. Repository-standard export assembly complete and validated. Package, cover, listing, upload, and publication remain pending.**
 
-Book 6 is not upload ready and is not published. `export_complete: false` remains correct.
+This record does not mark *The Pattern* upload ready, retailer ready, distributed, or published.
 
-## Completed and verified in the repair pass
+## Source result
 
-- PR #32 source head `7740fcf4daa1888e0d4f40172d65785718ee5957` and merge commit `0f863d07bc6bef26d3804f5907775705c1012fa4` were verified.
-- All eight chapter Git blobs match the locked proofreading baseline exactly.
-- The controlled manuscript remains 25,646 words; the assembled reader-facing count is 25,918.
-- All eight chapter titles, all eight locked final lines, and all 39 scene breaks are preserved.
-- Markdown, TXT, HTML, DOCX, and EPUB chapter text remained source-identical with no missing, duplicate, truncated, or reordered prose.
-- YAML, internal controls, and hidden Eli truth did not leak.
-- DOCX opened and rendered to 71 pages; all 71 page images and four contact sheets passed visual review.
-- EPUB package structure, metadata, manifest, spine, navigation, source text, and mimetype passed.
-- W3C EPUBCheck 5.1.0 reported 0 fatals, 0 errors, 0 warnings, and 0 infos; exit status 0.
-- Markdown, TXT, HTML, DOCX, and EPUB checksums reproduce the values recorded in PR #32.
-- The validation PDF remains build-specific; page count, extracted text, layout, and byte size remained stable while its checksum changed with LibreOffice metadata.
+- PR #31 source head: `15ffd86577f2914729f25c0932a97ff2a830be1f`
+- PR #31 merge commit and export base: `d23d2e745ea0a5fda414321b6c82eda427459a87`
+- Chapters 1–8 were verified by exact Git blob, metadata, count, title, order, scene-break structure, and final line.
+- Manuscript prose remains **25,646 words**.
+- Exact Mercer provenance preserved: `Found in returned Mercer volume by M. Hartwell; prior loose-paper location not established.`
+- All eight locked final lines are preserved.
 
-## Evidenced code repair
+## Scope result
 
-`books/book-06/export/run-export.py` now restores the approved standalone-HTML author metadata before checksums and reports are written. Without that metadata, the merged script produced SHA-256 `0c86fd0310011d7007ddc7ff15d04eb91b4bcdbd23af59b18c8f2750a5089bb2`; with the repair it reproduces the PR #32 checksum `f0235f54163f83ad9c13346a1255f552948e0742676696fb7b4722b23a629463`.
+- Historical source baseline for exact Book 6 manuscript identity: `d23d2e745ea0a5fda414321b6c82eda427459a87`
+- Current change-scope merge base: `3f83c731ab54bbd8f2aaf9386b92eea0a18d08f4`
+- Existing Book 7 prose is outside Book 6 export authority.
+- No Book 7 chapter manuscript changed relative to the current change-scope base.
 
-## Remaining repository gate
+## Metadata result
 
-GitHub Actions run `29432890902` originally created job `87412089696`, which failed with zero recorded steps, no downloadable log, and no artifacts. A repair-session failed-job rerun created job `87450211413`; it again failed with zero recorded steps, no downloadable log, and no artifacts. GitHub exposes no supported root cause, so none is asserted.
+- Title: **The Pattern**
+- Author: **Vesper Blythe**
+- Series: **The Blackwood Ridge Mysteries**
+- Series number: **Book 6**
+- POV: **Callie Thorne, third-person limited only**
+- Chronology: **April 15 through April 18, 2027**
+- Copyright page convention: **© 2026 Vesper Blythe; First edition**, inherited from the approved Book 5 export convention.
 
-The stable combined Markdown, TXT, and HTML files were freshly generated and checksum-verified locally but remain pending repository integration until the repair branch can accept those generated files or a workflow run reaches its commit step. The DOCX, EPUB, manifest, PDF render, page images, and contact sheets remain ignored review artifacts under repository convention.
+## Export result
 
-## Production boundary
+- Combined Markdown, plain text, standalone HTML, DOCX, and EPUB 3 generated.
+- Front/back-matter count: **257**
+- Combined reader-facing count: **25,918**
+- DOCX render: **71 pages**; contact sheets: **4**
+- Source-to-export comparison: **all eight chapters matched in Markdown, TXT, HTML, DOCX, and EPUB**
+- Scene-break comparison: **all eight chapters matched in canonical Markdown**
+- EPUBCheck: **passed**
+- Placeholder/internal-control/spoiler scan: **clean**
 
-No package, cover, listing copy, retailer metadata form, upload bundle, advertising asset, distribution action, or publication record was created. The immediate next production action is to resolve or outlast the external pre-step Actions blocker, integrate the stable combined exports, pass the repository workflow, review this repair PR, and merge it. **Book 6 controlled package assembly/readiness begins only after that merge.**
+## Scope boundary
+
+No cover, listing copy, retailer form, upload ZIP, advertising asset, release package, retailer submission, publication record, or release-status change is included. The next stage after merge is **Book 6 controlled package assembly/readiness**.

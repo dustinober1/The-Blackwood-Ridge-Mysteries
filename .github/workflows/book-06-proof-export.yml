@@ -51,6 +51,9 @@ jobs:
             Pillow==12.0.0 \
             pypdf==6.1.1
 
+      - name: Test Book 6 export scope validator
+        run: python -m unittest books/book-06/export/test_finalize_package_scope.py
+
       - name: Build and validate Book 6 controlled exports
         shell: bash
         run: |

@@ -1,62 +1,313 @@
 # Book 6 Controlled Export Validation
 
-## Result
+- Checks passed: **293/293**
 
-- **Previously recorded full local export checks:** 234/234 passed
-- **Previously recorded post-normalization checks:** 23/23 passed
-- **Repair reproduction focused checks:** 65/65 passed
-- **Source blobs:** 8/8 exact
-- **Controlled manuscript words:** 25,646
-- **Combined reader-facing words:** 25,918
-- **Reader-facing formats compared:** Markdown, TXT, HTML, DOCX, EPUB
-- **Source-to-output chapter identity:** 40/40 chapter-format comparisons passed
-- **Locked final-line checks:** 40/40 passed across formats
-- **Canonical Markdown scene-break checks:** 8/8 passed; 39/39 breaks preserved
-- **DOCX:** opened, parsed, styled, rendered to 71 pages, no blank pages, no replacement glyphs, eight intentional chapter starts, 71 page images, four visually reviewed contact sheets
-- **EPUB:** ZIP/package, mimetype, container, OPF, title, author, language, spine, navigation, links, and chapter text passed
-- **EPUBCheck:** W3C EPUBCheck 5.1.0; 0 fatals, 0 errors, 0 warnings, 0 infos; exit status 0
-- **Forbidden/internal-control leakage:** none detected
-- **Repository CI:** pending; original job `87412089696` and rerun job `87450211413` both failed before any step executed and exposed no downloadable log or artifacts
-
-## Commands executed
-
-```text
-python local_reproduce.py
-pandoc manuscript-combined.md -f markdown -t plain --wrap=none -o manuscript-combined.txt
-pandoc manuscript-combined.md -f markdown -t html5 --standalone -M pagetitle="The Pattern" -M author="Vesper Blythe" -M lang=en-US -o manuscript-combined.html
-pandoc manuscript-combined.md -f markdown -t docx --reference-doc reference.docx -o dist/The-Pattern.docx
-pandoc dist/epub-source.md -f markdown -t epub3 --toc --toc-depth=1 -M title="The Pattern" -M author="Vesper Blythe" -M lang=en-US -o dist/The-Pattern.epub
-libreoffice --headless --convert-to pdf --outdir qa/docx-render dist/The-Pattern.docx
-pdftoppm -png -r 72 qa/docx-render/The-Pattern.pdf qa/docx-pages/page
-java -jar /tmp/epubvenv/lib/python3.13/site-packages/epubcheck/epubcheck.jar books/book-06/export/dist/The-Pattern.epub
-```
-
-EPUBCheck output:
-
-```text
-Validating using EPUB version 3.3 rules.
+- [x] Source Chapter 1: n — expected 1; actual 1
+- [x] Source Chapter 1: title — expected 'The Box at Closing'; actual 'The Box at Closing'
+- [x] Source Chapter 1: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 1: date — expected '2027-04-15'; actual '2027-04-15'
+- [x] Source Chapter 1: word_target — expected 3100; actual 3100
+- [x] Source Chapter 1: status — expected 'drafted'; actual 'drafted'
+- [x] Source Chapter 1: words — expected 3266; actual 3266
+- [x] Source Chapter 1: proofread Git blob — expected c9a12f2305b08b1cf81ea88c1ef49e94e7a453c6; actual c9a12f2305b08b1cf81ea88c1ef49e94e7a453c6
+- [x] Source Chapter 1: locked proofread count — expected 3266; actual 3266
+- [x] Source Chapter 1: no trailing spaces — checked
+- [x] Source Chapter 1: exact final line — The ladder had not rolled.
+- [x] Source Chapter 1: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 1: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 1: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 1: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 1: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 1: no forbidden marker mission[- ]lock|story[- ]memory|mystery[- ]solution|proofreading-report|revision-plan — not found
+- [x] Source Chapter 2: n — expected 2; actual 2
+- [x] Source Chapter 2: title — expected 'A Fall That Did Not Fit'; actual 'A Fall That Did Not Fit'
+- [x] Source Chapter 2: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 2: date — expected '2027-04-15/2027-04-16'; actual '2027-04-15/2027-04-16'
+- [x] Source Chapter 2: word_target — expected 3150; actual 3150
+- [x] Source Chapter 2: status — expected 'drafted'; actual 'drafted'
+- [x] Source Chapter 2: words — expected 3135; actual 3135
+- [x] Source Chapter 2: proofread Git blob — expected 6404737d8d0610908608f7d8ab45c02cd75158fd; actual 6404737d8d0610908608f7d8ab45c02cd75158fd
+- [x] Source Chapter 2: locked proofread count — expected 3135; actual 3135
+- [x] Source Chapter 2: no trailing spaces — checked
+- [x] Source Chapter 2: exact final line — One had been cleaned.
+- [x] Source Chapter 2: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 2: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 2: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 2: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 2: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 2: no forbidden marker mission[- ]lock|story[- ]memory|mystery[- ]solution|proofreading-report|revision-plan — not found
+- [x] Source Chapter 3: n — expected 3; actual 3
+- [x] Source Chapter 3: title — expected "The Surveyor's Missing Line"; actual "The Surveyor's Missing Line"
+- [x] Source Chapter 3: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 3: date — expected '2027-04-16'; actual '2027-04-16'
+- [x] Source Chapter 3: word_target — expected 3100; actual 3100
+- [x] Source Chapter 3: status — expected 'drafted'; actual 'drafted'
+- [x] Source Chapter 3: words — expected 3130; actual 3130
+- [x] Source Chapter 3: proofread Git blob — expected 59575d837b6c51d22d57ff4033e6a09bc218a409; actual 59575d837b6c51d22d57ff4033e6a09bc218a409
+- [x] Source Chapter 3: locked proofread count — expected 3130; actual 3130
+- [x] Source Chapter 3: no trailing spaces — checked
+- [x] Source Chapter 3: exact final line — Sheet 47 had described a public right-of-way through Bellweather river land.
+- [x] Source Chapter 3: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 3: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 3: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 3: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 3: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 3: no forbidden marker mission[- ]lock|story[- ]memory|mystery[- ]solution|proofreading-report|revision-plan — not found
+- [x] Source Chapter 4: n — expected 4; actual 4
+- [x] Source Chapter 4: title — expected 'Marks Made Later'; actual 'Marks Made Later'
+- [x] Source Chapter 4: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 4: date — expected '2027-04-16'; actual '2027-04-16'
+- [x] Source Chapter 4: word_target — expected 3150; actual 3150
+- [x] Source Chapter 4: status — expected 'drafted'; actual 'drafted'
+- [x] Source Chapter 4: words — expected 3150; actual 3150
+- [x] Source Chapter 4: proofread Git blob — expected 401d46dad388ddb6ca7df6041c464465a19a48c5; actual 401d46dad388ddb6ca7df6041c464465a19a48c5
+- [x] Source Chapter 4: locked proofread count — expected 3150; actual 3150
+- [x] Source Chapter 4: no trailing spaces — checked
+- [x] Source Chapter 4: exact final line — `South line retrieval.`
+- [x] Source Chapter 4: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 4: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 4: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 4: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 4: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 4: no forbidden marker mission[- ]lock|story[- ]memory|mystery[- ]solution|proofreading-report|revision-plan — not found
+- [x] Source Chapter 5: n — expected 5; actual 5
+- [x] Source Chapter 5: title — expected 'The Road Through Bellweather'; actual 'The Road Through Bellweather'
+- [x] Source Chapter 5: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 5: date — expected '2027-04-17'; actual '2027-04-17'
+- [x] Source Chapter 5: word_target — expected 3100; actual 3100
+- [x] Source Chapter 5: status — expected 'drafted'; actual 'drafted'
+- [x] Source Chapter 5: words — expected 3100; actual 3100
+- [x] Source Chapter 5: proofread Git blob — expected 81fad0335b3781712b38d4d3139d92ffe94b3476; actual 81fad0335b3781712b38d4d3139d92ffe94b3476
+- [x] Source Chapter 5: locked proofread count — expected 3100; actual 3100
+- [x] Source Chapter 5: no trailing spaces — checked
+- [x] Source Chapter 5: exact final line — The road through Bellweather did not contain the missing thirty-nine minutes.
+- [x] Source Chapter 5: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 5: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 5: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 5: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 5: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 5: no forbidden marker mission[- ]lock|story[- ]memory|mystery[- ]solution|proofreading-report|revision-plan — not found
+- [x] Source Chapter 6: n — expected 6; actual 6
+- [x] Source Chapter 6: title — expected 'What the Ledger Withheld'; actual 'What the Ledger Withheld'
+- [x] Source Chapter 6: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 6: date — expected '2027-04-17'; actual '2027-04-17'
+- [x] Source Chapter 6: word_target — expected 3150; actual 3150
+- [x] Source Chapter 6: status — expected 'revised'; actual 'revised'
+- [x] Source Chapter 6: words — expected 3279; actual 3279
+- [x] Source Chapter 6: proofread Git blob — expected 6b43203b07287771b99ef87240955ec31206e996; actual 6b43203b07287771b99ef87240955ec31206e996
+- [x] Source Chapter 6: locked proofread count — expected 3279; actual 3279
+- [x] Source Chapter 6: no trailing spaces — checked
+- [x] Source Chapter 6: exact final line — It was enough to ask where Dana had put the rest.
+- [x] Source Chapter 6: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 6: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 6: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 6: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 6: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 6: no forbidden marker mission[- ]lock|story[- ]memory|mystery[- ]solution|proofreading-report|revision-plan — not found
+- [x] Source Chapter 7: n — expected 7; actual 7
+- [x] Source Chapter 7: title — expected 'The Weight of the Map'; actual 'The Weight of the Map'
+- [x] Source Chapter 7: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 7: date — expected '2027-04-18'; actual '2027-04-18'
+- [x] Source Chapter 7: word_target — expected 3100; actual 3100
+- [x] Source Chapter 7: status — expected 'revised'; actual 'revised'
+- [x] Source Chapter 7: words — expected 3105; actual 3105
+- [x] Source Chapter 7: proofread Git blob — expected 9ffbb201458d822bafcdf24ffe3b28df283b635a; actual 9ffbb201458d822bafcdf24ffe3b28df283b635a
+- [x] Source Chapter 7: locked proofread count — expected 3105; actual 3105
+- [x] Source Chapter 7: no trailing spaces — checked
+- [x] Source Chapter 7: exact final line — The route field remained blank.
+- [x] Source Chapter 7: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 7: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 7: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 7: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 7: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 7: no forbidden marker mission[- ]lock|story[- ]memory|mystery[- ]solution|proofreading-report|revision-plan — not found
+- [x] Source Chapter 8: n — expected 8; actual 8
+- [x] Source Chapter 8: title — expected 'The Pattern'; actual 'The Pattern'
+- [x] Source Chapter 8: pov — expected 'Callie Thorne'; actual 'Callie Thorne'
+- [x] Source Chapter 8: date — expected '2027-04-18'; actual '2027-04-18'
+- [x] Source Chapter 8: word_target — expected 3150; actual 3150
+- [x] Source Chapter 8: status — expected 'revised'; actual 'revised'
+- [x] Source Chapter 8: words — expected 3481; actual 3481
+- [x] Source Chapter 8: proofread Git blob — expected be9f1a5531c3a6d61430483b76ed01472d0a03e4; actual be9f1a5531c3a6d61430483b76ed01472d0a03e4
+- [x] Source Chapter 8: locked proofread count — expected 3481; actual 3481
+- [x] Source Chapter 8: no trailing spaces — checked
+- [x] Source Chapter 8: exact final line — Who knew which page she would open next?
+- [x] Source Chapter 8: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Source Chapter 8: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Source Chapter 8: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Source Chapter 8: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Source Chapter 8: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Source Chapter 8: no forbidden marker mission[- ]lock|story[- ]memory|mystery[- ]solution|proofreading-report|revision-plan — not found
+- [x] Source: eight chapters — 8
+- [x] Source: total 25,646 — 25646
+- [x] Source: exact Mercer provenance once — 1
+- [x] Source: no duplicate chapter body — checked
+- [x] Markdown: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] Markdown: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] Markdown: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] Markdown: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] Markdown: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] Markdown: no forbidden marker mission[- ]lock|story[- ]memory|mystery[- ]solution|proofreading-report|revision-plan — not found
+- [x] Markdown: chapter sequence and titles — found [('1', 'The Box at Closing'), ('2', 'A Fall That Did Not Fit'), ('3', 'The Surveyor’s Missing Line'), ('4', 'Marks Made Later'), ('5', 'The Road Through Bellweather'), ('6', 'What the Ledger Withheld'), ('7', 'The Weight of the Map'), ('8', 'The Pattern')]
+- [x] Markdown: eight chapters — found 8
+- [x] Markdown: no YAML metadata leak — checked source-only keys
+- [x] Markdown: no raw page-break commands — checked
+- [x] Markdown: Chapter 1 body preserved exactly — source 6107ec6397fd77a3eaf3c479b71a30ba38289893418c6ec4063c0fbacf431f70; combined 6107ec6397fd77a3eaf3c479b71a30ba38289893418c6ec4063c0fbacf431f70
+- [x] Markdown: Chapter 2 body preserved exactly — source 3de8014394f846ed5c1e3491030ef4630c1c62f3196778f969542921f9ca0242; combined 3de8014394f846ed5c1e3491030ef4630c1c62f3196778f969542921f9ca0242
+- [x] Markdown: Chapter 3 body preserved exactly — source 8f2c295ed1b0bd38bd98417de38de493b9c1da1c5b2e023555e65bc2ba39fdc4; combined 8f2c295ed1b0bd38bd98417de38de493b9c1da1c5b2e023555e65bc2ba39fdc4
+- [x] Markdown: Chapter 4 body preserved exactly — source db12bdf780733c20d5d78988d4a6dec7ccdc54b48cd0428d8f0c1722685b510c; combined db12bdf780733c20d5d78988d4a6dec7ccdc54b48cd0428d8f0c1722685b510c
+- [x] Markdown: Chapter 5 body preserved exactly — source 3f645d5e78dc337fb6e926fbfc494c498300c0e193dfa4fd47865a5fcda0f720; combined 3f645d5e78dc337fb6e926fbfc494c498300c0e193dfa4fd47865a5fcda0f720
+- [x] Markdown: Chapter 6 body preserved exactly — source 007ff17d55e7f0b472ad545329a7cdf65285ef9e3061546029b1bedb60ea1584; combined 007ff17d55e7f0b472ad545329a7cdf65285ef9e3061546029b1bedb60ea1584
+- [x] Markdown: Chapter 7 body preserved exactly — source d76355650bf4d1396b718b49abea6710fa77e0340236ce86624594249e4221be; combined d76355650bf4d1396b718b49abea6710fa77e0340236ce86624594249e4221be
+- [x] Markdown: Chapter 8 body preserved exactly — source e04723ba1497dcbe7089978a618e22b9fa837d2602b4bd5ef1dc60ea49a1f0b8; combined e04723ba1497dcbe7089978a618e22b9fa837d2602b4bd5ef1dc60ea49a1f0b8
+- [x] Markdown: no duplicated chapter bodies — unique hashes: 8
+- [x] Markdown: front matter order — [0, 81, 666]
+- [x] Markdown: back matter order — [163346, 163569, 163745]
+- [x] HTML: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] HTML: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] HTML: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] HTML: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] HTML: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] HTML: no forbidden marker mission[- ]lock|story[- ]memory|mystery[- ]solution|proofreading-report|revision-plan — not found
+- [x] HTML: chapter sequence — ['Chapter 1 — The Box at Closing', 'Chapter 2 — A Fall That Did Not Fit', 'Chapter 3 — The Surveyor’s Missing Line', 'Chapter 4 — Marks Made Later', 'Chapter 5 — The Road Through Bellweather', 'Chapter 6 — What the Ledger Withheld', 'Chapter 7 — The Weight of the Map', 'Chapter 8 — The Pattern']
+- [x] HTML: title and author — checked
+- [x] HTML: no broken internal links — []
+- [x] MARKDOWN Chapter 1: exact reader-text identity — source 85af59815a227fac27e5c5a84c1a87bec0b076f6ddb52785e006fd9b72b2b494; output 85af59815a227fac27e5c5a84c1a87bec0b076f6ddb52785e006fd9b72b2b494
+- [x] MARKDOWN Chapter 1: exact final line —  thirty-nine. Cross waited until both locks were photographed, then put one gloved finger against the nearest wheel. It did not turn. The ladder had not rolled.
+- [x] MARKDOWN Chapter 2: exact reader-text identity — source 8aa5e0336862f5aafa43f039d2b5895928c3a2632d8a84df7d102af6c75f5b27; output 8aa5e0336862f5aafa43f039d2b5895928c3a2632d8a84df7d102af6c75f5b27
+- [x] MARKDOWN Chapter 2: exact final line — n its documented order: locked wheels, unbroken dust, Miriam’s cuff, six brass weights. Five handles carried the same dull residue of use. One had been cleaned.
+- [x] MARKDOWN Chapter 3: exact reader-text identity — source 1917435d7feedc6d273d92f2543f061343381beeb3f8273994c14699a4d74d98; output 1917435d7feedc6d273d92f2543f061343381beeb3f8273994c14699a4d74d98
+- [x] MARKDOWN Chapter 3: exact final line — ’s death remained unknown. But the county had preserved what the absence concerned. Sheet 47 had described a public right-of-way through Bellweather river land.
+- [x] MARKDOWN Chapter 4: exact reader-text identity — source 38f34cfb88c13c6c82c8cebe4701b8421f90e2eec3c643f350d0bfb4ce7330e7; output 38f34cfb88c13c6c82c8cebe4701b8421f90e2eec3c643f350d0bfb4ce7330e7
+- [x] MARKDOWN Chapter 4: exact final line — copes and took the official packet with him. The shop retained the authorized grid and no original record. The last field held four words. South line retrieval.
+- [x] MARKDOWN Chapter 5: exact reader-text identity — source cfc157d0bce2bcf409ab7d04456720a14799ca6bc985d895acdda90d086d2346; output cfc157d0bce2bcf409ab7d04456720a14799ca6bc985d895acdda90d086d2346
+- [x] MARKDOWN Chapter 5: exact final line — iam had expected D.W. at six fifteen, and the death window ran to six thirty-five. The road through Bellweather did not contain the missing thirty-nine minutes.
+- [x] MARKDOWN Chapter 6: exact reader-text identity — source c32ac9af196a5f4e3ee3d0a47fea36983b51f0f299f4feee7c1b64a14ec0685b; output c32ac9af196a5f4e3ee3d0a47fea36983b51f0f299f4feee7c1b64a14ec0685b
+- [x] MARKDOWN Chapter 6: exact final line — y from one another. Cross lifted the two warrant folders. What the ledger had withheld was not the whole road. It was enough to ask where Dana had put the rest.
+- [x] MARKDOWN Chapter 7: exact reader-text identity — source d6b693d1169ac73e46e50d443be21ca54cc15a0e61d6dd60a2c3ae743acaac74; output d6b693d1169ac73e46e50d443be21ca54cc15a0e61d6dd60a2c3ae743acaac74
+- [x] MARKDOWN Chapter 7: exact final line — y had not become one person because she wanted one ending. At eleven thirty-eight, Eli wrote Dana Wren’s name in the murder row. The route field remained blank.
+- [x] MARKDOWN Chapter 8: exact reader-text identity — source fa74a415e1bd542f9e6f8e994c4dfb348f843584371351907f727e63bb5687a1; output fa74a415e1bd542f9e6f8e994c4dfb348f843584371351907f727e63bb5687a1
+- [x] MARKDOWN Chapter 8: exact final line —  the intention behind the route. Callie left the name field blank and wrote the only question the evidence could carry: Who knew which page she would open next?
+- [x] TEXT Chapter 1: exact reader-text identity — source 85af59815a227fac27e5c5a84c1a87bec0b076f6ddb52785e006fd9b72b2b494; output 85af59815a227fac27e5c5a84c1a87bec0b076f6ddb52785e006fd9b72b2b494
+- [x] TEXT Chapter 1: exact final line —  thirty-nine. Cross waited until both locks were photographed, then put one gloved finger against the nearest wheel. It did not turn. The ladder had not rolled.
+- [x] TEXT Chapter 2: exact reader-text identity — source 8aa5e0336862f5aafa43f039d2b5895928c3a2632d8a84df7d102af6c75f5b27; output 8aa5e0336862f5aafa43f039d2b5895928c3a2632d8a84df7d102af6c75f5b27
+- [x] TEXT Chapter 2: exact final line — n its documented order: locked wheels, unbroken dust, Miriam’s cuff, six brass weights. Five handles carried the same dull residue of use. One had been cleaned.
+- [x] TEXT Chapter 3: exact reader-text identity — source 1917435d7feedc6d273d92f2543f061343381beeb3f8273994c14699a4d74d98; output 1917435d7feedc6d273d92f2543f061343381beeb3f8273994c14699a4d74d98
+- [x] TEXT Chapter 3: exact final line — ’s death remained unknown. But the county had preserved what the absence concerned. Sheet 47 had described a public right-of-way through Bellweather river land.
+- [x] TEXT Chapter 4: exact reader-text identity — source 38f34cfb88c13c6c82c8cebe4701b8421f90e2eec3c643f350d0bfb4ce7330e7; output 38f34cfb88c13c6c82c8cebe4701b8421f90e2eec3c643f350d0bfb4ce7330e7
+- [x] TEXT Chapter 4: exact final line — copes and took the official packet with him. The shop retained the authorized grid and no original record. The last field held four words. South line retrieval.
+- [x] TEXT Chapter 5: exact reader-text identity — source cfc157d0bce2bcf409ab7d04456720a14799ca6bc985d895acdda90d086d2346; output cfc157d0bce2bcf409ab7d04456720a14799ca6bc985d895acdda90d086d2346
+- [x] TEXT Chapter 5: exact final line — iam had expected D.W. at six fifteen, and the death window ran to six thirty-five. The road through Bellweather did not contain the missing thirty-nine minutes.
+- [x] TEXT Chapter 6: exact reader-text identity — source c32ac9af196a5f4e3ee3d0a47fea36983b51f0f299f4feee7c1b64a14ec0685b; output c32ac9af196a5f4e3ee3d0a47fea36983b51f0f299f4feee7c1b64a14ec0685b
+- [x] TEXT Chapter 6: exact final line — y from one another. Cross lifted the two warrant folders. What the ledger had withheld was not the whole road. It was enough to ask where Dana had put the rest.
+- [x] TEXT Chapter 7: exact reader-text identity — source d6b693d1169ac73e46e50d443be21ca54cc15a0e61d6dd60a2c3ae743acaac74; output d6b693d1169ac73e46e50d443be21ca54cc15a0e61d6dd60a2c3ae743acaac74
+- [x] TEXT Chapter 7: exact final line — y had not become one person because she wanted one ending. At eleven thirty-eight, Eli wrote Dana Wren’s name in the murder row. The route field remained blank.
+- [x] TEXT Chapter 8: exact reader-text identity — source fa74a415e1bd542f9e6f8e994c4dfb348f843584371351907f727e63bb5687a1; output fa74a415e1bd542f9e6f8e994c4dfb348f843584371351907f727e63bb5687a1
+- [x] TEXT Chapter 8: exact final line —  the intention behind the route. Callie left the name field blank and wrote the only question the evidence could carry: Who knew which page she would open next?
+- [x] HTML Chapter 1: exact reader-text identity — source 85af59815a227fac27e5c5a84c1a87bec0b076f6ddb52785e006fd9b72b2b494; output 85af59815a227fac27e5c5a84c1a87bec0b076f6ddb52785e006fd9b72b2b494
+- [x] HTML Chapter 1: exact final line —  thirty-nine. Cross waited until both locks were photographed, then put one gloved finger against the nearest wheel. It did not turn. The ladder had not rolled.
+- [x] HTML Chapter 2: exact reader-text identity — source 8aa5e0336862f5aafa43f039d2b5895928c3a2632d8a84df7d102af6c75f5b27; output 8aa5e0336862f5aafa43f039d2b5895928c3a2632d8a84df7d102af6c75f5b27
+- [x] HTML Chapter 2: exact final line — n its documented order: locked wheels, unbroken dust, Miriam’s cuff, six brass weights. Five handles carried the same dull residue of use. One had been cleaned.
+- [x] HTML Chapter 3: exact reader-text identity — source 1917435d7feedc6d273d92f2543f061343381beeb3f8273994c14699a4d74d98; output 1917435d7feedc6d273d92f2543f061343381beeb3f8273994c14699a4d74d98
+- [x] HTML Chapter 3: exact final line — ’s death remained unknown. But the county had preserved what the absence concerned. Sheet 47 had described a public right-of-way through Bellweather river land.
+- [x] HTML Chapter 4: exact reader-text identity — source 38f34cfb88c13c6c82c8cebe4701b8421f90e2eec3c643f350d0bfb4ce7330e7; output 38f34cfb88c13c6c82c8cebe4701b8421f90e2eec3c643f350d0bfb4ce7330e7
+- [x] HTML Chapter 4: exact final line — copes and took the official packet with him. The shop retained the authorized grid and no original record. The last field held four words. South line retrieval.
+- [x] HTML Chapter 5: exact reader-text identity — source cfc157d0bce2bcf409ab7d04456720a14799ca6bc985d895acdda90d086d2346; output cfc157d0bce2bcf409ab7d04456720a14799ca6bc985d895acdda90d086d2346
+- [x] HTML Chapter 5: exact final line — iam had expected D.W. at six fifteen, and the death window ran to six thirty-five. The road through Bellweather did not contain the missing thirty-nine minutes.
+- [x] HTML Chapter 6: exact reader-text identity — source c32ac9af196a5f4e3ee3d0a47fea36983b51f0f299f4feee7c1b64a14ec0685b; output c32ac9af196a5f4e3ee3d0a47fea36983b51f0f299f4feee7c1b64a14ec0685b
+- [x] HTML Chapter 6: exact final line — y from one another. Cross lifted the two warrant folders. What the ledger had withheld was not the whole road. It was enough to ask where Dana had put the rest.
+- [x] HTML Chapter 7: exact reader-text identity — source d6b693d1169ac73e46e50d443be21ca54cc15a0e61d6dd60a2c3ae743acaac74; output d6b693d1169ac73e46e50d443be21ca54cc15a0e61d6dd60a2c3ae743acaac74
+- [x] HTML Chapter 7: exact final line — y had not become one person because she wanted one ending. At eleven thirty-eight, Eli wrote Dana Wren’s name in the murder row. The route field remained blank.
+- [x] HTML Chapter 8: exact reader-text identity — source fa74a415e1bd542f9e6f8e994c4dfb348f843584371351907f727e63bb5687a1; output fa74a415e1bd542f9e6f8e994c4dfb348f843584371351907f727e63bb5687a1
+- [x] HTML Chapter 8: exact final line —  the intention behind the route. Callie left the name field blank and wrote the only question the evidence could carry: Who knew which page she would open next?
+- [x] DOCX Chapter 1: exact reader-text identity — source 85af59815a227fac27e5c5a84c1a87bec0b076f6ddb52785e006fd9b72b2b494; output 85af59815a227fac27e5c5a84c1a87bec0b076f6ddb52785e006fd9b72b2b494
+- [x] DOCX Chapter 1: exact final line —  thirty-nine. Cross waited until both locks were photographed, then put one gloved finger against the nearest wheel. It did not turn. The ladder had not rolled.
+- [x] DOCX Chapter 2: exact reader-text identity — source 8aa5e0336862f5aafa43f039d2b5895928c3a2632d8a84df7d102af6c75f5b27; output 8aa5e0336862f5aafa43f039d2b5895928c3a2632d8a84df7d102af6c75f5b27
+- [x] DOCX Chapter 2: exact final line — n its documented order: locked wheels, unbroken dust, Miriam’s cuff, six brass weights. Five handles carried the same dull residue of use. One had been cleaned.
+- [x] DOCX Chapter 3: exact reader-text identity — source 1917435d7feedc6d273d92f2543f061343381beeb3f8273994c14699a4d74d98; output 1917435d7feedc6d273d92f2543f061343381beeb3f8273994c14699a4d74d98
+- [x] DOCX Chapter 3: exact final line — ’s death remained unknown. But the county had preserved what the absence concerned. Sheet 47 had described a public right-of-way through Bellweather river land.
+- [x] DOCX Chapter 4: exact reader-text identity — source 38f34cfb88c13c6c82c8cebe4701b8421f90e2eec3c643f350d0bfb4ce7330e7; output 38f34cfb88c13c6c82c8cebe4701b8421f90e2eec3c643f350d0bfb4ce7330e7
+- [x] DOCX Chapter 4: exact final line — copes and took the official packet with him. The shop retained the authorized grid and no original record. The last field held four words. South line retrieval.
+- [x] DOCX Chapter 5: exact reader-text identity — source cfc157d0bce2bcf409ab7d04456720a14799ca6bc985d895acdda90d086d2346; output cfc157d0bce2bcf409ab7d04456720a14799ca6bc985d895acdda90d086d2346
+- [x] DOCX Chapter 5: exact final line — iam had expected D.W. at six fifteen, and the death window ran to six thirty-five. The road through Bellweather did not contain the missing thirty-nine minutes.
+- [x] DOCX Chapter 6: exact reader-text identity — source c32ac9af196a5f4e3ee3d0a47fea36983b51f0f299f4feee7c1b64a14ec0685b; output c32ac9af196a5f4e3ee3d0a47fea36983b51f0f299f4feee7c1b64a14ec0685b
+- [x] DOCX Chapter 6: exact final line — y from one another. Cross lifted the two warrant folders. What the ledger had withheld was not the whole road. It was enough to ask where Dana had put the rest.
+- [x] DOCX Chapter 7: exact reader-text identity — source d6b693d1169ac73e46e50d443be21ca54cc15a0e61d6dd60a2c3ae743acaac74; output d6b693d1169ac73e46e50d443be21ca54cc15a0e61d6dd60a2c3ae743acaac74
+- [x] DOCX Chapter 7: exact final line — y had not become one person because she wanted one ending. At eleven thirty-eight, Eli wrote Dana Wren’s name in the murder row. The route field remained blank.
+- [x] DOCX Chapter 8: exact reader-text identity — source fa74a415e1bd542f9e6f8e994c4dfb348f843584371351907f727e63bb5687a1; output fa74a415e1bd542f9e6f8e994c4dfb348f843584371351907f727e63bb5687a1
+- [x] DOCX Chapter 8: exact final line —  the intention behind the route. Callie left the name field blank and wrote the only question the evidence could carry: Who knew which page she would open next?
+- [x] EPUB Chapter 1: exact reader-text identity — source 85af59815a227fac27e5c5a84c1a87bec0b076f6ddb52785e006fd9b72b2b494; output 85af59815a227fac27e5c5a84c1a87bec0b076f6ddb52785e006fd9b72b2b494
+- [x] EPUB Chapter 1: exact final line —  thirty-nine. Cross waited until both locks were photographed, then put one gloved finger against the nearest wheel. It did not turn. The ladder had not rolled.
+- [x] EPUB Chapter 2: exact reader-text identity — source 8aa5e0336862f5aafa43f039d2b5895928c3a2632d8a84df7d102af6c75f5b27; output 8aa5e0336862f5aafa43f039d2b5895928c3a2632d8a84df7d102af6c75f5b27
+- [x] EPUB Chapter 2: exact final line — n its documented order: locked wheels, unbroken dust, Miriam’s cuff, six brass weights. Five handles carried the same dull residue of use. One had been cleaned.
+- [x] EPUB Chapter 3: exact reader-text identity — source 1917435d7feedc6d273d92f2543f061343381beeb3f8273994c14699a4d74d98; output 1917435d7feedc6d273d92f2543f061343381beeb3f8273994c14699a4d74d98
+- [x] EPUB Chapter 3: exact final line — ’s death remained unknown. But the county had preserved what the absence concerned. Sheet 47 had described a public right-of-way through Bellweather river land.
+- [x] EPUB Chapter 4: exact reader-text identity — source 38f34cfb88c13c6c82c8cebe4701b8421f90e2eec3c643f350d0bfb4ce7330e7; output 38f34cfb88c13c6c82c8cebe4701b8421f90e2eec3c643f350d0bfb4ce7330e7
+- [x] EPUB Chapter 4: exact final line — copes and took the official packet with him. The shop retained the authorized grid and no original record. The last field held four words. South line retrieval.
+- [x] EPUB Chapter 5: exact reader-text identity — source cfc157d0bce2bcf409ab7d04456720a14799ca6bc985d895acdda90d086d2346; output cfc157d0bce2bcf409ab7d04456720a14799ca6bc985d895acdda90d086d2346
+- [x] EPUB Chapter 5: exact final line — iam had expected D.W. at six fifteen, and the death window ran to six thirty-five. The road through Bellweather did not contain the missing thirty-nine minutes.
+- [x] EPUB Chapter 6: exact reader-text identity — source c32ac9af196a5f4e3ee3d0a47fea36983b51f0f299f4feee7c1b64a14ec0685b; output c32ac9af196a5f4e3ee3d0a47fea36983b51f0f299f4feee7c1b64a14ec0685b
+- [x] EPUB Chapter 6: exact final line — y from one another. Cross lifted the two warrant folders. What the ledger had withheld was not the whole road. It was enough to ask where Dana had put the rest.
+- [x] EPUB Chapter 7: exact reader-text identity — source d6b693d1169ac73e46e50d443be21ca54cc15a0e61d6dd60a2c3ae743acaac74; output d6b693d1169ac73e46e50d443be21ca54cc15a0e61d6dd60a2c3ae743acaac74
+- [x] EPUB Chapter 7: exact final line — y had not become one person because she wanted one ending. At eleven thirty-eight, Eli wrote Dana Wren’s name in the murder row. The route field remained blank.
+- [x] EPUB Chapter 8: exact reader-text identity — source fa74a415e1bd542f9e6f8e994c4dfb348f843584371351907f727e63bb5687a1; output fa74a415e1bd542f9e6f8e994c4dfb348f843584371351907f727e63bb5687a1
+- [x] EPUB Chapter 8: exact final line —  the intention behind the route. Callie left the name field blank and wrote the only question the evidence could carry: Who knew which page she would open next?
+- [x] MARKDOWN Chapter 1: scene-break parity — source 4; output 4
+- [x] MARKDOWN Chapter 2: scene-break parity — source 4; output 4
+- [x] MARKDOWN Chapter 3: scene-break parity — source 5; output 5
+- [x] MARKDOWN Chapter 4: scene-break parity — source 5; output 5
+- [x] MARKDOWN Chapter 5: scene-break parity — source 6; output 6
+- [x] MARKDOWN Chapter 6: scene-break parity — source 5; output 5
+- [x] MARKDOWN Chapter 7: scene-break parity — source 5; output 5
+- [x] MARKDOWN Chapter 8: scene-break parity — source 5; output 5
+- [x] DOCX: inherited Book 4 structural and render checks — all checks passed except the known empty-string sentinel defect
+- [x] DOCX render: no broken replacement characters — []
+- [x] DOCX render: every page rendered — 71 PNGs for 71 pages
+- [x] DOCX render: contact sheets created — 4 sheets
+- [x] EPUB: nonempty ZIP — 21 entries
+- [x] EPUB: mimetype first — mimetype
+- [x] EPUB: mimetype uncompressed — 0
+- [x] EPUB: container present — checked
+- [x] EPUB: mimetype correct — application/epub+zip
+- [x] EPUB: OPF path resolved — EPUB/content.opf
+- [x] EPUB: title metadata — 'The Pattern'
+- [x] EPUB: author metadata — 'Vesper Blythe'
+- [x] EPUB: language metadata — 'en-US'
+- [x] EPUB: all manifest resources exist — []
+- [x] EPUB: readable spine — ['EPUB/text/title_page.xhtml', 'EPUB/nav.xhtml', 'EPUB/text/ch001.xhtml', 'EPUB/text/ch002.xhtml', 'EPUB/text/ch003.xhtml', 'EPUB/text/ch004.xhtml', 'EPUB/text/ch005.xhtml', 'EPUB/text/ch006.xhtml', 'EPUB/text/ch007.xhtml', 'EPUB/text/ch008.xhtml', 'EPUB/text/ch009.xhtml', 'EPUB/text/ch010.xhtml', 'EPUB/text/ch011.xhtml', 'EPUB/text/ch012.xhtml', 'EPUB/text/ch013.xhtml']
+- [x] EPUB: navigation document — EPUB/nav.xhtml
+- [x] EPUB: all eight chapter headings — ['Chapter 1 — The Box at Closing', 'Chapter 2 — A Fall That Did Not Fit', 'Chapter 3 — The Surveyor’s Missing Line', 'Chapter 4 — Marks Made Later', 'Chapter 5 — The Road Through Bellweather', 'Chapter 6 — What the Ledger Withheld', 'Chapter 7 — The Weight of the Map', 'Chapter 8 — The Pattern']
+- [x] EPUB: chapter order — ['Chapter 1 — The Box at Closing', 'Chapter 2 — A Fall That Did Not Fit', 'Chapter 3 — The Surveyor’s Missing Line', 'Chapter 4 — Marks Made Later', 'Chapter 5 — The Road Through Bellweather', 'Chapter 6 — What the Ledger Withheld', 'Chapter 7 — The Weight of the Map', 'Chapter 8 — The Pattern']
+- [x] EPUB: no duplicate chapters — {'Chapter 1 — The Box at Closing': 1, 'Chapter 2 — A Fall That Did Not Fit': 1, 'Chapter 3 — The Surveyor’s Missing Line': 1, 'Chapter 4 — Marks Made Later': 1, 'Chapter 5 — The Road Through Bellweather': 1, 'Chapter 6 — What the Ledger Withheld': 1, 'Chapter 7 — The Weight of the Map': 1, 'Chapter 8 — The Pattern': 1}
+- [x] EPUB extracted text: no forbidden marker <<<<<<<|=======|>>>>>>> — not found
+- [x] EPUB extracted text: no forbidden marker \b(?:TODO|TBD|FIXME)\b — not found
+- [x] EPUB extracted text: no forbidden marker AUTHOR DECISION REQUIRED — not found
+- [x] EPUB extracted text: no forbidden marker \[\s*PLACEHOLDER\s*\] — not found
+- [x] EPUB extracted text: no forbidden marker eli-hidden-chronology|internal_series_spoilers|internal_continuity_control|reader_facing_long_arc_spoiler — not found
+- [x] EPUB extracted text: no forbidden marker mission[- ]lock|story[- ]memory|mystery[- ]solution|proofreading-report|revision-plan — not found
+- [x] EPUB: no broken internal links — []
+- [x] EPUB: epubcheck — Validating using EPUB version 3.2 rules.
 No errors or warnings detected.
 Messages: 0 fatals / 0 errors / 0 warnings / 0 infos
 
 EPUBCheck completed
-EXIT_STATUS=0
+- [x] Scope: actual current-base comparison available — ref origin/main; merge base 3f83c731ab54bbd8f2aaf9386b92eea0a18d08f4
+- [x] Scope: Book 5 unchanged — []
+- [x] Scope: no Book 6 chapter manuscript changed — []
+- [x] Scope: no Book 7 chapter manuscript changed relative to current base — []
+- [x] Scope: Book 8 unchanged — []
+- [x] Scope: no package/cover/listing/upload/publication/release/retailer asset changed — []
+- [x] Scope: Book 3 release workflow unchanged — []
+- [x] Scope: existing Book 7 prose is outside Book 6 export authority — ['books/book-07/manuscript/ch-01.md']
+
+## EPUBCheck
+
+```text
+Validating using EPUB version 3.2 rules.
+No errors or warnings detected.
+Messages: 0 fatals / 0 errors / 0 warnings / 0 infos
+
+EPUBCheck completed
 ```
 
-## Deterministic checksum comparison
-
-| Artifact | Repair build SHA-256 | PR #32 recorded SHA-256 | Result |
-|---|---|---|---|
-| Markdown | `46a4a608c86f98fc7a90de31ceea89d313298a8b2db5d9744c53fe697ae381a0` | same | exact |
-| TXT | `82f8ee17eb9757abca5dd83ca5b5cd2c4424333bab56bcfcaf22765e94bf11b1` | same | exact |
-| HTML | `f0235f54163f83ad9c13346a1255f552948e0742676696fb7b4722b23a629463` | same | exact after evidenced author-metadata repair |
-| DOCX | `adb45d52f4d41bfa9a86f901e3542772a408964a47f0b89849cfd213037fac94` | same | exact |
-| EPUB | `66aa8e30c513fdbf2c5fc28abbf5b774b6dfa42d6d1b7168f5c4d1ae0ff2b420` | same | exact |
-| PDF render | `8e681aba4789913418f339c3e72d3c543f4c272987fbb9d092eefcdc4d8b4e96` | `457da9c58920921a890a53e1db954617a3ce0a6adf00f51f0f1061262369eeb6` | justified build-specific difference; 518,205 bytes and 71 pages remained stable |
-
-## Visual review
-
-All four contact sheets were inspected. No clipping, overlap, missing glyph, accidental blank page, broken chapter heading, lost scene break, malformed footer, or back-matter layout defect was observed.
-
-## Gate disposition
-
-The deterministic export and real EPUBCheck pass locally. The stable combined files were generated and checksum-verified, but the repository Actions job has still not reached its first workflow step. Therefore the repository CI gate, stable generated-output integration, and `export_complete: true` lifecycle transition remain pending. No cause beyond the observed pre-step Actions failure is asserted.
+Package, cover, listing, upload, and publication remain pending.
