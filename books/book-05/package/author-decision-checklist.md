@@ -1,14 +1,14 @@
 # Book 5 Author Decision Checklist
 
-These decisions are intentionally unresolved. None blocks preparation of metadata or tooling, but the approved cover blocks the final ebook package and upload-ready status.
+These decisions are intentionally unresolved. None blocks preparation of metadata or tooling. The cover is no longer a blocker.
 
-## Required package blocker
+## Required package blocker (resolved)
 
-- [ ] Supply the final ebook cover at `books/book-05/cover.jpeg`.
-- [ ] Explicitly approve that exact cover.
-- [ ] Confirm the title, author, series label, and Book 5 designation at thumbnail size.
-- [ ] Confirm the cover contains no spoiler-heavy or contradictory imagery.
-- [ ] Record the approval name, approval date, and exact cover SHA-256 in `books/book-05/package/cover-approval.json`.
+- [x] Supply the final ebook cover at `books/book-05/cover.jpeg`.
+- [x] Explicitly approve that exact cover (Dustin Ober, 2026-07-26).
+- [x] Confirm the title, author, series label, and Book 5 designation at thumbnail size.
+- [x] Confirm the cover contains no spoiler-heavy or contradictory imagery.
+- [x] Record the approval name, approval date, and exact cover SHA-256 in `books/book-05/package/cover-approval.json`.
 - [ ] Run the release workflow and confirm the approval hash matches the canonical cover byte for byte.
 
 ## Retailer-controlled decisions

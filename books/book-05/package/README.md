@@ -3,7 +3,7 @@
 This directory contains the non-publishing package controls for *The Planted Page*.
 
 - `packaging.md` defines the exact cover requirements and spoiler-safe branding guardrails.
-- `cover-approval.json` records explicit author approval and the SHA-256 of the exact approved cover; it remains pending until a final cover is supplied.
+- `cover-approval.json` records explicit author approval and the SHA-256 of the exact approved cover; the Book 5 cover is approved.
 - `package-readiness.md` records completed work and the current blocker.
 - `author-decision-checklist.md` isolates author-controlled retailer and print choices.
 - `validate-readiness.py` validates metadata, accepted export controls, the canonical cover, and the matching approval record.
