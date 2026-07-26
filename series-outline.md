@@ -82,7 +82,7 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 - **Protection:** Eli is not the murderer, did not create any solved case, did not forge decisive guilt evidence, did not frame an innocent person, and did not contaminate police custody. Books 1–4 are not attributed to him.
 - **Ending state:** Vivienne is arrested without confession; the five leaves' individual provenance is restored; Eli's apprenticeship and shop access end; possible legal violations are referred without inventing a completed charge or outcome; Callie and Eli do not reconcile; future intent remains blank.
 - **Book 8 protection:** Eli remains alive and capable of leaving the final warning. The future murder, Callie's final trust decision, and shared-reading ending remain reserved.
-- **Production:** Chapter 1 — **The Petition Book** — drafted at exactly 3,100 manuscript-prose words. Chapters 2–8 remain planned and undrafted. Chapter 1 formal acceptance and revision review is the next task; Chapter 2 remains prohibited until Chapter 1 is accepted and merged.
+- **Production:** Chapter 1 — **The Petition Book** — formally accepted at exactly 3,100 manuscript-prose words with no prose change. Chapters 2–8 remain planned and undrafted. The dedicated Chapter 2 mission lock and drafting task for **The Closed Aisle** is next.
 - **Plan:** Eight chapters; exact target 25,000 words.
 - **Target:** 25,000 words.
 
