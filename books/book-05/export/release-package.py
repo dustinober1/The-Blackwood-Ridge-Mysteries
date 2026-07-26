@@ -187,17 +187,30 @@ def locate_opf(archive: zipfile.ZipFile) -> str:
     return rootfile.get("full-path", "")
 
 
+def locate_ncx(archive: zipfile.ZipFile, opf_path: str) -> str | None:
+    opf_dir = Path(opf_path).parent
+    opf = ET.fromstring(archive.read(opf_path))
+    for item in opf.findall(".//{*}manifest/{*}item"):
+        if item.get("media-type") == "application/x-dtbncx+xml":
+            return str((opf_dir / item.get("href", "")).as_posix())
+    return None
+
+
 def add_series_metadata_and_normalize() -> None:
     with zipfile.ZipFile(EPUB) as archive:
         opf_path = locate_opf(archive)
+        ncx_path = locate_ncx(archive, opf_path)
 
     def transform(name: str, data: bytes) -> bytes:
-        if name != opf_path:
+        if name not in (opf_path, ncx_path):
             return data
         text = data.decode("utf-8")
+        # The NCX carries its own dtb:uid independent of the OPF identifier; both must
+        # be pinned to the same fixed UUID so EPUBCheck's NCX-001 identifier-match rule
+        # passes and rebuilds stay byte-stable.
         text = re.sub(r"urn:uuid:[0-9a-fA-F-]+", f"urn:uuid:{FIXED_EPUB_UUID}", text)
         text = re.sub(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z", "2026-07-14T00:00:00Z", text)
-        if "belongs-to-collection" not in text:
+        if name == opf_path and "belongs-to-collection" not in text:
             series_meta = (
                 f'<meta property="belongs-to-collection" id="collection">{SERIES}</meta>\n'
                 '<meta refines="#collection" property="collection-type">series</meta>\n'
@@ -291,6 +304,10 @@ def validate_epub() -> dict[str, Any]:
         all_h1: list[str] = []
         extracted_parts: list[str] = []
         for path in spine_paths:
+            if path == nav_href:
+                # Pandoc includes the nav document in the spine and auto-titles it with
+                # the book title; its headings/content are validated separately below.
+                continue
             soup = BeautifulSoup(archive.read(path), "html.parser")
             all_h1.extend(normalize(node.get_text(" ", strip=True)) for node in soup.find_all("h1"))
             extracted_parts.append(soup.get_text(" ", strip=True))
