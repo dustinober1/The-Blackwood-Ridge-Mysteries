@@ -1,10 +1,10 @@
 # Book 7 — The Reckoning
 
-**Author:** Vesper Blythe  
-**Series:** The Blackwood Ridge Mysteries #7  
-**Genre:** Atmospheric cozy mystery / amateur sleuth  
-**Target:** 25,000 manuscript-prose words across eight chapters  
-**Status:** First draft in progress; Chapter 1 formally accepted at 3,100 manuscript-prose words
+**Author:** Vesper Blythe
+**Series:** The Blackwood Ridge Mysteries #7
+**Genre:** Atmospheric cozy mystery / amateur sleuth
+**Target:** 25,000 manuscript-prose words across eight chapters
+**Status:** First draft in progress; Chapter 1 formally accepted at 3,100 manuscript-prose words; Chapter 2 drafted at 3,050 manuscript-prose words
 
 ## Controlling function
 
@@ -51,11 +51,13 @@ Eli responds by moving a genuine shop-owned 1912 circular into the empty trainin
 
 - Chapter 1 — **The Petition Book** — formally accepted at 3,100 manuscript-prose words; prose unchanged by acceptance.
 - Chapter 1 formal acceptance record — `chapter-01-formal-acceptance.md`.
-- Chapters 2–8 — planned and undrafted.
-- Dedicated Chapter 2 mission lock and drafting task — next.
+- Chapter 2 mission lock — `control/chapter-02-mission-lock.md` — complete.
+- Chapter 2 — **The Closed Aisle** — first draft complete at exactly 3,050 manuscript-prose words.
+- Chapters 3–8 — planned and undrafted.
+- Dedicated Chapter 3 mission lock and drafting task — next.
 - Whole-draft revision, line edit, prose polish, proofreading, export, package, cover, listing, upload, distribution, and publication — pending.
 - Upload ready — no.
 
 ## Production boundary
 
-No Chapter 2 manuscript exists. Chapter 2 may be created only in the dedicated Book 7 Chapter 2 mission lock and drafting task after this acceptance change is merged. No export, package, cover, listing, upload, advertising, distribution, or publication work belongs to the Chapter 1 acceptance pass.
+No Chapter 3 manuscript exists. Chapter 3 may be created only in the dedicated Book 7 Chapter 3 mission lock and drafting task after the Chapter 2 change is merged. No export, package, cover, listing, upload, advertising, distribution, or publication work belongs to the Chapter 2 drafting pass.
