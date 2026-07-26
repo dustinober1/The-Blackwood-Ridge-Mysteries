@@ -4,7 +4,7 @@ series: "The Blackwood Ridge Mysteries"
 author: "Vesper Blythe"
 status: in_progress
 target_words: 25000
-actual_words: 3100
+actual_words: 6150
 chapter_count: 8
 pov: "Callie Thorne"
 timeline:
@@ -21,6 +21,7 @@ stages:
   outline: complete
   chapter_01_mission_lock: complete
   chapter_01_formal_acceptance: complete
+  chapter_02_mission_lock: complete
   drafting: in_progress
   whole_draft_revision: pending
   line_edit: pending
@@ -48,8 +49,8 @@ chapters:
   - n: 2
     title: "The Closed Aisle"
     target_words: 3050
-    actual_words: 0
-    status: planned
+    actual_words: 3050
+    status: drafted
   - n: 3
     title: "Five Genuine Leaves"
     target_words: 3150
@@ -80,4 +81,4 @@ chapters:
     target_words: 3100
     actual_words: 0
     status: planned
-next_task: "Dedicated Book 7 Chapter 2 mission lock and drafting task — The Closed Aisle"
+next_task: "Dedicated Book 7 Chapter 3 mission lock and drafting task — Five Genuine Leaves"
