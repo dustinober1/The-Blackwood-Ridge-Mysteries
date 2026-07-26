@@ -1,132 +1,121 @@
 # Book 3 Final Release Readiness — The Challenger
 
-**Date:** 2026-07-25
+**Correction date:** 2026-07-25  
 **Repository:** `dustinober1/The-Blackwood-Ridge-Mysteries`  
 **Release state:** **UPLOAD READY — NOT YET PUBLISHED**
 
-## Fresh workflow evidence
+## Superseded release evidence
+
+The earlier successful release workflow embedded and packaged a programmatically generated cover substitute. The old cover SHA-256 was:
+
+`e39da2e0a6102373888302b8d9cd8270d6fa1ebecff1757d00bed007770683e7`
+
+That artifact was mechanically valid but did not establish author approval. It also contained additional cover text not included in the later author-approved asset. The old cover hash and all retailer-upload packages containing it are explicitly superseded.
+
+## Governing approved cover
+
+| Field | Approved value |
+|---|---|
+| Asset | `books/book-03/package/approved/The-Challenger-cover.jpg` |
+| Authority | `books/book-03/package/approved/approved-cover.json` |
+| Format / mode | JPEG / RGB |
+| Dimensions | 1,600 × 2,560 px |
+| Size | 2,105,356 bytes |
+| SHA-256 | `e96585dacae4e7aacb4aaabbec939c9efeac61560216f86fd99feae480ffdbaf` |
+
+The cover contains only:
+
+- `THE BLACKWOOD RIDGE MYSTERIES · BOOK 3`
+- `THE CHALLENGER`
+- `VESPER BLYTHE`
+
+## Corrected release pipeline
+
+The active build validates the authority record and copies the approved JPEG directly. It does not generate a replacement cover. The former generator has been removed.
+
+The release validator records and compares:
+
+- approved source SHA-256;
+- standalone release-cover SHA-256;
+- nested upload-cover bytes;
+- EPUB-embedded cover path and SHA-256;
+- exact title, author, series, and approved text;
+- image format, mode, dimensions, and byte size.
+
+## Replacement workflow evidence
 
 - Workflow: `Book 3 release package`
-- Run: `30178932681`
-- URL: `https://github.com/dustinober1/The-Blackwood-Ridge-Mysteries/actions/runs/30178932681`
-- Verified source commit: `0790f76ee33915b443abbc5a7d798af94861d09f`
-- Conclusion: `success`
-- Artifact: `book-03-release-package`, ID `8625001233`
-- Retention: available through 2026-08-24
-- EPUBCheck: 4.2.6-2; 0 fatals, 0 errors, 0 warnings, 0 infos; exit status 0
-- Upload ZIP SHA-256: `9814e8a41535d763003aa9fd50b7003c02dcc669ce2e242ece9f2eb2de798d93`
+- Run ID: `30183982603`
+- Run URL: `https://github.com/dustinober1/The-Blackwood-Ridge-Mysteries/actions/runs/30183982603`
+- Event: pull request
+- Requested branch: `agent/book-03-approved-cover-release-repair-20260725`
+- Recorded source commit: `00840da785c553b1b0658cec406cef1ac7ba27df`
+- Job: `build-and-validate` — success
+- Artifact: `book-03-release-package`
+- Artifact ID: `8626458510`
+- Artifact size: 8,662,940 bytes
+- Artifact digest: `sha256:a8e8d3bb6705b1072ebe90f6980f11c30b430145ade650668fb972c0ac9ae95e`
+- Expiration: 2026-08-25 UTC
 
-The downloaded artifact and its nested upload ZIP both contain the generated retail manuscript and `validation.json`, so the current manuscript reproduction and validation evidence can be independently inspected.
+All workflow steps succeeded: checkout, Python setup, dependency installation, regression tests, release build/validation, validation-report display, artifact upload, and post-job cleanup.
 
-## Outcome
+## Replacement artifact inventory
 
-*The Challenger* now has a reproducible and mechanically validated ebook release package. The package contains:
+Outer artifact, exactly:
 
-- a reflowable EPUB 3 with embedded cover, navigation, bibliographic metadata, series metadata, and reader back matter;
-- a separate 1,600 × 2,560 px RGB JPEG cover for retailer upload;
-- final retailer listing copy, seven keyword phrases, category recommendations, and pricing guidance;
-- an author-facing KDP upload sheet;
-- SHA-256 hashes and a machine-readable validation manifest;
-- a human-readable validation report;
-- a ZIP containing the upload and reference files.
+1. `The-Challenger.epub`
+2. `The-Challenger-cover.jpg`
+3. `The-Challenger-upload-package.zip`
+4. `manuscript-retail.md`
+5. `validation.json`
+6. `release-validation.md`
 
-Generated binaries live under the ignored `books/book-03/export/dist/` and `books/book-03/package/dist/` directories during a local build. GitHub Actions publishes the validated files as the `book-03-release-package` workflow artifact.
+Nested upload ZIP, exactly:
 
-## Story preservation
+1. `The-Challenger.epub`
+2. `The-Challenger-cover.jpg`
+3. `manuscript-retail.md`
+4. `Book-3-listing-copy.md`
+5. `README-FIRST.md`
+6. `validation.json`
+7. `release-validation.md`
 
-The authoritative reader-facing story source remains:
+Every duplicated file is byte-identical between the outer artifact and nested upload ZIP.
 
-`books/book-03/export/manuscript-combined.md`
-
-No chapter manuscript source was edited during release finalization. The retail assembler fails closed unless it finds:
-
-- all eight expected chapters in order;
-- the locked final sentence, `She did not need the bell to ring before she began.`;
-- the established title, author, and series metadata;
-- exactly one legacy edition line to normalize for the July 2026 release package.
-
-The culprit, clue ladder, chronology, confession, arrest, emotional resolution, and final story beat are unchanged.
-
-## Reader-facing production additions
-
-The generated retail manuscript adds, after the locked story ending:
-
-1. a review request;
-2. the series list through Book 4;
-3. an author bio.
-
-The first-edition line is normalized from `June 2026` to `July 2026` only in the generated retail manuscript. The authoritative story source is not rewritten for that production-only change.
-
-## Validation result
-
-The release pipeline passed against the authoritative Book 3 manuscript.
+## Mechanical verification
 
 | Check | Result |
 |---|---|
-| Story word count | 24,212 |
-| Retail package word count | 24,486 |
-| Chapter count | 8 |
-| Cover | JPEG, RGB, 1,600 × 2,560 px, 72 dpi |
-| EPUB version | EPUB 3 |
-| EPUBCheck | 0 fatals, 0 errors, 0 warnings, 0 infos |
-| Navigation | Eight chapters plus review, series, and author sections present and ordered |
-| Embedded cover | Matches the separate upload cover byte-for-byte |
-| Placeholder scan | No `TODO`, `TBD`, `Document X`, `Book 1 reading`, template token, or internal planning label |
+| `validation.json` | PASS; no errors |
+| Story words | 24,212 |
+| Retail-package words | 24,486 |
+| Chapters | 8 |
 | Locked ending | Present exactly once |
+| Cover | JPEG, RGB, 1,600 × 2,560 px |
+| Cover identity | Approved = standalone = nested = EPUB embedded |
+| EPUBCheck | v4.2.6; 0 fatals, 0 errors, 0 warnings, 0 infos; exit 0 |
+| EPUB metadata | Correct title, author, language, series, and series position |
+| EPUB manifest | 18 resources; none missing |
+| EPUB spine | 15 ordered items; no unresolved resource |
+| Manuscript prose | No source manuscript file changed by the corrective pull request |
 
-### Deterministic release hashes
+## Fresh replacement hashes
 
-- EPUB: `a8f7d99bbec7ed9664dbc0f7fd9251b917dda26695f42e7159534933db14a1f8`
-- Cover JPEG: `e39da2e0a6102373888302b8d9cd8270d6fa1ebecff1757d00bed007770683e7`
+- EPUB: `186ca0e550504545928c90605b258d283e736d06ae367ac5c9d0cc60d1dee072`
+- Approved/standalone/nested/embedded cover: `e96585dacae4e7aacb4aaabbec939c9efeac61560216f86fd99feae480ffdbaf`
 - Retail Markdown: `4ba88471787e6719995b81535ec10e900844e3b0540e2ed221adb395bc09352d`
+- Upload ZIP: `356c15235781bfba10432bcfb086e7030ae922dacab6b734683230c6021eb5f9`
+- `validation.json`: `c2f06eb05a094d09bb24c3373f9cda9beefd98971df6aae7550e23bbf2b7e6e0`
+- `release-validation.md`: `14ab9b7cc40065265c39beb023472e118181c02da81315f5a0a4a94f6229c57f`
 
-## Visual QA
+## Visual verification
 
-The EPUB was rendered section by section for visual inspection. The initial build exposed a duplicate automatic Pandoc title page in front of the manuscript's own title page. The build was corrected with `--epub-title-page=false` and rebuilt.
+At full size and approximately 150-pixel thumbnail width, the approved cover has readable series, title, and author hierarchy; no subtitle/tagline; no cropped or malformed typography; no edge clipping or visible corruption; and visible red/blue annotations, brass magnifying glass, pale marble bookend, archival papers/books, and warm reading lamp.
 
-The corrected EPUB structure is:
+## Verdict
 
-1. cover;
-2. manuscript title/copyright section;
-3. contents;
-4. Chapters 1–8;
-5. thank-you/review request;
-6. series list;
-7. author bio.
+**UPLOAD READY**
 
-The final cover was checked at full size and thumbnail scale for title hierarchy, series identification, author legibility, contrast, edge safety, and continuity with the established deep-plum, gold, archival-paper, and brass-glass series language.
+This verdict means the replacement artifact is technically ready for author review and retailer preview. It does not mean uploaded, submitted, retailer accepted, live, distributed, or published.
 
-## Retail listing package
-
-The upload-ready listing at `books/book-03/publish/listing.md` includes:
-
-- primary and short descriptions;
-- tagline and hook options;
-- content advisory;
-- seven keyword phrases;
-- three category recommendations;
-- a $2.99 launch-price recommendation;
-- completed production checks and remaining platform actions.
-
-The title remains *The Challenger*. Because the phrase is broad, the retailer listing should always include the complete series and author metadata. This readiness record is not a legal title-clearance opinion.
-
-## Remaining author-controlled retailer actions
-
-The repository cannot truthfully mark publication complete until these actions occur on the retailer platform:
-
-1. choose the release or preorder date;
-2. confirm territorial rights;
-3. choose DRM treatment;
-4. choose whether to continue KDP Select / Kindle Unlimited enrollment;
-5. upload the EPUB and separate JPEG cover;
-6. enter the description, keywords, categories, price, and series relationship;
-7. answer the platform's content-disclosure questions from the actual production history;
-8. inspect the title in the KDP online previewer or Kindle Previewer;
-9. submit the book;
-10. confirm retailer acceptance and a live detail page.
-
-Until those steps are complete:
-
-- `books/book-03/progress.yaml` correctly retains `publish: pending`;
-- the root series tracker may describe Book 3 as `upload_ready`;
-- no repository file should claim the title is live, distributed, or published.
+`publish: pending` remains required.
