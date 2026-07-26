@@ -10,6 +10,9 @@ name: Book 3 release package
 permissions:
   contents: read
 
+env:
+  BOOK03_SOURCE_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
+
 jobs:
   build-and-validate:
     runs-on: ubuntu-latest
@@ -31,6 +34,11 @@ jobs:
             sudo apt-get install -y epubcheck
           fi
           python -m pip install --disable-pip-version-check --no-cache-dir Pillow==12.0.0
+
+      - name: Run release regression tests
+        run: |
+          python3 books/book-03/export/test_create_upload_package.py
+          python3 books/book-03/export/test_cover_provenance.py
 
       - name: Build and validate Book 3
         run: bash books/book-03/export/build.sh

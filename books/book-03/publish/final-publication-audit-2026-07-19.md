@@ -1,177 +1,151 @@
 # Book 3 Final Publication Audit — The Challenger
 
-**Audit date:** 2026-07-25
-**Starting branch commit:** `8eee0401b9e3b936ab062445dbe73199b32d2d64`
-**Current `main` commit at verification:** `1009fb179fda6eaf408e2ca00eaf1289220c9485`
-**Verified release source commit:** `0790f76ee33915b443abbc5a7d798af94861d09f`
-**Audit branch:** `agent/book-03-final-publication-package-20260719`  
-**Author:** Vesper Blythe  
-**Series:** The Blackwood Ridge Mysteries, Book 3
+**Original audit date:** 2026-07-25  
+**Approved-cover corrective addendum:** 2026-07-25  
+**Repository:** `dustinober1/The-Blackwood-Ridge-Mysteries`  
+**Corrective branch:** `agent/book-03-approved-cover-release-repair-20260725`  
+**Draft pull request:** `#39`
 
 ## Scope
 
-This audit is limited to Book 3 and the root series tracker. No Book 1, Book 2, or Book 4–8 manuscript or publication asset was changed.
+This corrective audit is limited to Book 3 release packaging, approved-cover provenance, the Book 3 workflow, and directly affected readiness records. It does not alter manuscript prose, upload to a retailer, publish or distribute the title, merge the pull request, or begin work on Books 4–8.
+
+## Historical finding corrected
+
+The original final-publication audit treated a generated cover as if mechanical visual validation established author approval. That conclusion was too broad.
+
+The prior generated cover:
+
+- was produced by `books/book-03/package/generate-cover.py`;
+- was automatically invoked by the release build;
+- passed JPEG/RGB/dimension and standalone/embedded equality checks;
+- had SHA-256 `e39da2e0a6102373888302b8d9cd8270d6fa1ebecff1757d00bed007770683e7`;
+- was not the later-saved author-approved production asset;
+- included unapproved additional cover text.
+
+The earlier workflow and EPUBCheck evidence remains valid as historical mechanical evidence, but its cover-approval conclusion and upload-readiness verdict are superseded.
+
+## Approved-cover authority
+
+The approved source and production assets are:
+
+- `books/book-03/package/approved/The-Challenger-cover-source.png`
+- `books/book-03/package/approved/The-Challenger-cover.jpg`
+
+Machine-readable authority:
+
+- `books/book-03/package/approved/approved-cover.json`
+
+Approved production JPEG:
+
+- blob SHA: `eb457e2931e9e1e17a6f194cf1edf61bd55018a8`
+- mode: `100644`
+- format/mode: JPEG/RGB
+- dimensions: 1,600 × 2,560 px
+- size: 2,105,356 bytes
+- SHA-256: `e96585dacae4e7aacb4aaabbec939c9efeac61560216f86fd99feae480ffdbaf`
+
+Approved source PNG:
+
+- blob SHA: `e9f756511ddbb35d5dbe243ee79b94beaa74c975`
+- mode: `100644`
+- format/mode: PNG/RGB
+- dimensions: 992 × 1,586 px
+- size: 2,668,188 bytes
+- SHA-256: `5ee78546868a78aeec836ac94f8b8d8027027f6e1b0c0125792d55e297685f62`
 
 ## Files inspected
 
-- `progress.yaml`
 - `.github/workflows/book-03-release-package.yml`
-- `books/book-03/progress.yaml`
-- `books/book-03/outline.md`
-- `books/book-03/content-notes.md`
-- `books/book-03/revision/book-03-polish-pass.md`
-- `books/book-03/manuscript/ch-01.md`
-- `books/book-03/manuscript/ch-02.md`
-- `books/book-03/manuscript/ch-03.md`
-- `books/book-03/manuscript/ch-04.md`
-- `books/book-03/manuscript/ch-05.md`
-- `books/book-03/manuscript/ch-06.md`
-- `books/book-03/manuscript/ch-07.md`
-- `books/book-03/manuscript/ch-08.md`
-- `books/book-03/export/manuscript-combined.md`
-- `books/book-03/export/build.sh`
-- `books/book-03/export/assemble-retail.py`
-- `books/book-03/export/create_upload_package.py`
-- `books/book-03/export/test_create_upload_package.py`
-- `books/book-03/export/validate-release.py`
-- `books/book-03/export/metadata.yaml`
-- `books/book-03/export/export-readiness.md`
-- `books/book-03/back-matter/review-request.md`
-- `books/book-03/back-matter/series.md`
-- `books/book-03/back-matter/about-author.md`
+- `books/book-03/package/approved/The-Challenger-cover-source.png`
+- `books/book-03/package/approved/The-Challenger-cover.jpg`
+- `books/book-03/package/approved/approved-cover.json`
+- former `books/book-03/package/generate-cover.py`
 - `books/book-03/package/packaging.md`
 - `books/book-03/package/package-readiness.md`
+- `books/book-03/export/build.sh`
+- `books/book-03/export/assemble-retail.py`
+- `books/book-03/export/cover_provenance.py`
+- `books/book-03/export/create_upload_package.py`
+- `books/book-03/export/test_create_upload_package.py`
+- `books/book-03/export/test_cover_provenance.py`
+- `books/book-03/export/validate-release.py`
+- `books/book-03/export/metadata.yaml`
+- `books/book-03/export/manuscript-combined.md`
 - `books/book-03/publish/listing.md`
 - `books/book-03/publish/upload-package.md`
 - `books/book-03/publish/publish-readiness.md`
 - `books/book-03/publish/final-release-readiness.md`
+- `books/book-03/progress.yaml`
+- `progress.yaml`
 
-## Verified manuscript controls
+## Corrective changes
 
-- Eight chapters are recorded in order:
-  1. The Visitor Who Came Looking
-  2. After the Lecture
-  3. The Door Opens
-  4. The Second Hand
-  5. The Gap
-  6. The Keeper
-  7. Still Hands
-  8. The Man Who Buried It
-- The canonical reader-facing source is `books/book-03/export/manuscript-combined.md`.
-- The established locked ending is `She did not need the bell to ring before she began.`
-- Recorded story word count: **24,212**.
-- Recorded retail-package word count: **24,486**.
-- Title, author, series name, and series number are consistently recorded as `The Challenger`, `Vesper Blythe`, `The Blackwood Ridge Mysteries`, and Book 3.
-- The existing validation logic fails closed on missing or reordered chapters, duplicate or missing locked ending, prohibited placeholders, missing back matter, invalid EPUB package structure, missing navigation, invalid cover, or a mismatched embedded cover.
+- Added an author-readable, machine-verifiable approved-cover record.
+- Added fail-closed cover-provenance validation.
+- Replaced generated-cover creation with direct copying of the approved JPEG.
+- Removed the non-governing programmatic generator.
+- Added regression tests for missing, modified, substituted, standalone/embedded-mismatched, nested-package, and active-release-path cover cases.
+- Added explicit EPUBCheck version, exit status, and message counts to `validation.json`.
+- Recorded the actual corrective branch-head source commit instead of the transient pull-request merge ref.
+- Reconciled affected package and publish records without claiming retailer submission or publication.
 
-## Fresh workflow and artifact evidence
+No manuscript chapter, combined-manuscript source, outline, canon record, or story prose was changed.
 
-- Workflow run: `30178932681`
-- Run URL: `https://github.com/dustinober1/The-Blackwood-Ridge-Mysteries/actions/runs/30178932681`
-- Workflow conclusion: `success`
-- Job: `build-and-validate` — `success`
-- Artifact: `book-03-release-package`, ID `8625001233`
-- Artifact availability: not expired; retained through 2026-08-24
-- Verified source commit: `0790f76ee33915b443abbc5a7d798af94861d09f`
-- Workflow annotation: GitHub forced the official Node.js 20 actions onto Node.js 24; no release validation step failed.
+## Replacement verification baseline
 
-The downloaded workflow artifact contains:
+Workflow run `30183982603` completed successfully from source commit `00840da785c553b1b0658cec406cef1ac7ba27df`.
 
-1. `The-Challenger.epub`
-2. `The-Challenger-cover.jpg`
-3. `The-Challenger-upload-package.zip`
-4. `manuscript-retail.md`
-5. `validation.json`
-6. `release-validation.md`
+- Job: `build-and-validate` — success
+- Regression tests — success
+- Release build and validation — success
+- Artifact upload — success
+- Artifact: `book-03-release-package`
+- Artifact ID: `8626458510`
+- Artifact size: 8,662,940 bytes
+- Artifact digest: `sha256:a8e8d3bb6705b1072ebe90f6980f11c30b430145ade650668fb972c0ac9ae95e`
+- Expiration: 2026-08-25 UTC
 
-The nested upload ZIP contains:
+## Independent artifact result
 
-1. `The-Challenger.epub`
-2. `The-Challenger-cover.jpg`
-3. `manuscript-retail.md`
-4. `Book-3-listing-copy.md`
-5. `README-FIRST.md`
-6. `validation.json`
-7. `release-validation.md`
+The outer artifact contains exactly six required files. The nested upload ZIP contains exactly seven required files. All duplicated files compare byte-for-byte.
 
-No competing release filenames, temporary files, debug files, test files, or placeholders are present.
+`validation.json` reports:
 
-## Current mechanical results
+- status `PASS`;
+- zero errors;
+- source commit `00840da785c553b1b0658cec406cef1ac7ba27df`;
+- approved-cover status `APPROVED`;
+- approved, standalone, and embedded hash `e96585dacae4e7aacb4aaabbec939c9efeac61560216f86fd99feae480ffdbaf`;
+- story word count 24,212;
+- retail word count 24,486;
+- chapter count 8;
+- locked ending occurrence count 1;
+- EPUBCheck v4.2.6, exit 0, zero fatals/errors/warnings/infos.
 
-- Story word count: **24,212**
-- Retail-package word count: **24,486**
-- Chapter count: **8**
-- EPUBCheck: **4.2.6-2**, using EPUB 3.2 rules
-- EPUBCheck result: **0 fatals, 0 errors, 0 warnings, 0 infos; exit status 0**
-- EPUB package: EPUB 3.0 OPF; valid stored `mimetype`; valid container and package document
-- Metadata: title `The Challenger`; author `Vesper Blythe`; language `en-US`; series `The Blackwood Ridge Mysteries`; position `3`
-- Manifest: 18 declared resources; no missing resource
-- Spine: cover, navigation, one title/copyright section, contents, Chapters 1–8, and three back-matter sections; no unresolved item
-- Navigation: complete and ordered; no blank entry
-- Internal links: no broken target or fragment
-- Locked ending: present exactly once
-- Manuscript reproduction: exact canonical story reproduction except the documented June-to-July edition normalization and export-only page-break markup conversion
-- Placeholder/control scan: no `TODO`, `TBD`, template token, merge marker, mission lock, hidden-series note, or internal-planning label
-- Cover: JPEG, RGB, 1,600 × 2,560 px, 72 dpi, 1,674,141 bytes
-- Cover visual check: correct title, author, series/Book 3 association; no clipping, border accident, placeholder, or visible compression corruption
-- Embedded cover: `EPUB/media/The-Challenger-cover.jpg`; byte-for-byte match with standalone cover
+The EPUB declares title `The Challenger`, creator `Vesper Blythe`, language `en-US`, collection `The Blackwood Ridge Mysteries`, and group position `3`. It contains 18 manifest resources, no missing resource, and embedded cover `EPUB/media/The-Challenger-cover.jpg` matching the approved bytes.
 
-### Fresh SHA-256 checksums
+## Cover visual result
 
-- EPUB: `a8f7d99bbec7ed9664dbc0f7fd9251b917dda26695f42e7159534933db14a1f8`
-- Cover JPEG: `e39da2e0a6102373888302b8d9cd8270d6fa1ebecff1757d00bed007770683e7`
-- Embedded cover: `e39da2e0a6102373888302b8d9cd8270d6fa1ebecff1757d00bed007770683e7`
-- Retail Markdown: `4ba88471787e6719995b81535ec10e900844e3b0540e2ed221adb395bc09352d`
-- Upload ZIP: `9814e8a41535d763003aa9fd50b7003c02dcc669ce2e242ece9f2eb2de798d93`
-- `validation.json`: `6c8881fec7b3618f6dd7531eab93097b8f2059ef7c8231a156e3eedcc7286a47`
+Full-size and approximately 150-pixel thumbnail inspection confirms:
 
-## Metadata and listing review
+- correct series line, title, and author;
+- no subtitle or tagline;
+- no misspelling, malformed letter, clipped typography, border clipping, or visible corruption;
+- visible red and blue annotations;
+- visible pale marble bookend;
+- visible brass magnifying glass;
+- visible warm lamp and archival documents/books;
+- readable thumbnail hierarchy consistent with the atmospheric Blackwood Ridge series direction.
 
-The canonical listing provides a spoiler-safe primary description, short description, seven keyword phrases, three category recommendations, content advisory, and a clearly labeled $2.99 pricing recommendation. The upload sheet now explicitly records:
+## Publication status
 
-- no approved subtitle;
-- no invented publication date;
-- no invented ISBN;
-- territorial-rights confirmation required;
-- DRM as an author decision, with consistency to Books 1 and 2 recommended;
-- the correct canonical listing path: `books/book-03/publish/listing.md`.
+`books/book-03/progress.yaml` retains `publish: pending`. The root tracker may retain Book 3 as `upload_ready` because the replacement package passes the corrective release gate.
 
-## Objective defects fixed
+No retailer upload, submission, acceptance, live listing, publication, or distribution was performed. Draft pull request #39 remains unmerged.
 
-The first fresh run, `30178810604` at commit `8eee0401b9e3b936ab062445dbe73199b32d2d64`, passed its existing checks but omitted the generated retail manuscript from the downloadable evidence and supplied `release-manifest.json` instead of the required `validation.json`. The release bundling was corrected without changing manuscript prose, metadata, or cover generation. Replacement run `30178932681` contains both required files in the outer artifact and nested upload ZIP.
-
-## Fail-closed release gate
-
-| Gate | Result |
-|---|---|
-| Approved manuscript | PASS — recorded canonical manuscript and locked ending |
-| Complete chapter set and order | PASS — eight chapters recorded and validated by release script |
-| Correct title/author/series metadata | PASS |
-| Complete listing copy | PASS |
-| Seven keyword fields | PASS |
-| Categories and price recommendation | PASS |
-| Correct series reading order and cross-sell | PASS in committed package records |
-| No placeholders or hidden controls | PASS in recorded validation |
-| Approved cover specification | PASS in current artifact and visual inspection |
-| Validated EPUB | PASS in current artifact and EPUBCheck 4.2.6-2 |
-| Canonical filenames defined | PASS |
-| Current reviewed-commit workflow artifact available | PASS — run `30178932681`, artifact `8625001233` |
-| Current artifact checksums reproduced from reviewed commit | PASS |
-| Current retail manuscript available for reproduction check | PASS |
-| `validation.json` available and reports `PASS` | PASS |
-| Uncommitted required asset | PASS — generated binaries are supplied by the retained workflow artifact |
-| Remaining publication blocker | None |
-
-## Verdict
+## Corrective verdict
 
 **UPLOAD READY**
 
-The fresh workflow artifact tied to the corrected release commit is complete, accessible, and independently verified. This verdict does not mean uploaded, submitted, retailer accepted, live, distributed, or published. `publish: pending` remains required.
-
-## Repository and pull-request state
-
-Pull request #37 was already merged before this verification began, despite the requested starting description identifying it as a draft. The merge commit is current `main` commit `1009fb179fda6eaf408e2ca00eaf1289220c9485`. No merge was performed during this closure work. The corrective verification commit remains on `agent/book-03-final-publication-package-20260719` for author review.
-
-## Next precise action
-
-Author reviews and explicitly authorizes integration of the corrective release-evidence commit. After integration, the author deliberately chooses the publication date, territorial rights, DRM, and KDP Select / Kindle Unlimited settings; previews the EPUB on the retailer platform; and separately authorizes submission. Do not mark `publish: complete` until retailer acceptance and a live detail page are confirmed.
+The next precise action is for the author to review the replacement artifact and approved cover, explicitly authorize draft pull request #39 for merge, merge it deliberately, run one final release workflow from the resulting authoritative `main`, verify the post-merge artifact, and only then proceed to retailer upload and preview.
