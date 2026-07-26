@@ -32,6 +32,11 @@ jobs:
           fi
           python -m pip install --disable-pip-version-check --no-cache-dir Pillow==12.0.0
 
+      - name: Run release regression tests
+        run: |
+          python3 books/book-03/export/test_create_upload_package.py
+          python3 books/book-03/export/test_cover_provenance.py
+
       - name: Build and validate Book 3
         run: bash books/book-03/export/build.sh
 
