@@ -67,7 +67,7 @@
 - **Conflict:** Dana presents herself as protecting jobs; Owen cannot document his current use of the logging spur.
 - **Clues:** Authenticated `$4,860.00` October 6 `south line retrieval` payment to Wren Grading Company; Dana's `$600,000` personal guaranty; `T-2` key-count conflict; authenticated 6:42 fuel record.
 - **Historical limit:** The payment follows Halbrook's October 3 complaint and supports the broader suppression path. It predates the October 8 accident and does not by date alone prove a post-crash service or exact task.
-- **Mae context:** Mae recalls committee green wool coats and map-room brass-cleaning days; Cross verifies the inventory, photographs, cleaning roster, and supply receipt independently.
+- **Mae context:** Mae recalls committee green wool coats and brass-cleaning days. Cross verifies the inventory, photographs, cleaning roster, and supply receipt independently.
 - **Red herring:** Owen's truck contains a modern Halbrook route copy and undated upper-spur mud.
 - **Procedure:** Cross conducts interviews and obtains records; Callie does not accuse Dana or handle originals.
 - **Character movement:** Callie's confidence in the murder case rises while unease about the routed records deepens.
@@ -128,7 +128,7 @@
 - **Character movement:** Callie's professional unease becomes disciplined provenance vigilance rather than paranoia.
 - **Resolution:** Dana remains under arrest for Miriam's murder; Halbrook's vehicle and remains are recovered; her official record is corrected; historical concealment is documented at supported limits; deliberate steering is proved at the design/access level.
 - **Ending hook:** Callie begins a private provenance-route ledger, leaves the name field blank, and asks who knew which page she would open next.
-- **Final evidence state:** Immediate murder complete; cold case restored; curator pattern documented but unattributed; Eli unidentified; no Book 7 prose drafted.
+- **Final evidence state:** Immediate murder complete; cold case restored; curator pattern documented but unattributed; Eli remains unidentified at the Book 6 endpoint. Book 7 Chapter 1 is now formally accepted at 3,100 manuscript-prose words without altering that endpoint.
 
 ## Production state
 
