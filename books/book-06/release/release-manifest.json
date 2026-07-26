@@ -1,0 +1,51 @@
+{
+  "book": "The Pattern",
+  "series": "The Blackwood Ridge Mysteries",
+  "series_number": 6,
+  "author": "Vesper Blythe",
+  "release_state": "upload_ready_not_published",
+  "validated": "2026-07-26",
+  "manuscript_body_words": 25646,
+  "combined_reader_facing_words": 25918,
+  "chapter_count": 8,
+  "cover": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1600,
+    "height": 2560,
+    "size_bytes": 1352186,
+    "sha256": "0e7088fea55dcb713b0160336f01e528049e82c785edf7ef24da117aa9e452f0"
+  },
+  "epub": {
+    "epubcheck": "Validating using EPUB version 3.2 rules.\nNo errors or warnings detected.\nMessages: 0 fatals / 0 errors / 0 warnings / 0 infos\n\nEPUBCheck completed",
+    "chapter_count": 8,
+    "spine_documents": 16,
+    "title_heading_count": 1
+  },
+  "artifacts": [
+    {
+      "name": "The-Pattern.epub",
+      "path": "export/dist/The-Pattern.epub",
+      "size_bytes": 1432222,
+      "sha256": "81f89e1e2a45ae3bc84a4824e0e6cf8e3b854433db6965162f17c8b310251287"
+    },
+    {
+      "name": "The-Pattern-cover.jpg",
+      "path": "export/dist/The-Pattern-cover.jpg",
+      "size_bytes": 1352186,
+      "sha256": "0e7088fea55dcb713b0160336f01e528049e82c785edf7ef24da117aa9e452f0"
+    },
+    {
+      "name": "The-Pattern.docx",
+      "path": "export/dist/The-Pattern.docx",
+      "size_bytes": 90932,
+      "sha256": "cf637051d1880b3a7b5997e7ab49f850ca4d374bbdefdfbad602f2972f51bd2a"
+    },
+    {
+      "name": "manuscript-combined.md",
+      "path": "export/manuscript-combined.md",
+      "size_bytes": 167821,
+      "sha256": "46a4a608c86f98fc7a90de31ceea89d313298a8b2db5d9744c53fe697ae381a0"
+    }
+  ]
+}
