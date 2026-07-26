@@ -1,0 +1,51 @@
+{
+  "book": "The Planted Page",
+  "series": "The Blackwood Ridge Mysteries",
+  "series_number": 5,
+  "author": "Vesper Blythe",
+  "release_state": "upload_ready_not_published",
+  "validated": "2026-07-14",
+  "manuscript_body_words": 25174,
+  "combined_reader_facing_words": 25501,
+  "chapter_count": 8,
+  "cover": {
+    "format": "JPEG",
+    "mode": "RGB",
+    "width": 1600,
+    "height": 2560,
+    "size_bytes": 1072287,
+    "sha256": "d85353e149521c26ca80887b02fe2bcbe68e9b260685703f789b46aaff57f496"
+  },
+  "epub": {
+    "epubcheck": "Validating using EPUB version 3.2 rules.\nNo errors or warnings detected.\nMessages: 0 fatals / 0 errors / 0 warnings / 0 infos\n\nEPUBCheck completed",
+    "chapter_count": 8,
+    "spine_documents": 16,
+    "title_heading_count": 1
+  },
+  "artifacts": [
+    {
+      "name": "The-Planted-Page.epub",
+      "path": "export/dist/The-Planted-Page.epub",
+      "size_bytes": 1150884,
+      "sha256": "ae4bdc14114ae2cb7cff59c4c93577b50bc39380cab445a3c4b84a668d5cd461"
+    },
+    {
+      "name": "The-Planted-Page-cover.jpg",
+      "path": "export/dist/The-Planted-Page-cover.jpg",
+      "size_bytes": 1072287,
+      "sha256": "d85353e149521c26ca80887b02fe2bcbe68e9b260685703f789b46aaff57f496"
+    },
+    {
+      "name": "The-Planted-Page.docx",
+      "path": "export/dist/The-Planted-Page.docx",
+      "size_bytes": 90343,
+      "sha256": "768b1a8d9181f81e5878b544ee9971bd227e8b9aa51f588970609b8f42b75772"
+    },
+    {
+      "name": "manuscript-combined.md",
+      "path": "export/manuscript-combined.md",
+      "size_bytes": 165696,
+      "sha256": "bdde105f7f37c146359a693d0d541c4cf4ae348645a9e950805c5880f90bea5b"
+    }
+  ]
+}
