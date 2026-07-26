@@ -5,6 +5,8 @@ cd "$(dirname "$0")"
 BOOK_DIR="$(cd .. && pwd)"
 DIST="$PWD/dist"
 PACKAGE_DIST="$BOOK_DIR/package/dist"
+APPROVED_COVER="$BOOK_DIR/package/approved/The-Challenger-cover.jpg"
+APPROVED_RECORD="$BOOK_DIR/package/approved/approved-cover.json"
 
 for command in python3 pandoc; do
   if ! command -v "$command" >/dev/null 2>&1; then
@@ -13,11 +15,14 @@ for command in python3 pandoc; do
   fi
 done
 
+# Validate the checked-in author approval authority before deleting or creating output.
+python3 cover_provenance.py --authority "$APPROVED_RECORD"
+
 rm -rf "$DIST" "$PACKAGE_DIST"
 mkdir -p "$DIST" "$PACKAGE_DIST"
 
-python3 "$BOOK_DIR/package/generate-cover.py" \
-  --output "$PACKAGE_DIST/The-Challenger-cover.jpg"
+cp -- "$APPROVED_COVER" "$PACKAGE_DIST/The-Challenger-cover.jpg"
+cp -- "$APPROVED_COVER" "$DIST/The-Challenger-cover.jpg"
 
 python3 assemble-retail.py \
   --source manuscript-combined.md \
@@ -35,7 +40,6 @@ pandoc "$DIST/manuscript-retail.md" \
   --epub-cover-image="$PACKAGE_DIST/The-Challenger-cover.jpg" \
   --output="$DIST/The-Challenger.epub"
 
-cp "$PACKAGE_DIST/The-Challenger-cover.jpg" "$DIST/The-Challenger-cover.jpg"
 cp "$BOOK_DIR/publish/listing.md" "$DIST/Book-3-listing-copy.md"
 cp "$BOOK_DIR/publish/upload-package.md" "$DIST/README-FIRST.md"
 
@@ -43,6 +47,7 @@ python3 validate-release.py \
   --retail-md "$DIST/manuscript-retail.md" \
   --epub "$DIST/The-Challenger.epub" \
   --cover "$DIST/The-Challenger-cover.jpg" \
+  --approved-record "$APPROVED_RECORD" \
   --json "$DIST/validation.json" \
   --markdown "$DIST/release-validation.md"
 
