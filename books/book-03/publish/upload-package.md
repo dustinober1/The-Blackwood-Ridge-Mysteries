@@ -2,10 +2,22 @@
 
 ## Upload these two files
 
+Use only the files from a fresh, successful `book-03-release-package` workflow artifact produced from the reviewed release commit:
+
 - Ebook manuscript: `The-Challenger.epub`
 - Ebook cover: `The-Challenger-cover.jpg`
 
-Both are generated together by `books/book-03/export/build.sh` and must pass `books/book-03/export/validate-release.py` before the package ZIP is accepted.
+The standalone cover must match the author-approved production asset:
+
+`books/book-03/package/approved/The-Challenger-cover.jpg`
+
+Approved SHA-256:
+
+`e96585dacae4e7aacb4aaabbec939c9efeac61560216f86fd99feae480ffdbaf`
+
+The approval authority is `books/book-03/package/approved/approved-cover.json`. `validation.json` must report `APPROVED` provenance and identical approved, standalone, and EPUB-embedded cover hashes.
+
+Do not use the superseded generated cover hash `e39da2e0a6102373888302b8d9cd8270d6fa1ebecff1757d00bed007770683e7` or any earlier artifact containing it.
 
 ## Book details
 
@@ -25,7 +37,7 @@ Both are generated together by `books/book-03/export/build.sh` and must pass `bo
 | Territorial rights | Author confirmation required at upload time |
 | DRM | Recommendation: use the same policy as Books 1 and 2; author decision required |
 
-Use the primary description, seven keyword phrases, and category recommendations in `books/book-03/publish/listing.md`.
+Use the primary description, seven keyword phrases, category recommendations, and pricing guidance in `books/book-03/publish/listing.md`.
 
 ## Commercial recommendation
 
@@ -36,14 +48,14 @@ Use the primary description, seven keyword phrases, and category recommendations
 
 ## Required final platform checks
 
-1. Obtain the validated workflow artifact produced from the reviewed release commit.
-2. Confirm `validation.json` reports `PASS` and matches the commit being uploaded.
-3. Upload `The-Challenger.epub` and `The-Challenger-cover.jpg`.
-4. Open the KDP online previewer or Kindle Previewer.
-5. Inspect the title page, copyright page, contents/navigation, all eight chapter starts, scene breaks, italics, ending, and back matter.
-6. Confirm the cover is legible at thumbnail size and is not cropped.
+1. Obtain the validated workflow artifact produced from the reviewed corrective commit.
+2. Confirm `validation.json` reports `PASS`, the exact source commit being uploaded, and approved-cover hash `e96585dacae4e7aacb4aaabbec939c9efeac61560216f86fd99feae480ffdbaf`.
+3. Confirm the standalone, nested ZIP, and EPUB-embedded cover bytes match.
+4. Upload `The-Challenger.epub` and `The-Challenger-cover.jpg`.
+5. Open the KDP online previewer or Kindle Previewer.
+6. Inspect the cover, title page, copyright page, contents/navigation, all eight chapter starts, scene breaks, italics, ending, and back matter.
 7. Confirm the description, keywords, categories, price, territories, DRM choice, and KDP Select choice.
 8. Answer the retailer's content-disclosure questions from the actual production history.
 9. Submit for publication only after the preview and metadata review pass.
 
-Do not mark `publish: complete` in the repository until retailer acceptance and the live detail page are confirmed.
+Do not mark `publish: complete` until retailer acceptance and the live detail page are confirmed.
