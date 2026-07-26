@@ -86,7 +86,7 @@ stages:
   line_edit: complete
   polish: complete
   proofread: complete
-  export: pending
+  export: complete
   package: pending
   cover: pending
   listing: pending

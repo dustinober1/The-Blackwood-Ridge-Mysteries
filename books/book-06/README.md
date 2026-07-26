@@ -4,7 +4,7 @@
 **Series:** The Blackwood Ridge Mysteries #6  
 **Genre:** Atmospheric cozy mystery / amateur sleuth  
 **Target:** 25,000 manuscript words across eight chapters  
-**Status:** Controlled whole-draft revision, controlled line edit, controlled final prose polish, and controlled proofreading complete; 25,646 manuscript-prose words; reader-facing export artifacts assembled and independently validated; repository EPUBCheck/CI gate and all later production stages pending
+**Status:** Controlled whole-draft revision, controlled line edit, controlled final prose polish, controlled proofreading, and controlled export assembly complete; 25,646 manuscript-prose words; reader-facing export artifacts assembled and independently validated; repository EPUBCheck/CI gate passed (293/293 checks, PR #41); package and all later production stages pending
 
 ## Controlling function
 
@@ -89,8 +89,8 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 - **Assembled formats:** Markdown, TXT, HTML, DOCX, and EPUB
 - **Reader-facing count:** 25,918 by the repository Markdown-aware export counter, including 257 front/back-matter words and 48 chapter-heading words
 - **Local validation:** 234/234 export checks and 23/23 post-normalization checks passed; 40/40 chapter-format identity checks; 40/40 final-line checks; all 39 scene breaks preserved; DOCX rendered to 71 pages and visually reviewed
-- **Remaining gate:** GitHub Actions run `29432336294` and its failed-job rerun both failed before any workflow step began; no step summary or downloadable log was available; EPUBCheck and generated-output branch integration remain pending
-- **Status:** export artifacts assembled and independently validated; controlled export completion not yet recorded
+- **Repository CI gate:** PR #41 (`Repair Book 6 export validation for the Book 7 lifecycle`) fixed a scope-validator defect that had blocked the export workflow from starting, then passed cleanly — 293/293 checks, EPUBCheck clean, DOCX rendered to 71 pages / 4 contact sheets. Merged to `main` on 2026-07-26.
+- **Status:** controlled export assembly complete
 - **Audit record:** `books/book-06/export-report.md`
 
 ## Current story state
@@ -114,12 +114,12 @@ Local historian Miriam Vale is murdered while researching the 1989 disappearance
 - Controlled final prose polish — complete.
 - Controlled proofreading — complete.
 - Export artifact assembly — complete.
-- Export repository gate — pending EPUBCheck/CI.
-- Controlled export completion — not yet recorded.
+- Export repository gate — passed (PR #41; 293/293 checks, EPUBCheck clean).
+- Controlled export completion — complete.
 - Package — pending.
 - Cover, listing, upload, and publication — pending.
 - Upload ready — no.
 
 ## Production boundary
 
-The present murder is fully solved without identifying the hidden curator. Book 6 proves steering but does not expose Eli Townsend, invalidate any earlier solution, or draft Book 7. The immediate production action is to resolve the pre-step GitHub Actions failure and pass the repository EPUBCheck/CI gate for PR #32. After PR #32 is reviewed and merged, the next production stage is **Book 6 controlled package assembly/readiness**. Package, cover, listing, upload, distribution, and publication remain deferred.
+The present murder is fully solved without identifying the hidden curator. Book 6 proves steering but does not expose Eli Townsend, invalidate any earlier solution, or draft Book 7. Controlled export assembly and its repository EPUBCheck/CI gate are complete. The next production stage is **Book 6 controlled package assembly/readiness**. Package, cover, listing, upload, distribution, and publication remain deferred.
