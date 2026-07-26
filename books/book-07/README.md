@@ -4,7 +4,7 @@
 **Series:** The Blackwood Ridge Mysteries #7  
 **Genre:** Atmospheric cozy mystery / amateur sleuth  
 **Target:** 25,000 manuscript-prose words across eight chapters  
-**Status:** First draft in progress; Chapter 1 drafted at 3,100 manuscript-prose words
+**Status:** First draft in progress; Chapter 1 formally accepted at 3,100 manuscript-prose words
 
 ## Controlling function
 
@@ -49,12 +49,13 @@ Eli responds by moving a genuine shop-owned 1912 circular into the empty trainin
 
 ## Current production state
 
-- Chapter 1 — **The Petition Book** — drafted at 3,100 manuscript-prose words.
+- Chapter 1 — **The Petition Book** — formally accepted at 3,100 manuscript-prose words; prose unchanged by acceptance.
+- Chapter 1 formal acceptance record — `chapter-01-formal-acceptance.md`.
 - Chapters 2–8 — planned and undrafted.
-- Chapter 1 formal acceptance and revision review — next.
+- Dedicated Chapter 2 mission lock and drafting task — next.
 - Whole-draft revision, line edit, prose polish, proofreading, export, package, cover, listing, upload, distribution, and publication — pending.
 - Upload ready — no.
 
 ## Production boundary
 
-No Chapter 2 manuscript exists. Chapter 2 must not be drafted until Chapter 1 receives a dedicated formal acceptance and revision review and that work is merged. No export, package, cover, listing, upload, advertising, distribution, or publication work belongs to the Chapter 1 production pass.
+No Chapter 2 manuscript exists. Chapter 2 may be created only in the dedicated Book 7 Chapter 2 mission lock and drafting task after this acceptance change is merged. No export, package, cover, listing, upload, advertising, distribution, or publication work belongs to the Chapter 1 acceptance pass.

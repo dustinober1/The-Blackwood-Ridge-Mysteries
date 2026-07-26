@@ -47,6 +47,6 @@
 - Eli receives no POV, private confirmation, suspicious knowledge, original evidence, tracing access, recovery access, suspect access, or curator connection. His visible work is limited to approved provenance metadata and honest blanks.
 - Book 5 remains package `in_progress`, publication `pending`, not upload ready, and cover-blocked unless its separate workflow changes that state.
 - Book 6 remains overall `in_progress`, with controlled whole-draft revision complete at 25,645 words. Line editing, final prose polish, proofreading, export, package, cover/listing, upload, and publication remain pending; upload ready remains false.
-- No Book 7 prose exists. Book 7 retains controlled testing and Eli exposure.
+- Book 7 Chapter 1 now exists and is formally accepted at 3,100 manuscript-prose words. This later lifecycle fact does not alter any Book 6 manuscript, evidence, or production authority. Book 7 retains controlled testing and Eli exposure.
 - Every exact chapter-final line remains unchanged.
 - Prohibited: Nora innocence, altered Book 5 motive/method/arrest basis, unrestricted Cross partnership, instant Mae reconciliation, Eli POV, Eli reveal, retroactive Eli actions unsupported by canon, premature Book 7 testing, or any publication/upload-ready claim for Book 6.

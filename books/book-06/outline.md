@@ -128,7 +128,7 @@
 - **Character movement:** Callie's professional unease becomes disciplined provenance vigilance rather than paranoia.
 - **Resolution:** Dana remains under arrest for Miriam's murder; Halbrook's vehicle and remains are recovered; her official record is corrected; historical concealment is documented at supported limits; deliberate steering is proved at the design/access level.
 - **Ending hook:** Callie begins a private provenance-route ledger, leaves the name field blank, and asks who knew which page she would open next.
-- **Final evidence state:** Immediate murder complete; cold case restored; curator pattern documented but unattributed; Eli unidentified; no Book 7 prose drafted.
+- **Final evidence state:** Immediate murder complete; cold case restored; curator pattern documented but unattributed; Eli remains unidentified at the Book 6 endpoint. Book 7 Chapter 1 is now formally accepted at 3,100 manuscript-prose words without altering that endpoint.
 
 ## Production state
 
