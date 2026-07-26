@@ -4,7 +4,7 @@ title: "The Reckoning"
 status: locked
 chapter_count: 8
 target_words: 25000
-manuscript_prose_created: false
+manuscript_prose_created: true
 ---
 
 # Outline — The Reckoning
@@ -37,6 +37,7 @@ Vivienne is arrested before Eli is confronted. The homicide warrant and arrest b
 # Chapter 1 — The Petition Book
 
 - **Target:** 3,100 words.
+- **Status:** formally accepted at 3,100 manuscript-prose words; acceptance changed no prose.
 - **Date:** Thursday, June 10, 2027.
 - **Opening:** 3:35 p.m., The Foxed Page.
 - **Closing:** 6:52 p.m., Blackwood Ridge Heritage Center side hall.
