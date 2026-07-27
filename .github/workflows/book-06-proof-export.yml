@@ -51,6 +51,15 @@ jobs:
             Pillow==12.0.0 \
             pypdf==6.1.1
 
+      - name: Test Book 6 workflow authority classifier
+        run: python -m unittest books/book-06/export/test_authorize_scope.py
+
+      - name: Test controlled-export record authority
+        run: python -m unittest books/book-06/export/test_sanitize_export_records.py
+
+      - name: Classify current workflow authority
+        run: python books/book-06/export/authorize-scope.py
+
       - name: Test Book 6 export scope validator
         run: python -m unittest books/book-06/export/test_finalize_package_scope.py
 
@@ -62,6 +71,9 @@ jobs:
           status=${PIPESTATUS[0]}
           exit "$status"
 
+      - name: Normalize controlled-export record authority
+        run: python books/book-06/export/sanitize-export-records.py
+
       - name: Show export records
         run: |
           cat books/book-06/export/export-readiness.md
@@ -70,8 +82,25 @@ jobs:
           cat books/book-06/export-report.md
 
       - name: Commit stable reader-facing exports and reports
-        if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
+        if: github.event_name == 'push' || github.event_name == 'pull_request'
+        shell: bash
         run: |
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            stable_changes="$(git status --porcelain=v1 -- \
+              books/book-06/front-matter \
+              books/book-06/back-matter \
+              books/book-06/export/manuscript-combined.md \
+              books/book-06/export/manuscript-combined.txt \
+              books/book-06/export/manuscript-combined.html)"
+            if [ -n "$stable_changes" ]; then
+              echo "PR validation changed stable reader-facing outputs:" >&2
+              printf '%s\n' "$stable_changes" >&2
+              exit 1
+            fi
+            echo "PR validation produced no uncommitted stable reader-output changes."
+            exit 0
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -f \
