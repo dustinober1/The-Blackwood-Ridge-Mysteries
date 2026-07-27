@@ -18,7 +18,7 @@ This record does not mark *The Pattern* upload ready, retailer ready, distribute
 ## Scope result
 
 - Historical source baseline for exact Book 6 manuscript identity: `d23d2e745ea0a5fda414321b6c82eda427459a87`
-- Current change-scope merge base: `22d8d7931409f67ce500c488b0ac050edba79198`
+- Current change-scope merge base: `365c0fa9488ff9209262d8396e030015312874f3`
 - Existing Book 7 prose is outside Book 6 export authority.
 - No Book 7 chapter manuscript changed relative to the current change-scope base.
 

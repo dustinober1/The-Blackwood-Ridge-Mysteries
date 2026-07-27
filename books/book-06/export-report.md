@@ -9,7 +9,7 @@
 - PR #31 source head: `15ffd86577f2914729f25c0932a97ff2a830be1f`
 - PR #31 base: `105634b1dbf41a9c15ab6d2ea3df7d9945c8b264`
 - PR #31 merge commit and historical Book 6 source baseline: `d23d2e745ea0a5fda414321b6c82eda427459a87`
-- Current validation change-scope merge base: `22d8d7931409f67ce500c488b0ac050edba79198`
+- Current validation change-scope merge base: `365c0fa9488ff9209262d8396e030015312874f3`
 - Historical export branch: `agent/book-06-controlled-export-assembly`
 
 ## Verified source manuscript
@@ -88,7 +88,9 @@ Book 5 establishes `books/book-N/export/` as the controlled export directory; co
 - Duplicate/missing/truncated content: none detected.
 - Hidden control, mission-lock, bible, spoiler, status, or Eli-truth leakage: none detected.
 - Complete scope diff at validation time:
-- `books/book-06/progress.yaml`
+- `.github/workflows/book-06-proof-export.yml`
+- `books/book-06/export/authorize-scope.py`
+- `books/book-06/export/test_authorize_scope.py`
 
 ## Locked story and procedural preservation
 
