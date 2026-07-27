@@ -51,6 +51,12 @@ jobs:
             Pillow==12.0.0 \
             pypdf==6.1.1
 
+      - name: Test Book 6 workflow authority classifier
+        run: python -m unittest books/book-06/export/test_authorize_scope.py
+
+      - name: Classify current workflow authority
+        run: python books/book-06/export/authorize-scope.py
+
       - name: Test Book 6 export scope validator
         run: python -m unittest books/book-06/export/test_finalize_package_scope.py
 
