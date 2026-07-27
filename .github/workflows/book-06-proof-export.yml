@@ -54,6 +54,9 @@ jobs:
       - name: Test Book 6 workflow authority classifier
         run: python -m unittest books/book-06/export/test_authorize_scope.py
 
+      - name: Test controlled-export record authority
+        run: python -m unittest books/book-06/export/test_sanitize_export_records.py
+
       - name: Classify current workflow authority
         run: python books/book-06/export/authorize-scope.py
 
@@ -67,6 +70,9 @@ jobs:
           python books/book-06/export/run-export.py 2>&1 | tee books/book-06/export/build.log
           status=${PIPESTATUS[0]}
           exit "$status"
+
+      - name: Normalize controlled-export record authority
+        run: python books/book-06/export/sanitize-export-records.py
 
       - name: Show export records
         run: |
