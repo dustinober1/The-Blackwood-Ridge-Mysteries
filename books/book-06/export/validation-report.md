@@ -291,14 +291,14 @@ No errors or warnings detected.
 Messages: 0 fatals / 0 errors / 0 warnings / 0 infos
 
 EPUBCheck completed
-- [x] Scope: actual current-base comparison available — ref origin/main; merge base 365c0fa9488ff9209262d8396e030015312874f3
+- [x] Scope: actual current-base comparison available — ref origin/main; merge base 22d8d7931409f67ce500c488b0ac050edba79198
 - [x] Scope: Book 5 unchanged — []
 - [x] Scope: no Book 6 chapter manuscript changed — []
 - [x] Scope: no Book 7 chapter manuscript changed relative to current base — []
 - [x] Scope: Book 8 unchanged — []
 - [x] Scope: no package/cover/listing/upload/publication/release/retailer asset changed — []
 - [x] Scope: Book 3 release workflow unchanged — []
-- [x] Scope: existing Book 7 prose is outside Book 6 export authority — ['books/book-07/manuscript/ch-01.md', 'books/book-07/manuscript/ch-02.md', 'books/book-07/manuscript/ch-03.md', 'books/book-07/manuscript/ch-04.md']
+- [x] Scope: existing Book 7 prose is outside Book 6 export authority — ['books/book-07/manuscript/ch-01.md', 'books/book-07/manuscript/ch-02.md']
 
 ## EPUBCheck
 

@@ -76,8 +76,25 @@ jobs:
           cat books/book-06/export-report.md
 
       - name: Commit stable reader-facing exports and reports
-        if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
+        if: github.event_name == 'push' || github.event_name == 'pull_request'
+        shell: bash
         run: |
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            stable_changes="$(git status --porcelain=v1 -- \
+              books/book-06/front-matter \
+              books/book-06/back-matter \
+              books/book-06/export/manuscript-combined.md \
+              books/book-06/export/manuscript-combined.txt \
+              books/book-06/export/manuscript-combined.html)"
+            if [ -n "$stable_changes" ]; then
+              echo "PR validation changed stable reader-facing outputs:" >&2
+              printf '%s\n' "$stable_changes" >&2
+              exit 1
+            fi
+            echo "PR validation produced no uncommitted stable reader-output changes."
+            exit 0
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -f \
