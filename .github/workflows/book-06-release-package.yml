@@ -18,11 +18,49 @@ jobs:
     timeout-minutes: 20
     outputs:
       cover_ready: ${{ steps.preflight.outputs.cover_ready }}
+      release_requested: ${{ steps.scope.outputs.release_requested }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
+
+      - name: Classify release scope
+        id: scope
+        shell: bash
+        run: |
+          if [ "$GITHUB_EVENT_NAME" != "pull_request" ]; then
+            echo "release_requested=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          base_ref="origin/$GITHUB_BASE_REF"
+          merge_base="$(git merge-base "$base_ref" HEAD)" || {
+            echo "Unable to resolve release-scope merge base for $base_ref" >&2
+            exit 1
+          }
+          release_requested=false
+          while IFS= read -r -d '' path; do
+            case "$path" in
+              .github/workflows/book-06-proof-export.yml|\
+              .github/workflows/book-06-release-package.yml|\
+              books/book-06/export/authorize-scope.py|\
+              books/book-06/export/test_authorize_scope.py|\
+              books/book-06/export/test_finalize_package_scope.py|\
+              books/book-06/export-report.md|\
+              books/book-06/export/export-readiness.md|\
+              books/book-06/export/validation-report.md|\
+              progress.yaml|\
+              series-outline.md)
+                ;;
+              books/book-06/*)
+                release_requested=true
+                ;;
+            esac
+          done < <(git diff --name-only -z "$merge_base...HEAD")
+          echo "release_requested=$release_requested" >> "$GITHUB_OUTPUT"
+          echo "Book 6 release package requested: $release_requested"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -75,7 +113,7 @@ jobs:
 
   build-and-validate:
     needs: readiness
-    if: needs.readiness.outputs.cover_ready == 'true'
+    if: needs.readiness.outputs.cover_ready == 'true' && needs.readiness.outputs.release_requested == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
