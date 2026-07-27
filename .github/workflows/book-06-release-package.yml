@@ -47,6 +47,8 @@ jobs:
               .github/workflows/book-06-release-package.yml|\
               books/book-06/export/authorize-scope.py|\
               books/book-06/export/test_authorize_scope.py|\
+              books/book-06/export/sanitize-export-records.py|\
+              books/book-06/export/test_sanitize_export_records.py|\
               books/book-06/export/test_finalize_package_scope.py|\
               books/book-06/export-report.md|\
               books/book-06/export/export-readiness.md|\
