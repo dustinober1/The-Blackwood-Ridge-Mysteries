@@ -25,10 +25,11 @@ colors:
 
 fonts:
   display: Hoefler Text          # quotes, titles, italic flourishes
-  label: Copperplate             # engraved caps — eyebrows, attributions, plaques
+  label: Copperplate             # engraved caps — stamps, plaques, wordmark
   body: Palatino                 # body copy on cards
   typewriter: American Typewriter # case-file text
-  ornament: Hoefler Text Ornaments # fleurons (❦)
+  kicker: Avenir Next            # modern sans — eyebrows, kickers over photos
+  ornament: Hoefler Text Ornaments # (unused since v2; kept for reference)
 
 sizes:
   square:  {pt: [540, 540],  px: [1080, 1080], ppi: 144}   # IG/FB feed

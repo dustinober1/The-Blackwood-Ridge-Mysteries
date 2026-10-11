@@ -2,9 +2,7 @@
 # Calendar slot: Week 1, Monday. Pin this post.
 template: town-post
 size: square
-art:
-  style: valley-dusk
-  seed: 7
+photo: /marketing/assets/photos/blue-ridge-fog.jpg
 
 eyebrow: "A VISITOR'S GUIDE TO BLACKWOOD RIDGE, VIRGINIA"
 plate: "PLATE No. 1"

@@ -2,9 +2,7 @@
 # Calendar slot: Week 2, Wednesday.
 template: town-post
 size: square
-art:
-  style: gaslight
-  seed: 11
+photo: /marketing/assets/photos/gaslamp-street.jpg
 
 eyebrow: "A VISITOR'S GUIDE TO BLACKWOOD RIDGE, VIRGINIA"
 plate: "PLATE No. 2"

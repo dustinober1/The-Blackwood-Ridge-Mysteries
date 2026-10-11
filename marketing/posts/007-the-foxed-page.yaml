@@ -2,9 +2,7 @@
 # Calendar slot: Week 3, Monday.
 template: town-post
 size: square
-art:
-  style: window
-  seed: 4
+photo: /marketing/assets/photos/bookshop-2.jpg
 
 eyebrow: "A VISITOR'S GUIDE TO BLACKWOOD RIDGE, VIRGINIA"
 plate: "PLATE No. 3"

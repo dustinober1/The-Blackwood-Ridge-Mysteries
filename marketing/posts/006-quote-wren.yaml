@@ -1,0 +1,27 @@
+# Post 006 — The Wren cipher (quote card, Book One)
+# Calendar slot: Week 3, Wednesday. Callback to the 005 case file.
+# HOLD NOTE (2026-10): replaced 006-quote-town (a Book Two quote) until the
+# Book Two audiobook is out — original spec is in posts/hold/.
+template: quote-card
+size: square
+photo: /marketing/assets/photos/books-candle.jpg
+
+quote: "I filed this contrariwise, and under constraint, and I set the true line here for the record."
+attribution: "JACOB WREN, SURVEYOR OF RECORD"
+book_line: "THE ANNOTATED MURDER · BOOK ONE"
+quote_size: 23
+
+social:
+  caption: |
+    One hundred and eighty years ago, a surveyor was made to file a map he knew was false.
+
+    So he hid the true line where only a reader would think to look, and set down this confession in the margins — abbreviated, letter-substituted, patient. He assumed that someday, someone would come along who read the way he did.
+
+    He was right. It just took a while.
+
+    Have you ever left a note you hoped exactly one person would find?
+  hashtags: "#BlackwoodRidgeMysteries #TheAnnotatedMurder #CozyMystery #BookQuote #MysteryBooks #Bookstagram #AmateurSleuth #Marginalia #KindleBooks"
+  alt: |
+    Quote card over a darkened candlelit leather book: "I filed this
+    contrariwise, and under constraint, and I set the true line here for the
+    record." — Jacob Wren, surveyor of record, from The Annotated Murder.

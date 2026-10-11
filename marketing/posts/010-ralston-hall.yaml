@@ -1,0 +1,28 @@
+# Post 010 — Ralston Hall (location card, Book One)
+# Calendar slot: Week 4, Monday.
+# HOLD NOTE (2026-10): replaced 010-cover-b2 until the Book Two audiobook
+# is out — original spec is in posts/hold/.
+template: town-post
+size: square
+photo: /marketing/assets/photos/ralston-hall.jpg
+veil: 38
+
+eyebrow: "A VISITOR'S GUIDE TO BLACKWOOD RIDGE, VIRGINIA"
+plate: "PLATE No. 4"
+headline: "RALSTON HALL"
+sub: "The house on the hill is open for tours. The family is generous, the portraits are watchful, and every brick of it was paid for twice."
+
+social:
+  caption: |
+    Every town has a house it is proud of. Blackwood Ridge has a house it is proud of and quiet about, which is not the same thing.
+
+    The Ralstons built the town's gratitude brick by brick — the library wing, the church roof, the historical society that preserves the town's history in a building their money paid for. Generosity is a kind of architecture. It holds up the roof, and it also holds the doors.
+
+    The tour runs Thursdays. The portrait gallery is the highlight. The patriarch's eyes follow you; the docent will tell you it's the paint.
+
+    Charity with strings attached, or just history? Would you take the tour?
+  hashtags: "#BlackwoodRidgeMysteries #RalstonHall #CozyMystery #SmallTownMystery #Bookstagram #MysteryBooks #AmateurSleuth #SouthernGothic #KindleBooks"
+  alt: |
+    White-columned two-storey antebellum mansion gallery with Spanish moss
+    overhanging, graded dark and moody: "Ralston Hall — the house on the
+    hill is open for tours."

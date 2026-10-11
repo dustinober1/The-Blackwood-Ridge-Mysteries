@@ -1,7 +1,8 @@
-// Case file — typewritten records card on ivory paper, 1080x1080.
-// Spec fields: stamp, fields (label/value list; __R__ in a value becomes a
-// redaction bar), note (optional), options (optional list of
-// {stamp, note} engagement verdicts).
+// Case file — typewritten records laid over a period document photograph
+// (survey map, botanical plate, handwritten letter).
+// Spec fields: photo, veil (optional %, default 70), stamp, fields
+// (label/value; __R__ becomes a redaction bar), note (optional),
+// options (optional {stamp, note} list for engagement verdicts).
 #import "lib.typ": *
 
 #let spec = yaml(sys.inputs.spec)
@@ -12,7 +13,7 @@
   let out = ()
   for (i, s) in segs.enumerate() {
     if i > 0 {
-      out.push(box(width: redact-bars.at(calc.rem(i - 1, redact-bars.len())), height: 0.62em, fill: ink, outset: (top: 0.1em), radius: 0.5pt))
+      out.push(box(width: redact-bars.at(calc.rem(i - 1, redact-bars.len())), height: 0.62em, fill: ink-a(92%), outset: (top: 0.1em), radius: 0.5pt))
     }
     out.push(s)
   }
@@ -20,11 +21,11 @@
 }
 
 #let option-stamp(o, tilt) = rotate(tilt, origin: center)[
-  #box(stroke: (paint: ink.darken(5%), thickness: 1.8pt), inset: (x: 16pt, y: 9pt))[
+  #box(stroke: (paint: stamp_red, thickness: 2pt), inset: (x: 16pt, y: 9pt))[
     #align(center)[
-      #text(font: F.label, weight: "bold", size: 12.5pt, fill: ink, tracking: 2.2pt)[#o.stamp]
+      #text(font: F.label, weight: "bold", size: 12.5pt, fill: stamp_red, tracking: 2.2pt)[#o.stamp]
       #v(3pt)
-      #text(font: F.label, size: 7pt, fill: gold_shadow.darken(10%), tracking: 1.5pt)[#o.note]
+      #text(font: (F.kicker, "Avenir Next"), weight: 500, size: 7pt, fill: ink-a(70%), tracking: 2pt)[#o.note]
     ]
   ]
 ]
@@ -32,50 +33,46 @@
 #set page(width: 540pt, height: 540pt, margin: 0pt, fill: ivory)
 #set text(lang: "en", fill: ink)
 
-// Paper warmth and edge shading.
-#place(rect(width: 100%, height: 100%, fill: gradient.radial(rgb(245, 226, 176, 20%), rgb(247, 242, 228, 0%))))
-#place(rect(width: 100%, height: 100%, fill: gradient.radial(rgb(14, 6, 15, 0%), rgb(14, 6, 15, 9%))))
-// Paper edge and coffee ring.
-#place(center, rect(width: 100% - 30pt, height: 100% - 30pt, stroke: (paint: ink.darken(15%), thickness: 1pt)))
-#place(top + right, dx: -54pt, dy: 48pt, circle(radius: 30pt, stroke: (paint: gold_shadow.lighten(42%), thickness: 2.4pt)))
-#place(top + right, dx: -47pt, dy: 55pt, circle(radius: 23pt, stroke: (paint: gold_shadow.lighten(52%), thickness: 1pt)))
+#place(image(spec.photo, width: 100%, height: 100%, fit: "cover"))
+#ivory-veil(spec.at("veil", default: 70) * 1%)
+#place(rect(width: 100%, height: 100%, fill: gradient.radial(ink-a(0%), ink-a(16%))))
 
-#place(top + center, dy: 46pt)[
-  #text(font: F.label, size: 9pt, fill: ink.darken(5%), tracking: 3.2pt)[BLACKWOOD RIDGE COUNTY RECORDS]
+#place(top + center, dy: 42pt)[
+  #text(font: F.label, size: 9.5pt, fill: ink-a(82%), tracking: 3.5pt)[BLACKWOOD RIDGE COUNTY RECORDS]
 ]
 #place(top + center, dy: 78pt)[
   #rotate(-3.5deg, origin: center)[
-    #box(stroke: (paint: gold_shadow, thickness: 1.6pt), inset: (x: 13pt, y: 6.5pt))[
-      #text(font: F.label, weight: "bold", size: 13pt, fill: gold_shadow.darken(8%), tracking: 2.2pt)[#spec.stamp]
+    #box(stroke: (paint: stamp_red, thickness: 1.8pt), inset: (x: 13pt, y: 6.5pt))[
+      #text(font: F.label, weight: "bold", size: 13.5pt, fill: stamp_red, tracking: 2.5pt)[#spec.stamp]
     ]
   ]
 ]
 
 #place(center + horizon, dy: 14pt)[
-  #block(width: 78%)[
-    #set par(leading: 1.5em)
+  #block(width: 80%)[
+    #set par(leading: 1.35em)
     #grid(
-      columns: (88pt, 1fr),
+      columns: (86pt, 1fr),
       column-gutter: 12pt,
       row-gutter: 11pt,
       align: (right + top, left + top),
       ..spec.fields.map(f => (
-        text(font: F.label, size: 7.8pt, fill: gold_shadow.darken(15%), tracking: 1.2pt)[#f.label],
-        text(font: (F.typewriter, "Courier New"), size: 11pt)[#field-value(f.value)],
+        text(font: F.label, size: 8pt, fill: stamp_red.darken(6%), tracking: 1.4pt)[#f.label],
+        text(font: (F.typewriter, "Courier New"), size: 11.5pt, fill: ink-a(92%))[#field-value(f.value)],
       )).flatten()
     )
     #if spec.at("note", default: none) != none [
-      #v(15pt)
-      #block(width: 100%, inset: (x: 11pt, y: 9pt), stroke: (left: (paint: gold, thickness: 2pt)))[
-        #set par(leading: 0.7em)
-        #text(font: (F.typewriter, "Courier New"), size: 10.5pt, style: "italic", top-edge: "cap-height", bottom-edge: "baseline")[#spec.note]
+      #v(16pt)
+      #block(width: 100%, inset: (x: 11pt, y: 9pt), stroke: (left: (paint: gold, thickness: 2.2pt)))[
+        #set par(leading: 0.75em)
+        #text(font: (F.typewriter, "Courier New"), size: 11pt, style: "italic", fill: ink-a(88%), top-edge: "cap-height", bottom-edge: "baseline")[#spec.note]
       ]
     ]
   ]
 ]
 
 #if spec.at("options", default: none) != none [
-  #place(bottom + center, dy: -62pt)[
+  #place(bottom + center, dy: -60pt)[
     #grid(
       columns: (auto, auto),
       column-gutter: 46pt,
@@ -86,10 +83,6 @@
   ]
 ]
 
-#place(bottom + center, dy: -34pt)[
-  #align(center)[
-    #fleuron(size: 8pt, col: gold_shadow.lighten(25%))
-    #v(2pt)
-    #text(font: F.label, size: 7pt, fill: gold_shadow.darken(10%), tracking: 2.2pt)[FROM THE MARGINS OF THE BLACKWOOD RIDGE MYSTERIES]
-  ]
+#place(bottom + center, dy: -28pt)[
+  #text(font: (F.kicker, "Avenir Next"), weight: 500, size: 7.5pt, fill: ink-a(62%), tracking: 3pt)[FROM THE MARGINS OF THE BLACKWOOD RIDGE MYSTERIES]
 ]

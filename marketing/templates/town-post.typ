@@ -1,35 +1,36 @@
 // Town post — "A Visitor's Guide to Blackwood Ridge" location card.
-// Requires sys.inputs.art (ridge_art SVG). Spec fields: size (square|
-// portrait), eyebrow, plate, headline, sub, headline_size (optional).
+// Full-bleed photograph, lower-third type block.
+// Spec fields: photo, size (square|portrait), eyebrow, plate, headline,
+// sub, headline_size (optional, pt).
 #import "lib.typ": *
 
 #let spec = yaml(sys.inputs.spec)
 #let portrait = spec.at("size", default: "square") == "portrait"
 #let ph = if portrait { 675pt } else { 540pt }
-#let hsize = spec.at("headline_size", default: 30)
+#let hsize = spec.at("headline_size", default: 34)
 
 #set page(width: 540pt, height: ph, margin: 0pt, fill: ink)
 #set text(lang: "en")
 
-#place(image(sys.inputs.art, width: 100%, height: 100%, fit: "cover"))
-// Legibility scrim over the lower half for the headline block.
-#place(bottom, rect(width: 100%, height: 72%, fill: gradient.linear(ink_0, ink_90, angle: 180deg)))
-#place(top + center, dy: 46pt)[
-  #text(font: F.label, size: 8.5pt, fill: ivory_muted, tracking: 3.2pt)[#spec.eyebrow]
-]
-#place(center + horizon, dy: if portrait { 96pt } else { 54pt })[
-  #block(width: 86%)[
+#place(image(spec.photo, width: 100%, height: 100%, fit: "cover"))
+#ink-veil(spec.at("veil", default: 30) * 1%)
+#bottom-scrim(74%, 94%)
+#top-scrim(28%, 58%)
+
+#place(top + center, dy: 32pt, kicker(spec.eyebrow))
+
+#place(bottom + center, dy: -44pt)[
+  #block(width: 88%)[
     #align(center)[
-      #set par(leading: 0.5em)
-      #text(font: F.label, size: 8pt, fill: gold.lighten(20%), tracking: 3pt)[#spec.plate]
+      #set par(leading: 0.9em)
+      #text(font: (F.kicker, "Avenir Next"), weight: 500, size: 8.5pt, fill: gold-a(90%), tracking: 5pt)[#spec.plate]
       #v(10pt)
-      #text(font: F.label, weight: "bold", size: hsize * 1pt, fill: gold_light, tracking: 3pt)[#spec.headline]
+      #text(font: (F.display, "Georgia"), weight: 900, size: hsize * 1pt, fill: gold_light, tracking: 1.2pt)[#spec.headline]
       #v(13pt)
-      #line(length: 30%, stroke: (paint: gold, thickness: 0.9pt))
+      #line(length: 20%, stroke: (paint: gold, thickness: 1pt))
       #v(13pt)
-      #text(font: (F.display, "Georgia"), size: 14.5pt, style: "italic", fill: ivory, top-edge: "cap-height", bottom-edge: "descender")[#spec.sub]
+      #text(font: (F.display, "Georgia"), size: 15pt, style: "italic", fill: ivory-a(95%), top-edge: "cap-height", bottom-edge: "descender")[#spec.sub]
     ]
   ]
 ]
-#place(top + center, dy: 64pt, fleuron(size: 8pt, col: gold.lighten(10%)))
 #wordmark-footer()

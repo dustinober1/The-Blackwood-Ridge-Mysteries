@@ -1,0 +1,62 @@
+# Image credits — marketing/assets/photos/
+# Every image is from Wikimedia Commons. Public-domain images carry no
+# attribution duty (recorded here anyway for provenance). The two CC BY-SA
+# images REQUIRE attribution when published — see "Attribution duty" in
+# marketing/README.md.
+
+- file: blue-ridge-fog.jpg
+  source: "File: Blue Ridge Mountains - Asheville.jpg (Wikimedia Commons)"
+  author: PBarn424
+  license: CC BY-SA 4.0
+  used_in: [001-welcome-to-the-ridge]
+
+- file: gaslamp-street.jpg
+  source: "File: John Atkinson Grimshaw Boar Lane Leeds by lamplight 1881.jpg (Wikimedia Commons)"
+  author: John Atkinson Grimshaw (painting, 1881)
+  license: Public domain
+  used_in: [003-town-square]
+
+- file: survey-map.jpg
+  source: "File: Map of Berks County, Pennsylvania - from surveys LOC 2012590208.jpg (Wikimedia Commons / Library of Congress)"
+  author: "Henry, M. S.; Boyer, M. K.; McLellan, David (c. 1860)"
+  license: Public domain
+  used_in: [005-case-file-wren]
+  note: Depicts Berks County, Pennsylvania — treated as a period document prop, not a depiction of the fictional Blackwood Ridge.
+
+- file: violet-plate.jpg
+  source: "File: Jacques Le Moyne de Morgues. Sweet Violet and Red Admiral Butterfly.jpg (Wikimedia Commons)"
+  author: Jacques Le Moyne de Morgues (c. 1575)
+  license: Public domain
+  used_in: [011-case-file-dabney]
+  note: Sweet violets — Marguerite Dabney's cipher flower in The Botanical Confession.
+
+- file: letter-1865.jpg
+  source: "File: Serafeim Xenopoulos letter 1865.jpg (Wikimedia Commons)"
+  author: Serafeim Xenopoulos (1865)
+  license: Public domain
+  used_in: [008-readers-verdict]
+
+- file: books-candle.jpg
+  source: "File: Book-rose-and-candle-on-teak.jpg (Wikimedia Commons)"
+  author: Liam Quin
+  license: Public domain
+  used_in: [002-quote-eleanor, 006-quote-wren, 009-quote-rain]
+
+- file: books-still-life.jpg
+  source: "File: Pseudo-Roestraten - Still Life of Books, Musical Instruments and other Objects on a Table Draped with an Oriental Carpet.jpg (Wikimedia Commons)"
+  author: Pseudo-Roestraten (circle of Pieter Gerritsz van Roestraten)
+  license: Public domain
+  used_in: [004-cover-b1]
+
+- file: bookshop-2.jpg
+  source: "File: Richard Booth's Bookshop 05.jpg (Wikimedia Commons)"
+  author: Immanuel Giel
+  license: CC BY-SA 4.0
+  used_in: [007-the-foxed-page, 012-start-the-series]
+
+- file: ralston-hall.jpg
+  source: "File: Robert Gamble House Ellenton Florida 2019-2479 01.jpg (Wikimedia Commons)"
+  author: Immanuel Giel
+  license: CC BY-SA 4.0
+  used_in: [010-ralston-hall]
+  note: The Gamble House (1850s Greek-revival, Florida) stands in for the fictional Ralston Hall.

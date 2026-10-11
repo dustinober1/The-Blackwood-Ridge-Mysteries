@@ -2,12 +2,11 @@
 
 Template-driven social cards for the series pages (Instagram + Facebook).
 One YAML spec per post produces a finished PNG plus its caption, hashtags,
-and alt text. Everything is generated locally with typst — no external
-services, no raster editors.
+and alt text. Cards are full-bleed photography with typographic overlays,
+composed locally with typst — no raster editors involved.
 
 **Pen name:** Vesper Blythe · **Brand palette & fonts:** `brand.yaml`
-(single source of truth — templates and the art generator read from it or
-mirror it).
+(single source of truth — templates read from it directly).
 
 ## Quickstart
 
@@ -34,9 +33,12 @@ marketing/
   posts/            one YAML per post — the source of truth for content
   templates/        typst card templates + lib.typ (shared brand library)
   tools/
-    generate.py     driver: spec → (art SVG) → typst → PNG
-    ridge_art.py    deterministic SVG background art (seeded)
-  generated/        output PNGs + art SVGs (committed deliverables)
+    generate.py     driver: spec → typst → PNG
+    ridge_art.py    seeded SVG art generator (retired from cards; kept for
+                    possible story-format use)
+  assets/
+    photos/         background photography + credits.yaml (licenses)
+  generated/        output PNGs (committed deliverables)
 ```
 
 ## How a post works
@@ -48,9 +50,11 @@ Each `posts/NNN-slug.yaml` has two halves:
 2. **`social:`** — `caption`, `hashtags`, `alt` (alt text). Captions are
    written for a human voice; alt text is required for every post.
 
-The driver extracts `template:` and any `art:` block, renders the background
-art if there is one, then compiles the template with the spec path as a
-typst `--input`. Templates load `brand.yaml` and the spec themselves.
+The driver passes the spec path to typst as an `--input`; templates load
+`brand.yaml` and the spec themselves. Card backgrounds are photographs
+referenced by the spec's `photo:` field (root-relative path), toned with the
+template's ink veil (`veil:` field overrides the default per template,
+integer percent).
 
 ## Template catalog
 
@@ -66,17 +70,38 @@ Case-file values support `__R__` tokens, which render as redaction bars
 (widths cycle deterministically). The `options` field renders two tilted
 verdict stamps (e.g. PUBLISH IT / LET IT LIE) for A/B engagement posts.
 
-## Background art styles (`ridge_art.py`)
+## Background photography
 
-Seeded and deterministic — the same style+seed always renders the same SVG.
+Cards run on real imagery from `assets/photos/` — period paintings,
+documents, and photographs sourced from Wikimedia Commons so the pages stay
+commercially safe. The current library:
 
-- `valley-dusk` — ridgelines, stars, horizon glow, town lamps (welcome card)
-- `gaslight` — lamp standards in fog over the square
-- `window` — the Foxed Page's lit window with book silhouettes
-- `garden` — planted rows of flowers with gold "words" (botanical cipher; reserved for Book Two pushes)
+| File | Motif | Used by |
+|---|---|---|
+| `blue-ridge-fog.jpg` | Blue Ridge clouds (CC BY-SA 4.0) | welcome card |
+| `gaslamp-street.jpg` | Grimshaw, *Boar Lane by Lamplight* (PD) | Town Square, reading order |
+| `bookshop-2.jpg` | secondhand bookshop interior, Hay-on-Wye (CC BY-SA 4.0) | The Foxed Page |
+| `survey-map.jpg` | 1860 county survey plat (PD) | Jacob Wren case file |
+| `violet-plate.jpg` | 16th-c. sweet-violet gouache (PD) | Dabney case file |
+| `letter-1865.jpg` | handwritten 1865 letter (PD) | verdict card |
+| `books-candle.jpg` | leather book, candle, rose (PD) | quote cards |
+| `books-still-life.jpg` | old-master still life with books and pistol (PD) | cover features |
 
-Change a card's mood by bumping its `seed`; add a style by writing a
-function and registering it in `STYLES`.
+Provenance, authors, and licenses: `assets/photos/credits.yaml`.
+
+**Attribution duty:** the three CC BY-SA images (fog, bookshop, mansion)
+require attribution when published. Cheapest compliant pattern: a pinned
+comment or the page's About section reading "Background imagery: Wikimedia
+Commons — PBarn424, Immanuel Giel (CC BY-SA 4.0). Paintings and documents
+public domain." Full details in credits.yaml. If you'd rather use
+your own AI-generated photography (matching the covers' pipeline), drop any
+replacement file into `assets/photos/` and point the spec's `photo:` field
+at it — the templates are agnostic.
+
+The typst veil system (`ink-veil`, `bottom-scrim`, `top-scrim` in
+`lib.typ`) grades every photo to the brand's plum dark; angles were verified
+empirically — 270deg seats a gradient's first stop at the bottom edge, 90deg
+at the top. Don't swap them.
 
 ## Content rules
 
@@ -93,6 +118,11 @@ function and registering it in `STYLES`.
    doubt, leave it out or redact it.
 4. **Accessibility**: every post ships alt text (`social.alt`); paste it into
    the platform's alt-text field.
+5. **Image licensing**: only images recorded in `assets/photos/credits.yaml`
+   may appear on cards. Never pull random web images into the library —
+   scraped stock is a takedown and legal risk on a commercial page. New
+   images must be public domain, CC0, or CC BY/BY-SA (attribution then
+   recorded in credits.yaml and honored on the page).
 
 ## Publishing workflow
 

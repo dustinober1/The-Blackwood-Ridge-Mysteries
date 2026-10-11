@@ -1,0 +1,37 @@
+# Post 011 — Wendell Pike case file (Book One inciting incident, spoiler-safe)
+# Calendar slot: Week 3, Friday.
+# HOLD NOTE (2026-10): replaced 011-case-file-dabney (a Book Two tease) until
+# the Book Two audiobook is out — original spec is in posts/hold/.
+template: case-file
+size: square
+photo: /marketing/assets/photos/survey-map.jpg
+veil: 76
+
+stamp: "CASE FILE No. 31-R"
+fields:
+  - label: "SUBJECT"
+    value: "W. PIKE"
+  - label: "OCCUPATION"
+    value: "Rare-book appraiser"
+  - label: "LAST SEEN"
+    value: "The Ridgeway Auction House, the evening of the sale"
+  - label: "STATUS"
+    value: "Deceased. The sale continued."
+  - label: "EVIDENCE"
+    value: "A margin note in a hand nobody can place"
+note: "He spent years asking what the margins said. Somebody finally answered."
+
+social:
+  caption: |
+    The Ridgeway Auction House has seen forty years of estate sales, and exactly one evening the town does not talk about.
+
+    Wendell Pike came to Blackwood Ridge to appraise a dead collector's books. He asked careful questions about one volume in particular — and by the end of the evening he was dead in the auction house, and a hundred guests had seen nothing at all.
+
+    The appraiser knew what the margins said. The margins may have answered.
+
+    What do you suppose the hundred guests saw — and won't say?
+  hashtags: "#BlackwoodRidgeMysteries #CaseFile #TheAnnotatedMurder #CozyMystery #MysteryBooks #Bookstagram #AmateurSleuth #SmallTownMystery #KindleBooks"
+  alt: |
+    Typewritten case file over an aged survey map: "Case File No. 31-R —
+    W. Pike, rare-book appraiser, last seen at the Ridgeway Auction House.
+    Status: deceased. The sale continued." With redacted lines and a stamp.
