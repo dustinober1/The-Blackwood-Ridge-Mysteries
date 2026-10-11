@@ -35,7 +35,7 @@ findings:
     units: ["ch02", "ch07"]   # chapters/sections affected; [] = unlocalized
     source_line: "`INCONSISTENCY` — **Callie drives to the cove (ch7)**: \"She drove out past the school... she parked behind Cross's cruiser... engine off\" and \"She drove back down the lake road\" — contradicts established series canon that Callie has no car (Book 1 ch2 fix \"drive home → walk home,\" audiobook continuity round; Book 1 text: \"the long walk home\"). MUST FIX pre-publication (rework ch7's two transit passages: e.g., Cross collects her, or she rides with the dive team)."
     status: open
-    resolution_note: ""
+    resolution_note: "Gate-confirmed 2026-10-11 (audit sweep run 1, ch07 FAIL): both transit passages on the page — 'She drove out past the school... engine off' and 'She drove back down the lake road'; she later walks from the station the same day. Awaiting author approval; fix via revise-chapter."
 
   - id: "F004"
     kind: other
@@ -44,7 +44,7 @@ findings:
     units: ["ch04", "ch06"]   # chapters/sections affected; [] = unlocalized
     source_line: "`INCONSISTENCY` — **Mae's diaper line (ch6)**: \"Mae had walked into the office of a man whose diapers she had changed\" — impossible against Book 1's pinned ages (Mae ~59–60 by text arithmetic, ch4; Cross mid-fifties; the gap is ~5 years). The Book 1 planning bible carried the same impossible detail. MUST FIX pre-publication (rephrase to the compatible form: Mae has known Cross since he was a young deputy)."
     status: open
-    resolution_note: ""
+    resolution_note: "Gate-confirmed 2026-10-11 (audit sweep run 1, ch06 FAIL): the line is on the page verbatim (prose L110). Awaiting author approval; fix via revise-chapter with the compatible form above."
 
   - id: "F005"
     kind: other
@@ -53,7 +53,7 @@ findings:
     units: ["ch02", "ch08"]   # chapters/sections affected; [] = unlocalized
     source_line: "`INCONSISTENCY` — **Yellow rose meaning drift (ch2 vs ch8)**: the pulled-up bed's stakes read \"Ambition. Betrayal. Folly.\" in ch2 but \"Ambition. Infidelity. Folly.\" in ch8 — the same cipher object given two meanings. MUST FIX pre-publication (harmonize; ch2's \"Betrayal\" is the book's established vocabulary)."
     status: open
-    resolution_note: ""
+    resolution_note: "Gate-confirmed 2026-10-11 (audit sweep run 1, ch08 FAIL): 'Ambition. Infidelity. Folly.' on the page (ch08 prose L68); ch2's 'Betrayal' confirmed canonical by world-rules and gate. Awaiting author approval."
 
   - id: "F006"
     kind: other
@@ -62,7 +62,7 @@ findings:
     units: ["ch05", "ch07"]   # chapters/sections affected; [] = unlocalized
     source_line: "`INCONSISTENCY` — **Meta-leak (ch7)**: \"she felt the place as the bible had said she would: heavy\" — the narration cites \"the bible,\" readable only as a reference to the production bible; no in-world text has said the cove is heavy (ch5's in-world form is \"the place felt wrong in a way no one had ever named\"). MUST FIX pre-publication (replace with the in-world phrasing)."
     status: open
-    resolution_note: ""
+    resolution_note: "Gate-confirmed 2026-10-11 (audit sweep run 1, ch07 FAIL): the meta-leak is on the page verbatim (prose L26); ch5 already carries the correct in-world phrasing to borrow."
 
   - id: "F007"
     kind: canon-gap
@@ -170,7 +170,7 @@ findings:
     units: ["ch05"]   # chapters/sections affected; [] = unlocalized
     source_line: "`LOW CONFIDENCE` — \"the Dabney garden gate, two weeks ago\" (ch5) vs. a reconstructed ~10–11 days — rounding, or the day skeleton is off by a few days."
     status: open
-    resolution_note: ""
+    resolution_note: "Gate-confirmed 2026-10-11 (audit sweep run 1, ch05 FAIL): 'two weeks ago' is on the page (ch05 prose L62) while the chapter's own skeleton ('giving in stages for days'; gate visit Monday, crack Thursday) puts it ~3 days back. Reword or stretch the skeleton (ties to F019)."
 
   - id: "F019"
     kind: inconsistency
@@ -187,5 +187,97 @@ findings:
     summary: "The December lot's non-botanical contents (Methodist sermons, a Civil War nurse's diary, regional poetry — Book 1 ch8) sit oddly beside the Dabney estate's profile in Book 2 (trade paperbacks, annotated volumes); reconcilable as mixed auction-house boxes, but never stated."
     units: ["ch08"]   # chapters/sections affected; [] = unlocalized
     source_line: "`LOW CONFIDENCE` — The December lot's non-botanical contents (Methodist sermons, a Civil War nurse's diary, regional poetry — Book 1 ch8) sit oddly beside the Dabney estate's profile in Book 2 (trade paperbacks, annotated volumes); reconcilable as mixed auction-house boxes, but never stated."
+    status: open
+    resolution_note: ""
+
+  # ---- audit-book sweep rows (2026-10-11) ----
+
+  - id: "F021"
+    kind: gate-failure
+    severity: major
+    summary: "Style-sheet check: 15 compounds hyphenated inconsistently across chapters (almost right/almost-right; coming apart/coming-apart; end of/end-of; garden club/garden-club; holding in/holding-in; late spring/late-spring; might not/might-not; not carrying/not-carrying; not knitting/not-knitting; not knowing/not-knowing; not looking/not-looking; not quite/not-quite; pulled up/pulled-up; setting down/setting-down; the door/the-door)."
+    units: ["ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch07", "ch08"]
+    source_line: "book-scaffold scripts/style_sheet.py --check, 2026-10-11 sweep"
+    status: open
+    resolution_note: "Lead, not verdict: several are legitimate role-based alternation (open noun phrase vs hyphenated modifier, e.g. 'late spring rain' as modifier), and some flagged pairs sit in deliberate motif phrasings. Fix is a deliberate style-sheet decision per compound (fix prose or annotate the sheet), not 15 blind edits."
+
+  - id: "F022"
+    kind: gate-failure
+    severity: minor
+    summary: "Crutch-phrase scan: 381 book-wide repeated phrases. Top: 'of a man' 22x, 'of a woman' 21x, 'the back room' 19x, 'went to the' 14x, 'stood at the' 13x, 'was its own' 11x, 'for a moment' 11x, 'the bell rang' 11x, 'did not say' 11x, 'for thirty-two years' 10x."
+    units: []
+    source_line: "book-scaffold scripts/crutch_phrases.py, 2026-10-11 sweep"
+    status: open
+    resolution_note: "Split the list: 'of a man/of a woman', 'the back room', 'the bell rang', 'for thirty-two years', 'did not say' are the book's deliberate refrains — register them in voice_rules.motifs so the check stops reporting them. The connective-tissue ones ('went to the', 'stood at the', 'for a moment', 'was its own', 'she could see') are worth one line-edit pass if the author wants it."
+
+  - id: "F023"
+    kind: other
+    severity: minor
+    summary: "Lint bands vs voice: every chapter's lint Major hits are tense_drift on 'has/is/have/have' in narration (66 hits book-wide) — all verified as the book's documented free-indirect/gnomic constructions, not tense drift; em-dash rate runs 11.3–21.5/1000 words against a 4.0 default, consistent with the voice-bible's anaphoric signature across all 8 chapters."
+    units: []
+    source_line: "book-scaffold scripts/lint_prose.py, 2026-10-11 sweep; spot-verified against voice-bible.md"
+    status: open
+    resolution_note: "Per audit-book: a voice legitimately outside a default band gets its threshold loosened via canon-update, not 60+ prose edits. Proposes a canon-update (author confirmation required) to tune metrics for this book's voice; until then, gate reports record these hits as voice-band."
+
+  - id: "F024"
+    kind: gate-failure
+    severity: minor
+    summary: "Opener tic: ch08 starts 31% of sentences with 'she' (band 0.30)."
+    units: ["ch08"]
+    source_line: "book-scaffold scripts/prose_metrics.py, 2026-10-11 sweep"
+    status: open
+    resolution_note: ""
+
+  - id: "F025"
+    kind: voice-break
+    severity: minor
+    summary: "Dialogue mechanics vs config: non-sanctioned tag 'repeated' (ch05); adverbial tag 'said carefully' (ch04); genuine punctuation fixes in ch02 (capitalized tag, period-before-tag). Most other lint tag/punctuation flags across ch03–ch08 are action-beat false positives ('He nodded.'/'He said' as new sentences) and should not be edited."
+    units: ["ch02", "ch04", "ch05"]
+    source_line: "book-scaffold scripts/lint_prose.py, 2026-10-11 sweep; manual triage of action-beat false positives"
+    status: open
+    resolution_note: ""
+
+  - id: "F026"
+    kind: voice-break
+    severity: minor
+    summary: "Lint POV-leak hits (4): 'Marguerite had wanted' (ch02), 'Mae knew it' / 'Doris loved' (ch06), 'Doris already knew' (ch08) — all read as Callie's marked inferences in free-indirect voice rather than omniscient access; strict-POV call is the author's."
+    units: ["ch02", "ch06", "ch08"]
+    source_line: "book-scaffold scripts/lint_prose.py, 2026-10-11 sweep"
+    status: open
+    resolution_note: "Either rephrase to observable-cue form or declare the free-indirect inference voice-band via canon-update (would pair with F023's tuning pass)."
+
+  - id: "F027"
+    kind: other
+    severity: minor
+    summary: "ch02 ambiguous sentence: 'the woman lying in the bed she was kneeling in had tried, at the end, to make up for all the years' — 'bed' parses as flower bed vs. the kneeling body; reader trip hazard."
+    units: ["ch02"]
+    source_line: "audit-book gate sweep run 1, ch02 minor #2"
+    status: open
+    resolution_note: ""
+
+  - id: "F028"
+    kind: pacing
+    severity: major
+    summary: "Redundant beat pair: 'She could not make the two things fit together, and she did not try.' appears verbatim in ch04 and ch06, with a shortened third occurrence in ch07 ('...the two things fit, and she did not try.'). Not a registered motif; either register it as one or vary all but one instance."
+    units: ["ch04", "ch06", "ch07"]
+    source_line: "audit-book pacing pass, 2026-10-11 (inline, checklist preserved)"
+    status: open
+    resolution_note: "Pacing pass otherwise clean: no FLAT endings (all 8 land on hooks/earned lulls), no 3+ chapter tension plateau (ch6's valley is the designed pre-dive breath), every outline Dramatic Question answered or explicitly carried."
+
+  - id: "F029"
+    kind: canon-gap
+    severity: minor
+    summary: "promises.py: 5 promises deferred to later books (P008 rekeying, P009 Wells's legal outcome, P010 Beech, P011 the Book 1 knock, P012 the vow) — deferred setups need series-bible tracking; the series-bible proposals that would carry them still await author approval."
+    units: []
+    source_line: "book-scaffold scripts/promises.py, 2026-10-11 sweep"
+    status: open
+    resolution_note: "Blocked on the same author approval as the series-bible proposals; register the five deferrals there once approved."
+
+  - id: "F030"
+    kind: other
+    severity: minor
+    summary: "ch01 outline.md 'Canon Load-Bearing Facts' cites timeline rows H7–H12; canon/timeline.md defines H1–H10 only (retrofit doc nit)."
+    units: ["ch01"]
+    source_line: "audit-book gate sweep run 1, ch01 minor #1"
     status: open
     resolution_note: ""

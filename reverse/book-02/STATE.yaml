@@ -1,8 +1,9 @@
 # STATE — reverse/book-02 (The Botanical Confession)
 # Imported 2026-10-11 via reverse-scaffold from a FINISHED, PRE-PUBLICATION
-# manuscript. Editable book: four MUST-FIX findings are open in findings.yaml
-# (driving contradiction ch7, "bible" meta-leak ch7, diaper line ch6,
-# yellow-rose meaning drift ch2/ch8) pending author approval; no gate has run.
+# manuscript. Editable book. audit-book full sweep 2026-10-11: 8/8 chapters
+# gated — ch01–ch04 PASS (approved), ch05–ch08 FAIL on ledgered findings
+# (F018 ch5, F004 ch6, F003+F006 ch7, F005 ch8) awaiting author approval;
+# sweep rows F021–F030 in findings.yaml.
 
 manuscript_complete: true
 current_chapter: 9
@@ -10,57 +11,57 @@ total_chapters_planned: 8
 
 chapters:
   ch01:
-    status: drafted
-    word_count: 2715
+    status: approved
+    word_count: 2711
     outline_date: null
     draft_date: null
-    gate_passed: false
-    gate_date: null
+    gate_passed: true
+    gate_date: "2026-10-11"
   ch02:
-    status: drafted
-    word_count: 2709
+    status: approved
+    word_count: 2707
     outline_date: null
     draft_date: null
-    gate_passed: false
-    gate_date: null
+    gate_passed: true
+    gate_date: "2026-10-11"
   ch03:
-    status: drafted
-    word_count: 2901
+    status: approved
+    word_count: 2897
     outline_date: null
     draft_date: null
-    gate_passed: false
-    gate_date: null
+    gate_passed: true
+    gate_date: "2026-10-11"
   ch04:
-    status: drafted
-    word_count: 2936
+    status: approved
+    word_count: 2932
     outline_date: null
     draft_date: null
-    gate_passed: false
-    gate_date: null
+    gate_passed: true
+    gate_date: "2026-10-11"
   ch05:
     status: drafted
-    word_count: 2769
+    word_count: 2764
     outline_date: null
     draft_date: null
     gate_passed: false
     gate_date: null
   ch06:
     status: drafted
-    word_count: 2441
+    word_count: 2437
     outline_date: null
     draft_date: null
     gate_passed: false
     gate_date: null
   ch07:
     status: drafted
-    word_count: 3411
+    word_count: 3408
     outline_date: null
     draft_date: null
     gate_passed: false
     gate_date: null
   ch08:
     status: drafted
-    word_count: 2748
+    word_count: 2743
     outline_date: null
     draft_date: null
     gate_passed: false
