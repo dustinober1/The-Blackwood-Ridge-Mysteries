@@ -1,0 +1,145 @@
+# Chapter 6: The Closing Ranks
+
+**Status**: drafted
+**Last Updated**: 2026-10-11
+
+<!--
+  PROSE FENCE — everything between the two `---` lines below is the chapter's
+  prose and nothing else. Word counting, prose linting and manuscript
+  compilation all read only that span, so keep notes and checklists outside
+  it. Do not remove either fence.
+-->
+
+---
+
+
+# The Closing Ranks
+
+It took three days for the town to decide what it thought of her, and the deciding was not kind.
+
+Monday a mother named Linda Parrish came into the shop and asked, in the bright loud voice of a woman performing reasonableness, whether it was true that Callie was trying to reopen the Coalter case, and Callie said she was looking into Marguerite Dabney's annotations, and Linda Parrish said, "That's not what I heard," and left without buying anything, and the bell rang behind her and the sound was the sound of a door closing in a house that was not hers.
+
+Tuesday the archive key was formalized. Harriet Vailes's gentle recall became a letter on council letterhead, hand-delivered by a clerk who would not meet her eye, stating that the archive system was under review and access would be restored "pending completion of the security audit," and the letter did not say when the audit would be complete. Wells Ambler had not come to her shop. He had not raised his voice. He had gone to the people who listened to him, which was most of them, and he had spoken with warmth, and the warmth had done what warmth does in a town that had just spent the winter bleeding — it had made everyone want the bleeding to stop, and Callie was the blade. She saw him once, through the shop window, shaking hands with Harlan Beech on the square. The palm was open. The grip was held a beat too long. She could read the effort in it now that she had not been able to read before, and the reading was its own kind of cost, because the man on the square was the same man who brought tomatoes to Doris Coalter, and the kindness was real, and the grave was real, and she could not make the two things fit together, and she did not try.
+
+The garden club split.
+
+The club met on Wednesdays in the basement of the old Historical Society building — closed as an institution since the Ralston money dried up, though the garden club had kept meeting because the lock on the side door had never been changed — and the meeting that week ran long and ran loud, and the sound of it carried through the open windows into the square. Half of the women remembered Lauren — her hands in the garden soil at the Dabney house, her laugh at the club meetings. Half of them revered Wells. And the halves did not agree on what Callie was doing, and the not-agreeing was a wound, because the garden club had been Marguerite's, and Marguerite had built it to hold the town together, and now it was pulling apart over the thing she had written down in flowers.
+
+Doris pulled furthest.
+
+She did not come to the shop. She did not come to the garden. She sent Mae, on Wednesday afternoon, with a message that was not unkind but was final, delivered in Mae's careful voice in the reading nook. The message was: Doris did not want to see Callie at the Dabney house again. Not until there was more than a margin note. Not until there was something Doris could hold.
+
+"She's frightened," Mae said. "She's not angry, honey, she's frightened. The groceries — " Mae stopped. She did not finish the sentence. The groceries were the thing Doris could not afford to lose on the strength of a dead woman's shorthand, and Callie knew it, and Mae knew it, and neither of them said it, because saying it would have been saying that Doris loved the man she feared had killed her daughter, and the word *loved* was a thing neither of them could put in a room with the word *killed* and survive.
+
+Mae stood to leave. At the door she paused, and her hand went to the latch, and she looked out toward the square — toward the sheriff's office — and Callie saw something in the set of her shoulders, a squaring, the posture of a woman who is not finished. Then Mae let herself out, and the bell rang behind her, and Callie did not know where she was going, and she did not ask.
+
+By Thursday Callie had not had a customer in two days. Harlan Beech had swept his pavement each morning at the same hour, and on Thursday he slowed at her door — she saw him through the glass, hand on the frame, the broom in the other hand, and for a moment she thought he was going to come in. He did not. He straightened, and he swept past, and the not-coming-in was worse than the not-looking, because it meant he had decided.
+
+She sat in the back room with the lamp on and the glass on the felt rest and the empty table where the book had been, and she was not decoding, because the book was at the sheriff's office and the decoding was done, and what she was doing was sitting, and the sitting had a weight she had not felt since the winter after Eleanor died — the particular gravity of a room that is both sanctuary and tomb. The room where her mother had died. The room that was hers now and had never stopped being Eleanor's. The room was quiet, and the quiet was not peace.
+
+She had made tea and it had gone cold. The bergamot tasted almost right — still one register short of the thing she could not name, still not the taste she was looking for — and she set the cup down and she thought about stopping.
+
+She could stop. She had done what Marguerite asked. She had said it. She had taken it to Cross. The saying was in his hands now, and his hands were procedural and slow and might do nothing with it. She reached for the one thing she had that was not suspicion — the Harlow barn, the party, two different stories told to two different audiences, a documented lie — and she held it up against the weight of the town and the weight of Doris's closed kitchen, and it was not enough. A lie was not a body. A wet hemline was not a confession. And if Cross did nothing then the case would die quietly, in a file no one opened, and Callie would go back to the shop and the tea and the morning cup and the set bone she was walking on. The town would forgive her, slowly, by forgetting. Doris would keep her groceries and her Thursdays and the version of her life she could survive.
+
+It would be the kind thing. It would be the careful thing. It would be the thing Marguerite had done for three decades, and Marguerite had been a good woman. And no one would know, and no one would have to.
+
+She sat with it.
+
+She sat with it for a long time, in the gold lamp light, in the quiet that was not peace, and the cup was cold, and the glass was on the felt rest, and outside the mockingbird had stopped, and the town had closed around her, and she was alone in the room where her mother had died, and the aloneness was the truest thing she had felt in months — the simple animal fact of a woman sitting by herself in a building that used to be full.
+
+The bell rang.
+
+She did not move. It rang again — the customer's ring, quick, single — and then she heard Eli's voice at the counter, the careful pitch of a young man who has been practicing not apologizing for existing.
+
+"Callie? Sorry — I mean, the door was open, I — sorry."
+
+She stood. She went to the front.
+
+He was at the counter with a delivery slip and a small crate — more trade paperbacks from the Dabney lot, the tail end of the estate — and he was touching his collar, the new habit, the one that meant he was remembering he was a person who wore buttons now. He looked up when she came through the doorway, and his face did the checking — the quick read of the room to see if he was in trouble — and then the slow loosening when the room turned out to be safe.
+
+"You look — " he started, and stopped, and she watched him decide not to say *terrible*, which was kind of him. "I brought the last of the lot. There's, um, a few I thought you'd want to price."
+
+"Thank you, Eli."
+
+He set the crate on the counter. He did not leave. He stood, and she could see the question working in him — the question he had not finished asking, the one about the seeing. She could see the weight of it in him.
+
+"Can I ask you something?" he said.
+
+"Yes."
+
+He was not looking at her. He was looking at the counter, at the delivery slip, at his own hand on the collar. Then he looked up, and his eyes were steady.
+
+"How do you know?" he said. "When you look at a page — at someone's handwriting — how do you know if it means something? How do you know it's not just — notes. Just someone writing in a book."
+
+She should have given him the short answer. The professional answer. *Context, pattern, systematic annotation.* She had given him that version once. He deserved the other one.
+
+"You don't, at first," she said. "You look at a hand and you read the hand — the pressure, the speed, the way the letters lean. Everyone's hand is a voice. Most people's voices are just talking. Grocery lists, reminders, the weather. But some people's hands are — saying." She looked at the glass on the felt rest. "You can feel it the way you can feel someone trying to tell you something they can't say out loud. The hand tightens. The letters crowd. There's a — I don't know the word for it. A choosing. Every mark matters, and the writer knows it. That's how you know."
+
+Eli was quiet. He was turning it over. She could see him filing it, weighing it, putting it in the place where the old version of him would have apologized and the new version of him was learning to listen.
+
+"Marguerite's hand," he said. "That's what it was. Saying."
+
+"Yes."
+
+He nodded, slowly. Then, very quietly: "Could you teach me? To see that?"
+
+The shop was quiet. The crate sat between them on the counter, and the delivery slip curled at its edge, and outside the square was going gold in the late afternoon, and Eli Townsend was asking Callie Thorne to teach him to read.
+
+She did not know what the question would become. He did not. It was a seed — small and ordinary, planted in the back room of a bookshop on a Thursday afternoon when one person was lonely and another was standing straight, and neither of them knew it yet.
+
+"I can try," she said.
+
+He flushed. He touched his collar. He said, "Thank you, Callie," and he left, and the bell rang behind him, and the sound was not the sound of a door closing. It was the sound of a door opening, and Callie stood at the counter and she felt, under the exhaustion and the isolation, a small thing. Not hope, exactly. Not warmth. Just the ordinary animal fact of not being entirely alone in a room.
+
+She did not stop.
+
+The phone rang at seven.
+
+She was in the back room, the lamp on, the glass in her hand — not decoding, just holding it, the way you hold a tool that is yours by choice and not by ghost — when the shop phone went, and she picked it up and it was Cross.
+
+"Callie." His voice was flat. Clipped. The voice of a man doing a thing he does not want to do and will not be thanked for. "We're going up to the cove tomorrow morning. Six a.m. I've got a dive team coming from the county. I want you there."
+
+She gripped the counter.
+
+"Why?" she said, and she could hear the second *why* underneath it — *why did you decide*.
+
+He was quiet for a moment. She could hear him breathing.
+
+"The location detail is specific enough," he said. "That's what I'm putting in the report. The location is specific enough to justify a search." A pause. "Mae came by."
+
+He did not say what Mae said. He did not need to. Mae had walked into the office of a man whose diapers she had changed, and had said a word, and the word had been enough. Cross was doing his job. The doing was without warmth, and maybe he never would be ready for the warmth, and Callie did not need it.
+
+"Six a.m.," she said.
+
+"Wear boots. It's muddy at the cove."
+
+He hung up. He did not say goodbye. He did not say *good work* or *thank you* or *I should have listened sooner*. He said *wear boots*, and that was Cross — the procedural guardrail who moved on solid ground and never on faith. Callie stood at the counter in the dark shop with the phone still warm in her hand and she understood that tomorrow they would go to the lake, and the lake might give Lauren back, or it might give nothing, and either way the town would not forgive her for making them look.
+
+She went to the back room. She set the phone down. She picked up the glass and she held it, and the brass was warm, and it was hers. She thought of Doris, sitting with a bag of groceries she could not unpack and a scarf she could not finish. She thought of Wells, going home to his wife and his children, steady and kind. She could not make the two things fit, and she did not try.
+
+Callie turned off the lamp. She went upstairs. She did not sleep, but she lay down, and the lying down was its own small act of faith — the body trusting that the morning would come. Eli's question was still in her — *could you teach me* — and it would be in her tomorrow, at the cove, in the mud, when the water gave back what it had held for thirty-two years.
+
+---
+
+## Scraps Used
+
+- n/a — chapter imported verbatim from the pre-publication draft (reverse-scaffold import, 2026-10-11).
+
+## Revision Notes
+
+- Imported verbatim from `books/book-02/manuscript/ch-06.md` at commit c81bc35 (2026-10-11). Book 2 is PRE-PUBLICATION: must-fix findings from the audit live in reverse/book-02/canon-decisions.md and findings.yaml, and prose edits happen only after the author approves them.
+
+## Continuity Self-Check
+
+Retrofit packet — no gate has run (see gate-report.md). Known must-fix items for this chapter, if any, are flagged in findings.yaml.
+
+- [ ] All character names spelled per canon/characters.md
+- [ ] Timeline anchor matches canon/timeline.md
+- [ ] No contradictions to canon/characters.md or canon/world-rules.md
+- [ ] Voice matches voice-bible.md (run `python3 scripts/lint_prose.py chapters/ch06/draft.md`)
+- [ ] POV consistent — no access to any other character's interiority
+- [ ] Tense consistent (past)
+- [ ] Every outline beat rendered
+- [ ] Threads opened/closed reflected in STATE.yaml
+- [ ] No placeholder text remains inside the prose fence
+- [ ] Every scene's outline `Value shift` actually lands on the page

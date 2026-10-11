@@ -1,0 +1,191 @@
+# Defect ledger — collected from the analysis report by
+# reverse-scaffold's findings.py, then triaged and repaired by
+# book-scaffold's audit-book / nonfiction-scaffold's audit-course.
+#
+# kinds: canon-gap | claim-gap | inconsistency | voice-break |
+#        boundary | other | gate-failure | pacing   (the last two
+#        are added by the audit skills' own sweeps)
+# status: open | fixed | canon-decided | wont-fix | escalated
+source: "reverse-scaffold-analysis.md"
+generated: "2026-10-11"
+type: fiction
+findings:
+  - id: "F001"
+    kind: canon-gap
+    severity: minor
+    summary: "Wells Ambler — Relationships: Lauren (girlfriend, summer 1994); Marguerite (his teacher, then colleague); Cross (friend — \"He sat with me through the winter\"); Doris (thirty years of Thursdays); wife and children (unnamed — CANON GAP)"
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "**Relationships**: Lauren (girlfriend, summer 1994); Marguerite (his teacher, then colleague); Cross (friend — \"He sat with me through the winter\"); Doris (thirty years of Thursdays); wife and children (unnamed — CANON GAP)"
+    status: open
+    resolution_note: ""
+
+  - id: "F002"
+    kind: boundary
+    severity: minor
+    summary: "Each unit file opens with a 7-line YAML front-matter block before the prose; import strips it when materializing `chapters/chNN/draft.md`. The front-matter `words:` fields are stale; authoritative prose-span counts are computed at import."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "`BOUNDARY` — Each unit file opens with a 7-line YAML front-matter block before the prose; import strips it when materializing `chapters/chNN/draft.md`. The front-matter `words:` fields are stale; authoritative prose-span counts are computed at import."
+    status: fixed
+    resolution_note: "Handled at import (2026-10-11): draft.md packets contain fenced prose only."
+
+  - id: "F003"
+    kind: other
+    severity: minor
+    summary: "`INCONSISTENCY` — **Callie drives to the cove (ch7)**: \"She drove out past the school... she parked behind Cross's cruiser... engine off\" and \"She drove back down the lake road\" — contradicts established series canon that Callie has no car (Book 1 ch2 fix \"drive home → walk home,\" audiobook continuity round; Book 1 text: \"the long walk home\"). MUST FIX pre-publication (rework ch7's two transit passages: e.g., Cross collects her, or she rides with the dive team)."
+    units: ["ch02", "ch07"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`INCONSISTENCY` — **Callie drives to the cove (ch7)**: \"She drove out past the school... she parked behind Cross's cruiser... engine off\" and \"She drove back down the lake road\" — contradicts established series canon that Callie has no car (Book 1 ch2 fix \"drive home → walk home,\" audiobook continuity round; Book 1 text: \"the long walk home\"). MUST FIX pre-publication (rework ch7's two transit passages: e.g., Cross collects her, or she rides with the dive team)."
+    status: open
+    resolution_note: ""
+
+  - id: "F004"
+    kind: other
+    severity: minor
+    summary: "`INCONSISTENCY` — **Mae's diaper line (ch6)**: \"Mae had walked into the office of a man whose diapers she had changed\" — impossible against Book 1's pinned ages (Mae ~59–60 by text arithmetic, ch4; Cross mid-fifties; the gap is ~5 years). The Book 1 planning bible carried the same impossible detail. MUST FIX pre-publication (rephrase to the compatible form: Mae has known Cross since he was a young deputy)."
+    units: ["ch04", "ch06"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`INCONSISTENCY` — **Mae's diaper line (ch6)**: \"Mae had walked into the office of a man whose diapers she had changed\" — impossible against Book 1's pinned ages (Mae ~59–60 by text arithmetic, ch4; Cross mid-fifties; the gap is ~5 years). The Book 1 planning bible carried the same impossible detail. MUST FIX pre-publication (rephrase to the compatible form: Mae has known Cross since he was a young deputy)."
+    status: open
+    resolution_note: ""
+
+  - id: "F005"
+    kind: other
+    severity: minor
+    summary: "`INCONSISTENCY` — **Yellow rose meaning drift (ch2 vs ch8)**: the pulled-up bed's stakes read \"Ambition. Betrayal. Folly.\" in ch2 but \"Ambition. Infidelity. Folly.\" in ch8 — the same cipher object given two meanings. MUST FIX pre-publication (harmonize; ch2's \"Betrayal\" is the book's established vocabulary)."
+    units: ["ch02", "ch08"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`INCONSISTENCY` — **Yellow rose meaning drift (ch2 vs ch8)**: the pulled-up bed's stakes read \"Ambition. Betrayal. Folly.\" in ch2 but \"Ambition. Infidelity. Folly.\" in ch8 — the same cipher object given two meanings. MUST FIX pre-publication (harmonize; ch2's \"Betrayal\" is the book's established vocabulary)."
+    status: open
+    resolution_note: ""
+
+  - id: "F006"
+    kind: other
+    severity: minor
+    summary: "`INCONSISTENCY` — **Meta-leak (ch7)**: \"she felt the place as the bible had said she would: heavy\" — the narration cites \"the bible,\" readable only as a reference to the production bible; no in-world text has said the cove is heavy (ch5's in-world form is \"the place felt wrong in a way no one had ever named\"). MUST FIX pre-publication (replace with the in-world phrasing)."
+    units: ["ch05", "ch07"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`INCONSISTENCY` — **Meta-leak (ch7)**: \"she felt the place as the bible had said she would: heavy\" — the narration cites \"the bible,\" readable only as a reference to the production bible; no in-world text has said the cove is heavy (ch5's in-world form is \"the place felt wrong in a way no one had ever named\"). MUST FIX pre-publication (replace with the in-world phrasing)."
+    status: open
+    resolution_note: ""
+
+  - id: "F007"
+    kind: canon-gap
+    severity: minor
+    summary: "The botanical's title is never printed in the text; the Book 2 bible supplies \"Flora's Lexicon of the Virginias (1873)\" (fictional regional floriography). Adoptable as series reference without contradicting the text."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — The botanical's title is never printed in the text; the Book 2 bible supplies \"Flora's Lexicon of the Virginias (1873)\" (fictional regional floriography). Adoptable as series reference without contradicting the text."
+    status: canon-decided
+    resolution_note: "Decision (canon-decisions.md): 'Flora's Lexicon of the Virginias (1873)' adopted from the Book 2 bible as the series reference title; never printed in text."
+
+  - id: "F008"
+    kind: canon-gap
+    severity: minor
+    summary: "Marguerite's age never stated (taught Wells junior year ~1988–89; career length unstated)."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — Marguerite's age never stated (taught Wells junior year ~1988–89; career length unstated)."
+    status: open
+    resolution_note: ""
+
+  - id: "F009"
+    kind: canon-gap
+    severity: minor
+    summary: "Wells's wife and children referenced (ch4, ch6) but unnamed and uncounted — series-relevant blank."
+    units: ["ch04", "ch06"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — Wells's wife and children referenced (ch4, ch6) but unnamed and uncounted — series-relevant blank."
+    status: open
+    resolution_note: ""
+
+  - id: "F010"
+    kind: canon-gap
+    severity: minor
+    summary: "Doris's husband (deceased; name and death timing unstated); whether Lauren had siblings never addressed."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — Doris's husband (deceased; name and death timing unstated); whether Lauren had siblings never addressed."
+    status: open
+    resolution_note: ""
+
+  - id: "F011"
+    kind: canon-gap
+    severity: minor
+    summary: "\"the job\" Lauren was leaving for is never named (ch7) — possibly deliberate texture; confirm."
+    units: ["ch07"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — \"the job\" Lauren was leaving for is never named (ch7) — possibly deliberate texture; confirm."
+    status: open
+    resolution_note: ""
+
+  - id: "F012"
+    kind: canon-gap
+    severity: minor
+    summary: "Helen Carmody's present-day status never stated (alive, reachable, willing?) — available to later books as a witness."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — Helen Carmody's present-day status never stated (alive, reachable, willing?) — available to later books as a witness."
+    status: open
+    resolution_note: ""
+
+  - id: "F013"
+    kind: canon-gap
+    severity: minor
+    summary: "The knock at the end of Book 1 (ch8) is never answered on the page; Book 2 opens with Eli's delivery the next morning but does not claim the knock."
+    units: ["ch08"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — The knock at the end of Book 1 (ch8) is never answered on the page; Book 2 opens with Eli's delivery the next morning but does not claim the knock."
+    status: open
+    resolution_note: ""
+
+  - id: "F014"
+    kind: canon-gap
+    severity: minor
+    summary: "The archive rekeying/\"security audit\" has no stated end — open thread (Book 3's records dispute presumably consumes it)."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — The archive rekeying/\"security audit\" has no stated end — open thread (Book 3's records dispute presumably consumes it)."
+    status: open
+    resolution_note: ""
+
+  - id: "F015"
+    kind: canon-gap
+    severity: minor
+    summary: "Wells's legal outcome beyond arrest is unspecified (\"the legal process had begun, somewhere past the county line\") — later books must establish it (Gus's precedent: tried and imprisoned)."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — Wells's legal outcome beyond arrest is unspecified (\"the legal process had begun, somewhere past the county line\") — later books must establish it (Gus's precedent: tried and imprisoned)."
+    status: open
+    resolution_note: ""
+
+  - id: "F016"
+    kind: canon-gap
+    severity: minor
+    summary: "Marguerite's heirs/survivors never mentioned; the estate moves entirely by her directed list to the shop — deliberate seclusion, but a blank."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — Marguerite's heirs/survivors never mentioned; the estate moves entirely by her directed list to the shop — deliberate seclusion, but a blank."
+    status: open
+    resolution_note: ""
+
+  - id: "F017"
+    kind: inconsistency
+    severity: major
+    summary: "Estate mechanics compressed: the December lot arrived ~5 months before Marguerite's death (pre-death consignment implied), while \"the paperwork finally cleared\" ~1 week after it — plausible with a directed bequest but fast."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "`LOW CONFIDENCE` — Estate mechanics compressed: the December lot arrived ~5 months before Marguerite's death (pre-death consignment implied), while \"the paperwork finally cleared\" ~1 week after it — plausible with a directed bequest but fast."
+    status: open
+    resolution_note: ""
+
+  - id: "F018"
+    kind: inconsistency
+    severity: major
+    summary: "\"the Dabney garden gate, two weeks ago\" (ch5) vs. a reconstructed ~10–11 days — rounding, or the day skeleton is off by a few days."
+    units: ["ch05"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`LOW CONFIDENCE` — \"the Dabney garden gate, two weeks ago\" (ch5) vs. a reconstructed ~10–11 days — rounding, or the day skeleton is off by a few days."
+    status: open
+    resolution_note: ""
+
+  - id: "F019"
+    kind: inconsistency
+    severity: major
+    summary: "The named-day skeleton (ch3 \"Tuesday evening\"/\"Wednesday\"; ch5 \"Thursday\"; ch6 \"Monday–Thursday\"; ch7 \"Friday\") coheres only if ch1 falls on a Sunday, which is never stated."
+    units: ["ch01", "ch03", "ch05", "ch06", "ch07"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`LOW CONFIDENCE` — The named-day skeleton (ch3 \"Tuesday evening\"/\"Wednesday\"; ch5 \"Thursday\"; ch6 \"Monday–Thursday\"; ch7 \"Friday\") coheres only if ch1 falls on a Sunday, which is never stated."
+    status: open
+    resolution_note: ""
+
+  - id: "F020"
+    kind: inconsistency
+    severity: major
+    summary: "The December lot's non-botanical contents (Methodist sermons, a Civil War nurse's diary, regional poetry — Book 1 ch8) sit oddly beside the Dabney estate's profile in Book 2 (trade paperbacks, annotated volumes); reconcilable as mixed auction-house boxes, but never stated."
+    units: ["ch08"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`LOW CONFIDENCE` — The December lot's non-botanical contents (Methodist sermons, a Civil War nurse's diary, regional poetry — Book 1 ch8) sit oddly beside the Dabney estate's profile in Book 2 (trade paperbacks, annotated volumes); reconcilable as mixed auction-house boxes, but never stated."
+    status: open
+    resolution_note: ""

@@ -1,0 +1,185 @@
+# Chapter 5: The Language of Flowers
+
+**Status**: drafted
+**Last Updated**: 2026-10-11
+
+<!--
+  PROSE FENCE — everything between the two `---` lines below is the chapter's
+  prose and nothing else. Word counting, prose linting and manuscript
+  compilation all read only that span, so keep notes and checklists outside
+  it. Do not remove either fence.
+-->
+
+---
+
+
+# The Language of Flowers
+
+She cracked it on a Thursday.
+
+Not all at once — the cipher had been giving in stages for days, each plate yielding its layer the way a pressed flower gives its color when you moisten it, slowly, the pigment blooming back into the leaf. But Thursday was the day the last tumbler turned, and the whole lock opened, and Callie sat back in the chair with the lamp gold and the tea cold and the shop closed and the archive key still not returned and Doris's kitchen still shut to her, and the book lay open across the table like a body on a slab, and she saw what Marguerite Dabney had done.
+
+It was a map.
+
+Not a confession. Not an accusation. A map. Each plate was a coordinate — the dates clicking into a timeline, the names into a cast, the seeing into evidence. The rosemary gave *remembrance* and the date. The violet gave *faithfulness* and the name. The yarrow gave *war* and the second name, the one underlined once and left. The meadowsweet gave the seeing. And the last plates, the ones where the pen pressure lightened and the letters thinned, gave the place.
+
+The flower was water lily. *Nymphaea alba* — hand-colored in a blue-green wash, the petals drawn half-open, the kind of plate that existed to be beautiful and Marguerite had repurposed it to be precise. Water lily in the old language meant *purity of heart*, and also it meant *the surface and what is under it*, and Marguerite had written the second meaning and underlined it.
+
+Callie held the glass over the shorthand beneath it. Four words, compressed to almost nothing — the vowels crushed, the consonants welded together, the hand of a woman running out of time and out of strength. The brass was warm. The lamp threw gold across the page. She worked it letter by letter — the pen pressure first, then the rhythm, then the ghost of the intention under the rhythm. Twenty minutes. The last of the afternoon light.
+
+*The old dock. The deep.*
+
+The map assembled in her mind — Cedar Lake. Blackwater Cove. The old dock that had been gone for years, the deep silted cove where the water was dark and cold and the town had stopped swimming a decade after Lauren Coalter vanished because the place felt wrong in a way no one had ever named.
+
+Marguerite had named it.
+
+Not *he killed her.* The cipher said what it had always said — what she saw, what she feared, where she believed the girl was — and it stopped there. The wet hemline was a fact. The Harlow barn lie was a fact. The name Ambler beside the flower for war was a fact. And the old dock, the deep — that was not a fact. That was a suspicion. A teacher's thirty-two-year suspicion, aimed from the grave at the most beloved man in Blackwood Ridge, and it was not certainty.
+
+Callie sat with it.
+
+She sat with it the way she had learned to sit with difficult hands — not rushing past the discomfort, not naming it, just holding the glass steady and letting the thing be what it was. What it was: not enough. Not enough for a warrant, not enough for a search, not enough to walk into Cross's office and say *dig up the lake*. A dead woman's recorded seeing and a dead woman's suspicion and a wet hemline from 1994. The town had been dragged through a murder trial six months ago on stronger evidence than this. And the town — she could feel it without stepping outside, the way you feel weather in a bad knee — the town did not want to be dragged again.
+
+She turned to the final plate.
+
+A rose. *Rosa damascena* — the damask rose, hand-colored in a pink that had gone the color of old blood, and in the old language the rose meant *love*, and also it meant *secrecy*, and the Romans hung a rose above the council table to mean *what is said here stays here*. Marguerite had drawn a small precise cross beside the word *secrecy*, and beneath it, in the lightest pen pressure in the book — the hand of a woman running out of time — a single line.
+
+*For the one who reads this. You know what I could not say. Say it.*
+
+Callie closed the book.
+
+She set the glass on the felt rest. She sat with her hands flat on the table and she breathed, and the breathing was uneven, and she did not try to make it even. A woman she had spoken to four times in her life had aimed her whole thirty-two-year silence at The Foxed Page, and now the asking was in Callie's hands, and the hands were shaking, and she let them shake.
+
+The bell rang at the front.
+
+She did not move. The bell rang again — not the customer's ring, but the knock-ring, the knuckle-on-glass that meant someone who knew the shop was closed and wanted in anyway. She stood. She went to the door.
+
+It was Mae.
+
+She was standing on the pavement in the last of the evening light with a dishcloth in her hands and her cardigan pulled close, and the lavender smell reached Callie before the face did — faint, strained, the sachet-and-cinnamon that was Mae's armor, thinner now but still there, still lavender, still Mae. She did not have soup. She was not carrying anything but the cloth and the look, and the not-carrying was its own sentence.
+
+"Can I come in, honey."
+
+Mae had used the word at the Dabney garden gate, two weeks ago, but it had been a wall — a welcome and a boundary in the same breath. This was not a wall. The word landed in Callie's chest like a thumb on a bruise. She held the door.
+
+Mae came in and she did not go to the back room. She went to the reading nook by the front window, the one with the two leather chairs and the lamp with the green glass shade, and she sat, and she folded the cloth in her lap, and her hands worked the cloth. Callie sat across from her. The shop was dark except for the green lamp and the gold light leaking from the back room doorway.
+
+"I need to tell you something," Mae said. "About Marguerite."
+
+Callie waited.
+
+Mae's hands worked the cloth. When she looked up, her eyes were wet.
+
+"She came to see me," Mae said. "Last October. The cancer was in her bones by then — you could see it in the way she held the chair. She sat right where you're sitting. She asked me about you."
+
+The shop was very quiet. Somewhere outside a dog was barking and a screen door slammed.
+
+"She asked if you saw things through," Mae said. "She said she'd watched you for years — not at the auction, she said, at the counter, at the sales. She said you read what folks leave behind. The little marks." Mae's voice caught. "She said you don't skip over things. She said it the way a person says a thing they've been turning over for a long time." Mae's hands stopped on the cloth. "She asked if I thought you'd read a book all the way to the end. Even if the end was hard."
+
+Callie's throat closed.
+
+"I didn't say anything," Mae said. "I did what I do. I — I was careful. I told her you were busy. I changed the subject. I brought out the tea. I did the thing, Callie. The thing I always do." She looked down at the cloth. "She died before I understood what she'd been asking me."
+
+"You understood," Callie said. Quietly. Not an accusation. A naming.
+
+Mae's jaw worked. "I understood enough to be scared of it, honey. That ain't — that's not the same as knowing what to do."
+
+She was quiet for a moment. The green lamp hummed. Mae's hands were still now — the first time Callie had seen them still in years — and the stillness was not peace. It was the stillness of a woman deciding, after decades of silence, to break her own habit.
+
+"I should have told you in the garden," Mae said. "When Doris was there. I should have told you Marguerite meant the book for you. I knew. I knew when you said *estate lot*. I knew and I didn't say it because saying it would make it real." She stopped. Her eyes were wet and she did not wipe them. "I'm telling you now. That's what I've got. It's late. I know it's late."
+
+Callie looked at her. Mae had done the thing Marguerite had done. She had been careful. And now she was choosing, late, to undo it.
+
+"It's enough for tonight," Callie said. And then, because Mae's eyes were wet and she did not wipe them: "It's enough."
+
+Mae nodded. She did not ask what Callie was going to do. She did not beg her to stop. She did not say *be careful*. She stood, and she folded the cloth one more time, and she touched Callie's shoulder — briefly, afraid of losing her — and she let herself out, and the bell rang behind her, and Callie was alone in the shop with the green lamp and the gold light from the back room and the book on the table and the knowing that Marguerite had chosen her, and Mae had confirmed it.
+
+She sat in Mae's chair. It was still warm.
+
+She could close the book and put it back on the shelf and let the silence hold, and the town would heal, and Doris would die in her kitchen with a bag of groceries she could not unpack, and the old dock at Blackwater Cove would keep what it kept, and Callie would be safe. She could be careful. That was the exit, and it was open, and she could see it.
+
+She thought of Doris's hands flat on her thighs, the needles shaking, the voice that had said *find the rest of it before you come to my kitchen again.* Doris would learn it from the town, not from her, if she stopped now. That was the part she could not carry.
+
+She made tea.
+
+She stood at the counter in the dark shop and she made the bergamot the way Eleanor had taught her — the water off the boil, the cup warmed, the steep timed to the count Eleanor kept by tapping two fingers on the counter, one-two-three, one-two-three, the rhythm so deep in Callie's hands it would outlast memory. She drank it standing. It was almost right. It was closer to right than it had been in months — not Eleanor's register, not Eleanor's table, but a thing she had made herself, with her own hands, in a shop she had not lost. Almost right. Not yet.
+
+She drank it and she let the deciding settle, and then she locked the book in the back room cabinet and she went upstairs, and she slept badly, and in the morning she went to the sheriff.
+
+He was at his desk. The office smelled of coffee and floor cleaner and the staleness of a building where one man worked too many hours. He did not take off his hat when she came in. He always did — she had seen him do it a hundred times, the genuine respect of a man who'd been raised to — and today he did not. That was new. He looked up. He did not stand.
+
+"Callie."
+
+"I have something."
+
+She set the book on his desk. She set her notes beside it — the decoded passages, the flower meanings, the timeline she had built, the map. She had copied it all in her own hand, neatly, on the archival paper she used for cataloguing, and she laid it out the way she would lay out a provenance file, with margins and dates and the annotations of a woman who knew the difference between evidence and suspicion and was showing him both.
+
+Cross looked at it. He looked at it for a long time. He turned a page. He turned it back. He rubbed the back of his neck.
+
+"This is handwriting," he said.
+
+"It's a record. A witness record. She saw him come back from the lake the night Lauren vanished. Wet to the knees."
+
+"She says he told the Carmody family he was at the Harlow barn," Cross said, reading.
+
+"Yes. But when I went to see him — in his office — he told me he was at the party. He said they argued. He said he went home." Callie leaned forward. "That's two different stories, Sheriff. He told the Carmody family the Harlow barn. He told me the party and the house. And the cipher says he was at the lake."
+
+Cross's jaw set. That was the tell — not the neck, the jaw. The one she had learned to read when a friend's name came into a room he didn't want it in.
+
+"Thirty-two years ago."
+
+"Yes."
+
+"She's dead."
+
+"Yes."
+
+He set the pages down. He looked at her — the honest face of a man who liked Wells Ambler, who had leaned on him, who sat across from him at council meetings and considered him a friend, and who was being asked to treat him as a suspect in the death of a girl who had been gone for three decades.
+
+"It's a book, Callie. It's a dead woman's notes in a book about flowers. I can't take that to a judge. I can't get a search warrant on *pen pressure*."
+
+"I'm not asking for a warrant. I'm asking you to search the cove."
+
+"Blackwater Cove." He said it flat. "You want me to drag Blackwater Cove. On the strength of — " he touched the page — "*water lily.*"
+
+She held his gaze. She had expected this — the procedural wall, the evidence-in-a-baggie rigidity. What she had not expected was how long he had looked at the pages before he said no. In the winter, during the Ralston case, he would not have looked at all. He was dismissing her now, but he had read the whole thing first, and the reading was the thing that had not been there six months ago, and it was not partnership, but it was the shape of a door.
+
+"The location is specific," she said. "The old dock. The deep. She wasn't guessing — she lived by the lake path. She knew the cove."
+
+"She knew the cove," Cross repeated. "A woman who is dead. Knew a cove. Thirty-two years ago."
+
+He rubbed his neck again. He looked at the pages one more time. Then he squared them on his desk — carefully — and he put his hat straight.
+
+"I'll think about it," he said.
+
+It was not *no*. It was not *yes*. It was the words of a man who had listened longer than he would have in the winter, and who was going to sit with it, and who might — or might not — do something about it, and the might-or-might-not was the most she was going to get, and she knew it, and she took it.
+
+She left the book. She took her notes. She walked out into the late-spring morning, and the square was bright, and the peonies were open, and Harlan Beech was sweeping his pavement, and he looked up — he looked up, for the first time in weeks — and he did not speak, and she did not speak, but the looking-up was a thing, and she did not know what kind of thing, and she did not stop to find out.
+
+She went back to the shop. She sat in the back room with the empty table where the book had been, and outside the mockingbird was running through every song it had ever stolen, and the town was going about its morning, and Callie Thorne had done the only thing she could do. She had said what a careful woman could not. And now the saying was in the sheriff's hands, and her hands were empty, and the empty was not peace and was not rest. It was the quiet of having decided.
+
+Marguerite had written *say it*. Callie had said it. The rest was not hers.
+
+---
+
+## Scraps Used
+
+- n/a — chapter imported verbatim from the pre-publication draft (reverse-scaffold import, 2026-10-11).
+
+## Revision Notes
+
+- Imported verbatim from `books/book-02/manuscript/ch-05.md` at commit c81bc35 (2026-10-11). Book 2 is PRE-PUBLICATION: must-fix findings from the audit live in reverse/book-02/canon-decisions.md and findings.yaml, and prose edits happen only after the author approves them.
+
+## Continuity Self-Check
+
+Retrofit packet — no gate has run (see gate-report.md). Known must-fix items for this chapter, if any, are flagged in findings.yaml.
+
+- [ ] All character names spelled per canon/characters.md
+- [ ] Timeline anchor matches canon/timeline.md
+- [ ] No contradictions to canon/characters.md or canon/world-rules.md
+- [ ] Voice matches voice-bible.md (run `python3 scripts/lint_prose.py chapters/ch05/draft.md`)
+- [ ] POV consistent — no access to any other character's interiority
+- [ ] Tense consistent (past)
+- [ ] Every outline beat rendered
+- [ ] Threads opened/closed reflected in STATE.yaml
+- [ ] No placeholder text remains inside the prose fence
+- [ ] Every scene's outline `Value shift` actually lands on the page

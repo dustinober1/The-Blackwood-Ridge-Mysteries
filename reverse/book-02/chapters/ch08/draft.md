@@ -1,0 +1,169 @@
+# Chapter 8: What the Garden Knew
+
+**Status**: drafted
+**Last Updated**: 2026-10-11
+
+<!--
+  PROSE FENCE — everything between the two `---` lines below is the chapter's
+  prose and nothing else. Word counting, prose linting and manuscript
+  compilation all read only that span, so keep notes and checklists outside
+  it. Do not remove either fence.
+-->
+
+---
+
+
+# What the Garden Knew
+
+The town bled again, quietly.
+
+Not in the streets but in the silences between people who used to sit together at the garden club, in the half-second before someone answered the phone. The legal process had begun, somewhere past the county line, in rooms with fluorescent lights and strangers who would decide the shape of Wells Ambler's remaining life. Callie did not go. Her part was done. She had spent three days in the shop with the glass on the felt rest and the lamp off and the tea she was not ready to make, and the three days had been their own kind of work — the work of sitting with what she had done and not being told it was right.
+
+She went to Doris on the third day.
+
+She knew Doris already knew. The news had moved through Blackwood Ridge faster than phone calls, carried in the particular frequency of shock that travels between kitchens. Doris would have been sitting with the half-finished scarf and the grocery bag that would not come again and the chair Wells had sat in for thirty years, and the knowing would have arrived before Callie did, and Callie let it, because the knowing was Doris's.
+
+She knocked.
+
+The door opened. Doris stood in the frame, and she was thinner than she had been in the garden — as if the days had taken something physical from her, some last reserve — and her face was white along the cheekbones, the white of a woman who has not slept. Her hands were at her sides. She was not knitting. The scarf was not with her.
+
+"I know," Doris said. Flat. Dry. The rationed voice. "Mae told me. I know."
+
+"Doris — "
+
+"Come in." She turned. She did not wait for Callie to follow. She walked to the kitchen table and she sat, and Callie came in and closed the door behind her, and the kitchen was the kitchen she had seen through the screen door the day she had watched Wells set down the groceries — the table, the chairs, the window over the sink — and it was changed, and the change was the absence of the bag. The table was bare. The chair where Wells had sat was pushed in, neat, as if no one had the courage to move it or the courage to leave it pulled out.
+
+Doris sat. Her hands went flat on the table. Palms down. The posture Callie had seen before, the holding-in-place, the grip on the earth in case it tried to shift. The scarf was on the counter — not the table, the counter — folded over its needles, and it was not moving, and Callie understood that Doris had not knitted since the news, and the not-knitting was the tell, the way the open palm had been Wells's tell and the set bone had been Callie's.
+
+"Tell me," Doris said. "All of it. From the book. I want to hear what she wrote."
+
+Callie told her. She told her carefully, with dates, with the flower meanings, with the decoded passages, the wet hemline and the Harlow barn lie and the old dock and the deep. She told her about Marguerite at the kitchen window, the light on, the boy in the middle of the road. She told her about the rosemary and the rue and the peony ringed with *remembrance* and the meadowsweet and the final plate where the pen pressure faded. She told her everything Marguerite had written and everything Marguerite had not written — the deliberate restraint, the refusal to go past the seeing, the thirty-two years of carrying a suspicion she could not prove and would not name.
+
+And she thought, telling it, of the promise she had broken — *you find it, and you bring it to me, and you do not bring it to anyone else first* — and Doris had learned it from Mae, not from her, and the learning-from-Mae was the receipt of the broken word, and Callie let it sit, because there was nothing she could say that would unbreak it.
+
+Doris listened. She did not cry. Her face did not change. She sat with her hands flat on the bare table and she listened — dry, steady, the grief held so deep it had become structural — and when Callie finished, the kitchen was very quiet, and the clock on the wall ticked, and Doris's hands pressed flatter.
+
+"The groceries," Doris said. "Every Thursday. He brought me tomatoes. From his garden." She said it flat, dry, laid down. "He sat in that chair. He put the floor in."
+
+"I know."
+
+"I let him in because — " She stopped. Her jaw set. She did not finish it. Callie waited. Doris did not finish it.
+
+Doris stood. She went to the mantel in the front room — Callie followed, stopped in the doorway — and she stood before Lauren's graduation photo. It was where it always was: turned to face the room, the girl's face bright and seventeen and almost-reachable, the cap and gown, the smile of a girl who was about to leave. Doris looked at it for a long time. Then she reached up and she turned it to face the wall.
+
+She stood with her hand on the frame. Her back was to Callie. Her shoulders did not move. She held the frame against the wall for ten seconds, fifteen, and Callie could see the war in her — the boyfriend and the killer and the man who brought tomatoes, all of them the same man, in the same frame, and Doris could not look at all of it at once.
+
+Then she turned it back.
+
+Slowly. She turned the photo back to face the room, and she adjusted the angle the way she must have adjusted it every morning for thirty-two years, the daily ritual of making the absent girl present, and she set her hand on the mantel and she stood there, and the photo was back, and the girl was still smiling, and Doris's hand was shaking, and Callie understood: the grief could move now. It had been frozen for thirty-two years — not mourning, not living, held in the ice of not-knowing — and now the ice was breaking, and the breaking would hurt more, not less, because moving water is heavier than still water.
+
+Doris did not thank her. She did not turn around. She said, over her shoulder, in the flat voice that was all she had left: "You can go now, Callie."
+
+Callie went.
+
+The Dabney house was three blocks. She walked to Pippin Street the way she had walked it the first time — slowly, except now the book was at the station and the garden was what she was going to read. The gate was open. The garden club had been in — the beds being thinned, perennials lifted and divided for members taking pieces home. The floriography bed was being dissolved. The flowers were going out into the town, scattered, the code broken into pieces that would no longer spell anything.
+
+She walked it slowly, and the reading was different now because she was different now. The rosemary hedge — *remembrance* — still fragrant, the dew releasing the smell. The rue bed, thinned, half-gone. The peony at the center, *shame*, ringed with rosemary — in full bloom now, heavy, the petals going brown at the edges because no one had deadheaded it.
+
+She stood at the empty bed — the one with the stakes. *Hollyhock*, *yellow rose*, *columbine*. *Ambition. Infidelity. Folly.* The qualities Marguerite had pulled up by the root, leaving only the accusation. Callie stood at the bed and she read it as the final cipher — a woman's life spelled in flowers, a record of what she had planted and what she had pulled up.
+
+And she understood Marguerite Dabney. Not as a saint, not as a coward, but as a woman who had seen clearly and said nothing, and had lived with the nothing until the nothing itself had become the book. Marguerite had waited too long. She had been right, and the rightness did not save her.
+
+She saw herself in it. The archive, the glass, the back room where Eleanor had died. The way she filed emotions as research problems. The way she had almost stopped — had sat in the back room and felt the temperature settle in her bones, the body's knowledge that silence was possible, that the careful thing and the cowardly thing could look so much alike you could choose one and call it the other. She had Marguerite's silence in her. And standing in the garden being dissolved, with the rosemary thick in the air, she made a choice — not a grand one, just a small quiet turning: *not like this.*
+
+She left the garden. She closed the gate behind her, and the gate did not creak, because it had been oiled, and the oiling was the garden club's last tenderness for the woman who had built it.
+
+---
+
+Eli came on Friday.
+
+He brought the last invoice from the auction house, and he stood at the counter and he touched his collar, and his face was doing the thing it did — the checking, the reading of the room, the slow loosening — and Callie could see that he had heard. He looked at her with the particular care of a young man who does not know what to say to a person who has just done something enormous and terrible.
+
+"I heard," he said. "About the — about all of it."
+
+"Yes."
+
+"Are you — "
+
+"I'm fine, Eli."
+
+He nodded. He did not believe her, and the not-believing was kind of him, and he did not push. He set the invoice on the counter. He did not leave. He stood, and she could see the question — the last one, the one he had been building toward since the first delivery, since *could you teach me* — and the question was not about the book or the case. It was about the seeing itself, the craft of it, the thing Callie did that he wanted to understand because understanding it would give him a place to stand.
+
+"What do you see," he said. "When you look at a page. At someone's hand. What do you actually see?"
+
+She thought about it. She thought about Marguerite's hand, and Eleanor's hand, and the way each one had been a voice in a room. She thought about the narrowing, the contraction of the world to the circle of light under the lens.
+
+"The person," she said. Then she stopped, because it wasn't a thing she'd said out loud before. "Not the words. The — the hand behind them. Whether they were frightened, writing it. Whether they had to." She turned the invoice on the counter. "It's all still in the ink, Eli. The pressure. The places they stopped and started."
+
+Eli was quiet. He was holding the invoice against the counter, and his hand was steady — not shaking, not fidgeting, steady — and the steadiness was new. It was the steadiness of a young man who has been given something heavy and is deciding to carry it.
+
+"How do I learn that," he said.
+
+"You start by looking," she said. "You come in on Saturdays. I'll show you what I can."
+
+He flushed. He nodded. He did not say *thank you* — he was past the *thank you*, into the place where a person just nods because the words have been said and the rest is the work. He left, and the bell rang, and the sound was a door opening, and Callie stood at the counter and she felt the small thing again — not hope, not warmth, just the ordinary animal fact of a thread beginning that she had not expected and would not cut.
+
+---
+
+Mae came at five.
+
+She knocked. Three times, the deliberate knock, the asking-permission knock — not the walk-in she used to do, the shoulder-through-the-door of a woman who treated every room as hers. Callie opened it. Mae was on the step with nothing in her hands — no casserole, no soup — just herself, in her cardigan, with the faint smell of lavender.
+
+"I won't stay long, honey," Mae said. "I just thought — you shouldn't sit with it alone."
+
+"Come in."
+
+They sat in the reading nook. Callie made tea — bergamot, the water off the boil, the cup warmed, the steep timed to the count Eleanor kept by tapping two fingers, one-two-three, one-two-three — and she brought two cups and she set them on the table between the leather chairs, and they sat, and they drank, and for a long time neither of them said anything, and the not-saying was not the testing silence Doris gave or the weighted silence of the archive. It was the silence of two women who had hurt each other and were sitting in the same room anyway, and neither of them needed to name it.
+
+"The garden club voted to dissolve the Dabney beds," Mae said, after a while. "We're taking cuttings. Pieces of Marguerite's garden, in all our yards. It won't be the same code. But the flowers will grow."
+
+"That's good," Callie said.
+
+"It was her last lesson, I think," Mae said. "Everything grows. Even the things you plant in secret. Especially those." She looked at her tea. "She kept hers thirty-two years. I nearly kept mine."
+
+"You spoke," Callie said. "You came to me. You went to Cross."
+
+"Late."
+
+"Earlier than Marguerite."
+
+Mae looked at her. Her eyes were wet and she did not wipe them, and the not-wiping was the thing that was not a performance, the thing that was just a person in a room with what she had done and what she had failed to do.
+
+They finished their tea. Mae stood. She touched Callie's shoulder — briefly, the gesture of a woman who is afraid of losing someone and is saying it with her hand because her mouth has not caught up — and she let herself out, and the knock lingered in the room after she was gone, the shape of it, the asking.
+
+---
+
+Callie washed the cups. She dried them. She put them away.
+
+She stood in the shop in the evening light — the gold pressed-glass light of late spring in the valley — and she held the glass in her hand. Not Eleanor's glass. Hers. The brass was warm. She held it differently now — not as inheritance but as the tool she had chosen and earned and used. The glass had shown her what a careful woman had hidden, and the showing had cost the town, and the cost was real, and the showing was real, and neither cancelled the other.
+
+She made tea. One cup. She stood at the counter and she drank it, and the bergamot was — almost right. Not quite. The register she could not find, the one that tasted like Eleanor's kitchen and the world before grief — it was still missing. She did not think it would come back. But the tea was warm, and she had made it herself, and the almost-right was its own answer: the reclamation held. It had been tested and it had held, and the holding was not belonging — belonging was not hers to claim yet — but it was no longer just survival. It was a life. A small one. A useful one.
+
+She thought of Doris, somewhere, with the photo turned to the wall and back, and a scarf she could not finish. She thought of Eli, standing straighter. And she thought of the scattered cuttings of Marguerite's garden, taking root in a hundred yards where the rosemary grew — *remembrance* — and the flowers would grow, and they would not spell anything anymore, and the not-spelling was its own mercy.
+
+Callie set the glass on the felt rest. She turned off the lamp. She went upstairs, and the shop was dark below her, and the books were quiet on their shelves, and the night was warm and sweet, and she was here, and the shop was hers, and the glass was hers, and the tea was almost right, and that was enough. For now, that was enough.
+
+---
+
+## Scraps Used
+
+- n/a — chapter imported verbatim from the pre-publication draft (reverse-scaffold import, 2026-10-11).
+
+## Revision Notes
+
+- Imported verbatim from `books/book-02/manuscript/ch-08.md` at commit c81bc35 (2026-10-11). Book 2 is PRE-PUBLICATION: must-fix findings from the audit live in reverse/book-02/canon-decisions.md and findings.yaml, and prose edits happen only after the author approves them.
+
+## Continuity Self-Check
+
+Retrofit packet — no gate has run (see gate-report.md). Known must-fix items for this chapter, if any, are flagged in findings.yaml.
+
+- [ ] All character names spelled per canon/characters.md
+- [ ] Timeline anchor matches canon/timeline.md
+- [ ] No contradictions to canon/characters.md or canon/world-rules.md
+- [ ] Voice matches voice-bible.md (run `python3 scripts/lint_prose.py chapters/ch08/draft.md`)
+- [ ] POV consistent — no access to any other character's interiority
+- [ ] Tense consistent (past)
+- [ ] Every outline beat rendered
+- [ ] Threads opened/closed reflected in STATE.yaml
+- [ ] No placeholder text remains inside the prose fence
+- [ ] Every scene's outline `Value shift` actually lands on the page

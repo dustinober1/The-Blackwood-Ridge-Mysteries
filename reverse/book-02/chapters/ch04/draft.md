@@ -1,0 +1,191 @@
+# Chapter 4: The Wet Hemline
+
+**Status**: drafted
+**Last Updated**: 2026-10-11
+
+<!--
+  PROSE FENCE — everything between the two `---` lines below is the chapter's
+  prose and nothing else. Word counting, prose linting and manuscript
+  compilation all read only that span, so keep notes and checklists outside
+  it. Do not remove either fence.
+-->
+
+---
+
+
+# The Wet Hemline
+
+The plate was meadowsweet.
+
+*Filipendula ulmaria* — hand-colored in a greenish wash gone the color of pond water over a century, the tiny clustered flowers drawn with the stiff precision of a Victorian engraver who had never seen the plant in the wild and was working from a pressed specimen. In the old language meadowsweet meant *uselessness*, and also it meant *the stifling of a feeling*, and Marguerite had written both meanings in the margin, one above the other, and underlined the second.
+
+Callie worked the shorthand beneath it. The dock passage from the yarrow plate still resisted — compressed to almost nothing — but the meadowsweet passage was longer, and it gave.
+
+Four lines compressed into the space of two, the vowels dropped, the consonants run together with the pen pressure of a woman who had held this particular sentence inside her for thirty-two years and could feel it, now, in the last months of her life, trying to get out faster than her hand could fairly take it down. Callie held the glass over it. The brass was warm. The lamp had gone gold. The tea at her elbow had gone cold again, and she did not notice, because the narrowing had taken her — the room drawn down, the world contracted to the greenish wash of the plate, to ink and intention.
+
+The tumbler turned.
+
+*He came up the lake path after dark. I was at the kitchen window. The light was on. He did not see me. He was wet to the knees.*
+
+Callie read it again.
+
+*He was wet to the knees and the legs of his trousers were dark with it and he walked in the middle of the road so as not to step in the dust. I thought he had been swimming. Then I thought he had not been swimming. The way he walked. He came to the Carmody place and he told them he had been at the Harlow barn. I know this because Helen Carmody told me the next week, at the club meeting. He told them he had been at the Harlow barn all evening. He had not been at the Harlow barn. He had been at the lake. He had been at the lake and he was wet to the knees, and he had come back alone, and Lauren had not come home.*
+
+Callie set the glass down.
+
+She sat back in the chair and she looked at the margin the way you look at a face that has just said something you cannot unhear. The back room was very quiet. Through the doorway she could see the front of the shop, the shelves, the reading lamp, the closed sign she had not turned over since morning. The bell had not rung in two hours. Outside, the late-spring light was going long and gold across the square, and somewhere a lawnmower was droning, and the peonies were bowing in their planters, and inside the margins of a nineteenth-century book about flowers a dead woman had written, in her small steady hand, that she had seen a boy come home wet.
+
+Not *he killed her.* Not *he is guilty.* Marguerite had not written those words. She had written what she had seen. A date. A place by water. A name. A wet hemline. And the careful, deliberate, rationed refusal to go one syllable past the seeing.
+
+The wet hemline.
+
+Callie could see it. That was the thing the cipher did that no secondhand account could do — it put the seeing in her own head. The kitchen window. The light on. The boy in the middle of the road, walking to keep the dust off his shoes because his trousers were soaked below the knees. He had been at the lake. He had come back alone. Lauren had not come home. And Marguerite had stood at her window with the light on and she had seen, and she had done the careful thing, which was nothing.
+
+The tea was cold. She drank it anyway. It tasted like nothing in particular, which was its own answer.
+
+She tested it the way she tested every hand — against the counter-narrative. Marguerite had been dying. Cancer in the last months, the pen pressure fading in the final plates. A woman in pain, annotating a book she loved, possibly reading patterns into old memories that were not there. A wet hemline was not a confession. A boy coming home from a lake was not a killing. Marguerite might have been wrong.
+
+The doubt sat where it always sat — behind the certainty, not loud enough to stop the work, but loud enough to keep it honest.
+
+She needed corroboration. The school's records for 1994 — who had been in Marguerite's junior English, who had been at the lake that summer, who had been at the Harlow barn if anyone had. She had been planning to pull them from the county archive on Thursday. She was sitting with the book open, turning the logistics over, when she heard the lock turn at the front.
+
+It was after five. She had not opened the shop since morning. She stood, and the back of her neck ached from the hours hunched over the glass, and she came through the doorway and found Harriet Vailes at the counter, setting her bag down with the particular care of a woman who has come on an errand she would rather not be running.
+
+Harriet was on the town council. She was also a docent at the school's alumni events, and a woman who had raised four children who had all gone through Blackwood Ridge High. Her hand stayed on the bag strap, the knuckles whitening — the grip of a woman holding herself to a task she would rather walk away from. Until March she had come into The Foxed Page every other Friday for the new acquisitions list.
+
+"Callie," Harriet said. She did not unbend her mouth into a smile. "I won't keep you. I wanted to let you know, before you heard it from the office, that the archive key is being recalled for rekeying. The council voted last week. Something about the lock cylinders — security audit. It may be a few weeks before the new system is in."
+
+Callie looked at her.
+
+"The archive has had the same lock for fourteen years," Callie said.
+
+"Well." Harriet touched her bag. "Things change."
+
+"Harriet."
+
+The woman stopped.
+
+"Wells spoke to me," Harriet said. Quietly. Not meeting Callie's eyes. "He's concerned. He used the word *crusade*. He was kind about it — he said he admired your dedication." She paused. "He said it at the council meeting on Tuesday."
+
+The archive key. The 1994 enrollment records. The corroborating names she had been planning to pull on Thursday — the names that would tell her whether Marguerite had been a careful woman or a dying woman seeing patterns that were not there. Wells Ambler had not come to her door and threatened her. He had gone to the council, and he had spoken kindly, admiringly, and the door had closed.
+
+She felt it then — not the craft of it, not the architecture, but the specific shape of the hurt. He was making her the town's wound again. The woman who pulled threads. The woman the town flinched from on contact. She had been that woman all winter, and she had barely survived it. Not with fists. Not with threats. With the town's own exhausted desire to be left alone. He did not have to silence her. He only had to make the town wish she would silence herself.
+
+"Thank you, Harriet," Callie said.
+
+Harriet left quickly. She did not buy anything. She did not look back.
+
+Callie locked the shop. She went to tell Doris.
+
+She went because she had promised. Doris Coalter had said *you find it, and you bring it to me*, and the cipher had a hemline in it, and Doris deserved to know that the dead woman's book was not decoration. She knew it was the wrong thing — she knew it before she reached the end of Pippin Street, the rosemary smell rising from the hedges as the evening dew released it — but the promise was older than the caution, and she walked.
+
+The Dabney gate was open. The garden was in the last of the light. And at the kitchen door of the cottage, on the step where the rosemary hedge grew thick and fragrant, Wells Ambler was setting down a paper bag of groceries.
+
+He did not see Callie at the gate. He was turned away, speaking through the screen door, and his voice carried in the still evening air, a baritone that had spoken in hallways and auditoriums and kitchens for thirty years and had never had to raise it to be heard.
+
+"—the tomatoes are from the garden, they're early this year, I thought you might — Doris, I can come back. I don't have to stay. I wanted to make sure you'd eat."
+
+Doris's voice came from inside, dry, thin. "You don't have to check on me, Wells."
+
+"I know I don't have to." A pause. The gentleness in it was real. Callie could hear that it was real, and the hearing was the worst part, because the man who had come back wet from a lake in 1994 was standing on the step of the mother of the girl who had not come home, and he was bringing her tomatoes from his garden, and he had built this so carefully over the grave that he could no longer find the seam.
+
+"You should eat," Wells said.
+
+Doris said nothing for a moment. Then the screen door opened wider, and Callie saw, through the gap, Doris's hand take the bag, and the hand was steady — the steadiness of a woman who had let this man into her kitchen for thirty years because the kitchen was quiet and he had loved her daughter, or said he had.
+
+Wells came down the path. He saw Callie at the gate.
+
+He stopped.
+
+It was a small stop — a half-beat, a thing measured in fractions of a second — and then he smiled, and the smile came, and it was warm, and it was the smile of a man who has just realized that the room he is in has changed weather.
+
+"Callie," he said. He used her name, easily, remembered, the name of a person he had decided to know. "I didn't know you and Doris were acquainted."
+
+"We met through Marguerite's garden."
+
+"Of course." He nodded. He came to the gate and he stood there, and his hand went to the latch, and the hand was open. Palm shown. The gesture she had filed under *deliberate* two days ago. "How's the decoding coming? I've been thinking about what you said — about the margins. Marguerite was such a careful woman."
+
+He was testing. She could feel it the way she felt a hand's character — in the pen pressure, in the rhythm, in the thing underneath the rhythm that the rhythm was trying to cover. He was testing what she knew, and he was doing it with warmth, and the warmth was thinner than it had been in his office, the way ice thins over moving water.
+
+"It's coming," Callie said. "She was careful. You're right."
+
+His smile held. His eyes did not. Something behind them had gone to attention — a stillness that the rest of his body was working hard to keep easy. "If I can help. You know where to find me."
+
+"I do."
+
+He let go of the gate. He walked past her, and as he passed he put a hand on the gatepost — briefly, lightly — and she saw his hand on the wood, and the hand was open, and the open palm was no longer the gesture of a man who has nothing to hide. It was the gesture of a man who has practiced having nothing to hide for so long that the practice has become the hiding, and she knew, and he did not know she knew, and the knowing sat between them on the path like a stone neither of them was going to pick up.
+
+He went down Pippin Street. He did not look back.
+
+Callie went up the path to the kitchen door. The screen was still open. Doris was at the table, and the grocery bag was in front of her, and she was not unpacking it. She was sitting with her hands in her lap, and the knitting was on the table beside the bag, the half-finished scarf with its needles crossed, and Doris was not knitting. She was looking at the bag.
+
+"Doris," Callie said from the door.
+
+Doris did not look up for a moment. When she did, her face was the face Callie had seen in the garden — dry, watchful, rationed — but the hands in her lap had gone flat, palms down on her thighs, the posture of a woman holding herself in place.
+
+"You saw him," Doris said.
+
+"I saw him."
+
+"He brings me groceries." Doris said it flat. "He's brought me groceries every Thursday for thirty years. He sat in that chair when my husband died. He walked Lauren to the bus stop in the mornings because she'd sleep through her alarm. He's the only one who came."
+
+"I know."
+
+Doris looked at her, and the understanding moved across her face like weather.
+
+"You think it's him," Doris said. "In the book. You think Marguerite wrote down that it was him."
+
+"I think she wrote down what she saw," Callie said carefully. "Not that he did it. She wouldn't write that. She wrote what she —"
+
+"I told you to bring it to me." Doris's voice did not rise. It went flatter, and shorter, and the shortness was a door closing. "I told you. Not him. Me."
+
+"I haven't told anyone, Doris."
+
+"You're standing in his kitchen." Doris's hands pressed flatter on her thighs. "This is his kitchen. He built this kitchen. He put the floor in when the boards rotted. He fixed the window when it wouldn't stay up. You think I don't know what you're telling me? You're telling me the man who put my floor in killed my girl."
+
+"I'm telling you a woman saw him come home wet from a lake the night Lauren didn't come home. That's what she wrote. That's all she wrote."
+
+"That's not all." Doris's jaw set. She went white along the cheekbones, the white of a woman who has been steady for thirty-two years and feels, for the first time, the steadiness costing her something. "You bring me proof, Callie. Not a wet hemline from thirty years ago. The man brought me tomatoes today. He's the only person who — "
+
+She stopped.
+
+The kitchen was very quiet. The grocery bag sat between them on the table, and inside it were tomatoes from Wells Ambler's garden, and they were early that year, and they were real, and the bag was the whole knot of it — penance and cover and cruelty and care — and Doris could not give it up on the strength of a margin note in a dead woman's hand, and Callie knew she could not.
+
+"I'm sorry," Callie said.
+
+"You find the rest," Doris said. Her voice was flat and final. "You find the rest of it before you come to my kitchen again." Her hands came off her thighs and went to the scarf and picked up the needles, and the needles were shaking, and Doris Coalter, who had not shaken in thirty-two years, was shaking now, and she put the needles down again because she could not make them work.
+
+Callie left. She closed the screen door behind her, gently, the way you close a door on a room where someone is sitting with something they cannot yet survive. The rosemary smell rose around her, thick and sweet, and it meant *remembrance*, and remembrance was the only thing Marguerite had ever asked for, and it was the cruelest thing in the garden.
+
+She walked home through the square. The light had gone. The peonies were dark shapes in their planters. Harlan Beech's storefront was shuttered. The town was settling into its evening, the windows going yellow, the sounds of supper behind screen doors. She thought of Doris, sitting with the bag she could not unpack. She thought of Wells, going home to his wife and his children, steady and kind. She could not make the two things fit together, and she did not try.
+
+Callie let herself into the shop. She did not turn on the lights. She went to the back room and sat at the table with the book under the lamp. The meadowsweet plate — *the stifling of a feeling* — and the margin where Marguerite had written, in her small steady hand, *he was wet to the knees*.
+
+She sat with it. The town had closed the archive. Doris had closed her kitchen. The only ally she had was a dead woman who had chosen, thirty years too late, to write down what she had seen and not one word more.
+
+She picked up her tea. It had gone cold hours ago. She drank it. Almost right. Not quite. And she turned to the next plate, because there was nothing else to do, and Marguerite had left her more.
+
+---
+
+## Scraps Used
+
+- n/a — chapter imported verbatim from the pre-publication draft (reverse-scaffold import, 2026-10-11).
+
+## Revision Notes
+
+- Imported verbatim from `books/book-02/manuscript/ch-04.md` at commit c81bc35 (2026-10-11). Book 2 is PRE-PUBLICATION: must-fix findings from the audit live in reverse/book-02/canon-decisions.md and findings.yaml, and prose edits happen only after the author approves them.
+
+## Continuity Self-Check
+
+Retrofit packet — no gate has run (see gate-report.md). Known must-fix items for this chapter, if any, are flagged in findings.yaml.
+
+- [ ] All character names spelled per canon/characters.md
+- [ ] Timeline anchor matches canon/timeline.md
+- [ ] No contradictions to canon/characters.md or canon/world-rules.md
+- [ ] Voice matches voice-bible.md (run `python3 scripts/lint_prose.py chapters/ch04/draft.md`)
+- [ ] POV consistent — no access to any other character's interiority
+- [ ] Tense consistent (past)
+- [ ] Every outline beat rendered
+- [ ] Threads opened/closed reflected in STATE.yaml
+- [ ] No placeholder text remains inside the prose fence
+- [ ] Every scene's outline `Value shift` actually lands on the page

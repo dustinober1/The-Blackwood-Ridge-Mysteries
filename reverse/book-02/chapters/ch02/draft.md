@@ -1,0 +1,153 @@
+# Chapter 2: Floriography
+
+**Status**: drafted
+**Last Updated**: 2026-10-11
+
+<!--
+  PROSE FENCE — everything between the two `---` lines below is the chapter's
+  prose and nothing else. Word counting, prose linting and manuscript
+  compilation all read only that span, so keep notes and checklists outside
+  it. Do not remove either fence.
+-->
+
+---
+
+
+# Floriography
+
+It was planted by meaning.
+
+Callie had walked the three blocks from the square with Marguerite's book under her arm, and the book was heavier than it had been yesterday — heavier with the weight she had agreed to carry when she picked up the glass. She had chosen this. She was paying for it. And now she stood at the gate of the Dabney house, a low Victorian cottage on Pippin Street behind a hedge of boxwood let go just enough to look tended rather than trimmed, and she understood that the garden was the other half of what she had been reading.
+
+Not by color, not by height, not by season — the way every other garden on the street was planted, the way the council planted the square. Marguerite had laid her beds in the old language, the language of flowers, and she had done it with the same patient deliberation she had brought to the margins of the botanical. A rosemary hedge along the front path — *remembrance*, the first word, the same word Callie had read under the glass. Beyond it, a stand of rue bending under the late-spring rain — *sorrow, regret*. A patch of white violets at the corner — *modesty*, a cousin to the sweet violet in the book that meant *faithfulness*, and Callie registered the distinction the way she registered two hands by the same scribe: related, not identical, each carrying its own assignment. And at the center of the back bed, where the light fell cleanest, a single peony in early bloom, and peony in the old language meant *shame*. A whole bed of shame, ringed with rosemary. A woman had lived inside this garden for thirty years and she had planted it as a confession no one but another reader would catch.
+
+The gate was unlatched but not open. She pushed it. It did not creak. It had been oiled recently, and the path beyond was swept, and in the back bed a woman was on her knees with a trowel, turning the soil around the rue.
+
+She was seventy or near it. Narrow, upright, the kind of thin that came from a life of not quite eating enough. Her hair was steel-grey, cut short and practical, and her hands in the soil were the hands of someone who had been doing this for longer than Callie had been alive. She did not look up when the gate opened. She finished the turn she was making, set the trowel down precisely on a folded cloth beside a knitting bag — wool the color of dust, needles crossed in the half-finished scarf trailing from it — and then she stood, slowly, careful of her knees, and she looked at Callie.
+
+"You're the book woman," she said.
+
+It was not a question. Her voice was Virginia, unhurried, the words coming out short and dry and spaced, as if she rationed them.
+
+"Callie Thorne," Callie said. "I — yes."
+
+"She'd have liked that you came." The woman did not offer her name. She did not offer her hand. She picked up the folded cloth, shook the soil from it, folded it again, and set it back over the arm of the garden bench. "She wrote you down for the books. The lawyer brought the list over. Foxed Page, three boxes, the annotated one to be priced by you personally. I thought you'd be by yesterday."
+
+There was nothing to say to that except sorry, and sorry was not the right word, and the woman's face was the kind that did not want the wrong word, so Callie said nothing, and the silence sat between them, and the woman let it sit, and Callie understood that the silence was a test and that she had passed a small corner of it by not filling it.
+
+"You can walk it," the woman said, after a while. "The garden. She'd have liked that too. Don't pull anything up." She turned back to her trowel.
+
+Callie walked the garden.
+
+She walked it slowly, the way she walked a difficult page, and she read it as she went, and the reading was worse than the book had been, because the book had been abstract — a cipher, a puzzle, a hand — and the garden was a life. Here was a bed of rosemary and myrtle — *remembrance* and *love* — and at its head a small stone Marguerite had set the year Lauren went, not a grave — there was no grave — but a place to put the date, chiseled rough: 1994. Here was a patch of narcissus gone late and leggy — *self-love*, or *the return of affection* — and here, against the kitchen wall where the rain came off the eaves, a row of maidenhair fern, and fern in the old language meant *sincerity* and also *secret* and also *magic*, and Marguerite had planted it beneath the window where she must have washed her dishes for thirty years. Through the kitchen window Callie could see a mantel, and on the mantel a photograph in a frame — a girl, seventeen, cap and gown, the smile of someone about to leave. The photo was turned to face the room.
+
+And then she found the bed that had no flower left in it.
+
+It was a square of turned earth at the back, against the fence, where the light did not reach. The soil had been worked recently — you could see the trowel marks — but nothing grew in it. The markers were still there, small wooden stakes with names inked in the same steady hand: *hollyhock*, *yellow rose*, *columbine*. Ambition. Betrayal. Folly. A bed of the qualities Marguerite had wanted to name and had pulled up by the root, leaving only the stakes, only the accusation. She had weeded her own garden of its hatreds, or tried to. The turned earth smelled of iron and rain, and somewhere in the vocabulary a letter surfaced — the *W.* beside Lauren's name on the violet plate — and Callie wondered, with a small cold pull, who the pulled-up flowers had been for. Who Marguerite had accused in a garden no one read.
+
+The peony bed was at the center. *Shame*. Ringed with rosemary — *remembrance*. And between the shame and the remembrance, a single plant Callie had to bend to identify: basil, its leaves small and sharp-scented, bruised green when she brushed them with her fingertips. Basil meant *hatred*, and also *poverty*, and Marguerite had planted it alone and hemmed in by the two heavier meanings, the way a woman contains a thing she has decided to say only to herself. The same word the book's aconite carried — *hatred* — and Callie felt the click of it, the two ciphers locking together: the garden's vocabulary was the cipher's vocabulary. She held the legend now. The book and the ground were one text, and Marguerite had written them both for the same reader.
+
+Callie straightened. The sun had come out from behind the clouds, and the warmth of it landed on the stone path and on Callie's shoulders, and for a moment the garden was just a garden — green, wet, blooming, smelling of earth and rosemary and the sweet decay of late spring — and somewhere inside the cottage a kettle was on, and the smell of plain black tea drifted through the kitchen window, and the woman in the bed was just a woman tending flowers in the morning. Then the woman looked up, and the looking changed it back.
+
+"You read it," the woman said. Not a question. A naming.
+
+"Some of it."
+
+"Marguerite said once there were two kinds of people in this town. The ones who looked at her garden and saw flowers, and the ones who looked at her garden and saw a woman talking to herself." She pulled a weed, examined it, set it aside for the pile. "She preferred the first kind. They left her alone."
+
+The gate clicked behind Callie, and she turned, and it was Mae. And before she saw Mae's face she smelled her — lavender, the sachet-and-cinnamon smell that was Mae's armor, the smell of the kitchen and the parlor and every room Mae had ever filled with warmth so no one asked what she was hiding. The smell was thinner now. Strained. Like everything else about Mae.
+
+Mae stood on the path with a covered dish in her hands and a look on her face that Callie recognized — the warm face, the open face, the face that had come through her shop door a hundred times without knocking — except that now Mae was at the gate and not through it, and her hand was still on the latch, and she had not come in. She was waiting. She was asking to come in.
+
+"Morning, Callie, honey," Mae said. The endearment landed carefully, the way Mae placed things — at once a welcome and a wall. "I brought the casserole for Doris. I didn't know you'd be here."
+
+Doris. The name landed. Callie looked at the woman in the garden bed, the narrow upright woman with the steel-grey hair and the rationed words, and understood: the woman tending the remembrance bed was the woman the remembrance was for.
+
+"Doris Coalter," the woman said, and this time she did offer her name, as if Callie had earned it by standing quiet. She did not say *Lauren was my daughter*. She did not have to. The garden had said it, and the date on the stone had said it, and the careful way Doris Coalter turned back to her trowel said it.
+
+Mae let herself in. She set the casserole on the bench. She stood between them, and her hands worked the dish cloth when she was holding something back. She had been holding something back for months. It had become a posture.
+
+"She asked after you," Mae said, to Doris. "Yesterday. At the Society."
+
+"Marguerite was asking after everyone by the end," Doris said. "She was a woman who liked to know who was coming to her funeral."
+
+"She meant the books, Doris. She wanted to know Callie had them."
+
+Doris's trowel stopped. She did not look up. "She wanted a lot of things, by the end. She didn't always say what they were."
+
+The silence that came after was not the testing silence Doris had given Callie. It was older. It had been standing between these two women for decades, and the garden said it now so they did not have to.
+
+Callie cleared her throat. "The girl," she said. "The date on the stone. 1994."
+
+Doris's hands went flat on her knees. Palms down. Holding herself in place.
+
+"That's not mine to give you," Doris said. "Not today."
+
+"I'm not asking for it."
+
+"You're asking for it by standing in the bed."
+
+Callie looked down. She had, without noticing, stepped off the path and onto the soil of the remembrance bed, and her shoe had pressed a print into the turned earth beside the rosemary. She stepped back.
+
+"I'm sorry."
+
+Doris said nothing. Mae's hands had stopped moving on the cloth. The garden was very quiet, and somewhere over the rooftops a mockingbird was running through every song it had ever stolen, and the light was still sweet and still early and Callie was standing in a dead woman's confession with the dead woman's book under her arm, and the woman who owned the confession's other half was on her knees and would not look at her.
+
+Then Doris said, "Lauren," and the word came out flat, but underneath it something that had been held for thirty-two years was letting the smallest edge show. She pulled a weed. Set it aside. "Lauren Coalter. My daughter. She was seventeen the summer she went. There was a party at the lake." She pulled another weed. "She didn't come home."
+
+A pause. The trowel turned the soil.
+
+"They said she run. She did not run." Doris's voice did not rise. It went flatter, and the flatness was the loudest thing in the garden. "They dragged the lake. They did not find her. They wrote it down 'runaway' and they closed the file and they let me stand at this gate for thirty-two years waiting for a girl who was never coming back down that road."
+
+Her hands stayed flat on her knees, palms down. That was the thing that held Callie's throat — not the words, not the flat voice, the hands. The posture of a woman pressing herself to the earth.
+
+Callie wanted to say something. That she was sorry. That it should not have taken thirty-two years. That the woman lying in the bed she was kneeling in had tried, at the end, to make up for all the years she had not tried. But all of it was the wrong word, and Doris's face was the face that did not want the wrong word, and so Callie stood in the turned earth of the remembrance bed and said nothing.
+
+Mae made a small sound. Not a word. The sound of a woman who had heard the shape of this before — and Callie understood, looking between them, that Mae recognized it. Not the specifics. The shape. A woman carrying a silence she'd decided the town couldn't afford. The way Mae had carried hers about the Ralstons, and had done with it what she had done: kept it, out of love, out of cost.
+
+"You think she wrote it down," Doris said. She was looking at Callie now, really looking, and underneath the flatness something had come loose. "Marguerite. In the book. You think she wrote down what happened to my girl."
+
+"I think she tried," Callie said.
+
+"Then you find it." Doris's voice did not rise. "You find it, and you bring it to me, and you do not bring it to anyone else first. Not the sheriff. Not the town. Me. She was mine. Whatever's in that book is mine. You understand."
+
+"I understand."
+
+Doris turned back to her trowel. The interview was over.
+
+Mae walked Callie to the gate. She did not touch her. At the gate she stopped, and her hand went to the latch, and she opened it and held it, and for a moment the two of them stood in the small ordinariness of a gate being held. Mae had come. Mae had stood between them. Mae had not begged her to stop the way she had begged her about the Ralstons, and the absence of the begging was its own sentence — the sentence of a woman who had watched one truth tear the town and could not bring herself to ask for another, and who would not forgive Callie for not needing to be asked.
+
+"You'll do it anyway," Mae said. Quietly. Not a question. Her thumb worked the latch. "Lord, Callie."
+
+"Yes."
+
+Mae nodded. She did not say *be careful*. She did not say *I'm sorry*. She let go of the gate and turned back toward the cottage, toward the casserole and the woman who would not leave her alone in her grief, and Callie walked out onto Pippin Street with the book under her arm and the smell of rosemary on her hands where she had brushed the hedge.
+
+The rosemary meant remembrance, and the remembrance meant thirty-two years, and thirty-two years was a long time for a woman to kneel in a bed she had planted as a confession and wait for someone to read it.
+
+Callie walked home the long way, through the square, and the peonies were still bowing, and the town still did not quite meet her eyes, and under her arm Marguerite's book had grown heavier, because it was not a puzzle anymore. It was a girl. A girl who had not come home. And the book was the other half of what the garden had said — the half that could travel, the half Marguerite had aimed at her — and she had not cracked it yet, and she would, and the cracking would cost her, and the cost was the point.
+
+---
+
+## Scraps Used
+
+- n/a — chapter imported verbatim from the pre-publication draft (reverse-scaffold import, 2026-10-11).
+
+## Revision Notes
+
+- Imported verbatim from `books/book-02/manuscript/ch-02.md` at commit c81bc35 (2026-10-11). Book 2 is PRE-PUBLICATION: must-fix findings from the audit live in reverse/book-02/canon-decisions.md and findings.yaml, and prose edits happen only after the author approves them.
+
+## Continuity Self-Check
+
+Retrofit packet — no gate has run (see gate-report.md). Known must-fix items for this chapter, if any, are flagged in findings.yaml.
+
+- [ ] All character names spelled per canon/characters.md
+- [ ] Timeline anchor matches canon/timeline.md
+- [ ] No contradictions to canon/characters.md or canon/world-rules.md
+- [ ] Voice matches voice-bible.md (run `python3 scripts/lint_prose.py chapters/ch02/draft.md`)
+- [ ] POV consistent — no access to any other character's interiority
+- [ ] Tense consistent (past)
+- [ ] Every outline beat rendered
+- [ ] Threads opened/closed reflected in STATE.yaml
+- [ ] No placeholder text remains inside the prose fence
+- [ ] Every scene's outline `Value shift` actually lands on the page

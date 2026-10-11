@@ -1,0 +1,173 @@
+# Chapter 3: The Open Palm
+
+**Status**: drafted
+**Last Updated**: 2026-10-11
+
+<!--
+  PROSE FENCE — everything between the two `---` lines below is the chapter's
+  prose and nothing else. Word counting, prose linting and manuscript
+  compilation all read only that span, so keep notes and checklists outside
+  it. Do not remove either fence.
+-->
+
+---
+
+
+# The Open Palm
+
+She worked on the book for two days, and the worst of it was that she liked it.
+
+The shop still had to run — the morning customers who still came, the small stubborn core of them who had not stopped meeting her eyes, the mail, the cataloguing of the rest of the Dabney lot, which Eli had left in a neat stack by the counter with a note in his careful new handwriting, *thought you'd want to price these yourself — E*. But in the back room, between the commerce, with the glass and the lamp and the pot of bergamot going cold at her elbow, she worked. And the work was a pleasure, and the pleasure was the danger of it, because Doris Coalter's voice was still in her ear — *you find it, and you bring it to me, and you do not bring it to anyone else first* — and the finding was the part that had always let Callie stop thinking about the rest.
+
+The flowers were the key.
+
+Each plate carried its Victorian meaning, written out in the margin in Marguerite's small steady hand, and the meanings were not decoration. They were a vocabulary. *Rosemary*, *remembrance*. *Rue*, *regret*. *Yarrow*, *war*. *Basil*, *hatred*. *Violet*, *faithfulness* — and here Marguerite had written *Lauren* again, and the date, and the initial *W.* Read in sequence, the flowers spelled something. Not a sentence, exactly. A ledger.
+
+The harder layer was the shorthand.
+
+The wider margins held passages in a script that was not quite English and not quite anything Callie could name — compressed, abbreviated, the words run together and the vowels dropped, ten thousand graded papers worth of private telegraph. Callie had seen shorthand like it once, in a Victorian governess's diary that had come through the shop, and once in her own mother's end-of-term notes, which Eleanor had kept in a kind of private code that Callie had learned to read as a girl because reading it had felt like being let into a room. Marguerite's shorthand was its own animal, but it was kin to those, and by the second afternoon Callie was cracking it the way you crack a lock — a little at a time, the tumblers turning, the meaning catching and then giving and then catching again.
+
+She had, by Tuesday evening, a skeleton.
+
+June 1994. A party. The lake. *Lauren* — faithful, the violet said. *Ambler* — a name, written beside a plate of yarrow, and yarrow meant *war*, and also it meant *cure*, and Marguerite had written the name and underlined it once, very cleanly, and gone on. And beside the date, in the shorthand she had not yet cracked, a single word she could make out: *dock*. The rest of the phrase was pressed into almost nothing — the vowels gone, the consonants run together — and the not-knowing of it sat in her throat.
+
+Marguerite had marked something. At a dock. In June 1994. Something to do with a girl named Lauren and a name written beside war.
+
+She needed context. She needed to know who Lauren had been to the town, and who Ambler was, and what the lake had meant that summer. And there was exactly one place in Blackwood Ridge that held the shape of a girl who had been seventeen in 1994, and that was the school.
+
+She went on Wednesday morning.
+
+Blackwood Ridge High sat on the east edge of town, a brick building from the sixties built over an older foundation, the kind of school where the trophy case went back decades and the photographs in the front hall yellowed in their frames until the faces turned the color of weak tea. Callie had not been inside it since she herself had been a student, and the smell of it hit her at the door — floor wax, pencil shavings, the particular stale-sweet air of a building full of children — and for an instant she was seventeen again, and she hated the instant, and she walked through it.
+
+The principal's office was at the end of the front hall. The door was open. The name on the frosted glass said *W. Ambler, Principal*. Ambler. The name from the margin, underlined once beside the plate of yarrow. She had come looking for context on a girl who had been seventeen in 1994, and the school had put the name off the page onto the glass.
+
+She knocked on the open door.
+
+He was behind a desk piled with paper, a tall man in a pressed shirt with the sleeves rolled to the elbow, greying at the temples — she'd heard two women on the square say so, in a voice that wasn't quite about his temples. He was reading a letter and frowning at it, and when he looked up the frown turned, smoothly, into a smile, and the smile was warm. It was genuinely warm. She registered that first. Warmth could be a perimeter.
+
+"Callie Thorne," he said. He stood. He came around the desk with his hand out. "I was hoping you'd come by. I heard you had the Dabney books. Marguerite spoke of you often."
+
+His hand was open. Palm shown, fingers relaxed, the gesture of a man who had nothing to hide. She took it, and the grip was firm and dry and exactly the right length, and when he let go his hand went back to his side, open, the palm still displayed for a beat before it turned naturally away. She filed it the way she filed a hand's character — under *deliberate*, under *practiced* — and let it go. One handshake was not evidence.
+
+"Mr. Ambler," she said.
+
+"Wells," he said. "Everyone calls me Wells. Sit, sit. I've got the kettle on — the staff room is a crime scene, don't drink that, but I keep a decent cup in here. Tea? Coffee?"
+
+"Tea. Thank you."
+
+He made it. He moved around the small office with the ease of a man who had made ten thousand cups of tea for ten thousand uncomfortable conversations, easy, anecdotal, his voice doing the work it knew how to do. He asked about the shop. He asked about Eleanor — gently, with the practiced care of a man who knows which deaths are recent enough to hurt. He asked how the town was treating her, and his eyes did a thing when he asked it, a small flicker, the faintest register of *and I know it hasn't been easy*, and then the warmth came back and covered it. Wells Ambler listened for the weather in a room and adjusted his own temperature to match it. It was a real gift. It was also, she thought, a way of never quite being caught in any single weather of his own.
+
+"You knew Marguerite," she said, when the tea was poured and they were seated.
+
+"I did." He set his cup down. His hand, on the desk, was open, the fingers spread, the gesture of a man spreading his cards. "She was my teacher, a long time ago. Then my colleague. Then — well, then the kind of older woman who tells you when you've got it wrong and means it as a kindness. I'll miss her. The whole town will."
+
+"She taught you," Callie said. It was not a question. She was placing him. If he had been Marguerite's student, he had been in Blackwood Ridge in the early nineties. If he had been in Blackwood Ridge in the early nineties, he had been here the summer Lauren Coalter vanished.
+
+"English," he said. "Junior year. She made us read everything twice. She said the first reading was for the plot and the second was for the truth." He smiled. The smile was sad, and real, and it was the sadness of a man remembering a woman who had mattered to him. "She was right, of course. She usually was."
+
+He told a story then, about Marguerite failing him on a paper he'd been proud of — junior year, *The Great Gatsby*, he'd written ten pages on the green light and she'd handed it back with a single word in the margin: *again* — and he told it well, with timing, with the self-deprecating warmth of a man who has learned that the best way to make a room comfortable is to offer himself as the joke. And Callie laughed. She did not want to laugh, because she had come in wary and she wanted to stay wary, but he was funny, and the story was kind, and the kindness was real. She liked him. That was the thing to watch — liking was what made you stop looking, and she had come here to look.
+
+"And Lauren Coalter," Callie said.
+
+The office went very quiet.
+
+It was a small thing. It was the smallest thing. The smile did not leave his face — it stayed exactly where it was, in exactly the shape it had been — but for one beat it became a thing that was being held rather than a thing that was happening, and his open hand on the desk did not move, and then it did move, very slowly, to close around his cup, and the closing was the first time she had seen his hand not be open.
+
+"Lauren," he said. He looked down at his cup. He looked up. "Where did that name come from, Callie?"
+
+"In the book," she said. "In the margins. Marguerite wrote it more than once."
+
+He was quiet for a moment. Then he nodded, slowly, as if he had been expecting something like this and was sorry to have been right.
+
+"Lauren was my girlfriend," he said. "The summer we graduated. She was — she was bright. She was going to get out of here. She had a plan." His voice had thinned. Not cracked — thinned. The warmth was still there, but it was stretched over something, the way a sheet of ice stretches over moving water. "She went to a party at the lake that June. She never came home. They said she ran. I've never believed it. I've never not believed it. You live with a thing like that for thirty-two years and you stop knowing what you believe. You just know she's gone."
+
+"I'm sorry," Callie said.
+
+"Everyone's sorry." He said it without bitterness. He said it the way Doris had said things — flat, dry, rationed — and then the warmth came back, and he smiled, and the smile was the sad one again. "Can I tell you something, Callie? I've spent my whole life trying to be the kind of man she would have wanted. The kind of man worth her. I became a teacher because of Marguerite. I came back here because of Lauren. Everything good I've done, I've done because of a girl who didn't come home. That's not — it's not a confession. It's just the shape of it. You understand."
+
+She understood that he was telling her the truth. She also understood that the truth he was telling her was the shape he had decided on thirty-two years ago and polished until it was the only shape left.
+
+"Is there anything you remember," she said, carefully, "about that night? Anything Marguerite might have — anything that stuck."
+
+His hand closed on the cup again. The open palm was gone. When he answered, his voice was steady and warm and a half-degree cooler than it had been.
+
+"I was at the party," he said. "I saw her early in the evening. We argued. I went home. I didn't see her again." He spread his hands — open, palms up, the gesture of a man showing he has nothing. "That's all I have. That's all I've ever had."
+
+"Did anyone see you leave?"
+
+The palms stayed up. They stayed up a beat too long.
+
+"Callie." He said her name the way he said everything — gently, like a kindness. "I was nineteen and heartsick and I went home and put myself to bed, and I have spent thirty-two years wishing I had stayed at that party. That is the whole of what I have. I don't know what you are looking for in those margins, but I don't think it's in this office." He stood. The gesture was warm. It was also, very cleanly, the end of the interview. "You're welcome back any time. The kettle's always on."
+
+She thanked him for the tea. She let him show her out, and on the walk back to the shop the open palm stayed in her mind like a mark on a page. She did not know yet what it marked. Only that it was deliberate.
+
+The sheriff was waiting at the shop.
+
+He was leaning against the hood of his cruiser in the way he had, arms crossed, hat on, taking up the whole of the pavement in front of The Foxed Page, and when she came around the corner he did not uncross his arms, and he did not take off his hat, and the not-doing of those things was its own sentence.
+
+"Callie," he said.
+
+"Sheriff."
+
+"I hear you've been asking after Marguerite Dabney's books."
+
+"I bought the lot. It's my job to ask after them."
+
+He rubbed the back of his neck. She had seen him do it a hundred times. It was what he did when he was out of his depth and did not want anyone to know.
+
+"Marguerite Dabney died of cancer," he said. "Last week. In her bed. There is no crime here, Callie. There is a woman who died naturally, and a book full of old notes, and a girl who ran away in 1994, and a town that just spent the winter coming apart at the seams over a different dead man and does not need you pulling at this one. You understand what I'm saying."
+
+"I understand what you're saying."
+
+"Then leave it alone."
+
+"Wells Ambler was her student," Callie said. "He was at the party."
+
+The sheriff's jaw set. That was the tell — not the neck, the jaw. He had not expected the name.
+
+"Wells is a friend of mine," he said. Quiet. Final. "He sat with me through the winter, when half this town wouldn't speak to either of us. I am not going to pull him into a thing like this on the strength of a dead woman's flowers. I won't do it, Callie."
+
+She looked at him. He was not a stupid man. He was a man whose definition of evidence had walls, and everything outside the walls was weather, and weather was not his department. She had liked that about him, once. She had needed that about him, once, the winter before, when his walls had almost let the wrong man hang. And now the walls were doing something else — they were sheltering a man he sat with, a man he owed — and the sheltering looked the same as the blindness, and maybe was the same, and that was the thing she could not say to him.
+
+"There's a name in the margins," she said. "A date. A place by water. It may be nothing. It may be Marguerite remembering something she couldn't prove. I won't know until I've read the rest." She set her hand on the shop door; the steadiness cost her something, and she let it cost.
+
+"And when you've read the rest."
+
+"Then I'll bring it to you."
+
+He rubbed his neck again. He put his hat straight. He got in the cruiser without another word, and she stood on the pavement and watched him go, and the open palm and the word *dock* turned over in her mind, and she knew, standing there in the late-spring light with the bergamot still on her tongue from Wells Ambler's kettle, that she had begun, very quietly, to look sideways at a man the whole town loved.
+
+She went inside. She picked up the glass. She turned to the next plate, and the flower was yarrow, and yarrow meant *war*, and beside it, in Marguerite's hand, was the name Ambler, and the date, and the word *dock*, and the rest of the shorthand — the part Marguerite had crushed almost to nothing — would not give. She worked it the rest of the afternoon. The tumbler would not turn.
+
+That was all right. She had not expected it to be quick.
+
+The bergamot was still on her tongue. The open palm would not leave her. *Deliberate* — a word she had learned, the winter before, to trust.
+
+She had begun to look sideways at a man the whole town loved, and she knew what that cost. She had watched Gus Ralston's name leave the mouth of every person in Blackwood Ridge who had ever said it kindly, and she had watched the town learn the shape of its own founding lie, and she had not been forgiven for either. She would not be forgiven for this.
+
+She sat in the lamp's gold light with the undecoded shorthand and the word *dock*. She was going to cross the distance between what she had and what she needed. She knew what it would cost. She had already decided to pay it.
+
+---
+
+## Scraps Used
+
+- n/a — chapter imported verbatim from the pre-publication draft (reverse-scaffold import, 2026-10-11).
+
+## Revision Notes
+
+- Imported verbatim from `books/book-02/manuscript/ch-03.md` at commit c81bc35 (2026-10-11). Book 2 is PRE-PUBLICATION: must-fix findings from the audit live in reverse/book-02/canon-decisions.md and findings.yaml, and prose edits happen only after the author approves them.
+
+## Continuity Self-Check
+
+Retrofit packet — no gate has run (see gate-report.md). Known must-fix items for this chapter, if any, are flagged in findings.yaml.
+
+- [ ] All character names spelled per canon/characters.md
+- [ ] Timeline anchor matches canon/timeline.md
+- [ ] No contradictions to canon/characters.md or canon/world-rules.md
+- [ ] Voice matches voice-bible.md (run `python3 scripts/lint_prose.py chapters/ch03/draft.md`)
+- [ ] POV consistent — no access to any other character's interiority
+- [ ] Tense consistent (past)
+- [ ] Every outline beat rendered
+- [ ] Threads opened/closed reflected in STATE.yaml
+- [ ] No placeholder text remains inside the prose fence
+- [ ] Every scene's outline `Value shift` actually lands on the page

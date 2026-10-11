@@ -1,0 +1,95 @@
+# STATE — reverse/book-02 (The Botanical Confession)
+# Imported 2026-10-11 via reverse-scaffold from a FINISHED, PRE-PUBLICATION
+# manuscript. Editable book: four MUST-FIX findings are open in findings.yaml
+# (driving contradiction ch7, "bible" meta-leak ch7, diaper line ch6,
+# yellow-rose meaning drift ch2/ch8) pending author approval; no gate has run.
+
+manuscript_complete: true
+current_chapter: 9
+total_chapters_planned: 8
+
+chapters:
+  ch01:
+    status: drafted
+    word_count: 2715
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch02:
+    status: drafted
+    word_count: 2709
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch03:
+    status: drafted
+    word_count: 2901
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch04:
+    status: drafted
+    word_count: 2936
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch05:
+    status: drafted
+    word_count: 2769
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch06:
+    status: drafted
+    word_count: 2441
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch07:
+    status: drafted
+    word_count: 3411
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch08:
+    status: drafted
+    word_count: 2748
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+
+open_threads:
+  - thread_name: "Who knocked at the end of Book 1 (never answered on the page)"
+    introduced_ch: 1
+    must_resolve_by_ch: "TBD"
+  - thread_name: "Archive rekeying / security audit completion (Book 3's records dispute presumably consumes it)"
+    introduced_ch: 4
+    must_resolve_by_ch: "TBD"
+  - thread_name: "Wells Ambler's legal outcome beyond arrest"
+    introduced_ch: 8
+    must_resolve_by_ch: "TBD"
+  - thread_name: "Helen Carmody's present-day status (witness available to later books)"
+    introduced_ch: 4
+    must_resolve_by_ch: "TBD"
+  - thread_name: "Harlan Beech's planted presence (Book 3's accused — deliberate setup)"
+    introduced_ch: 1
+    must_resolve_by_ch: "TBD"
+  - thread_name: "Eli's apprenticeship thread (begun; the series' long-arc vulnerability)"
+    introduced_ch: 6
+    must_resolve_by_ch: "TBD"
+  - thread_name: "Lauren's 'the job' — what she was leaving for (unnamed)"
+    introduced_ch: 7
+    must_resolve_by_ch: "TBD"
+
+canon_locked:
+  characters: false
+  timeline: false
+  world_rules: false

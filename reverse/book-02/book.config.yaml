@@ -1,0 +1,156 @@
+# Book Project Configuration — reverse/book-02 (The Botanical Confession)
+#
+# Reverse-scaffold import (2026-10-11) of a FINISHED, PRE-PUBLICATION book.
+# Book 2 is editable: must-fix findings from the audit live in findings.yaml
+# and canon-decisions.md; prose edits happen only after the author approves.
+
+project:
+  title: "The Botanical Confession"
+  author: "Vesper Blythe"
+  status: "Pre-publication — reverse-engineered reference scaffold (audit fix worklist pending approval)"
+  genre: "Cozy Mystery / Amateur Sleuth"
+
+paths:
+  state: "STATE.yaml"
+  canon_dir: "canon"
+  voice_bible: "voice-bible.md"
+  chapters_dir: "chapters"
+  research_dir: "research"
+  manuscript_out: "exports/manuscript.md"
+  voice_samples: "voice-samples.md"
+  promises: "promises.yaml"
+  style_sheet: "style-sheet.md"
+  findings: "findings.yaml"
+  system_ledger: ""
+  research_ledger: ""
+  session_notes: ".claude/session-notes.md"
+
+locked_reference:
+  - "canon/characters.md"
+  - "canon/timeline.md"
+  - "canon/world-rules.md"
+  - "voice-bible.md"
+  - "voice-samples.md"
+
+narrative:
+  pov: "third person limited, single POV"
+  pov_character: "Callie Thorne"
+  pov_characters: []
+  tense: "past"
+  serial_comma: true
+  chapter_word_target: 2760
+  chapter_word_tolerance: 0.25
+  total_word_target: 22630
+  total_chapters_planned: 8
+
+voice_rules:
+  banned_words: []
+  banned_in_narration: []
+  banned_anachronisms: []
+  allowed_dialogue_tags:
+    - "said"
+    - "asked"
+    - "answered"
+    - "replied"
+  specificity_pairs: {}
+  banned_ai_tics_reviewed: "2026-07-27"
+  banned_ai_tics:
+    - "delve"
+    - "tapestry"
+    - "testament"
+    - "underscore"
+    - "boasts"
+    - "meticulous"
+    - "intricate"
+    - "myriad"
+    - "plethora"
+    - "palpable"
+    - "profound"
+    - "unwavering"
+    - "vibrant"
+    - "seamless"
+    - "garner"
+    - "foster"
+    - "navigate"
+    - "quiet confidence"
+    - "quiet resolve"
+    - "quiet dignity"
+    - "quiet fury"
+    - "little did he know"
+  lint_suppressions: {}
+  motifs:
+    - motif: "floriography"
+      phrasings: ["remembrance", "the old language", "the Victorian game"]
+      intent: "The cipher's vocabulary; book and garden are one text."
+      chapters: [1, 2, 4, 5, 8]
+    - motif: "the open palm"
+      phrasings: ["palm shown", "the open palm", "a man who has nothing to hide"]
+      intent: "Wells's practiced innocence; its collapse, not a fist, is the confession."
+      chapters: [3, 4, 6, 7]
+    - motif: "hands flat, palms down"
+      phrasings: ["flat on her knees", "palms down", "holding herself in place"]
+      intent: "Doris's grip on the earth; the body holding what the voice will not."
+      chapters: [2, 4, 8]
+    - motif: "the almost-right tea"
+      phrasings: ["almost right", "one register short", "the register she could not find"]
+      intent: "The standing measure of Callie's unfinished grief; carried from Book 1."
+      chapters: [1, 5, 6, 8]
+    - motif: "the three-knock permission"
+      phrasings: ["the knock", "asking-permission knock", "Can I come in, honey"]
+      intent: "Mae's new grammar of approach; earned in Book 1's ending."
+      chapters: [5, 8]
+    - motif: "margins as voices"
+      phrasings: ["the room drawing down", "ink and intention", "the narrowing"]
+      intent: "The series mechanism, now aimed at a living man by a dead woman."
+      chapters: [1, 3, 4, 5]
+  named_emotions:
+    - "felt a surge of"
+    - "felt a wave of"
+    - "a wave of relief"
+    - "a pang of"
+    - "couldn't help but"
+    - "a mix of"
+    - "filled with dread"
+    - "heart swelled"
+    - "overcome with"
+
+metrics:
+  min_sentence_length_stdev: 6.0
+  max_same_opener_share: 0.30
+  max_participial_opener_share: 0.08
+  max_adverb_rate: 12.0
+  max_named_emotion_rate: 2.0
+  max_same_chapter_opening_share: 0.25
+  max_direct_answer_share: 0.65
+
+crutch_phrases:
+  min_length: 3
+  max_length: 6
+  min_occurrences: 3
+  ignore_dialogue: true
+
+typography:
+  smart_quotes: true
+  em_dash_from_double_hyphen: true
+  ellipsis_character: true
+  collapse_double_spaces: true
+  scene_break: "#"
+  leading_apostrophe_words:
+    ["em", "til", "till", "tis", "twas", "round", "cause", "bout", "n", "er", "im"]
+
+revision_mining:
+  min_pattern_occurrences: 3
+  marker: ".claude/.last-mined"
+
+authoring:
+  interview_depth: 3
+  scrap_file: true
+  max_edit_share: 0.25
+  harvest_per_chapter: 2
+
+routing:
+  escalation_path: ["drafter", "continuity-checker", "structural-editor"]
+  escalate_after_failures: 2
+  profile: "balanced"
+  profiles:
+    balanced: {}

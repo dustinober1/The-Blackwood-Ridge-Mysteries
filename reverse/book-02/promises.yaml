@@ -1,0 +1,154 @@
+# The Chekhov Ledger — setups awaiting payoff (The Botanical Confession)
+#
+# Retrofitted from the finished pre-publication book's chapter notes
+# (reverse-scaffold import, 2026-10-11). Book 2 pays most of its own promises
+# and plants the series' next doors (Beech, the records dispute, the
+# apprenticeship, the vow).
+
+promises:
+  - id: "P001"
+    promise: "The cipher itself — a sentence built out of flowers 'she could not bring herself to write in plain words.'"
+    introduced_ch: 1
+    kind: "mystery"
+    weight: "loud"
+    payoff_by_ch: 5
+    paid_in_ch: 5
+    paid_how: "The map completes: the wet hemline, the Harlow-barn lie, 'The old dock. The deep.' — and the imperative 'Say it.'"
+    deferred_to_series: false
+    notes: ""
+  - id: "P002"
+    promise: "Marguerite's aim — the estate directed to The Foxed Page, 'the annotated one to be priced by you personally.'"
+    introduced_ch: 1
+    kind: "relationship"
+    weight: "plain"
+    payoff_by_ch: 5
+    paid_in_ch: 5
+    paid_how: "Mae's confession of the October visit confirms the book was meant for Callie; 'Say it.' received and obeyed."
+    deferred_to_series: false
+    notes: ""
+  - id: "P003"
+    promise: "Doris's demand — 'bring it to me... Not the sheriff. Not the town. Me.'"
+    introduced_ch: 2
+    kind: "debt"
+    weight: "loud"
+    payoff_by_ch: 8
+    paid_in_ch: 8
+    paid_how: "Broken (the search, then the news via Mae) and receipted in the kitchen reckoning; 'there was nothing she could say that would unbreak it' — and the grief moves anyway."
+    deferred_to_series: false
+    notes: "The breaking is deliberate — the book's cost is that the demand could not be kept."
+  - id: "P004"
+    promise: "The open palm — 'the gesture of a man who has practiced having nothing to hide for so long that the practice has become the hiding.'"
+    introduced_ch: 3
+    kind: "object"
+    weight: "loud"
+    payoff_by_ch: 7
+    paid_in_ch: 7
+    paid_how: "The palm shakes in the hallway, then closes 'not into a fist but into a closing' at the confession table."
+    deferred_to_series: false
+    notes: ""
+  - id: "P005"
+    promise: "The two stories — the party and home (to Callie) vs. the Harlow barn (to the Carmodys, 1994)."
+    introduced_ch: 3
+    kind: "question"
+    weight: "plain"
+    payoff_by_ch: 7
+    paid_in_ch: 7
+    paid_how: "The confession names the lie: 'I told the Carmodys I'd been at the Harlow barn.'"
+    deferred_to_series: false
+    notes: ""
+  - id: "P006"
+    promise: "The cove search — Cross's 'I'll think about it.'"
+    introduced_ch: 5
+    kind: "question"
+    weight: "loud"
+    payoff_by_ch: 7
+    paid_in_ch: 7
+    paid_how: "The dive: ring at 8:14, remains at nine; 'The location is specific enough' as the report's spine."
+    deferred_to_series: false
+    notes: ""
+  - id: "P007"
+    promise: "Eli's apprenticeship — 'Could you teach me?'"
+    introduced_ch: 6
+    kind: "skill"
+    weight: "plain"
+    payoff_by_ch: 8
+    paid_in_ch: 8
+    paid_how: "Saturdays formalized; 'You start by looking.' The series' long-arc thread begins."
+    deferred_to_series: false
+    notes: "Series-bible: Books 3–5 grow the skill; Books 6–8 carry the vulnerability."
+  - id: "P008"
+    promise: "The archive rekeying — 'pending completion of the security audit,' no stated end."
+    introduced_ch: 4
+    kind: "threat"
+    weight: "plain"
+    payoff_by_ch: "TBD"
+    paid_in_ch: ""
+    paid_how: ""
+    deferred_to_series: true
+    notes: "Open into Book 3, whose records dispute presumably consumes it."
+  - id: "P009"
+    promise: "Wells's legal process — 'The arrest was not justice. It was the beginning of a process.'"
+    introduced_ch: 7
+    kind: "question"
+    weight: "plain"
+    payoff_by_ch: "TBD"
+    paid_in_ch: ""
+    paid_how: ""
+    deferred_to_series: true
+    notes: "Later books must establish the outcome (Gus precedent: tried and imprisoned)."
+  - id: "P010"
+    promise: "Harlan Beech's planted presence — the broom, the looking-up, the almost-coming-in."
+    introduced_ch: 1
+    kind: "mystery"
+    weight: "whisper"
+    payoff_by_ch: "TBD"
+    paid_in_ch: ""
+    paid_how: ""
+    deferred_to_series: true
+    notes: "Per series-bible, Beech is Book 3's accused — deliberate setup, do not pay early."
+  - id: "P011"
+    promise: "The knock at the end of Book 1 — two knuckles, unhurried, patient."
+    introduced_ch: 1
+    kind: "question"
+    weight: "whisper"
+    payoff_by_ch: "TBD"
+    paid_in_ch: ""
+    paid_how: ""
+    deferred_to_series: true
+    notes: "Never answered on the page in Book 2 (Eli's delivery follows the next morning but the text does not claim the knock). Available to later books, or permanently ambient."
+  - id: "P012"
+    promise: "The vow — 'not like this': Callie will not preserve truth through a silence that consumes a life."
+    introduced_ch: 8
+    kind: "rule"
+    weight: "loud"
+    payoff_by_ch: "TBD"
+    paid_in_ch: ""
+    paid_how: ""
+    deferred_to_series: true
+    notes: "Series-level rule minted in Book 2's closing; tested by every later case."
+
+motifs:
+  - motif: "floriography"
+    phrasings: ["remembrance", "the old language", "the Victorian game"]
+    intent: "The cipher's vocabulary; book and garden are one text."
+    chapters: [1, 2, 4, 5, 8]
+  - motif: "the open palm"
+    phrasings: ["palm shown", "the open palm", "a man who has nothing to hide"]
+    intent: "Wells's practiced innocence; its collapse, not a fist, is the confession."
+    chapters: [3, 4, 6, 7]
+  - motif: "hands flat, palms down"
+    phrasings: ["flat on her knees", "palms down", "holding herself in place"]
+    intent: "Doris's grip on the earth; the body holding what the voice will not."
+    chapters: [2, 4, 8]
+  - motif: "the almost-right tea"
+    phrasings: ["almost right", "one register short", "the register she could not find"]
+    intent: "The standing measure of Callie's unfinished grief; carried from Book 1."
+    chapters: [1, 5, 6, 8]
+  - motif: "the three-knock permission"
+    phrasings: ["the knock", "asking-permission knock", "Can I come in, honey"]
+    intent: "Mae's new grammar of approach; earned in Book 1's ending."
+    chapters: [5, 8]
+  - motif: "margins as voices"
+    phrasings: ["the room drawing down", "ink and intention", "the narrowing"]
+    intent: "The series mechanism, now aimed at a living man by a dead woman."
+    chapters: [1, 3, 4, 5]
