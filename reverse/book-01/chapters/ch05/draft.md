@@ -1,0 +1,149 @@
+# Chapter 5: The Squeeze
+
+**Status**: drafted
+**Last Updated**: 2026-10-11
+
+<!--
+  PROSE FENCE — everything between the two `---` lines below is the chapter's
+  prose and nothing else. Word counting, prose linting and manuscript
+  compilation all read only that span, so keep notes and checklists outside
+  it. Do not remove either fence.
+-->
+
+---
+
+
+# The Squeeze
+
+She could not get into the archives. So she went to the place Gus Ralston had paid for instead.
+
+She had said *I can't* to the closest thing she had to family twelve hours ago, and the lavender was still in the shoulder of her coat, and she did not let herself think about that either.
+
+The Blackwood Ridge Historical Society sat in a restored Victorian two streets off the square, its gingerbread trim painted the green of old money, its foundation plaque bearing the Ralston name in letters an inch deep. Callie had always found the irony of the place useful, the way a lockpicker finds a window useful: the Society collected the town's history, which meant it also held it, and what it held was, in theory, open to anyone with a research interest and a signature. She signed the visitor's register at the front desk — the bound leather book, the same kind the archives kept — and went up to the collections room, and she did not let herself think about the fact that she was walking into the killer's own house to look for the thing he had killed to hide.
+
+She knew roughly what she was looking for, because she knew what Pike had been looking for. The keystone. The single annotated source from which every other margin note in his manuscript descended — the book Jacob Wren had marked most heavily before he fled town, the one Pike had been working from. Pike had told her, once, that he believed it had been donated to a local collection decades ago, before anyone knew what it was. *Hiding in plain sight,* he had said, with the small excited smile of a man who loved the phrase. She had not understood, then, how dangerous plain sight could be.
+
+The collections room smelled of furniture wax and the faint chemical sweetness of preservation spray. Callie worked the stacks methodically — by era, by donor, by the small telltale signs of a book that had been handled too much for its apparent importance. It was easier to work than to think; her hands knew the old order, and she let them keep it, and the dread sat underneath the method where she did not have to look at it. She found it in the third cabinet, in a lot donated by the Ralston estate in 1962: a slim, clothbound volume of regional survey records, undated, its spine cracked from use, its pages soft at the edges. An ordinary book. She opened it, and the margins were full.
+
+Wren's hand. Wren's hand at its most desperate. The cipher here was not buried under Latin; it was buried under a private variant of the cipher she had cracked at the archives, and she sat down at the reading table, took out Eleanor's glass, and worked through it. Not to learn what it said — she already knew that; she had read the accusation in the 1843 ledger two days ago. She worked through it because this was the source, the original in Wren's own hand, and she needed her own copy of it before it could vanish the way the six pages had vanished.
+
+She worked backward from the one phrase she was certain of, and the rest gave in stages — the surveyor's marks, the Latin contractions, then the substitution layer she untied one letter at a time. The hand grew worse as it went; the nib had torn the paper in two places, and the final page was written at a slant, the letters crowding each other for room. By the end of the second hour she had the whole of it, and it said exactly what she already knew it would say: the true survey lines, the forged filings, and the five families whose land had been rolled into the Ralston grant — the Tuckers, the Fenns, the Coles, the Marrs, the Hartwells, all five named now where Mae could remember only three. And at the bottom of the final page, in a hand that shook so badly the letters nearly fell over each other, the surveyor's farewell: *I have written it here because I cannot write it anywhere a living man will read it, and I am leaving tonight, and I pray God someone finds this who can do what I cannot.*
+
+Callie closed the book. She laid her hand on the cover. She sat with it for a long moment — not the shock of discovery, but the weight of holding the original, the page a man had died trying to bring to light — and then she opened her notebook and began, carefully, to copy the cipher and its translation in her own hand, because the original could disappear, and she would not be left with nothing.
+
+Then she went back downstairs, and she opened the visitor's register, and she read it.
+
+She had not known what she was looking for until she found it. The names were unremarkable — researchers, genealogists, the occasional town councilman — and then, three days before Gus's entry, a name that stopped her: *J. Fenn — genealogical research.* Fenn. One of the five families Wren had named. Callie stared at it. A descendant of the robbed, coming to look at the same records Pike had been working from. Had they known? Had they come looking for the truth on their own — or had they come to make sure no one else found it? The Fenns had carried the shame for generations. Shame was its own kind of motive.
+
+She turned the page, and the Fenn lead dissolved. The timing didn't work. J. Fenn had visited three days before Gus, a week before Pike — before Pike had shown his findings to anyone, before anyone living knew what the margins contained. Fenn had been chasing ghosts, the same as Pike, from the other side of the theft. She set it aside.
+
+Two entries later, in a hand she knew from a hundred signed checks and a thousand foundation plaques: *A. Ralston — collection review.* Collection review. Eight days before Pike died. Gus Ralston had walked into the building he funded, and walked up to the room where the keystone lived in plain sight in a cabinet his family had donated, and he had *reviewed the collection.* He had sat where she was sitting now. He had read what she had just read. And he had understood exactly what it meant, and exactly who was about to make it public. He had left the keystone where it lay, because a catalogued Society lot could not vanish without a paper trail, and because he believed — as the town had believed for a hundred and eighty years — that no one living could read it.
+
+Callie turned the page. There, two days later: *Dr. W. Pike — research.* And beside the entry, in the margin, in Pike's own excited pencil — because the Society let its regulars annotate the register the way they annotated everything — *showed preliminary findings to Gus Ralston — very interested, asked to see the manuscript. Good. The book deserves daylight.*
+
+The page trembled under her hand. She set the register down. She read the line again, and a third time — the eager shorthand of a man who had been *glad*, who had thought the interest of a patron was a gift and not a survey of the threat, who had noted it thoroughly, date-stamped, blind. Pike had walked Gus Ralston through his own death warrant and shaken his hand afterward and brewed himself a cup of tea.
+
+The sequence locked, step by step: Gus had learned of the manuscript. Gus had come to the Society to see what Pike was working from. Gus had asked to see the manuscript, and Pike, trusting, had shown him. Gus had read the truth of his own family. And Gus had decided, in the calm deliberate way he decided everything, that the truth was worth a man's life. Six pages missing from the archives. One cup of poisoned tea. One steady pair of hands on her counter.
+
+She copied the register entries into her notebook. She returned the keystone to its cabinet. She signed out of the Society and walked, almost ran, the three blocks to the Ridgeway Auction House.
+
+The back office was still taped, but the main floor was open for a cataloguing day, and Eli Townsend was alone at the long display table with an armful of lots and the hunched shoulders of a man trying to be invisible in his own workplace. He flinched when he saw her. He had been flinching for days, she realized; it was the flinch of a man who had begun to expect the worst from every direction and could not stop bracing for it.
+
+"Ms. Thorne. Hi. Sorry. I didn't — the back office is still, um, closed, so if you were looking for—"
+
+"I'm not looking at the back office, Eli." She kept her voice the way she kept her hands around a brittle page — level, slow, unthreatening. "I'm looking for a book. A novel. You borrowed one from the stacks here, a while back, and brought it back the night of the auction. Do you know where it is now?"
+
+The color left his face. She watched the calculation move across it — the impulse to deny, the worse impulse to confess to something larger than he'd done, the miserable tangle of both at once. His hands went to his hoodie string and pulled.
+
+"I — it was just a paperback. I didn't think anyone would care. I brought it back during the auction because I thought everyone would be out front. I could just — put it back and nobody would notice." He stopped. Swallowed. "It's probably still wherever I left it. I shoved it on the wrong shelf. By the back office. I was in a hurry."
+
+Callie found it herself, three minutes later, on a shelf of auction-house reference volumes where no paperback belonged — a dog-eared mystery novel, its spine cracked from being read on a bus, slipped in spine-out among the clothbound lots. She stopped before touching it, took out her phone, and photographed the book in place with the shelf mark and surrounding volumes visible. Eli made a small wrecked sound, the sound of a man watching the small ashamed thing he'd done turn into the explanation for something he hadn't.
+
+She left the book where it was. She did not say *this clears you*. She did not say *you were in the building where a man died*. She looked at him — at the dark circles under his eyes, at the hoodie string twisted to a rope between his fingers, at the particular exhaustion of a young man who had been expecting to be blamed for this his whole life — and she saw, with a clarity that hurt, exactly the kind of person she had spent her career trying to pull out of the margins. An ordinary person. About to be erased by a history that had nothing to do with him.
+
+"Eli." She waited until he met her eyes, which took a long time. "You're going to be all right. I'm going to make sure of it. But I need you to trust me, and I need you to not talk to the sheriff again until I tell you to. Can you do that?"
+
+He nodded, a small dumb grateful nod, the nod of a man who had never in his life been told someone would make sure of it. She put the phone back in her bag — the photograph, the corroboration, the small dog-eared thing that explained why he had been near the corridor.
+
+She was halfway to the door when he said her name.
+
+"Ms. Thorne?"
+
+She turned back. Eli was standing where she'd left him, but something had shifted in his face — the fidgeting had stopped, and what was underneath it was worse than the fidgeting. He was working up to something. She waited.
+
+"The night of the auction," he said. "When I was leaving the back stacks. After I put the book back, I mean." He swallowed. "I saw Mr. Ralston. Coming out of the back corridor. The one by the offices."
+
+The room went very quiet.
+
+"He came out right as I was putting the book on the shelf. Nearly walked into me. And he — he looked at me, and he nodded, like everything was normal. And I thought, okay. Everything's fine. And then about ten minutes later—" He stopped. His hands had gone still at his sides. "I didn't tell the sheriff. I didn't tell anyone. I was already — I thought if I said I was back there, near the offices, they'd think—"
+
+"I know, Eli." She kept her voice level, but something had locked into place behind her sternum — a cold clean click, the sound of a tumbler turning. "I know exactly what they'd think. But you're going to tell the sheriff. I'll be there. And this time, he's going to listen."
+
+Eli looked at her. He nodded again — not the grateful nod this time, but something steadier, the nod of a man deciding to trust someone for the first time in his life.
+
+She left him standing in the warm empty auction house and walked home through the square with the notebook pressed against her ribs, and the whole town felt like a hand closing around her, and she understood that the only remaining question was whether she would use what she had.
+
+The bell rang at a quarter to nine.
+
+She was in the back room, the notebook open on the oak table beside Eleanor's glass. She had laid the evidence out in the order she would later lay it out for Cross: Wren's decoded cipher from the keystone, her own transcription of the surveyor's prayer, the visitor's entries showing Gus's name eight days before the murder and Pike's two days later, Pike's eager margin note about Gus Ralston, and the photograph of the dog-eared paperback where it remained on the wrong shelf, corroborating Eli's reason for being near the back corridor. Laid end to end, in this order, they were a rope. She was looking at the rope when the front door opened, and she heard the careful step, and the voice.
+
+"Callie? You still up?"
+
+He let himself in. He had never let himself in before. The key to the shop was a town-council key, the kind that opened any lock on the square, and he used it now as if it were his right, and the using of it was the first true thing he had shown her. She came out from the back room and found him standing in the center of her shop, his hat in his hands, and for one disorienting moment he looked exactly as he had always looked — the warm baritone, the concerned wrinkle, the man who wrote the checks that saved the buildings.
+
+"Callie." He did not come closer. "You've been under such strain."
+
+"Mr. Ralston."
+
+"Gus." The automatic correction, but softer now, and he did not smile. "I worry about you. All this running around, the archives, the Society today — I hear things." He set his hat on her counter, the way Cross had set his hat on her counter, and the echo of it was not lost on her. "A woman in your position has a great deal to lose. The lease on this building comes up next year. The scanner in your back room — I signed that check, Callie. Eight thousand dollars' worth of my goodwill, sitting on your shelf."
+
+He paused. The pause had a floor under it.
+
+"I'd hate to see anything happen to this shop." He was looking at the shelves, not at her. "Your mother kept it beautifully. She knew when a thing was worth protecting and when it was worth leaving alone. She understood that some threads, once you pull them, don't stop unraveling. Not for anyone."
+
+"You knew my mother."
+
+"I knew her well. She was a careful woman." He turned, and looked at her, and the warmth was gone from his face. Not replaced — gone, as if it had been a lamp and someone had unscrewed the bulb. What was left was the architecture underneath, and the architecture was older than he was. "Wendell didn't know when to stop, Callie. Terrible thing. He was a brilliant man, and he could not leave a matter settled, and it cost him." He held her gaze. "I would so hate to see what happened to Wendell happen to someone else."
+
+She looked at his hands.
+
+They were on the counter, where they had been the other night, but they were not still now. They were trembling. A fine, constant tremor — the over-control finally failing him, here, now, in this room, under the weight of being seen. She watched it, reading the pressure beneath the control, the effort that the control was built to conceal. He saw her see it. His mouth tightened, and for one half-second the mask came off entirely, and she was looking at the portrait in the town hall — the patriarch's flat measuring stare, the same eyes, the same set jaw, Silas Ralston looking out through the descendant's face a hundred and eighty years later — and she understood, in her body before she understood it in her mind, that she was looking at the man who had killed Pike, and that he had come here tonight to tell her so, and that he was deciding, in the length of that held silence, whether he would have to do it again.
+
+Neither of them spoke. The truth sat between them on the counter, next to his hat, as plain as a cup of cold tea, and neither of them named it, because naming it would make it real and neither of them — not the woman who had spent her life among the dead, not the man who had spent his life burying them — was ready for it to be real.
+
+Callie said nothing. She was reading him, and he could see that she was reading him, and that was the thing that had changed between them: not the threat, which had always been there, but his understanding that she had learned to read it.
+
+"Think about what I've said," Gus said, finally, and his voice was almost warm again, almost, the bulb screwed back in but not quite seated. He picked up his hat. "Good night, Callie."
+
+He let himself out. The bell rang. The lock caught.
+
+It was the leaving that was strangest — that he had come, and shown her, and gone again without doing the thing a part of her had expected. He had decided something in the length of that held silence, and the decision had been to wait. Callie stood in the middle of her own shop and listened to his steps cross the square and fade, and she did not move for a long time, and when she finally moved it was to step over the floorboard and go into the back room and stand in the dark where her mother had died. The room smelled of leather and old paper and, faintly, of bergamot, and the smell that had always been her sanctuary smelled, tonight, like a place a person could be found in. Like a place a person could be left.
+
+She understood, now, what Pike had felt in his last weeks — the cold of being watched by a man who had not yet decided. She stood in Eleanor's room with Eleanor's glass on the table and the notebook of the dead pressed against her ribs. The notebook that would keep Eli Townsend out of a cell. Keeping him out had become, sometime in the last hour, the reason a man had stood in her shop deciding whether she lived.
+
+She sat down at the oak table in the dark without turning on the light. For a moment her hand found Eleanor's glass where it lay on the felt — her weapon, the dead's instrument — and then her body did the thing her mind refused to: she heard, with a new and terrible precision, every sound the shop made — the tick of the cooling pipes, the creak of the front floorboard under no one's weight, the wind testing the window latch. Her hands, folded on the table in front of her, would not stay still. She pressed them flat, the way she pressed a curling page, and they trembled against the oak, and she let them tremble, because there was no one here to see and because the trembling was the truest thing she had felt in two years. She sat with it. She waited for morning, and the whole night through she did not once stop being afraid.
+
+---
+
+## Scraps Used
+
+- n/a — chapter imported verbatim from finished prose (reverse-scaffold import, 2026-10-11); no scraps existed.
+
+## Revision Notes
+
+- Imported verbatim from `books/book-01/manuscript/ch-05.md` at commit c81bc35 (reverse-scaffold import, 2026-10-11). Book 1 is published and frozen; this packet is reference, not a drafting surface.
+
+## Continuity Self-Check
+
+Retrofit packet — the checklist below is the standard gate-facing list; no gate has run (see gate-report.md). The reverse-scaffold analysis and reconciliation notes serve as the continuity record until then.
+
+- [ ] All character names spelled per canon/characters.md
+- [ ] Timeline anchor matches canon/timeline.md
+- [ ] No contradictions to canon/characters.md or canon/world-rules.md
+- [ ] Voice matches voice-bible.md (run `python3 scripts/lint_prose.py chapters/ch05/draft.md`)
+- [ ] POV consistent — no access to any other character's interiority
+- [ ] Tense consistent (past)
+- [ ] Every outline beat rendered
+- [ ] Threads opened/closed reflected in STATE.yaml
+- [ ] No placeholder text remains inside the prose fence
+- [ ] Every scene's outline `Value shift` actually lands on the page

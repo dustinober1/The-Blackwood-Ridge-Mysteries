@@ -1,0 +1,89 @@
+# Chapter 8: After
+
+**Status**: drafted
+**Last Updated**: 2026-10-11
+
+<!--
+  PROSE FENCE — everything between the two `---` lines below is the chapter's
+  prose and nothing else. Word counting, prose linting and manuscript
+  compilation all read only that span, so keep notes and checklists outside
+  it. Do not remove either fence.
+-->
+
+---
+
+
+# After
+
+The shop had been open for a week when Callie realized she was no longer waiting for the town to forgive her.
+
+She had not closed it. That had been the first decision, made the morning after, in the grey light before anyone was on the square: she would open the shop, and she would keep opening it, and the opening was the thing she could control when she could control nothing else. She had unlocked the front door and turned the sign and stepped over the floorboard — and then, mid-step, had stepped back onto it, deliberately, so that it creaked, and had stood for a moment in the small unnecessary noise of it. There was no one upstairs to wake. There had not been anyone to wake for two years. She was done being quiet for a ghost.
+
+The first days were the hardest. The shopkeeper across the square would not meet her eye. A woman Callie had known for a decade came in to browse the regional shelf and left without speaking, and the silence was the kind that has a shape, and the shape was blame. Callie rang up the nothing she had bought and watched her go, and she did not call after her, because there was nothing to call, and because the woman was not entirely wrong. Callie had set the fire. The fire had needed burning. The people who lived in the house were allowed to flinch at the smoke.
+
+But a town is a stubborn organism, and it does not stop needing what it needs just because it is angry. By the third day someone came in for a specific edition of a specific book, and Callie found it, and the someone paid and left, and the transaction had been so ordinary it had nearly winded her. On the sixth day the retired men on the bench under the oak nodded to her as she passed — only nodded, nothing more, but a nod from that bench was a verdict, and the verdict was that she was still a person they recognized. On the seventh day, Mrs. Tucker came in. She did not buy anything. She stood for a long time in front of the regional history shelf, and then she turned and looked at Callie across the shop, and her eyes were red but steady, and she said, "Thank you," and Callie nodded, and Mrs. Tucker left, and Callie stood behind her counter and let the small hot thing in her throat be what it was. By the end of the week she had sold eleven books, which was normal, which was what normal had always looked like, and the normalcy of it was the first thing that had not hurt.
+
+Mae had not come back. Callie had washed the dish — the soup dish, the one from Mae's hands on the step — and set it on the shelf by the register where it could be returned, and she had left it there, and she had not taken it over, because the taking-over was Mae's to do or not do. The distance was not a wall. It was a doorway, and Mae would come through it when she came through it. Callie was learning, late, that the woman who knocked was not the woman who had walked away.
+
+The back room was hers now, and she let it be hers.
+
+It still smelled the same — leather and old paper and the faint ghost of bergamot — and she had stopped trying to decide whether the bergamot was the tin or the memory, because the answer was both and the both no longer undid her. Eleanor was in the room the way the grain was in the oak: present, structural, part of the thing, but no longer the only thing. She did her work at the table where her mother had died, and the table was only a table. She had a great many tables in her life now, and the back room was only the one where she kept her best lamp.
+
+She had moved things. Not much. The scanner to the other wall. The reading lamp to the corner where the morning hit. Small rearrangements that would have been invisible to anyone but her, and that meant, to her, that a woman was living here now instead of performing a vigil.
+
+She made the tea on the morning of the eighth day. She made it the way she had always made it — same tin, same water, same three-minute steep — and she poured it into the chipped mug with the hairline crack, and she carried it to the back room and set it on the oak, and she drank it, and for the first time since the auction it tasted like tea. The bergamot was the bergamot. The grief was still in it, because the grief would always be in it, but she drank it, and it was warm, and the rain was on the windows.
+
+The rain. It had come back in the night, the light patient kind that she had read, all her life, as the sound of safety — the sound of being inside while the world stayed outside. She listened to it now, and the safety was in it again, only it was a different safety, a thinner one, the safety of a woman who knew the outside could come in and who was letting the outside come in and who had decided to be all right anyway. She was no longer hiding in the rain. She was only listening to it. And the listening, she realized, was its own kind of work — the slow work of learning to be in a room without needing the room to save you.
+
+The magnifying glass was on the table where she had left it.
+
+She had not touched it in eight days. She had not needed to. The work she had done in the meantime — the cataloguing, the shelving, the small ordinary business of running a shop — had not required it, and she had let it lie where it lay, the brass catching whatever light came through the window, and she had walked past it the way you walk past a thing whose time has not yet come around again. This morning she looked at it, and the time had come around.
+
+She picked it up.
+
+It was lighter than she remembered. Not in any way she could have proved on a scale — the brass weighed what brass weighed — but lighter in the hand, the way a name is lighter once you have stopped carrying it for someone else. For two years she had held it as a relay runner holds a baton, waiting to hand it back to the woman who had given it to her, except the woman was dead and there was no hand to take it and the running had been the point, the endless running, the carrying that had filled the space where a life was supposed to be. Now she held it as a woman holds a tool she has chosen to use. She turned it in her fingers, the way she had turned it the morning of the auction, letting the morning light run along the beveled edge, and the line came up out of the glass the way it always came, her mother's voice, the words she had been given at nine: *The truth is always there, Callie. Most people just don't look closely enough.* She heard it, and for the first time in two years it was only what it was. It was not a woman handing a child a debt and calling it a gift. It was a true thing her mother had said, once, about looking, and it was still true, and Callie could hold it now without holding the rest.
+
+She set the glass down on the felt rest. Not on the oak. On the rest, where it belonged, where it had always belonged when it was not in use. She had picked it up, and she had set it down, and the setting-down was not a letting-go. It was a putting-away. There was a difference.
+
+She drank her tea. She catalogued a box of estate acquisitions — a set of Methodist sermons, a Civil War nurse's diary, a slim volume of regional poetry with a cracked spine — the sorting, the dating, the penciled notation in a steady hand. She worked through the box by hand and by habit, and it was nearly noon when she pulled the last book from the bottom of the lot and set it on the table and opened it, and stopped.
+
+It was an unremarkable book. A nineteenth-century botanical, hand-colored plates, the kind of thing that came in estate lots by the dozen. She would have shelved it and thought nothing of it. But it was open, and the margins were full.
+
+The hand was not Eleanor's. It was not Jacob Wren's cramped frightened cipher, and it was not Pike's eager downhill slant. It was a hand she had never seen — small, precise, oddly steady, written in a modern blue-black ink by someone who had gone through this book page by page and annotated every plate with names and dates and, in the wider margins, short dense passages in a script that was not quite English and not quite anything else she recognized. The notes were careful. The notes were deliberate. They had been written by someone who very much wanted them to be read, and who had hidden that wanting inside the careful ordinary business of a botanical, the way a voice can hide inside a room. There was no fear in the hand, the way there had been fear in Wren's. There was something else — a patience, almost a playfulness, the marks of a person who had written these notes in the full expectation of being found, and who had enjoyed the hiding of them.
+
+Callie looked at the margin note, and the room narrowed — only a little, only the first fraction of the old narrowing, the world drawing down toward ink and intention — and she felt, under the grief and the cost and the eight grey mornings, a small clean thing she had not felt in a long time. Curiosity. The first thing she had felt, since the auction, that was not a subtraction.
+
+She reached for the glass. The one she had set on the felt rest. The one that was hers now.
+
+She held it over the margin, and she was leaning in, the modern blue-black ink sharpening under the brass, when the knock came.
+
+Not the bell. The knock. Two knuckles against the glass of the front door, unhurried, and then a pause, and then the knock again, patient, the knock of someone who had decided they would wait.
+
+Callie looked up from the margin. She looked at the glass in her hand, and she set it down — gently, on the felt rest, not letting go of it, only setting it down to come back to, because there would be a coming back. She stood, and she stepped on the floorboard so that it creaked, and she walked out of the back room and through the shop to the front door, where the light was bright on the glass and the rain had stopped and someone was waiting on the step to be let in.
+
+She opened the door.
+
+---
+
+## Scraps Used
+
+- n/a — chapter imported verbatim from finished prose (reverse-scaffold import, 2026-10-11); no scraps existed.
+
+## Revision Notes
+
+- Imported verbatim from `books/book-01/manuscript/ch-08.md` at commit c81bc35 (reverse-scaffold import, 2026-10-11). Book 1 is published and frozen; this packet is reference, not a drafting surface.
+
+## Continuity Self-Check
+
+Retrofit packet — the checklist below is the standard gate-facing list; no gate has run (see gate-report.md). The reverse-scaffold analysis and reconciliation notes serve as the continuity record until then.
+
+- [ ] All character names spelled per canon/characters.md
+- [ ] Timeline anchor matches canon/timeline.md
+- [ ] No contradictions to canon/characters.md or canon/world-rules.md
+- [ ] Voice matches voice-bible.md (run `python3 scripts/lint_prose.py chapters/ch08/draft.md`)
+- [ ] POV consistent — no access to any other character's interiority
+- [ ] Tense consistent (past)
+- [ ] Every outline beat rendered
+- [ ] Threads opened/closed reflected in STATE.yaml
+- [ ] No placeholder text remains inside the prose fence
+- [ ] Every scene's outline `Value shift` actually lands on the page

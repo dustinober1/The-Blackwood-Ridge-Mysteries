@@ -1,0 +1,200 @@
+# Defect ledger — collected from the analysis report by
+# reverse-scaffold's findings.py, then triaged and repaired by
+# book-scaffold's audit-book / nonfiction-scaffold's audit-course.
+#
+# kinds: canon-gap | claim-gap | inconsistency | voice-break |
+#        boundary | other | gate-failure | pacing   (the last two
+#        are added by the audit skills' own sweeps)
+# status: open | fixed | canon-decided | wont-fix | escalated
+source: "reverse-scaffold-analysis.md"
+generated: "2026-10-11"
+type: fiction
+findings:
+  - id: "F001"
+    kind: canon-gap
+    severity: minor
+    summary: "Callie Thorne — Age: CANON GAP — never stated directly; derivable as ~35 from \"brewed the same tea every morning since she was nineteen\" (ch1) + \"every morning for sixteen years\" (ch2)."
+    units: ["ch01", "ch02"]   # chapters/sections affected; [] = unlocalized
+    source_line: "**Age**: CANON GAP — never stated directly; derivable as ~35 from \"brewed the same tea every morning since she was nineteen\" (ch1) + \"every morning for sixteen years\" (ch2)."
+    status: canon-decided
+    resolution_note: "Decision #1 (canon-decisions.md): Callie is 35 at Book 1, born ~1990 (text-derived; bible concurs)."
+
+  - id: "F002"
+    kind: canon-gap
+    severity: minor
+    summary: "Callie Thorne — Physical description: CANON GAP — only ink-stained fingers (ch1, ch7), reading glasses on a chain (ch1); no hair/eye/build description anywhere."
+    units: ["ch01", "ch07"]   # chapters/sections affected; [] = unlocalized
+    source_line: "**Physical description**: CANON GAP — only ink-stained fingers (ch1, ch7), reading glasses on a chain (ch1); no hair/eye/build description anywhere."
+    status: canon-decided
+    resolution_note: "Decision #2: appearance filled from bible (cardigans, glasses on chain, ink stains, vintage magnifier collection); hair/eye remain documented blank."
+
+  - id: "F003"
+    kind: canon-gap
+    severity: minor
+    summary: "Eleanor Thorne — Physical description: CANON GAP — never given."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "**Physical description**: CANON GAP — never given."
+    status: open
+    resolution_note: "Documented blank — fill only if a later book needs it."
+
+  - id: "F004"
+    kind: canon-gap
+    severity: minor
+    summary: "Augustus \"Gus\" Ralston — Age: CANON GAP — older man, never stated."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "**Age**: CANON GAP — older man, never stated."
+    status: canon-decided
+    resolution_note: "Decision #12: Gus is early sixties (bible; text-silent)."
+
+  - id: "F005"
+    kind: canon-gap
+    severity: minor
+    summary: "Silas Ralston — Age / Physical description: CANON GAP beyond the portrait's \"flat measuring stare, the same eyes, the same set jaw\" (ch5)."
+    units: ["ch05"]   # chapters/sections affected; [] = unlocalized
+    source_line: "**Age / Physical description**: CANON GAP beyond the portrait's \"flat measuring stare, the same eyes, the same set jaw\" (ch5)."
+    status: open
+    resolution_note: "Documented blank — historical figure known only through Wren's record and the portraits."
+
+  - id: "F006"
+    kind: canon-gap
+    severity: minor
+    summary: "Jacob Wren — Age / Physical description: CANON GAP (hand only: \"small and careful,\" deteriorating under fear, ch3–4)."
+    units: ["ch03", "ch04"]   # chapters/sections affected; [] = unlocalized
+    source_line: "**Age / Physical description**: CANON GAP (hand only: \"small and careful,\" deteriorating under fear, ch3–4)."
+    status: open
+    resolution_note: "Documented blank — known only by hand."
+
+  - id: "F007"
+    kind: canon-gap
+    severity: minor
+    summary: "Reverend Thomas Hartwell — Age / Physical description: CANON GAP."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "**Age / Physical description**: CANON GAP."
+    status: open
+    resolution_note: "Documented blank — historical figure."
+
+  - id: "F008"
+    kind: canon-gap
+    severity: minor
+    summary: "Mae Hartwell — Age: CANON GAP — derivable ~59–60 from \"I was nine years old\" + \"fifty years\" (ch4); never stated."
+    units: ["ch04"]   # chapters/sections affected; [] = unlocalized
+    source_line: "**Age**: CANON GAP — derivable ~59–60 from \"I was nine years old\" + \"fifty years\" (ch4); never stated."
+    status: canon-decided
+    resolution_note: "Decision #11: Mae is ~59-60 at Book 1 (text arithmetic); bibles' 'early seventies' superseded — see reconciliation.md."
+
+  - id: "F009"
+    kind: canon-gap
+    severity: minor
+    summary: "Dalton Cross — Age: CANON GAP — middle-aged implication only."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "**Age**: CANON GAP — middle-aged implication only."
+    status: canon-decided
+    resolution_note: "Decision #13: Cross is mid-fifties, nearing retirement (bible)."
+
+  - id: "F010"
+    kind: canon-gap
+    severity: minor
+    summary: "Eli Townsend — Age: CANON GAP — \"boy,\" \"young man\"; never stated."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "**Age**: CANON GAP — \"boy,\" \"young man\"; never stated."
+    status: canon-decided
+    resolution_note: "Decision #10: Eli is early twenties (bible); auction-house role = general/cataloguing assistant."
+
+  - id: "F011"
+    kind: canon-gap
+    severity: minor
+    summary: "J. Fenn — Age / Physical description: CANON GAP — never appears on the page."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "**Age / Physical description**: CANON GAP — never appears on the page."
+    status: open
+    resolution_note: "Deliberate — never on the page."
+
+  - id: "F012"
+    kind: canon-gap
+    severity: minor
+    summary: "Mrs. Tucker — Age: CANON GAP (\"old Mrs. Tucker,\" ch7)."
+    units: ["ch07"]   # chapters/sections affected; [] = unlocalized
+    source_line: "**Age**: CANON GAP (\"old Mrs. Tucker,\" ch7)."
+    status: open
+    resolution_note: "Documented blank."
+
+  - id: "F013"
+    kind: inconsistency
+    severity: major
+    summary: "**Town square geography**: town hall on the square (archives below), shops facing it (bakery, barbershop, post office), a bench under an old oak where retired men render silent verdicts, brick walkways, lamps described as \"gas-lamp lights\" (ch1) despite the contemporary setting — CONFIRMED as written; the gas-lamp detail is flagged below."
+    units: ["ch01"]   # chapters/sections affected; [] = unlocalized
+    source_line: "**Town square geography**: town hall on the square (archives below), shops facing it (bakery, barbershop, post office), a bench under an old oak where retired men render silent verdicts, brick walkways, lamps described as \"gas-lamp lights\" (ch1) despite the contemporary setting — CONFIRMED as written; the gas-lamp detail is flagged LOW CONFIDENCE below."
+    status: canon-decided
+    resolution_note: "Decision #20: gas-lamp-STYLE lighting, deliberate historic-district character per world bible — not an inconsistency."
+
+  - id: "F014"
+    kind: boundary
+    severity: minor
+    summary: "Each unit file opens with a 6–8 line YAML front-matter block (`n`, `title`, `pov`, `word_target`, `status`, `words`) before the prose; manuscriptkit's unit word counts include it (e.g. ch-01 file = 3,224). Import strips front matter when materializing `chapters/chNN/draft.md`. The front-matter `words:` fields are stale (pre-date the October 2026 audiobook fixes); the authoritative prose-span counts are: 3208 / 2744 / 3029 / 3168 / 3520 / 2703 / 2356 / 1931 = **22,659**."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "`BOUNDARY` — Each unit file opens with a 6–8 line YAML front-matter block (`n`, `title`, `pov`, `word_target`, `status`, `words`) before the prose; manuscriptkit's unit word counts include it (e.g. ch-01 file = 3,224). Import strips front matter when materializing `chapters/chNN/draft.md`. The front-matter `words:` fields are stale (pre-date the October 2026 audiobook fixes); the authoritative prose-span counts are: 3208 / 2744 / 3029 / 3168 / 3520 / 2703 / 2356 / 1931 = **22,659**."
+    status: fixed
+    resolution_note: "Handled at import (2026-10-11): draft.md packets contain fenced prose only; word counts use real span counts (22,659 total)."
+
+  - id: "F015"
+    kind: canon-gap
+    severity: minor
+    summary: "Eleanor's death is canonically natural heart failure, but the text deliberately never closes the door (the narration rhymes it with Pike's poisoning); recorded as a revisitable series ambiguity in canon-decisions.md — do not resolve casually."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — Eleanor's death is canonically natural heart failure, but the text deliberately never closes the door (the narration rhymes it with Pike's poisoning); recorded as a revisitable series ambiguity in canon-decisions.md — do not resolve casually."
+    status: open
+    resolution_note: "Deliberate series door — canonically natural, revisitable; do not resolve casually (decision #6)."
+
+  - id: "F016"
+    kind: canon-gap
+    severity: minor
+    summary: "The poison/compound is never named (\"the compound in Pike's tea,\" ch7); left unnamed by design."
+    units: ["ch07"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — The poison/compound is never named (\"the compound in Pike's tea,\" ch7); left unnamed by design."
+    status: open
+    resolution_note: "Deliberate — unnamed by design; later books may name it, never invent retroactively."
+
+  - id: "F017"
+    kind: canon-gap
+    severity: minor
+    summary: "Where Jacob Wren fled is never stated (\"I am leaving tonight,\" ch5); open by design."
+    units: ["ch05"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — Where Jacob Wren fled is never stated (\"I am leaving tonight,\" ch5); open by design."
+    status: open
+    resolution_note: "Deliberate series door — Wren's fate unknown."
+
+  - id: "F018"
+    kind: canon-gap
+    severity: minor
+    summary: "J. Fenn is identified only by initial; the thread is deliberately dissolved (ch5) and no later book through Book 5 consumes it; available for future use."
+    units: ["ch05"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — J. Fenn is identified only by initial; the thread is deliberately dissolved (ch5) and no later book through Book 5 consumes it; available for future use."
+    status: open
+    resolution_note: "Deliberate series door — no book through Book 5 consumes it."
+
+  - id: "F019"
+    kind: canon-gap
+    severity: minor
+    summary: "The landlord/owner of The Foxed Page's building is never named; documented blank — Ralston's lease leverage reads as positional (council/bank goodwill), not documented ownership."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — The landlord/owner of The Foxed Page's building is never named; documented blank — Ralston's lease leverage reads as positional (council/bank goodwill), not documented ownership."
+    status: open
+    resolution_note: "Documented blank — Ralston leverage is positional, not documented ownership."
+
+  - id: "F020"
+    kind: canon-gap
+    severity: minor
+    summary: "The county seat and finer geography around Blackwood Ridge are unnamed; documented blank, inventible by later books."
+    units: []   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — The county seat and finer geography around Blackwood Ridge are unnamed; documented blank, inventible by later books."
+    status: open
+    resolution_note: "Documented blank — inventible by later books."
+
+  - id: "F021"
+    kind: canon-gap
+    severity: minor
+    summary: "The legal mechanism between Gus Ralston's arrest (ch7) and his imprisonment (Book 2 carry-forward canon) is never specified; the outcome is canon, the process is a documented blank."
+    units: ["ch07"]   # chapters/sections affected; [] = unlocalized
+    source_line: "`CANON GAP` — The legal mechanism between Gus Ralston's arrest (ch7) and his imprisonment (Book 2 carry-forward canon) is never specified; the outcome is canon, the process is a documented blank."
+    status: open
+    resolution_note: "Documented blank — outcome canon (imprisoned, Book 2 carry-forward), process unspecified."

@@ -1,0 +1,155 @@
+# Book Project Configuration — reverse/book-01 (The Annotated Murder)
+#
+# Reverse-scaffold import (2026-10-11) of a FINISHED, PUBLISHED book.
+# This scaffold is a structural reference for the rest of the series —
+# Book 1's prose is frozen and is never drafted against here. Narrative
+# numbers are descriptive actuals, not targets.
+
+project:
+  title: "The Annotated Murder"
+  author: "Vesper Blythe"
+  status: "Published (frozen) — reverse-engineered reference scaffold"
+  genre: "Cozy Mystery / Amateur Sleuth"
+
+paths:
+  state: "STATE.yaml"
+  canon_dir: "canon"
+  voice_bible: "voice-bible.md"
+  chapters_dir: "chapters"
+  research_dir: "research"
+  manuscript_out: "exports/manuscript.md"
+  voice_samples: "voice-samples.md"
+  promises: "promises.yaml"
+  style_sheet: "style-sheet.md"
+  findings: "findings.yaml"
+  system_ledger: ""
+  research_ledger: ""
+  session_notes: ".claude/session-notes.md"
+
+locked_reference:
+  - "canon/characters.md"
+  - "canon/timeline.md"
+  - "canon/world-rules.md"
+  - "voice-bible.md"
+  - "voice-samples.md"
+
+narrative:
+  pov: "third person limited, single POV"
+  pov_character: "Callie Thorne"
+  pov_characters: []
+  tense: "past"
+  serial_comma: true
+  chapter_word_target: 2890
+  chapter_word_tolerance: 0.25
+  total_word_target: 22659
+  total_chapters_planned: 8
+
+voice_rules:
+  # Retrofit: banned lists intentionally empty — this voice is being
+  # described, not prescribed. See voice-bible.md.
+  banned_words: []
+  banned_in_narration: []
+  banned_anachronisms: []
+  allowed_dialogue_tags:
+    - "said"
+    - "asked"
+    - "answered"
+    - "replied"
+  specificity_pairs: {}
+  banned_ai_tics_reviewed: "2026-07-27"
+  banned_ai_tics:
+    - "delve"
+    - "tapestry"
+    - "testament"
+    - "underscore"
+    - "boasts"
+    - "meticulous"
+    - "intricate"
+    - "myriad"
+    - "plethora"
+    - "palpable"
+    - "profound"
+    - "unwavering"
+    - "vibrant"
+    - "seamless"
+    - "garner"
+    - "foster"
+    - "navigate"
+    - "quiet confidence"
+    - "quiet resolve"
+    - "quiet dignity"
+    - "quiet fury"
+    - "little did he know"
+  lint_suppressions: {}
+  motifs:
+    - motif: "bergamot tea ritual"
+      phrasings: ["bergamot", "the same tin", "three-minute steep", "Eleanor's mug"]
+      intent: "Remembrance disguised as habit; its taste tracks whether Callie is present in her own life."
+      chapters: [1, 2, 6, 8]
+    - motif: "the floorboard"
+      phrasings: ["stepped over the floorboard", "the courtesy of not waking her"]
+      intent: "Grief as habit; ch8's deliberate step-on marks choosing the living over the ghost."
+      chapters: [1, 2, 3, 4, 5, 6, 8]
+    - motif: "rain on windows"
+      phrasings: ["the rain", "tapping the glass", "the sound of safety"]
+      intent: "Inside vs. outside; the safety reading is re-negotiated by the end."
+      chapters: [1, 2, 3, 4, 5, 6, 7, 8]
+    - motif: "margins as voices"
+      phrasings: ["the pressure of the hand", "the room narrowed", "margin notes"]
+      intent: "Handwriting carries the living presence of writers; the series' core mechanism."
+      chapters: [1, 2, 3, 4, 5, 8]
+    - motif: "reading hands"
+      phrasings: ["She had read hands", "effortful stillness", "louder than any tremor"]
+      intent: "Callie reads people as documents; over-control, not tremor, is the tell (Gus canon)."
+      chapters: [1, 3, 5, 7]
+  named_emotions:
+    - "felt a surge of"
+    - "felt a wave of"
+    - "a wave of relief"
+    - "a pang of"
+    - "couldn't help but"
+    - "a mix of"
+    - "filled with dread"
+    - "heart swelled"
+    - "overcome with"
+
+metrics:
+  min_sentence_length_stdev: 6.0
+  max_same_opener_share: 0.30
+  max_participial_opener_share: 0.08
+  max_adverb_rate: 12.0
+  max_named_emotion_rate: 2.0
+  max_same_chapter_opening_share: 0.25
+  max_direct_answer_share: 0.65
+
+crutch_phrases:
+  min_length: 3
+  max_length: 6
+  min_occurrences: 3
+  ignore_dialogue: true
+
+typography:
+  smart_quotes: true
+  em_dash_from_double_hyphen: true
+  ellipsis_character: true
+  collapse_double_spaces: true
+  scene_break: "#"
+  leading_apostrophe_words:
+    ["em", "til", "till", "tis", "twas", "round", "cause", "bout", "n", "er", "im"]
+
+revision_mining:
+  min_pattern_occurrences: 3
+  marker: ".claude/.last-mined"
+
+authoring:
+  interview_depth: 3
+  scrap_file: true
+  max_edit_share: 0.25
+  harvest_per_chapter: 2
+
+routing:
+  escalation_path: ["drafter", "continuity-checker", "structural-editor"]
+  escalate_after_failures: 2
+  profile: "balanced"
+  profiles:
+    balanced: {}

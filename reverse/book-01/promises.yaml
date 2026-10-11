@@ -1,0 +1,174 @@
+# The Chekhov Ledger — setups awaiting payoff (The Annotated Murder)
+#
+# Retrofitted from the finished book's chapter notes (reverse-scaffold
+# import, 2026-10-11). Rows with deferred_to_series: true are the deliberate
+# series doors — the finished Book 1 hangs them and pays none of them;
+# they are the property of later books (Book 2 owns P012/P013).
+
+promises:
+  - id: "P001"
+    promise: "Pike's annotations he won't show yet — 'There's a great deal to — well. After.'"
+    introduced_ch: 1
+    kind: "mystery"
+    weight: "loud"
+    payoff_by_ch: "TBD"
+    paid_in_ch: 4
+    paid_how: "The trail the annotations promised is walked: S.R./J.W. initials (ch2) → the 140-acre fraud (ch3) → 'S.R. iussit', the minister's murder (ch4)."
+    deferred_to_series: false
+    notes: ""
+  - id: "P002"
+    promise: "Eleanor's death rhymed with Pike's poisoning — 'There had been nothing to find, and nothing anyone could have done.'"
+    introduced_ch: 1
+    kind: "mystery"
+    weight: "whisper"
+    payoff_by_ch: "TBD"
+    paid_in_ch: ""
+    paid_how: ""
+    deferred_to_series: true
+    notes: "Deliberate, revisitable ambiguity (canon-decisions.md #6): canon says natural; the door is never closed on the page. Do not resolve casually."
+  - id: "P003"
+    promise: "Eli Townsend's shredded nerves — a man 'who had been expecting to be blamed for this his whole life.'"
+    introduced_ch: 1
+    kind: "debt"
+    weight: "plain"
+    payoff_by_ch: 7
+    paid_in_ch: 7
+    paid_how: "Cleared via Callie's evidence; visits the shop with still hands and a single nod; later seen standing upright at his table."
+    deferred_to_series: false
+    notes: ""
+  - id: "P004"
+    promise: "Ralston's vanished hour at the auction — down the back corridor at lot three, never seen returning."
+    introduced_ch: 1
+    kind: "question"
+    weight: "whisper"
+    payoff_by_ch: 6
+    paid_in_ch: 6
+    paid_how: "Eli's corridor sighting (ch5) + the staff entrance log (exit 7:12 vs. body 7:21) convert the absence to evidence."
+    deferred_to_series: false
+    notes: ""
+  - id: "P005"
+    promise: "The six manuscript pages — pp. 31–36 cleanly torn from Pike's archive table."
+    introduced_ch: 2
+    kind: "object"
+    weight: "loud"
+    payoff_by_ch: 7
+    paid_in_ch: 7
+    paid_how: "Recovered from the locked desk drawer at Ralston Hall alongside the dropper bottle; lab matches the residue."
+    deferred_to_series: false
+    notes: ""
+  - id: "P006"
+    promise: "Mae's too-specific question — not 'what was he researching' but 'where are his papers now'; the hands that stop at 'threads.'"
+    introduced_ch: 2
+    kind: "question"
+    weight: "plain"
+    payoff_by_ch: 7
+    paid_in_ch: 7
+    paid_how: "The doorstep confession: 'There's a Bible on the shelf in my parlor. My grandmother's hand is in it... I could have shown you. I didn't.'"
+    deferred_to_series: false
+    notes: "Interim payment in ch4 (the kitchen story)."
+  - id: "P007"
+    promise: "The 140 acres — Wren's true line three degrees west of the recorded one."
+    introduced_ch: 3
+    kind: "mystery"
+    weight: "loud"
+    payoff_by_ch: 7
+    paid_in_ch: 7
+    paid_how: "Motive locked via the register (ch5), argued to Cross (ch6), and the scandal breaks publicly (ch7)."
+    deferred_to_series: false
+    notes: "The land-restitution legal aftermath itself stays open — P011."
+  - id: "P008"
+    promise: "J. Fenn's genealogical visit — 'a descendant of the robbed, coming to look at the same records.'"
+    introduced_ch: 5
+    kind: "question"
+    weight: "whisper"
+    payoff_by_ch: "TBD"
+    paid_in_ch: ""
+    paid_how: ""
+    deferred_to_series: true
+    notes: "Dissolved in-chapter on timing (researching before anyone knew); no book through Book 5 consumes the thread — available for future use."
+  - id: "P009"
+    promise: "Wren's farewell — 'I am leaving tonight' — and whatever became of him."
+    introduced_ch: 5
+    kind: "mystery"
+    weight: "whisper"
+    payoff_by_ch: "TBD"
+    paid_in_ch: ""
+    paid_how: ""
+    deferred_to_series: true
+    notes: "Open by design; fate after flight never stated."
+  - id: "P010"
+    promise: "Ralston's threat — 'I would so hate to see what happened to Wendell happen to someone else.'"
+    introduced_ch: 5
+    kind: "threat"
+    weight: "loud"
+    payoff_by_ch: 7
+    paid_in_ch: 7
+    paid_how: "The arrest answers it; the trembling hands and Silas's stare in ch5 become the book's proof of who decided."
+    deferred_to_series: false
+    notes: ""
+  - id: "P011"
+    promise: "Land claims 'could be challenged in court' — the families' restitution."
+    introduced_ch: 6
+    kind: "debt"
+    weight: "plain"
+    payoff_by_ch: "TBD"
+    paid_in_ch: ""
+    paid_how: ""
+    deferred_to_series: true
+    notes: "Series-level consequence; Book 1 shows only the social damage."
+  - id: "P012"
+    promise: "The anonymously annotated botanical — margins full of a hand 'not quite English and not quite anything else.'"
+    introduced_ch: 8
+    kind: "mystery"
+    weight: "loud"
+    payoff_by_ch: "TBD"
+    paid_in_ch: ""
+    paid_how: ""
+    deferred_to_series: true
+    notes: "Book 2's engine (the annotator is Marguerite Dabney; the cipher is botanical). Owned by Book 2."
+  - id: "P013"
+    promise: "The knock — two unhurried knuckles, 'the knock of someone who had decided they would wait.'"
+    introduced_ch: 8
+    kind: "question"
+    weight: "loud"
+    payoff_by_ch: "TBD"
+    paid_in_ch: ""
+    paid_how: ""
+    deferred_to_series: true
+    notes: "Owned by Book 2's opening."
+  - id: "P014"
+    promise: "The rituals as debt — bergamot, floorboard, glass, all carried for Eleanor."
+    introduced_ch: 1
+    kind: "object"
+    weight: "plain"
+    payoff_by_ch: 8
+    paid_in_ch: 8
+    paid_how: "The triad resolves in-chapter: tea tastes right, the floorboard is stepped on deliberately, the glass is picked up 'as a tool she has chosen to use.'"
+    deferred_to_series: false
+    notes: "Series keeps developing all three (series-bible story-memory)."
+
+motifs:
+  - motif: "bergamot tea ritual"
+    phrasings: ["bergamot", "the same tin", "three-minute steep", "Eleanor's mug"]
+    intent: "Remembrance disguised as habit; its taste tracks whether Callie is present in her own life."
+    chapters: [1, 2, 6, 8]
+  - motif: "the floorboard"
+    phrasings: ["stepped over the floorboard", "the courtesy of not waking her"]
+    intent: "Grief as habit; ch8's deliberate step-on marks choosing the living over the ghost."
+    chapters: [1, 2, 3, 4, 5, 6, 8]
+  - motif: "rain on windows"
+    phrasings: ["the rain", "tapping the glass", "the sound of safety"]
+    intent: "Inside vs. outside; the safety reading is re-negotiated by the end."
+    chapters: [1, 2, 3, 4, 5, 6, 7, 8]
+  - motif: "margins as voices"
+    phrasings: ["the pressure of the hand", "the room narrowed", "margin notes"]
+    intent: "Handwriting carries the living presence of writers; the series' core mechanism."
+    chapters: [1, 2, 3, 4, 5, 8]
+  - motif: "reading hands"
+    phrasings: ["She had read hands", "effortful stillness", "louder than any tremor"]
+    intent: "Callie reads people as documents; over-control, not tremor, is the tell (Gus canon)."
+    chapters: [1, 3, 5, 7]
+  - motif: "lavender"
+    phrasings: ["lavender", "the smell of sachets"]
+    intent: "Mae's warmth as armor; the smell that will not wash out of the coat."
+    chapters: [2, 4, 7, 8]

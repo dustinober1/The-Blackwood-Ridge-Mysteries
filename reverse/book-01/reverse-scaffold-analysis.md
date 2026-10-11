@@ -30,8 +30,8 @@
 - **Role**: Protagonist; sole POV character. Bookbinder/archivist, owner of The Foxed Page bookshop on the town square; amateur sleuth.
 - **First appearance**: ch1
 - **Traits**: CONFIRMED — reads marginalia, handwriting pressure, and ciphers professionally ("the pressure of the hand... always matters," ch1); catalogues observations without deciding their meaning ("She filed it the way she filed everything," ch1); emotionally guarded — "handled the dead the way she handled documents — with clean hands, at arm's length" (ch1). Ink-stained fingers she stops scrubbing by ch7.
-- **Age**: CANON GAP — never stated directly; derivable as ~35 from "brewed the same tea every morning since she was nineteen" (ch1) + "every morning for sixteen years" (ch2).
-- **Physical description**: CANON GAP — only ink-stained fingers (ch1, ch7), reading glasses on a chain (ch1); no hair/eye/build description anywhere.
+- **Age**: 35 at Book 1, text-derived (ch1 + ch2; bible concurs) — resolved, see canon-decisions.md #1
+- **Physical description**: cardigans, glasses on a chain, ink-stained fingertips, vintage magnifier collection `[bible]`; hair/eye never given — documented blank
 - **Relationships**: Eleanor Thorne (mother, deceased ~2 years); Wendell Pike (closest thing to a colleague, "never once used the word friend," ch1); Mae Hartwell ("the closest thing she had to family," ch4); Augustus Ralston (patron of her tools, later the killer); Dalton Cross (adversary → uneasy respect); Eli Townsend (protective).
 
 ### Eleanor Thorne
@@ -58,7 +58,7 @@
 - **Role**: Antagonist; killer. Old-money patriarch; the town's patron.
 - **First appearance**: ch1
 - **Traits**: CONFIRMED — silver hair, cashmere, warm baritone, "perfect smile," adjusts his cuff link twice in the same spot (ch1); lowers his voice rather than raising it (ch1); says "Good girl" and "sweetheart" (ch1, ch3, ch4); never signs anything — "Gus funded things, and the things he funded moved on their own" (ch4); descends from Silas Ralston, whose flat stare the text superimposes on his face (ch5, ch7).
-- **Age**: CANON GAP — older man, never stated.
+- **Age**: early sixties `[bible]` — resolved, see canon-decisions.md #12.
 - **Physical description**: CONFIRMED — silver hair, soft expensive clothes, controlled hands whose over-stillness and eventual fine tremor Callie reads (ch3, ch5).
 - **Relationships**: descendant/executor of Silas Ralston's fortune; patron of Callie (scanner, $8,000), the archives (climate control), the Historical Society, the library wing; murderer of Wendell Pike (poisoned tea; the six torn pages and a glass dropper bottle found in his locked desk drawer, ch7).
 
@@ -91,7 +91,7 @@
 - **Role**: Supporting; Callie's surrogate family; keeper of the family secret.
 - **First appearance**: ch2
 - **Traits**: CONFIRMED — silver hair, good cardigan, lavender smell, perpetually busy hands (knitting, stirring, straightening — "Still hands let the guilt in," ch2); unhurried cadence, "honey," gardening/domestic metaphors, dropped when she speaks plainly (ch4); learned her grandmother's story of the theft and murder at age nine and held it ~fifty years (ch4); her grandmother's hand is in the family Bible in the parlor (ch7).
-- **Age**: CANON GAP — derivable ~59–60 from "I was nine years old" + "fifty years" (ch4); never stated.
+- **Age**: ~59–60 at Book 1, text arithmetic ("nine years old" + "fifty years", ch4) — resolved toward the text; both bibles' "early seventies" superseded (canon-decisions.md #11).
 - **Physical description**: CONFIRMED — silver hair; small hands (ch4).
 - **Relationships**: descendant of Rev. Thomas Hartwell; deceased husband ("God rest him," ch4) and unnamed children/grandchildren; 30-year bond with Callie and Eleanor.
 
@@ -100,7 +100,7 @@
 - **Role**: Sheriff; institutional antagonist turned ally.
 - **First appearance**: ch1
 - **Traits**: CONFIRMED — tall, going soft at the middle, permanent tan line at the forehead, irons his own uniform (ch1); hat etiquette (removes it on thresholds, ch2, ch7); rubs the back of his neck when calculating (ch2, ch6); proceduralist — "I work baggies. Chain of custody" (ch6); keeps a polished cell (ch6–7).
-- **Age**: CANON GAP — middle-aged implication only.
+- **Age**: mid-fifties, nearing retirement `[bible]` — resolved, see canon-decisions.md #13.
 - **Physical description**: CONFIRMED — as above (ch1).
 - **Relationships**: Augustus Ralston (never called him anything but "Gus" until the arrest); Eli Townsend (wrong suspect); Callie Thorne (warning → conversion → handshake, ch7).
 
@@ -109,7 +109,7 @@
 - **Role**: Supporting; wrong suspect; the stakes of the middle act.
 - **First appearance**: ch1
 - **Traits**: CONFIRMED — anxious: flinches, talks with his hands, twists his hoodie string, dark circles, overshot apologies (ch1); has "spent his whole short life expecting to be blamed" (ch5); borrowed a dog-eared paperback without permission and returned it to a wrong shelf near the back office during the auction — his unspoken alibi (ch5); witnessed Ralston exiting the back corridor minutes before the body was found (ch5); cleared (ch7), hands still for the first time.
-- **Age**: CANON GAP — "boy," "young man"; never stated.
+- **Age**: early twenties `[bible]` — resolved, see canon-decisions.md #10; college dropout, arrived by bus.
 - **Physical description**: CONFIRMED — hoodie, dark circles, restless hands (ch1, ch5).
 - **Relationships**: employee at the Ridgeway Auction House; shouted at Pike a week before the murder over a misfiled document (ch2); protected by Callie.
 
@@ -173,7 +173,7 @@ Story-chronological order. The manuscript is linear in its present-day thread; a
 - **The Blackwood Ridge Historical Society**: restored Victorian two streets off the square, green gingerbread trim, Ralston foundation plaque; visitor's register that regulars annotate in the margins; collections room holding a 1962 Ralston estate lot that contains Wren's keystone volume — CONFIRMED (ch5). Doors close and the sign comes down after the arrest — CONFIRMED (ch7).
 - **Ridgeway Auction House**: converted tobacco warehouse on the far edge of town; back offices down a rear corridor; staff entrance log (Ralston signed out 7:12 pm) — CONFIRMED (ch1, ch6).
 - **Ralston Hall**: the house on the hill, built on the stolen acreage; portrait gallery where the patriarch's eyes follow visitors; a locked desk drawer — CONFIRMED (ch7).
-- **Town square geography**: town hall on the square (archives below), shops facing it (bakery, barbershop, post office), a bench under an old oak where retired men render silent verdicts, brick walkways, lamps described as "gas-lamp lights" (ch1) despite the contemporary setting — CONFIRMED as written; the gas-lamp detail is flagged LOW CONFIDENCE below.
+- **Town square geography**: town hall on the square (archives below), shops facing it (bakery, barbershop, post office), a bench under an old oak where retired men render silent verdicts, brick walkways, gas-lamp-**style** lighting (deliberate historic-district character per the world bible — resolved, canon-decisions.md #20).
 - **Ralston patronage web**: the library wing, the scanner, the archives' climate control, the Historical Society and its annual lecture (Mae serves punch), council goodwill — CONFIRMED (ch2, ch4, ch5). "The Ralston name... opened doors and silenced questions" for 180 years (ch2, ch7).
 - **A council master key "opens any lock on the square"** — stated when Ralston lets himself into the shop (ch5); the shop's front door is thereby keyed to town-council access — CONFIRMED (odd but explicit).
 - **Bergamot tea as signature**: exactly two people in Callie's experience drink it as ritual, not drink — Callie and Pike — CONFIRMED (ch1). This is what ties the murder weapon to someone who knew Pike's habit (ch6).
@@ -314,33 +314,25 @@ The manuscript is mechanically clean: POV and tense hold across all 8 chapters, 
 
 ## Open Questions / Flags
 
-- `BOUNDARY` — Each unit file opens with a 6–8 line YAML front-matter block (`n`, `title`, `pov`, `word_target`, `status`, `words`) before the prose; manuscriptkit's unit word counts include it (e.g. ch-01 file = 3,224 vs front-matter `words: 3092`). Import must strip front matter when materializing `chapters/chNN/draft.md`; prose-only total across the book is ≈21,871 vs the 22,786 raw count.
-- `CANON GAP` — Callie's age is never stated; ~35 is a derivation from ch1 ("since she was nineteen") + ch2 ("sixteen years").
-- `CANON GAP` — Callie's physical description (hair, eyes, build) is never given beyond ink-stained fingers and reading glasses on a chain.
-- `CANON GAP` — Callie's father is never mentioned, even obliquely.
-- `CANON GAP` — Eleanor's surname never appears in the text; "Eleanor Thorne" is inferred from Callie's surname.
-- `CANON GAP` — Eleanor's profession/expertise is never stated (she ran the shop, read and wrote margins, "lived alone with her work").
-- `CANON GAP` — Eleanor's death is ruled natural heart failure (ch1), but the narration deliberately rhymes it with Pike's poisoning ("There had been nothing to find, and nothing anyone could have done"); the book never confirms or excludes foul play. Presumed deliberate ambiguity for the series — confirm it is deliberate, not dropped.
-- `CANON GAP` — Who tore pp. 31–36 from the archives is never shown, and the break-in is never reconciled with the archives' sign-in log that Callie treats as "the law of the place" (ch2). Window: between the auction (Day 1 night) and Callie's visit (Day 2, 3:47 pm). Ralston is the implied actor (council key / patronage), but the text never closes this.
-- `CANON GAP` — The present-day year is never stated; contemporary setting implied only by smartphones and climate control (ch1, ch5, ch6).
-- `CANON GAP` — Blackwood Ridge's location within Virginia, population, and nearest county seat are never given (a "county records office" and historical "county magistrate" are referenced, ch3–4).
-- `CANON GAP` — Eli Townsend's age and job title at the Ridgeway Auction House are never stated.
-- `CANON GAP` — Mae's married surname vs. Hartwell descent is unresolved: she is "Mae Hartwell" and Rev. Hartwell's descendant, but her deceased husband is "God rest him" (ch4) — whether Hartwell is her maiden or married name is never said.
-- `CANON GAP` — The poison/compound is never named ("the compound in Pike's tea," ch7).
-- `CANON GAP` — The legal outcome beyond arrest (trial, plea, sentencing) is never shown; the book ends before any court process.
-- `CANON GAP` — The keystone volume is never titled ("a slim, clothbound volume of regional survey records, undated," ch5).
-- `CANON GAP` — Where Jacob Wren fled is never stated ("I am leaving tonight," ch5).
-- `CANON GAP` — J. Fenn is identified only by initial; the thread is deliberately dissolved but never resolved (ch5).
-- `CANON GAP` — The landlord/owner of The Foxed Page's building is never named; Ralston's threat is anchored on "the lease on this building comes up next year" (ch5) without saying who holds it.
-- `CANON GAP` — The five robbed families are named but only Tuckers and Fenns ever appear; the Coles and Marrs exist as names only.
-- `LOW CONFIDENCE` — Day-offsets soften across ch7→ch8: Eli is cleared "the second afternoon," Cross's handshake and Mae's knock read as the same evening, but ch8 opens on "the morning after" and counts from "the shop had been open for a week," whose anchor is ambiguous (ch7–ch8).
-- `LOW CONFIDENCE` — "The square's gas-lamp lights" (ch1) sits oddly with the contemporary setting (smartphones, climate control); presumably decorative reproductions, but the text never says so.
-- `LOW CONFIDENCE` — Silas Ralston's portrait is placed in the town hall (ch5) and in Ralston Hall's portrait gallery (ch7); two portraits are possible, but the text never clarifies whether these are distinct.
-- `LOW CONFIDENCE` — Mae's age only derivable (~59–60) from "I was nine years old" + "fifty years" (ch4); never stated.
+Review note (2026-10-11): the author directed that gaps be filled as canon
+decisions rather than left pending — see `canon-decisions.md` for every
+resolution and its source (age/appearance fills, Eleanor Thorne, the archive
+break-in actor, story-present date, geography, legal outcome, keystone
+naming, the ch7→ch8 day reading, gas lamps, portraits). The flags below are
+what remains open after those decisions; each is deliberate.
+
+- `BOUNDARY` — Each unit file opens with a 6–8 line YAML front-matter block (`n`, `title`, `pov`, `word_target`, `status`, `words`) before the prose; manuscriptkit's unit word counts include it (e.g. ch-01 file = 3,224). Import strips front matter when materializing `chapters/chNN/draft.md`. The front-matter `words:` fields are stale (pre-date the October 2026 audiobook fixes); the authoritative prose-span counts are: 3208 / 2744 / 3029 / 3168 / 3520 / 2703 / 2356 / 1931 = **22,659**.
+- `CANON GAP` — Eleanor's death is canonically natural heart failure, but the text deliberately never closes the door (the narration rhymes it with Pike's poisoning); recorded as a revisitable series ambiguity in canon-decisions.md — do not resolve casually.
+- `CANON GAP` — The poison/compound is never named ("the compound in Pike's tea," ch7); left unnamed by design.
+- `CANON GAP` — Where Jacob Wren fled is never stated ("I am leaving tonight," ch5); open by design.
+- `CANON GAP` — J. Fenn is identified only by initial; the thread is deliberately dissolved (ch5) and no later book through Book 5 consumes it; available for future use.
+- `CANON GAP` — The landlord/owner of The Foxed Page's building is never named; documented blank — Ralston's lease leverage reads as positional (council/bank goodwill), not documented ownership.
+- `CANON GAP` — The county seat and finer geography around Blackwood Ridge are unnamed; documented blank, inventible by later books.
+- `CANON GAP` — The legal mechanism between Gus Ralston's arrest (ch7) and his imprisonment (Book 2 carry-forward canon) is never specified; the outcome is canon, the process is a documented blank.
 
 ## Recommended Config Values
 
-- **chapter_word_target**: 2900 (median of the 8 unit counts: 2,760 / 3,045 flank the middle)
-- **total_word_target**: 22786 (raw; ≈21,871 prose-only — pick one convention and keep it)
+- **chapter_word_target**: 2890 (median prose-span count: 2,744 / 3,029 flank the middle)
+- **total_word_target**: 22659 (prose-span convention; the raw manuscriptkit count of 22,786 includes front matter)
 - **total_chapters_planned**: 8
 - **pov**: third-person limited; **pov_character**: Callie Thorne; **tense**: past; **serial_comma**: true (from the Voice & Style Profile below)

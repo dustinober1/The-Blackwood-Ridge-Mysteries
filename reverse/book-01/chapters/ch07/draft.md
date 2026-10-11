@@ -1,0 +1,101 @@
+# Chapter 7: The Reckoning
+
+**Status**: drafted
+**Last Updated**: 2026-10-11
+
+<!--
+  PROSE FENCE — everything between the two `---` lines below is the chapter's
+  prose and nothing else. Word counting, prose linting and manuscript
+  compilation all read only that span, so keep notes and checklists outside
+  it. Do not remove either fence.
+-->
+
+---
+
+
+# The Reckoning
+
+They went for him in the early afternoon, when the rain had thinned to a mist and the light on the hill was the color of old silver. Callie did not go to Ralston Hall. She stayed in the sheriff's office, because Cross had not told her to leave and she had not asked to, and because the thing she had set in motion was still moving and she could not yet look away from it.
+
+She heard it later, in pieces, from a deputy who had been there: how Gus had come to the door himself, in a cashmere sweater, as if he had been expecting the knock for some time. How he had listened to the warrant with his hands loose at his sides and his face composed, and how he had said, *Of course, Sheriff. Let me get my coat,* in the same warm baritone he used at every fundraiser, and how he had walked out under his own power to the car, past the family portrait gallery where the patriarch's eyes had followed every visitor for a hundred and eighty years, and down the drive of the estate that had been built, field by field and fence by fence, on the land a frightened surveyor had measured true and a bought magistrate had measured false. There had been no scene. There had been no resistance. Augustus Ralston did not make scenes. Augustus Ralston made decisions, and the one he made now — to go quietly, to keep the mask — cost him nothing he had not already spent.
+
+They brought him through the front door of the sheriff's office at half past two. Callie was sitting in the chair against the wall, her notebook in her lap, and she looked up when the door opened, and he looked at her.
+
+The look lasted three seconds, maybe four. It was the longest they had ever looked at each other, and the most honest. She had expected hatred, or the flat measuring stare she had seen the night he came to the shop, the ancestor looking out through the descendant's face. What she got was neither. What she got was bewilderment — a genuine, unguarded incomprehension, the face of a man who had spent his whole life certain that peace was worth any price, and who could not, even now, fathom why a quiet woman in a bookshop had decided the truth was worth more. His mouth opened a quarter of an inch, as if he were about to ask her the question — *why* — and then closed again, because there was no answer she could give him that he would understand, and some part of him knew it. He did not look like a man who had been caught. He looked like a man who had been misunderstood, and the tragedy of it was that he believed it, and that, from inside the hundred and eighty years his family had spent building a peace worth protecting, he was not entirely wrong.
+
+Callie held the look. She did not flinch, and she did not look away, and she did not soften, because the bewilderment he was showing her was the most honest thing he had ever given her and she owed it the respect of meeting it. They had guarded the same history, the two of them, for opposite reasons — she to honor the dead, he to bury them — and now, across the sheriff's office, with a deputy at his elbow and the cell door standing open at the end of the hall, they saw each other clearly for the first and last time.
+
+Then he looked away, and he walked to the cell, and the door closed behind him, and the lock caught, and the polished cell that Cross had kept ready for years finally held the man it had been waiting for.
+
+By dusk, the search of Ralston Hall had produced Pike's six missing manuscript pages from a locked desk drawer and a small glass dropper bottle. The state laboratory would later match the residue inside it to the compound in Pike's tea. Gus had carried both evidence and history home with him, trusting the house on the hill to keep what the town had always kept for his family.
+
+The story broke the way stories break in small towns — not in a single flash but in a long, slow tearing, the way a seam gives when you pull the thread Callie had pulled. By evening it was on the square. By the next morning it was in the valley. The Ralston name, which had opened doors and silenced questions for a hundred and eighty years, became in the space of a day the name of the thing it had been built on, and the town that had worn the name like a coat discovered, all at once, what the coat had been lined with.
+
+Callie saw the cost of it in pieces. She saw it in the Historical Society, its doors closed, its sign taken down, the green gingerbread trim looking suddenly shabby under the mist. She saw it in a child on the square — one of Mae's grandchildren, she thought, though she could not be sure at that distance — kicking a ball along the brick walk where the Ralston plaque had been, the plaque gone overnight, the bolt-holes still in the stone like small blank eyes. She saw it in old Mrs. Tucker, who had rented her own family's land from the county for four generations and who stood at her gate the morning the story broke with her hand over her mouth and did not move for twenty minutes. She saw it in the faces of people she had known all her life, who looked at her now the way they might look at the person who had set the fire, even the fire that had needed burning — not with hatred, exactly, but with the particular wariness of people who have learned that the ground they were standing on was not what they thought it was, and who blamed the surveyor.
+
+She kept the shop open. She had nowhere else to be.
+
+Eli Townsend came to her on the second afternoon. Cross had told him, quietly, in the back of the sheriff's office, that he was cleared and would not be charged, and that the state owed him an apology it would not formally make. Eli had stood through it shaking, unable to believe it, because he had spent his whole short life expecting to be blamed for things and had no mechanism for the experience of being believed.
+
+He came into the shop and stood in front of her counter and looked at her. His hands were at his sides, and they were not fidgeting for the first time she had ever seen, and that was how she knew it was real. He tried to speak. He could not. He gave her a nod — small, single — and turned and walked out. Callie stood behind her counter with something pressing against her ribs in a way that had no name.
+
+She saw him once more, a few days later, through the auction-house window as she passed — standing at the long display table where she had found him hunched and hiding, only now he was upright, his shoulders no longer the shoulders of a man trying to be invisible. He was not all right. But he was standing in his own shape for the first time since she had known him, and she counted that as the one thing in the whole wretched business that she did not have to feel the cost of.
+
+Cross came last, at the end of the afternoon, when the shop was empty and the light was going amber. He took off his hat on the threshold, the way he always did, and he stood in the door of her shop with his hands at his sides and the pressed crease in his uniform and the look on his face of a man who had something to say and no practice saying it.
+
+"Ms. Thorne." He stopped. He started again. "I'm not going to stand here and tell you I was wrong. A man in my position doesn't get that luxury." He took a breath. "The case is closed. It's closed right. And I am—" He paused over the word, testing its weight. "—grateful, in a way I'm not accustomed to being."
+
+He held out his hand.
+
+Callie looked at it. It was a large hand, calloused, the hand of a man who ironed his own uniform, and it was extended to her across her own counter on the level of equality, which was a thing he had never offered her and which she had never asked for, and the offering of it was costing him more than the arrest had cost Gus. She reached across the counter and she took it, and they stood there for a moment in the amber light with their hands clasped, and it was small, and it was enormous. She held it for the count of two, and let go.
+
+He let go. He put his hat back on. He left without another word, and the bell rang behind him, and the shop was quiet.
+
+It was full dark when the knock came.
+
+Not the bell. The knock. Two knuckles against the glass of the front door, unhurried, and then silence, and then the knock again. Callie pulled on her coat against the evening chill and came out of the back room, stopping just before the floorboard creaked. Through the glass she could see the shape of Mae Hartwell with a covered dish in her hands and her silver hair done and her good cardigan on, standing on the step in the dark, waiting to be let in instead of walking in, the way she had walked in for thirty years.
+
+Callie opened the door.
+
+They looked at each other. Mae's face was the face Callie had feared most — not angry, not forgiving, just clear, the face of a woman who had spent fifty years holding a door shut and who had just watched the door come off its hinges and was standing now in the draft of it. She did not come in. She held out the dish.
+
+"I brought you soup."
+
+"Thank you."
+
+Mae did not step over the threshold. She stood on the step with the mist in her hair and her hands, when the dish was taken, going to the clasp of her cardigan, and she said, in the unhurried cadence that was hers and no one else's, "There's a Bible on the shelf in my parlor. My grandmother's hand is in it. She wrote what she knew. I could have shown you, Callie. I could have shown anyone. I didn't."
+
+She did not ask for absolution. She said it the way Wren had written his cipher — for the record, because the record deserved it, not because she believed it would set anything right. Her hands, when the dish was gone, had nothing to do, and Callie watched her will them still at her sides, and the stillness of them was the same stillness she had seen in the kitchen the night of the plea, only now it was a chosen stillness, the stillness of a woman who had finally stopped running from the thing she had been carrying. Callie stood in the doorway of her own shop with the warm dish in her hands and received it the way she received every truth she had ever been given: quietly, completely, without flinching, without comfort.
+
+"I know," Callie said. It was the only thing there was to say, and it was true, and it changed nothing, and Mae nodded once, the small nod of a woman who had expected nothing else, and she turned and walked away down the wet street, and the mist closed over her, and she was gone.
+
+Callie closed the door. She set the soup on the counter. She stood in the shop with the lights off and the smell of the evening coming in through the crack of the door, and after a while she became aware of a smell on her own clothes, at the shoulder where Mae had leaned near her in the doorway — sweet, herbal, the smell of sachets and warm kitchens and every soup that had ever been brought to a woman who was not, quite, alone. Lavender. Mae's lavender, on her coat, on her skin, in the weave of her, and she knew, standing there, that she could wash the coat and wash it again and the smell would stay, because some presences do not come out, because they have gone in too deep. The cost of being loved by someone for thirty years is that you carry them whether you are speaking or not.
+
+She did not wash the coat. She took it off and hung it on the hook by the door and left the lavender where it was, and she went into the back room, and the magnifying glass was still on the table where she had set it down, and she did not pick it up. She looked down at her hands in the grey light, and they were stained — the ink stains at the beds of her fingernails, the ones she had scrubbed at for two years and never quite removed, the small daily proof of the work she had inherited and the work she had chosen. She had stopped scrubbing them. She did not remember when. She only knew, standing there, that the stains were no longer something she was trying to get clean of; they were the color her hands had gone, and she would carry them, and the work, and the cost of the work, for whatever came next.
+
+She sat down in the dark and she breathed, and outside the rain came down on the town she had wounded.
+
+---
+
+## Scraps Used
+
+- n/a — chapter imported verbatim from finished prose (reverse-scaffold import, 2026-10-11); no scraps existed.
+
+## Revision Notes
+
+- Imported verbatim from `books/book-01/manuscript/ch-07.md` at commit c81bc35 (reverse-scaffold import, 2026-10-11). Book 1 is published and frozen; this packet is reference, not a drafting surface.
+
+## Continuity Self-Check
+
+Retrofit packet — the checklist below is the standard gate-facing list; no gate has run (see gate-report.md). The reverse-scaffold analysis and reconciliation notes serve as the continuity record until then.
+
+- [ ] All character names spelled per canon/characters.md
+- [ ] Timeline anchor matches canon/timeline.md
+- [ ] No contradictions to canon/characters.md or canon/world-rules.md
+- [ ] Voice matches voice-bible.md (run `python3 scripts/lint_prose.py chapters/ch07/draft.md`)
+- [ ] POV consistent — no access to any other character's interiority
+- [ ] Tense consistent (past)
+- [ ] Every outline beat rendered
+- [ ] Threads opened/closed reflected in STATE.yaml
+- [ ] No placeholder text remains inside the prose fence
+- [ ] Every scene's outline `Value shift` actually lands on the page

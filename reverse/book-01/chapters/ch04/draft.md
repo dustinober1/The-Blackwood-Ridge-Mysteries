@@ -1,0 +1,143 @@
+# Chapter 4: The Escalation
+
+**Status**: drafted
+**Last Updated**: 2026-10-11
+
+<!--
+  PROSE FENCE — everything between the two `---` lines below is the chapter's
+  prose and nothing else. Word counting, prose linting and manuscript
+  compilation all read only that span, so keep notes and checklists outside
+  it. Do not remove either fence.
+-->
+
+---
+
+
+# The Escalation
+
+She found the murder on a Wednesday morning, in the back third of the 1843 ledger, in a margin no wider than her thumb.
+
+She had been two days at it. The notes had been getting darker as she worked deeper into the volume — Wren's hand tightening, the abbreviations crowding, the cipher layer thickening where the surveyor had most feared being read. She had learned, over those two days, to read his fear: in the pressure of the nib, in the words he crossed out and rewrote, in the stretches where the Latin gave way to the private cipher because the thing he was setting down was too dangerous to say in any tongue a clerk might recognize. The survey lines had been the beginning. The land transfers had been the middle. This, in the back of the 1843 ledger, was what lay underneath.
+
+She had Eleanor's glass in her hand. She did not remember picking it up. It sat in her palm warm from her grip, the brass of it the same temperature as her skin, and the margin was all that held — four inches, a dead language, what a frightened man had seen. Somewhere above her a door opened and closed in the town hall, and a draft stirred the basement air, and she was conscious, for one beat, of how alone she was in a room with what had gotten a man killed.
+
+*Minister moriturus. Equus, via nota. Non casus.*
+
+The minister about to die. A horse. A known road. Not an accident.
+
+The cipher beneath it resisted her at first. She tried it as a date, then as a bearing-correction — the habits she had taught herself on the easier notes — and it would not read either way. It was not a number at all. She sat back, breathed, and tried it as a name; and the name came. She thought, with a small cold drop, of the six pages torn from Pike's manuscript, and understood now what those pages had been translating. This was the source. She pressed the glass closer and read the name letter by letter, one shape at a time: *S.R. iussit* — Silas Ralston ordered it.
+
+She did not move. The rest of the room fell away — the hum, the cold stone — until there was nothing but the shape of those three letters and the verb that followed them, and the meaning settling in, slow and final.
+
+Reverend Thomas Hartwell — Mae's ancestor, the town's minister — had found the fraud. Days later he was dead, thrown from a horse on a road he had ridden a thousand times. The magistrate had ruled it an accident. The magistrate, Wren's note went on to specify in the cipher beneath, *iudex emptus*, the magistrate bought.
+
+She had to set the glass down for a moment, because the hand had changed. Down here, at the bottom of the margin, Wren's careful small letters had come apart. The nib had torn the paper in two places where he bore down too hard. He had written Silas Ralston's name in full — not the initials he used everywhere else, but the whole name, *Silas Ralston*, as if the caution of the cipher had finally given way under the weight of what he was setting down — and then he had gone back and tried to score it out, and the scoring was half-hearted, the kind of scratching-out a man does when he knows he ought to hide a name and cannot bring himself to. The nib had splintered on the last stroke. There was a place where the ink had bled where his hand had stopped, and held, and shaken — a surveyor setting down the only testimony he could, in the only language that would outlive the men who would kill him for it. He had wanted it found. He had wanted it found even as he hid it. Callie understood that, suddenly: he had written it for a reader who had not been born yet.
+
+The riding accident had been staged. The minister had not died by accident. And the man who had ordered it was the same man whose stolen land had built the house on the hill, the same man whose name was on the plaques, the same man whose descendant had stood at Callie's counter two nights ago and offered her sourdough and asked, in a warm baritone, about unreliable hands.
+
+She gripped the glass until the brass bit into her fingers.
+
+The word came to her in Wren's voice, across the century and a half between his hand and her eye — the word he had not been able to leave unspoken and had not dared to speak plainly — the word Pike had been reaching for and that the town had spent a hundred and eighty years not saying:
+
+Killed.
+
+The sentence snapped. The room came back — the cold, the hum, the weight of the stone — and Callie sat in Pike's chair and understood, finally and completely, why someone had poisoned his tea.
+
+She sat for a long time. She thought about the long unbroken chain of bought magistrates and quiet silences and adjusted cuff links that connected that 1843 morning to this one. She thought about Pike sitting in this same chair, reading this same note, understanding this same thing, and then pouring himself a cup of bergamot tea and not knowing that the cup had already been poured for him. She closed the ledger. She laid her hand flat on the cover, over the place where Wren's hand must have rested when he shut the book for the last time, and she held it there until the leather was warm.
+
+She went home and slept badly. The next morning her key did not work.
+
+She stood at the archive door and tried it twice, certain she was doing something wrong, and then a third time with the deliberate slowness of a woman who suspects the lock and not herself. The clerk — a young man from the county office she did not know well — appeared at the end of the hall, apologetic already, a young man with rehearsed news.
+
+"Ms. Thorne? I'm sorry. There's been — your access is under review. Town council decision, effective yesterday. Pending the investigation." He held out a printed notice in a folder, as if the folder made it less of a thing. "It's about preserving evidence, the letter says. Materials relevant to an active case. I'm real sorry. You can appeal to the council."
+
+Callie took the folder. She did not open it. She did not need to. *Pending review.* *Effective yesterday.* The words of a machine. Gus had not signed the letter. Gus never signed anything. Gus funded things, and the things he funded moved on their own, and by the time the movement reached Callie's key it wore the face of procedure.
+
+She turned to go, and there he was.
+
+He had timed it perfectly, the way he timed everything — arriving at the precise moment that looked like coincidence to anyone who wasn't counting. He came up the town hall steps with his hat in his hand and a concerned wrinkle between his brows, and he saw her and stopped as if she were the last person he'd expected.
+
+"Callie." The wrinkle deepened. "I heard about the archive business. I'm sure it's just temporary — they're being careful, that's all. A man's dead, and the council wants to keep the records clean for the sheriff." He put a hand on her elbow, light, guiding, the touch of a man walking a lady across a street. "You know how these things are. Give it a week. It'll blow over."
+
+"Of course," Callie said. "I'm sure it will."
+
+"Good girl." The smile, the perfect smile. "You've been under such strain. Let other people carry it for a while."
+
+He left her at the top of the steps and went into the town hall, and Callie stood in the cold morning light and watched him go, and she did not need to read his hand or his voice to know what she had just seen. She would not fold. And standing there on the cold steps, she understood the leash he had always held — not the key to the archives, which was a thing that could be taken back, but the scanner he had paid for and the climate-control unit he had funded and the council goodwill that kept the lights on in her basement. He had bought the room she worked in. He had bought it years ago, with a check and a smile, and she had taken the gift without ever reading the invoice. She tucked the folder under her arm and walked home through the square, and on the way she passed the barbershop and the post office and the bench under the old oak where the retired men sat, and on every face she caught the small sliding-away look of a town that had begun to know, without anyone saying it aloud, that Callie Thorne was pulling at a thread. She caught a fragment from the bench as she passed — one of the retired men saying something about the Fenns, how one of them had been down at the county records office asking about old land grants. She filed it without breaking stride. Everyone had a reason to be curious about the past, all of a sudden. Everyone had a thread they wanted to pull or keep buried.
+
+The word on the square, by the afternoon, was that Sheriff Cross was bringing the Townsend boy in. Not arrested yet. Not yet. But the geometry was closing — the argument, the empty alibi, the nervousness that read as guilt — and Callie could feel the wrong man's case assembling itself, link by link.
+
+She thought of Eli as she had last seen him — the hoodie strings twisted to a rope between his fingers, the dark circles under his eyes, the way he had flinched at her voice before he had even registered who she was. He had been expecting to be blamed for something his whole short life. He was about to be.
+
+She was standing behind her own counter, where the lamp was warm and the shop smelled the way it always had, of leather and old paper, turning over the unfairness of having every door close at once, when the bell rang and Mae Hartwell came in.
+
+Mae did not bring soup. Mae brought herself, in her good cardigan, with her silver hair done, and she did not browse the shelves or straighten anything with her busy hands. She stood in the middle of the shop and she looked at Callie, and the look had no softness in it at all.
+
+"Come to the house tonight," Mae said. "There's something I need to tell you. And I won't say it here."
+
+Callie went.
+
+The Hartwell kitchen was warm and close and smelled of lavender and bread and the faint sweet decay of apples in a bowl. Through the doorway she could see the parlor, and on its shelf a worn family Bible, spine cracked, a bookmark of faded ribbon holding a place someone had not closed. Mae moved through the kitchen — gathering, stirring, setting out — but her hands were the busiest Callie had ever seen them, and the busier they were, the more Callie understood what the busyness was for. She set a cup of tea in front of Callie — not bergamot; chamomile; a small mercy — and sat down across the oak table and folded her hands over the place where the rolling pin usually lay, and for a long moment she did not speak.
+
+Then she said, "My grandmother told me a story, once."
+
+Her voice was the unhurried cadence Callie knew, but the melody under it had changed. There was no gardening metaphor. There was no *honey*. The words came out plain.
+
+"She told it to me in this kitchen. She closed the door first, like the walls could hear. She told it in a voice I had never heard her use — low, and flat, and final, the voice of a woman saying a thing once because she would not say it twice. She said the Ralstons took the land. She said they took it from us, and from the Tuckers, and from the Fenns, and from two other families whose names I've forgotten because I was young and I didn't want to remember. She said a minister in our family found out. She said he died for it." Mae looked down at her folded hands. "She never said the word murder. She didn't have to. I was nine years old, and I understood her anyway."
+
+The kitchen was very quiet. The clock on the wall ticked. Outside, the rain had started again — Callie hadn't noticed it start — and it tapped the Hartwell windows with the patient sound she had always, in every other room of her life, read as safety. Here, in this kitchen, with Mae's hands still over the rolling-pin place, the sound was only rain.
+
+"I never told anyone," Mae said. "Not my husband, God rest him. Not my children. I told myself it was to protect them. I told myself the past was the past, and that dragging it up would only hurt people who'd had no part in it, and that the Lord knew the truth and that was enough." She looked up, and her eyes were dry and very clear. "I have told myself that story for fifty years, Callie. I have made it the furniture of my life. And now you are sitting in my kitchen pulling at the thread, and I am asking you — I am asking you, with everything I have — to leave it where it lies."
+
+Callie set down the cup she had not drunk from. The chamomile trembled, a single ring, and went still.
+
+"Mae."
+
+"Don't." The word came out soft, and it stopped Callie's mouth the way a hand would have. "Don't tell me you have to. I know you have to. I've watched you for two years not have to do anything, and now you have to do this, and I know what it means. I know what it'll do to this town. I know what it'll do to my grandchildren, who play every afternoon on a field that was our family's before the paper said it wasn't. I know what it'll do to the Tuckers, who've been renting their own land from the county for four generations and don't even know it. I know, Callie." Her voice did not crack. It went quiet. "I am asking you to let the dead keep their secret. Not for the Ralstons. For everyone else."
+
+There was something under the plea. Callie could feel it — not seen, but there, a second shape pressed into the first, the way a watermark hides in good paper. Mae was asking for the town, and the grandchildren, and the families who had had no part in it; and Mae was also, in some room she would not let herself enter, asking to be left in the quiet she had built her whole life inside. Callie heard all of that, or nearly all of it. She heard it, in the end, as love.
+
+The kitchen clock ticked. The rain tapped. And Callie sat across the table from the closest thing she had to family and understood that she was about to do the thing she could not undo.
+
+"I can't," she said.
+
+Mae did not move.
+
+"I can't, Mae. I have read what Jacob Wren wrote. I have read what Pike died for. The sheriff is about to arrest a boy who flinches when anyone speaks to him, because the boy is the wrong shape and the real killer wears the right name. If I stop now, Eli Townsend goes to prison. And the man behind the lock on my archive door — I think I know who he is, Mae. I think he did worse than lock a door." She kept her voice level. It cost her. "I am not trying to hurt anyone. I am trying not to let the dead be the only ones who know."
+
+Mae's hands, which had been moving all evening — stirring, folding, gripping — went still. They lay on the oak like two small sleeping animals, and the stillness of them was so complete and so unlike her that Callie felt the hair rise on her own arms.
+
+"You sound like your mother," Mae said, very quietly. "She would have said it just like that."
+
+The words landed, and Callie did not know if they were a compliment or an indictment, and she suspected Mae did not know either.
+
+Mae stood. She did not embrace her. She moved around the table and paused at Callie's shoulder, and for a moment her hand came up as if to touch Callie's hair, the way she had touched it a thousand times, and then the hand thought better of it and went back to her side. She walked Callie to the door, and at the door she said, "I'll bring soup tomorrow," in a voice that meant she would. Callie nodded because there was nothing else to do.
+
+She walked home in the rain. It was a soft rain, the kind that did not so much fall as hang in the air, and by the time she reached the square her coat was damp and her hair was flat and there was a smell on her she could not place at first — sweet, herbal, clinging to the wool at her shoulder where Mae had almost touched her and then not. Lavender. Mae's lavender, pressed into the fibers of her coat the way ink presses into paper, the kind of smell that would not come out in one washing, or two, that would linger in the weave long after the evening was over.
+
+She let herself into the shop. She stepped over the floorboard. In the dark back room, with Eleanor's glass on its felt rest and the rain on the windows, the lavender would not leave her — Mae's mercy and Mae's cost pressed into the same wool. She did not brew the tea. Across town, a boy who flinched at loud voices was being fitted for a crime he had not committed, and the man who had done it sat on a council that had already taken her key. The archives were closed. But Gus Ralston had paid for another room full of records — the Historical Society, where the stacks bore his family's name. She stood a long time in the dark, breathing the lavender in, and began to think about where to look next.
+
+---
+
+## Scraps Used
+
+- n/a — chapter imported verbatim from finished prose (reverse-scaffold import, 2026-10-11); no scraps existed.
+
+## Revision Notes
+
+- Imported verbatim from `books/book-01/manuscript/ch-04.md` at commit c81bc35 (reverse-scaffold import, 2026-10-11). Book 1 is published and frozen; this packet is reference, not a drafting surface.
+
+## Continuity Self-Check
+
+Retrofit packet — the checklist below is the standard gate-facing list; no gate has run (see gate-report.md). The reverse-scaffold analysis and reconciliation notes serve as the continuity record until then.
+
+- [ ] All character names spelled per canon/characters.md
+- [ ] Timeline anchor matches canon/timeline.md
+- [ ] No contradictions to canon/characters.md or canon/world-rules.md
+- [ ] Voice matches voice-bible.md (run `python3 scripts/lint_prose.py chapters/ch04/draft.md`)
+- [ ] POV consistent — no access to any other character's interiority
+- [ ] Tense consistent (past)
+- [ ] Every outline beat rendered
+- [ ] Threads opened/closed reflected in STATE.yaml
+- [ ] No placeholder text remains inside the prose fence
+- [ ] Every scene's outline `Value shift` actually lands on the page

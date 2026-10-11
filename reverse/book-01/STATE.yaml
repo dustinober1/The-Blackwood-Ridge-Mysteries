@@ -1,0 +1,96 @@
+# STATE — reverse/book-01 (The Annotated Murder)
+# Imported 2026-10-11 via reverse-scaffold from a FINISHED, PUBLISHED book.
+# Reference scaffold: Book 1's prose is frozen; no gate has run against the
+# retrofitted canon (all gate_passed: false by import convention).
+
+manuscript_complete: true
+current_chapter: 9
+total_chapters_planned: 8
+
+chapters:
+  ch01:
+    status: drafted
+    word_count: 3208
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch02:
+    status: drafted
+    word_count: 2744
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch03:
+    status: drafted
+    word_count: 3029
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch04:
+    status: drafted
+    word_count: 3168
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch05:
+    status: drafted
+    word_count: 3520
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch06:
+    status: drafted
+    word_count: 2703
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch07:
+    status: drafted
+    word_count: 2356
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+  ch08:
+    status: drafted
+    word_count: 1931
+    outline_date: null
+    draft_date: null
+    gate_passed: false
+    gate_date: null
+
+# Genuine unresolved threads left open at book end (deliberate series doors —
+# see canon-decisions.md "Left open" and promises.yaml deferred_to_series rows).
+open_threads:
+  - thread_name: "Eleanor's death: canonically natural, deliberately unresolved on the page"
+    introduced_ch: 1
+    must_resolve_by_ch: "TBD"
+  - thread_name: "Jacob Wren's fate after fleeing Blackwood Ridge (1843)"
+    introduced_ch: 5
+    must_resolve_by_ch: "TBD"
+  - thread_name: "J. Fenn's identity and genealogical chase"
+    introduced_ch: 5
+    must_resolve_by_ch: "TBD"
+  - thread_name: "The annotated botanical and its unknown annotator (Book 2's engine)"
+    introduced_ch: 8
+    must_resolve_by_ch: "TBD"
+  - thread_name: "Land-restitution legal aftermath of the exposed fraud"
+    introduced_ch: 6
+    must_resolve_by_ch: "TBD"
+  - thread_name: "The Foxed Page building's ownership (documented blank)"
+    introduced_ch: 5
+    must_resolve_by_ch: "TBD"
+  - thread_name: "The murder poison is never named"
+    introduced_ch: 7
+    must_resolve_by_ch: "TBD"
+
+canon_locked:
+  characters: false
+  timeline: false
+  world_rules: false

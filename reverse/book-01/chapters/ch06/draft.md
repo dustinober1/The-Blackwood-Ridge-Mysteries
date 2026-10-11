@@ -1,0 +1,135 @@
+# Chapter 6: The Decision
+
+**Status**: drafted
+**Last Updated**: 2026-10-11
+
+<!--
+  PROSE FENCE — everything between the two `---` lines below is the chapter's
+  prose and nothing else. Word counting, prose linting and manuscript
+  compilation all read only that span, so keep notes and checklists outside
+  it. Do not remove either fence.
+-->
+
+---
+
+
+# The Decision
+
+She had not slept. The trembling in her hands had not stopped, not through the long hours after he left, not through the dark in Eleanor's room where she sat at the oak table with the evidence laid out in front of her and her body refusing to believe the room was safe. The shop had its sounds — the tick of the cooling pipes, the creak of the front floorboard under no one's weight, the wind testing the window latch in the back — and every one of them had kept her awake, because the last time she had stopped listening to sounds in the dark was two years ago, and she had found her mother on the floor.
+
+By the time Callie opened the shop the next morning, the talk on the square was that Sheriff Cross was bringing the Townsend boy in before lunch. They had the argument. They had the nerves. They had an unexplained gap in his story and a roomful of witnesses who had watched the boy act exactly the way a guilty man acts, because they had never learned, and Cross had never learned, that a frightened man acts that way too.
+
+Callie stood behind her counter and listened to the talk arrive in the shape of a customer who bought a postcard and stayed fifteen minutes to deliver it, and she felt the last minutes of Eli Townsend's freedom ticking down in the cadence of a stranger's voice. She had hours. Maybe less. She had a notebook, a transcribed cipher, photographs of a dog-eared paperback, and the certain knowledge that the man who had actually done it was, at this moment, sitting down to coffee somewhere on the hill.
+
+She closed the shop. She turned the sign to CLOSED and locked the door. Her hands were not steady on the key. She stepped over the floorboard and went into the back room and closed the door and stood for a long moment in the quiet of Eleanor's room, breathing the leather and the old paper and the faint ghost of bergamot, and she laid the evidence out on the oak table in the order she had laid it out the night before, beside the brass magnifying glass on its felt rest.
+
+The room was the room it had always been. Eleanor's workspace. Eleanor's deathplace. She was going to leave it today. She knew that the way she knew the weather, in the pressure of the air before the storm, and the knowing pressed against the boards under her feet, because this was the room where she had chosen the dead for two years, and she was about to choose otherwise.
+
+She opened the bottom drawer of the archive table.
+
+They were there, where they had always been, in the soft leather case Eleanor had kept them in: the reading glasses, the ones that had been on the table the night Eleanor died. Callie had put them in the drawer two years ago and had not opened the drawer since. She took the case out now and set it on the oak and opened it, and the glasses were exactly as she remembered them — the tortoiseshell frames, the little nose pads, the faint smudge on the right lens that Eleanor had never quite cleaned. They smelled faintly of her, or Callie's memory insisted they did, which was the same thing.
+
+She picked them up. She unfolded them. And, because she was about to do the thing her mother had never been able to do, and because some part of her needed to know whether Eleanor's hand would guide her through it, she put them on.
+
+They did not fit.
+
+They sat wrong on her nose, the prescription wrong for her eyes, the arms too tight at her temples, the whole weight of them wrong in a way that had nothing to do with optometry. She had known they would not fit. She had known it as she knew the floorboard creaked. But she had needed to put them on, once, and feel them sit wrong, and understand in her body that she was not Eleanor, that she had never been Eleanor, that the inheritance she had been carrying was not a destiny but a choice, and that she could set it down.
+
+She took the glasses off. She put them back in the case. She closed the case and put it back in the drawer. She did not cry. She did not feel relief.
+
+On the table, the evidence waited. The brass magnifying glass caught the grey morning light, warm from the room the way it had always been warm. She looked at it — the instrument of her gift, balanced for a woman's hand — and for the first time in two years it did not pull at her. She picked it up.
+
+She heard Eleanor's voice, the way she always heard it when she touched the glass: *The truth is always there, Callie. Most people just don't look closely enough.* She had carried that line like a talisman. She had repeated it to herself in the dark hours after Eleanor died, and she had believed it meant comfort, and then she had believed it meant professional pride, and now — standing in the room where she was about to walk into the living world and burn her own fortress down — it sounded like a weight. It sounded like a woman handing a child a burden and calling it a gift, and the child taking it because the child loved the woman, and carrying it, and carrying it, until the child forgot it was possible to set it down.
+
+She could hear the rain. It had started in the night and it had not stopped, tapping the back room windows — the patient sound she had always read as safety, of being inside while the world stayed outside. She listened to it now, and the safety was gone out of it, and the outside was pressing in at the glass.
+
+She set the magnifying glass down on the oak, beside the evidence, and let go of it, and her hand came away empty. She did not put it back on its felt rest. She stood over it for a long moment and let the meaning of what she had done settle into her hands and her shoulders and the set of her jaw. The alternative was a boy in a cell and a killer on a hill and another generation of a town built on a lie.
+
+The lavender was still on the shoulder of her coat from two nights ago, from Mae's kitchen, from the last time someone had touched her with something other than fear. She did not touch it now. She gathered the notebook. She gathered the transcriptions, the register pages, and the photographs. She did not take the glass. She left the shop by the front door, and she did not look back at the room she was leaving, and she crossed the square in the rain with her evidence pressed against her ribs, and she went into the sheriff's office, and she closed the door behind her.
+
+Cross was at his desk. He had his hat off, and his jacket hung on the chair, and there was a file open in front of him with Eli Townsend's name on the tab. He looked up when the door opened, and the flatness of his expression said he'd already used up his patience for the day.
+
+"Ms. Thorne. I'm busy."
+
+"I know you're about to arrest Eli Townsend." She did not sit when he did not offer. She stood on the other side of his desk, and she kept her voice level, because the voice was the one thing she could still control. "I'm asking you to give me twenty minutes before you do."
+
+"Twenty minutes."
+
+"It's going to change what the evidence is." She set the notebook on his desk, on top of the file with Eli's name. "Twenty minutes. If I'm wrong, you've lost twenty minutes. If I'm right, you were about to put an innocent man in that cell you keep polished."
+
+Something moved behind his eyes. He looked at the notebook. He looked at her. Then he leaned back in his chair, and he crossed his arms, and he did not say yes, but he did not say go, and in the language of Dalton Cross that was a yes.
+
+She started with the register. She turned to the pages she had copied from the Historical Society's visitor log — *A. Ralston, collection review,* eight days before the auction; *Dr. W. Pike, research,* two days later; and Pike's own eager pencil in the margin, *showed preliminary findings to Gus Ralston — very interested, asked to see the manuscript.* She set them on the desk beside his file. "Augustus Ralston signed into the building he funded eight days before Pike died. He asked to see the manuscript. Pike trusted him. Pike showed it to him."
+
+Cross's jaw tightened. He flipped to the next page. "This is a library sign-in sheet, Ms. Thorne. Not a confession."
+
+"It puts him in the room with the manuscript eight days before Pike died. Now the murder itself." She turned to the cipher transcription — the true survey line, the forged one, the hundred and forty acres that had walked from the Hartwell grant to the Ralston holdings on the strength of a lie. "The Ralston name is on the plaques, Sheriff. It's on the library wing, and the checks that fund your budget. If what Pike found came out, the land claims could be challenged in court. The families who lost their land could sue." She let that land. "The Ralston name becomes the descendant of a thief and a murderer. That is not an old land dispute. That is the end of a man's world. Men have killed for less."
+
+"Motive isn't murder." Cross shifted in his chair. "Half this town has a reason to want something kept quiet. That doesn't put poison in a cup."
+
+"It's motive joined to access." She leaned forward. "You saw the cup on the floor the night he died. Bergamot. Pike drank it every session — you had that in your notes. Someone who knew that habit and had time alone with him in that corridor. The Townsend boy didn't know what Dr. Pike drank. He doesn't know what anyone drinks. He can't make eye contact long enough to find out."
+
+"And the boy's reason for being back there?"
+
+She set her phone on the desk with the photograph open. "Eli Townsend was in the back stacks the night of the murder. He didn't tell you because he was ashamed, and because he's spent his whole life expecting to be blamed for things. He was returning a novel he'd borrowed without asking. He put it on the wrong shelf by the back office during the auction and went back to the main floor. I photographed it exactly where he left it. Send a deputy. It is still there."
+
+Cross picked up the phone. He enlarged the photograph with his thumb, studying the shelf mark and the volumes around the paperback, then set it down again.
+
+"There's one more thing," Callie said. "Eli Townsend saw Augustus Ralston coming out of the back office corridor the night of the auction. Minutes before the body was found."
+
+Cross's pen stopped.
+
+"The boy saw him."
+
+"The boy saw him. He didn't tell you because he was terrified — and because every time someone in authority has looked at Eli Townsend, they've seen what they expected to see. But he'll tell you now. I asked him to wait."
+
+Cross was quiet for a moment. Then he reached for the file with Eli's name on it, not the notebook — his own file, his own notes — and flipped to a page. "Staff entrance log has Ralston signing out at seven-twelve. Body wasn't found until seven-twenty-one." He said it to himself, not to her, tracing the timeline with his thumb. "If the boy saw him in the corridor, and the log puts him leaving before the alarm was raised—"
+
+"That's your case, Sheriff. Not mine. I'm just the woman who reads the margins."
+
+"Augustus Ralston," he said, and the name sat between them on the desk. Not Gus. He had never, in Callie's hearing, called him anything but Gus. The use of the full name was the first thing he had given her.
+
+"Augustus Ralston had motive, means, and access to his habits. He was at the auction. He left before the body was found — you have his exit on the same log. And he came to my shop last night and told me, in a voice that did not tremble, that he would hate to see what happened to Wendell happen to someone else." She met his eyes. "I am asking you to look at the man with the motive and the means, Sheriff, instead of the boy with the nervous hands."
+
+The office was very quiet. Outside, the rain came down on the courthouse steps, and somewhere across the square the shop she had locked stood empty with a magnifying glass on the table and nobody in it.
+
+Cross did not speak for a long time. She watched him go through it — she could see the stages of it move across his face the way she saw the stages of a hand move across a page. First the resistance, which was pride, the whole edifice of a case he had spent a week building. Then the crack in the resistance: Ralston's exit at seven-twelve, Eli's sighting in the corridor, and the nine minutes before the alarm. The facts he had not checked because he had not needed to check because the boy had already looked guilty enough. She saw it arrive. She saw him hold it. She did not look away, and neither did he, and the not-looking-away was the closest thing to honesty the room could hold.
+
+He rubbed the back of his neck. Slow, the gesture of a man calculating what it would cost him.
+
+"This isn't how I work, Ms. Thorne." His voice had gone rough. "I work baggies. Chain of custody. I work what I can put in front of a jury. You're giving me paperwork, not evidence."
+
+"I'm giving you the truth." She kept her voice even. "You can verify it. The register, the exit log, the paperback still sitting where Eli left it, the archive access you know was pulled through your own council. You can bring Gus Ralston in and ask him why he signed into the Historical Society eight days before a man was poisoned with the tea that he knew the man drank. You don't have to believe me. You just have to look at it."
+
+Cross looked at it. He looked at the notebook, the register pages, the photograph, the cipher, and the careful transcription of a dead man's prayer. He looked at it for a long time.
+
+Then he picked up the phone.
+
+The sound of it — the lift of the receiver, the press of the first digit — was so quiet she felt it in her teeth. She stood on the other side of the desk and listened to him dial, and she felt the machinery of the town begin to turn, slowly, in the direction it had refused to turn for a hundred and eighty years. And Mae — Mae would hear, and she would understand that the woman she had promised to look after had chosen the truth over the living, and that the choosing was the same as leaving.
+
+Cross spoke into the phone. Low, procedural, the clipped register of a man doing the only thing left to do. He did not thank her. He did not apologize. He gave the order, and the order was the respect, and Callie stood in the sheriff's office with her empty hands and her full notebook, and she waited for the town to learn what she had done to it.
+
+---
+
+## Scraps Used
+
+- n/a — chapter imported verbatim from finished prose (reverse-scaffold import, 2026-10-11); no scraps existed.
+
+## Revision Notes
+
+- Imported verbatim from `books/book-01/manuscript/ch-06.md` at commit c81bc35 (reverse-scaffold import, 2026-10-11). Book 1 is published and frozen; this packet is reference, not a drafting surface.
+
+## Continuity Self-Check
+
+Retrofit packet — the checklist below is the standard gate-facing list; no gate has run (see gate-report.md). The reverse-scaffold analysis and reconciliation notes serve as the continuity record until then.
+
+- [ ] All character names spelled per canon/characters.md
+- [ ] Timeline anchor matches canon/timeline.md
+- [ ] No contradictions to canon/characters.md or canon/world-rules.md
+- [ ] Voice matches voice-bible.md (run `python3 scripts/lint_prose.py chapters/ch06/draft.md`)
+- [ ] POV consistent — no access to any other character's interiority
+- [ ] Tense consistent (past)
+- [ ] Every outline beat rendered
+- [ ] Threads opened/closed reflected in STATE.yaml
+- [ ] No placeholder text remains inside the prose fence
+- [ ] Every scene's outline `Value shift` actually lands on the page
