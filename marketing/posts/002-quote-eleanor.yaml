@@ -1,0 +1,22 @@
+# Post 002 — Eleanor's lesson (quote card)
+# Calendar slot: Week 1, Wednesday.
+template: quote-card
+size: square
+
+quote: "The truth is always there, Callie. Most people just don't look closely enough."
+attribution: "ELEANOR THORNE"
+book_line: "THE ANNOTATED MURDER · BOOK ONE"
+quote_size: 26
+
+social:
+  caption: |
+    Every sleuth has a first teacher. Callie Thorne's was her mother, Eleanor, who put a brass magnifying glass in her daughter's hand at nine years old and never once had to explain what it was for.
+
+    The glass is still on the oak table in the back room of The Foxed Page, balanced for a woman's hand.
+
+    Who taught you to look closely?
+  hashtags: "#BlackwoodRidgeMysteries #TheAnnotatedMurder #CozyMystery #BookQuote #Bookstagram #MysteryReader #AmateurSleuth #BookishMystery #KindleBooks"
+  alt: |
+    Quote card on a deep plum background with gold rules: "The truth is
+    always there, Callie. Most people just don't look closely enough." —
+    Eleanor Thorne, The Annotated Murder.

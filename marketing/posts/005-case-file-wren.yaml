@@ -1,0 +1,33 @@
+# Post 005 — Jacob Wren case file
+# Calendar slot: Week 1, Friday.
+template: case-file
+size: square
+
+stamp: "CASE FILE No. 1849-07"
+fields:
+  - label: "SUBJECT"
+    value: "J. WREN"
+  - label: "OCCUPATION"
+    value: "Town surveyor of record"
+  - label: "LAST SEEN"
+    value: "__R__ the valley, autumn 1849"
+  - label: "ASSOCIATES"
+    value: "Two __R__ and a minister"
+  - label: "DISPOSITION"
+    value: "Fled. Left his records. Left __R__ in the margins."
+note: "The recorded survey lines and the true ones differ by hundreds of acres. Somebody counted. Somebody is still counting."
+
+social:
+  caption: |
+    Every town has a founding story. Blackwood Ridge has a founding discrepancy.
+
+    Jacob Wren surveyed this valley in the 1840s. The ledger says one thing; his margin notes say another. He left town in the autumn of 1849 and did not leave a forwarding address, which in this county counts as a confession.
+
+    The file has been open for 180 years. We're just the ones reading it in public.
+
+    Wrong answers only: what was Jacob Wren afraid of?
+  hashtags: "#BlackwoodRidgeMysteries #CaseFile #CozyMystery #MysteryBooks #Bookstagram #AmateurSleuth #SmallTownSecrets #HistoricalMystery #BookishFun"
+  alt: |
+    Typewritten case file on aged ivory paper titled "Case File No. 1849-07"
+    for surveyor J. Wren, with several lines blacked out and a coffee ring
+    stain.

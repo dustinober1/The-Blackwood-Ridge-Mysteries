@@ -1,0 +1,26 @@
+# Post 007 — The Foxed Page (location card)
+# Calendar slot: Week 3, Monday.
+template: town-post
+size: square
+art:
+  style: window
+  seed: 4
+
+eyebrow: "A VISITOR'S GUIDE TO BLACKWOOD RIDGE, VIRGINIA"
+plate: "PLATE No. 3"
+headline: "THE FOXED PAGE"
+headline_size: 27
+sub: "Antiquarian bookshop on the square. A century in business, leather and bergamot, and a back room that remembers."
+
+social:
+  caption: |
+    A foxed page is one spotted by age — the brown freckles time leaves on old paper. The shop on the square is named for exactly that: the beauty of what time does to paper, and what paper does to the people who keep it.
+
+    Callie Thorne lives above it, works in the back room behind it, and found the town's oldest lie shelved in it. The shop has been a bookshop for over a hundred years. It intends to stay one.
+
+    Tell us about the shop that raised you — the one with the cat, the ladder, and the books you'd never find on a website.
+  hashtags: "#BlackwoodRidgeMysteries #TheFoxedPage #BookshopLove #CozyMystery #Bookstagram #AntiquarianBooks #MysteryBooks #BookLovers #SmallTownMystery"
+  alt: |
+    A warmly lit bookshop window at night, shelves of books silhouetted
+    against amber light behind dark mullions, with a gas lamp glowing beside
+    the door.

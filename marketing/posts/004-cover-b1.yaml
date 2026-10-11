@@ -1,0 +1,20 @@
+# Post 004 — Book One cover feature
+# Calendar slot: Week 2, Monday.
+template: cover-feature
+size: portrait
+book: book-01
+
+social:
+  caption: |
+    BOOK ONE · THE ANNOTATED MURDER
+
+    Callie Thorne sells rare books by day and reads the handwriting of the dead by night. When an appraiser turns up dead at the Ridgeway Auction House, the only witness is a margin note nobody else can read — and the town would very much prefer she didn't.
+
+    Now on Kindle and Audible.
+
+    What's the last book that made you squint at the margins of your own shelves?
+  hashtags: "#TheAnnotatedMurder #BlackwoodRidgeMysteries #CozyMystery #KindleBooks #Audible #MysteryBooks #BookLaunch #AmateurSleuth #Bookstagram"
+  alt: |
+    Book cover for The Annotated Murder, Book One of The Blackwood Ridge
+    Mysteries, framed in gold on a plum background, with the line "A
+    rare-book auction. A dead researcher. A cipher in the margins."

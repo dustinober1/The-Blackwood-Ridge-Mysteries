@@ -1,0 +1,26 @@
+# Post 003 — The Town Square (location card)
+# Calendar slot: Week 2, Wednesday.
+template: town-post
+size: square
+art:
+  style: gaslight
+  seed: 11
+
+eyebrow: "A VISITOR'S GUIDE TO BLACKWOOD RIDGE, VIRGINIA"
+plate: "PLATE No. 2"
+headline: "THE TOWN SQUARE"
+sub: "Gas lamps, brick walkways, and one gazebo that has heard everything and told nothing."
+
+social:
+  caption: |
+    Every town has a living room. Ours is the square.
+
+    Founding families still hold court on the benches. The council answers to old money, the sheriff answers to the council, and the gazebo answers to no one. Word travels here faster than the post office ever could, and it arrives pre-edited.
+
+    Come at dusk when the lamps come on. That's when the town performs its warmth, and if you sit still long enough, you'll see which parts are the performance.
+
+    Where would you sit: the gazebo, the benches, or the window seat at The Foxed Page?
+  hashtags: "#BlackwoodRidgeMysteries #CozyMystery #SmallTownMystery #Bookstagram #MysteryBooks #CozyReads #VirginiaMountains #BookishCommunity #AmateurSleuth"
+  alt: |
+    Foggy night scene of gas lamps glowing through mist above a dark brick
+    square, in deep plum and gold.

@@ -1,0 +1,29 @@
+# Post 001 — Welcome to Blackwood Ridge (page-launch post)
+# Calendar slot: Week 1, Monday. Pin this post.
+template: town-post
+size: square
+art:
+  style: valley-dusk
+  seed: 7
+
+eyebrow: "A VISITOR'S GUIDE TO BLACKWOOD RIDGE, VIRGINIA"
+plate: "PLATE No. 1"
+headline: "BLACKWOOD RIDGE"
+sub: "Population around 3,500, founded in the 1780s, and the bricks still remember everything. Stop by. Mind the margins."
+
+social:
+  caption: |
+    Welcome to Blackwood Ridge.
+
+    This is the town's page, not a tour brochure. Expect the square, the shop, the archives, and the occasional case file from the county records room. Some of it is lovely. Some of it is the kind of lovely that makes you check the locks.
+
+    If you're new here: the mysteries begin with The Annotated Murder, on Kindle and Audible. If you've already read it, you know what the town would rather you didn't.
+
+    Pull up a bench under the oaks. The gas lamps come on at dusk.
+
+    How did you find us — a margin note, a bookshop window, or plain old gossip?
+  hashtags: "#BlackwoodRidgeMysteries #CozyMystery #Bookstagram #MysteryBooks #AmateurSleuth #SmallTownMystery #CozyMysteryBooks #BookishCommunity #KindleBooks"
+  alt: |
+    Illustrated night view of a valley town under a plum-dark sky: layered
+    mountain ridges, drifting fog, and the warm glow of gas lamps where the
+    town sits.

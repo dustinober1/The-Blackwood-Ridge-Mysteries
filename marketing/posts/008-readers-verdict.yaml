@@ -1,0 +1,36 @@
+# Post 008 — Reader's verdict (engagement card)
+# Calendar slot: Week 2, Friday.
+template: case-file
+size: square
+
+stamp: "VERDICT REQUESTED"
+fields:
+  - label: "EVIDENCE"
+    value: "An annotated book in the __R__ collection"
+  - label: "IT PROVES"
+    value: "The founding fortune was __R__, and the founding minister was __R__ for saying so"
+  - label: "IF PUBLISHED"
+    value: "The town breaks along the fault line"
+  - label: "IF BURIED"
+    value: "A thief keeps the grave's respect"
+note: "The margins will keep either way. Margins are patient like that."
+options:
+  - stamp: "PUBLISH IT"
+    note: "COMMENT A"
+  - stamp: "LET IT LIE"
+    note: "COMMENT B"
+
+social:
+  caption: |
+    This is the question at the center of the whole series, and it belongs to you as much as to Callie.
+
+    The proof is real. The town is real. The people who would be hurt by the truth are real too, and most of them never hurt anyone. Publish the evidence and the town breaks along the fault line. Bury it and a thief keeps the grave's respect.
+
+    Callie has made her call in the books. Make yours in the comments: A or B?
+
+    No wrong answers. Only revealing ones.
+  hashtags: "#BlackwoodRidgeMysteries #CozyMystery #MoralDilemma #Bookstagram #MysteryBooks #AmateurSleuth #BookDiscussion #ReadersVerdict #SmallTownMystery"
+  alt: |
+    Case file card titled "Verdict Requested" with typewritten evidence
+    lines, some redacted, and two stamped options: PUBLISH IT (Comment A)
+    and LET IT LIE (Comment B).

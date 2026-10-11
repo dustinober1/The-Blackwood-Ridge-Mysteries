@@ -1,0 +1,49 @@
+# Brand sheet — The Blackwood Ridge Mysteries social/marketing pipeline.
+# Palette colors are the cover brand colors, sourced from
+# books/book-01/tools/build_covers.py. Templates read this file directly
+# (marketing/templates/lib.typ), so edit colors/fonts here, not there.
+
+series: The Blackwood Ridge Mysteries
+author: Vesper Blythe
+genre: Cozy Mystery / Amateur Sleuth
+tagline: Every flower a word. Every word a witness.
+
+handles:
+  instagram: TBD   # decide before account setup (calendar.md assumes the series name)
+  facebook: TBD
+
+colors:
+  ink: "#0E060F"        # deep plum — cover back-panel backing, dark card ground
+  ink_warm: "#241019"   # plum-brown — gradient midpoint
+  walnut: "#3A2418"     # walnut wood — art only
+  ivory: "#F7F2E4"      # cover ivory — text on dark, case-file paper
+  ivory_muted: "#DFD5C2"
+  gold: "#D8A84E"       # cover gold
+  gold_light: "#F5E2B0"
+  gold_shadow: "#8C601A"
+  rule: "#D0C8B8"       # cover hairline outline
+
+fonts:
+  display: Hoefler Text          # quotes, titles, italic flourishes
+  label: Copperplate             # engraved caps — eyebrows, attributions, plaques
+  body: Palatino                 # body copy on cards
+  typewriter: American Typewriter # case-file text
+  ornament: Hoefler Text Ornaments # fleurons (❦)
+
+sizes:
+  square:  {pt: [540, 540],  px: [1080, 1080], ppi: 144}   # IG/FB feed
+  portrait: {pt: [540, 675], px: [1080, 1350], ppi: 144}   # IG 4:5, taller FB feed
+
+books:
+  book-01:
+    number: "Book One"
+    title: The Annotated Murder
+    cover: /books/book-01/cover.png
+    availability: Now on Kindle and Audible
+    hook: A rare-book auction. A dead researcher. A cipher in the margins.
+  book-02:
+    number: "Book Two"
+    title: The Botanical Confession
+    cover: /books/book-02/cover.jpeg
+    availability: Now on Kindle — coming soon to Audible
+    hook: A thirty-two-year garden planted in the language of flowers.

@@ -1,0 +1,33 @@
+# Post 011 — Marguerite Dabney case file
+# Calendar slot: Week 3, Friday.
+template: case-file
+size: square
+
+stamp: "CASE FILE No. B-32"
+fields:
+  - label: "SUBJECT"
+    value: "M. DABNEY"
+  - label: "OCCUPATION"
+    value: "Schoolteacher"
+  - label: "PERIOD"
+    value: "Thirty-two years"
+  - label: "METHOD"
+    value: "The language of flowers, planted one bed at a time"
+  - label: "STATUS"
+    value: "Confession complete. Reader __R__."
+note: "Every flower a word. Every word a witness."
+
+social:
+  caption: |
+    Marguerite Dabney taught school in Blackwood Ridge for thirty-two years, and for thirty-two years she said nothing at all about what happened to the girl who never came home.
+
+    She said it in peonies instead, in a garden planted in the old language of flowers, arranged for the one reader she trusted to catch it.
+
+    The hand in the margins has a name. Book Two is her confession.
+
+    Would you have caught the garden's message — or walked past it every morning like the rest of the town?
+  hashtags: "#BlackwoodRidgeMysteries #TheBotanicalConfession #CaseFile #CozyMystery #LanguageOfFlowers #MysteryBooks #Bookstagram #AmateurSleuth #KindleBooks"
+  alt: |
+    Case file card titled "Case File No. B-32" for schoolteacher M. Dabney
+    on ivory paper, with typewritten fields, a redacted line, and the note
+    "Every flower a word. Every word a witness."
