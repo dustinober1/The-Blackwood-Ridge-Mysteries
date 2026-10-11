@@ -4,9 +4,6 @@ cd "$(dirname "$0")"
 
 if ! command -v pandoc >/dev/null 2>&1; then
   echo "ERROR: pandoc is not installed."
-  echo "Install it first:"
-  echo "  brew install pandoc     (macOS)"
-  echo "  apt-get install pandoc  (Debian/Ubuntu)"
   exit 1
 fi
 
@@ -17,6 +14,7 @@ pandoc manuscript-combined.md \
   --metadata title="The Annotated Murder" \
   --metadata author="Vesper Blythe" \
   --metadata lang="en" \
+  --epub-cover-image cover.jpeg \
   -o "the-annotated-murder.epub"
 
-echo "Built the-annotated-murder.epub"
+echo "Built the-annotated-murder.epub with embedded cover image"
