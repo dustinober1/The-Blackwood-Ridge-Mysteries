@@ -1,0 +1,40 @@
+# The Chekhov Ledger — setups awaiting payoff.
+#
+# One per book: Wiki/Story/Book-N/promises.yaml.
+#
+# This file is the strict version of plot threads: every gun on the wall,
+# where it was hung, and when it has to go off. fiction-reviewchapter harvests
+# new promises and records payoffs here during review; fiction-promises audits
+# the whole ledger; fiction-series-outline carries deferred_to_series entries
+# in its inter-book promise map.
+#
+# A promise is anything the text tells the reader to remember: an object
+# introduced with weight, a skill mentioned in passing, a question a
+# character asks and nobody answers, a threat, a debt, a name dropped once.
+# Readers keep score whether or not the author does.
+
+promises:
+  - id: "P001"
+    # What the reader is now expecting. Write it from the reader's side:
+    # "the locked drawer in Elena's study", not "foreshadowing".
+    promise: ""
+    # Where it was made (chapter number).
+    introduced_ch: ""
+    # Kind of promise. One of: object | skill | threat | question | debt |
+    # relationship | mystery | prophecy | rule
+    kind: "object"
+    # How loudly the text made it. A promise made in a chapter title is owed
+    # sooner and louder than one made in a subordinate clause.
+    # One of: whisper | plain | loud
+    weight: "plain"
+    # The chapter by which the reader will start to feel cheated. Required —
+    # an undated promise is one nobody will remember to pay.
+    payoff_by_ch: ""
+    # Filled in when paid. Both fields, or neither.
+    paid_in_ch: ""
+    paid_how: ""
+    # Set true when the payoff is deliberately withheld for a later book.
+    # Requires the inter-book promise map in Wiki/Story/series-arc.md
+    # (maintained by fiction-series-outline) to carry it, and a note saying so.
+    deferred_to_series: false
+    notes: ""

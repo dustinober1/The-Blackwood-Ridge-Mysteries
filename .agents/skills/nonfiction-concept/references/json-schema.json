@@ -1,0 +1,17 @@
+{
+  "thesis": "The central argument as a single declarative sentence — what the book proves",
+  "big_idea": "The one-sentence marketplace hook: [Unique mechanism/insight] + [Reader outcome] + [Why it works]",
+  "core_promise": "By the end of this book you will [specific measurable outcome].",
+  "reader_transformation": {
+    "from_state": "Where the reader starts: knowledge, belief, capability, pain",
+    "to_state": "Where the reader ends: new knowledge, shifted belief, new capability, relief",
+    "measure": "Concrete indicator of transformation — not a feeling"
+  },
+  "unique_angle": "What makes this argument different: contrarian insight, missing step, synthesis, or unique evidence",
+  "evidence_architecture": [
+    {
+      "type": "primary_research | case_studies | frameworks | data | personal_narrative | expert_interviews | historical_analysis | counter_arguments",
+      "why_it_serves_thesis": "One sentence on why this evidence type serves this specific argument"
+    }
+  ]
+}

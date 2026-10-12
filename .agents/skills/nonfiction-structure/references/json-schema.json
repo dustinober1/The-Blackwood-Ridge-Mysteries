@@ -1,0 +1,47 @@
+{
+  "architecture": "problem_solution | chronological | conceptual | hybrid",
+  "primary_architecture": "if hybrid: problem_solution | chronological | conceptual",
+  "secondary_architecture": "if hybrid: problem_solution | chronological | conceptual",
+  "thesis_clause_map": [
+    {
+      "clause": "Thesis clause text",
+      "chapters": [1, 2, 3]
+    }
+  ],
+  "parts": [
+    {
+      "title": "Part title",
+      "purpose": "What this part achieves for the argument",
+      "thesis_clauses_addressed": ["Clause 1", "Clause 2"],
+      "reader_milestone": "Transformation milestone at part end",
+      "chapters": [1, 2, 3, 4]
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_number": 1,
+      "title": "Chapter title",
+      "chapter_type": "frame | evidence | application | synthesis | transition",
+      "thesis_clause": "Primary thesis clause advanced",
+      "evidence_types": ["case_studies", "data", "frameworks"],
+      "reader_milestone": "Micro-transformation",
+      "key_frameworks": ["Framework Name"],
+      "exercises_or_artifacts": ["Template name", "Checklist name"],
+      "opens_with": "Hook description",
+      "closes_with": "Bridge to next chapter",
+      "cognitive_load": "low | medium | high",
+      "prerequisites_required": ["Prerequisite 1", "Prerequisite 2"],
+      "what_must_happen": "Directive prose for writer",
+      "argument_function": "poses | evidences | complicates | synthesizes | applies",
+      "audience_service": "quick_win | mental_model | decision_tool | narrative_payoff | rigor"
+    }
+  ],
+  "pacing_notes": "Distribution notes, cognitive cliffs, acceleration/scaffolding zones",
+  "navigation_aids": {
+    "part_overviews": true,
+    "chapter_summaries": true,
+    "start_here_guide": true,
+    "framework_index": true,
+    "template_index": true
+  }
+}

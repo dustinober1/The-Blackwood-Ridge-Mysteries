@@ -1,0 +1,30 @@
+{
+  "archetype": "Practitioner | Aspirant | Decision-Maker | Curious Generalist | Skeptic/Critic",
+  "knowledge_level": "Novice | Some exposure | Practitioner | Expert",
+  "reader_persona": "One paragraph sketch: title/role, daily context, pain points, goals, information consumption habits",
+  "current_knowledge": ["Specific concept/tool/framework/experience 1", "Specific concept/tool/framework/experience 2"],
+  "knowledge_gaps": ["Specific gap 1", "Specific gap 2"],
+  "objections": [
+    {
+      "objection": "Reader's exact words",
+      "root_cause": "Why they believe this",
+      "book_response": "How your argument/evidence addresses it"
+    }
+  ],
+  "prerequisites": {
+    "knowledge": [{"item": "Specific prerequisite", "why_required": "Why thesis fails without it"}],
+    "tools": [{"item": "Specific tool/software", "why_required": "Why transformation requires it"}],
+    "access": [{"item": "Specific access", "why_required": "Why transformation requires it"}],
+    "mindset": [{"item": "Specific belief/attitude", "why_required": "Why transformation requires it"}],
+    "time_commitment": [{"item": "Hours/weeks", "why_required": "Why transformation requires it"}]
+  },
+  "credibility_signals": ["Signal 1", "Signal 2", "Signal 3", "Signal 4", "Signal 5"],
+  "structural_expectations": {
+    "depth_level": "overview | deep-dive | reference",
+    "preferred_format": "narrative | framework | playbook | reference | hybrid",
+    "chapter_length_words": [0, 0],
+    "total_word_count": [0, 0],
+    "visual_density": "low | medium | high",
+    "actionability_ratio": "theory:practice as percentage string"
+  }
+}

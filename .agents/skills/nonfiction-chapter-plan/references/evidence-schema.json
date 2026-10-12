@@ -1,0 +1,122 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Nonfiction Chapter Plan Schema",
+  "type": "object",
+  "required": ["chapter_number", "title", "argument_spine", "evidence_blocks", "reader_takeaway"],
+  "properties": {
+    "chapter_number": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "argument_spine": {
+      "type": "object",
+      "required": ["claim", "stakes", "evidence_strategy", "synthesis", "necessity"],
+      "properties": {
+        "claim": { "type": "string", "minLength": 10 },
+        "stakes": { "type": "string", "minLength": 10 },
+        "evidence_strategy": {
+          "type": "object",
+          "required": ["primary", "supporting"],
+          "properties": {
+            "primary": { "type": "string", "enum": ["empirical", "anecdotal", "theoretical", "historical", "counter_argument", "synthesis"] },
+            "supporting": { "type": "string", "enum": ["empirical", "anecdotal", "theoretical", "historical", "counter_argument", "synthesis", "none"] }
+          }
+        },
+        "synthesis": { "type": "string", "minLength": 10 },
+        "necessity": { "type": "string", "minLength": 10 }
+      }
+    },
+    "evidence_blocks": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["block_number", "sub_claim", "evidence_type", "concrete_evidence", "turn", "transition"],
+        "properties": {
+          "block_number": { "type": "integer", "minimum": 1 },
+          "sub_claim": { "type": "string", "minLength": 10 },
+          "evidence_type": { "type": "string", "enum": ["empirical", "anecdotal", "theoretical", "historical", "counter_argument", "synthesis"] },
+          "supporting_evidence_type": { "type": "string", "enum": ["empirical", "anecdotal", "theoretical", "historical", "counter_argument", "synthesis", "none"] },
+          "concrete_evidence": { "type": "string", "minLength": 20 },
+          "citations": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "turn": { "type": "string", "minLength": 10 },
+          "consequence": { "type": "string", "minLength": 10 },
+          "transition": { "type": "string", "minLength": 10 }
+        }
+      }
+    },
+    "reader_takeaway": {
+      "type": "object",
+      "required": ["one_sentence_takeaway", "actionable_implication", "forward_hook"],
+      "properties": {
+        "one_sentence_takeaway": { "type": "string", "minLength": 10 },
+        "actionable_implication": { "type": "string", "minLength": 10 },
+        "forward_hook": { "type": "string", "minLength": 10 },
+        "hook_type": { "type": "string", "enum": ["open_question", "escalating_stakes", "counter_intuitive_reversal", "missing_piece", "practical_imperative", "narrative_thread"] }
+      }
+    },
+    "continuity_notes": {
+      "type": "object",
+      "properties": {
+        "defined_terms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "term": { "type": "string" },
+              "definition": { "type": "string" },
+              "status": { "type": "string", "enum": ["locked", "proposed", "contested"] }
+            },
+            "required": ["term", "definition", "status"]
+          }
+        },
+        "argument_threads": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "thread_name": { "type": "string" },
+              "claim": { "type": "string" },
+              "status": { "type": "string", "enum": ["established", "developing", "payoff_due"] },
+              "next_required_move": { "type": "string" }
+            },
+            "required": ["thread_name", "claim", "status", "next_required_move"]
+          }
+        },
+        "open_questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "question": { "type": "string" },
+              "promised_resolution_chapter": { "type": ["integer", "string"] },
+              "status": { "type": "string", "enum": ["open", "answered", "abandoned"] }
+            },
+            "required": ["question", "promised_resolution_chapter", "status"]
+          }
+        }
+      }
+    },
+    "fact_status": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "assertion": { "type": "string" },
+          "status": { "type": "string", "enum": ["established", "author_directed", "proposed", "unknown"] },
+          "source": { "type": "string" },
+          "verification_needed": { "type": "boolean" }
+        },
+        "required": ["assertion", "status"]
+      }
+    }
+  }
+}

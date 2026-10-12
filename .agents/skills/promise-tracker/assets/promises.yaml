@@ -1,0 +1,35 @@
+# Unified Promises Ledger — setups awaiting payoff
+#
+# One per book/work unit: Wiki/Story/Book-N/promises.yaml
+#
+# Tracks anything the text tells the reader to remember: setups that create
+# expectations and should be resolved or explicitly deferred.
+#
+# Fiction examples: Chekhov's guns, questions, threats, mysteries, prophecies,
+# relationships, rules, skills.
+# Non-fiction examples: thesis threads, unresolved tensions, "we'll return to
+# this", promised counterarguments/definitions, open questions, concepts needing
+# fuller treatment.
+
+promises:
+  - id: "P001"
+    # What the reader is now expecting. Write from the reader's side.
+    promise: ""
+    # Where it was made (chapter/section). e.g. ch3, sec2.1, 3.2
+    introduced_ch: ""
+    # Kind of promise.
+    # Fiction: object | skill | threat | question | debt | relationship | mystery | prophecy | rule
+    # Non-fiction: thesis-thread | tension | forward-ref | counterargument | definition | concept | example | open-question | other
+    kind: "other"
+    # How loudly made: whisper | plain | loud
+    weight: "plain"
+    # By which chapter/section reader will feel cheated. Required unless deferred.
+    payoff_by_ch: ""
+    # Project context: fiction | nonfiction
+    project_type: "fiction"
+    # Filled when paid (both or neither)
+    paid_in_ch: ""
+    paid_how: ""
+    # Deferred to later volume; requires series/inter-book promise map
+    deferred_to_series: false
+    notes: ""
