@@ -34,8 +34,8 @@ findings:
     summary: "`INCONSISTENCY` — **Callie drives to the cove (ch7)**: \"She drove out past the school... she parked behind Cross's cruiser... engine off\" and \"She drove back down the lake road\" — contradicts established series canon that Callie has no car (Book 1 ch2 fix \"drive home → walk home,\" audiobook continuity round; Book 1 text: \"the long walk home\"). MUST FIX pre-publication (rework ch7's two transit passages: e.g., Cross collects her, or she rides with the dive team)."
     units: ["ch02", "ch07"]   # chapters/sections affected; [] = unlocalized
     source_line: "`INCONSISTENCY` — **Callie drives to the cove (ch7)**: \"She drove out past the school... she parked behind Cross's cruiser... engine off\" and \"She drove back down the lake road\" — contradicts established series canon that Callie has no car (Book 1 ch2 fix \"drive home → walk home,\" audiobook continuity round; Book 1 text: \"the long walk home\"). MUST FIX pre-publication (rework ch7's two transit passages: e.g., Cross collects her, or she rides with the dive team)."
-    status: open
-    resolution_note: "Gate-confirmed 2026-10-11 (audit sweep run 1, ch07 FAIL): both transit passages on the page — 'She drove out past the school... engine off' and 'She drove back down the lake road'; she later walks from the station the same day. Awaiting author approval; fix via revise-chapter."
+    status: fixed
+    resolution_note: "APPLIED 2026-10-11 (author approval via persona-panel triage). ch7 transit reworked per canon-decisions shape: Cross picks her up on the square at a quarter to six; she rides out in the cruiser's passenger seat ('He followed the lake road'); 'Cross was already there' adjusted to 'Cross was out of the cruiser first'; return leg is Cross driving, the cove seen through the passenger window (rearview beat converted)."
 
   - id: "F004"
     kind: other
@@ -43,8 +43,8 @@ findings:
     summary: "`INCONSISTENCY` — **Mae's diaper line (ch6)**: \"Mae had walked into the office of a man whose diapers she had changed\" — impossible against Book 1's pinned ages (Mae ~59–60 by text arithmetic, ch4; Cross mid-fifties; the gap is ~5 years). The Book 1 planning bible carried the same impossible detail. MUST FIX pre-publication (rephrase to the compatible form: Mae has known Cross since he was a young deputy)."
     units: ["ch04", "ch06"]   # chapters/sections affected; [] = unlocalized
     source_line: "`INCONSISTENCY` — **Mae's diaper line (ch6)**: \"Mae had walked into the office of a man whose diapers she had changed\" — impossible against Book 1's pinned ages (Mae ~59–60 by text arithmetic, ch4; Cross mid-fifties; the gap is ~5 years). The Book 1 planning bible carried the same impossible detail. MUST FIX pre-publication (rephrase to the compatible form: Mae has known Cross since he was a young deputy)."
-    status: open
-    resolution_note: "Gate-confirmed 2026-10-11 (audit sweep run 1, ch06 FAIL): the line is on the page verbatim (prose L110). Awaiting author approval; fix via revise-chapter with the compatible form above."
+    status: fixed
+    resolution_note: "APPLIED 2026-10-11 (author approval via persona-panel triage). Line now reads 'a man she had known since he was a young deputy' — the Book 1 bible's own compatible alternative, per canon-decisions.md #3."
 
   - id: "F005"
     kind: other
@@ -52,8 +52,8 @@ findings:
     summary: "`INCONSISTENCY` — **Yellow rose meaning drift (ch2 vs ch8)**: the pulled-up bed's stakes read \"Ambition. Betrayal. Folly.\" in ch2 but \"Ambition. Infidelity. Folly.\" in ch8 — the same cipher object given two meanings. MUST FIX pre-publication (harmonize; ch2's \"Betrayal\" is the book's established vocabulary)."
     units: ["ch02", "ch08"]   # chapters/sections affected; [] = unlocalized
     source_line: "`INCONSISTENCY` — **Yellow rose meaning drift (ch2 vs ch8)**: the pulled-up bed's stakes read \"Ambition. Betrayal. Folly.\" in ch2 but \"Ambition. Infidelity. Folly.\" in ch8 — the same cipher object given two meanings. MUST FIX pre-publication (harmonize; ch2's \"Betrayal\" is the book's established vocabulary)."
-    status: open
-    resolution_note: "Gate-confirmed 2026-10-11 (audit sweep run 1, ch08 FAIL): 'Ambition. Infidelity. Folly.' on the page (ch08 prose L68); ch2's 'Betrayal' confirmed canonical by world-rules and gate. Awaiting author approval."
+    status: fixed
+    resolution_note: "APPLIED 2026-10-11 (author approval via persona-panel triage). ch8 harmonized to 'Ambition. Betrayal. Folly.' — one word, matching ch2's definition scene."
 
   - id: "F006"
     kind: other
@@ -61,8 +61,8 @@ findings:
     summary: "`INCONSISTENCY` — **Meta-leak (ch7)**: \"she felt the place as the bible had said she would: heavy\" — the narration cites \"the bible,\" readable only as a reference to the production bible; no in-world text has said the cove is heavy (ch5's in-world form is \"the place felt wrong in a way no one had ever named\"). MUST FIX pre-publication (replace with the in-world phrasing)."
     units: ["ch05", "ch07"]   # chapters/sections affected; [] = unlocalized
     source_line: "`INCONSISTENCY` — **Meta-leak (ch7)**: \"she felt the place as the bible had said she would: heavy\" — the narration cites \"the bible,\" readable only as a reference to the production bible; no in-world text has said the cove is heavy (ch5's in-world form is \"the place felt wrong in a way no one had ever named\"). MUST FIX pre-publication (replace with the in-world phrasing)."
-    status: open
-    resolution_note: "Gate-confirmed 2026-10-11 (audit sweep run 1, ch07 FAIL): the meta-leak is on the page verbatim (prose L26); ch5 already carries the correct in-world phrasing to borrow."
+    status: fixed
+    resolution_note: "APPLIED 2026-10-11 (author approval via persona-panel triage). Now reads 'the place felt wrong in a way no one had ever named, and the wrongness had a weight. Heavy even in daylight.' — echoes ch5's in-world form; 'Heavy even in daylight.' preserved."
 
   - id: "F007"
     kind: canon-gap
@@ -258,11 +258,20 @@ findings:
   - id: "F028"
     kind: pacing
     severity: major
-    summary: "Redundant beat pair: 'She could not make the two things fit together, and she did not try.' appears verbatim in ch04 and ch06, with a shortened third occurrence in ch07 ('...the two things fit, and she did not try.'). Not a registered motif; either register it as one or vary all but one instance."
-    units: ["ch04", "ch06", "ch07"]
-    source_line: "audit-book pacing pass, 2026-10-11 (inline, checklist preserved)"
-    status: open
-    resolution_note: "Pacing pass otherwise clean: no FLAT endings (all 8 land on hooks/earned lulls), no 3+ chapter tension plateau (ch6's valley is the designed pre-dive breath), every outline Dramatic Question answered or explicitly carried."
+    summary: "Redundant beat pair: 'She could not make the two things fit together, and she did not try.' appeared verbatim in ch04 and ch06 (twice in ch06 — the archive paragraph and the back-room scene; the originally-logged 'shortened third occurrence in ch07' was a localization error: the third instance was ch06, not ch07). Not a registered motif; all but one instance varied/removed."
+    units: ["ch04", "ch06"]
+    source_line: "audit-book pacing pass, 2026-10-11 (inline, checklist preserved); localization corrected during persona-panel triage 2026-10-11"
+    status: fixed
+    resolution_note: "APPLIED 2026-10-11 (cadence pass, panel C2): ch04 instance kept (the surviving use); ch06 archive-paragraph instance varied to 'and both of them were Wells Ambler'; ch06 back-room instance cut (paragraph now ends 'steady and kind.'). Pacing pass otherwise clean: no FLAT endings (all 8 land on hooks/earned lulls), no 3+ chapter tension plateau (ch6's valley is the designed pre-dive breath), every outline Dramatic Question answered or explicitly carried."
+
+  - id: "F031"
+    kind: pacing
+    severity: major
+    summary: "Persona-panel convergent C1/C2 (reviews/triage-2026-10-11.md, 5 of 8 personas): cadence machinery — all 8 chapters ended on the same quiet reflective beat (ch1/ch4 both on the cold-tea ritual); duplicated constructions ('look sideways at a man the whole town loved' twice within 8 lines, ch3; 'not-wiping... not a performance' near-verbatim ch7→ch8; 'its own' family 7+ members; 'Not a question. A naming.' ×4; 'its own sentence' ×3); device-family density ('tumbler turned' ×4, 'not peace' ×4, 'face of a man who' ×4 in ch7, brass-warm ritual ×4, cold-tea ritual ×3, bruise-color similes ×4); cost-foretelling nudges in ch1/ch3/ch6 (H01); summary intrusions naming already-staged content (L01: 5:566, 5:580–582, 5:698, 6:734–736, 8:961, 8:1074). Primary driver of A01's 'ambiguous' AI-prose verdict."
+    units: ["ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch07", "ch08"]
+    source_line: "Quick-8 persona panel + triage worksheet C1/C2, 2026-10-11; evidence verified against manuscript before edit"
+    status: fixed
+    resolution_note: "APPLIED 2026-10-11, one line-edit pass (density trim, voice preserved — cuts over rewrites). Endings: ch4 → 'She turned to the next plate. Marguerite had left her more.'; ch6 → plain 'She did not sleep, but she lay down.' + Eli-forward close; ch7 → ends on the glass image, 'quiet was heavy, and it was earned' verdict cut; ch8 → doubled 'For now, that was enough.' cut, 'reclamation held / survival' analysis replaced with 'The shop had held. She had held.'; ch2 ending re-sequenced to land on 'A girl who had not come home.'; ch3 ending cost couplet cut. Duplicates: look-sideways merged; not-wiping varied in ch8 (ch7 primal instance kept); two-things-fit per F028; stone simile cut in ch7 (ch4's kept). Families reduced: tumbler 4→2 (ch3 establishing simile + ch4's two-word click), not-peace 4→2, its-own 7+→3, Not-a-question 4→2 (survivors phrasing-varied), its-own-sentence 3→1, face-of-a-man ch7 4→2, brass-warm 4→2, cold-tea ending repeat 2→1, bruise similes 4→2, ice-over-water 2→1. Cost nudges cut in ch1 and ch3; ch6 triplet softened; intrusions cut at 5:566 ('the seeing into evidence'), 5:580–582, 5:698 (Harlan looking-up signaling), 8:961 ('frequency of shock'), 8:1074. C3a archive-closure beat added in ch7 in the same pass: 'The lake had proved it instead.'"
 
   - id: "F029"
     kind: canon-gap

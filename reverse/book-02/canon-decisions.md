@@ -5,10 +5,15 @@ PRE-PUBLICATION and editable; per the author's standing instruction
 (2026-10-11): fill the gaps, fix what the audit proves broken, and record
 every decision here.
 
-## MUST-FIX worklist (awaiting author approval — checkpoint 3)
+## MUST-FIX worklist (APPROVED & APPLIED 2026-10-11)
 
-Four defects, all mechanically verified. None requires re-drafting beyond
-the flagged passages.
+Four defects, all mechanically verified. None required re-drafting beyond
+the flagged passages. **Author approval received 2026-10-11** ("Do what you
+recommend," via the persona-panel triage in `books/book-02/reviews/
+triage-2026-10-11.md`); all four applied to `books/book-02/manuscript/` the
+same day — see findings.yaml F003–F006 resolution notes for the exact
+applied forms. The panel independently confirmed the F006 meta-leak (R05
+flagged 7:828 without knowing the ledger).
 
 | # | Finding | Location | Problem | Proposed fix |
 |---|---------|----------|---------|--------------|

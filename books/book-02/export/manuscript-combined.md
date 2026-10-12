@@ -65,7 +65,7 @@ She let herself in through the front. The bell rang. The shop exhaled — old le
 
 The book was on the worktable in the back room where she had left it. She had not moved it. Since December — the night she'd found it, the unremarkable nineteenth-century botanical with margins full of a hand she did not know, small and precise and oddly steady — she had walked past it forty times and not picked up the glass. She knew what curiosity cost.
 
-The book waited. Books did that.
+The book waited.
 
 She was standing in the doorway of the back room, her tea going cold, looking at the open page without seeing it, when the bell rang at the front of the shop.
 
@@ -107,13 +107,13 @@ Eli nodded, slowly. Then he said, "I'll get the rest of the crate," and went bac
 
 She did not pick up the glass. Not yet.
 
-She went to the counter instead. She pulled a pricing guide from the shelf and opened it and began listing the trade paperbacks Eli had left — mysteries, romance, a few westerns, the kind of clean stock that moved on the front table. She wrote the prices in pencil on the inside flaps the way she had done ten thousand times, the way Eleanor had taught her, the way the shop had always run. The work was ordinary and it was what she had, and she did it for twenty minutes, and she did not think about the book, and the not-thinking was its own kind of thinking, and the pencil moved and the prices stacked up and the morning came through the window in long gold bars across the floor, and then she was at the back room doorway again, and she did not remember standing up from the counter.
+She went to the counter instead. She pulled a pricing guide from the shelf and opened it and began listing the trade paperbacks Eli had left — mysteries, romance, a few westerns, the kind of clean stock that moved on the front table. She wrote the prices in pencil on the inside flaps the way she had done ten thousand times, the way Eleanor had taught her, the way the shop had always run. The work was ordinary and it was what she had, and she did it for twenty minutes, and she did not think about the book, and the pencil moved and the prices stacked up and the morning came through the window in long gold bars across the floor, and then she was at the back room doorway again, and she did not remember standing up from the counter.
 
 She stood at the worktable and she looked at the open page, and she let herself, for the first time since December, really look. The plate was a violet — *Viola odorata*, the sweet violet, hand-colored in a wash that had gone the color of a bruise over a century. And in the margin, in that small steady blue-black hand, Marguerite Dabney had written a name. Lauren. And a date. June 1994. And beneath the date, in the not-quite-English shorthand that Callie had not been able to crack in December and could not crack now, a line of compressed text — fragments of a word, a place, something she almost recognized but couldn't hold.
 
 Callie picked up the glass.
 
-The brass was warm from the table. Her mother's glass — no, hers now, hers by choice and not by ghost, she had earned that much in the winter even if she had not earned much else. She held it over the margin and she felt it begin, the thing she had no better word for than the narrowing: the room drawing down, the world contracting to the circle of light under the lens, to ink and intention and the ghost of the hand that had made it. The paper under the glass took on a texture the naked eye couldn't catch — the faint ridging of the plate's hand-coloring, the way the pigment had settled into the paper's grain over a century, the microscopic foxing at the edges like a bruise working inward. And in the margin, magnified, the ink lived. She could see the hairline stroke where the pen had first touched the page, the slight pool of blue-black at the foot of each *L* where Marguerite had paused — barely, the way a teacher pauses between thoughts — before setting the next letter down. She could feel the hand now that she knew whose it was. Not the fear that had been in Jacob Wren's cramped cipher, not Pike's eager downhill slant, not Eleanor's looping familiar voice. This was a steady hand. A patient hand. The hand of a woman who had sat down with this book and gone through it page by page and written as if she had all the time in the world, and as if she expected, eventually, to be found.
+The brass was warm from the table. Her mother's glass — no, hers now, hers by choice and not by ghost, she had earned that much in the winter even if she had not earned much else. She held it over the margin and she felt it begin, the thing she had no better word for than the narrowing: the room drawing down, the world contracting to the circle of light under the lens, to ink and intention and the ghost of the hand that had made it. The paper under the glass took on a texture the naked eye couldn't catch — the faint ridging of the plate's hand-coloring, the way the pigment had settled into the paper's grain over a century, the microscopic foxing at the edges. And in the margin, magnified, the ink lived. She could see the hairline stroke where the pen had first touched the page, the slight pool of blue-black at the foot of each *L* where Marguerite had paused — barely, the way a teacher pauses between thoughts — before setting the next letter down. She could feel the hand now that she knew whose it was. Not the fear that had been in Jacob Wren's cramped cipher, not Pike's eager downhill slant, not Eleanor's looping familiar voice. This was a steady hand. A patient hand. The hand of a woman who had sat down with this book and gone through it page by page and written as if she had all the time in the world, and as if she expected, eventually, to be found.
 
 She turned back to the first plate.
 
@@ -133,7 +133,7 @@ She set the glass down. Gently. On the felt rest. She did not let go of it.
 
 In the front of the shop, Eli was shelving the trade paperbacks from the crate, and she could hear him humming — badly, tunelessly, the humming of a young man who had stopped apologizing for the sound of himself. Through the front window the peonies were bowing on the square, going brown at the edges because no one had thought to tend them. Somewhere a dog was barking. The light was still pressed-glass, still sweet, still early.
 
-And under the grey mornings, Callie felt it again — curiosity, the small clean thing — and with it a second thing she would not name: the knowledge that it was going to cost her, and that the choice had already been made the moment she picked up the glass.
+And under the grey mornings, Callie felt it again — curiosity, the small clean thing — and with it a second thing she would not name. The choice had already been made the moment she picked up the glass.
 
 Marguerite Dabney had written *Lauren* and *June 1994*, and then she had died, and she had left the book to be found.
 
@@ -177,9 +177,9 @@ It was a square of turned earth at the back, against the fence, where the light 
 
 The peony bed was at the center. *Shame*. Ringed with rosemary — *remembrance*. And between the shame and the remembrance, a single plant Callie had to bend to identify: basil, its leaves small and sharp-scented, bruised green when she brushed them with her fingertips. Basil meant *hatred*, and also *poverty*, and Marguerite had planted it alone and hemmed in by the two heavier meanings, the way a woman contains a thing she has decided to say only to herself. The same word the book's aconite carried — *hatred* — and Callie felt the click of it, the two ciphers locking together: the garden's vocabulary was the cipher's vocabulary. She held the legend now. The book and the ground were one text, and Marguerite had written them both for the same reader.
 
-Callie straightened. The sun had come out from behind the clouds, and the warmth of it landed on the stone path and on Callie's shoulders, and for a moment the garden was just a garden — green, wet, blooming, smelling of earth and rosemary and the sweet decay of late spring — and somewhere inside the cottage a kettle was on, and the smell of plain black tea drifted through the kitchen window, and the woman in the bed was just a woman tending flowers in the morning. Then the woman looked up, and the looking changed it back.
+Callie straightened. The sun had come out from behind the clouds, and the warmth of it landed on the stone path and on Callie's shoulders, and for a moment the garden was just a garden — green and wet, smelling of earth and rosemary and the sweet decay of late spring — and somewhere inside the cottage a kettle was on, and the smell of plain black tea drifted through the kitchen window, and the woman in the bed was just a woman tending flowers in the morning. Then the woman looked up, and the looking changed it back.
 
-"You read it," the woman said. Not a question. A naming.
+"You read it," the woman said.
 
 "Some of it."
 
@@ -255,7 +255,7 @@ Mae nodded. She did not say *be careful*. She did not say *I'm sorry*. She let g
 
 The rosemary meant remembrance, and the remembrance meant thirty-two years, and thirty-two years was a long time for a woman to kneel in a bed she had planted as a confession and wait for someone to read it.
 
-Callie walked home the long way, through the square, and the peonies were still bowing, and the town still did not quite meet her eyes, and under her arm Marguerite's book had grown heavier, because it was not a puzzle anymore. It was a girl. A girl who had not come home. And the book was the other half of what the garden had said — the half that could travel, the half Marguerite had aimed at her — and she had not cracked it yet, and she would, and the cracking would cost her, and the cost was the point.
+Callie walked home the long way, through the square, and the peonies were still bowing, and the town still did not quite meet her eyes, and under her arm Marguerite's book had grown heavier, because it was not a puzzle anymore — it was the other half of what the garden had said, the half that could travel, the half Marguerite had aimed at her. It was a girl. A girl who had not come home.
 
 \newpage
 
@@ -273,7 +273,7 @@ Each plate carried its Victorian meaning, written out in the margin in Marguerit
 
 The harder layer was the shorthand.
 
-The wider margins held passages in a script that was not quite English and not quite anything Callie could name — compressed, abbreviated, the words run together and the vowels dropped, ten thousand graded papers worth of private telegraph. Callie had seen shorthand like it once, in a Victorian governess's diary that had come through the shop, and once in her own mother's end-of-term notes, which Eleanor had kept in a kind of private code that Callie had learned to read as a girl because reading it had felt like being let into a room. Marguerite's shorthand was its own animal, but it was kin to those, and by the second afternoon Callie was cracking it the way you crack a lock — a little at a time, the tumblers turning, the meaning catching and then giving and then catching again.
+The wider margins held passages in a script that was not quite English and not quite anything Callie could name — compressed, abbreviated, the words run together and the vowels dropped, ten thousand graded papers worth of private telegraph. Callie had seen shorthand like it once, in a Victorian governess's diary that had come through the shop, and once in her own mother's end-of-term notes, which Eleanor had kept in a kind of private code that Callie had learned to read as a girl because reading it had felt like being let into a room. Marguerite's shorthand was a different animal, but it was kin to those, and by the second afternoon Callie was cracking it the way you crack a lock — a little at a time, the tumblers turning, the meaning catching and then giving and then catching again.
 
 She had, by Tuesday evening, a skeleton.
 
@@ -351,7 +351,7 @@ She thanked him for the tea. She let him show her out, and on the walk back to t
 
 The sheriff was waiting at the shop.
 
-He was leaning against the hood of his cruiser in the way he had, arms crossed, hat on, taking up the whole of the pavement in front of The Foxed Page, and when she came around the corner he did not uncross his arms, and he did not take off his hat, and the not-doing of those things was its own sentence.
+He was leaning against the hood of his cruiser in the way he had, arms crossed, hat on, taking up the whole of the pavement in front of The Foxed Page, and when she came around the corner he did not uncross his arms, and he did not take off his hat, and the not-doing of those things said enough.
 
 "Callie," he said.
 
@@ -385,15 +385,15 @@ She looked at him. He was not a stupid man. He was a man whose definition of evi
 
 He rubbed his neck again. He put his hat straight. He got in the cruiser without another word, and she stood on the pavement and watched him go, and the open palm and the word *dock* turned over in her mind, and she knew, standing there in the late-spring light with the bergamot still on her tongue from Wells Ambler's kettle, that she had begun, very quietly, to look sideways at a man the whole town loved.
 
-She went inside. She picked up the glass. She turned to the next plate, and the flower was yarrow, and yarrow meant *war*, and beside it, in Marguerite's hand, was the name Ambler, and the date, and the word *dock*, and the rest of the shorthand — the part Marguerite had crushed almost to nothing — would not give. She worked it the rest of the afternoon. The tumbler would not turn.
+She went inside. She picked up the glass. She turned to the next plate, and the flower was yarrow, and yarrow meant *war*, and beside it, in Marguerite's hand, was the name Ambler, and the date, and the word *dock*, and the rest of the shorthand — the part Marguerite had crushed almost to nothing — would not give. She worked it the rest of the afternoon. The shorthand would not give.
 
 That was all right. She had not expected it to be quick.
 
 The bergamot was still on her tongue. The open palm would not leave her. *Deliberate* — a word she had learned, the winter before, to trust.
 
-She had begun to look sideways at a man the whole town loved, and she knew what that cost. She had watched Gus Ralston's name leave the mouth of every person in Blackwood Ridge who had ever said it kindly, and she had watched the town learn the shape of its own founding lie, and she had not been forgiven for either. She would not be forgiven for this.
+She knew what it cost to begin doubting a man the whole town loved. She had watched Gus Ralston's name leave the mouth of every person in Blackwood Ridge who had ever said it kindly, and she had watched the town learn the shape of its own founding lie, and she had not been forgiven for either. She would not be forgiven for this.
 
-She sat in the lamp's gold light with the undecoded shorthand and the word *dock*. She was going to cross the distance between what she had and what she needed. She knew what it would cost. She had already decided to pay it.
+She sat in the lamp's gold light with the undecoded shorthand and the word *dock*. She was going to cross the distance between what she had and what she needed.
 
 \newpage
 
@@ -407,7 +407,7 @@ The plate was meadowsweet.
 
 Callie worked the shorthand beneath it. The dock passage from the yarrow plate still resisted — compressed to almost nothing — but the meadowsweet passage was longer, and it gave.
 
-Four lines compressed into the space of two, the vowels dropped, the consonants run together with the pen pressure of a woman who had held this particular sentence inside her for thirty-two years and could feel it, now, in the last months of her life, trying to get out faster than her hand could fairly take it down. Callie held the glass over it. The brass was warm. The lamp had gone gold. The tea at her elbow had gone cold again, and she did not notice, because the narrowing had taken her — the room drawn down, the world contracted to the greenish wash of the plate, to ink and intention.
+Four lines compressed into the space of two, the vowels dropped, the consonants run together with the pen pressure of a woman who had held this particular sentence inside her for thirty-two years and could feel it, now, in the last months of her life, trying to get out faster than her hand could fairly take it down. Callie held the glass over it. The lamp had gone gold. The tea at her elbow had gone cold again, and she did not notice, because the narrowing had taken her — the room drawn down, the world contracted to the greenish wash of the plate, to ink and intention.
 
 The tumbler turned.
 
@@ -427,7 +427,7 @@ The wet hemline.
 
 Callie could see it. That was the thing the cipher did that no secondhand account could do — it put the seeing in her own head. The kitchen window. The light on. The boy in the middle of the road, walking to keep the dust off his shoes because his trousers were soaked below the knees. He had been at the lake. He had come back alone. Lauren had not come home. And Marguerite had stood at her window with the light on and she had seen, and she had done the careful thing, which was nothing.
 
-The tea was cold. She drank it anyway. It tasted like nothing in particular, which was its own answer.
+The tea was cold. She drank it anyway.
 
 She tested it the way she tested every hand — against the counter-narrative. Marguerite had been dying. Cancer in the last months, the pen pressure fading in the final plates. A woman in pain, annotating a book she loved, possibly reading patterns into old memories that were not there. A wet hemline was not a confession. A boy coming home from a lake was not a killing. Marguerite might have been wrong.
 
@@ -491,7 +491,7 @@ It was a small stop — a half-beat, a thing measured in fractions of a second �
 
 "Of course." He nodded. He came to the gate and he stood there, and his hand went to the latch, and the hand was open. Palm shown. The gesture she had filed under *deliberate* two days ago. "How's the decoding coming? I've been thinking about what you said — about the margins. Marguerite was such a careful woman."
 
-He was testing. She could feel it the way she felt a hand's character — in the pen pressure, in the rhythm, in the thing underneath the rhythm that the rhythm was trying to cover. He was testing what she knew, and he was doing it with warmth, and the warmth was thinner than it had been in his office, the way ice thins over moving water.
+He was testing. She could feel it the way she felt a hand's character — in the pen pressure, in the rhythm, in the thing underneath the rhythm that the rhythm was trying to cover. He was testing what she knew, and he was doing it with warmth, and the warmth was thinner than it had been in his office.
 
 "It's coming," Callie said. "She was careful. You're right."
 
@@ -549,7 +549,7 @@ Callie let herself into the shop. She did not turn on the lights. She went to th
 
 She sat with it. The town had closed the archive. Doris had closed her kitchen. The only ally she had was a dead woman who had chosen, thirty years too late, to write down what she had seen and not one word more.
 
-She picked up her tea. It had gone cold hours ago. She drank it. Almost right. Not quite. And she turned to the next plate, because there was nothing else to do, and Marguerite had left her more.
+She turned to the next plate. Marguerite had left her more.
 
 \newpage
 
@@ -559,15 +559,15 @@ She picked up her tea. It had gone cold hours ago. She drank it. Almost right. N
 
 She cracked it on a Thursday.
 
-Not all at once — the cipher had been giving in stages for days, each plate yielding its layer the way a pressed flower gives its color when you moisten it, slowly, the pigment blooming back into the leaf. But Thursday was the day the last tumbler turned, and the whole lock opened, and Callie sat back in the chair with the lamp gold and the tea cold and the shop closed and the archive key still not returned and Doris's kitchen still shut to her, and the book lay open across the table like a body on a slab, and she saw what Marguerite Dabney had done.
+Not all at once — the cipher had been giving in stages for days, each plate yielding its layer the way a pressed flower gives its color when you moisten it, slowly, the pigment blooming back into the leaf. But Thursday was the day the last plate came clear, and the whole of it opened at once, and Callie sat back in the chair with the lamp gold and the tea cold and the shop closed and the archive key still not returned and Doris's kitchen still shut to her, and the book lay open across the table like a body on a slab, and she saw what Marguerite Dabney had done.
 
 It was a map.
 
-Not a confession. Not an accusation. A map. Each plate was a coordinate — the dates clicking into a timeline, the names into a cast, the seeing into evidence. The rosemary gave *remembrance* and the date. The violet gave *faithfulness* and the name. The yarrow gave *war* and the second name, the one underlined once and left. The meadowsweet gave the seeing. And the last plates, the ones where the pen pressure lightened and the letters thinned, gave the place.
+Not a confession. Not an accusation. A map. Each plate was a coordinate — the dates clicking into a timeline, the names into a cast. The rosemary gave *remembrance* and the date. The violet gave *faithfulness* and the name. The yarrow gave *war* and the second name, the one underlined once and left. The meadowsweet gave the seeing. And the last plates, the ones where the pen pressure lightened and the letters thinned, gave the place.
 
 The flower was water lily. *Nymphaea alba* — hand-colored in a blue-green wash, the petals drawn half-open, the kind of plate that existed to be beautiful and Marguerite had repurposed it to be precise. Water lily in the old language meant *purity of heart*, and also it meant *the surface and what is under it*, and Marguerite had written the second meaning and underlined it.
 
-Callie held the glass over the shorthand beneath it. Four words, compressed to almost nothing — the vowels crushed, the consonants welded together, the hand of a woman running out of time and out of strength. The brass was warm. The lamp threw gold across the page. She worked it letter by letter — the pen pressure first, then the rhythm, then the ghost of the intention under the rhythm. Twenty minutes. The last of the afternoon light.
+Callie held the glass over the shorthand beneath it. Four words, compressed to almost nothing — the vowels crushed, the consonants welded together, the hand of a woman running out of time and out of strength. The lamp threw gold across the page. She worked it letter by letter — the pen pressure first, then the rhythm, then the ghost of the intention under the rhythm. Twenty minutes. The last of the afternoon light.
 
 *The old dock. The deep.*
 
@@ -579,7 +579,7 @@ Not *he killed her.* The cipher said what it had always said — what she saw, w
 
 Callie sat with it.
 
-She sat with it the way she had learned to sit with difficult hands — not rushing past the discomfort, not naming it, just holding the glass steady and letting the thing be what it was. What it was: not enough. Not enough for a warrant, not enough for a search, not enough to walk into Cross's office and say *dig up the lake*. A dead woman's recorded seeing and a dead woman's suspicion and a wet hemline from 1994. The town had been dragged through a murder trial six months ago on stronger evidence than this. And the town — she could feel it without stepping outside, the way you feel weather in a bad knee — the town did not want to be dragged again.
+What it was: not enough. Not enough for a warrant, not enough for a search, not enough to walk into Cross's office and say *dig up the lake*. A dead woman's recorded seeing and a dead woman's suspicion and a wet hemline from 1994. The town had been dragged through a murder trial six months ago on stronger evidence than this. And the town — she could feel it without stepping outside, the way you feel weather in a bad knee — the town did not want to be dragged again.
 
 She turned to the final plate.
 
@@ -597,11 +597,11 @@ She did not move. The bell rang again — not the customer's ring, but the knock
 
 It was Mae.
 
-She was standing on the pavement in the last of the evening light with a dishcloth in her hands and her cardigan pulled close, and the lavender smell reached Callie before the face did — faint, strained, the sachet-and-cinnamon that was Mae's armor, thinner now but still there, still lavender, still Mae. She did not have soup. She was not carrying anything but the cloth and the look, and the not-carrying was its own sentence.
+She was standing on the pavement in the last of the evening light with a dishcloth in her hands and her cardigan pulled close, and the lavender smell reached Callie before the face did — faint, strained, the sachet-and-cinnamon that was Mae's armor, thinner now but still there, still lavender, still Mae. She did not have soup. She was not carrying anything but the cloth and the look.
 
 "Can I come in, honey."
 
-Mae had used the word at the Dabney garden gate, two weeks ago, but it had been a wall — a welcome and a boundary in the same breath. This was not a wall. The word landed in Callie's chest like a thumb on a bruise. She held the door.
+Mae had used the word at the Dabney garden gate, two weeks ago, but it had been a wall — a welcome and a boundary in the same breath. This was not a wall. The word landed in Callie's chest. She held the door.
 
 Mae came in and she did not go to the back room. She went to the reading nook by the front window, the one with the two leather chairs and the lamp with the green glass shade, and she sat, and she folded the cloth in her lap, and her hands worked the cloth. Callie sat across from her. The shop was dark except for the green lamp and the gold light leaking from the back room doorway.
 
@@ -695,9 +695,9 @@ He rubbed his neck again. He looked at the pages one more time. Then he squared 
 
 It was not *no*. It was not *yes*. It was the words of a man who had listened longer than he would have in the winter, and who was going to sit with it, and who might — or might not — do something about it, and the might-or-might-not was the most she was going to get, and she knew it, and she took it.
 
-She left the book. She took her notes. She walked out into the late-spring morning, and the square was bright, and the peonies were open, and Harlan Beech was sweeping his pavement, and he looked up — he looked up, for the first time in weeks — and he did not speak, and she did not speak, but the looking-up was a thing, and she did not know what kind of thing, and she did not stop to find out.
+She left the book. She took her notes. She walked out into the late-spring morning, and the square was bright, and the peonies were open, and Harlan Beech was sweeping his pavement, and he looked up — for the first time in weeks — and he did not speak, and she did not speak, and she did not stop.
 
-She went back to the shop. She sat in the back room with the empty table where the book had been, and outside the mockingbird was running through every song it had ever stolen, and the town was going about its morning, and Callie Thorne had done the only thing she could do. She had said what a careful woman could not. And now the saying was in the sheriff's hands, and her hands were empty, and the empty was not peace and was not rest. It was the quiet of having decided.
+She went back to the shop. She sat in the back room with the empty table where the book had been, and outside the mockingbird was running through every song it had ever stolen, and the town was going about its morning, and Callie Thorne had done the only thing she could do. She had said what a careful woman could not. And now the saying was in the sheriff's hands, and her hands were empty. It was the quiet of having decided.
 
 Marguerite had written *say it*. Callie had said it. The rest was not hers.
 
@@ -711,7 +711,7 @@ It took three days for the town to decide what it thought of her, and the decidi
 
 Monday a mother named Linda Parrish came into the shop and asked, in the bright loud voice of a woman performing reasonableness, whether it was true that Callie was trying to reopen the Coalter case, and Callie said she was looking into Marguerite Dabney's annotations, and Linda Parrish said, "That's not what I heard," and left without buying anything, and the bell rang behind her and the sound was the sound of a door closing in a house that was not hers.
 
-Tuesday the archive key was formalized. Harriet Vailes's gentle recall became a letter on council letterhead, hand-delivered by a clerk who would not meet her eye, stating that the archive system was under review and access would be restored "pending completion of the security audit," and the letter did not say when the audit would be complete. Wells Ambler had not come to her shop. He had not raised his voice. He had gone to the people who listened to him, which was most of them, and he had spoken with warmth, and the warmth had done what warmth does in a town that had just spent the winter bleeding — it had made everyone want the bleeding to stop, and Callie was the blade. She saw him once, through the shop window, shaking hands with Harlan Beech on the square. The palm was open. The grip was held a beat too long. She could read the effort in it now that she had not been able to read before, and the reading was its own kind of cost, because the man on the square was the same man who brought tomatoes to Doris Coalter, and the kindness was real, and the grave was real, and she could not make the two things fit together, and she did not try.
+Tuesday the archive key was formalized. Harriet Vailes's gentle recall became a letter on council letterhead, hand-delivered by a clerk who would not meet her eye, stating that the archive system was under review and access would be restored "pending completion of the security audit," and the letter did not say when the audit would be complete. Wells Ambler had not come to her shop. He had not raised his voice. He had gone to the people who listened to him, which was most of them, and he had spoken with warmth, and the warmth had done what warmth does in a town that had just spent the winter bleeding — it had made everyone want the bleeding to stop, and Callie was the blade. She saw him once, through the shop window, shaking hands with Harlan Beech on the square. The palm was open. The grip was held a beat too long. She could read the effort in it now that she had not been able to read before, and the reading cost her, because the man on the square was the same man who brought tomatoes to Doris Coalter, and the kindness was real, and the grave was real, and both of them were Wells Ambler.
 
 The garden club split.
 
@@ -733,11 +733,11 @@ She had made tea and it had gone cold. The bergamot tasted almost right — stil
 
 She could stop. She had done what Marguerite asked. She had said it. She had taken it to Cross. The saying was in his hands now, and his hands were procedural and slow and might do nothing with it. She reached for the one thing she had that was not suspicion — the Harlow barn, the party, two different stories told to two different audiences, a documented lie — and she held it up against the weight of the town and the weight of Doris's closed kitchen, and it was not enough. A lie was not a body. A wet hemline was not a confession. And if Cross did nothing then the case would die quietly, in a file no one opened, and Callie would go back to the shop and the tea and the morning cup and the set bone she was walking on. The town would forgive her, slowly, by forgetting. Doris would keep her groceries and her Thursdays and the version of her life she could survive.
 
-It would be the kind thing. It would be the careful thing. It would be the thing Marguerite had done for three decades, and Marguerite had been a good woman. And no one would know, and no one would have to.
+It would be the kind thing. It would be the careful thing — the thing Marguerite had done for three decades, and Marguerite had been a good woman. And no one would know, and no one would have to.
 
 She sat with it.
 
-She sat with it for a long time, in the gold lamp light, in the quiet that was not peace, and the cup was cold, and the glass was on the felt rest, and outside the mockingbird had stopped, and the town had closed around her, and she was alone in the room where her mother had died, and the aloneness was the truest thing she had felt in months — the simple animal fact of a woman sitting by herself in a building that used to be full.
+She sat with it for a long time, in the gold lamp light, and the cup was cold, and the glass was on the felt rest, and outside the mockingbird had stopped, and the town had closed around her, and she was alone in the room where her mother had died, and the aloneness was the truest thing she had felt in months — the simple animal fact of a woman sitting by herself in a building that used to be full.
 
 The bell rang.
 
@@ -799,7 +799,7 @@ He was quiet for a moment. She could hear him breathing.
 
 "The location detail is specific enough," he said. "That's what I'm putting in the report. The location is specific enough to justify a search." A pause. "Mae came by."
 
-He did not say what Mae said. He did not need to. Mae had walked into the office of a man whose diapers she had changed, and had said a word, and the word had been enough. Cross was doing his job. The doing was without warmth, and maybe he never would be ready for the warmth, and Callie did not need it.
+He did not say what Mae said. He did not need to. Mae had walked into the office of a man she had known since he was a young deputy, and had said a word, and the word had been enough. Cross was doing his job. The doing was without warmth, and maybe he never would be ready for the warmth, and Callie did not need it.
 
 "Six a.m.," she said.
 
@@ -807,9 +807,9 @@ He did not say what Mae said. He did not need to. Mae had walked into the office
 
 He hung up. He did not say goodbye. He did not say *good work* or *thank you* or *I should have listened sooner*. He said *wear boots*, and that was Cross — the procedural guardrail who moved on solid ground and never on faith. Callie stood at the counter in the dark shop with the phone still warm in her hand and she understood that tomorrow they would go to the lake, and the lake might give Lauren back, or it might give nothing, and either way the town would not forgive her for making them look.
 
-She went to the back room. She set the phone down. She picked up the glass and she held it, and the brass was warm, and it was hers. She thought of Doris, sitting with a bag of groceries she could not unpack and a scarf she could not finish. She thought of Wells, going home to his wife and his children, steady and kind. She could not make the two things fit, and she did not try.
+She went to the back room. She set the phone down. She picked up the glass and she held it, and the brass was warm, and it was hers. She thought of Doris, sitting with a bag of groceries she could not unpack and a scarf she could not finish. She thought of Wells, going home to his wife and his children, steady and kind.
 
-Callie turned off the lamp. She went upstairs. She did not sleep, but she lay down, and the lying down was its own small act of faith — the body trusting that the morning would come. Eli's question was still in her — *could you teach me* — and it would be in her tomorrow, at the cove, in the mud, when the water gave back what it had held for thirty-two years.
+Callie turned off the lamp. She went upstairs. She did not sleep, but she lay down. Eli's question was still in her — *could you teach me* — and it would be in her tomorrow, at the cove, in the mud, when the water gave back what it had held for thirty-two years.
 
 \newpage
 
@@ -821,13 +821,13 @@ She wore boots.
 
 It was a small thing, and Cross had not meant it as anything but practical instruction, and yet in the dark of the morning, lacing them at the foot of her bed with the alarm still ringing at five-fifteen and the window grey with the hour before dawn, the lacing was the thing she could hold onto — the concrete instruction, the plain physical fact of *boots, mud, six a.m.*, and she held it the way she held the glass over a difficult page, as a narrowing, a contraction of the world to what was immediate and doable.
 
-She drove out past the school. The road climbed. The town fell away behind her — the square, the shop, the square's dark planters — and the country opened, the fields going silver-green in the pre-dawn, the fences running white lines through the mist, and the smell changed from pavement and brick to wet grass and soil and something older underneath, the green rot of a Virginia late spring coming apart into summer. She followed the lake road. The trees thickened. The water appeared between the trunks in dark flashes, and then the cove opened, and she parked behind Cross's cruiser and she sat for a moment with the engine off and she looked at it.
+Cross picked her up on the square at a quarter to six, and she rode out past the school in the passenger seat of his cruiser. The road climbed. The town fell away behind them — the square, the shop, the square's dark planters — and the country opened, the fields going silver-green in the pre-dawn, the fences running white lines through the mist, and the smell changed from pavement and brick to wet grass and soil and something older underneath, the green rot of a Virginia late spring coming apart into summer. Neither of them talked. He followed the lake road. The trees thickened. The water appeared between the trunks in dark flashes, and then the cove opened, and he parked, and he sat for a moment with the engine off, and she looked at it.
 
 Blackwater Cove.
 
-It was smaller than she had imagined. That was the first wrong thing. The cove was a bite taken out of the lake's eastern shore, maybe forty yards across, and the water in it was dark — not lake-dark, not the brown-green of Cedar Lake's open water, but a heavier dark, silted, still, the dark of water that does not move and has not moved in a long time. The old dock was gone. The pilings remained — four stumps of treated lumber rising from the water like rotted teeth, green-scummed, leaning, and the mud around them was black and soft and the kind of mud that does not give things back easily. The cove was ringed with willows, their branches trailing in the water, and the light had not reached it yet, and the air above the water was cold, colder than the morning had any right to be, and Callie stood at the tree line and she felt the place as the bible had said she would: heavy. Heavy even in daylight.
+It was smaller than she had imagined. That was the first wrong thing. The cove was a bite taken out of the lake's eastern shore, maybe forty yards across, and the water in it was dark — not lake-dark, not the brown-green of Cedar Lake's open water, but a heavier dark, silted, still, the dark of water that does not move and has not moved in a long time. The old dock was gone. The pilings remained — four stumps of treated lumber rising from the water like rotted teeth, green-scummed, leaning, and the mud around them was black and soft and the kind of mud that does not give things back easily. The cove was ringed with willows, their branches trailing in the water, and the light had not reached it yet, and the air above the water was cold, colder than the morning had any right to be, and Callie stood at the tree line and the place felt wrong in a way no one had ever named, and the wrongness had a weight. Heavy even in daylight.
 
-Cross was already there.
+Cross was out of the cruiser first.
 
 He had the dive team staged — three men in dry suits from the county, gear laid out on a tarp on the bank, the logistics handled with the quiet competence of a man who might not believe in the cause but believes in doing the job right. He did not greet her. He looked at her across the muddy shore, and his face was the face of a man who has slept badly and is about to do something he cannot take back, and he gave her one nod — short, procedural — and she understood that the nod was as much warmth as she was going to get, and she took it, and she stood at the tree line, and she watched.
 
@@ -859,14 +859,17 @@ Cross stood over the tarp for a long time. He was not a man who showed much, and
 
 He turned. He looked at Callie across the muddy shore. His face did not say *you were right.* It did not say *I'm sorry.* It said: *this is a body now.* That was all. That was enough. A body in a bag on a tarp was evidence, and now he had it, and the having changed everything.
 
+The archive was still locked, pending the completion of a security audit no one had scheduled. It did not matter now. She had wanted the records to prove what Marguerite wrote. The lake had proved it instead.
+
 "Come to the station," he said. "I'll need you to sign the provenance statement. Your notes, the cipher — the chain starts with you."
 
 She nodded.
 
-She drove back down the lake road. In the rearview mirror the cove disappeared between the trees, and the last thing she saw was the water, flat, dark, still, closing over the place where Lauren Coalter had been, and the closing was not an ending. It was a giving-back. Thirty-two years of holding, and then the letting-go, and Callie did not look again.
+Cross drove her back down the lake road. Through the passenger window the cove slipped away between the trees, and the last thing she saw was the water, flat, dark, still, closing over the place where Lauren Coalter had been, and the closing was not an ending. It was a giving-back. Thirty-two years of holding, and then the letting-go, and Callie did not look again.
 
-* * *
-The station was small and cold and smelled of coffee and floor cleaner.
+---
+
+The station was small and cold and smelled of coffee and floor wax.
 
 Cross had set up in the interview room — the one with the table and the two chairs and the recording light that blinked red. He had the bags on the table. He had Callie's notes beside them, the decoded cipher, the flower meanings, the timeline, the careful archival handwriting. He had Marguerite's book. And he had placed the call.
 
@@ -914,7 +917,7 @@ He said it to the ring. He said it to the table. He said it to the room the way 
 
 "She was leaving. We were on the dock. She told me she was done — she was going, she had the job, she was leaving — me, this town, all of it, and she was — she was happy, Callie, she was so happy to be going, and I couldn't — I put my hand on her. To stop her. To make her stay and listen. And she pulled away, and I pushed, and she went in, and she struck something — the piling, the edge, I don't know — and she didn't come up."
 
-His hand was on the table. It was open. The palm was shown. And the palm was shaking, the fine, invisible tremor, and the openness was no longer practiced or deliberate or held a half-second too long. It was just a hand. A man's hand, shaking, on a table, in a room where his life had ended thirty-two years after it should have.
+His hand was on the table, open, shaking — the fine, invisible tremor — and the openness was no longer practiced. It was just a hand. A man's hand, on a table, in a room where his life had ended thirty-two years after it should have.
 
 "I stood there," he said. "I stood there and the water closed and I didn't — I didn't go in. I don't know why. I have never known why. I walked home. I walked home and the legs of my trousers were wet and I walked in the middle of the road so the dust wouldn't show and I told the Carmodys I'd been at the Harlow barn and I went to bed and I woke up the next morning and I was — I was still alive. And I kept being alive. Every morning. Thirty-two years of mornings."
 
@@ -924,7 +927,7 @@ He looked at her. His eyes were wet and he did not wipe them, and the not-wiping
 
 She looked at him. She looked at the ring in the evidence dish, small and tarnished, a girl's ring, and she thought of the graduation photo on Doris's mantel, turned to face the room every morning, the absent girl made present in a frame, and the ring on the hand in the photo and the ring in the dish and the hand that had worn it at the bottom of a cove for thirty-two years while the man across the table brought groceries to the girl's mother every Thursday.
 
-And she felt the other question under his — the one she had been circling since the first margin, the one she would not answer, the one neither of them would pick up. *Are you so different, Callie Thorne, from the man who buried it?* She who dug up truth and he who hid it, and the digging and the hiding were both compulsions, and the compulsion had cost the town, and the cost was sitting in this room. The question stood between them like a stone in a current, and the water went around it on both sides, and she did not pick it up.
+And she felt the other question under his — the one she had been circling since the first margin, the one she would not answer, the one neither of them would pick up. *Are you so different, Callie Thorne, from the man who buried it?* She who dug up truth and he who hid it, and the digging and the hiding were both compulsions, and the compulsion had cost the town, and the cost was sitting in this room. The question sat on the table between them, beside the ring, and she did not pick it up.
 
 "You built a good life, Wells," she said. "You built it over her. Both of those things are real."
 
@@ -932,19 +935,19 @@ His hand closed. The open palm was gone. The practiced gesture, the deliberate o
 
 "I know," he said. Very quietly. "I've always known."
 
-Cross came back in. He had the cuffs. He did them quietly — no drama, no triumph, the mechanical procedure of a man doing his duty over the ruins of a friendship, and his face was the face of a man who will not sleep well for a long time. He read the words. Wells listened. The room was very small and very quiet and the recording light blinked red, and outside the window the late-spring sun was bright on the courthouse lawn, and Callie stood against the wall and watched a man be arrested for a thing he had done thirty-two years ago. The arrest was not justice. It was the beginning of a process.
+Cross came back in. He had the cuffs. He did them quietly — no drama, no triumph, the mechanical procedure of a man doing his duty over the ruins of a friendship. He read the words. Wells listened. The room was very small and very quiet and the recording light blinked red, and outside the window the late-spring sun was bright on the courthouse lawn, and Callie stood against the wall and watched a man be arrested for a thing he had done thirty-two years ago. The arrest was not justice. It was the beginning of a process.
 
 Cross did not shake her hand. She did not expect him to. The handshake from the winter was not repeated, and the absence was the thing — the shape of a door that existed but was not opened, and she understood it, and she did not reach for it.
 
 She signed the provenance statement. She gathered her notes. She left the station.
 
-The sun was high. The peonies were open on the square, bowing under their own heads, and the breeze carried the smell of wet stone and something sweet and rotting underneath, and Callie walked across the square to the shop with the ring in her mind — the small tarnished ring, the girl's ring — and she thought of Marguerite, who had watched from a kitchen window and written it down in flowers and waited too long, and she thought of the wet hemline, which had been a word in a margin and was now a body in a bag, and she thought of the water closing, thirty-two years ago, over a girl who was happy to be leaving, and she thought: *she didn't run.*
+The sun was high. The peonies were open on the square, bowing under their own heads, and the breeze carried the smell of wet stone and something sweet and rotting underneath, and Callie walked across the square to the shop with the ring in her mind — the small tarnished ring, the girl's ring — and she thought of Marguerite, who had written it down in flowers and waited too long, and she thought of the wet hemline, which had been a word in a margin and was now a body in a bag, and she thought of the water closing, thirty-two years ago, over a girl who was happy to be leaving, and she thought: *she didn't run.*
 
 She never ran.
 
-She let herself into the shop. The bell rang. The smell — old leather, the faint must of paper — came to her, and she stood in the doorway, and for a moment she could not move, because the smell was home and the home had not changed and the world outside it had, and she would live in that distance now — useful, not welcome, the woman who pulled the thread, standing in the shop she had not lost.
+She let herself into the shop. The bell rang. The smell — old leather, paper gone soft with age — came to her, and she stood in the doorway, and for a moment she could not move, because the smell was home and the home had not changed and the world outside it had, and she would live in that distance now — useful, not welcome, the woman who pulled the thread, standing in the shop she had not lost.
 
-She did not make tea. She was not ready for tea. She went to the back room, and she sat at the table, and she held the glass in her hand — the brass warm, hers — and she sat in the quiet, and the quiet was heavy, and it was earned.
+She did not make tea. She was not ready for tea. She went to the back room, and she sat at the table, and she held the glass in her hand — the brass warm, hers — and she sat in the quiet.
 
 \newpage
 
@@ -954,11 +957,11 @@ She did not make tea. She was not ready for tea. She went to the back room, and 
 
 The town bled again, quietly.
 
-Not in the streets but in the silences between people who used to sit together at the garden club, in the half-second before someone answered the phone. The legal process had begun, somewhere past the county line, in rooms with fluorescent lights and strangers who would decide the shape of Wells Ambler's remaining life. Callie did not go. Her part was done. She had spent three days in the shop with the glass on the felt rest and the lamp off and the tea she was not ready to make, and the three days had been their own kind of work — the work of sitting with what she had done and not being told it was right.
+Not in the streets but in the silences between people who used to sit together at the garden club, in the half-second before someone answered the phone. The legal process had begun, somewhere past the county line, in rooms with fluorescent lights and strangers who would decide the shape of Wells Ambler's remaining life. Callie did not go. Her part was done. She had spent three days in the shop with the glass on the felt rest and the lamp off and the tea she was not ready to make, and the three days had been work too — the work of sitting with what she had done and not being told it was right.
 
 She went to Doris on the third day.
 
-She knew Doris already knew. The news had moved through Blackwood Ridge faster than phone calls, carried in the particular frequency of shock that travels between kitchens. Doris would have been sitting with the half-finished scarf and the grocery bag that would not come again and the chair Wells had sat in for thirty years, and the knowing would have arrived before Callie did, and Callie let it, because the knowing was Doris's.
+She knew Doris already knew. The news had moved through Blackwood Ridge faster than phone calls, kitchen to kitchen, the way that kind of news moves. Doris would have been sitting with the half-finished scarf and the grocery bag that would not come again and the chair Wells had sat in for thirty years, and the knowing would have arrived before Callie did, and Callie let it, because the knowing was Doris's.
 
 She knocked.
 
@@ -1002,7 +1005,7 @@ The Dabney house was three blocks. She walked to Pippin Street the way she had w
 
 She walked it slowly, and the reading was different now because she was different now. The rosemary hedge — *remembrance* — still fragrant, the dew releasing the smell. The rue bed, thinned, half-gone. The peony at the center, *shame*, ringed with rosemary — in full bloom now, heavy, the petals going brown at the edges because no one had deadheaded it.
 
-She stood at the empty bed — the one with the stakes. *Hollyhock*, *yellow rose*, *columbine*. *Ambition. Infidelity. Folly.* The qualities Marguerite had pulled up by the root, leaving only the accusation. Callie stood at the bed and she read it as the final cipher — a woman's life spelled in flowers, a record of what she had planted and what she had pulled up.
+She stood at the empty bed — the one with the stakes. *Hollyhock*, *yellow rose*, *columbine*. *Ambition. Betrayal. Folly.* The qualities Marguerite had pulled up by the root, leaving only the accusation. Callie stood at the bed and she read it as the final cipher — a woman's life spelled in flowers, a record of what she had planted and what she had pulled up.
 
 And she understood Marguerite Dabney. Not as a saint, not as a coward, but as a woman who had seen clearly and said nothing, and had lived with the nothing until the nothing itself had become the book. Marguerite had waited too long. She had been right, and the rightness did not save her.
 
@@ -1010,7 +1013,8 @@ She saw herself in it. The archive, the glass, the back room where Eleanor had d
 
 She left the garden. She closed the gate behind her, and the gate did not creak, because it had been oiled, and the oiling was the garden club's last tenderness for the woman who had built it.
 
-* * *
+---
+
 Eli came on Friday.
 
 He brought the last invoice from the auction house, and he stood at the counter and he touched his collar, and his face was doing the thing it did — the checking, the reading of the room, the slow loosening — and Callie could see that he had heard. He looked at her with the particular care of a young man who does not know what to say to a person who has just done something enormous and terrible.
@@ -1037,9 +1041,10 @@ Eli was quiet. He was holding the invoice against the counter, and his hand was 
 
 "You start by looking," she said. "You come in on Saturdays. I'll show you what I can."
 
-He flushed. He nodded. He did not say *thank you* — he was past the *thank you*, into the place where a person just nods because the words have been said and the rest is the work. He left, and the bell rang, and the sound was a door opening, and Callie stood at the counter and she felt the small thing again — not hope, not warmth, just the ordinary animal fact of a thread beginning that she had not expected and would not cut.
+He flushed. He nodded. He did not say *thank you* — he was past the *thank you*, into the place where a person just nods because the words have been said and the rest is the work. He left, and the bell rang, and the sound was a door opening, and Callie stood at the counter and she felt the small thing again — not hope, not warmth, just a thread beginning that she had not expected and would not cut.
 
-* * *
+---
+
 Mae came at five.
 
 She knocked. Three times, the deliberate knock, the asking-permission knock — not the walk-in she used to do, the shoulder-through-the-door of a woman who treated every room as hers. Callie opened it. Mae was on the step with nothing in her hands — no casserole, no soup — just herself, in her cardigan, with the faint smell of lavender.
@@ -1062,20 +1067,21 @@ They sat in the reading nook. Callie made tea — bergamot, the water off the bo
 
 "Earlier than Marguerite."
 
-Mae looked at her. Her eyes were wet and she did not wipe them, and the not-wiping was the thing that was not a performance, the thing that was just a person in a room with what she had done and what she had failed to do.
+Mae looked at her. Her eyes were wet, and she let them be. There was nothing performed in it — just a person in a room with what she had done and what she had failed to do.
 
 They finished their tea. Mae stood. She touched Callie's shoulder — briefly, the gesture of a woman who is afraid of losing someone and is saying it with her hand because her mouth has not caught up — and she let herself out, and the knock lingered in the room after she was gone, the shape of it, the asking.
 
-* * *
+---
+
 Callie washed the cups. She dried them. She put them away.
 
 She stood in the shop in the evening light — the gold pressed-glass light of late spring in the valley — and she held the glass in her hand. Not Eleanor's glass. Hers. The brass was warm. She held it differently now — not as inheritance but as the tool she had chosen and earned and used. The glass had shown her what a careful woman had hidden, and the showing had cost the town, and the cost was real, and the showing was real, and neither cancelled the other.
 
-She made tea. One cup. She stood at the counter and she drank it, and the bergamot was — almost right. Not quite. The register she could not find, the one that tasted like Eleanor's kitchen and the world before grief — it was still missing. She did not think it would come back. But the tea was warm, and she had made it herself, and the almost-right was its own answer: the reclamation held. It had been tested and it had held, and the holding was not belonging — belonging was not hers to claim yet — but it was no longer just survival. It was a life. A small one. A useful one.
+She made tea. One cup. She stood at the counter and she drank it, and the bergamot was — almost right. Not quite. The register she could not find, the one that tasted like Eleanor's kitchen and the world before grief — it was still missing. She did not think it would come back. But the tea was warm, and she had made it herself, and she was still here. The shop had held. She had held. It was a life. A small one. A useful one.
 
 She thought of Doris, somewhere, with the photo turned to the wall and back, and a scarf she could not finish. She thought of Eli, standing straighter. And she thought of the scattered cuttings of Marguerite's garden, taking root in a hundred yards where the rosemary grew — *remembrance* — and the flowers would grow, and they would not spell anything anymore, and the not-spelling was its own mercy.
 
-Callie set the glass on the felt rest. She turned off the lamp. She went upstairs, and the shop was dark below her, and the books were quiet on their shelves, and the night was warm and sweet, and she was here, and the shop was hers, and the glass was hers, and the tea was almost right, and that was enough. For now, that was enough.
+Callie set the glass on the felt rest. She turned off the lamp. She went upstairs, and the shop was dark below her, and the books were quiet on their shelves, and the night was warm and sweet, and she was here, and the shop was hers, and the glass was hers, and the tea was almost right, and that was enough.
 
 
 

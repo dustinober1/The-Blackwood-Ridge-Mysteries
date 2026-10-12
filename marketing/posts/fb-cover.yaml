@@ -1,0 +1,5 @@
+# Facebook Page cover banner — 851x315 display (rendered 1702x630 @ppi 144).
+# Page banner, not a feed post: keep it out of calendar.md.
+template: fb-cover
+photo: /marketing/assets/photos/gaslamp-street.jpg
+veil: 42

@@ -6,7 +6,7 @@
       "title": "The Botanical Confession",
       "number": 2,
       "manuscript": "books/book-02/export/manuscript-combined.md",
-      "total_lines": 1105,
+      "total_lines": 1111,
       "chapter_style": "named",
       "front_matter": {
         "start": 1,
@@ -53,18 +53,18 @@
           "num": 7,
           "title": "Blackwater Cove",
           "start": 818,
-          "end": 952
+          "end": 955
         },
         {
           "num": 8,
           "title": "What the Garden Knew",
-          "start": 953,
-          "end": 1104
+          "start": 956,
+          "end": 1090
         }
       ],
       "back_matter": {
-        "start": 1105,
-        "end": 1105
+        "start": 1091,
+        "end": 1111
       }
     },
     "book-03": {
@@ -125,13 +125,10 @@
           "num": 8,
           "title": "The Man Who Buried It",
           "start": 1389,
-          "end": 1678
+          "end": 1679
         }
       ],
-      "back_matter": {
-        "start": 1679,
-        "end": 1679
-      }
+      "back_matter": null
     },
     "book-04": {
       "dir": "books/book-04",
@@ -191,11 +188,11 @@
           "num": 8,
           "title": "The Box Asked For",
           "start": 3667,
-          "end": 4233
+          "end": 4214
         }
       ],
       "back_matter": {
-        "start": 4234,
+        "start": 4215,
         "end": 4234
       }
     },
@@ -257,11 +254,11 @@
           "num": 8,
           "title": "The Current Hand",
           "start": 2314,
-          "end": 2605
+          "end": 2585
         }
       ],
       "back_matter": {
-        "start": 2606,
+        "start": 2586,
         "end": 2606
       }
     }
