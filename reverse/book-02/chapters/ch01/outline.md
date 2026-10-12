@@ -41,7 +41,7 @@ Whose hand wrote the margins — and what will reading it cost? — First half a
 
 ## Canon Load-Bearing Facts
 - **characters.md**: Callie's reclaimed rituals; Eli's new habits; Marguerite's hand profile.
-- **timeline.md**: H7–H12.
+- **timeline.md**: H7–H10.
 - **world-rules.md**: The pariah winter; the botanical ([bible] *Flora's Lexicon of the Virginias*).
 
 ## Plot Threads

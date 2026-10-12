@@ -62,3 +62,16 @@ than it saves. The serial comma is a profile note, not a defect.
 - One bible flavor line ("diapers") leaked into ch6 and is the F004
   must-fix — the bible's own compatible alternative ("known him since he
   was a deputy") is the fix source.
+
+## Author-approved rulings — 2026-10-12 (decision sheet: books/book-02/audits/author-decision-sheet-2026-10-12.md)
+
+| # | Item | Decision |
+|---|---|---|
+| 7 | F021 — hyphenation compounds | Resolved by rule, no prose edits: hyphenate only compound modifiers before a noun; open noun phrase is the default. Nominalized "the not-X" always hyphenated (registered free-indirect construction). "almost right" open as predicate; hyphenated modifier uses are motif phrasings. Rulings tabled in `style-sheet.md` § Compound rulings. |
+| 8 | F022 — repeated phrases | Six deliberate refrains registered in `book.config.yaml` `voice_rules.motifs` (plain strings): of a man, of a woman, the back room, the bell rang, for thirty-two years, did not say. Connective-tissue repeats ("went to the", "for a moment", …) left as-is in published text; budgets for future books live in Book 3's style addendum. |
+| 9 | F023 — voice-band lint tuning | Approved. `lint_suppressions`: tense_drift "all" (66 hits verified free-indirect/gnomic); em_dash_rate "all" (11.4–20.4/1k is the anaphoric signature). Suppression is recorded — reports still show counts. |
+| 10 | F026 — POV-leak hits | The four hits (Marguerite had wanted; Mae knew it; Doris loved; Doris already knew) declared marked free-indirect inference — Callie's registered hand-reading skill. pov_leak suppressed in [ch02, ch06, ch08] only, so genuine head-hops elsewhere still report. |
+| 11 | F024 — ch8 "she" openers | Accepted as voice-band for dialogue-light solo chapters (28.7% at 9% dialogue; AI-tell panel re-read passed the chapter). Tripwire moved to Book 3's style addendum: >20% she-openers + <15% dialogue = run interiority checks. |
+| 12 | F025 + F027 — prose errata | Staged, not applied: `books/book-02/audits/errata-pending.md`. To be applied in one pass during the audiobook cycle (Annette re-delivery captures them in the highlighted PDF). 2026-10-12 re-verification: ch02's four sweep hits are false positives (no fix); ch05 "repeated" sanctioned in config; true errata = ch04 "said carefully" + F027's bed sentence. Action-beat "false positive" flags are never edits. |
+| 13 | F029 — series-bible enrichment | Approved and applied 2026-10-12: Mae ~60 (diaper framing retired), Callie born ~1990 / glass ~1999, Wendell Pike + historical-figures reference added, open doors recorded in story-memory, world.md corrected (keystone is the survey-records volume, not a Bible; fraud ~140 acres / five families), Book 3's bible timeline de-staled. Deferred promises P008–P012 registered in the series promise map (series-outline.md § Deferred promise map). |
+| 14 | F030 — ch01 outline citation | Corrected to H7–H10 (the rows that exist and that ch01 draws on). Doc-only. |

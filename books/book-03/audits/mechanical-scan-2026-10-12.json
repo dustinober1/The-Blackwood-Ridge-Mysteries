@@ -1,0 +1,1239 @@
+{
+ "ch-01.md": {
+  "file": "ch-01.md",
+  "words": 2882,
+  "forbidden_words": {},
+  "forbidden_words_flex": {},
+  "forbidden_phrases": {
+   "the \\w+ of someone who": 1
+  },
+  "not_x_but_y": 0,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {
+   "a kind of \\w+": 1
+  },
+  "math_language": {
+   "\\bstatistic\\w*\\b": 1
+  },
+  "self_announcing": {},
+  "personification_hits": 6,
+  "personification_samples": [
+   [
+    9,
+    "She had made herself a vow about it, in the dark of the spring, standing over the place where Marguerite Dabney's book had lain. *"
+   ],
+   [
+    11,
+    "She set the kettle on. Bergamot first, before the morning could shape itself into anything she'd have to answer. The apartment ups"
+   ],
+   [
+    13,
+    "*Almost right*, the tea said, when she finally sat behind the counter with it. *Not quite.* She had learned, somewhere in the ruin"
+   ],
+   [
+    77,
+    "Callie knew the name. Everyone who used the county records knew Harlan \u2014 the mild man behind the reading-room desk, the one who fe"
+   ],
+   [
+    87,
+    "\"He's arranged a small lecture room for tomorrow evening,\" Larter said. \"I'd like to present the preliminary findings publicly \u2014 t"
+   ],
+   [
+    105,
+    "*Almost right*, the tea said, from the cold cup. *Not quite.* And for the first time in a long while, she was not sure the almost "
+   ]
+  ],
+  "soft": 2,
+  "flat": 3,
+  "the_whole": 0,
+  "person_who": 2,
+  "person_who_samples": [
+   [
+    19,
+    "You could tell a great deal about a person from how they crossed the threshold of a bookshop. Some people drifted, letting the spi"
+   ],
+   [
+    63,
+    "The pen stopped. Larter met her across the table without flinching, and Callie recognized, with a small unwilling respect, the exp"
+   ]
+  ],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 4,
+  "as_though": 0,
+  "like_a": 2,
+  "the_way": 10,
+  "the_kind_of": 0,
+  "hedges": {
+   "kind of": 1,
+   "rather": 1,
+   "quite": 3
+  },
+  "passive_by": 1,
+  "passive_samples": [
+   [
+    47,
+    "\"I'm telling you a subset of them were written by a second author imitating the first. Whether that's tampering is a question for "
+   ]
+  ],
+  "acronyms": {},
+  "crutch": {
+   "just": 5,
+   "little": 1,
+   "really": 0,
+   "almost": 4,
+   "slightly": 0,
+   "seemed": 0,
+   "seemed to": 0
+  },
+  "filter_words": {
+   "look(ed/ing)": 11,
+   "heard": 2,
+   "watched": 1,
+   "saw": 1,
+   "thought": 1,
+   "felt": 0
+  },
+  "nominalizations": {
+   "\\bthe \\w+ of it\\b": [
+    [
+     43,
+     "Callie reached for the glass before she knew she was doing it \u2014 Eleanor's glass, hers now, the brass warm from living in her pocke"
+    ],
+    [
+     79,
+     "The feeling that had been building since Larter opened the portfolio chose that moment to settle, and Callie let it, the way one l"
+    ]
+   ]
+  },
+  "em_dashes": 30,
+  "em_dash_per_1k": 10.4,
+  "fragment_candidates": 14,
+  "fragment_samples": [
+   [
+    17,
+    3,
+    "Callie looked up."
+   ],
+   [
+    27,
+    3,
+    "Not typewriter callus."
+   ],
+   [
+    27,
+    2,
+    "Not gardening."
+   ],
+   [
+    37,
+    3,
+    "Red for another."
+   ],
+   [
+    43,
+    2,
+    "Not yet."
+   ],
+   [
+    51,
+    3,
+    "Larter showed her."
+   ],
+   [
+    51,
+    3,
+    "In the one-in-six."
+   ],
+   [
+    53,
+    3,
+    "The second hand."
+   ],
+   [
+    55,
+    3,
+    "She sat back."
+   ],
+   [
+    63,
+    3,
+    "The pen stopped."
+   ],
+   [
+    67,
+    3,
+    "Callie said nothing."
+   ],
+   [
+    97,
+    2,
+    "Larter considered."
+   ]
+  ]
+ },
+ "ch-02.md": {
+  "file": "ch-02.md",
+  "words": 2998,
+  "forbidden_words": {},
+  "forbidden_words_flex": {},
+  "forbidden_phrases": {},
+  "not_x_but_y": 1,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {},
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 6,
+  "personification_samples": [
+   [
+    15,
+    "People glanced at her as they took their seats. Not many, and not long, but enough. She was the reason the room was full. Larter h"
+   ],
+   [
+    31,
+    "Callie sat very still and let the words come at her the way she let a difficult hand come at her \u2014 without flinching, without reac"
+   ],
+   [
+    53,
+    "\"Nine o'clock,\" Callie said."
+   ],
+   [
+    99,
+    "\"I'll need you to walk this room with me,\" he said. \"Not as a suspect. As the only person in this town who can tell me what any of"
+   ],
+   [
+    101,
+    "He was asking. Not telling, not warning. Asking. The hat was off, and the hand was at the neck, and his voice had a raw edge she h"
+   ],
+   [
+    103,
+    "Callie looked at the floor where Larter lay, and at the screen behind her, and at the cold bright room that a careful man had cura"
+   ]
+  ],
+  "soft": 2,
+  "flat": 2,
+  "the_whole": 2,
+  "person_who": 0,
+  "person_who_samples": [],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 4,
+  "as_though": 1,
+  "like_a": 4,
+  "the_way": 7,
+  "the_kind_of": 4,
+  "hedges": {
+   "practically": 1,
+   "kind of": 5,
+   "rather": 3,
+   "fairly": 1,
+   "quite": 1
+  },
+  "passive_by": 0,
+  "passive_samples": [],
+  "acronyms": {
+   "WPA": 1
+  },
+  "crutch": {
+   "just": 3,
+   "little": 1,
+   "really": 0,
+   "almost": 7,
+   "slightly": 1,
+   "seemed": 0,
+   "seemed to": 0
+  },
+  "filter_words": {
+   "look(ed/ing)": 15,
+   "noticed": 4,
+   "felt": 4,
+   "saw": 3,
+   "heard": 2,
+   "listened": 1,
+   "could see": 1,
+   "could feel": 1,
+   "thought": 1
+  },
+  "nominalizations": {
+   "\\bthe \\w+ of it\\b": [
+    [
+     37,
+     "The man looked at Callie. The whole row looked at Callie. She felt it move through the room like weather \u2014 the relief of it, the m"
+    ],
+    [
+     39,
+     "The room did not move. Callie felt the stillness of it \u2014 the particular stillness of a town that had spent a year learning what it"
+    ],
+    [
+     49,
+     "\"I'd like your response. Not tonight \u2014 you've had no time. Tomorrow morning. Here, if Beech will let us use the room.\" She took of"
+    ]
+   ]
+  },
+  "em_dashes": 27,
+  "em_dash_per_1k": 9.0,
+  "fragment_candidates": 16,
+  "fragment_samples": [
+   [
+    7,
+    1,
+    "Thorne."
+   ],
+   [
+    7,
+    2,
+    "Good evening."
+   ],
+   [
+    7,
+    2,
+    "Larter is."
+   ],
+   [
+    13,
+    3,
+    "She filed it."
+   ],
+   [
+    17,
+    3,
+    "The asking-permission knock."
+   ],
+   [
+    23,
+    2,
+    "Larter began."
+   ],
+   [
+    31,
+    3,
+    "The function-word ratios."
+   ],
+   [
+    31,
+    3,
+    "The clause-length tightening."
+   ],
+   [
+    39,
+    3,
+    "Cross's jaw set."
+   ],
+   [
+    45,
+    2,
+    "I didn't.\""
+   ],
+   [
+    51,
+    3,
+    "Callie believed her."
+   ],
+   [
+    77,
+    3,
+    "The cloth, folded."
+   ]
+  ]
+ },
+ "ch-03.md": {
+  "file": "ch-03.md",
+  "words": 2802,
+  "forbidden_words": {},
+  "forbidden_words_flex": {
+   "rhythm": 5
+  },
+  "forbidden_phrases": {},
+  "not_x_but_y": 0,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {},
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 2,
+  "personification_samples": [
+   [
+    35,
+    "Beech retreated to the front desk and sat, and began, almost at once, to sort through a stack of request slips, his hands busy, hi"
+   ],
+   [
+    85,
+    "Once, around three o'clock, he looked up from a scan and said, \"This abbreviation here. In the third line. It's not Wren's. He sho"
+   ]
+  ],
+  "soft": 0,
+  "flat": 0,
+  "the_whole": 0,
+  "person_who": 1,
+  "person_who_samples": [
+   [
+    35,
+    "Beech retreated to the front desk and sat, and began, almost at once, to sort through a stack of request slips, his hands busy, hi"
+   ]
+  ],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 0,
+  "as_though": 1,
+  "like_a": 2,
+  "the_way": 13,
+  "the_kind_of": 0,
+  "hedges": {},
+  "passive_by": 0,
+  "passive_samples": [],
+  "acronyms": {},
+  "crutch": {
+   "just": 1,
+   "little": 0,
+   "really": 0,
+   "almost": 4,
+   "slightly": 0,
+   "seemed": 0,
+   "seemed to": 0
+  },
+  "filter_words": {
+   "look(ed/ing)": 10,
+   "watched": 3,
+   "heard": 3,
+   "thought": 3,
+   "noticed": 2,
+   "could feel": 1,
+   "felt": 1,
+   "saw": 0
+  },
+  "nominalizations": {
+   "\\bbeing \\w+ was\\b": [
+    [
+     99,
+     "She looked across the table at Eli, who was bent over a scan of the Wren cipher with his pencil behind his ear and his whole atten"
+    ]
+   ],
+   "\\bthe \\w+ of it\\b": [
+    [
+     29,
+     "The door at the top of the stairs opened, and Beech himself came in carrying a tray with two paper cups of coffee on it, and the s"
+    ],
+    [
+     35,
+     "Beech retreated to the front desk and sat, and began, almost at once, to sort through a stack of request slips, his hands busy, hi"
+    ]
+   ]
+  },
+  "em_dashes": 33,
+  "em_dash_per_1k": 11.8,
+  "fragment_candidates": 13,
+  "fragment_samples": [
+   [
+    27,
+    3,
+    "Cross's jaw worked."
+   ],
+   [
+    45,
+    3,
+    "Cross considered her."
+   ],
+   [
+    45,
+    3,
+    "That was new."
+   ],
+   [
+    61,
+    3,
+    "Cross nodded once."
+   ],
+   [
+    61,
+    2,
+    "I'm asking.\""
+   ],
+   [
+    85,
+    3,
+    "It's not Wren's."
+   ],
+   [
+    87,
+    2,
+    "Callie looked."
+   ],
+   [
+    91,
+    1,
+    "Almost."
+   ],
+   [
+    93,
+    1,
+    "Forty-one."
+   ],
+   [
+    93,
+    1,
+    "Forty-two."
+   ],
+   [
+    93,
+    1,
+    "Forty-five."
+   ],
+   [
+    93,
+    1,
+    "Forty-six."
+   ]
+  ]
+ },
+ "ch-04.md": {
+  "file": "ch-04.md",
+  "words": 2855,
+  "forbidden_words": {},
+  "forbidden_words_flex": {
+   "rhythm": 2
+  },
+  "forbidden_phrases": {
+   "practiced (precision|ease|[a-z]+)": 1
+  },
+  "not_x_but_y": 0,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {
+   "almost like": 1
+  },
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 3,
+  "personification_samples": [
+   [
+    47,
+    "But she had been wrong about the wholeness of the voice. She had said *Wren* where the page had said *Wren, and someone else*. She"
+   ],
+   [
+    149,
+    "\"I want you to go only if Cross clears it,\" she said. \"I want Beech to see a researcher doing ordinary work, because ordinary work"
+   ],
+   [
+    187,
+    "*Almost right*, the tea said. *Not quite.*"
+   ]
+  ],
+  "soft": 0,
+  "flat": 0,
+  "the_whole": 1,
+  "person_who": 1,
+  "person_who_samples": [
+   [
+    113,
+    "That was the trouble. A torn page announced itself. A struck-through entry confessed to a change. This did neither. It moved from "
+   ]
+  ],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 3,
+  "as_though": 0,
+  "like_a": 1,
+  "the_way": 2,
+  "the_kind_of": 0,
+  "hedges": {
+   "kind of": 2,
+   "sort of": 1,
+   "quite": 1
+  },
+  "passive_by": 2,
+  "passive_samples": [
+   [
+    145,
+    "\"In the County back office. Old file cabinets behind the desk. Beech keeps the recent slips in binders, but the historical ones ar"
+   ],
+   [
+    153,
+    "It came out before he had time to be embarrassed by it. Then he was embarrassed, faint color rising in his face, and Callie had th"
+   ]
+  ],
+  "acronyms": {},
+  "crutch": {
+   "just": 2,
+   "little": 3,
+   "really": 1,
+   "almost": 6,
+   "slightly": 0,
+   "seemed": 1,
+   "seemed to": 1
+  },
+  "filter_words": {
+   "look(ed/ing)": 11,
+   "felt": 3,
+   "heard": 2,
+   "thought": 2,
+   "could hear": 1,
+   "felt like": 1,
+   "seemed to": 1,
+   "saw": 1
+  },
+  "nominalizations": {
+   "\\bthe \\w+ of it\\b": [
+    [
+     5,
+     "For two days she had been carrying the Wren corpus around the back room without touching the center of it. The scans lay in folio "
+    ],
+    [
+     83,
+     "\"Yes.\" She touched the edge of one overlay. \"The model counted what my eye passed over. My eye can tell you why a person reaches f"
+    ]
+   ]
+  },
+  "em_dashes": 8,
+  "em_dash_per_1k": 2.8,
+  "fragment_candidates": 38,
+  "fragment_samples": [
+   [
+    13,
+    2,
+    "The shapes."
+   ],
+   [
+    13,
+    2,
+    "The pressure."
+   ],
+   [
+    21,
+    2,
+    "Not entirely."
+   ],
+   [
+    21,
+    2,
+    "Not cleanly."
+   ],
+   [
+    23,
+    3,
+    "Wren's hand fled."
+   ],
+   [
+    23,
+    1,
+    "*Of*."
+   ],
+   [
+    23,
+    1,
+    "*In*."
+   ],
+   [
+    23,
+    1,
+    "*And*."
+   ],
+   [
+    31,
+    3,
+    "And the next."
+   ],
+   [
+    33,
+    2,
+    "Good enough."
+   ],
+   [
+    35,
+    2,
+    "Not perfect."
+   ],
+   [
+    37,
+    3,
+    "The second hand."
+   ]
+  ]
+ },
+ "ch-05.md": {
+  "file": "ch-05.md",
+  "words": 3092,
+  "forbidden_words": {},
+  "forbidden_words_flex": {
+   "rhythm": 2
+  },
+  "forbidden_phrases": {},
+  "not_x_but_y": 0,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {},
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 3,
+  "personification_samples": [
+   [
+    7,
+    "\"Deputy Bell signed the box out,\" he said. \"Beech signed it over to him. I only carried it.\""
+   ],
+   [
+    53,
+    "Callie read the slips by rhythm. She had learned long ago that records, like handwriting, developed habits. A clerk who signed one"
+   ],
+   [
+    99,
+    "But she had missed it inside a record that had been edited before she ever touched it. Someone had removed the comparison that wou"
+   ]
+  ],
+  "soft": 3,
+  "flat": 0,
+  "the_whole": 0,
+  "person_who": 1,
+  "person_who_samples": [
+   [
+    27,
+    "The movement records were bundled by decade, tied with cotton tape gone soft at the edges. Each bundle carried a small paper label"
+   ]
+  ],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 1,
+  "as_though": 2,
+  "like_a": 4,
+  "the_way": 1,
+  "the_kind_of": 0,
+  "hedges": {
+   "quite": 3
+  },
+  "passive_by": 1,
+  "passive_samples": [
+   [
+    27,
+    "The movement records were bundled by decade, tied with cotton tape gone soft at the edges. Each bundle carried a small paper label"
+   ]
+  ],
+  "acronyms": {
+   "LOST": 1
+  },
+  "crutch": {
+   "just": 1,
+   "little": 0,
+   "really": 0,
+   "almost": 2,
+   "slightly": 0,
+   "seemed": 0,
+   "seemed to": 0
+  },
+  "filter_words": {
+   "look(ed/ing)": 9,
+   "watched": 2,
+   "could see": 2,
+   "felt": 2,
+   "heard": 2,
+   "felt like": 1,
+   "saw": 1,
+   "thought": 0
+  },
+  "nominalizations": {},
+  "em_dashes": 8,
+  "em_dash_per_1k": 2.6,
+  "fragment_candidates": 55,
+  "fragment_samples": [
+   [
+    13,
+    1,
+    "Helpful."
+   ],
+   [
+    13,
+    1,
+    "Mild."
+   ],
+   [
+    13,
+    1,
+    "Correct."
+   ],
+   [
+    27,
+    3,
+    "Not beautiful handwriting."
+   ],
+   [
+    37,
+    2,
+    "It had."
+   ],
+   [
+    41,
+    1,
+    "Half-sheets."
+   ],
+   [
+    41,
+    2,
+    "Carbon copies."
+   ],
+   [
+    41,
+    2,
+    "Folio numbers."
+   ],
+   [
+    41,
+    2,
+    "One-line descriptions."
+   ],
+   [
+    41,
+    1,
+    "Initials."
+   ],
+   [
+    41,
+    1,
+    "Dates."
+   ],
+   [
+    49,
+    1,
+    "Returned."
+   ]
+  ]
+ },
+ "ch-06.md": {
+  "file": "ch-06.md",
+  "words": 3234,
+  "forbidden_words": {},
+  "forbidden_words_flex": {},
+  "forbidden_phrases": {
+   "found (himself|herself) \\w+ing": 1,
+   "all \\w+ \\w+ and \\w+ \\w+": 1
+  },
+  "not_x_but_y": 0,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {
+   "a kind of \\w+": 1
+  },
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 1,
+  "personification_samples": [
+   [
+    149,
+    "\"Door's not a church, honey,\" Mae said. \"You don't have to announce yourself like you're seeking sanctuary.\""
+   ]
+  ],
+  "soft": 5,
+  "flat": 0,
+  "the_whole": 1,
+  "person_who": 0,
+  "person_who_samples": [],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 6,
+  "as_though": 1,
+  "like_a": 3,
+  "the_way": 0,
+  "the_kind_of": 0,
+  "hedges": {
+   "kind of": 2,
+   "quite": 1
+  },
+  "passive_by": 0,
+  "passive_samples": [],
+  "acronyms": {},
+  "crutch": {
+   "just": 1,
+   "little": 2,
+   "really": 0,
+   "almost": 4,
+   "slightly": 0,
+   "seemed": 1,
+   "seemed to": 1
+  },
+  "filter_words": {
+   "look(ed/ing)": 14,
+   "felt": 3,
+   "could see": 2,
+   "thought": 2,
+   "noticed": 1,
+   "realized": 1,
+   "felt like": 1,
+   "seemed to": 1,
+   "saw": 0,
+   "heard": 0
+  },
+  "nominalizations": {},
+  "em_dashes": 10,
+  "em_dash_per_1k": 3.1,
+  "fragment_candidates": 34,
+  "fragment_samples": [
+   [
+    5,
+    1,
+    "Twice."
+   ],
+   [
+    17,
+    3,
+    "Back to itself."
+   ],
+   [
+    31,
+    3,
+    "Same oak tables."
+   ],
+   [
+    45,
+    2,
+    "Without thinking."
+   ],
+   [
+    51,
+    2,
+    "Nineteen ninety-four."
+   ],
+   [
+    67,
+    3,
+    "Not a tremor."
+   ],
+   [
+    67,
+    2,
+    "The opposite."
+   ],
+   [
+    73,
+    3,
+    "Then Beech moved."
+   ],
+   [
+    77,
+    2,
+    "Cross nodded."
+   ],
+   [
+    81,
+    1,
+    "Bergamot."
+   ],
+   [
+    81,
+    3,
+    "He had remembered."
+   ],
+   [
+    91,
+    1,
+    "A."
+   ]
+  ]
+ },
+ "ch-07.md": {
+  "file": "ch-07.md",
+  "words": 3012,
+  "forbidden_words": {},
+  "forbidden_words_flex": {
+   "rhythm": 1
+  },
+  "forbidden_phrases": {},
+  "not_x_but_y": 1,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 1,
+  "overqualified_adverbs": {},
+  "vague_abstract": {},
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 2,
+  "personification_samples": [
+   [
+    29,
+    "Then she moved to access: keys issued, alarm codes maintained, item movements authorized and logged, missing holdings reconciled. "
+   ],
+   [
+    73,
+    "The office clock ticked. Somewhere beyond the half-open door, a deputy laughed at something too ordinary for the room they were in"
+   ]
+  ],
+  "soft": 1,
+  "flat": 1,
+  "the_whole": 0,
+  "person_who": 0,
+  "person_who_samples": [],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 5,
+  "as_though": 0,
+  "like_a": 0,
+  "the_way": 2,
+  "the_kind_of": 0,
+  "hedges": {
+   "kind of": 1
+  },
+  "passive_by": 2,
+  "passive_samples": [
+   [
+    25,
+    "Cross listened without interrupting. He wrote dates in his notebook. He circled *43\u201344* once. He asked one question about the cust"
+   ],
+   [
+    113,
+    "The fairness of it was unbearable. Dismissal would have been easier. Book 1 Cross would have braced against her and given her the "
+   ]
+  ],
+  "acronyms": {},
+  "crutch": {
+   "just": 2,
+   "little": 1,
+   "really": 0,
+   "almost": 0,
+   "slightly": 0,
+   "seemed": 1,
+   "seemed to": 0
+  },
+  "filter_words": {
+   "look(ed/ing)": 14,
+   "saw": 2,
+   "thought": 2,
+   "realized": 1,
+   "watched": 1,
+   "listened": 1,
+   "could see": 1,
+   "could hear": 1,
+   "felt": 1,
+   "heard": 0
+  },
+  "nominalizations": {
+   "\\bthe \\w+ of it\\b": [
+    [
+     113,
+     "The fairness of it was unbearable. Dismissal would have been easier. Book 1 Cross would have braced against her and given her the "
+    ]
+   ]
+  },
+  "em_dashes": 8,
+  "em_dash_per_1k": 2.7,
+  "fragment_candidates": 44,
+  "fragment_samples": [
+   [
+    9,
+    1,
+    "Receipts."
+   ],
+   [
+    9,
+    2,
+    "Shelf photographs."
+   ],
+   [
+    9,
+    3,
+    "Key ledger notes."
+   ],
+   [
+    9,
+    2,
+    "Alarm-log questions."
+   ],
+   [
+    9,
+    3,
+    "The movement-file summary."
+   ],
+   [
+    9,
+    2,
+    "Beech, Dep."
+   ],
+   [
+    9,
+    2,
+    "Clk., 1854*."
+   ],
+   [
+    9,
+    3,
+    "Larter's red-and-blue overlays."
+   ],
+   [
+    13,
+    3,
+    "That felt important."
+   ],
+   [
+    15,
+    3,
+    "Not Beech's coffee."
+   ],
+   [
+    21,
+    3,
+    "So she did."
+   ],
+   [
+    25,
+    3,
+    "They were handles."
+   ]
+  ]
+ },
+ "ch-08.md": {
+  "file": "ch-08.md",
+  "words": 3433,
+  "forbidden_words": {},
+  "forbidden_words_flex": {
+   "rhythm": 1
+  },
+  "forbidden_phrases": {},
+  "not_x_but_y": 1,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {},
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 6,
+  "personification_samples": [
+   [
+    7,
+    "The building's after-hours breath met them at the landing: cold vents, lemon oil, old paper, the faint stale ghost of coffee that "
+   ],
+   [
+    123,
+    "For one second, he looked less like a curator than a boy caught in a room where the adults had already decided his name meant some"
+   ],
+   [
+    137,
+    "\"I took them home that night,\" he said. \"I told myself it was temporary. Preservation, I said. Protection from misreading. The tow"
+   ],
+   [
+    191,
+    "For a while she did not move. The room did not return to itself. Perhaps rooms never did. Perhaps that was another lie curators to"
+   ],
+   [
+    239,
+    "Cross put his hat on, then took it off again before getting into the truck, as if the room were still around him and he had rememb"
+   ],
+   [
+    269,
+    "In the morning, the square knew."
+   ]
+  ],
+  "soft": 2,
+  "flat": 1,
+  "the_whole": 2,
+  "person_who": 0,
+  "person_who_samples": [],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 3,
+  "as_though": 0,
+  "like_a": 4,
+  "the_way": 1,
+  "the_kind_of": 1,
+  "hedges": {
+   "kind of": 1,
+   "rather": 1
+  },
+  "passive_by": 0,
+  "passive_samples": [],
+  "acronyms": {},
+  "crutch": {
+   "just": 1,
+   "little": 2,
+   "really": 1,
+   "almost": 6,
+   "slightly": 1,
+   "seemed": 1,
+   "seemed to": 1
+  },
+  "filter_words": {
+   "look(ed/ing)": 19,
+   "saw": 7,
+   "thought": 3,
+   "watched": 2,
+   "felt": 2,
+   "listened": 1,
+   "felt like": 1,
+   "seemed to": 1,
+   "heard": 0
+  },
+  "nominalizations": {
+   "\\bthe \\w+ of it\\b": [
+    [
+     285,
+     "Callie drank her tea standing behind the counter. The town had one fewer silence in it and one more truth it would resent needing."
+    ]
+   ]
+  },
+  "em_dashes": 7,
+  "em_dash_per_1k": 2.0,
+  "fragment_candidates": 67,
+  "fragment_samples": [
+   [
+    11,
+    2,
+    "That mattered."
+   ],
+   [
+    13,
+    1,
+    "Receipts."
+   ],
+   [
+    13,
+    3,
+    "Bell's shelf photographs."
+   ],
+   [
+    13,
+    3,
+    "The evidence-ruler image."
+   ],
+   [
+    13,
+    2,
+    "Access policy."
+   ],
+   [
+    13,
+    3,
+    "Key ledger notes."
+   ],
+   [
+    13,
+    2,
+    "Alarm-log questions."
+   ],
+   [
+    13,
+    2,
+    "Beech, Dep."
+   ],
+   [
+    17,
+    3,
+    "Not warmth, exactly."
+   ],
+   [
+    17,
+    2,
+    "Not apology."
+   ],
+   [
+    31,
+    1,
+    "Voluntarily."
+   ],
+   [
+    39,
+    3,
+    "He almost smiled."
+   ]
+  ]
+ }
+}

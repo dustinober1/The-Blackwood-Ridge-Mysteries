@@ -119,6 +119,20 @@ Book 1: thread-puller. Book 2: pariah. Book 3: grudging utility. Book 4: relucta
 - Eli's wrongdoing is manipulation of attention and provenance assumptions, not fabrication of guilt.
 - Book 6 identifies pattern; Book 7 proves Eli's role; Book 8 resolves the moral and relational consequences.
 
+## Deliberate open doors (Book 1→2, formally ledgered 2026-10-12)
+
+Registered so no future book resolves them by accident. Source:
+`reverse/book-01/reconciliation.md` + Book 2's promises ledger.
+
+- **Eleanor's death** — revisitable (the back room, the unfinished grief);
+  never contradict Book 1/2's handling.
+- **Jacob Wren's fate** — fled in fear, unrecorded afterward; his end is
+  available to a later book, never required.
+- **J. Fenn** — a robbed-family name (Hartwell, Tucker, Fenn, Cole, Marr)
+  with no present-day descendant yet cast; deliberately available.
+- **Land restitution** — the legal question left open when the fraud broke;
+  may be advanced, never silently resolved.
+
 ## Production constraints
 
 - Single Callie POV.

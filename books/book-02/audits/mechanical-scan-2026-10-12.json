@@ -1,0 +1,1392 @@
+{
+ "ch-01.md": {
+  "file": "ch-01.md",
+  "words": 2687,
+  "forbidden_words": {},
+  "forbidden_words_flex": {},
+  "forbidden_phrases": {
+   "all \\w+ \\w+ and \\w+ \\w+": 1
+  },
+  "not_x_but_y": 0,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {
+   "a kind of \\w+": 1
+  },
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 5,
+  "personification_samples": [
+   [
+    9,
+    "Harlan Beech was sweeping the stretch of pavement outside the hardware store, and he did not look up when she passed. He had not l"
+   ],
+   [
+    15,
+    "She let herself in through the front. The bell rang. The shop exhaled \u2014 old leather, bergamot, the faint must of paper that has no"
+   ],
+   [
+    19,
+    "The book waited."
+   ],
+   [
+    41,
+    "Marguerite Dabney. The English teacher, the garden-club woman \u2014 sharp, exact, respected more than she was warmed to. Callie had sp"
+   ],
+   [
+    81,
+    "It was slight. You would not have seen it without the glass. But under the brass the strokes grew lighter, the letters thinner whe"
+   ]
+  ],
+  "soft": 0,
+  "flat": 0,
+  "the_whole": 3,
+  "person_who": 1,
+  "person_who_samples": [
+   [
+    67,
+    "The brass was warm from the table. Her mother's glass \u2014 no, hers now, hers by choice and not by ghost, she had earned that much in"
+   ]
+  ],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 8,
+  "as_though": 0,
+  "like_a": 2,
+  "the_way": 10,
+  "the_kind_of": 1,
+  "hedges": {
+   "kind of": 2,
+   "quite": 4,
+   "more or less": 1
+  },
+  "passive_by": 0,
+  "passive_samples": [],
+  "acronyms": {},
+  "crutch": {
+   "just": 2,
+   "little": 1,
+   "really": 1,
+   "almost": 2,
+   "slightly": 0,
+   "seemed": 0,
+   "seemed to": 0
+  },
+  "filter_words": {
+   "felt": 7,
+   "look(ed/ing)": 7,
+   "thought": 6,
+   "noticed": 2,
+   "could feel": 2,
+   "heard": 2,
+   "could see": 1,
+   "could hear": 1,
+   "saw": 1
+  },
+  "nominalizations": {
+   "\\bthe not-\\w+": [
+    [
+     13,
+     "She walked through the square with the particular care of a woman who has learned that the town is looking at her and not quite me"
+    ],
+    [
+     63,
+     "She stood at the worktable and she looked at the open page, and she let herself, for the first time since December, really look. T"
+    ]
+   ],
+   "\\bthe \\w+ of it\\b": [
+    [
+     35,
+     "\"The Dabney estate,\" he said. \"I didn't put it together when the lot first came in, but \u2014 you know how Marguerite Dabney died? Las"
+    ],
+    [
+     73,
+     "The flowers were a key. Callie could feel it the way she felt a hand's character \u2014 not yet decoded, but decoding, the structure of"
+    ]
+   ],
+   "\\bwas the answer\\b": [
+    [
+     51,
+     "She should have said something professional. *The ink was modern, the hand was deliberate, the annotations were systematic.* All t"
+    ]
+   ]
+  },
+  "em_dashes": 44,
+  "em_dash_per_1k": 16.4,
+  "fragment_candidates": 25,
+  "fragment_samples": [
+   [
+    5,
+    2,
+    "Late May."
+   ],
+   [
+    7,
+    1,
+    "Bergamot."
+   ],
+   [
+    15,
+    3,
+    "The bell rang."
+   ],
+   [
+    19,
+    3,
+    "The book waited."
+   ],
+   [
+    23,
+    3,
+    "It was Eli."
+   ],
+   [
+    31,
+    2,
+    "A thing."
+   ],
+   [
+    31,
+    3,
+    "With the provenance."
+   ],
+   [
+    41,
+    2,
+    "Marguerite Dabney."
+   ],
+   [
+    41,
+    2,
+    "A naming."
+   ],
+   [
+    43,
+    1,
+    "Dead."
+   ],
+   [
+    43,
+    2,
+    "Of cancer."
+   ],
+   [
+    43,
+    2,
+    "Last week."
+   ]
+  ]
+ },
+ "ch-02.md": {
+  "file": "ch-02.md",
+  "words": 2679,
+  "forbidden_words": {},
+  "forbidden_words_flex": {},
+  "forbidden_phrases": {
+   "the kind of \\w+ that": 1,
+   "the \\w+ of someone who": 1
+  },
+  "not_x_but_y": 0,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {},
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 8,
+  "personification_samples": [
+   [
+    13,
+    "\"You're the book woman,\" she said."
+   ],
+   [
+    21,
+    "There was nothing to say to that except sorry, and sorry was not the right word, and the woman's face was the kind that did not wa"
+   ],
+   [
+    43,
+    "The gate clicked behind Callie, and she turned, and it was Mae. And before she saw Mae's face she smelled her \u2014 lavender, the sach"
+   ],
+   [
+    47,
+    "\"Morning, Callie, honey,\" Mae said. The endearment landed carefully, the way Mae placed things \u2014 at once a welcome and a wall. \"I "
+   ],
+   [
+    51,
+    "\"Doris Coalter,\" the woman said, and this time she did offer her name, as if Callie had earned it by standing quiet. She did not s"
+   ],
+   [
+    63,
+    "The silence that came after was not the testing silence Doris had given Callie. It was older. It had been standing between these t"
+   ],
+   [
+    91,
+    "Mae made a small sound. Not a word. The sound of a woman who had heard the shape of this before \u2014 and Callie understood, looking b"
+   ],
+   [
+    113,
+    "Callie walked home the long way, through the square, and the peonies were still bowing, and the town still did not quite meet her "
+   ]
+  ],
+  "soft": 0,
+  "flat": 6,
+  "the_whole": 0,
+  "person_who": 2,
+  "person_who_samples": [
+   [
+    91,
+    "Mae made a small sound. Not a word. The sound of a woman who had heard the shape of this before \u2014 and Callie understood, looking b"
+   ],
+   [
+    103,
+    "Mae walked Callie to the gate. She did not touch her. At the gate she stopped, and her hand went to the latch, and she opened it a"
+   ]
+  ],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 2,
+  "as_though": 0,
+  "like_a": 0,
+  "the_way": 8,
+  "the_kind_of": 1,
+  "hedges": {
+   "kind of": 1,
+   "rather": 1,
+   "quite": 2
+  },
+  "passive_by": 2,
+  "passive_samples": [
+   [
+    3,
+    "It was planted by meaning."
+   ],
+   [
+    19,
+    "\"She'd have liked that you came.\" The woman did not offer her name. She did not offer her hand. She picked up the folded cloth, sh"
+   ]
+  ],
+  "acronyms": {},
+  "crutch": {
+   "just": 3,
+   "little": 0,
+   "really": 1,
+   "almost": 0,
+   "slightly": 0,
+   "seemed": 0,
+   "seemed to": 0
+  },
+  "filter_words": {
+   "look(ed/ing)": 10,
+   "saw": 3,
+   "could see": 2,
+   "wondered": 1,
+   "watched": 1,
+   "felt": 1,
+   "heard": 1,
+   "thought": 1
+  },
+  "nominalizations": {
+   "\\bthe \\w+ of it\\b": [
+    [
+     33,
+     "The peony bed was at the center. *Shame*. Ringed with rosemary \u2014 *remembrance*. And between the shame and the remembrance, a singl"
+    ],
+    [
+     35,
+     "Callie straightened. The sun had come out from behind the clouds, and the warmth of it landed on the stone path and on Callie's sh"
+    ]
+   ]
+  },
+  "em_dashes": 34,
+  "em_dash_per_1k": 12.7,
+  "fragment_candidates": 25,
+  "fragment_samples": [
+   [
+    9,
+    3,
+    "She pushed it."
+   ],
+   [
+    31,
+    1,
+    "Ambition."
+   ],
+   [
+    31,
+    1,
+    "Betrayal."
+   ],
+   [
+    31,
+    1,
+    "Folly."
+   ],
+   [
+    33,
+    1,
+    "*Shame*."
+   ],
+   [
+    35,
+    2,
+    "Callie straightened."
+   ],
+   [
+    43,
+    1,
+    "Strained."
+   ],
+   [
+    45,
+    3,
+    "She was waiting."
+   ],
+   [
+    49,
+    1,
+    "Doris."
+   ],
+   [
+    49,
+    3,
+    "The name landed."
+   ],
+   [
+    61,
+    3,
+    "Doris's trowel stopped."
+   ],
+   [
+    63,
+    3,
+    "It was older."
+   ]
+  ]
+ },
+ "ch-03.md": {
+  "file": "ch-03.md",
+  "words": 2881,
+  "forbidden_words": {},
+  "forbidden_words_flex": {},
+  "forbidden_phrases": {
+   "practiced (precision|ease|[a-z]+)": 1
+  },
+  "not_x_but_y": 0,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {
+   "something like \\w+": 1,
+   "a kind of \\w+": 1
+  },
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 3,
+  "personification_samples": [
+   [
+    43,
+    "He made it. He moved around the small office with the ease of a man who had made ten thousand cups of tea for ten thousand uncomfo"
+   ],
+   [
+    63,
+    "\"In the book,\" she said. \"In the margins. Marguerite wrote it more than once.\""
+   ],
+   [
+    117,
+    "\"There's a name in the margins,\" she said. \"A date. A place by water. It may be nothing. It may be Marguerite remembering somethin"
+   ]
+  ],
+  "soft": 0,
+  "flat": 1,
+  "the_whole": 5,
+  "person_who": 3,
+  "person_who_samples": [
+   [
+    21,
+    "She needed context. She needed to know who Lauren had been to the town, and who Ambler was, and what the lake had meant that summe"
+   ],
+   [
+    35,
+    "His hand was open. Palm shown, fingers relaxed, the gesture of a man who had nothing to hide. She took it, and the grip was firm a"
+   ],
+   [
+    43,
+    "He made it. He moved around the small office with the ease of a man who had made ten thousand cups of tea for ten thousand uncomfo"
+   ]
+  ],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 1,
+  "as_though": 0,
+  "like_a": 2,
+  "the_way": 6,
+  "the_kind_of": 4,
+  "hedges": {
+   "kind of": 5,
+   "rather": 1,
+   "quite": 4
+  },
+  "passive_by": 0,
+  "passive_samples": [],
+  "acronyms": {},
+  "crutch": {
+   "just": 3,
+   "little": 1,
+   "really": 0,
+   "almost": 3,
+   "slightly": 0,
+   "seemed": 0,
+   "seemed to": 0
+  },
+  "filter_words": {
+   "look(ed/ing)": 8,
+   "watched": 3,
+   "heard": 2,
+   "thought": 2,
+   "listened": 1,
+   "felt like": 1,
+   "felt": 1,
+   "saw": 1
+  },
+  "nominalizations": {
+   "\\bthe not-\\w+": [
+    [
+     17,
+     "June 1994. A party. The lake. *Lauren* \u2014 faithful, the violet said. *Ambler* \u2014 a name, written beside a plate of yarrow, and yarro"
+    ],
+    [
+     91,
+     "He was leaning against the hood of his cruiser in the way he had, arms crossed, hat on, taking up the whole of the pavement in fro"
+    ]
+   ],
+   "\\bthe \\w+ of it\\b": [
+    [
+     3,
+     "She worked on the book for two days, and the worst of it was that she liked it."
+    ],
+    [
+     5,
+     "The shop still had to run \u2014 the morning customers who still came, the small stubborn core of them who had not stopped meeting her "
+    ],
+    [
+     25,
+     "Blackwood Ridge High sat on the east edge of town, a brick building from the sixties built over an older foundation, the kind of s"
+    ],
+    [
+     71,
+     "\"Everyone's sorry.\" He said it without bitterness. He said it the way Doris had said things \u2014 flat, dry, rationed \u2014 and then the w"
+    ]
+   ]
+  },
+  "em_dashes": 38,
+  "em_dash_per_1k": 13.2,
+  "fragment_candidates": 17,
+  "fragment_samples": [
+   [
+    9,
+    2,
+    "*Rosemary*, *remembrance*."
+   ],
+   [
+    9,
+    2,
+    "*Rue*, *regret*."
+   ],
+   [
+    9,
+    2,
+    "*Yarrow*, *war*."
+   ],
+   [
+    9,
+    2,
+    "*Basil*, *hatred*."
+   ],
+   [
+    9,
+    2,
+    "A ledger."
+   ],
+   [
+    17,
+    2,
+    "June 1994."
+   ],
+   [
+    17,
+    2,
+    "A party."
+   ],
+   [
+    17,
+    2,
+    "The lake."
+   ],
+   [
+    19,
+    3,
+    "At a dock."
+   ],
+   [
+    19,
+    3,
+    "In June 1994."
+   ],
+   [
+    21,
+    3,
+    "She needed context."
+   ],
+   [
+    27,
+    2,
+    "Ambler, Principal*."
+   ]
+  ]
+ },
+ "ch-04.md": {
+  "file": "ch-04.md",
+  "words": 2887,
+  "forbidden_words": {},
+  "forbidden_words_flex": {
+   "rhythm": 3
+  },
+  "forbidden_phrases": {
+   "practiced (precision|ease|[a-z]+)": 1
+  },
+  "not_x_but_y": 0,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {},
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 2,
+  "personification_samples": [
+   [
+    21,
+    "She sat back in the chair and she looked at the margin the way you look at a face that has just said something you cannot unhear. "
+   ],
+   [
+    137,
+    "The kitchen was very quiet. The grocery bag sat between them on the table, and inside it were tomatoes from Wells Ambler's garden,"
+   ]
+  ],
+  "soft": 0,
+  "flat": 3,
+  "the_whole": 1,
+  "person_who": 4,
+  "person_who_samples": [
+   [
+    79,
+    "Doris said nothing for a moment. Then the screen door opened wider, and Callie saw, through the gap, Doris's hand take the bag, an"
+   ],
+   [
+    85,
+    "It was a small stop \u2014 a half-beat, a thing measured in fractions of a second \u2014 and then he smiled, and the smile came, and it was "
+   ],
+   [
+    101,
+    "He let go of the gate. He walked past her, and as he passed he put a hand on the gatepost \u2014 briefly, lightly \u2014 and she saw his han"
+   ],
+   [
+    133,
+    "\"That's not all.\" Doris's jaw set. She went white along the cheekbones, the white of a woman who has been steady for thirty-two ye"
+   ]
+  ],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 0,
+  "as_though": 0,
+  "like_a": 1,
+  "the_way": 5,
+  "the_kind_of": 0,
+  "hedges": {
+   "rather": 2,
+   "fairly": 1
+  },
+  "passive_by": 0,
+  "passive_samples": [],
+  "acronyms": {},
+  "crutch": {
+   "just": 2,
+   "little": 0,
+   "really": 0,
+   "almost": 1,
+   "slightly": 0,
+   "seemed": 0,
+   "seemed to": 0
+  },
+  "filter_words": {
+   "saw": 7,
+   "thought": 5,
+   "look(ed/ing)": 4,
+   "heard": 3,
+   "could see": 2,
+   "could feel": 2,
+   "felt": 2,
+   "realized": 1,
+   "could hear": 1
+  },
+  "nominalizations": {
+   "\\bthe \\w+ of it\\b": [
+    [
+     57,
+     "She felt it then \u2014 not the craft of it, not the architecture, but the specific shape of the hurt. He was making her the town's wou"
+    ],
+    [
+     141,
+     "\"You find the rest,\" Doris said. Her voice was flat and final. \"You find the rest of it before you come to my kitchen again.\" Her "
+    ]
+   ]
+  },
+  "em_dashes": 33,
+  "em_dash_per_1k": 11.4,
+  "fragment_candidates": 18,
+  "fragment_samples": [
+   [
+    11,
+    3,
+    "The tumbler turned."
+   ],
+   [
+    23,
+    2,
+    "A date."
+   ],
+   [
+    23,
+    2,
+    "A name."
+   ],
+   [
+    23,
+    3,
+    "A wet hemline."
+   ],
+   [
+    25,
+    3,
+    "The wet hemline."
+   ],
+   [
+    27,
+    3,
+    "The kitchen window."
+   ],
+   [
+    27,
+    3,
+    "The light on."
+   ],
+   [
+    35,
+    3,
+    "She needed corroboration."
+   ],
+   [
+    51,
+    3,
+    "The woman stopped."
+   ],
+   [
+    55,
+    3,
+    "The archive key."
+   ],
+   [
+    57,
+    3,
+    "Not with fists."
+   ],
+   [
+    57,
+    3,
+    "Not with threats."
+   ]
+  ]
+ },
+ "ch-05.md": {
+  "file": "ch-05.md",
+  "words": 2685,
+  "forbidden_words": {},
+  "forbidden_words_flex": {
+   "rhythm": 3
+  },
+  "forbidden_phrases": {
+   "the kind of \\w+ that": 1
+  },
+  "not_x_but_y": 1,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {},
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 3,
+  "personification_samples": [
+   [
+    73,
+    "\"I should have told you in the garden,\" Mae said. \"When Doris was there. I should have told you Marguerite meant the book for you."
+   ],
+   [
+    99,
+    "She set the book on his desk. She set her notes beside it \u2014 the decoded passages, the flower meanings, the timeline she had built,"
+   ],
+   [
+    129,
+    "She held his gaze. She had expected this \u2014 the procedural wall, the evidence-in-a-baggie rigidity. What she had not expected was h"
+   ]
+  ],
+  "soft": 0,
+  "flat": 3,
+  "the_whole": 2,
+  "person_who": 3,
+  "person_who_samples": [
+   [
+    99,
+    "She set the book on his desk. She set her notes beside it \u2014 the decoded passages, the flower meanings, the timeline she had built,"
+   ],
+   [
+    121,
+    "He set the pages down. He looked at her \u2014 the honest face of a man who liked Wells Ambler, who had leaned on him, who sat across f"
+   ],
+   [
+    139,
+    "It was not *no*. It was not *yes*. It was the words of a man who had listened longer than he would have in the winter, and who was"
+   ]
+  ],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 0,
+  "as_though": 0,
+  "like_a": 1,
+  "the_way": 7,
+  "the_kind_of": 1,
+  "hedges": {
+   "kind of": 1
+  },
+  "passive_by": 0,
+  "passive_samples": [],
+  "acronyms": {},
+  "crutch": {
+   "just": 0,
+   "little": 1,
+   "really": 0,
+   "almost": 3,
+   "slightly": 0,
+   "seemed": 0,
+   "seemed to": 0
+  },
+  "filter_words": {
+   "look(ed/ing)": 11,
+   "saw": 4,
+   "could see": 2,
+   "felt": 2,
+   "thought": 2,
+   "watched": 1,
+   "listened": 1,
+   "could feel": 1,
+   "heard": 0
+  },
+  "nominalizations": {
+   "\\bthe \\w+ of it\\b": [
+    [
+     5,
+     "Not all at once \u2014 the cipher had been giving in stages for days, each plate yielding its layer the way a pressed flower gives its "
+    ],
+    [
+     85,
+     "She thought of Doris's hands flat on her thighs, the needles shaking, the voice that had said *find the rest of it before you come"
+    ]
+   ]
+  },
+  "em_dashes": 44,
+  "em_dash_per_1k": 16.4,
+  "fragment_candidates": 21,
+  "fragment_samples": [
+   [
+    9,
+    3,
+    "Not a confession."
+   ],
+   [
+    9,
+    3,
+    "Not an accusation."
+   ],
+   [
+    9,
+    2,
+    "A map."
+   ],
+   [
+    13,
+    2,
+    "Twenty minutes."
+   ],
+   [
+    15,
+    3,
+    "*The old dock."
+   ],
+   [
+    15,
+    2,
+    "The deep.*"
+   ],
+   [
+    17,
+    2,
+    "Blackwater Cove."
+   ],
+   [
+    29,
+    2,
+    "A rose."
+   ],
+   [
+    31,
+    2,
+    "Say it.*"
+   ],
+   [
+    39,
+    2,
+    "She stood."
+   ],
+   [
+    41,
+    3,
+    "It was Mae."
+   ],
+   [
+    53,
+    2,
+    "Callie waited."
+   ]
+  ]
+ },
+ "ch-06.md": {
+  "file": "ch-06.md",
+  "words": 2391,
+  "forbidden_words": {},
+  "forbidden_words_flex": {},
+  "forbidden_phrases": {},
+  "not_x_but_y": 1,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {},
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 2,
+  "personification_samples": [
+   [
+    5,
+    "Monday a mother named Linda Parrish came into the shop and asked, in the bright loud voice of a woman performing reasonableness, w"
+   ],
+   [
+    101,
+    "He hung up. He did not say goodbye. He did not say *good work* or *thank you* or *I should have listened sooner*. He said *wear bo"
+   ]
+  ],
+  "soft": 0,
+  "flat": 1,
+  "the_whole": 0,
+  "person_who": 1,
+  "person_who_samples": [
+   [
+    19,
+    "Mae stood to leave. At the door she paused, and her hand went to the latch, and she looked out toward the square \u2014 toward the sher"
+   ]
+  ],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 0,
+  "as_though": 0,
+  "like_a": 0,
+  "the_way": 3,
+  "the_kind_of": 0,
+  "hedges": {
+   "kind of": 1
+  },
+  "passive_by": 0,
+  "passive_samples": [],
+  "acronyms": {},
+  "crutch": {
+   "just": 6,
+   "little": 0,
+   "really": 0,
+   "almost": 1,
+   "slightly": 0,
+   "seemed": 0,
+   "seemed to": 0
+  },
+  "filter_words": {
+   "look(ed/ing)": 9,
+   "felt": 6,
+   "thought": 6,
+   "could see": 3,
+   "saw": 3,
+   "listened": 2,
+   "could hear": 2,
+   "heard": 2,
+   "watched": 1
+  },
+  "nominalizations": {
+   "\\bthe not-\\w+": [
+    [
+     11,
+     "The club met on Wednesdays in the basement of the old Historical Society building \u2014 closed as an institution since the Ralston mon"
+    ],
+    [
+     21,
+     "By Thursday Callie had not had a customer in two days. Harlan Beech had swept his pavement each morning at the same hour, and on T"
+    ]
+   ],
+   "\\bthe \\w+ of it\\b": [
+    [
+     11,
+     "The club met on Wednesdays in the basement of the old Historical Society building \u2014 closed as an institution since the Ralston mon"
+    ],
+    [
+     49,
+     "He set the crate on the counter. He did not leave. He stood, and she could see the question working in him \u2014 the question he had n"
+    ]
+   ],
+   "\\b\\w+ing was a\\b": [
+    [
+     11,
+     "The club met on Wednesdays in the basement of the old Historical Society building \u2014 closed as an institution since the Ralston mon"
+    ]
+   ]
+  },
+  "em_dashes": 38,
+  "em_dash_per_1k": 15.9,
+  "fragment_candidates": 15,
+  "fragment_samples": [
+   [
+    13,
+    3,
+    "Doris pulled furthest."
+   ],
+   [
+    21,
+    3,
+    "He did not."
+   ],
+   [
+    27,
+    3,
+    "She could stop."
+   ],
+   [
+    35,
+    3,
+    "The bell rang."
+   ],
+   [
+    41,
+    2,
+    "She stood."
+   ],
+   [
+    59,
+    3,
+    "The professional answer."
+   ],
+   [
+    63,
+    3,
+    "Eli was quiet."
+   ],
+   [
+    69,
+    3,
+    "He nodded, slowly."
+   ],
+   [
+    69,
+    3,
+    "To see that?\""
+   ],
+   [
+    73,
+    3,
+    "He did not."
+   ],
+   [
+    77,
+    2,
+    "He flushed."
+   ],
+   [
+    77,
+    3,
+    "Not hope, exactly."
+   ]
+  ]
+ },
+ "ch-07.md": {
+  "file": "ch-07.md",
+  "words": 3421,
+  "forbidden_words": {},
+  "forbidden_words_flex": {},
+  "forbidden_phrases": {
+   "practiced (precision|ease|[a-z]+)": 2,
+   "the kind of \\w+ that": 1,
+   "all \\w+ \\w+ and \\w+ \\w+": 1
+  },
+  "not_x_but_y": 5,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {},
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 2,
+  "personification_samples": [
+   [
+    61,
+    "He came in the way he came into every room \u2014 tall, steady, the warm baritone preceding him \u2014 and Callie was in the hallway, becaus"
+   ],
+   [
+    123,
+    "Cross did not shake her hand. She did not expect him to. The handshake from the winter was not repeated, and the absence was the t"
+   ]
+  ],
+  "soft": 2,
+  "flat": 3,
+  "the_whole": 0,
+  "person_who": 4,
+  "person_who_samples": [
+   [
+    15,
+    "He had the dive team staged \u2014 three men in dry suits from the county, gear laid out on a tarp on the bank, the logistics handled w"
+   ],
+   [
+    41,
+    "Cross stood over the tarp for a long time. He was not a man who showed much, and he did not show much now \u2014 his face was the proce"
+   ],
+   [
+    91,
+    "Wells was at the table. The bags were still there. The ring was in an evidence dish beside his hand. He was looking at it \u2014 not to"
+   ],
+   [
+    117,
+    "His hand closed. The open palm was gone. The practiced gesture, the deliberate openness she had filed weeks ago \u2014 it collapsed, no"
+   ]
+  ],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 0,
+  "as_though": 0,
+  "like_a": 0,
+  "the_way": 4,
+  "the_kind_of": 1,
+  "hedges": {
+   "kind of": 1
+  },
+  "passive_by": 0,
+  "passive_samples": [],
+  "acronyms": {},
+  "crutch": {
+   "just": 7,
+   "little": 0,
+   "really": 0,
+   "almost": 0,
+   "slightly": 0,
+   "seemed": 0,
+   "seemed to": 0
+  },
+  "filter_words": {
+   "look(ed/ing)": 13,
+   "felt": 7,
+   "thought": 7,
+   "watched": 4,
+   "saw": 4,
+   "could see": 3,
+   "could hear": 2,
+   "listened": 1,
+   "heard": 1
+  },
+  "nominalizations": {
+   "\\bbeing \\w+ was\\b": [
+    [
+     31,
+     "A graduation ring. Thin, tarnished, the stone clouded with thirty-two years of silt and dark water, but a ring \u2014 a girl's ring, a "
+    ]
+   ],
+   "\\bthe not-\\w+": [
+    [
+     61,
+     "He came in the way he came into every room \u2014 tall, steady, the warm baritone preceding him \u2014 and Callie was in the hallway, becaus"
+    ],
+    [
+     79,
+     "Callie could see it in him \u2014 even through the wall, even from the shape of the silence \u2014 the thirty-two years of believing no one "
+    ],
+    [
+     107,
+     "He looked at her. His eyes were wet and he did not wipe them, and the not-wiping was the truest thing about him, the thing that wa"
+    ]
+   ],
+   "\\bthe \\w+ of it\\b": [
+    [
+     19,
+     "The water took them without sound. That was the wrong thing \u2014 the wrongness of it, the silence. You expected a splash, a ripple, t"
+    ],
+    [
+     71,
+     "Wells went in. He sat. Cross closed the door. Callie could not hear everything \u2014 the walls were thin but the voices were low \u2014 but"
+    ]
+   ]
+  },
+  "em_dashes": 62,
+  "em_dash_per_1k": 18.1,
+  "fragment_candidates": 28,
+  "fragment_samples": [
+   [
+    3,
+    3,
+    "She wore boots."
+   ],
+   [
+    7,
+    3,
+    "The road climbed."
+   ],
+   [
+    7,
+    3,
+    "The trees thickened."
+   ],
+   [
+    9,
+    2,
+    "Blackwater Cove."
+   ],
+   [
+    19,
+    3,
+    "The willows trailed."
+   ],
+   [
+    19,
+    3,
+    "The mist sat."
+   ],
+   [
+    31,
+    3,
+    "A graduation ring."
+   ],
+   [
+    31,
+    2,
+    "She knew."
+   ],
+   [
+    37,
+    1,
+    "Bones."
+   ],
+   [
+    39,
+    3,
+    "It had changed."
+   ],
+   [
+    43,
+    2,
+    "He turned."
+   ],
+   [
+    43,
+    3,
+    "That was enough."
+   ]
+  ]
+ },
+ "ch-08.md": {
+  "file": "ch-08.md",
+  "words": 2697,
+  "forbidden_words": {},
+  "forbidden_words_flex": {},
+  "forbidden_phrases": {},
+  "not_x_but_y": 2,
+  "wasnt_x_it_was_y": 0,
+  "less_x_than_y": 0,
+  "overqualified_adverbs": {},
+  "vague_abstract": {},
+  "math_language": {},
+  "self_announcing": {},
+  "personification_hits": 3,
+  "personification_samples": [
+   [
+    1,
+    "# What the Garden Knew"
+   ],
+   [
+    19,
+    "\"Come in.\" She turned. She did not wait for Callie to follow. She walked to the kitchen table and she sat, and Callie came in and "
+   ],
+   [
+    103,
+    "\"The garden club voted to dissolve the Dabney beds,\" Mae said, after a while. \"We're taking cuttings. Pieces of Marguerite's garde"
+   ]
+  ],
+  "soft": 0,
+  "flat": 5,
+  "the_whole": 0,
+  "person_who": 4,
+  "person_who_samples": [
+   [
+    13,
+    "The door opened. Doris stood in the frame, and she was thinner than she had been in the garden \u2014 as if the days had taken somethin"
+   ],
+   [
+    37,
+    "Doris stood. She went to the mantel in the front room \u2014 Callie followed, stopped in the doorway \u2014 and she stood before Lauren's gr"
+   ],
+   [
+    95,
+    "She knocked. Three times, the deliberate knock, the asking-permission knock \u2014 not the walk-in she used to do, the shoulder-through"
+   ],
+   [
+    117,
+    "They finished their tea. Mae stood. She touched Callie's shoulder \u2014 briefly, the gesture of a woman who is afraid of losing someon"
+   ]
+  ],
+  "opinion_personification": 0,
+  "opinion_samples": [],
+  "as_if": 2,
+  "as_though": 0,
+  "like_a": 0,
+  "the_way": 7,
+  "the_kind_of": 0,
+  "hedges": {
+   "kind of": 2,
+   "quite": 1
+  },
+  "passive_by": 0,
+  "passive_samples": [],
+  "acronyms": {},
+  "crutch": {
+   "just": 7,
+   "little": 0,
+   "really": 0,
+   "almost": 4,
+   "slightly": 0,
+   "seemed": 0,
+   "seemed to": 0
+  },
+  "filter_words": {
+   "thought": 8,
+   "look(ed/ing)": 5,
+   "felt": 4,
+   "could see": 3,
+   "listened": 2,
+   "heard": 2,
+   "watched": 1,
+   "saw": 1
+  },
+  "nominalizations": {
+   "\\bthe not-\\w+": [
+    [
+     21,
+     "Doris sat. Her hands went flat on the table. Palms down. The posture Callie had seen before, the holding-in-place, the grip on the"
+    ],
+    [
+     75,
+     "He nodded. He did not believe her, and the not-believing was kind of him, and he did not push. He set the invoice on the counter. "
+    ],
+    [
+     101,
+     "They sat in the reading nook. Callie made tea \u2014 bergamot, the water off the boil, the cup warmed, the steep timed to the count Ele"
+    ],
+    [
+     127,
+     "She thought of Doris, somewhere, with the photo turned to the wall and back, and a scarf she could not finish. She thought of Eli,"
+    ]
+   ],
+   "\\bthe \\w+ of it\\b": [
+    [
+     75,
+     "He nodded. He did not believe her, and the not-believing was kind of him, and he did not push. He set the invoice on the counter. "
+    ],
+    [
+     117,
+     "They finished their tea. Mae stood. She touched Callie's shoulder \u2014 briefly, the gesture of a woman who is afraid of losing someon"
+    ]
+   ]
+  },
+  "em_dashes": 55,
+  "em_dash_per_1k": 20.4,
+  "fragment_candidates": 27,
+  "fragment_samples": [
+   [
+    11,
+    2,
+    "She knocked."
+   ],
+   [
+    13,
+    3,
+    "The door opened."
+   ],
+   [
+    21,
+    2,
+    "Doris sat."
+   ],
+   [
+    21,
+    2,
+    "Palms down."
+   ],
+   [
+    25,
+    3,
+    "Callie told her."
+   ],
+   [
+    29,
+    2,
+    "Doris listened."
+   ],
+   [
+    37,
+    2,
+    "Doris stood."
+   ],
+   [
+    43,
+    1,
+    "Slowly."
+   ],
+   [
+    47,
+    2,
+    "Callie went."
+   ],
+   [
+    53,
+    1,
+    "*Ambition."
+   ],
+   [
+    53,
+    1,
+    "Betrayal."
+   ],
+   [
+    75,
+    2,
+    "He nodded."
+   ]
+  ]
+ }
+}

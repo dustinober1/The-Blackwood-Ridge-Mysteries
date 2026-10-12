@@ -13,7 +13,7 @@ status: living
 - **1843:** Reverend Thomas Hartwell discovers the fraud and is killed — staged riding accident through Ralston influence over the magistrate.
 - **1840s–present:** The fraud calcifies into accepted history. The Ralstons become the town's benefactors. Oral fragments survive in whispers.
 - **~1985:** Eleanor Thorne establishes The Foxed Page antiquarian bookshop.
-- **~1994:** Eleanor gives Callie the brass magnifying glass and teaches her to read margin notes.
+- **~1999:** Eleanor gives Callie the brass magnifying glass and teaches her to read margin notes. *(Callie born ~1990 — text arithmetic, Book 1; corrected 2026-10-12 from "~1994," see reverse/book-01/reconciliation.md.)*
 - **~2024:** Eleanor Thorne dies. Callie inherits the shop and the grief.
 
 ## Per-book events

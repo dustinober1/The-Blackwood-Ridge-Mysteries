@@ -99,3 +99,17 @@ Callie Thorne's reputation moves from quiet shopkeeper to the woman who pulled t
 - **Mae Hartwell:** Books 1–8; emotional/practical anchor; relationship moves from family-like ease through fracture to a workable new normal, not instant healing.
 - **Sheriff Dalton Cross:** Books 1–8; procedural guardrail → respectful bounded collaborator → institutional anchor. Never Callie's romantic or unrestricted co-detective partner.
 - **Eli Townsend:** Books 1–8; scapegoat → apprentice → reconstruction specialist → hidden curator of discovery paths → revealed manipulator → absent/present final voice.
+
+## Deferred promise map (canonical since 2026-10-12)
+
+Where Book 2's deliberately deferred setups (`reverse/book-02/promises.yaml`,
+P008–P012) are consumed. This section is the series' canonical inter-book
+promise map for the promise-tracker / fiction-promises skills.
+
+| Promise | Seed | Consumed |
+|---|---|---|
+| P008 — the archive rekeying ("pending completion of the security audit") | B2 ch4 | Book 3's records thread (the missing/removed-document seed in INTERNAL long-arc control); the archive book is Book 4, *The Archive Fire*. |
+| P009 — Wells's legal process ("the beginning of a process") | B2 ch7 | A later book establishes the outcome; the Gus precedent applies (tried and imprisoned — B2 ch5 already fills the trial). |
+| P010 — Harlan Beech's planted presence (the broom, the looking-up, the almost-coming-in) | B2 ch1, ch6 | Book 3 — Beech is the accused/central figure; arrested at Book 3's end (see Book 3 ending state above). Do not consume earlier. |
+| P011 — the Book 1 knock (never claimed on the page) | B1 ch8 | Permanently ambient, or available to a later book; no book is required to claim it. |
+| P012 — the vow ("not like this") | B2 ch8 | Series-level rule minted in Book 2; tested by every later case; never "paid" once and done. |

@@ -15,7 +15,7 @@ status: living
 - **1991, late autumn:** Nineteen-year-old Lila Mae Crowe dies after a Ridge Road hit-and-run. Sheriff Roland Tavis withholds investigative movement on information pointing toward Benedict Calder.
 - **1994:** Lauren Coalter dies at Blackwater Cove after Wells Ambler pushes her from the old dock. The town accepts a runaway story. Marguerite Dabney begins the botanical cipher that will eventually expose him.
 - **Approximately 1985:** Eleanor Thorne establishes The Foxed Page.
-- **Approximately 1994:** Eleanor gives nine-year-old Callie the brass magnifying glass.
+- **Approximately 1999:** Eleanor gives nine-year-old Callie the brass magnifying glass. *(Callie born ~1990 — text arithmetic, Book 1: tea since 19 + sixteen years; corrected 2026-10-12 from "~1994," see reverse/book-01/reconciliation.md.)*
 - **Approximately 2024:** Eleanor dies in The Foxed Page back room. Callie inherits the shop and unprocessed grief.
 
 ## Book chronology

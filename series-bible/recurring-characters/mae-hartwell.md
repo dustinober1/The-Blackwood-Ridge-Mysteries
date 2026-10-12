@@ -9,7 +9,7 @@ status: living
 
 ## Core profile
 
-Early seventies, silver-haired, sharp-eyed, warm without being soft. Musical Southern cadence, gardening/cooking metaphors used precisely, lavender and practical layers. Her hands are usually occupied; stillness signals stress.
+About sixty at Book 1 (text-derived: "nine years old" + "fifty years," Book 1 ch4 — exact arithmetic; ~62 by Book 5), silver-haired, sharp-eyed, warm without being soft. Musical Southern cadence, gardening/cooking metaphors used precisely, lavender and practical layers. Her hands are usually occupied; stillness signals stress. *(Age corrected 2026-10-12 from "early seventies" — the published text wins; see reverse/book-01/reconciliation.md.)*
 
 ## External drive
 
@@ -34,7 +34,7 @@ Mae carried partial knowledge of the founding scandal for decades and chose sile
 ## Current relationships
 
 - **Callie:** Surrogate-family bond changed by truth. Mae now knocks and asks permission. The Book 4 thaw is practical: towels, labels, bread outside evidence space, memory offered as context. No complete apology or erased harm.
-- **Cross:** Long familiarity; can reach him but must not become his moral switch.
+- **Cross:** Long familiarity — she has known him since he was a deputy (text-derived; the old "changed his diapers" framing is void, age-impossible). Can reach him but must not become his moral switch.
 - **Eli:** Treats him as someone who belongs at the worktable without making belonging ceremonial.
 - **Eleanor:** Promised to look after Callie. Book 5 tests whether looking after can mean setting a limit rather than taking control.
 

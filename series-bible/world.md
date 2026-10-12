@@ -92,13 +92,18 @@ No magic, no supernatural. This is a grounded contemporary cozy mystery. The
 
 - **Hartwell House:** Mae's home. A modest, warm Victorian on a side street,
   overflowing with books, plants, and the smell of baking. The kitchen is
-  where every important conversation with Mae happens. The Hartwell family
-  Bible — with its damning margin note — sits on a shelf in the parlor.
+  where every important conversation with Mae happens. Mae's grandmother's
+  own record of the family story — with its damning margin note — sits on a
+  shelf in the parlor. *(Attribution corrected 2026-10-12: this parlor volume
+  is the grandmother's record, not Wren's — see
+  reverse/book-01/reconciliation.md.)*
 
 ## The historical scandal (the engine)
 
 In the 1840s, **Silas Ralston**, the family patriarch, orchestrated a land
-fraud that stole hundreds of acres from several Blackwood Ridge families. The
+fraud that stole **~140 acres from five families** — Hartwell, Tucker, Fenn,
+Cole, and Marr (text-precise, Book 1; corrected 2026-10-12 from "hundreds of
+acres from several families"). The
 original town land grants were forged or invalidated through manipulated
 survey records, transferred to Ralston ownership. When **Reverend Thomas
 Hartwell** — Mae's ancestor and the town's minister at the time — discovered
@@ -114,8 +119,12 @@ of what was taken — though oral fragments survived. Mae's grandmother told her
 the story once, whispered, never repeated.
 
 The proof: the original surveyor, a man named **Jacob Wren**, left coded
-margin notes in the town's foundational land records and in a family Bible he
-annotated before fleeing town in fear. These notes — cryptic, abbreviated,
+margin notes in the town's foundational land records and in an **untitled
+clothbound volume of regional survey records** he annotated before fleeing
+town in fear — the keystone volume now in the Historical Society collections
+room (1962 Ralston lot). *(Corrected 2026-10-12: the keystone is not a Bible;
+the only family Bible in play is Mae's grandmother's own parlor record. Do
+not resurrect "Wren's Bible" in future books.)* These notes — cryptic, abbreviated,
 written in a mixture of Latin shorthand and personal cipher — describe the
 true survey lines, the forgery, and Silas Ralston's role in Reverend
 Hartwell's death. Pike spent years decoding them. Callie has the skill to

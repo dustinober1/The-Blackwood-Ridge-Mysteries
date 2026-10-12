@@ -198,8 +198,8 @@ findings:
     summary: "Style-sheet check: 15 compounds hyphenated inconsistently across chapters (almost right/almost-right; coming apart/coming-apart; end of/end-of; garden club/garden-club; holding in/holding-in; late spring/late-spring; might not/might-not; not carrying/not-carrying; not knitting/not-knitting; not knowing/not-knowing; not looking/not-looking; not quite/not-quite; pulled up/pulled-up; setting down/setting-down; the door/the-door)."
     units: ["ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch07", "ch08"]
     source_line: "book-scaffold scripts/style_sheet.py --check, 2026-10-11 sweep"
-    status: open
-    resolution_note: "Lead, not verdict: several are legitimate role-based alternation (open noun phrase vs hyphenated modifier, e.g. 'late spring rain' as modifier), and some flagged pairs sit in deliberate motif phrasings. Fix is a deliberate style-sheet decision per compound (fix prose or annotate the sheet), not 15 blind edits."
+    status: canon-decided
+    resolution_note: "APPROVED 2026-10-12 (decision sheet): resolved by rule, no prose edits. Hyphenate only compound modifiers before a noun; open noun phrase is default; nominalized 'the not-X' always hyphenated; 'almost right' open as predicate (hyphenated modifier uses are motif phrasings). Rulings tabled in style-sheet.md § Compound rulings; checker keeps listing the pairs and defers to that table."
 
   - id: "F022"
     kind: gate-failure
@@ -207,8 +207,8 @@ findings:
     summary: "Crutch-phrase scan: 381 book-wide repeated phrases. Top: 'of a man' 22x, 'of a woman' 21x, 'the back room' 19x, 'went to the' 14x, 'stood at the' 13x, 'was its own' 11x, 'for a moment' 11x, 'the bell rang' 11x, 'did not say' 11x, 'for thirty-two years' 10x."
     units: []
     source_line: "book-scaffold scripts/crutch_phrases.py, 2026-10-11 sweep"
-    status: open
-    resolution_note: "Split the list: 'of a man/of a woman', 'the back room', 'the bell rang', 'for thirty-two years', 'did not say' are the book's deliberate refrains — register them in voice_rules.motifs so the check stops reporting them. The connective-tissue ones ('went to the', 'stood at the', 'for a moment', 'was its own', 'she could see') are worth one line-edit pass if the author wants it."
+    status: canon-decided
+    resolution_note: "APPROVED 2026-10-12 (decision sheet): six deliberate refrains registered as plain-string motifs in book.config.yaml (of a man, of a woman, the back room, the bell rang, for thirty-two years, did not say). Connective-tissue repeats left as-is in the published text; rate budgets for future books carried in books/book-03/bible/style-addendum.md."
 
   - id: "F023"
     kind: other
@@ -216,8 +216,8 @@ findings:
     summary: "Lint bands vs voice: every chapter's lint Major hits are tense_drift on 'has/is/have/have' in narration (66 hits book-wide) — all verified as the book's documented free-indirect/gnomic constructions, not tense drift; em-dash rate runs 11.3–21.5/1000 words against a 4.0 default, consistent with the voice-bible's anaphoric signature across all 8 chapters."
     units: []
     source_line: "book-scaffold scripts/lint_prose.py, 2026-10-11 sweep; spot-verified against voice-bible.md"
-    status: open
-    resolution_note: "Per audit-book: a voice legitimately outside a default band gets its threshold loosened via canon-update, not 60+ prose edits. Proposes a canon-update (author confirmation required) to tune metrics for this book's voice; until then, gate reports record these hits as voice-band."
+    status: canon-decided
+    resolution_note: "APPROVED 2026-10-12 (decision sheet): lint_suppressions tuned in book.config.yaml — tense_drift 'all' (66 hits verified free-indirect/gnomic), em_dash_rate 'all' (11.4–20.4/1k anaphoric signature). Suppression is recorded, not silent: reports show the suppressed count."
 
   - id: "F024"
     kind: gate-failure
@@ -225,8 +225,8 @@ findings:
     summary: "Opener tic: ch08 starts 31% of sentences with 'she' (band 0.30)."
     units: ["ch08"]
     source_line: "book-scaffold scripts/prose_metrics.py, 2026-10-11 sweep"
-    status: open
-    resolution_note: ""
+    status: canon-decided
+    resolution_note: "APPROVED 2026-10-12 (decision sheet): accepted as voice-band for dialogue-light solo chapters (28.7% post-revision at 9% dialogue; AI-tell panel re-read passed the chapter). No band change — post-revision text passes the 0.30 band. Tripwire for future books lives in books/book-03/bible/style-addendum.md (>20% she-openers + <15% dialogue = run interiority checks)."
 
   - id: "F025"
     kind: voice-break
@@ -235,7 +235,7 @@ findings:
     units: ["ch02", "ch04", "ch05"]
     source_line: "book-scaffold scripts/lint_prose.py, 2026-10-11 sweep; manual triage of action-beat false positives"
     status: open
-    resolution_note: ""
+    resolution_note: "STAGED 2026-10-12, then re-verified against the current text: the ch02 hits (capitalized tags L53/L83, period-before-tag L75, 'nodded' L105) are all FALSE POSITIVES — quoted speech beginning 'She asked'/'They said', a complete quote ending before narration, and an action-beat 'Mae nodded.'; no fix. ch05 'Cross repeated' sanctioned in config (added to allowed_dialogue_tags) — semantically exact, no prose change. Remaining true errata: ch04 'said carefully' + F027's bed sentence, staged in books/book-02/audits/errata-pending.md for the audiobook batch."
 
   - id: "F026"
     kind: voice-break
@@ -243,8 +243,8 @@ findings:
     summary: "Lint POV-leak hits (4): 'Marguerite had wanted' (ch02), 'Mae knew it' / 'Doris loved' (ch06), 'Doris already knew' (ch08) — all read as Callie's marked inferences in free-indirect voice rather than omniscient access; strict-POV call is the author's."
     units: ["ch02", "ch06", "ch08"]
     source_line: "book-scaffold scripts/lint_prose.py, 2026-10-11 sweep"
-    status: open
-    resolution_note: "Either rephrase to observable-cue form or declare the free-indirect inference voice-band via canon-update (would pair with F023's tuning pass)."
+    status: canon-decided
+    resolution_note: "APPROVED 2026-10-12 (decision sheet): free-indirect marked inference declared voice-band (Callie's registered hand-reading skill). pov_leak suppressed in [ch02, ch06, ch08] only, so genuine head-hops elsewhere still report."
 
   - id: "F027"
     kind: other
@@ -253,7 +253,7 @@ findings:
     units: ["ch02"]
     source_line: "audit-book gate sweep run 1, ch02 minor #2"
     status: open
-    resolution_note: ""
+    resolution_note: "STAGED 2026-10-12 (decision sheet): held for the audiobook errata batch — books/book-02/audits/errata-pending.md carries the sentence and a minimal proposed fix ('the flower bed she was kneeling in'). No persona hit it across two full reads; low urgency."
 
   - id: "F028"
     kind: pacing
@@ -279,8 +279,8 @@ findings:
     summary: "promises.py: 5 promises deferred to later books (P008 rekeying, P009 Wells's legal outcome, P010 Beech, P011 the Book 1 knock, P012 the vow) — deferred setups need series-bible tracking; the series-bible proposals that would carry them still await author approval."
     units: []
     source_line: "book-scaffold scripts/promises.py, 2026-10-11 sweep"
-    status: open
-    resolution_note: "Blocked on the same author approval as the series-bible proposals; register the five deferrals there once approved."
+    status: canon-decided
+    resolution_note: "APPROVED & APPLIED 2026-10-12 (decision sheet): series-bible enrichment applied (Mae ~60; Callie born ~1990/glass ~1999; Wendell Pike + historical-figures reference; open doors in story-memory; world.md keystone/fraud corrections; Book 3 bible timeline de-staled). Deferred promises P008–P012 registered in series-outline.md § Deferred promise map (the series' canonical promise map)."
 
   - id: "F030"
     kind: other
@@ -288,5 +288,5 @@ findings:
     summary: "ch01 outline.md 'Canon Load-Bearing Facts' cites timeline rows H7–H12; canon/timeline.md defines H1–H10 only (retrofit doc nit)."
     units: ["ch01"]
     source_line: "audit-book gate sweep run 1, ch01 minor #1"
-    status: open
-    resolution_note: ""
+    status: fixed
+    resolution_note: "APPLIED 2026-10-12 (decision sheet): chapters/ch01/outline.md now cites H7–H10 — the rows that exist and that ch01 draws on. Doc-only."
